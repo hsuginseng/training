@@ -1,20 +1,26 @@
-# This is a sample .copado_exclude_autoresolve file
-# Lines starting with '#' are comments and are ignored by Copado
-# Use '**' to match any character across directory levels
-# Use '*' to match any character within a directory level
-# Use specific directory names and file patterns to match certain files
-# Copado Docs & Samples: https://docs.copado.com/articles/?readerUiPreview=1#!copado-ci-cd-publication/initialize-a-repository-from-the-cli-for-salesforce-source-format-pipeline/a/h3__1668367176
-# Exclude all Apex class files from auto-resolve
+# .copado_exclude_autoresolve — Hsu's Ginseng Copado repository
+# Files matching these patterns are NOT auto-merged by Copado when a promotion hits a conflict;
+# the conflict is surfaced for manual resolution instead. Everything else (objects, fields,
+# profiles, permission sets, labels, etc.) keeps Copado's XML auto-resolve.
+# Lines starting with '#' are comments. '**' matches across directory levels, '*' within one level.
+
+# Apex classes — code merges need a human
 **/classes/*.cls
-# Exclude all Apex trigger files from auto-resolve
+# Apex triggers
 **/triggers/*.trigger
-# Exclude all component files from auto-resolve
+# Visualforce components
 **/components/*.component
-# Exclude all Visualforce page files from auto-resolve
+# Visualforce pages
 **/pages/*.page
-# Exclude all Lightning component bundle directories from auto-resolve
+# Aura component bundles
 **/aura/**
-# Exclude all Lightning web component bundle directories from auto-resolve
+# Lightning web component bundles
 **/lwc/**
-# Exclude all Layouts
+
+# Flows — a line-level XML merge of two flow versions can produce a flow that saves but runs wrong
+# (dangling connectors, duplicated elements). Hsu's change volume is mostly declarative, so flows
+# are where two admins are most likely to collide.
+**/flows/*.flow-meta.xml
+
+# Layouts — left to auto-resolve (layout merges are generally safe). Uncomment to resolve by hand.
 # **/layouts/*.layout-meta.xml
