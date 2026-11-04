@@ -1,0 +1,945 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Reorder</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Reorder</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Reorder</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Order_Summary_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>true</enableFeeds>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>AVA_B2BLEX__Invoice_Message__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field record invoice message, VAT/BIN message</description>
+        <inlineHelpText>A VAT message field returned by AvaTax indicating the relevant tax law invoked</inlineHelpText>
+        <label>Invoice Message</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>AVA_B2BLEX__Transport__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>This specifies who is responsible for transport of the goods on the transaction</inlineHelpText>
+        <label>Transport</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AccountId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Account_Name_Formula__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (ISBLANK(Account.Name), Account.FirstName&amp;&quot; &quot;&amp;Account.LastName, Account.Name)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Account Name Formula</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ActiveProcessExceptionCount</fullName>
+    </fields>
+    <fields>
+        <fullName>B2B_OOBO_Approval_Needed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Triggers B2B Discount Approval Process</description>
+        <inlineHelpText>Triggers B2B Discount Approval Process</inlineHelpText>
+        <label>B2B OOBO Approval Needed</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Balance_Due__c</fullName>
+        <description>OLD FORMULA: 
+
+IF(Total_Amount_from_Order_Payment_Summary__c = 0, 
+(TotalAmount + TotalTaxAmount) - (Total_Amount_Authorized_from_OPS__c + Total_of_Payment_Entries__c),  
+(TotalAmount + TotalTaxAmount) - (Total_Amount_from_Order_Payment_Summary__c + Total_of_Payment_Entries__c))</description>
+        <formula>IF(Total_Amount_from_Order_Payment_Summary__c = 0, 
+(TotalAmount + TotalTaxAmount) - (Total_Amount_Authorized_from_OPS__c),  
+(TotalAmount + TotalTaxAmount) - (Total_Amount_from_Order_Payment_Summary__c) + (Total_Amount_Refunded_from_OPS__c))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Balance Due</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>BillToContactId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>BillingEmailAddress</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>BillingPhoneNumber</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>BusinessModel</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Cart_Discount_Percentage__c</fullName>
+        <description>Cart Discount Percentage entered by Sales Rep on OOBO; Applied to all Cart Items after Line Item Discount are applied.</description>
+        <inlineHelpText>Cart Discount Percentage entered by Sales Rep on OOBO; Applied to all Cart Items after Line Item Discount are applied.</inlineHelpText>
+        <label>Cart Discount (%)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Cart_Id__c</fullName>
+        <externalId>false</externalId>
+        <label>Cart Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Cart_Item_Max_Discount_Percentage__c</fullName>
+        <description>Maximum Cart Item Discount Percentage</description>
+        <inlineHelpText>Maximum Cart Item Discount Percentage</inlineHelpText>
+        <label>Cart Item Max Discount (%)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Cart_Total_Discount_Percentage__c</fullName>
+        <description>Total Discount Percentage of Cart</description>
+        <inlineHelpText>Total Discount Percentage of Cart</inlineHelpText>
+        <label>Cart Total Discount (%)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Cash_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Cash Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ChangeOrderId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>EffectiveDate</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Email_Alert_Sent__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Email Alert Sent</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ExternalCustomerIdReference</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>ExternalReferenceIdentifier</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Free_Shipping_Override__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Free Shipping Override</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Fresh_Ginseng_Product_Count__c</fullName>
+        <description>This field counts all order product summaries that have fresh products. This field is used for reporting.</description>
+        <label>Fresh Ginseng Product Count</label>
+        <summaryFilterItems>
+            <field>OrderItemSummary.Fresh_Ginseng_Product__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </summaryFilterItems>
+        <summaryForeignKey>OrderItemSummary.OrderSummaryId</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Fulfilled_Product_Count__c</fullName>
+        <description>This counts the number of fulfillment orders related to an order summary. This field is for reporting purposes.</description>
+        <label>Fulfilled Product Count</label>
+        <summaryFilterItems>
+            <field>OrderItemSummary.Status</field>
+            <operation>equals</operation>
+            <value>FULFILLED</value>
+        </summaryFilterItems>
+        <summaryFilterItems>
+            <field>OrderItemSummary.Type</field>
+            <operation>equals</operation>
+            <value>Order Product</value>
+        </summaryFilterItems>
+        <summaryForeignKey>OrderItemSummary.OrderSummaryId</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Gift_Message__c</fullName>
+        <description>The gift message for a gift order is stored in this field.</description>
+        <label>Gift Message</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Gift_Order__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This will display as checked if the order is a gift.</description>
+        <label>Gift Order</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>GrandTotalAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>InventoryTransferAttempts__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Inventory Transfer Attempts</label>
+        <summaryForeignKey>OrderSummaryRoutingSchedule.OrderSummaryId</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>IsSuspended</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Last_Viewed_Date__c</fullName>
+        <description>A custom last viewed data field that is used to determine which order summary to apply a merchant-submitted payment to.</description>
+        <label>Last Viewed Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Location__c</fullName>
+        <description>This formula will return the shipping origin location, which is used by the Netsuite integration to identify the correct warehouse.</description>
+        <externalId>false</externalId>
+        <formula>IF(CASESAFEID(SalesStoreId) =  CASESAFEID($Label.D2C_StoreID) , &apos;Corporate Office Headquarters : Wausau Warehouse&apos;,
+IF(LOWER(Sales_Representative__r.City) = &apos;richmond&apos;, &apos;Vancouver&apos;,
+IF(LOWER(Sales_Representative__r.City) = &apos;toronto&apos;, &apos;Toronto&apos;,
+IF(LOWER(Sales_Representative__r.City) = &apos;hayward&apos;, &apos;San Francisco Branch&apos;,
+IF(LOWER(Sales_Representative__r.City) = &apos;brooklyn&apos;, &apos;New York Branch&apos;,
+IF(LOWER(Sales_Representative__r.City) = &apos;el monte&apos;, &apos;Los Angeles Branch&apos;,
+IF(LOWER(Sales_Representative__r.City) = &apos;houston&apos;, &apos;Houston&apos;,
+IF(LOWER(Sales_Representative__r.City) = &apos;marathon&apos;, &apos;3G Green Gold Ginseng&apos;,
+IF(LOWER(Sales_Representative__r.City) = &apos;wausau&apos;, &apos;Corporate Office Headquarters : Wausau Warehouse&apos;,
+&apos;&apos;)))))))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Location</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Netsuite_Id__c</fullName>
+        <externalId>false</externalId>
+        <label>Netsuite Id</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>true</trackFeedHistory>
+        <type>Number</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>OperationInProgress</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>OrderLifeCycleType</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>OrderManagementBillingType</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>OrderNumber</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>OrderProductLineCount</fullName>
+    </fields>
+    <fields>
+        <fullName>Order_Number__c</fullName>
+        <externalId>false</externalId>
+        <formula>OriginalOrder.OrderNumber</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Order Number</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Order_Reference_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Order Reference Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OrderedDate</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>OriginalOrderId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>MasterDetail</type>
+    </fields>
+    <fields>
+        <fullName>OriginalOrderName</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Pay_Later__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Pay Later</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Payment_Error__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This flag will indicate an issue with the order payment summary related to the order summary. Currently, 3D Secure authentication issues use this field for OOBO.</description>
+        <label>Payment Error</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Payment_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Payment Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PoDate</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>PoNumber</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Pricebook2Id</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Prioritize__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Prioritize</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QuoteId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>RoutingAttempts</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>SalesChannelId</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SalesStoreId</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Sales_Representative_Id__c</fullName>
+        <externalId>false</externalId>
+        <label>Sales Representative Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sales_Representative__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <label>Sales Representative</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Order_Summaries_del</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SourceOrderSummaryId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SourceProcess</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Split_Payments__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Split Payments</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>TaxLocaleType</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>TotalAdjDeliveryAmtWithTax</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalAdjDistAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalAdjDistAmountWithTax</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalAdjDistTaxAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalAdjFeeAmtWithTax</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalAdjProductAmtWithTax</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalAdjustedDeliveryAmount</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>TotalAdjustedDeliveryTaxAmount</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>TotalAdjustedFeeAmount</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>TotalAdjustedFeeTaxAmount</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>TotalAdjustedProductAmount</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>TotalAdjustedProductTaxAmount</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>TotalAmount</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>TotalDeliveryAdjDistAmount</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>TotalDeliveryAdjDistAmtWithTax</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalDeliveryAdjDistTaxAmount</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>TotalDeliveryAmount</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>TotalDeliveryAmountWithTax</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalDeliveryTaxAmount</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>TotalFeeAdjDistAmount</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>TotalFeeAdjDistAmtWithTax</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalFeeAdjDistTaxAmount</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>TotalFeeAmount</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>TotalFeeAmountWithTax</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalFeeTaxAmount</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>TotalProductAdjDistAmount</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>TotalProductAdjDistAmtWithTax</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalProductAdjDistTaxAmount</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>TotalProductAmount</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>TotalProductAmountWithTax</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalProductTaxAmount</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>TotalTaxAmount</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Total_Amount_Authorized_from_OPS__c</fullName>
+        <description>This field will help drive the balance due field. If there are no captured payments for this order summary record, this will represent a paid order for B2B credit cards or any D2C order. This is used for the Salesforce to NetSuite integration.</description>
+        <label>Total Amount Authorized from OPS</label>
+        <summarizedField>OrderPaymentSummary.AuthorizationAmount</summarizedField>
+        <summaryForeignKey>OrderPaymentSummary.OrderSummaryId</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Total_Amount_Refunded_from_OPS__c</fullName>
+        <description>This drives the balance due field. This sums all the returned funds from order payment summaries related to one order summary.</description>
+        <label>Total Amount Refunded from OPS</label>
+        <summarizedField>OrderPaymentSummary.RefundedAmount</summarizedField>
+        <summaryForeignKey>OrderPaymentSummary.OrderSummaryId</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Total_Amount_from_Order_Payment_Summary__c</fullName>
+        <description>The total amount captured from the order payment summary.</description>
+        <label>Total Amount from Order Payment Summary</label>
+        <summarizedField>OrderPaymentSummary.CapturedAmount</summarizedField>
+        <summaryForeignKey>OrderPaymentSummary.OrderSummaryId</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Total_of_Payment_Entries__c</fullName>
+        <description>The total amount of money collected for payment via payment entries for this order summary.</description>
+        <label>Total of Payment Entries</label>
+        <summarizedField>Cash_Entry__c.Amount_Paid__c</summarizedField>
+        <summaryForeignKey>Cash_Entry__c.Order_Summary__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>avaoms__Avatax_Message__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Store Avatax Message</description>
+        <externalId>false</externalId>
+        <label>Avatax Message</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>avaoms__ChangeOrderToFeesChangeOrderRelation__c</fullName>
+        <deprecated>false</deprecated>
+        <label>ChangeOrderToFeesChangeOrderRelation</label>
+        <length>131072</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>avaoms__Cross_Border_Summary__c</fullName>
+        <deprecated>false</deprecated>
+        <inlineHelpText>Cross-border messages</inlineHelpText>
+        <label>Cross Border Summary</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>LongTextArea</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>avaoms__Invoice_Message__c</fullName>
+        <deprecated>false</deprecated>
+        <inlineHelpText>A VAT message field returned by AvaTax indicating the relevant tax law invoked.</inlineHelpText>
+        <label>Invoice Message</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>avaoms__LatestCancelChangeOrderId__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>LatestCancelChangeOrderId</label>
+        <length>18</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>avaoms__LatestReturnChangeOrderId__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>LatestReturnChangeOrderId</label>
+        <length>18</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>avaoms__QuantityChanged__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Quantity Changed</label>
+        <summarizedField>OrderItemSummary.Quantity</summarizedField>
+        <summaryForeignKey>OrderItemSummary.OrderSummaryId</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>avaoms__ShippingHandling_Tax__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Displays the Sales Tax calculated for Shipping and Handling.</description>
+        <inlineHelpText>Displays the Sales Tax calculated for Shipping and Handling.</inlineHelpText>
+        <label>Shipping and Handling Tax</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>avaoms__Tax_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Initially updated with a workflow</description>
+        <inlineHelpText>Enter Tax Calculation Date</inlineHelpText>
+        <label>Tax Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>avaoms__Transport__c</fullName>
+        <deprecated>false</deprecated>
+        <inlineHelpText>This specifies who is responsible for transport of the goods on the transaction.</inlineHelpText>
+        <label>Transport</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>avaoms__Transport</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>zklb2b__Create_Return_Label__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Create Return Label</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <listViews>
+        <fullName>D2C_All_Order_Summaries</fullName>
+        <columns>CreatedBy</columns>
+        <columns>Name</columns>
+        <columns>Account</columns>
+        <columns>Status</columns>
+        <columns>Owner</columns>
+        <columns>OrderedDate</columns>
+        <columns>GrandTotalAmount</columns>
+        <columns>TotalTaxAmount</columns>
+        <columns>TotalAdjustedDelive758</columns>
+        <columns>AVA_B2BLEX__Transport__c</columns>
+        <columns>avaoms__Transport__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>SalesStore</field>
+            <operation>equals</operation>
+            <value>D2C Primary Storefront</value>
+        </filters>
+        <label>D2C - All Order Summaries</label>
+    </listViews>
+    <listViews>
+        <fullName>Orders_Fullfilled</fullName>
+        <columns>Name</columns>
+        <columns>Account</columns>
+        <columns>GrandTotalAmount</columns>
+        <columns>OrderedDate</columns>
+        <columns>Status</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status</field>
+            <operation>equals</operation>
+            <value>Fulfilled</value>
+        </filters>
+        <label>Orders - Fullfilled</label>
+    </listViews>
+    <listViews>
+        <fullName>Orders_Out_for_Delivery</fullName>
+        <columns>Name</columns>
+        <columns>Account</columns>
+        <columns>GrandTotalAmount</columns>
+        <columns>OrderedDate</columns>
+        <columns>Status</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status</field>
+            <operation>equals</operation>
+            <value>Submitted</value>
+        </filters>
+        <label>Orders - Out for Delivery</label>
+    </listViews>
+    <listViews>
+        <fullName>Orders_Processed</fullName>
+        <columns>Name</columns>
+        <columns>Account</columns>
+        <columns>GrandTotalAmount</columns>
+        <columns>OrderedDate</columns>
+        <columns>Status</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status</field>
+            <operation>equals</operation>
+            <value>Processed</value>
+        </filters>
+        <label>Orders - Processed</label>
+    </listViews>
+    <listViews>
+        <fullName>Orders_Submitted</fullName>
+        <columns>Name</columns>
+        <columns>Account</columns>
+        <columns>GrandTotalAmount</columns>
+        <columns>OrderedDate</columns>
+        <columns>Status</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status</field>
+            <operation>equals</operation>
+            <value>Created,Hold,Approved</value>
+        </filters>
+        <label>Orders - Submitted</label>
+    </listViews>
+    <listViews>
+        <fullName>all_order_summaries</fullName>
+        <columns>CreatedBy</columns>
+        <columns>Name</columns>
+        <columns>Account</columns>
+        <columns>Status</columns>
+        <columns>SalesChannel</columns>
+        <columns>Owner</columns>
+        <columns>OrderedDate</columns>
+        <columns>GrandTotalAmount</columns>
+        <columns>TotalTaxAmount</columns>
+        <columns>TotalAdjustedDelive758</columns>
+        <columns>AVA_B2BLEX__Transport__c</columns>
+        <columns>avaoms__Transport__c</columns>
+        <columns>Description</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>GrandTotalAmount</field>
+            <operation>equals</operation>
+            <value>USD 28550</value>
+        </filters>
+        <label>All Order Summaries</label>
+    </listViews>
+    <searchLayouts>
+        <customTabListAdditionalFields>Account</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Status</customTabListAdditionalFields>
+        <customTabListAdditionalFields>OrderedDate</customTabListAdditionalFields>
+        <customTabListAdditionalFields>GrandTotalAmount</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Account</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Status</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>OrderedDate</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>GrandTotalAmount</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Account</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Status</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>OrderedDate</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>GrandTotalAmount</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>BillingPhoneNumber</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>Order_Reference_Number__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>PoNumber</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Account</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Status</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OrderedDate</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>GrandTotalAmount</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>Prevent_Status_Change_When_Payment_Error</fullName>
+        <active>true</active>
+        <description>If there is an issue with a payment, the order summary is flagged as such under the Payment Error boolean field. If this field is true/checked, the status changes will be prevented.</description>
+        <errorConditionFormula>AND(TEXT(PRIORVALUE(Status)) = &apos;Hold&apos;, ISCHANGED(Status), Payment_Error__c, TEXT($User.UserType) &lt;&gt; &apos;AutomatedProcess&apos;)</errorConditionFormula>
+        <errorMessage>An active payment error is recorded on this order summary. Please resolve this error to advance the order summary from a &quot;Hold&quot; status.</errorMessage>
+    </validationRules>
+</CustomObject>

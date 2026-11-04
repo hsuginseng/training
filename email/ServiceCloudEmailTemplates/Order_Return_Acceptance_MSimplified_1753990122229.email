@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initialscale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <style type="text/css">@media screen and (max-width: 480px) {slot[style] {margin-right: 0 !important;}.columnDiv {margin-right: 0 !important;}}@media screen and (min-width: 480px) {slot[style] {margin-bottom: 0 !important;}.columnDiv {margin-bottom: 0 !important;}}</style>
+  <style type="text/css">@media screen and (max-width: 480px) {.contentbuilderBaseColumnRow .columnCell {display:inline-block;width:100%}}</style>
+  <style type="text/css">.contentpageDefaultEmailTemplatePageTemplate .contentRoot {width: 600px;}@media only screen and (max-width: 480px) {.contentpageDefaultEmailTemplatePageTemplate .contentRoot {width: 320px;}}</style>
+ </head>
+ <body>
+  <table class="contentpageDefaultEmailTemplatePageTemplate" style="background-color: #E9EAEC;" role="presentation" id="contentpage_emailTemplateBodyContent" width="100%" cellpadding="0" cellspacing="0">
+   
+    <tr>
+     <td width="100%" align="center">
+      <table class="contentRoot" style="background-color: #FFFFFF;" role="presentation" width="600" cellpadding="0" cellspacing="0">
+       
+        <tr>
+         <td style="padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 10px;">
+          <table class="contentbuilderBaseColumnRow" style="align-items: flex-start; width: 100%; background-color:;" role="presentation" width="100%" cellpadding="0" cellspacing="0">
+           
+            <tr valign="top">
+             <td width="100%" class="columnCell" style="vertical-align: top;display: inline-block; float:left">
+              <table cellpadding="0" cellspacing="0" style="width: 100%; border-collapse: collapse; word-break:break-word;">
+               
+                <tr>
+                 <td>
+                  <table style="width:100%; border-collapse: collapse; word-break:break-word;" id="contentRegion" role="presentation" cellspacing="0" cellpadding="0" locked="0">
+                   
+                    <tr>
+                     <td align="Center"><img style="width: 100%; display: block; border: none; max-width: 100%; object-fit: fill;" src="" alt="" width="600" /></td>
+                    </tr>
+                   
+                  </table></td>
+                </tr>
+               
+              </table></td>
+            </tr>
+           
+          </table>
+          <table class="contentbuilderBaseColumnRow" style="align-items: flex-start; width: 100%; background-color:;" role="presentation" width="100%" cellpadding="0" cellspacing="0">
+           
+            <tr valign="top">
+             <td width="100%" class="columnCell" style="vertical-align: top;display: inline-block; float:left">
+              <table cellpadding="0" cellspacing="0" style="width: 100%; border-collapse: collapse; word-break:break-word;">
+               
+                <tr>
+                 <td>
+                  <table style="width: 100%; border-collapse: collapse; word-break: break-word; font-size: 14px" id="contentRegion" role="presentation" cellspacing="0" cellpadding="0" locked="0">
+                   
+                    <tr>
+                     <td style="font-family: Arial, Helvetica, sans-serif;"><p style="line-height:1.2; text-align:center"><span style="font-size:12pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Aptos"><span style="color:#000000"><span style="font-weight:700"><span style="font-style:normal"><span style="text-decoration:none">Case #: {{{Case.CaseNumber}}}</span></span></span></span></span></span></p><p style="line-height:1.2; text-align:center"><font color="#000000" face="Aptos"><span style="font-size: 16px; white-space-collapse: preserve;"><b>Subject: {{{Case.Subject}}}</b></span></font></p><p style="line-height:1.2; text-align:center"><span style="font-size:12pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Aptos"><span style="color:#000000"><span style="font-weight:700"><span style="font-style:normal"><span style="text-decoration:none">Issue Description: {{{Case.Issue_Description__c}}}</span></span></span></span></span></span></p><p style="line-height:1.2; text-align:center"><span style="font-size:12pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Aptos"><span style="color:#000000"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">-----------------------------------------------------</span></span></span></span></span></span></p><p style="line-height:1.2; text-align:center"><span style="font-size:12pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">您好 {{{Case.First_Name__c}}}，感谢您联系我们!</span></span></span></span></span></span></p><p style="line-height:1.2; text-align:center"><span style="font-size:12pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">我们已经接受您针对订单 #{{{Case.Order_Number__c}}} 中商品 [SKU#] 的退货申请，您可以依照下列说明完成退货程序：</span></span></span></span></span></span></p><p style="line-height:1.2; text-align:center">&nbsp;</p><p style="line-height:1.2; text-align:center">&nbsp;</p><p style="line-height:1.2; text-align:center"><strong>退货说明：</strong></p>
+                      <div style="list-style-type:disc">
+                       - <strong>退货编号：</strong><br /> 您的退货号 {{{Case.CaseNumber}}} <br /> - <strong>需附文件：</strong><br /> 请将收据副本放入包裹内，如无收据，请在干净纸上注明退货编号、订单编号及您的联系方式，以便处理退货相关事宜。 <br /><strong>- 商品：</strong><br /> 退货商品须保持未开封状态。若商品已开封或在运输途中受损，我们可能会拒绝退货申请或收取5-15%的回置费用，请务必妥善包装后寄回，以确保商品完整。 <br /><strong>- 退款时间：</strong><br /> 约2-3周。 <br /><strong>- 退货地址：</strong><br /><span style="font-size:12pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Aptos"><span style="color:#000000"><span style="font-weight:700"><span style="font-style:normal"><span style="text-decoration:none">  </span></span></span></span></span></span><span style="font-size:12pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Aptos"><span style="color:#000000"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">Hsu’s Ginseng Return Dept.</span></span></span></span></span></span><br /><span style="font-size:12pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Aptos"><span style="color:#000000"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">  237895 County Road W</span></span></span></span></span></span><br /><span style="font-size:12pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Aptos"><span style="color:#000000"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">  Wausau, WI 54403 USA</span></span></span></span></span></span>
+                      </div></td>
+                    </tr>
+                   
+                  </table></td>
+                </tr>
+               
+              </table></td>
+            </tr>
+           
+          </table>
+          <table class="contentbuilderBaseColumnRow" style="align-items: flex-start; width: 100%; background-color:;" role="presentation" width="100%" cellpadding="0" cellspacing="0">
+           
+            <tr valign="top">
+             <td width="100%" class="columnCell" style="vertical-align: top;display: inline-block; float:left">
+              <table cellpadding="0" cellspacing="0" style="width: 100%; border-collapse: collapse; word-break:break-word;">
+               
+                <tr>
+                 <td>
+                  <table style="width: 100%; border-collapse: collapse; word-break: break-word; font-size: 14px" id="contentRegion" role="presentation" cellspacing="0" cellpadding="0" locked="0">
+                   
+                    <tr>
+                     <td style="font-family: Arial, Helvetica, sans-serif;"><p style="line-height: 1.2; text-align: center;"><span style="font-size:12pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">如有任何问题或需要进一步协助，欢迎回复此邮件或致电 1-800-826-1577 与我们联系。</span></span></span></span></span></span></p><p style="line-height: 1.2; text-align: center;"><span style="font-size:12pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">感谢您的配合与支持！</span></span></span></span></span></span><br /> &nbsp;</p><p style="line-height:1.2; text-align:center"><span style="font-size:12pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">此致,<br /> {{{Case.Case_Owner_Name__c}}}</span></span></span><br /><span style="font-weight:700"><span style="font-style:normal"><span style="text-decoration:none">许氏客服部</span></span></span></span></span></span><br /><span style="font-size:12pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Aptos"><span style="color:#000000"><span style="font-weight:700"><span style="font-style:normal"><span style="text-decoration:none">Hsu's Ginseng Enterprises, Inc.</span></span></span></span></span></span></p></td>
+                    </tr>
+                   
+                  </table></td>
+                </tr>
+               
+              </table></td>
+            </tr>
+           
+          </table>
+          <table class="contentbuilderBaseColumnRow" style="align-items: flex-start; width: 100%; background-color:;" role="presentation" width="100%" cellpadding="0" cellspacing="0">
+           
+            <tr valign="top">
+             <td width="100%" class="columnCell" style="vertical-align: top;display: inline-block; float:left">
+              <table cellpadding="0" cellspacing="0" style="width: 100%; border-collapse: collapse; word-break:break-word;">
+               
+                <tr>
+                 <td>
+                  <table style="width: 100%; border-collapse: collapse; word-break: break-word; font-size: 14px" id="contentRegion" role="presentation" cellspacing="0" cellpadding="0" locked="0">
+                   
+                    <tr>
+                     <td style="font-family: Arial, Helvetica, sans-serif;">
+                      <div>
+                       <table style="border:none; border-collapse:collapse" width="623">
+                        <colgroup>
+                         <col width="623" />
+                        </colgroup>
+                        
+                         <tr>
+                          <td style="border-bottom:1px solid #000000; vertical-align:top; padding:0px 7px 0px 7px; border-top:1px solid #000000; border-right:1px solid #000000; border-left:1px solid #000000; width:623px"><p style="line-height:1.3900000000000001; text-align:center; margin-bottom:11px"><span style="overflow:hidden"><span style="overflow-wrap:break-word"><span style="font-size:12pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:'Quattrocento Sans',sans-serif"><span style="color:#000000"><span style="font-weight:700"><span style="font-style:normal"><span style="text-decoration:none">📌</span></span></span></span></span></span></span></span><span style="font-size:12pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">是订单相关问题吗？</span></span></span></span></span></span><br /><span style="font-size:12pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">如果您要查询现有订单，请记得提供订单号，我们能更快为您服务喔！</span></span></span></span></span></span></p><p style="line-height:1.3900000000000001; text-align:center; margin-bottom:11px">&nbsp;</p>
+                           <hr /><p style="line-height:1.3900000000000001; text-align:center; margin-bottom:11px"><span style="overflow:hidden"><span style="overflow-wrap:break-word"><span style="font-size:12pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:'Quattrocento Sans',sans-serif"><span style="color:#000000"><span style="font-weight:700"><span style="font-style:normal"><span style="text-decoration:none">📞</span></span></span></span></span></span></span></span><span style="font-size:12pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><span style="font-weight:700"><span style="font-style:normal"><span style="text-decoration:none">联系方式</span></span></span></span></span></span><span style="overflow:hidden"><span style="overflow-wrap:break-word"><span style="font-size:12pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Aptos"><span style="color:#000000"><span style="font-weight:700"><span style="font-style:normal"><span style="text-decoration:none">：</span></span></span></span></span></span></span></span></p><p style="line-height:1.2; text-align:center"><span style="font-size:12pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">电话： (715) 675-2325 / (1800) 826-1577</span></span></span></span></span></span></p><p style="line-height:1.2; text-align:center"><span style="font-size:12pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">Email：support@hsuginseng.com</span></span></span></span></span></span></p><p style="line-height:1.2; text-align:center"><span style="font-size:12pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">网站：</span></span></span></span></span></span><a href="http://www.hsuginseng.com/" style="text-decoration:none"><span style="font-size:12pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Arial,sans-serif"><span style="color:#1155cc"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:underline"><span style="-webkit-text-decoration-skip:none"><span style="text-decoration-skip-ink:none">www.hsuginseng.com</span></span></span></span></span></span></span></span></a></p><p style="line-height:1.3900000000000001; text-align:center; margin-bottom:11px">&nbsp;</p>
+                           <hr /><p style="line-height:1.3900000000000001; text-align:center; margin-bottom:11px"><span style="overflow:hidden"><span style="overflow-wrap:break-word"><span style="font-size:12pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:'Quattrocento Sans',sans-serif"><span style="color:#000000"><span style="font-weight:700"><span style="font-style:normal"><span style="text-decoration:none">🕒</span></span></span></span></span></span><span style="font-size:12pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Aptos"><span style="color:#000000"><span style="font-weight:700"><span style="font-style:normal"><span style="text-decoration:none"></span></span></span></span></span></span></span></span><span style="font-size:12pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><span style="font-weight:700"><span style="font-style:normal"><span style="text-decoration:none">客服时间：</span></span></span></span></span></span></p><p style="line-height:1.3900000000000001; text-align:center; margin-bottom:11px">&nbsp;</p><p style="line-height:1.2; text-align:center"><span style="font-size:12pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">周一至周五（国定假日除外）</span></span></span></span></span></span></p><p style="line-height:1.2; text-align:center"><span style="font-size:12pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">早上8:30至 下午 5:00 （美国时间）</span></span></span></span></span></span></p><p style="line-height:1.2; text-align:center">&nbsp;</p><p style="line-height:1.2; text-align:center">&nbsp;</p></td>
+                         </tr>
+                        
+                       </table>
+                      </div></td>
+                    </tr>
+                   
+                  </table></td>
+                </tr>
+               
+              </table></td>
+            </tr>
+           
+          </table></td>
+        </tr>
+       
+      </table></td>
+    </tr>
+   
+  </table>
+ </body>
+</html>

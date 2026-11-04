@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>EOS Type</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>EOS Type</value>
+    </caseValues>
+    <fields>
+        <label><!-- DoNotConvertSpecialCharacters --></label>
+        <name>dfsle__DoNotConvertSpecialCharacters__c</name>
+    </fields>
+    <fields>
+        <help><!-- A field to store the format of the folder name that maps a Salesforce object to a folder in
+		SpringCM. --></help>
+        <label><!-- Folder Name Format --></label>
+        <name>dfsle__FolderNameFormat__c</name>
+    </fields>
+    <fields>
+        <help><!-- A field to store the folder name generated during the object mapping process. --></help>
+        <label><!-- Folder Name --></label>
+        <name>dfsle__FolderName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Was Previously a Legacy FileIt Row --></label>
+        <name>dfsle__IsLegacyFileIt__c</name>
+    </fields>
+    <fields>
+        <help><!-- A field to store the path format of the folder name that maps a Salesforce object to a folder in
+		SpringCM. --></help>
+        <label><!-- Path Format --></label>
+        <name>dfsle__PathFormat__c</name>
+    </fields>
+    <fields>
+        <help><!-- A field to store the folder path in SpringCM, generated during the object mapping process within
+		Salesforce. --></help>
+        <label><!-- Path --></label>
+        <name>dfsle__Path__c</name>
+    </fields>
+    <fields>
+        <help><!-- A field to store the variable folder names. --></help>
+        <label><!-- Variables --></label>
+        <name>dfsle__Variables__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

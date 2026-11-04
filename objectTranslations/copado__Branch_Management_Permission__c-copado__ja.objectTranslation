@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>パイプライン権限</value>
+    </caseValues>
+    <fields>
+        <label>デプロイメントを許可</label>
+        <name>copado__Allow_Deployments__c</name>
+    </fields>
+    <fields>
+        <label>環境</label>
+        <name>copado__Environment__c</name>
+        <relationshipLabel>パイプライン権限</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ユーザー</label>
+        <name>copado__User__c</name>
+        <relationshipLabel>パイプライン権限</relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Branch Management Permission Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>パイプライン権限参照</nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>静的コード分析結果</value>
+    </caseValues>
+    <fields>
+        <label>ブロッカー</label>
+        <name>copado__Blocker__c</name>
+    </fields>
+    <fields>
+        <label>バグ</label>
+        <name>copado__Bugs__c</name>
+    </fields>
+    <fields>
+        <label>閉じる</label>
+        <name>copado__Closed__c</name>
+    </fields>
+    <fields>
+        <label>コードスメル（Code Smells）</label>
+        <name>copado__Code_Smells__c</name>
+    </fields>
+    <fields>
+        <label>確認済み</label>
+        <name>copado__Confirmed__c</name>
+    </fields>
+    <fields>
+        <label>危機的</label>
+        <name>copado__Critical__c</name>
+    </fields>
+    <fields>
+        <label>デプロイメントステップ</label>
+        <name>copado__Deployment_Step__c</name>
+        <relationshipLabel>静的コード分析結果</relationshipLabel>
+    </fields>
+    <fields>
+        <label>詳細</label>
+        <name>copado__Details__c</name>
+    </fields>
+    <fields>
+        <label>偽陽性</label>
+        <name>copado__False_Positive__c</name>
+    </fields>
+    <fields>
+        <label>修理済み</label>
+        <name>copado__Fixed__c</name>
+    </fields>
+    <fields>
+        <label>深刻な違反（大）</label>
+        <name>copado__Highest_Priority_Violation__c</name>
+    </fields>
+    <fields>
+        <label>情報</label>
+        <name>copado__Info__c</name>
+    </fields>
+    <fields>
+        <label>メジャー</label>
+        <name>copado__Major__c</name>
+    </fields>
+    <fields>
+        <label>マイナー</label>
+        <name>copado__Minor__c</name>
+    </fields>
+    <fields>
+        <label>違反の数</label>
+        <name>copado__Number_of_Violations__c</name>
+    </fields>
+    <fields>
+        <label>開く</label>
+        <name>copado__Open__c</name>
+    </fields>
+    <fields>
+        <label>クレデンシャル</label>
+        <name>copado__Org_Credential__c</name>
+        <relationshipLabel>静的コード分析結果</relationshipLabel>
+    </fields>
+    <fields>
+        <label>プロモーション</label>
+        <name>copado__Promotion__c</name>
+        <relationshipLabel>静的コード解析結果</relationshipLabel>
+    </fields>
+    <fields>
+        <label>削除</label>
+        <name>copado__Removed__c</name>
+    </fields>
+    <fields>
+        <label>再び開く</label>
+        <name>copado__Reopened__c</name>
+    </fields>
+    <fields>
+        <label>解決済</label>
+        <name>copado__Resolved__c</name>
+    </fields>
+    <fields>
+        <label>スコア</label>
+        <name>copado__Score_v11__c</name>
+    </fields>
+    <fields>
+        <label>未解決の</label>
+        <name>copado__Unresolved__c</name>
+    </fields>
+    <fields>
+        <label>ユーザーストーリー</label>
+        <name>copado__User_Story__c</name>
+        <relationshipLabel>静的コード分析結果</relationshipLabel>
+    </fields>
+    <fields>
+        <label>脆弱性</label>
+        <name>copado__Vulnerabilities__c</name>
+    </fields>
+    <fields>
+        <label>修正することはありません</label>
+        <name>copado__Wont_fix__c</name>
+    </fields>
+    <layouts>
+        <layout>CodeScan SCA Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Resolution --></label>
+            <section>Resolution</section>
+        </sections>
+        <sections>
+            <label><!-- Severity --></label>
+            <section>Severity</section>
+        </sections>
+        <sections>
+            <label><!-- Status --></label>
+            <section>Status</section>
+        </sections>
+        <sections>
+            <label><!-- Type --></label>
+            <section>Type</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Static Code Analysis Result Layout</layout>
+        <sections>
+            <label><!-- Analysis Details --></label>
+            <section>Analysis Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>V.17 - Static Code Analysis Result Layout</layout>
+        <sections>
+            <label><!-- Analysis Details --></label>
+            <section>Analysis Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>V.17 CodeScan SCA Layout</layout>
+        <sections>
+            <label><!-- CodeScan Details --></label>
+            <section>CodeScan Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>静的コード分析結果名</nameFieldLabel>
+    <recordTypes>
+        <description>Codescan統合のためのレコードタイプです。 Codescanのライセンスが必要です。</description>
+        <label><!-- CodeScan --></label>
+        <name>copado__CodeScan</name>
+    </recordTypes>
+    <recordTypes>
+        <description>無料のPMD統合のためのレコードタイプ</description>
+        <label><!-- PMD --></label>
+        <name>copado__PMD</name>
+    </recordTypes>
+</CustomObjectTranslation>

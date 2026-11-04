@@ -1,0 +1,29 @@
+<template lwc:render-mode='light'>
+	<div class="banner-carousel">
+		<div class="banner-carousel-swiper swiper">
+			<div class="banner-carousel-wrapper swiper-wrapper">
+				<template for:each={slides} for:item="slide">
+					<div key={slide.id} class="banner-carousel-slide swiper-slide">
+						<c-banner-carousel-slide
+							key={slide.id}
+							title={slide.title}
+							desc={slide.desc}
+							cta-text={slide.ctaText}
+							cta-url={slide.ctaUrl}
+							image-url={slide.imageUrl}
+							image-alt={slide.imageAlt}
+						></c-banner-carousel-slide>
+					</div>
+				</template>
+			</div>
+		</div>
+
+		<div class="banner-carousel-pagination swiper-pagination">
+			<template for:each={slides} for:item="slide" for:index="index">
+				<button class="banner-carousel-pagination-btn" key={slide.id}>
+					<span class="sr-only">View slide {index}</span>
+				</button>
+			</template>
+		</div>
+	</div>
+</template>

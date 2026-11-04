@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Return Line</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Return Lines</value>
+    </caseValues>
+    <fields>
+        <label><!-- Approval Required --></label>
+        <name>zkmulti__Approval_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approved Date --></label>
+        <name>zkmulti__Approved_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Currency Code --></label>
+        <name>zkmulti__Currency_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Line Item ID --></label>
+        <name>zkmulti__External_Line_Item_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Product ID --></label>
+        <name>zkmulti__External_Product_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Return Reason ID --></label>
+        <name>zkmulti__External_Return_Reason_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Return Sub-Reason ID --></label>
+        <name>zkmulti__External_Return_Sub_Reason_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Variant ID --></label>
+        <name>zkmulti__External_Variant_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Image URL (Deprecated) --></label>
+        <name>zkmulti__Image_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Name --></label>
+        <name>zkmulti__Manufacturer_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer SKU --></label>
+        <name>zkmulti__Manufacturer_SKU__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Category --></label>
+        <name>zkmulti__Product_Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Description --></label>
+        <name>zkmulti__Product_Description_Long__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Description (Deprecated) --></label>
+        <name>zkmulti__Product_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Image URL --></label>
+        <name>zkmulti__Product_Image_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Name --></label>
+        <name>zkmulti__Product_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Variant Name --></label>
+        <name>zkmulti__Product_Variant_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>zkmulti__Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Refund Deduction --></label>
+        <name>zkmulti__Refund_Deduction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rejected Date --></label>
+        <name>zkmulti__Rejected_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Return Reason --></label>
+        <name>zkmulti__Return_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Damaged</masterLabel>
+            <translation><!-- Damaged --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incorrect Product</masterLabel>
+            <translation><!-- Incorrect Product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wrong Size</masterLabel>
+            <translation><!-- Wrong Size --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Return Sub-Reason --></label>
+        <name>zkmulti__Return_Sub_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Damaged during shipment</masterLabel>
+            <translation><!-- Damaged during shipment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I ordered the wrong product</masterLabel>
+            <translation><!-- I ordered the wrong product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I was sent the wrong product</masterLabel>
+            <translation><!-- I was sent the wrong product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product was defective</masterLabel>
+            <translation><!-- Product was defective --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>This is not what I wanted</masterLabel>
+            <translation><!-- This is not what I wanted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Too Large</masterLabel>
+            <translation><!-- Too Large --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Too Small</masterLabel>
+            <translation><!-- Too Small --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Was not what I expected</masterLabel>
+            <translation><!-- Was not what I expected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Return --></label>
+        <name>zkmulti__Return__c</name>
+        <relationshipLabel><!-- Return Lines (Return) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>zkmulti__Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Awaiting Inspection</masterLabel>
+            <translation><!-- Awaiting Inspection --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Unit Price --></label>
+        <name>zkmulti__Unit_Price__c</name>
+    </fields>
+    <layouts>
+        <layout>Queued Customs Item Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- External Information --></label>
+            <section>External Information</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

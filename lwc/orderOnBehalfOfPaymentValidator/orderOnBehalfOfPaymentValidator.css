@@ -1,0 +1,272 @@
+:host {
+    display: block;
+}
+
+.oobo-validator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 26rem;
+    padding: 2.5rem 1.5rem;
+    box-sizing: border-box;
+}
+
+/* ---------- WAITING ---------- */
+.oobo-waiting {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.25rem;
+}
+
+.oobo-loader {
+    width: 8rem;
+    height: 8rem;
+    position: relative;
+    display: block;
+}
+
+.oobo-loader__ring {
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    background: conic-gradient(
+        from 0deg,
+        rgba(255, 255, 255, 0) 0deg,
+        rgba(255, 255, 255, 0) 6deg,
+        #e0e0e0 60deg,
+        #a0a0a0 160deg,
+        #4a4a4a 260deg,
+        #0a0a0a 354deg,
+        #0a0a0a 360deg
+    );
+    -webkit-mask:
+        radial-gradient(circle, transparent 0 calc(50% - 0.25rem), #000 calc(50% - 0.25rem));
+    mask:
+        radial-gradient(circle, transparent 0 calc(50% - 0.25rem), #000 calc(50% - 0.25rem));
+    animation: oobo-loader-rotate 1.4s linear infinite;
+    transform-origin: 50% 50%;
+}
+
+@keyframes oobo-loader-rotate {
+    to { transform: rotate(360deg); }
+}
+
+.oobo-waiting-text {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #181818;
+    margin: 0;
+    letter-spacing: 0.2px;
+}
+
+.oobo-dots {
+    display: inline-block;
+    width: 1.25em;
+    text-align: left;
+}
+
+.oobo-dots::after {
+    content: '.';
+    animation: oobo-dots 1.4s steps(1, end) infinite;
+}
+
+@keyframes oobo-dots {
+    0%, 33%   { content: '.'; }
+    34%, 66%  { content: '..'; }
+    67%, 100% { content: '...'; }
+}
+
+/* ---------- SHARED RESULT ---------- */
+.oobo-result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    animation: oobo-fade-in 0.35s ease-out both;
+}
+
+@keyframes oobo-fade-in {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ---------- SUCCESS ---------- */
+.oobo-success-burst {
+    position: relative;
+    width: 11rem;
+    height: 11rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.oobo-success-burst::before,
+.oobo-success-burst::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    border: 2px solid #2e844a;
+    opacity: 0;
+    animation: oobo-pulse 1.6s ease-out 0.9s infinite;
+}
+
+.oobo-success-burst::after {
+    animation-delay: 1.4s;
+}
+
+@keyframes oobo-pulse {
+    0%   { transform: scale(0.85); opacity: 0.55; }
+    100% { transform: scale(1.45); opacity: 0; }
+}
+
+.oobo-checkmark {
+    width: 11rem;
+    height: 11rem;
+    border-radius: 50%;
+    display: block;
+    stroke-width: 3;
+    stroke: #2e844a;
+    stroke-miterlimit: 10;
+    box-shadow: inset 0 0 0 0 #2e844a;
+    animation: oobo-fill 0.45s ease-in-out 0.45s forwards,
+               oobo-scale 0.35s ease-in-out 0.95s both;
+}
+
+.oobo-checkmark__circle {
+    stroke-dasharray: 166;
+    stroke-dashoffset: 166;
+    stroke-width: 3;
+    stroke-miterlimit: 10;
+    stroke: #2e844a;
+    fill: none;
+    animation: oobo-stroke 0.65s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+}
+
+.oobo-checkmark__check {
+    transform-origin: 50% 50%;
+    stroke: #ffffff;
+    stroke-width: 5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 48;
+    stroke-dashoffset: 48;
+    animation: oobo-stroke 0.32s cubic-bezier(0.65, 0, 0.45, 1) 0.9s forwards;
+}
+
+@keyframes oobo-stroke {
+    100% { stroke-dashoffset: 0; }
+}
+
+@keyframes oobo-scale {
+    0%, 100% { transform: none; }
+    50%      { transform: scale3d(1.1, 1.1, 1); }
+}
+
+@keyframes oobo-fill {
+    100% { box-shadow: inset 0 0 0 6rem #2e844a; }
+}
+
+.oobo-success-message {
+    color: #2e844a;
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin: 1.75rem 0 0.25rem 0;
+    letter-spacing: 0.25px;
+}
+
+.oobo-success-subtext {
+    color: #54698d;
+    font-size: 1rem;
+    margin: 0;
+}
+
+/* ---------- FAILURE ---------- */
+.oobo-failure {
+    padding: 1rem;
+}
+
+.oobo-xmark {
+    width: 11rem;
+    height: 11rem;
+    display: block;
+    animation: oobo-shake 0.8s cubic-bezier(0.36, 0.07, 0.19, 0.97) 0.55s 1 both;
+    transform-origin: 50% 50%;
+}
+
+.oobo-xmark__circle {
+    stroke: #ba0517;
+    stroke-width: 2.5;
+    fill: #ba0517;
+    fill-opacity: 0;
+    stroke-dasharray: 140;
+    stroke-dashoffset: 140;
+    transform-origin: 50% 50%;
+    transform: scale(0.85);
+    animation: oobo-xmark-circle 0.7s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+@keyframes oobo-xmark-circle {
+    0% {
+        stroke-dashoffset: 140;
+        fill-opacity: 0;
+        transform: scale(0.85);
+    }
+    60% {
+        stroke-dashoffset: 0;
+        fill-opacity: 0;
+        transform: scale(1);
+    }
+    100% {
+        stroke-dashoffset: 0;
+        fill-opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.oobo-xmark__line {
+    stroke: #ffffff;
+    stroke-width: 5.5;
+    stroke-linecap: round;
+    fill: none;
+    stroke-dasharray: 30;
+    stroke-dashoffset: 30;
+}
+
+.oobo-xmark__line--one {
+    animation: oobo-stroke 0.32s cubic-bezier(0.22, 1, 0.36, 1) 0.55s forwards;
+}
+
+.oobo-xmark__line--two {
+    animation: oobo-stroke 0.32s cubic-bezier(0.22, 1, 0.36, 1) 0.78s forwards;
+}
+
+@keyframes oobo-shake {
+    0%   { transform: translateX(0); }
+    15%  { transform: translateX(-9px); }
+    30%  { transform: translateX(7px); }
+    45%  { transform: translateX(-5px); }
+    60%  { transform: translateX(4px); }
+    75%  { transform: translateX(-2px); }
+    100% { transform: translateX(0); }
+}
+
+.oobo-failure-message {
+    color: #ba0517;
+    font-size: 3rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin: 1.75rem 0 0.5rem 0;
+}
+
+.oobo-failure-subtext {
+    color: #3e3e3c;
+    font-size: 1.25rem;
+    font-weight: 600;
+    max-width: 36rem;
+    margin: 0;
+    line-height: 1.4;
+}

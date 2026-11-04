@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Payment Complete",
+  "contentBody" : {
+    "activeViewId" : "Payment_Complete",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-payment-landing",
+    "urlPrefix" : "payment-landing"
+  },
+  "urlName" : "payment-complete"
+}

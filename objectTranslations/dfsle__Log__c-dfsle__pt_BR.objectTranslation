@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Registro do Docusign</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Registros do Docusign</value>
+    </caseValues>
+    <fields>
+        <label>Classe</label>
+        <name>dfsle__Class__c</name>
+    </fields>
+    <fields>
+        <label>ID da entidade da DocuSign</label>
+        <name>dfsle__EntityId__c</name>
+    </fields>
+    <fields>
+        <label>Mensagem</label>
+        <name>dfsle__Message__c</name>
+    </fields>
+    <fields>
+        <label>Método</label>
+        <name>dfsle__Method__c</name>
+    </fields>
+    <fields>
+        <label>Gravidade</label>
+        <name>dfsle__Severity__c</name>
+        <picklistValues>
+            <masterLabel>DEBUG</masterLabel>
+            <translation><!-- DEBUG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ERROR</masterLabel>
+            <translation><!-- ERROR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INFO</masterLabel>
+            <translation><!-- INFO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WARN</masterLabel>
+            <translation><!-- WARN --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>ID fonte do Salesforce</label>
+        <name>dfsle__SourceId__c</name>
+    </fields>
+    <fields>
+        <label>ID da transação</label>
+        <name>dfsle__TransactionId__c</name>
+    </fields>
+    <fields>
+        <label>Versão</label>
+        <name>dfsle__Version__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel><!-- Docusign Log --></nameFieldLabel>
+</CustomObjectTranslation>

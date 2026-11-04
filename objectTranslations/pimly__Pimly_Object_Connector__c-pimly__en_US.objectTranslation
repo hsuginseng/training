@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Pimly Object Connector</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Pimly Object Connectors</value>
+    </caseValues>
+    <fields>
+        <help><!-- The Name of the field on the sObject to be used by Pimly components when rendering product information --></help>
+        <label><!-- Product Field API Name --></label>
+        <name>pimly__Product_Field_API_Name__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlexiPage xmlns="http://soap.sforce.com/2006/04/metadata">
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>allowChanges</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>alternativeText</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>horizontalAlignment</name>
+                    <value>Center</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>imgPath</name>
+                    <value>{[contentVersionId:@@@sfdc=03SV5000000HgpF=sfdc@@@]}</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>marginBottom</name>
+                    <value>0</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>marginLeft</name>
+                    <value>0</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>marginRight</name>
+                    <value>0</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>marginTop</name>
+                    <value>0</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>objectFit</name>
+                    <value>fill</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>width</name>
+                    <value>100</value>
+                </componentInstanceProperties>
+                <componentName>contentbuilder:image</componentName>
+                <identifier>contentbuilder_image7</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-fdec0e89-3bf3-4793-8032-642b2be3083e</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>columnBody</name>
+                    <value>Facet-fdec0e89-3bf3-4793-8032-642b2be3083e</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>columnCount</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>columnIndex</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>columnSpacer</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>padding</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>verticalAlign</name>
+                    <value>top</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>width</name>
+                    <value>100%</value>
+                </componentInstanceProperties>
+                <componentName>contentbuilder:column</componentName>
+                <identifier>contentbuilder_column17</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-27323c0f-8af7-46ea-b037-6a18af34d4e2</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>allowChanges</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>linkedToDesignKit</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>marginBottom</name>
+                    <value>0</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>marginLeft</name>
+                    <value>0</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>marginRight</name>
+                    <value>0</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>marginTop</name>
+                    <value>0</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>richTextValue</name>
+                    <value>&lt;table style=&quot;border:none; border-collapse:collapse&quot; width=&quot;623&quot;&gt;
+	&lt;colgroup&gt;
+		&lt;col width=&quot;623&quot; /&gt;
+	&lt;/colgroup&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td style=&quot;border-bottom:1px solid #000000; vertical-align:top; padding:0px 7px 0px 7px; border-top:1px solid #000000; border-right:1px solid #000000; border-left:1px solid #000000; width:623px&quot;&gt;
+			&lt;p style=&quot;line-height:1.2; text-align:center&quot;&gt;&lt;span style=&quot;overflow:hidden&quot;&gt;&lt;span style=&quot;overflow-wrap:break-word&quot;&gt;&lt;span style=&quot;font-size:12pt; font-variant:normal; white-space:pre-wrap&quot;&gt;&lt;span style=&quot;font-family:Aptos&quot;&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;span style=&quot;font-weight:700&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt;Case # {{{Case.CaseNumber}}}&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+			&lt;p style=&quot;line-height:1.2; text-align:center&quot;&gt;&lt;span style=&quot;overflow:hidden&quot;&gt;&lt;span style=&quot;overflow-wrap:break-word&quot;&gt;&lt;span style=&quot;font-size:12pt; font-variant:normal; white-space:pre-wrap&quot;&gt;&lt;span style=&quot;font-family:Aptos&quot;&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;span style=&quot;font-weight:700&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt;Subject: {{{Case.Subject}}}&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+			&lt;p style=&quot;line-height:1.2; text-align:center&quot;&gt;&lt;font color=&quot;#000000&quot; face=&quot;Aptos&quot;&gt;&lt;span style=&quot;font-size: 16px; white-space-collapse: preserve;&quot;&gt;&lt;b&gt;Issue Description: {{{Case.Issue_Description__c}}}&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;
+
+			&lt;p style=&quot;line-height:1.2; text-align:center&quot;&gt;&lt;span style=&quot;overflow:hidden&quot;&gt;&lt;span style=&quot;overflow-wrap:break-word&quot;&gt;&lt;span style=&quot;font-size:12pt; font-variant:normal; white-space:pre-wrap&quot;&gt;&lt;span style=&quot;font-family:Aptos&quot;&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;span style=&quot;font-weight:400&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt;-----------------------------------------------------&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+			&lt;p style=&quot;line-height:1.2; text-align:center&quot;&gt;&lt;span style=&quot;font-size:12pt; font-variant:normal; white-space:pre-wrap&quot;&gt;&lt;span style=&quot;font-family:Arial,sans-serif&quot;&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;span style=&quot;font-weight:400&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt;您好 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;overflow:hidden&quot;&gt;&lt;span style=&quot;overflow-wrap:break-word&quot;&gt;&lt;span style=&quot;font-size:12pt; font-variant:normal; white-space:pre-wrap&quot;&gt;&lt;span style=&quot;font-family:Aptos&quot;&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;span style=&quot;font-weight:400&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt;{{{Case.First_Name__c}}},&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+			&lt;p style=&quot;line-height: 1.2; text-align: center;&quot;&gt;&lt;span style=&quot;font-size:12pt; font-variant:normal; white-space:pre-wrap&quot;&gt;&lt;span style=&quot;font-family:Arial,sans-serif&quot;&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;span style=&quot;font-weight:400&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt;您的订单 #{{{Case.Order_Number__c}}} 已经成功取消，&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+			&lt;p style=&quot;line-height: 1.2; text-align: center;&quot;&gt;&lt;span style=&quot;font-size:12pt; font-variant:normal; white-space:pre-wrap&quot;&gt;&lt;span style=&quot;font-family:Arial,sans-serif&quot;&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;span style=&quot;font-weight:400&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt;如果您有任何其他问题或需要协助重新下单，欢迎随时与我们联系。&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+			&lt;p style=&quot;line-height: 1.2; text-align: center;&quot;&gt;&lt;span style=&quot;font-size:12pt; font-variant:normal; white-space:pre-wrap&quot;&gt;&lt;span style=&quot;font-family:Arial,sans-serif&quot;&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;span style=&quot;font-weight:400&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt;期待再次为您服务！&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+			&lt;p style=&quot;line-height: 1.2; text-align: center;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+
+			&lt;p style=&quot;line-height:1.2; text-align:center&quot;&gt;&lt;br /&gt;
+			&lt;span style=&quot;font-size:12pt; font-variant:normal; white-space:pre-wrap&quot;&gt;&lt;span style=&quot;font-family:Arial,sans-serif&quot;&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;span style=&quot;font-weight:400&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt;此致&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;overflow:hidden&quot;&gt;&lt;span style=&quot;overflow-wrap:break-word&quot;&gt;&lt;span style=&quot;font-size:12pt; font-variant:normal; white-space:pre-wrap&quot;&gt;&lt;span style=&quot;font-family:Aptos&quot;&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;span style=&quot;font-weight:400&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+			&lt;span style=&quot;font-size:12pt; font-variant:normal; white-space:pre-wrap&quot;&gt;&lt;span style=&quot;font-family:Arial,sans-serif&quot;&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;span style=&quot;font-weight:700&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt;许氏客服部&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+			&lt;span style=&quot;overflow:hidden&quot;&gt;&lt;span style=&quot;overflow-wrap:break-word&quot;&gt;&lt;span style=&quot;font-size:12pt; font-variant:normal; white-space:pre-wrap&quot;&gt;&lt;span style=&quot;font-family:Aptos&quot;&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;span style=&quot;font-weight:700&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt;Hsu&amp;#39;s Ginseng Enterprises, Inc.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;</value>
+                </componentInstanceProperties>
+                <componentName>contentbuilder:richText</componentName>
+                <identifier>contentbuilder_richText15</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-ca70d992-ace6-4e89-bb28-46a583830089</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>columnBody</name>
+                    <value>Facet-ca70d992-ace6-4e89-bb28-46a583830089</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>columnCount</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>columnIndex</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>columnSpacer</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>padding</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>verticalAlign</name>
+                    <value>top</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>width</name>
+                    <value>100%</value>
+                </componentInstanceProperties>
+                <componentName>contentbuilder:column</componentName>
+                <identifier>contentbuilder_column18</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-d8b0885b-41df-41fe-8e00-5dbd36954919</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>allowChanges</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>linkedToDesignKit</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>marginBottom</name>
+                    <value>0</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>marginLeft</name>
+                    <value>0</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>marginRight</name>
+                    <value>0</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>marginTop</name>
+                    <value>0</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>richTextValue</name>
+                    <value>&lt;p style=&quot;line-height:1.3900000000000001; text-align:center; margin-bottom:11px&quot;&gt;&lt;span style=&quot;font-size:12pt; font-variant:normal; white-space:pre-wrap&quot;&gt;&lt;span style=&quot;font-family:Aptos&quot;&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;span style=&quot;font-weight:700&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;div&gt;
+&lt;table style=&quot;border:none; border-collapse:collapse&quot; width=&quot;623&quot;&gt;
+	&lt;colgroup&gt;
+		&lt;col width=&quot;623&quot; /&gt;
+	&lt;/colgroup&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td style=&quot;border-bottom:1px solid #000000; vertical-align:top; padding:0px 7px 0px 7px; border-top:1px solid #000000; border-right:1px solid #000000; border-left:1px solid #000000; width:623px&quot;&gt;
+			&lt;p style=&quot;line-height:1.3900000000000001; text-align:center; margin-bottom:11px&quot;&gt;&lt;span style=&quot;overflow:hidden&quot;&gt;&lt;span style=&quot;overflow-wrap:break-word&quot;&gt;&lt;span style=&quot;font-size:12pt; font-variant:normal; white-space:pre-wrap&quot;&gt;&lt;span style=&quot;font-family:&apos;Quattrocento Sans&apos;,sans-serif&quot;&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;span style=&quot;font-weight:700&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt;📌&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size:12pt; font-variant:normal; white-space:pre-wrap&quot;&gt;&lt;span style=&quot;font-family:Aptos&quot;&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;span style=&quot;font-weight:700&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size:12pt; font-variant:normal; white-space:pre-wrap&quot;&gt;&lt;span style=&quot;font-family:Arial,sans-serif&quot;&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;span style=&quot;font-weight:400&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt;是订单相关问题吗？&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+			&lt;span style=&quot;font-size:12pt; font-variant:normal; white-space:pre-wrap&quot;&gt;&lt;span style=&quot;font-family:Arial,sans-serif&quot;&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;span style=&quot;font-weight:400&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt;如果您要查询现有订单，请记得提供订单号，我们能更快为您服务喔！&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+			&lt;p style=&quot;line-height:1.3900000000000001; text-align:center; margin-bottom:11px&quot;&gt;&amp;nbsp;&lt;/p&gt;
+
+			&lt;hr /&gt;
+			&lt;p style=&quot;line-height:1.3900000000000001; text-align:center; margin-bottom:11px&quot;&gt;&lt;span style=&quot;overflow:hidden&quot;&gt;&lt;span style=&quot;overflow-wrap:break-word&quot;&gt;&lt;span style=&quot;font-size:12pt; font-variant:normal; white-space:pre-wrap&quot;&gt;&lt;span style=&quot;font-family:&apos;Quattrocento Sans&apos;,sans-serif&quot;&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;span style=&quot;font-weight:700&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt;📞&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size:12pt; font-variant:normal; white-space:pre-wrap&quot;&gt;&lt;span style=&quot;font-family:Aptos&quot;&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;span style=&quot;font-weight:700&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size:12pt; font-variant:normal; white-space:pre-wrap&quot;&gt;&lt;span style=&quot;font-family:Arial,sans-serif&quot;&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;span style=&quot;font-weight:700&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt;联系方式:&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+			&lt;p style=&quot;line-height:1.2; text-align:center&quot;&gt;&lt;span style=&quot;font-size:12pt; font-variant:normal; white-space:pre-wrap&quot;&gt;&lt;span style=&quot;font-family:Arial,sans-serif&quot;&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;span style=&quot;font-weight:400&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt;电话： (715) 675-2325 / (1800) 826-1577&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+			&lt;p style=&quot;line-height:1.2; text-align:center&quot;&gt;&lt;span style=&quot;font-size:12pt; font-variant:normal; white-space:pre-wrap&quot;&gt;&lt;span style=&quot;font-family:Arial,sans-serif&quot;&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;span style=&quot;font-weight:400&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt;Email：support@hsuginseng.com&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+			&lt;p style=&quot;line-height:1.2; text-align:center&quot;&gt;&lt;span style=&quot;font-size:12pt; font-variant:normal; white-space:pre-wrap&quot;&gt;&lt;span style=&quot;font-family:Arial,sans-serif&quot;&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;span style=&quot;font-weight:400&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt;网站：&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;a href=&quot;http://www.hsuginseng.com/&quot; style=&quot;text-decoration:none&quot;&gt;&lt;span style=&quot;font-size:12pt; font-variant:normal; white-space:pre-wrap&quot;&gt;&lt;span style=&quot;font-family:Arial,sans-serif&quot;&gt;&lt;span style=&quot;color:#1155cc&quot;&gt;&lt;span style=&quot;font-weight:400&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:underline&quot;&gt;&lt;span style=&quot;-webkit-text-decoration-skip:none&quot;&gt;&lt;span style=&quot;text-decoration-skip-ink:none&quot;&gt;www.hsuginseng.com&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+
+			&lt;p style=&quot;line-height:1.3900000000000001; text-align:center; margin-bottom:11px&quot;&gt;&amp;nbsp;&lt;/p&gt;
+
+			&lt;hr /&gt;
+			&lt;p style=&quot;line-height:1.3900000000000001; text-align:center; margin-bottom:11px&quot;&gt;&lt;span style=&quot;overflow:hidden&quot;&gt;&lt;span style=&quot;overflow-wrap:break-word&quot;&gt;&lt;span style=&quot;font-size:12pt; font-variant:normal; white-space:pre-wrap&quot;&gt;&lt;span style=&quot;font-family:&apos;Quattrocento Sans&apos;,sans-serif&quot;&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;span style=&quot;font-weight:700&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt;🕒&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size:12pt; font-variant:normal; white-space:pre-wrap&quot;&gt;&lt;span style=&quot;font-family:Arial,sans-serif&quot;&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;span style=&quot;font-weight:700&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt;客服时间：&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+			&lt;p style=&quot;line-height:1.2; text-align:center&quot;&gt;&lt;span style=&quot;font-size:12pt; font-variant:normal; white-space:pre-wrap&quot;&gt;&lt;span style=&quot;font-family:Arial,sans-serif&quot;&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;span style=&quot;font-weight:400&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt;周一至周五（国定假日除外）&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+			&lt;p style=&quot;line-height:1.2; text-align:center&quot;&gt;&lt;span style=&quot;font-size:12pt; font-variant:normal; white-space:pre-wrap&quot;&gt;&lt;span style=&quot;font-family:Arial,sans-serif&quot;&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;span style=&quot;font-weight:400&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt;早上8:30至 下午 5:00 （美国时间）&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+			&lt;p style=&quot;line-height:1.2; text-align:center&quot;&gt;&amp;nbsp;&lt;/p&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;</value>
+                </componentInstanceProperties>
+                <componentName>contentbuilder:richText</componentName>
+                <identifier>contentbuilder_richText16</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-a54ea589-8d81-4089-9b04-0e7f80dbbc11</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>columnBody</name>
+                    <value>Facet-a54ea589-8d81-4089-9b04-0e7f80dbbc11</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>columnCount</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>columnIndex</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>columnSpacer</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>padding</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>verticalAlign</name>
+                    <value>top</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>width</name>
+                    <value>100%</value>
+                </componentInstanceProperties>
+                <componentName>contentbuilder:column</componentName>
+                <identifier>contentbuilder_column19</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-dedb748b-78e4-45ae-976e-871528fd1bd7</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>backgroundColor</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>backgroundImageUrl</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>columns</name>
+                    <value>Facet-27323c0f-8af7-46ea-b037-6a18af34d4e2</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>verticalAlignment</name>
+                    <value>top</value>
+                </componentInstanceProperties>
+                <componentName>contentbuilder:row</componentName>
+                <identifier>contentbuilder_row17</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>backgroundColor</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>backgroundImageUrl</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>columns</name>
+                    <value>Facet-d8b0885b-41df-41fe-8e00-5dbd36954919</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>verticalAlignment</name>
+                    <value>top</value>
+                </componentInstanceProperties>
+                <componentName>contentbuilder:row</componentName>
+                <identifier>contentbuilder_row18</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>backgroundColor</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>backgroundImageUrl</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>columns</name>
+                    <value>Facet-dedb748b-78e4-45ae-976e-871528fd1bd7</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>verticalAlignment</name>
+                    <value>top</value>
+                </componentInstanceProperties>
+                <componentName>contentbuilder:row</componentName>
+                <identifier>contentbuilder_row19</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>main</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <masterLabel>Order_Cancellation_Rejection_MSimplified</masterLabel>
+    <template>
+        <name>contentpage:defaultEmailTemplatePageTemplate</name>
+        <properties>
+            <name>backgroundColor</name>
+            <value>#E9EAEC</value>
+        </properties>
+        <properties>
+            <name>backgroundImageUrl</name>
+        </properties>
+        <properties>
+            <name>bodyColor</name>
+            <value>#FFFFFF</value>
+        </properties>
+        <properties>
+            <name>paddingBottom</name>
+            <value>10</value>
+        </properties>
+        <properties>
+            <name>paddingLeft</name>
+            <value>10</value>
+        </properties>
+        <properties>
+            <name>paddingRight</name>
+            <value>10</value>
+        </properties>
+        <properties>
+            <name>paddingTop</name>
+            <value>10</value>
+        </properties>
+        <properties>
+            <name>preheader</name>
+        </properties>
+    </template>
+    <type>EmailTemplatePage</type>
+</FlexiPage>

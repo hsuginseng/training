@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>SmartPost Details</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>SmartPost Details</value>
+    </caseValues>
+    <fields>
+        <label><!-- Ancillary Endorsement --></label>
+        <name>zkmulti__AncillaryEndorsement__c</name>
+    </fields>
+    <fields>
+        <label><!-- Indicia --></label>
+        <name>zkmulti__Indicia__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mod Key --></label>
+        <name>zkmulti__Mod_Key__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipment --></label>
+        <name>zkmulti__Shipment__c</name>
+        <relationshipLabel><!-- SmartPost Details --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

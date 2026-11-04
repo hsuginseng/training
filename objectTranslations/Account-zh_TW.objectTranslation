@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- AvaTax Company Ids --></label>
+        <name>AVA_B2BLEX__AvaTaxCompanyIds__c</name>
+    </fields>
+    <fields>
+        <help><!-- Use this field to pass unique value to Avatax for exemption. E.g- Account ID or update it as per the need using automation. --></help>
+        <label><!-- B2B &amp; D2C Commerce Avalara Customer Code --></label>
+        <name>AVA_B2BLEX__AvaTaxExemptionCustomerId__c</name>
+    </fields>
+    <fields>
+        <help><!-- The return message from Avatax after sending parameters. --></help>
+        <label><!-- B2B &amp; D2C Commerce AvaTax Message --></label>
+        <name>AVA_B2BLEX__AvaTaxMessage__c</name>
+    </fields>
+    <fields>
+        <help><!-- It is used to send the certificate invite and used in all communication. Recommended to have the value. --></help>
+        <label><!-- B2B &amp; D2C Commerce Email --></label>
+        <name>AVA_B2BLEX__Email__c</name>
+    </fields>
+    <fields>
+        <help><!-- Entity use codes indicate the reason for exemption. --></help>
+        <label><!-- Entity/Use Code --></label>
+        <name>AVA_B2BLEX__EntityUseCode__c</name>
+    </fields>
+    <fields>
+        <help><!-- This specifies who is responsible for transport of the goods on the transaction --></help>
+        <label><!-- Transport --></label>
+        <name>AVA_B2BLEX__Transport__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please enter your Business Identification / VAT Number. This will be used for reverse charge VAT calculations. --></help>
+        <label><!-- Business Identification Number --></label>
+        <name>AVA_MAPPER__Business_Identification_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- Entity use codes indicate the reason for exemption. --></help>
+        <label><!-- Entity/Use code --></label>
+        <name>AVA_MAPPER__Entity_Use_code__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- If you enter any data into this field their sales transactions will be exempt from sales tax. --></help>
+        <label><!-- Exemption Number --></label>
+        <name>AVA_MAPPER__Exemption_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- If checked, Seller is responsible for any import taxes and fees. --></help>
+        <label><!-- Is Seller Importer Of Record --></label>
+        <name>AVA_MAPPER__Is_Seller_Importer_Of_Record__c</name>
+    </fields>
+    <fields>
+        <label><!-- Birthday --></label>
+        <name>Birthday__c</name>
+    </fields>
+    <fields>
+        <label>分公司</label>
+        <name>Branch__c</name>
+        <picklistValues>
+            <masterLabel>California</masterLabel>
+            <translation><!-- California --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canada</masterLabel>
+            <translation><!-- Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wisconsin</masterLabel>
+            <translation><!-- Wisconsin --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Enroll in Loyalty Program --></label>
+        <name>Enroll_in_Loyalty_Program__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Test Whitelist --></label>
+        <name>New_Test_Whitelist__c</name>
+    </fields>
+    <fields>
+        <label><!-- Preferred Language --></label>
+        <name>Preferred_Language__c</name>
+        <picklistValues>
+            <masterLabel>Chinese (Simplified)</masterLabel>
+            <translation><!-- Chinese (Simplified) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chinese (Traditional)</masterLabel>
+            <translation><!-- Chinese (Traditional) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>English</masterLabel>
+            <translation><!-- English --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Redeemed Referral Points --></label>
+        <name>Redeemed_Referral_Points__c</name>
+    </fields>
+    <fields>
+        <label><!-- Referred By Code (Loyalty Member) --></label>
+        <name>Referred_By_Code_Loyalty_Member__c</name>
+    </fields>
+    <fields>
+        <label>免稅</label>
+        <name>Tax_Exempt__c</name>
+    </fields>
+    <fields>
+        <label><!-- VIP Customer --></label>
+        <name>VIP_Customer__c</name>
+    </fields>
+    <fields>
+        <help><!-- Displays the AvaTax Exemption customer status. --></help>
+        <label><!-- OMS-AvaTax Customer Status --></label>
+        <name>avaoms__AvaTax_Customer_Status__c</name>
+    </fields>
+    <fields>
+        <help><!-- A unique code associated with the customer created in Avalara. As a best practice, do not edit the Avalara customer ID once it has been saved to Avalara a first time as this will create a new customer with the new code value. --></help>
+        <label><!-- OMS-Avalara Customer Code --></label>
+        <name>avaoms__AvaTax_Exemption_Customer_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Displays the AvaTax responses or messages. --></help>
+        <label><!-- OMS-AvaTax Message --></label>
+        <name>avaoms__AvaTax_Message__c</name>
+    </fields>
+    <fields>
+        <help><!-- The respective Avalara AvaTax company in which this customer was created in. --></help>
+        <label><!-- OMS-ECM Company Code --></label>
+        <name>avaoms__ECM_Company_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- ECM Company Id --></label>
+        <name>avaoms__ECM_Company_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- Primary email for the customer. --></help>
+        <label><!-- OMS-Email --></label>
+        <name>avaoms__Email__c</name>
+    </fields>
+    <fields>
+        <help><!-- This specifies who is responsible for transport of the goods on the transaction. --></help>
+        <label><!-- Transport --></label>
+        <name>avaoms__Transport__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Balance (IO) --></label>
+        <name>celigo_sfnsio__Account_Balance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Channel Tier (IO) --></label>
+        <name>celigo_sfnsio__Channel_Tier__c</name>
+        <picklistValues>
+            <masterLabel>Distributor</masterLabel>
+            <translation><!-- Distributor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>End User</masterLabel>
+            <translation><!-- End User --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reseller</masterLabel>
+            <translation><!-- Reseller --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Credit Hold (IO) --></label>
+        <name>celigo_sfnsio__Credit_Hold__c</name>
+        <picklistValues>
+            <masterLabel>Auto</masterLabel>
+            <translation><!-- Auto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Off</masterLabel>
+            <translation><!-- Off --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On</masterLabel>
+            <translation><!-- On --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Credit Limit (IO) --></label>
+        <name>celigo_sfnsio__Credit_Limit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days Overdue (IO) --></label>
+        <name>celigo_sfnsio__Days_Overdue__c</name>
+    </fields>
+    <fields>
+        <label><!-- NetSuite Id (IO) --></label>
+        <name>celigo_sfnsio__NetSuite_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- NetSuite Record (IO) --></label>
+        <name>celigo_sfnsio__NetSuite_Record__c</name>
+    </fields>
+    <fields>
+        <label><!-- NetSuite Sync Error (IO) --></label>
+        <name>celigo_sfnsio__NetSuite_Sync_Error__c</name>
+    </fields>
+    <fields>
+        <label><!-- Overdue Balance (IO) --></label>
+        <name>celigo_sfnsio__Overdue_Balance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Skip Export To NetSuite (IO) --></label>
+        <name>celigo_sfnsio__Skip_Export_To_NetSuite__c</name>
+    </fields>
+    <fields>
+        <help><!-- Prerequisite: Enable &quot;Test mode&quot; from your IO General settings page. Enable the checkbox to sync records and test your IO version. If you leave the &quot;Send as test record to IO&quot; box unchecked, we will sync records via the v2 version. --></help>
+        <label><!-- Send as test record to IO --></label>
+        <name>celigo_sfnsio__Test_Mode_Record__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unbilled Orders (IO) --></label>
+        <name>celigo_sfnsio__Unbilled_Orders__c</name>
+    </fields>
+    <layouts>
+        <layout>Account Layout</layout>
+        <sections>
+            <label><!-- Account Summary --></label>
+            <section>Account Summary</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Celigo Account Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Financials --></label>
+            <section>Financials</section>
+        </sections>
+        <sections>
+            <label><!-- NetSuite --></label>
+            <section>NetSuite</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Avalara 客戶豁免管理</label>
+        <name>AVA_B2BLEX__AvaTax_Compliance_Exchange</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Entity / Use Code --></label>
+        <name>AVA_B2BLEX__Entity_Use_Code</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Child Account --></label>
+        <name>Child_Account</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Enter Offline Payment --></label>
+        <name>EnterOfflinePayment</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>訂購</label>
+        <name>Order</name>
+    </quickActions>
+    <recordTypes>
+        <label>企業帳戶</label>
+        <name>Business_Account</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Please do not edit this field value --></errorMessage>
+        <name>AVA_B2BLEX__Validate_AvaTax_Exemption_Customer_ID</name>
+    </validationRules>
+    <webLinks>
+        <label>Google地圖</label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label>Google搜尋</label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Save_to_Avalara --></label>
+        <name>avaoms__Save_to_Avalara</name>
+    </webLinks>
+</CustomObjectTranslation>

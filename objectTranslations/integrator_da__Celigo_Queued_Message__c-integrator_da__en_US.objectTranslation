@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Celigo Queued Message</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Celigo Queued Messages</value>
+    </caseValues>
+    <fields>
+        <label><!-- Attempt Count --></label>
+        <name>integrator_da__Attempt_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dead Letter --></label>
+        <name>integrator_da__Dead_Letter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Next Run Date Time --></label>
+        <name>integrator_da__Next_Run_Date_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payload --></label>
+        <name>integrator_da__Payload__c</name>
+    </fields>
+    <fields>
+        <label><!-- Real Time Sync --></label>
+        <name>integrator_da__Real_Time_Sync__c</name>
+        <relationshipLabel><!-- Celigo Queued Messages --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Record Id --></label>
+        <name>integrator_da__Record_Id__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

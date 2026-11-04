@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCalcInsightTemplate xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <builderExpression xsi:nil="true"/>
+    <creationType>Custom</creationType>
+    <dataspaceName>default</dataspaceName>
+    <dataspacePrefix xsi:nil="true"/>
+    <definitionType>CALCULATED_METRIC</definitionType>
+    <description>Calculate the return rate of a product</description>
+    <developerName>return_rate_by_product</developerName>
+    <expression>SELECT ssot__SalesOrderProduct__dlm.ssot__ProductId__c as sfcomm__product__c, SUM(ssot__SalesOrderProduct__dlm.ssot__ProductReturnQuantity__c)/SUM(ssot__SalesOrderProduct__dlm.ssot__AvailableQuantity__c) as sfcomm__return_rate__c From ssot__SalesOrderProduct__dlm where ssot__SalesOrderProduct__dlm.ssot__SalesOrderProductSubType__c = &apos;Product&apos; GROUP BY ssot__SalesOrderProduct__dlm.ssot__ProductId__c</expression>
+    <masterLabel>return_rate_by_product</masterLabel>
+    <scheduleInterval>SYSTEM_MANAGED</scheduleInterval>
+    <templateVersion>1</templateVersion>
+</DataCalcInsightTemplate>

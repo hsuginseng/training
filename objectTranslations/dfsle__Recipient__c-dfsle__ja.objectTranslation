@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Docusignエンベロープ受信者</value>
+    </caseValues>
+    <fields>
+        <help><!-- Access Code --></help>
+        <label>アクセスコード</label>
+        <name>dfsle__AccessCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deliver By Sms --></label>
+        <name>dfsle__DeliverBySms__c</name>
+    </fields>
+    <fields>
+        <label>メールメッセージ</label>
+        <name>dfsle__EmailMessage__c</name>
+    </fields>
+    <fields>
+        <label>メールの件名</label>
+        <name>dfsle__EmailSubject__c</name>
+    </fields>
+    <fields>
+        <label>メール</label>
+        <name>dfsle__Email__c</name>
+    </fields>
+    <fields>
+        <label>エンベロープ受信者ID</label>
+        <name>dfsle__EnvelopeRecipientId__c</name>
+    </fields>
+    <fields>
+        <help><!-- DocuSign Envelope --></help>
+        <label>DocuSignエンベロープ</label>
+        <name>dfsle__Envelope__c</name>
+        <relationshipLabel>DocuSignエンベロープ受信者</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ホストのメールアドレス</label>
+        <name>dfsle__HostEmail__c</name>
+    </fields>
+    <fields>
+        <label>ホストの名前</label>
+        <name>dfsle__HostName__c</name>
+    </fields>
+    <fields>
+        <label>ID確認が必要です</label>
+        <name>dfsle__IdCheckRequired__c</name>
+    </fields>
+    <fields>
+        <label>言語</label>
+        <name>dfsle__Language__c</name>
+    </fields>
+    <fields>
+        <label>受信者メモ</label>
+        <name>dfsle__Note__c</name>
+    </fields>
+    <fields>
+        <label>オプション</label>
+        <name>dfsle__Options__c</name>
+    </fields>
+    <fields>
+        <label>読み取り専用</label>
+        <name>dfsle__ReadOnly__c</name>
+    </fields>
+    <fields>
+        <label>必須</label>
+        <name>dfsle__Required__c</name>
+    </fields>
+    <fields>
+        <label>役割の値</label>
+        <name>dfsle__RoleValue__c</name>
+    </fields>
+    <fields>
+        <help><!-- Role --></help>
+        <label>役割</label>
+        <name>dfsle__Role__c</name>
+    </fields>
+    <fields>
+        <help><!-- Routing Order --></help>
+        <label>署名順</label>
+        <name>dfsle__RoutingOrder__c</name>
+    </fields>
+    <fields>
+        <label>順序</label>
+        <name>dfsle__Sequence__c</name>
+    </fields>
+    <fields>
+        <label>今すぐ署名</label>
+        <name>dfsle__SignNow__c</name>
+    </fields>
+    <fields>
+        <help><!-- Signing Group ID --></help>
+        <label>署名グループID</label>
+        <name>dfsle__SigningGroupId__c</name>
+    </fields>
+    <fields>
+        <label>署名グループ名</label>
+        <name>dfsle__SigningGroupName__c</name>
+    </fields>
+    <fields>
+        <label>SMS電話番号</label>
+        <name>dfsle__SmsPhoneNumber__c</name>
+    </fields>
+    <fields>
+        <label>ソースID</label>
+        <name>dfsle__SourceId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Type --></help>
+        <label>タイプ</label>
+        <name>dfsle__Type__c</name>
+        <picklistValues>
+            <masterLabel>Allow to Edit</masterLabel>
+            <translation><!-- Allow to Edit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Person Signer</masterLabel>
+            <translation><!-- In Person Signer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Needs to Sign</masterLabel>
+            <translation><!-- Needs to Sign --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Needs to View</masterLabel>
+            <translation><!-- Needs to View --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Receives a Copy</masterLabel>
+            <translation><!-- Receives a Copy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seal</masterLabel>
+            <translation><!-- Seal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Specify Recipients</masterLabel>
+            <translation><!-- Specify Recipients --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Update Recipients</masterLabel>
+            <translation><!-- Update Recipients --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Witness</masterLabel>
+            <translation><!-- Witness --></translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel>Name</nameFieldLabel>
+</CustomObjectTranslation>

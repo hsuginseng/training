@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>プルリクエスト</value>
+    </caseValues>
+    <fields>
+        <help><!-- Indicates the current approval status of the pull request. This information is retrieved directly from the connected Git provider and reflects whether the required reviewers have approved the pull request. Depending on the provider, data may be available via webhook or may require OAuth authorization. --></help>
+        <label>承認ステータス</label>
+        <name>copado__Approval_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Request Changes</masterLabel>
+            <translation><!-- Request Changes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>担当者</label>
+        <name>copado__Assignees__c</name>
+    </fields>
+    <fields>
+        <label>変更されたファイル</label>
+        <name>copado__Changed_Files__c</name>
+    </fields>
+    <fields>
+        <label>終了日</label>
+        <name>copado__Closed_At__c</name>
+    </fields>
+    <fields>
+        <label>コミット</label>
+        <name>copado__Commits__c</name>
+    </fields>
+    <fields>
+        <label>外部ID</label>
+        <name>copado__External_Id__c</name>
+    </fields>
+    <fields>
+        <label>マージ可能</label>
+        <name>copado__Mergeable__c</name>
+    </fields>
+    <fields>
+        <label>マージ日時</label>
+        <name>copado__Merged_At__c</name>
+    </fields>
+    <fields>
+        <label>マージ実施者</label>
+        <name>copado__Merged_By__c</name>
+    </fields>
+    <fields>
+        <label>マージ済</label>
+        <name>copado__Merged__c</name>
+    </fields>
+    <fields>
+        <label>リクエスト番号</label>
+        <name>copado__Request_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Requested Reviewers --></label>
+        <name>copado__Requested_Reviewers_Long__c</name>
+    </fields>
+    <fields>
+        <label>レビュアー</label>
+        <name>copado__Requested_Reviewers__c</name>
+    </fields>
+    <fields>
+        <help><!-- Specifies the number of required reviewer approvals set in your Git provider. Helps determine if a pull request meets the configured approval threshold. Depending on the provider, data may be available via webhook or may require OAuth authorization. --></help>
+        <label>必要なレビュー担当者の承認</label>
+        <name>copado__Required_Reviewer_Approvals__c</name>
+    </fields>
+    <fields>
+        <help><!-- Shows the number of reviewers who have approved the pull request. Updates automatically as reviewers approve the pull request in your Git provider. Depending on the provider, data may be available via webhook or may require OAuth authorization --></help>
+        <label>レビュー担当者の承認数</label>
+        <name>copado__Reviewer_Approvals_Count__c</name>
+    </fields>
+    <fields>
+        <label>州</label>
+        <name>copado__State__c</name>
+    </fields>
+    <fields>
+        <label>ターゲットブランチ</label>
+        <name>copado__Target_Branch__c</name>
+    </fields>
+    <fields>
+        <label>URLリンク</label>
+        <name>copado__URL_Link__c</name>
+    </fields>
+    <fields>
+        <label>URL</label>
+        <name>copado__Url__c</name>
+    </fields>
+    <fields>
+        <label>ユーザーアバターのURL</label>
+        <name>copado__User_Avatar_Url__c</name>
+    </fields>
+    <fields>
+        <label>ユーザーアバター</label>
+        <name>copado__User_Avatar__c</name>
+    </fields>
+    <fields>
+        <label>ユーザーストーリー</label>
+        <name>copado__User_Story__c</name>
+        <relationshipLabel>プルリクエスト</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ユーザー名</label>
+        <name>copado__Username__c</name>
+    </fields>
+    <layouts>
+        <layout>Pull Request Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Other Information --></label>
+            <section>Other Information</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>プルリクエスト名</nameFieldLabel>
+</CustomObjectTranslation>

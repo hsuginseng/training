@@ -1,0 +1,15 @@
+<template>
+	<section class="section">
+		<div class="inner">
+			<template for:each={accordions} for:item="accordion" for:index="index">
+				<div class="content" key={accordion.id}>
+					<c-pdp-content-accordion
+						id={accordion.id}
+						toggle={accordion.toggle}
+						text={accordion.text}
+					></c-pdp-content-accordion>
+				</div>
+			</template>
+		</div>
+	</section>
+</template>

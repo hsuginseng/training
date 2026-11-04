@@ -1,0 +1,26 @@
+<template>
+    <lightning-layout horizontal-align="space" multiple-rows>
+        <lightning-layout-item size=3 padding="around-small"></lightning-layout-item>
+        <lightning-layout-item size=6 padding="around-small">
+            <lightning-button-group>
+                <lightning-button-stateful label-when-on={buttonLabelCardsAndWallets} label-when-off={buttonLabelCardsAndWallets}
+                    icon-name-when-on="utility:check" icon-name-when-off="utility:money"
+                    variant={cardsAndWalletButtonVariant} selected={paymentTypeIsCardWallet} onclick={handleCardsAndWalletsSelected}>
+                </lightning-button-stateful>
+                <lightning-button-stateful label-when-on={buttonLabelMobilePayments} label-when-off={buttonLabelMobilePayments}
+                    icon-name-when-on="utility:check" icon-name-when-off="utility:push"
+                    variant={mobileButtonVariant} selected={paymentTypeIsMobile} onclick={handleMobilePaymentsSelected}>
+                </lightning-button-stateful>
+            </lightning-button-group>
+        </lightning-layout-item>
+        <lightning-layout-item size=3 padding="around-small"></lightning-layout-item>
+        <lightning-layout-item size=12 flexibility="auto" padding="around-small">
+            <div lwc:if={showSalesforcePaymentsRegionContent}>
+                <slot name="SalesforcePaymentsRegion"></slot>
+            </div>
+            <div data-id="custom-payment-component-region" lwc:if={showCustomPaymentRegionContent}>
+                <slot data-id="custom-payment-component" name="CustomPaymentRegion"></slot>
+            </div>
+        </lightning-layout-item>
+    </lightning-layout>
+</template>

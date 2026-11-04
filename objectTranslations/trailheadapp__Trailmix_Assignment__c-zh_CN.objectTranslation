@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Trailmix 分配</value>
+    </caseValues>
+    <fields>
+        <help>Trailmix 的完成日期。</help>
+        <label><!-- Due Date --></label>
+        <name>trailheadapp__Due_At__c</name>
+    </fields>
+    <fields>
+        <help>Trailmix 的完成日期时间。</help>
+        <label><!-- Due Datetime --></label>
+        <name>trailheadapp__Due_Datetime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>trailheadapp__Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trailmix --></label>
+        <name>trailheadapp__Trailmix__c</name>
+        <relationshipLabel><!-- Trailmix Assignments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>trailheadapp__User__c</name>
+        <relationshipLabel><!-- Trailmix Assignments --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Trailmix Assignment Layout</layout>
+        <sections>
+            <label>自定义链接</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Trailmix 分配 ID</nameFieldLabel>
+</CustomObjectTranslation>

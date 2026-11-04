@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>コンプライアンス・スキャン結果</value>
+    </caseValues>
+    <fieldSets>
+        <label>コンプライアンス結果タブ</label>
+        <name>copado__Compliance_Result_Tab</name>
+    </fieldSets>
+    <fields>
+        <label>デプロイメントステップ</label>
+        <name>copado__Deployment_Step__c</name>
+        <relationshipLabel>コンプライアンススキャン結果</relationshipLabel>
+    </fields>
+    <fields>
+        <label>デプロイメント</label>
+        <name>copado__Deployment__c</name>
+        <relationshipLabel>コンプライアンススキャン結果</relationshipLabel>
+    </fields>
+    <fields>
+        <label>環境</label>
+        <name>copado__Environment__c</name>
+        <relationshipLabel>コンプライアンススキャン結果</relationshipLabel>
+    </fields>
+    <fields>
+        <label>所見（Findings)</label>
+        <name>copado__Findings__c</name>
+    </fields>
+    <fields>
+        <label>Gitスナップショット</label>
+        <name>copado__Git_Snapshot__c</name>
+        <relationshipLabel>コンプライアンススキャン結果</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The most severe action in the Compliance Findings. --></help>
+        <label>最上位のルール処置</label>
+        <name>copado__Highest_Rule_Action__c</name>
+    </fields>
+    <fields>
+        <help><!-- Highest Severity of the Compliance Findings. --></help>
+        <label>深刻度(最大)</label>
+        <name>copado__Highest_Severity__c</name>
+    </fields>
+    <fields>
+        <label>クレデンシャル</label>
+        <name>copado__Org_Credential__c</name>
+        <relationshipLabel>コンプライアンススキャン結果</relationshipLabel>
+    </fields>
+    <fields>
+        <label>解決策の詳細</label>
+        <name>copado__Resolution_Details__c</name>
+    </fields>
+    <fields>
+        <label>分単位でのスキャン間隔</label>
+        <name>copado__Scan_Duration_in_Minutes__c</name>
+    </fields>
+    <fields>
+        <label>スキャン終了</label>
+        <name>copado__Scan_End__c</name>
+    </fields>
+    <fields>
+        <label>スキャン開始</label>
+        <name>copado__Scan_Start__c</name>
+    </fields>
+    <fields>
+        <label>ステータス</label>
+        <name>copado__Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed - Findings detected</masterLabel>
+            <translation><!-- Completed - Findings detected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed - No Findings</masterLabel>
+            <translation><!-- Completed - No Findings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed - Resolved</masterLabel>
+            <translation><!-- Completed - Resolved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation><!-- Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Under Investigation</masterLabel>
+            <translation><!-- Under Investigation --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>ユーザーストーリー</label>
+        <name>copado__User_Story__c</name>
+        <relationshipLabel>コンプライアンススキャン結果</relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Compliance Scan Result Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Related To --></label>
+            <section>Related To</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>スキャン結果参照</nameFieldLabel>
+    <recordTypes>
+        <description>このレコードタイプは、コパードによって生成されたスキャン結果に使用されます。</description>
+        <label>コパード</label>
+        <name>copado__Copado</name>
+    </recordTypes>
+    <recordTypes>
+        <description>このレコードタイプを使用して、セールスフォース以外のスキャン結果をキャプチャします。</description>
+        <label>その他</label>
+        <name>copado__Other</name>
+    </recordTypes>
+</CustomObjectTranslation>

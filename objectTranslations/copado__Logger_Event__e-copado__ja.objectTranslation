@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Logger Event --></value>
+    </caseValues>
+    <fields>
+        <label>例外の詳細</label>
+        <name>copado__Exception_Details__c</name>
+    </fields>
+    <fields>
+        <label>一般 ID</label>
+        <name>copado__Generic_Id__c</name>
+    </fields>
+    <fields>
+        <label>使用制限</label>
+        <name>copado__Limits_Usage__c</name>
+    </fields>
+    <fields>
+        <label>ログレベル</label>
+        <name>copado__Log_Level__c</name>
+    </fields>
+    <fields>
+        <label>ペイロード</label>
+        <name>copado__Payload__c</name>
+    </fields>
+    <fields>
+        <label>セクション</label>
+        <name>copado__Section__c</name>
+    </fields>
+    <fields>
+        <label>ユーザーID</label>
+        <name>copado__User_Id__c</name>
+    </fields>
+</CustomObjectTranslation>

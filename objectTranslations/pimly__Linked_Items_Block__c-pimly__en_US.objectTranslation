@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Linked Items Block</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Linked Items Blocks</value>
+    </caseValues>
+    <fields>
+        <label><!-- Admin Name --></label>
+        <name>pimly__Admin_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Block Title --></label>
+        <name>pimly__Block_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Block Type --></label>
+        <name>pimly__Block_Type__c</name>
+        <picklistValues>
+            <masterLabel>Gallery</masterLabel>
+            <translation><!-- Gallery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interactive List</masterLabel>
+            <translation><!-- Interactive List --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Pimly Id --></label>
+        <name>pimly__Pimly_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pimly Property --></label>
+        <lookupFilter>
+            <errorMessage><!-- Value does not exist or does not match filter criteria (must be a Pimly Property with Type = Linked Item). --></errorMessage>
+        </lookupFilter>
+        <name>pimly__Pimly_Property__c</name>
+        <relationshipLabel><!-- Linked Items Blocks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Show Quantity Input? --></label>
+        <name>pimly__Show_Quantity_Input__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show Selection Checkboxes? --></label>
+        <name>pimly__Show_Selection_Checkboxes__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

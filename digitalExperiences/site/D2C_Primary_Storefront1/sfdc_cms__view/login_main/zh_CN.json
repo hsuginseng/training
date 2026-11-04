@@ -1,0 +1,19 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Login",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "attributes" : {
+          "passwordLabel" : "密码",
+          "loginButtonLabel" : "登录",
+          "forgotPasswordLabel" : "忘记密码？",
+          "selfRegisterLabel" : "还不是会员？",
+          "usernameLabel" : "电子邮件"
+        },
+        "id" : "21b50927-3b5a-4ae6-8aa4-fbf722cabf8a"
+      } ]
+    }
+  },
+  "urlName" : "login"
+}

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>デプロイメント・ジョブ</value>
+    </caseValues>
+    <fields>
+        <label>非同期ジョブID</label>
+        <name>copado__Async_Job_ID__c</name>
+    </fields>
+    <fields>
+        <label>％デプロイ完了</label>
+        <name>copado__Deployed__c</name>
+    </fields>
+    <fields>
+        <help><!-- Read only field used internally for system property replacement. --></help>
+        <label>宛先ID</label>
+        <name>copado__Destination_Id__c</name>
+    </fields>
+    <fields>
+        <label>宛先クレデンシャル</label>
+        <name>copado__Destination_Org__c</name>
+        <relationshipLabel>デプロイメントジョブ</relationshipLabel>
+    </fields>
+    <fields>
+        <label>早期完了の状況</label>
+        <name>copado__Early_Completion_Status__c</name>
+        <picklistValues>
+            <masterLabel>Failed</masterLabel>
+            <translation><!-- Failed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In progress</masterLabel>
+            <translation><!-- In progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Success</masterLabel>
+            <translation><!-- Success --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>外部ID</label>
+        <name>copado__External_Id__c</name>
+    </fields>
+    <fields>
+        <label>外部ステータス</label>
+        <name>copado__External_Status__c</name>
+    </fields>
+    <fields>
+        <help><!-- Read only field used internally for system property replacement. --></help>
+        <label>リポジトリID</label>
+        <name>copado__Git_Repository__c</name>
+    </fields>
+    <fields>
+        <help><!-- Latest result with more details of the job execution. --></help>
+        <label>最後の結果</label>
+        <name>copado__Last_Result__c</name>
+        <relationshipLabel>デプロイメントジョブ</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Read only field used internally for system property replacement. --></help>
+        <label>パイプラインID</label>
+        <name>copado__Pipeline_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- Read only field used internally for system property replacement. --></help>
+        <label>ソースID</label>
+        <name>copado__Source_Id__c</name>
+    </fields>
+    <fields>
+        <label>ステータスフラグ</label>
+        <name>copado__Status_Flag__c</name>
+    </fields>
+    <fields>
+        <label>ステータス</label>
+        <name>copado__Status__c</name>
+        <picklistValues>
+            <masterLabel>Failed</masterLabel>
+            <translation><!-- Failed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In progress</masterLabel>
+            <translation><!-- In progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Success</masterLabel>
+            <translation><!-- Success --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>ステップ</label>
+        <name>copado__Step__c</name>
+        <relationshipLabel>デプロイメントジョブ</relationshipLabel>
+    </fields>
+    <fields>
+        <label>クレデンシャル名称</label>
+        <name>copado__To_Org_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- To be used for Quick deployments. Available since metadata api v33 (Spring 15) --></help>
+        <label>検証ID</label>
+        <name>copado__Validation_ID__c</name>
+    </fields>
+    <layouts>
+        <layout>Deployment Job Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>デプロイメント・ジョブ名</nameFieldLabel>
+</CustomObjectTranslation>

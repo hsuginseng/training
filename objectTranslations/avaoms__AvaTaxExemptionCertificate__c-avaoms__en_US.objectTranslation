@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Avalara Exemption Certificate</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Avalara Exemption Certificates</value>
+    </caseValues>
+    <fields>
+        <help><!-- Add the account records with the certificate. --></help>
+        <label><!-- Account --></label>
+        <name>avaoms__Account__c</name>
+        <relationshipLabel><!-- Avalara Exemption Certificates --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- A unique ID used by AvaTax to apply exemptions. --></help>
+        <label><!-- Certificate Number --></label>
+        <name>avaoms__Avalara_Certificate_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- Issuing date of the certificate. --></help>
+        <label><!-- Date Issued --></label>
+        <name>avaoms__Date_Issued__c</name>
+    </fields>
+    <fields>
+        <help><!-- Expiration date of the certificate. --></help>
+        <label><!-- Expiration Date --></label>
+        <name>avaoms__Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Shows the current status of the certificate. --></help>
+        <label><!-- OMS - Certificate Status --></label>
+        <name>avaoms__OMS_Certificate_Status__c</name>
+    </fields>
+    <fields>
+        <help><!-- The reason the customer is exempt. --></help>
+        <label><!-- OMS - Exemption Reason --></label>
+        <name>avaoms__OMS_Exemption_Reason__c</name>
+        <relationshipLabel><!-- Avalara Exemption Certificates --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- State where the exemption applies. --></help>
+        <label><!-- OMS - Exposure Zone --></label>
+        <name>avaoms__OMS_Exposure_Zone__c</name>
+        <relationshipLabel><!-- Avalara Exemption Certificates --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Avalara Exemption Certificate Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- OMS_Certificate_Utility --></label>
+        <name>avaoms__OMS_Certificate_Utility</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Docusign 봉투 템플릿</value>
+    </caseValues>
+    <fields>
+        <label>동작</label>
+        <name>dfsle__Action__c</name>
+        <picklistValues>
+            <masterLabel>Prepare</masterLabel>
+            <translation><!-- Prepare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Send</masterLabel>
+            <translation><!-- Send --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tag</masterLabel>
+            <translation><!-- Tag --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>활성</label>
+        <name>dfsle__Active__c</name>
+    </fields>
+    <fields>
+        <label>Salesforce 소스 문서 추가</label>
+        <name>dfsle__AddSourceDocuments__c</name>
+    </fields>
+    <fields>
+        <label>Salesforce 소스 수신인 추가</label>
+        <name>dfsle__AddSourceRecipients__c</name>
+    </fields>
+    <fields>
+        <label>사용자 지정 필드</label>
+        <name>dfsle__CustomFields__c</name>
+    </fields>
+    <fields>
+        <label><!-- DFS Template ID --></label>
+        <name>dfsle__DFSTemplateId__c</name>
+    </fields>
+    <fields>
+        <label>DocuSign 템플릿 ID</label>
+        <name>dfsle__DocuSignId__c</name>
+    </fields>
+    <fields>
+        <label>이메일 메시지</label>
+        <name>dfsle__EmailMessage__c</name>
+    </fields>
+    <fields>
+        <label>이메일 제목</label>
+        <name>dfsle__EmailSubject__c</name>
+    </fields>
+    <fields>
+        <label>N일 후에 봉투 만료/무효화</label>
+        <name>dfsle__ExpireAfterDays__c</name>
+    </fields>
+    <fields>
+        <label>N일 전에 만료 경고</label>
+        <name>dfsle__ExpireWarnDays__c</name>
+    </fields>
+    <fields>
+        <label>봉투 만료/무효화</label>
+        <name>dfsle__Expires__c</name>
+    </fields>
+    <fields>
+        <label>초안입니다</label>
+        <name>dfsle__IsDraft__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Quick Send --></label>
+        <name>dfsle__IsQuickSend__c</name>
+    </fields>
+    <fields>
+        <label>필드 병합</label>
+        <name>dfsle__MergeFields__c</name>
+    </fields>
+    <fields>
+        <label>알림</label>
+        <name>dfsle__Notifications__c</name>
+    </fields>
+    <fields>
+        <label>개체 유형</label>
+        <name>dfsle__ObjectType__c</name>
+    </fields>
+    <fields>
+        <label>옵션</label>
+        <name>dfsle__Options__c</name>
+    </fields>
+    <fields>
+        <label>N일 후에 미리 알림 전송</label>
+        <name>dfsle__RemindAfterDays__c</name>
+    </fields>
+    <fields>
+        <label>완료될 때까지 N일마다 미리 알림</label>
+        <name>dfsle__RemindFrequencyDays__c</name>
+    </fields>
+    <fields>
+        <label>이메일을 통해 서명인 미리 알림</label>
+        <name>dfsle__Remind__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender DocuSign UserName --></label>
+        <name>dfsle__SenderDocuSignUserName__c</name>
+    </fields>
+    <fields>
+        <label>발송인 권한</label>
+        <name>dfsle__SenderPermissions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender Salesforce UserName --></label>
+        <name>dfsle__SenderSalesforceUserName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender --></label>
+        <name>dfsle__Sender__c</name>
+        <relationshipLabel><!-- Docusign Envelope Templates --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sending Experience --></label>
+        <name>dfsle__SendingExperience__c</name>
+        <picklistValues>
+            <masterLabel>edit</masterLabel>
+            <translation><!-- edit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>quickSend</masterLabel>
+            <translation><!-- quickSend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>send</masterLabel>
+            <translation><!-- send --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>tag</masterLabel>
+            <translation><!-- tag --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Chatter 설정 표시</label>
+        <name>dfsle__ShowChatterSettings__c</name>
+    </fields>
+    <fields>
+        <label>이메일 메시지 표시</label>
+        <name>dfsle__ShowEmailMessage__c</name>
+    </fields>
+    <fields>
+        <label>이메일 제목 표시</label>
+        <name>dfsle__ShowEmailSubject__c</name>
+    </fields>
+    <fields>
+        <label>알림 및 만료 설정 표시</label>
+        <name>dfsle__ShowRemindExpire__c</name>
+    </fields>
+    <fields>
+        <label>전송 버튼 표시</label>
+        <name>dfsle__ShowSendButton__c</name>
+    </fields>
+    <fields>
+        <label>태그 버튼 표시</label>
+        <name>dfsle__ShowTagButton__c</name>
+    </fields>
+    <fields>
+        <label>원본 개체</label>
+        <name>dfsle__SourceObject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Template Type --></label>
+        <name>dfsle__TemplateType__c</name>
+        <picklistValues>
+            <masterLabel>Embedded</masterLabel>
+            <translation><!-- Embedded --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General</masterLabel>
+            <translation><!-- General --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>DocuSign Envelope Configuration Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Information --></label>
+            <section>Information</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Name --></nameFieldLabel>
+</CustomObjectTranslation>

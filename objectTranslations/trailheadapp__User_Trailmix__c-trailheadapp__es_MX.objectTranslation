@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Trailmix de usuario</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Trailmixes de usuario</value>
+    </caseValues>
+    <fields>
+        <label>Asignado</label>
+        <name>trailheadapp__Assigned_At__c</name>
+    </fields>
+    <fields>
+        <label>Completado</label>
+        <name>trailheadapp__Completed_At__c</name>
+    </fields>
+    <fields>
+        <help><!-- This due date may display differently for users not in the assigner&apos;s same timezone. --></help>
+        <label>Vencimiento</label>
+        <name>trailheadapp__Due_At__c</name>
+    </fields>
+    <fields>
+        <label>Id. externo</label>
+        <name>trailheadapp__External_Id__c</name>
+    </fields>
+    <fields>
+        <label>Primer intento</label>
+        <name>trailheadapp__First_Attempted_At__c</name>
+    </fields>
+    <fields>
+        <label>Último intento</label>
+        <name>trailheadapp__Last_Attempted_At__c</name>
+    </fields>
+    <fields>
+        <help><!-- Two types of status, &quot;In Progress&quot;, or &quot;Completed&quot; are available to represent the status of a user&apos;s trailmix. --></help>
+        <label>Estado</label>
+        <name>trailheadapp__Status__c</name>
+    </fields>
+    <fields>
+        <label>Trailmix</label>
+        <name>trailheadapp__Trailmix__c</name>
+        <relationshipLabel>Trailmixes de usuario</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Usuario</label>
+        <name>trailheadapp__User__c</name>
+        <relationshipLabel><!-- User Trailmixes --></relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>User Trailmix Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Id. de Trailmix de usuario</nameFieldLabel>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Asignar Trailmix</label>
+        <name>trailheadapp__AssignTrailmix</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Desasignar Trailmix</label>
+        <name>trailheadapp__Unassign_Trailmix</name>
+    </quickActions>
+</CustomObjectTranslation>

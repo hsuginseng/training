@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Support Request</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Support Requests</value>
+    </caseValues>
+    <fields>
+        <label><!-- Details/Instructions --></label>
+        <name>Details_Instructions__c</name>
+    </fields>
+    <fields>
+        <label><!-- How to recreate the issue --></label>
+        <name>How_to_recreate_the_issue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Level Of Effort (Aleysian) --></label>
+        <name>Level_Of_Effort_Aleysian__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Very High</masterLabel>
+            <translation><!-- Very High --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Priority (Hsu&apos;s) --></label>
+        <name>Priority_Hsu_s__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Very High</masterLabel>
+            <translation><!-- Very High --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Aleysian to populate this with the solution/response. --></help>
+        <label><!-- Solution (Aleysian) --></label>
+        <name>Solution_Aleysian__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting for Hsu&apos;s Feedback</masterLabel>
+            <translation><!-- Waiting for Hsu&apos;s Feedback --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Support Request Number --></label>
+        <name>Support_Request_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Bug</masterLabel>
+            <translation><!-- Bug --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enhancement</masterLabel>
+            <translation><!-- Enhancement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Question</masterLabel>
+            <translation><!-- General Question --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training Request</masterLabel>
+            <translation><!-- Training Request --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Populate the URL to the affected record or webpage that you are referencing in the Details/Instructions field. --></help>
+        <label><!-- URL to Record --></label>
+        <name>URL_to_Record__c</name>
+    </fields>
+    <layouts>
+        <layout>Support Request Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Long Text Fields --></label>
+            <section>Long Text Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Support Request Information (Aleysian) --></label>
+            <section>Support Request Information (Aleysian)</section>
+        </sections>
+        <sections>
+            <label><!-- Support Request Information (Hsu&apos;s) --></label>
+            <section>Support Request Information (Hsu&apos;s)</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

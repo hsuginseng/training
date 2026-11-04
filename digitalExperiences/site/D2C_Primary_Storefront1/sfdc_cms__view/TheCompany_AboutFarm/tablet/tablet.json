@@ -1,0 +1,23 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "TheCompany-AboutFarm",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "attributes" : {
+          "dxpStyle" : {
+            "isVisible" : false,
+            "margin" : {
+              "bottom" : "0px",
+              "left" : "200px",
+              "right" : "200px",
+              "top" : "0px"
+            }
+          }
+        },
+        "id" : "7f9a6d00-f9aa-43b2-b1a3-b77c2ec0a79c"
+      } ]
+    }
+  },
+  "urlName" : "thecompany-aboutfarm"
+}

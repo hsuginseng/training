@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Auto-response on Customer Support Case closed</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Customer Support Case Close</name>
+    <pageDevName>Customer_Support_Case_Close</pageDevName>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>Your Request Has Been Resolved</subject>
+    <textOnly>Case #: {{{Case.CaseNumber}}}
+
+Subject: {{{Case.Subject}}}
+
+Issue Description: {{{Case.Issue_Description__c}}}
+
+-----------------------------------------------------
+
+Dear {{{Case.First_Name__c}}},
+
+Thank you for contacting Hsu’s Ginseng Enterprises, Inc.
+
+We are writing to inform you that your support case {{{Case.CaseNumber}}} has been resolved and is now closed.
+
+We hope that everything has been handled to your satisfaction. If you have any further questions or concerns, please do not hesitate to contact us again. We will be happy to assist you.
+
+Warm Regards,
+
+Customer Support Team
+
+Hsu&apos;s Ginseng Enterprises, Inc.
+
+📌Need help with your order?
+
+If your question is about an existing order, please include your order number for faster service.
+
+**
+----------------------------------------------------
+
+📞Contact Us：
+
+Phone: (715) 675-2325/ (1800) 826-1577
+
+Email: support@hsuginseng.com
+
+Website: www.hsuginseng.com &lt; https://www.hsuginseng.com &gt; 
+
+**
+----------------------------------------------------
+
+🕒Customer Service Hours：
+
+Monday to Friday (Excluding Holidays)
+
+8:30 AM – 5:00 PM (CST)</textOnly>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Placeholder permission set used to authorize Pimly External Client App access. Grants no object or field permissions.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Pimly Auth (ECA Access)</label>
+</PermissionSet>

@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlexiPage xmlns="http://soap.sforce.com/2006/04/metadata">
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>allowChanges</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>alternativeText</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>horizontalAlignment</name>
+                    <value>Center</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>imgPath</name>
+                    <value>{[contentVersionId:@@@sfdc=03SV5000000HgpF=sfdc@@@]}</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>marginBottom</name>
+                    <value>0</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>marginLeft</name>
+                    <value>0</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>marginRight</name>
+                    <value>0</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>marginTop</name>
+                    <value>0</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>objectFit</name>
+                    <value>fill</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>width</name>
+                    <value>100</value>
+                </componentInstanceProperties>
+                <componentName>contentbuilder:image</componentName>
+                <identifier>contentbuilder_image</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-fdec0e89-3bf3-4793-8032-642b2be3083e</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>columnBody</name>
+                    <value>Facet-fdec0e89-3bf3-4793-8032-642b2be3083e</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>columnCount</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>columnIndex</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>columnSpacer</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>padding</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>verticalAlign</name>
+                    <value>top</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>width</name>
+                    <value>100%</value>
+                </componentInstanceProperties>
+                <componentName>contentbuilder:column</componentName>
+                <identifier>contentbuilder_column</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-27323c0f-8af7-46ea-b037-6a18af34d4e2</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>allowChanges</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>linkedToDesignKit</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>marginBottom</name>
+                    <value>0</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>marginLeft</name>
+                    <value>0</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>marginRight</name>
+                    <value>0</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>marginTop</name>
+                    <value>0</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>richTextValue</name>
+                    <value>&lt;table style=&quot;border:none; border-collapse:collapse&quot; width=&quot;623&quot;&gt;
+	&lt;colgroup&gt;
+		&lt;col width=&quot;623&quot; /&gt;
+	&lt;/colgroup&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td style=&quot;border-bottom:1px solid #000000; vertical-align:top; padding:0px 7px 0px 7px; border-top:1px solid #000000; border-right:1px solid #000000; border-left:1px solid #000000; width:623px&quot;&gt;
+			&lt;p style=&quot;line-height:1.2; text-align:center&quot;&gt;&lt;span style=&quot;overflow:hidden&quot;&gt;&lt;span style=&quot;overflow-wrap:break-word&quot;&gt;&lt;span style=&quot;font-size:12pt; font-variant:normal; white-space:pre-wrap&quot;&gt;&lt;span style=&quot;font-family:Aptos&quot;&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;span style=&quot;font-weight:700&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt;Case # {{{Case.CaseNumber}}}&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+			&lt;p style=&quot;line-height:1.2; text-align:center&quot;&gt;&lt;span style=&quot;overflow:hidden&quot;&gt;&lt;span style=&quot;overflow-wrap:break-word&quot;&gt;&lt;span style=&quot;font-size:12pt; font-variant:normal; white-space:pre-wrap&quot;&gt;&lt;span style=&quot;font-family:Aptos&quot;&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;span style=&quot;font-weight:700&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt;Subject: {{{Case.Subject}}}&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+			&lt;p style=&quot;line-height:1.2; text-align:center&quot;&gt;&lt;font color=&quot;#000000&quot; face=&quot;Aptos&quot;&gt;&lt;span style=&quot;font-size: 16px; white-space-collapse: preserve;&quot;&gt;&lt;b&gt;Issue Description: {{{Case.Issue_Description__c}}}&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;
+
+			&lt;p style=&quot;line-height:1.2; text-align:center&quot;&gt;&lt;span style=&quot;overflow:hidden&quot;&gt;&lt;span style=&quot;overflow-wrap:break-word&quot;&gt;&lt;span style=&quot;font-size:12pt; font-variant:normal; white-space:pre-wrap&quot;&gt;&lt;span style=&quot;font-family:Aptos&quot;&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;span style=&quot;font-weight:400&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt;-----------------------------------------------------&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+			&lt;p style=&quot;line-height:1.2; text-align:center&quot;&gt;&lt;span style=&quot;overflow:hidden&quot;&gt;&lt;span style=&quot;overflow-wrap:break-word&quot;&gt;&lt;span style=&quot;font-size:12pt; font-variant:normal; white-space:pre-wrap&quot;&gt;&lt;span style=&quot;font-family:Aptos&quot;&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;span style=&quot;font-weight:400&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt;Dear {{{Case.First_Name__c}}},&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+			&amp;nbsp;
+
+			&lt;p style=&quot;line-height:1.2; text-align:center&quot;&gt;&lt;span style=&quot;overflow:hidden&quot;&gt;&lt;span style=&quot;overflow-wrap:break-word&quot;&gt;&lt;span style=&quot;font-size:12pt; font-variant:normal; white-space:pre-wrap&quot;&gt;&lt;span style=&quot;font-family:Aptos&quot;&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;span style=&quot;font-weight:400&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt;Thank you for contacting Hsu&amp;rsquo;s Ginseng Enterprises, Inc.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+			&lt;p style=&quot;line-height:1.2; text-align:center&quot;&gt;&lt;span style=&quot;overflow:hidden&quot;&gt;&lt;span style=&quot;overflow-wrap:break-word&quot;&gt;&lt;span style=&quot;font-size:12pt; font-variant:normal; white-space:pre-wrap&quot;&gt;&lt;span style=&quot;font-family:Aptos&quot;&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;span style=&quot;font-weight:400&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt;Unfortunately, we are unable to process your cancellation request for Order #{{{Case.Order_Number__c}}}, as it has already been processed for shipment. Once the order has been delivered, you may still request a return in accordance with our &lt;/span&gt;&lt;span style=&quot;text-decoration:underline&quot;&gt;&lt;span style=&quot;-webkit-text-decoration-skip:none&quot;&gt;&lt;span style=&quot;text-decoration-skip-ink:none&quot;&gt;return policy&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size:12pt; font-variant:normal; white-space:pre-wrap&quot;&gt;&lt;span style=&quot;font-family:Aptos&quot;&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;span style=&quot;font-weight:400&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+			&lt;p style=&quot;line-height:1.2; text-align:center&quot;&gt;&lt;span style=&quot;overflow:hidden&quot;&gt;&lt;span style=&quot;overflow-wrap:break-word&quot;&gt;&lt;span style=&quot;font-size:12pt; font-variant:normal; white-space:pre-wrap&quot;&gt;&lt;span style=&quot;font-family:Aptos&quot;&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;span style=&quot;font-weight:400&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt;If you need assistance with a return or have any other questions, please feel free to reply to this email or contact us at 1-800-826-1577.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+			&lt;p style=&quot;line-height:1.2; text-align:center&quot;&gt;&lt;span style=&quot;overflow:hidden&quot;&gt;&lt;span style=&quot;overflow-wrap:break-word&quot;&gt;&lt;span style=&quot;font-size:12pt; font-variant:normal; white-space:pre-wrap&quot;&gt;&lt;span style=&quot;font-family:Aptos&quot;&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;span style=&quot;font-weight:400&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt;We appreciate your understanding.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+			&amp;nbsp;&lt;/p&gt;
+
+			&lt;p style=&quot;line-height:1.2; text-align:center&quot;&gt;&lt;span style=&quot;overflow:hidden&quot;&gt;&lt;span style=&quot;overflow-wrap:break-word&quot;&gt;&lt;span style=&quot;font-size:12pt; font-variant:normal; white-space:pre-wrap&quot;&gt;&lt;span style=&quot;font-family:Aptos&quot;&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;span style=&quot;font-weight:400&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt;Warm Regards,&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+			&lt;span style=&quot;overflow:hidden&quot;&gt;&lt;span style=&quot;overflow-wrap:break-word&quot;&gt;&lt;span style=&quot;font-size:12pt; font-variant:normal; white-space:pre-wrap&quot;&gt;&lt;span style=&quot;font-family:Aptos&quot;&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;span style=&quot;font-weight:700&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt;Customer Support Team&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+			&lt;span style=&quot;overflow:hidden&quot;&gt;&lt;span style=&quot;overflow-wrap:break-word&quot;&gt;&lt;span style=&quot;font-size:12pt; font-variant:normal; white-space:pre-wrap&quot;&gt;&lt;span style=&quot;font-family:Aptos&quot;&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;span style=&quot;font-weight:700&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt;Hsu&amp;#39;s Ginseng Enterprises, Inc.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+			&amp;nbsp;&lt;/p&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;</value>
+                </componentInstanceProperties>
+                <componentName>contentbuilder:richText</componentName>
+                <identifier>contentbuilder_richText</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-ca70d992-ace6-4e89-bb28-46a583830089</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>columnBody</name>
+                    <value>Facet-ca70d992-ace6-4e89-bb28-46a583830089</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>columnCount</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>columnIndex</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>columnSpacer</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>padding</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>verticalAlign</name>
+                    <value>top</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>width</name>
+                    <value>100%</value>
+                </componentInstanceProperties>
+                <componentName>contentbuilder:column</componentName>
+                <identifier>contentbuilder_column2</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-d8b0885b-41df-41fe-8e00-5dbd36954919</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>allowChanges</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>linkedToDesignKit</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>marginBottom</name>
+                    <value>0</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>marginLeft</name>
+                    <value>0</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>marginRight</name>
+                    <value>0</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>marginTop</name>
+                    <value>0</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>richTextValue</name>
+                    <value>&lt;p style=&quot;line-height:1.3900000000000001; text-align:center; margin-bottom:11px&quot;&gt;&lt;span style=&quot;font-size:12pt; font-variant:normal; white-space:pre-wrap&quot;&gt;&lt;span style=&quot;font-family:Aptos&quot;&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;span style=&quot;font-weight:700&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;div&gt;
+&lt;table style=&quot;border:none; border-collapse:collapse&quot; width=&quot;623&quot;&gt;
+	&lt;colgroup&gt;
+		&lt;col width=&quot;623&quot; /&gt;
+	&lt;/colgroup&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td style=&quot;border-bottom:1px solid #000000; vertical-align:top; padding:0px 7px 0px 7px; border-top:1px solid #000000; border-right:1px solid #000000; border-left:1px solid #000000; width:623px&quot;&gt;
+			&lt;p style=&quot;line-height:1.3900000000000001; text-align:center; margin-bottom:11px&quot;&gt;&lt;span style=&quot;overflow:hidden&quot;&gt;&lt;span style=&quot;overflow-wrap:break-word&quot;&gt;&lt;span style=&quot;font-size:12pt; font-variant:normal; white-space:pre-wrap&quot;&gt;&lt;span style=&quot;font-family:&apos;Quattrocento Sans&apos;,sans-serif&quot;&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;span style=&quot;font-weight:700&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt;📌&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size:12pt; font-variant:normal; white-space:pre-wrap&quot;&gt;&lt;span style=&quot;font-family:Aptos&quot;&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;span style=&quot;font-weight:700&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt; Need help with your order?&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+			&lt;span style=&quot;font-size:12pt; font-variant:normal; white-space:pre-wrap&quot;&gt;&lt;span style=&quot;font-family:Aptos&quot;&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;span style=&quot;font-weight:400&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt;If your question is about an existing order, please include your order number for faster service.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+			&lt;p style=&quot;line-height:1.3900000000000001; text-align:center; margin-bottom:11px&quot;&gt;&amp;nbsp;&lt;/p&gt;
+
+			&lt;hr /&gt;
+			&lt;p style=&quot;line-height:1.3900000000000001; text-align:center; margin-bottom:11px&quot;&gt;&lt;span style=&quot;overflow:hidden&quot;&gt;&lt;span style=&quot;overflow-wrap:break-word&quot;&gt;&lt;span style=&quot;font-size:12pt; font-variant:normal; white-space:pre-wrap&quot;&gt;&lt;span style=&quot;font-family:&apos;Quattrocento Sans&apos;,sans-serif&quot;&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;span style=&quot;font-weight:700&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt;📞&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size:12pt; font-variant:normal; white-space:pre-wrap&quot;&gt;&lt;span style=&quot;font-family:Aptos&quot;&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;span style=&quot;font-weight:700&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt; Contact Us：&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+			&lt;span style=&quot;font-size:12pt; font-variant:normal; white-space:pre-wrap&quot;&gt;&lt;span style=&quot;font-family:Aptos&quot;&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;span style=&quot;font-weight:400&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt;Phone: (715) 675-2325/ (1800) 826-1577&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+			&lt;span style=&quot;font-size:12pt; font-variant:normal; white-space:pre-wrap&quot;&gt;&lt;span style=&quot;font-family:Aptos&quot;&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;span style=&quot;font-weight:400&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt;Email: support@hsuginseng.com&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+			&lt;span style=&quot;font-size:12pt; font-variant:normal; white-space:pre-wrap&quot;&gt;&lt;span style=&quot;font-family:Aptos&quot;&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;span style=&quot;font-weight:400&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt;Website: &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;a href=&quot;https://www.hsuginseng.com&quot; style=&quot;text-decoration:none&quot;&gt;&lt;span style=&quot;font-size:12pt; font-variant:normal; white-space:pre-wrap&quot;&gt;&lt;span style=&quot;font-family:Aptos&quot;&gt;&lt;span style=&quot;color:#467886&quot;&gt;&lt;span style=&quot;font-weight:400&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:underline&quot;&gt;&lt;span style=&quot;-webkit-text-decoration-skip:none&quot;&gt;&lt;span style=&quot;text-decoration-skip-ink:none&quot;&gt;www.hsuginseng.com&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+			&lt;p style=&quot;line-height:1.3900000000000001; text-align:center; margin-bottom:11px&quot;&gt;&amp;nbsp;&lt;/p&gt;
+
+			&lt;hr /&gt;
+			&lt;p style=&quot;line-height:1.3900000000000001; text-align:center; margin-bottom:11px&quot;&gt;&lt;span style=&quot;overflow:hidden&quot;&gt;&lt;span style=&quot;overflow-wrap:break-word&quot;&gt;&lt;span style=&quot;font-size:12pt; font-variant:normal; white-space:pre-wrap&quot;&gt;&lt;span style=&quot;font-family:&apos;Quattrocento Sans&apos;,sans-serif&quot;&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;span style=&quot;font-weight:700&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt;🕒&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size:12pt; font-variant:normal; white-space:pre-wrap&quot;&gt;&lt;span style=&quot;font-family:Aptos&quot;&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;span style=&quot;font-weight:700&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt; Customer Service Hours：&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+			&lt;p style=&quot;line-height:1.3900000000000001; text-align:center; margin-bottom:11px&quot;&gt;&lt;span style=&quot;overflow:hidden&quot;&gt;&lt;span style=&quot;overflow-wrap:break-word&quot;&gt;&lt;span style=&quot;font-size:12pt; font-variant:normal; white-space:pre-wrap&quot;&gt;&lt;span style=&quot;font-family:Aptos&quot;&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;span style=&quot;font-weight:400&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt;Monday to Friday (Excluding Holidays)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+			&lt;span style=&quot;font-size:12pt; font-variant:normal; white-space:pre-wrap&quot;&gt;&lt;span style=&quot;font-family:Aptos&quot;&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;span style=&quot;font-weight:400&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt;8:30 AM &amp;ndash; 5:00 PM (CST)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;</value>
+                </componentInstanceProperties>
+                <componentName>contentbuilder:richText</componentName>
+                <identifier>contentbuilder_richText2</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-a54ea589-8d81-4089-9b04-0e7f80dbbc11</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>columnBody</name>
+                    <value>Facet-a54ea589-8d81-4089-9b04-0e7f80dbbc11</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>columnCount</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>columnIndex</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>columnSpacer</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>padding</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>verticalAlign</name>
+                    <value>top</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>width</name>
+                    <value>100%</value>
+                </componentInstanceProperties>
+                <componentName>contentbuilder:column</componentName>
+                <identifier>contentbuilder_column3</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-dedb748b-78e4-45ae-976e-871528fd1bd7</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>backgroundColor</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>backgroundImageUrl</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>columns</name>
+                    <value>Facet-27323c0f-8af7-46ea-b037-6a18af34d4e2</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>verticalAlignment</name>
+                    <value>top</value>
+                </componentInstanceProperties>
+                <componentName>contentbuilder:row</componentName>
+                <identifier>contentbuilder_row</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>backgroundColor</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>backgroundImageUrl</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>columns</name>
+                    <value>Facet-d8b0885b-41df-41fe-8e00-5dbd36954919</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>verticalAlignment</name>
+                    <value>top</value>
+                </componentInstanceProperties>
+                <componentName>contentbuilder:row</componentName>
+                <identifier>contentbuilder_row2</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>backgroundColor</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>backgroundImageUrl</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>columns</name>
+                    <value>Facet-dedb748b-78e4-45ae-976e-871528fd1bd7</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>verticalAlignment</name>
+                    <value>top</value>
+                </componentInstanceProperties>
+                <componentName>contentbuilder:row</componentName>
+                <identifier>contentbuilder_row3</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>main</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <masterLabel>Order_Cancellation_Denial</masterLabel>
+    <template>
+        <name>contentpage:defaultEmailTemplatePageTemplate</name>
+        <properties>
+            <name>backgroundColor</name>
+            <value>#E9EAEC</value>
+        </properties>
+        <properties>
+            <name>backgroundImageUrl</name>
+        </properties>
+        <properties>
+            <name>bodyColor</name>
+            <value>#FFFFFF</value>
+        </properties>
+        <properties>
+            <name>paddingBottom</name>
+            <value>10</value>
+        </properties>
+        <properties>
+            <name>paddingLeft</name>
+            <value>10</value>
+        </properties>
+        <properties>
+            <name>paddingRight</name>
+            <value>10</value>
+        </properties>
+        <properties>
+            <name>paddingTop</name>
+            <value>10</value>
+        </properties>
+        <properties>
+            <name>preheader</name>
+        </properties>
+    </template>
+    <type>EmailTemplatePage</type>
+</FlexiPage>

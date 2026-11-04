@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>DocuSign 自定义参数映射</value>
+    </caseValues>
+    <fields>
+        <help><!-- DocuSign Envelope Configuration --></help>
+        <label>DocuSign 信封配置</label>
+        <name>dfsle__EnvelopeConfiguration__c</name>
+        <relationshipLabel><!-- DocuSign Custom Parameter Maps --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>姓名</label>
+        <name>dfsle__Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order --></label>
+        <name>dfsle__Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- SubValue --></label>
+        <name>dfsle__SubValue__c</name>
+    </fields>
+    <fields>
+        <label>類型</label>
+        <name>dfsle__Type__c</name>
+    </fields>
+    <fields>
+        <label>值</label>
+        <name>dfsle__Value__c</name>
+    </fields>
+    <nameFieldLabel><!-- Name --></nameFieldLabel>
+</CustomObjectTranslation>

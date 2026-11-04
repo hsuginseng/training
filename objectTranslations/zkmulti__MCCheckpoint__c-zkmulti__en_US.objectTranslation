@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Checkpoint</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Checkpoints</value>
+    </caseValues>
+    <fields>
+        <label><!-- Address --></label>
+        <name>zkmulti__Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier Date Time --></label>
+        <name>zkmulti__Carrier_Date_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- City --></label>
+        <name>zkmulti__City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>zkmulti__Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Time --></label>
+        <name>zkmulti__Date_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Geolocation --></label>
+        <name>zkmulti__Geolocation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location on Map --></label>
+        <name>zkmulti__LocationOnMap__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>zkmulti__Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Message --></label>
+        <name>zkmulti__Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipment --></label>
+        <name>zkmulti__Shipment__c</name>
+        <relationshipLabel><!-- Checkpoints --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Source --></label>
+        <name>zkmulti__Source__c</name>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>zkmulti__State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>zkmulti__Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zip --></label>
+        <name>zkmulti__Zip__c</name>
+    </fields>
+    <layouts>
+        <layout>Checkpoint Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- History details --></label>
+            <section>History details</section>
+        </sections>
+        <sections>
+            <label><!-- Location --></label>
+            <section>Location</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

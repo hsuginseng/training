@@ -1,0 +1,126 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Terms and Privacy",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"fdad3e86-ea02-47f2-8ae4-bf61cc31dbd1\",\"columns\":[{\"UUID\":\"7b052d98-3206-4328-998f-1c93be3e7618\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "200px",
+                    "right" : "200px",
+                    "top" : "100px"
+                  }
+                },
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCZIYXB56JKVF73IKUNIT53XWDBU?lastModifiedDate=Wed Mar 11 15:38:25 GMT 2026\",\"altText\":\"\",\"contentKey\":\"MCZIYXB56JKVF73IKUNIT53XWDBU\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "fb8707e1-e2b3-4a13-9b4f-f3313d6cc0e5",
+              "type" : "component"
+            } ],
+            "id" : "7b052d98-3206-4328-998f-1c93be3e7618",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "fdad3e86-ea02-47f2-8ae4-bf61cc31dbd1",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"a2d5c72c-4a1d-447a-9245-9e04c5347a92\",\"columns\":[{\"UUID\":\"141f4961-66fe-4eaa-87e0-52e71e333dcf\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : {
+                  "isVisible" : false
+                },
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCJSE2MYUY2RFLBM5GEFPHW4VFEA?lastModifiedDate=Wed Mar 11 15:38:01 GMT 2026\",\"altText\":\"\",\"contentKey\":\"MCJSE2MYUY2RFLBM5GEFPHW4VFEA\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "b9c33776-770a-410a-840a-a8e75ad9738a",
+              "type" : "component"
+            } ],
+            "id" : "141f4961-66fe-4eaa-87e0-52e71e333dcf",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "a2d5c72c-4a1d-447a-9245-9e04c5347a92",
+          "type" : "component"
+        } ],
+        "id" : "6ab3bc92-5c01-4d85-bfac-efc1d95a1093",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "Terms and Privacy",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "2f76a24b-bcd2-44ce-bd5c-981fc8502967",
+          "type" : "component"
+        } ],
+        "id" : "5b03acb1-6d41-4b9e-92a7-456955ea0312",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "6378f5de-e992-423b-aa13-6ae964d2ae8c",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-terms-and-privacy"
+  },
+  "urlName" : "terms-and-privacy"
+}

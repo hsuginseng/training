@@ -1,0 +1,20 @@
+{
+  "type" : "sfdc_cms__themeLayout",
+  "title" : "My Account Layout",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "attributes" : {
+          "flexAlignment" : "flex-end"
+        },
+        "id" : "8af09b2c-a088-4d5d-a174-e77a1c836f12"
+      }, {
+        "attributes" : {
+          "pickerButtonAlignment" : "right"
+        },
+        "id" : "e25c77eb-42ff-4c30-ba80-17278c5fb186"
+      } ]
+    }
+  },
+  "urlName" : "my-account-layout"
+}

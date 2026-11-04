@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Docusign 일괄 전송 상태</value>
+    </caseValues>
+    <fields>
+        <label>배치 크기</label>
+        <name>dfsle__BatchSize__c</name>
+    </fields>
+    <fields>
+        <label>DocuSign 배치 ID</label>
+        <name>dfsle__DocuSignId__c</name>
+    </fields>
+    <fields>
+        <label>실패한 봉투</label>
+        <name>dfsle__FailedEnvelopes__c</name>
+    </fields>
+    <fields>
+        <label>마지막 상태 업데이트</label>
+        <name>dfsle__LastStatusUpdate__c</name>
+    </fields>
+    <fields>
+        <label>대기열에 있는 봉투</label>
+        <name>dfsle__QueuedEnvelopes__c</name>
+    </fields>
+    <fields>
+        <label>발송된 봉투</label>
+        <name>dfsle__SentEnvelopes__c</name>
+    </fields>
+    <fields>
+        <label>Salesforce 소스 ID</label>
+        <name>dfsle__SourceId__c</name>
+    </fields>
+    <fields>
+        <label>제출됨</label>
+        <name>dfsle__Submitted__c</name>
+    </fields>
+    <nameFieldLabel>Envelope#</nameFieldLabel>
+</CustomObjectTranslation>

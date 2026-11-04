@@ -1,0 +1,1382 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "About Ginseng (New)",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"366d66b9-ee0b-49ab-bb31-17f75a167797\",\"columns\":[{\"UUID\":\"c67cb3fc-510b-486e-8054-01635f5dd17a\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"e8ee52fe-ca05-4387-b343-ab3b81503f98\",\"columnName\":\"Column 2\",\"columnKey\":\"46222\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"5aa1624f-2eec-48fd-ac85-eb64494ae753\",\"columnName\":\"Column 3\",\"columnKey\":\"521ed\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"bad0edf2-ac3a-4149-a103-d80b8f925d75\",\"columnName\":\"Column 4\",\"columnKey\":\"95438\",\"columnWidth\":\"3\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : { },
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCO27G4HTNJJEOTDU35X3MKOGXCI?lastModifiedDate=Thu Feb 06 18:23:01 GMT 2025\",\"altText\":\"\",\"contentKey\":\"MCO27G4HTNJJEOTDU35X3MKOGXCI\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "396ba63d-7560-41b7-89f6-8c68f0359be5",
+              "type" : "component"
+            } ],
+            "id" : "c67cb3fc-510b-486e-8054-01635f5dd17a",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "0px",
+                    "left" : "20px",
+                    "right" : "20px",
+                    "top" : "0px"
+                  }
+                },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "American Ginseng (Panax Quinquefolius L)",
+                "textAlign" : "left",
+                "textDecoration" : "{\"bold\":false}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xxsmall\",\"headingTag\":\"h6\",\"enableOverride\":false}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "01be8897-c874-46c4-8dba-acf7f4eb208b",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "20px",
+                    "right" : "20px",
+                    "top" : "30px"
+                  }
+                },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "American ginseng is Yin in nature, it is used in traditional Chinese medicine to balance internal heat, which reduces stress, promotes relaxation, and improves sleep. Additionally, a well-rested body contributes to increased energy levels and supports healthy cognitive function over time. American ginseng is intended to be used daily as part of a balanced health regimen including diet and exercise.",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xsmall\",\"headingTag\":\"h5\",\"enableOverride\":false}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "a4efaec3-aede-4710-bc94-e7dd7f2c193a",
+              "type" : "component"
+            } ],
+            "id" : "e8ee52fe-ca05-4387-b343-ab3b81503f98",
+            "name" : "46222",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : { },
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCGUY4YQYDJVGIXNB5LZKQQQRUY4?lastModifiedDate=Thu Feb 06 18:23:01 GMT 2025\",\"altText\":\"\",\"contentKey\":\"MCGUY4YQYDJVGIXNB5LZKQQQRUY4\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "9b75f807-7595-4227-8790-679d80f1a7e5",
+              "type" : "component"
+            } ],
+            "id" : "5aa1624f-2eec-48fd-ac85-eb64494ae753",
+            "name" : "521ed",
+            "title" : "Column 3",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "20px",
+                    "right" : "20px",
+                    "top" : ""
+                  }
+                },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Asian Ginseng (Panax CA Meyer) ",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xxsmall\",\"headingTag\":\"h6\",\"enableOverride\":false}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "e521752b-c358-4dc0-bd64-a87812f5af52",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "20px",
+                    "right" : "20px",
+                    "top" : "30px"
+                  }
+                },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Asian ginseng has a more stimulating effect and, being Yang in nature, is highly sought after in the United States. For this reason, it is similar to caffeine, making it a popular ingredient in energy drinks in the United States due to the busy and fast-paced lifestyles here.\n\n\n\nTraditionally, Asian ginseng is used in China and Korea to boost physical performance and revitalize the body. Its effects are felt quickly and can last for several hours after consumption, but are primarily intended for short-term or prescription use.",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xsmall\",\"headingTag\":\"h5\",\"enableOverride\":false}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "350f9c41-8090-4ced-833f-5a11516e1421",
+              "type" : "component"
+            } ],
+            "id" : "bad0edf2-ac3a-4149-a103-d80b8f925d75",
+            "name" : "95438",
+            "title" : "Column 4",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "366d66b9-ee0b-49ab-bb31-17f75a167797",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"a0a26b7b-9482-4767-9172-3363a812525d\",\"columns\":[{\"UUID\":\"50f423ae-5399-43bb-bf33-2772af6f7a2e\",\"columnName\":\"Column 1\",\"columnKey\":\"21e90\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"8e32da85-35e1-423c-8899-56b2cbed26ae\",\"columnName\":\"Column 2\",\"columnKey\":\"25b59\",\"columnWidth\":\"9\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : { },
+                "fit" : "cover",
+                "height" : 460,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCDK5EVQACO5GE7O2S7MG5DVPJN4?lastModifiedDate=Thu Feb 06 18:23:01 GMT 2025\",\"altText\":\"\",\"contentKey\":\"MCDK5EVQACO5GE7O2S7MG5DVPJN4\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "c3da5410-6501-4e65-bcd9-cb30fa105ab1",
+              "type" : "component"
+            } ],
+            "id" : "50f423ae-5399-43bb-bf33-2772af6f7a2e",
+            "name" : "21e90",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "20px",
+                    "right" : "20px",
+                    "top" : ""
+                  }
+                },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Wild American Ginseng",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xxsmall\",\"headingTag\":\"h6\",\"enableOverride\":false}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "af90a81c-575c-4820-892e-35fbc4180dc3",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "20px",
+                    "right" : "50px",
+                    "top" : "30px"
+                  }
+                },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "\nWild American ginseng (Panax quinquefolius L) is the original plant and seed stock from which cultivated or farm raised ginseng is derived and prized for its more complex flavor and higher concentration of beneficial compounds, like ginsenosides. It has been traditionally used in both Chinese and American herbal medicine to reduce stress, improve immune bodily functions, and boost energy.",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xsmall\",\"headingTag\":\"h5\",\"enableOverride\":false}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "af202a78-22ce-4791-b2b2-6e31528e7f91",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "20px",
+                    "right" : "50px",
+                    "top" : "30px"
+                  }
+                },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "It grows naturally in shaded forests throughout the United States and Canada, taking over 10 years to mature, but can only legally be harvested in the United States for commercial sale. In the wild, this plant competes for nutrients with many surrounding plants and faces various challenges determined by climate conditions. As a result, only a small percentage of plants survive past 10 or 15 years. Wild ginseng that is older than 10 years is especially valued for its longevity and why all states have local harvest regulations due to its limited availability and regulated harvest season, wild American ginseng is far more expensive and highly sought after for its superior quality, with an average market price exceeding $1,000 per pound.",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xsmall\",\"headingTag\":\"h5\",\"enableOverride\":false}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "b4819c02-fe20-47a1-a417-8b068fa14abe",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "20px",
+                    "right" : "50px",
+                    "top" : "30px"
+                  }
+                },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Due to overharvesting concerns and shrinking habitat, wild American ginseng has been listed under Appendix II of the Convention for International Trade in Endangered Species (CITES). While it can still be legally harvested, each state has its own regulations, so it’s important to follow local guidelines and only purchase product from licensed dealers, such as Hsu’s.",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xsmall\",\"headingTag\":\"h5\",\"enableOverride\":false}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "391c7205-2310-4d26-9d57-12b71c75c2ce",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "20px",
+                    "left" : "20px",
+                    "right" : "50px",
+                    "top" : "20px"
+                  }
+                },
+                "isLinkable" : true,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Click here to learn more about Legal Harvest States and Good Stewardship.",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\",\"enableOverride\":false}",
+                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"https://www.ahpa.org/ahpa_good_stewardship_brochures\"}}}}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "a3a16353-e382-4977-abd7-7fe61c6087cb",
+              "type" : "component"
+            } ],
+            "id" : "8e32da85-35e1-423c-8899-56b2cbed26ae",
+            "name" : "25b59",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "a0a26b7b-9482-4767-9172-3363a812525d",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"8360bf8b-f1c7-466c-803f-c95094fa381d\",\"columns\":[{\"UUID\":\"7a1e847b-cd2c-431e-88e4-fb06787a98aa\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"770810f8-d1da-4c07-aa7d-7dc55935a729\",\"columnName\":\"Column 2\",\"columnKey\":\"e0cc1\",\"columnWidth\":\"8\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : { },
+                "fit" : "cover",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCSNYWGVOHNNHINASPLZGDVGMXT4?lastModifiedDate=Thu Feb 06 18:23:01 GMT 2025\",\"altText\":\"\",\"contentKey\":\"MCSNYWGVOHNNHINASPLZGDVGMXT4\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "eecfb24f-2e44-433e-976a-101138b50088",
+              "type" : "component"
+            } ],
+            "id" : "7a1e847b-cd2c-431e-88e4-fb06787a98aa",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "20px",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Woodsgrown (Wild-Simulated American Ginseng)",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\",\"enableOverride\":false}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "375e00a7-29f4-48c3-adfa-1b481d93705d",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "20px",
+                    "right" : "50px",
+                    "top" : "30px"
+                  }
+                },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Wild-simulated ginseng is a cultivation method that mimics the natural growing conditions of wild American ginseng (Panax quinquefolius L.). This approach involves planting ginseng seeds in forested areas, allowing the plants to grow under natural canopy and soil conditions found in the wild. Growers use this approach to create ginseng that is similar to wild ginseng in taste, chemical makeup, and health benefits.\n\nCultivated ginseng is often grown in open fields with controlled conditions. In contrast, wild-simulated ginseng benefits from the natural ecosystem. It usually takes about 8 to 10 years for it to reach maturity.",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xsmall\",\"headingTag\":\"h5\",\"enableOverride\":false}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "300318ce-4261-4950-a970-47ab6c608903",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "20px",
+                    "right" : "50px",
+                    "top" : "20px"
+                  }
+                },
+                "isLinkable" : true,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Click here to learn more about Legal Harvest States and Good Stewardship.",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\",\"enableOverride\":false}",
+                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"https://www.ahpa.org/ahpa_good_stewardship_brochures\"}}}}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "cfa754eb-e0fe-43fd-9f29-a7908afd45ab",
+              "type" : "component"
+            } ],
+            "id" : "770810f8-d1da-4c07-aa7d-7dc55935a729",
+            "name" : "e0cc1",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "8360bf8b-f1c7-466c-803f-c95094fa381d",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"31495407-d9ba-4a0e-ab50-8a52cbecae8b\",\"columns\":[{\"UUID\":\"fdb904a5-d45d-440d-9be2-c5b819f4715b\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"8\",\"seedComponents\":[]},{\"UUID\":\"07e90efa-1598-4b93-a917-a86aa74abeb3\",\"columnName\":\"Column 2\",\"columnKey\":\"fc883\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Ginseng History",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\",\"enableOverride\":false}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "dfbdc761-4c5c-4819-ae68-00fa75952837",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : "30px"
+                  }
+                },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "During the Han Dynasty (206 BC – 220 AD), the Chinese physician Zhang Zhongjing created and included the use of ginseng in the 'Shanghan Lun,' which became a foundational text in the pharmacopeia of Traditional Chinese Medicine. For around 1,500 years, Asian ginseng was used only in China and Korea, where it was typically reserved for imperial royalty. Ginseng was introduced to Italy through writings about Chinese trade in the late Ming Dynasty (1368 – 1644).",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xsmall\",\"headingTag\":\"h5\",\"enableOverride\":false}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "c0c174e3-c9bb-497d-ad15-68f8909a5ad2",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : "20px"
+                  }
+                },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "A Jesuit missionary named Father Jartoux wrote about Asian ginseng while he was in China. His illustrations from this text were printed in The Memoir of the Royal Academy in Paris (1709) and then translated into English in The Philosophical Transactions of the Royal Society of London (1711) bringing more knowledge of ginseng to Europe. ",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xsmall\",\"headingTag\":\"h5\",\"enableOverride\":false}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "c165d011-e9ee-446e-a051-69f90feb6a40",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : "20px"
+                  }
+                },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Father Lafitau was inspired by Father Jartoux’s writings and later learned about American ginseng when he was in Quebec in 1716. Although Native Americans, including the Iroquois, already had a strong understanding of American ginseng and used it during this time, Father Lafitau was credited with the discovery of American Ginseng in 1718 near modern day Montreal. ",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xsmall\",\"headingTag\":\"h5\",\"enableOverride\":false}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "68b059b7-5f20-4c50-aabc-57eb9954e1fe",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : "20px"
+                  }
+                },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "French-Canadians seized the opportunity to trade American ginseng as it became a valuable commodity. They intertwined this trade with the 18th-century fur trade routes. The demand for American ginseng, along with British colonial trade, expanded the commercialization of the root. Britain’s dominant influence in Hong Kong and Guangzhou fueled this growing demand. As Europeans expanded westward in the United States, more wild ginseng was found and foraged out of the Tennessee River and Ohio River Valleys traded alongside furs for 200 years until the 1990s. American ginseng was primarily harvested as wild ginseng until the Fromm brothers were credited with successfully cultivating wide-scale farm raised ginseng in artificially shaded gardens in 1904.",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xsmall\",\"headingTag\":\"h5\",\"enableOverride\":false}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "ff785695-5660-4791-aa73-8ca51cb9b1b3",
+              "type" : "component"
+            } ],
+            "id" : "fdb904a5-d45d-440d-9be2-c5b819f4715b",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "imageInfos" : "",
+                "richTextValue" : "<p style=\"text-align: center;\"><img src=\"{!cmsMedia.MC225TNDVHB5D4JHWMFCJLU7J4OY}\" alt=\"\" width=\"401\"></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "9a43dece-f879-40b8-92c4-03d1a069ad91",
+              "type" : "component"
+            } ],
+            "id" : "07e90efa-1598-4b93-a917-a86aa74abeb3",
+            "name" : "fc883",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "31495407-d9ba-4a0e-ab50-8a52cbecae8b",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"4939e22f-c30b-4152-ab2f-427c474b00b6\",\"columns\":[{\"UUID\":\"b21f6bff-5cad-4205-8313-e4b2be478d59\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"0c4d25a8-be80-4dbb-bac9-3314eb9f6d27\",\"columnName\":\"Column 2\",\"columnKey\":\"fabd4\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "American Ginseng Cultivation at Hsu’s Ginseng",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\",\"enableOverride\":false}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "0aef3426-0ebc-47fc-b36b-d5b236de2b30",
+              "type" : "component"
+            } ],
+            "id" : "b21f6bff-5cad-4205-8313-e4b2be478d59",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "id" : "0c4d25a8-be80-4dbb-bac9-3314eb9f6d27",
+            "name" : "fabd4",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "4939e22f-c30b-4152-ab2f-427c474b00b6",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"c13bad89-e11c-41c7-acd4-786000fae2cd\",\"columns\":[{\"UUID\":\"e0ee3df7-f6a7-4015-a7fe-95832d9cb48c\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"2\",\"seedComponents\":[]},{\"UUID\":\"7a3a938b-213a-47ea-8024-94def0ecddca\",\"columnName\":\"Column 2\",\"columnKey\":\"e7334\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"8689049f-e3ee-4c08-a53e-661ae76d1644\",\"columnName\":\"Column 3\",\"columnKey\":\"64909\",\"columnWidth\":\"2\",\"seedComponents\":[]},{\"UUID\":\"b88a71c4-2c91-456b-adde-71644c1dc8b4\",\"columnName\":\"Column 4\",\"columnKey\":\"9cc07\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : { },
+                "fit" : "cover",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCJPDFQ5PFYBDP3CVBQRO756VTPQ?lastModifiedDate=Thu Feb 06 18:23:01 GMT 2025\",\"altText\":\"\",\"contentKey\":\"MCJPDFQ5PFYBDP3CVBQRO756VTPQ\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "1f285ca0-02d1-462c-9d54-a70ce3e2e5af",
+              "type" : "component"
+            } ],
+            "id" : "e0ee3df7-f6a7-4015-a7fe-95832d9cb48c",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "20px",
+                    "right" : "30px",
+                    "top" : ""
+                  }
+                },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Shade Fabric",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xxsmall\",\"headingTag\":\"h6\",\"enableOverride\":false}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "9087fe2c-cc2d-4eaa-a07a-86ecb155dec4",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "20px",
+                    "right" : "30px",
+                    "top" : "30px"
+                  }
+                },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "The cultivation of wild ginseng in farm fields is designed to mimic its growth on the forest floor. Naturally, in the forest, leaves from native trees protect American ginseng plants from being exposed to too much sun. Every spring, our American ginseng fields must be covered by shade fabric that allows 20 to 30 percent of light to shine through as plants will not survive if exposed to more than an hour or two of direct sunlight daily.",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xsmall\",\"headingTag\":\"h5\",\"enableOverride\":false}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "2a7f8932-eec8-4675-83a5-587733b33691",
+              "type" : "component"
+            } ],
+            "id" : "7a3a938b-213a-47ea-8024-94def0ecddca",
+            "name" : "e7334",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : { },
+                "fit" : "cover",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCDHA3TGFASVCITITVXIHVCQANMU?lastModifiedDate=Thu Feb 06 18:23:01 GMT 2025\",\"altText\":\"\",\"contentKey\":\"MCDHA3TGFASVCITITVXIHVCQANMU\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "83628f90-6472-4b54-a276-47918037e94f",
+              "type" : "component"
+            } ],
+            "id" : "8689049f-e3ee-4c08-a53e-661ae76d1644",
+            "name" : "64909",
+            "title" : "Column 3",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "20px",
+                    "right" : "30px",
+                    "top" : ""
+                  }
+                },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Seeds are Stratified and Planted",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xxsmall\",\"headingTag\":\"h6\",\"enableOverride\":false}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "443145fb-c6c8-47aa-9cf1-b453c893875e",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "20px",
+                    "right" : "30px",
+                    "top" : "30px"
+                  }
+                },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "American ginseng seeds need to go through a stratification process, where they are exposed to cold conditions for 30 days or more before they will germinate. This process naturally occurs over winter at around 45 degrees latitude where seeds are exposed to cold, snow, freezing and thawing conditions. At Hsu’s Ginseng, we store ginseng seeds buried in sand to simulate this over-wintering process. After the stratification process, the seeds are planted in the fields the following July, where they sprout in the spring of the subsequent year.",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xsmall\",\"headingTag\":\"h5\",\"enableOverride\":false}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "60e1c132-5e6d-42a4-bc91-4be3d1c483cd",
+              "type" : "component"
+            } ],
+            "id" : "b88a71c4-2c91-456b-adde-71644c1dc8b4",
+            "name" : "9cc07",
+            "title" : "Column 4",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "c13bad89-e11c-41c7-acd4-786000fae2cd",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"e34875f1-4c5a-434c-81da-c51bf795afde\",\"columns\":[{\"UUID\":\"8a1d8fd7-8e05-435a-8940-26c06522f37c\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"2\",\"seedComponents\":[]},{\"UUID\":\"b6d42b9b-db5d-4014-a3a4-b70b96b18500\",\"columnName\":\"Column 2\",\"columnKey\":\"1db7f\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"e0cb18f1-627c-4286-af62-7eb06b88b67a\",\"columnName\":\"Column 3\",\"columnKey\":\"3e744\",\"columnWidth\":\"2\",\"seedComponents\":[]},{\"UUID\":\"b1a50966-4bd8-4386-938a-a299817800a2\",\"columnName\":\"Column 4\",\"columnKey\":\"9f575\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : { },
+                "fit" : "cover",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCCJRJYLR27RFRHGX6BZX3KT2X4M?lastModifiedDate=Thu Feb 06 18:23:01 GMT 2025\",\"altText\":\"\",\"contentKey\":\"MCCJRJYLR27RFRHGX6BZX3KT2X4M\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "e79a6329-e464-4d20-b9ab-05bd21b39aec",
+              "type" : "component"
+            } ],
+            "id" : "8a1d8fd7-8e05-435a-8940-26c06522f37c",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "20px",
+                    "right" : "30px",
+                    "top" : ""
+                  }
+                },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "First Year",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xxsmall\",\"headingTag\":\"h6\",\"enableOverride\":false}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "058d9113-7941-441c-bada-4d5e8321777d",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "20px",
+                    "right" : "30px",
+                    "top" : "30px"
+                  }
+                },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "In the first year, the ginseng plant produces one stem with three leaves. At this point, the sprout is very delicate and looks like a maple tree seedling. Plants that are adversely impacted by disease or weather conditions this critical stage typically die and do not recover or germinate the following year.",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xsmall\",\"headingTag\":\"h5\",\"enableOverride\":false}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "12e9346b-8465-4eda-a0f2-39199fc0a505",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "20px",
+                    "right" : "30px",
+                    "top" : "30px"
+                  }
+                },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Subsequent Years (2-4 Years)",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xxsmall\",\"headingTag\":\"h6\",\"enableOverride\":false}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "e332828b-a185-4c5c-acf6-f0162804e450",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "20px",
+                    "right" : "30px",
+                    "top" : "30px"
+                  }
+                },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Generally, each year the plants develop another prong of three or five leaves from the main stem. They eventually grow around 4-5 prongs in total with typically 5 leaves per prong, thus the species name quinquefolius. They also develop a stronger root system. After 2–3 years of growth, plants release allelopathic compounds into the soil that prevent new ginseng plants from growing in the surrounding soil. This is a defense mechanism older plants use to prevent younger plants from taking up space and competing for survival in its natural wild environment.",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xsmall\",\"headingTag\":\"h5\",\"enableOverride\":false}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "3f64f6bd-28d9-4a44-af15-c502406c81ae",
+              "type" : "component"
+            } ],
+            "id" : "b6d42b9b-db5d-4014-a3a4-b70b96b18500",
+            "name" : "1db7f",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : { },
+                "fit" : "cover",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCECIWMKG4HRAWNAWUQ6FDHEXAKY?lastModifiedDate=Thu Feb 06 18:23:01 GMT 2025\",\"altText\":\"\",\"contentKey\":\"MCECIWMKG4HRAWNAWUQ6FDHEXAKY\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "bc1ca0a0-a7f7-42ab-80a0-4ab4b0a61a96",
+              "type" : "component"
+            } ],
+            "id" : "e0cb18f1-627c-4286-af62-7eb06b88b67a",
+            "name" : "3e744",
+            "title" : "Column 3",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "20px",
+                    "right" : "30px",
+                    "top" : ""
+                  }
+                },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Maturity (3-5 Years)",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xxsmall\",\"headingTag\":\"h6\",\"enableOverride\":false}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "23cdddd5-8762-4a81-995e-56987402a3c3",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "20px",
+                    "right" : "30px",
+                    "top" : "30px"
+                  }
+                },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "American ginseng normally takes three to five years to reach maturity in farm raised beds, depending on the growing conditions. At this point, the plant consists of multiple prongs of five leaves, a full seed head, and a thick root that is ready for harvest. Mature plants produce red berries that contain seeds, which can be harvested and depulped for future planting.",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xsmall\",\"headingTag\":\"h5\",\"enableOverride\":false}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "f859efa3-4dcc-4a49-a169-780820285228",
+              "type" : "component"
+            } ],
+            "id" : "b1a50966-4bd8-4386-938a-a299817800a2",
+            "name" : "9f575",
+            "title" : "Column 4",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "e34875f1-4c5a-434c-81da-c51bf795afde",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"ef721b3a-da1e-4808-91ae-322501388fd8\",\"columns\":[{\"UUID\":\"667a5d8a-8dc9-4c62-b727-dc7b8461e862\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"2\",\"seedComponents\":[]},{\"UUID\":\"784e24f7-8aa8-484a-bcf8-5c32bf3a6d90\",\"columnName\":\"Column 2\",\"columnKey\":\"fd9c5\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"83cc61c8-e0ab-4995-b7eb-6f8967404c7d\",\"columnName\":\"Column 3\",\"columnKey\":\"80b33\",\"columnWidth\":\"2\",\"seedComponents\":[]},{\"UUID\":\"c1e7e1fc-fc61-4fe7-b5e9-05cab917f98c\",\"columnName\":\"Column 4\",\"columnKey\":\"29d5a\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : { },
+                "fit" : "cover",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCG5B7XRXCPJFWXFQWCITXF2F7DA?lastModifiedDate=Thu Feb 06 18:23:01 GMT 2025\",\"altText\":\"\",\"contentKey\":\"MCG5B7XRXCPJFWXFQWCITXF2F7DA\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "f2fea5d1-0c36-458f-a33a-9e335e25fde1",
+              "type" : "component"
+            } ],
+            "id" : "667a5d8a-8dc9-4c62-b727-dc7b8461e862",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "20px",
+                    "right" : "30px",
+                    "top" : ""
+                  }
+                },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Harvest",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xxsmall\",\"headingTag\":\"h6\",\"enableOverride\":false}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "02489cd6-1b39-469c-b50d-a80d85c61511",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "20px",
+                    "right" : "30px",
+                    "top" : "30px"
+                  }
+                },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Ginseng roots are at their prime when harvested in the fall because they are rich in active compounds. Roots are carefully dug up, washed, and then dried. From harvest through drying, the entire process takes at least six weeks, amounting to four months of dedicated work each harvest season given the acreage we are harvesting and the work we are doing for other farmers locally in our modern processing facility.",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xsmall\",\"headingTag\":\"h5\",\"enableOverride\":false}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "006ec868-159b-4911-b7a9-92d35fc17ce3",
+              "type" : "component"
+            } ],
+            "id" : "784e24f7-8aa8-484a-bcf8-5c32bf3a6d90",
+            "name" : "fd9c5",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : { },
+                "fit" : "cover",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCDWKH2W4AUFFTDKUT5FWOP7JH5U?lastModifiedDate=Thu Feb 06 18:23:01 GMT 2025\",\"altText\":\"\",\"contentKey\":\"MCDWKH2W4AUFFTDKUT5FWOP7JH5U\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "372987e1-5d84-4b88-b4c2-5038bff051ea",
+              "type" : "component"
+            } ],
+            "id" : "83cc61c8-e0ab-4995-b7eb-6f8967404c7d",
+            "name" : "80b33",
+            "title" : "Column 3",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "20px",
+                    "right" : "30px",
+                    "top" : ""
+                  }
+                },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Washing Process",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xxsmall\",\"headingTag\":\"h6\",\"enableOverride\":false}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "82435a3a-3d36-4bb2-af5c-5e86791e2281",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "20px",
+                    "right" : "30px",
+                    "top" : "30px"
+                  }
+                },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "After harvest, American ginseng roots go through our washing process. The unwashed roots are fed via a conveyor into a wash tub that resembles a front-load washing machine, where they are continuously sprayed with water until gravity and the flow of water draws them into a partially flooded flume, the flume separates rocks from the field from semi-buoyant ginseng roots, which are raked by a rotating fork onto another conveyor belt. Our production team of around 15-16 people sorts out imperfect roots by hand, then quickly separates roots of different sizes and shapes for further processing.",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xsmall\",\"headingTag\":\"h5\",\"enableOverride\":false}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "f8a195c6-803c-4044-95b8-970b334deee4",
+              "type" : "component"
+            } ],
+            "id" : "c1e7e1fc-fc61-4fe7-b5e9-05cab917f98c",
+            "name" : "29d5a",
+            "title" : "Column 4",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "ef721b3a-da1e-4808-91ae-322501388fd8",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"5d3f7dd7-d149-4e3f-9b48-219bebbab166\",\"columns\":[{\"UUID\":\"3d967c0f-06cf-40e3-8c20-b9ad67142b50\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"2\",\"seedComponents\":[]},{\"UUID\":\"9d22f31b-8586-4604-ac44-d645740fc369\",\"columnName\":\"Column 2\",\"columnKey\":\"6911b\",\"columnWidth\":\"10\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : { },
+                "fit" : "cover",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCPUBCC2HUGFDPTA3677HJATUGYE?lastModifiedDate=Thu Feb 06 18:23:01 GMT 2025\",\"altText\":\"\",\"contentKey\":\"MCPUBCC2HUGFDPTA3677HJATUGYE\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "8e068c06-32fc-4b0b-9baa-e345bcaa305c",
+              "type" : "component"
+            } ],
+            "id" : "3d967c0f-06cf-40e3-8c20-b9ad67142b50",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "20px",
+                    "right" : "30px",
+                    "top" : ""
+                  }
+                },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Drying Process",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xxsmall\",\"headingTag\":\"h6\",\"enableOverride\":false}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "81914bff-97ef-4c6b-a21b-670e7bfdab6d",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "20px",
+                    "right" : "30px",
+                    "top" : "30px"
+                  }
+                },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "At Hsu’s Ginseng, we have 20 kiln dryers, which were originally designed for the tobacco industry. Like many of our tractors and much of our processing equipment, we’ve applied ingenuity and mechanical skills to transform them for use in the American ginseng industry. Each dryer holds approximately 15,000 pounds of fresh ginseng root, yielding roughly 5,000 pounds of dried product after completion of the two-to three-week drying cycle. With this setup, we can dry approximately 100,000 pounds of ginseng in one cycle, and typically complete three cycles per season for our farms and other local farmers. The drying process involves gently heating the roots between 100° to 120°F over 14 to 21 days while monitoring humidity and adjusting for outdoor ambient conditions. This careful drying method enhances the flavor and consistency of the ginseng. Our dryers are equipped with fans that circulate fresh air and remove moisture to ensure the roots are dried evenly throughout the process.",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xsmall\",\"headingTag\":\"h5\",\"enableOverride\":false}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "1b2377e9-1bac-4f92-bcb8-ffa9d67f78ed",
+              "type" : "component"
+            } ],
+            "id" : "9d22f31b-8586-4604-ac44-d645740fc369",
+            "name" : "6911b",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "5d3f7dd7-d149-4e3f-9b48-219bebbab166",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"7fc251d1-6ae3-4e17-a9f6-e6fddb94e9f1\",\"columns\":[{\"UUID\":\"2ccd71b4-ef80-4e0b-890e-f7ae157c2c84\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"2f6dc347-780b-4f85-9086-97bf24ffe036\",\"columnName\":\"Column 2\",\"columnKey\":\"2376e\",\"columnWidth\":\"8\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Cultivation Challenges",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\",\"enableOverride\":false}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "02db3ba6-c007-44e8-a8d6-50838a978168",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : "30px"
+                  }
+                },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Growing American ginseng is labor-intensive due to the multi-year nature of the crop and weather, even finding steady help can be a challenge.\nAmerican ginseng requires specific conditions, such as well-drained soil, adequate shade, and crop protection from pests and diseases.\nGinseng is very susceptible to fungus growth. We spray fungicides intermittently and rows between the raised beds of plants provide a place for water to drain.\nMost animals aren’t interested in eating the plant tops with other more nutritious cash crops nearby, such as soybeans or corn, but deer will sometimes forage the tops in the woods and seeds are a favorite of squirrels and chipmunks.\nAllelopathic compounds in the soil prevent American ginseng growth and are known to stay in the soil for decades. This means we cannot plant in the same field more than once and use virgin ginseng farmland each time. We obviously buy, sell, trade, and rent a lot of land in Marathon County, Wisconsin.",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xsmall\",\"headingTag\":\"h5\",\"enableOverride\":false}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "47c2df16-b3d6-4fb2-b0bd-bd4ec5b7e22c",
+              "type" : "component"
+            } ],
+            "id" : "2ccd71b4-ef80-4e0b-890e-f7ae157c2c84",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : { },
+                "fit" : "cover",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCXUDJZCJYRVHSLNYS3VYLUY52XU?lastModifiedDate=Thu Feb 06 18:23:01 GMT 2025\",\"altText\":\"\",\"contentKey\":\"MCXUDJZCJYRVHSLNYS3VYLUY52XU\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "436bd4d0-8069-49f7-8e6f-7cb4f8e6ed58",
+              "type" : "component"
+            } ],
+            "id" : "2f6dc347-780b-4f85-9086-97bf24ffe036",
+            "name" : "2376e",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "7fc251d1-6ae3-4e17-a9f6-e6fddb94e9f1",
+          "type" : "component"
+        } ],
+        "id" : "faa8ec28-b6a8-4df8-b657-1226cd64eb59",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "About Ginseng (New)",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "93e85ab7-d74f-4bd4-af77-1de15ed66d59",
+          "type" : "component"
+        } ],
+        "id" : "68b5f0d0-40ca-40a5-80be-59b308db02e3",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "8edc638a-3f34-4a1b-a82a-85288e4113ce",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-about-ginseng"
+  },
+  "urlName" : "about-ginseng-new"
+}

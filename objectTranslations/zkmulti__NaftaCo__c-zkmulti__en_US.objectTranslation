@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>USMCA CO</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>USMCA COs</value>
+    </caseValues>
+    <fields>
+        <label><!-- Blanket Period Begin Date --></label>
+        <name>zkmulti__BlanketPeriodBeginDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Blanket Period End Date --></label>
+        <name>zkmulti__BlanketPeriodEndDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>zkmulti__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Override Sold To --></label>
+        <name>zkmulti__OverrideSoldTo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Producer Address City --></label>
+        <name>zkmulti__ProducerAddressCity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Producer Address Country Code --></label>
+        <name>zkmulti__ProducerAddressCountryCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Producer Address Postal Code --></label>
+        <name>zkmulti__ProducerAddressPostalCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Producer Address State/Province --></label>
+        <name>zkmulti__ProducerAddressStateProvince__c</name>
+    </fields>
+    <fields>
+        <label><!-- Producer Address Street --></label>
+        <name>zkmulti__ProducerAddressStreet__c</name>
+    </fields>
+    <fields>
+        <label><!-- Producer Attention Name --></label>
+        <name>zkmulti__ProducerAttentionName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Producer Company Name --></label>
+        <name>zkmulti__ProducerCompanyName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Producer Email --></label>
+        <name>zkmulti__ProducerEmail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Producer Phone --></label>
+        <name>zkmulti__ProducerPhone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Producer Tax ID --></label>
+        <name>zkmulti__ProducerTaxId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Signature Contact Company --></label>
+        <name>zkmulti__SignatureContactCompany__c</name>
+    </fields>
+    <fields>
+        <label><!-- Signature Contact Name --></label>
+        <name>zkmulti__SignatureContactName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Signature Contact Phone --></label>
+        <name>zkmulti__SignatureContactPhone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Signature Contact Title --></label>
+        <name>zkmulti__SignatureContactTitle__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sold To Account --></label>
+        <name>zkmulti__SoldToAccount__c</name>
+        <relationshipLabel><!-- USMCA COs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sold To City --></label>
+        <name>zkmulti__SoldToCity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sold To Company Name --></label>
+        <name>zkmulti__SoldToCompanyName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sold To Contact Name --></label>
+        <name>zkmulti__SoldToContactName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sold To Contact --></label>
+        <name>zkmulti__SoldToContact__c</name>
+        <relationshipLabel><!-- USMCA COs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sold To Country --></label>
+        <name>zkmulti__SoldToCountry__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sold To Phone --></label>
+        <name>zkmulti__SoldToPhone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sold To State/Province --></label>
+        <name>zkmulti__SoldToStateProvince__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sold To Street --></label>
+        <name>zkmulti__SoldToStreet__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sold To TaxID --></label>
+        <name>zkmulti__SoldToTaxID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sold To Zip/Postal Code --></label>
+        <name>zkmulti__SoldToZipPostalCode__c</name>
+    </fields>
+    <layouts>
+        <layout>FedEx NAFTA CO Layout</layout>
+        <sections>
+            <label><!-- Blanket Period --></label>
+            <section>Blanket Period</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Producer Information --></label>
+            <section>Producer Information</section>
+        </sections>
+        <sections>
+            <label><!-- Signature Contact Information --></label>
+            <section>Signature Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Sold To --></label>
+            <section>Sold To</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

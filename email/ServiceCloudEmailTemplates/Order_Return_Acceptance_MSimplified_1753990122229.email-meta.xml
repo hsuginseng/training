@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email template for auto-response on Order Return Acceptance</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Order Return Acceptance (MSimplified)</name>
+    <pageDevName>Order_Return_Acceptance_MSimplified</pageDevName>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>Your Return Request Has Been Accepted - Next Steps</subject>
+    <textOnly>Case #: {{{Case.CaseNumber}}}
+
+Subject: {{{Case.Subject}}}
+
+Issue Description: {{{Case.Issue_Description__c}}}
+
+-----------------------------------------------------
+
+您好 {{{Case.First_Name__c}}}，感谢您联系我们!
+
+我们已经接受您针对订单 #{{{Case.Order_Number__c}}} 中商品 [SKU#] 的退货申请，您可以依照下列说明完成退货程序：
+
+退货说明：
+
+- 退货编号：
+
+您的退货号 {{{Case.CaseNumber}}} 
+
+- 需附文件：
+
+请将收据副本放入包裹内，如无收据，请在干净纸上注明退货编号、订单编号及您的联系方式，以便处理退货相关事宜。 
+
+- 商品：
+
+退货商品须保持未开封状态。若商品已开封或在运输途中受损，我们可能会拒绝退货申请或收取5-15%的回置费用，请务必妥善包装后寄回，以确保商品完整。 
+
+- 退款时间：
+
+约2-3周。 
+
+- 退货地址：
+
+Hsu’s Ginseng Return Dept.
+
+237895 County Road W
+
+Wausau, WI 54403 USA
+
+如有任何问题或需要进一步协助，欢迎回复此邮件或致电 1-800-826-1577 与我们联系。
+
+感谢您的配合与支持！
+
+此致,
+
+{{{Case.Case_Owner_Name__c}}}
+
+许氏客服部
+
+Hsu&apos;s Ginseng Enterprises, Inc.
+
+📌是订单相关问题吗？
+
+如果您要查询现有订单，请记得提供订单号，我们能更快为您服务喔！
+
+**
+----------------------------------------------------
+
+📞联系方式：
+
+电话： (715) 675-2325 / (1800) 826-1577
+
+Email：support@hsuginseng.com
+
+网站：www.hsuginseng.com &lt; http://www.hsuginseng.com/ &gt; 
+
+**
+----------------------------------------------------
+
+🕒客服时间：
+
+周一至周五（国定假日除外）
+
+早上8:30至 下午 5:00 （美国时间）</textOnly>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

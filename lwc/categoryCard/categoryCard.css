@@ -1,0 +1,109 @@
+@import 'c/cssLibrary';
+
+.card {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 2rem;
+	height: 100%;
+}
+
+.card-link {
+	box-shadow: -4px 4px 16px 0px rgba(0, 0, 0, 0);
+	transition: box-shadow .6s ease;
+
+	&:has(.card-image:hover, .cta:hover) {
+		box-shadow: -4px 4px 16px 0px rgba(0, 0, 0, 0.08);
+	}
+}
+
+.card-image {
+	display: block;
+	aspect-ratio: 1 / 1.3;
+	margin-bottom: .5rem;
+
+	@media (max-width: 768px) {
+		aspect-ratio: 1 / 1;
+		margin-bottom: 1rem;
+	}
+
+	img {
+		display: block;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		border-radius: 1rem;
+	}
+}
+
+.card-body {
+	padding: 1.25rem;
+	
+	border-radius: 1rem;
+	box-shadow: -4px 4px 16px 0px rgba(0, 0, 0, 0);
+	transition: box-shadow .6s ease;
+	&:has(.card-image:hover, .card-title:hover) {
+		box-shadow: -4px 4px 16px 0px rgba(0, 0, 0, 0.08);
+		.card-title a {
+			text-decoration-color: #272525;
+		}
+	}
+
+}
+
+h3 {
+	font-size: 1.25rem !important;
+	line-height: 1.5 !important;
+	letter-spacing: .002em;
+	color: #272525 !important;
+	margin: 0 0 .5rem 0;
+
+	a {
+		color: #272525 !important;
+		text-decoration-color: transparent;
+		transition: text-decoration-color .6s ease;
+	}
+}
+
+.label, .desc {
+	font-family: "Acumin VF", sans-serif;
+	font-size: 0.875rem;
+	font-weight: 400;
+	line-height: 1.5;
+}
+
+.label {
+	color: #000;
+	margin: 0 0 .25rem 0;
+}
+
+.desc {
+	color: #272525;
+	margin: 0;
+}
+
+.pricing {
+	display: flex;
+	gap: 1rem;
+	margin-top: 1rem;
+}
+
+.price, .sale-price {
+	font-family: "Acumin VF", sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #272525;
+}
+
+.sale-price {
+	text-decoration-line: line-through;
+	opacity: .5;
+}
+
+.card-cta .cta:disabled {
+	opacity: 0.55;
+	cursor: not-allowed;
+	pointer-events: none;
+}

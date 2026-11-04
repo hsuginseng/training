@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Test Type --></value>
+    </caseValues>
+    <fields>
+        <label>カテゴリー</label>
+        <name>copado__Category__c</name>
+    </fields>
+    <fields>
+        <label>非推奨 ー ExecuteVia</label>
+        <name>copado__ExecuteVia__c</name>
+    </fields>
+    <fields>
+        <label>ジョブテンプレート</label>
+        <name>copado__JobTemplate__c</name>
+    </fields>
+    <fields>
+        <label>非推奨 ー 名前空間</label>
+        <name>copado__Namespace__c</name>
+    </fields>
+    <fields>
+        <label>ツール</label>
+        <name>copado__Tool__c</name>
+    </fields>
+</CustomObjectTranslation>

@@ -1,0 +1,27 @@
+<template>
+	<section class="section">
+		<div class="inner">
+			<div class="flex">
+				<div class="column-1">
+					<h2>{title}</h2>
+
+					<div class="images">
+						<div class="image">
+							<img src={image1Url} alt={image1Alt} />
+						</div>
+						<div class="image">
+							<img src={image2Url} alt={image2Alt} />
+						</div>
+					</div>
+				</div>
+				<div class="column-2">
+					<template lwc:if={displayTextPlain}>
+						<p><lightning-formatted-text value={displayTextPlain}></lightning-formatted-text></p></template>
+					<template lwc:elseif={displayTextRich}>
+						<p><lightning-formatted-rich-text value={displayTextRich}></lightning-formatted-rich-text></p>
+					</template>
+				</div>
+			</div>
+		</div>
+	</section>
+</template>

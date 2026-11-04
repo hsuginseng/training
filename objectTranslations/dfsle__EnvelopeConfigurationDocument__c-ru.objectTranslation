@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Документ конфигурации конверта Docusign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Документы конфигурации конверта Docusign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Документ конфигурации конверта Docusign --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Документы конфигурации конверта Docusign --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Документ конфигурации конверта Docusign --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Документы конфигурации конверта Docusign --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Документ конфигурации конверта Docusign --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Документы конфигурации конверта Docusign --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value><!-- Документ конфигурации конверта Docusign --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value><!-- Документы конфигурации конверта Docusign --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>false</plural>
+        <value><!-- Документ конфигурации конверта Docusign --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>true</plural>
+        <value><!-- Документы конфигурации конверта Docusign --></value>
+    </caseValues>
+    <fields>
+        <label><!-- DocuSign Envelope Configuration --></label>
+        <name>dfsle__EnvelopeConfiguration__c</name>
+        <relationshipLabel><!-- Documents --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Extension --></label>
+        <name>dfsle__Extension__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source file filter --></label>
+        <name>dfsle__Filter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Extension --></label>
+        <name>dfsle__Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Read-only --></label>
+        <name>dfsle__ReadOnly__c</name>
+    </fields>
+    <fields>
+        <label><!-- Required --></label>
+        <name>dfsle__Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document Sequence --></label>
+        <name>dfsle__Sequence__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source ID --></label>
+        <name>dfsle__SourceId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Document Type --></help>
+        <label><!-- Document Type --></label>
+        <name>dfsle__Type__c</name>
+        <picklistValues>
+            <masterLabel>Source Files</masterLabel>
+            <translation>Исходные файлы</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Template</masterLabel>
+            <translation>Шаблон</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Template Document</masterLabel>
+            <translation>Шаблон документа</translation>
+        </picklistValues>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Document</nameFieldLabel>
+</CustomObjectTranslation>

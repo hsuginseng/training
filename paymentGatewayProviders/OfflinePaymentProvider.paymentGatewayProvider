@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PaymentGatewayProvider xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apexAdapter>OfflinePaymentGateway</apexAdapter>
+    <comments>This provider is responsible for handling &quot;offline&quot; payments, such as cash, checks, and digital funds transfers that occur outside of Salesforce.</comments>
+    <idempotencySupported>No</idempotencySupported>
+    <masterLabel>Offline Payment Provider</masterLabel>
+</PaymentGatewayProvider>

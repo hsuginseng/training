@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Family Enumerated Value Exclusion</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Family Enumerated Value Exclusions</value>
+    </caseValues>
+    <fields>
+        <label><!-- Enumerated Value Option --></label>
+        <name>pimly__Enumerated_Value_Option__c</name>
+        <relationshipLabel><!-- Family Enumerated Value Exclusions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Family --></label>
+        <name>pimly__Family__c</name>
+        <relationshipLabel><!-- Family Enumerated Value Exclusions --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

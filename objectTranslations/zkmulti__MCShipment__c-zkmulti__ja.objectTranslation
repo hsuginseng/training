@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Shipment --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Cart --></label>
+        <name>Cart__c</name>
+        <relationshipLabel><!-- Shipments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Fulfillment Order --></label>
+        <name>Fulfillment_Order__c</name>
+        <relationshipLabel><!-- Shipments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Order Summary --></label>
+        <name>Order_Summary__c</name>
+        <relationshipLabel><!-- Shipments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Return Order --></label>
+        <name>Return_Order__c</name>
+        <relationshipLabel><!-- Shipments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Shipment --></label>
+        <name>Shipment__c</name>
+        <relationshipLabel><!-- Shipments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Actual Delivery Date --></label>
+        <name>zkmulti__Actual_Delivery_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actual Delivery Time --></label>
+        <name>zkmulti__Actual_Delivery_Time__c</name>
+    </fields>
+    <fields>
+        <label>請求先アカウント番号</label>
+        <name>zkmulti__Billing_Account_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Country --></label>
+        <name>zkmulti__Billing_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Zip Postal Code --></label>
+        <name>zkmulti__Billing_Zip_Postal_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bulk Shipment --></label>
+        <name>zkmulti__Bulk_Shipment__c</name>
+        <relationshipLabel><!-- Shipments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>キャリア</label>
+        <name>zkmulti__Carrier__c</name>
+    </fields>
+    <fields>
+        <label>通貨</label>
+        <name>zkmulti__Currency__c</name>
+    </fields>
+    <fields>
+        <label>配達済</label>
+        <name>zkmulti__Delivered__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery Day of Week --></label>
+        <name>zkmulti__DeliveryDayOfWeek__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery Instructions --></label>
+        <name>zkmulti__DeliveryInstructions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery Transit Time --></label>
+        <name>zkmulti__DeliveryTransitTime__c</name>
+    </fields>
+    <fields>
+        <label>配達予定日</label>
+        <name>zkmulti__Delivery_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estimated Delivery Time --></label>
+        <name>zkmulti__Delivery_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dimension Units --></label>
+        <name>zkmulti__Dimension_Units__c</name>
+        <picklistValues>
+            <masterLabel>IN</masterLabel>
+            <translation><!-- IN --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Dropoff Type --></label>
+        <name>zkmulti__DropoffType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Notify on Delivery --></label>
+        <name>zkmulti__EMailNotifyOnDeliveryAlso__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Notify on Exception --></label>
+        <name>zkmulti__EMailNotifyOnExceptionAlso__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Recipient 1 --></label>
+        <name>zkmulti__EMailRecipient1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Recipient 2 --></label>
+        <name>zkmulti__EMailRecipient2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Recipient 3 --></label>
+        <name>zkmulti__EMailRecipient3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Recipient 4 --></label>
+        <name>zkmulti__EMailRecipient4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Recipient 5 --></label>
+        <name>zkmulti__EMailRecipient5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Recipient 6 --></label>
+        <name>zkmulti__EMailRecipient6__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Message --></label>
+        <name>zkmulti__EmailMessage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estimated Pickup --></label>
+        <name>zkmulti__EstimatedPickupDatetime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Label Image Type --></label>
+        <name>zkmulti__Label_Image_Type__c</name>
+        <picklistValues>
+            <masterLabel>PDF</masterLabel>
+            <translation><!-- PDF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PNG</masterLabel>
+            <translation><!-- PNG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZPL</masterLabel>
+            <translation><!-- ZPL --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Last Track Update Time --></label>
+        <name>zkmulti__Last_Track_Update_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manifested --></label>
+        <name>zkmulti__Manifested__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mod Key --></label>
+        <name>zkmulti__Mod_Key__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consolidation --></label>
+        <name>zkmulti__Multi_Package_Shipment__c</name>
+        <relationshipLabel><!-- Shipments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>交渉レート合計</label>
+        <name>zkmulti__NegotiatedRatesGrandTotal__c</name>
+    </fields>
+    <fields>
+        <label>荷物区分</label>
+        <name>zkmulti__Package_Type__c</name>
+    </fields>
+    <fields>
+        <label>支払い区分</label>
+        <name>zkmulti__Payment_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Multi Carrier Pickup --></label>
+        <name>zkmulti__Pickup__c</name>
+        <relationshipLabel><!-- Shipments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Recipient Account --></label>
+        <name>zkmulti__Recipient_Account__c</name>
+        <relationshipLabel><!-- Shipments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Recipient Address is Residential --></label>
+        <name>zkmulti__Recipient_Address_is_Residential__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recipient City --></label>
+        <name>zkmulti__Recipient_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recipient Company --></label>
+        <name>zkmulti__Recipient_Company__c</name>
+    </fields>
+    <fields>
+        <label>受取人</label>
+        <name>zkmulti__Recipient_Contact__c</name>
+        <relationshipLabel><!-- Shipments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Recipient Country --></label>
+        <name>zkmulti__Recipient_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recipient Email --></label>
+        <name>zkmulti__Recipient_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recipient Lead --></label>
+        <name>zkmulti__Recipient_Lead__c</name>
+        <relationshipLabel><!-- Shipments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Recipient Name --></label>
+        <name>zkmulti__Recipient_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recipient Opportunity --></label>
+        <name>zkmulti__Recipient_Opportunity__c</name>
+        <relationshipLabel><!-- Shipments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Recipient Phone --></label>
+        <name>zkmulti__Recipient_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recipient State/Province --></label>
+        <name>zkmulti__Recipient_State_Province__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recipient Street --></label>
+        <name>zkmulti__Recipient_Street__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recipient Zip/Postal Code --></label>
+        <name>zkmulti__Recipient_Zip_Postal_Code__c</name>
+    </fields>
+    <fields>
+        <label>レファレンス 1 タイプ</label>
+        <name>zkmulti__Reference1_Type__c</name>
+    </fields>
+    <fields>
+        <label>レファレンス 1 値</label>
+        <name>zkmulti__Reference1_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference 2 Type --></label>
+        <name>zkmulti__Reference2_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference 2 Value --></label>
+        <name>zkmulti__Reference2_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference 3 Type --></label>
+        <name>zkmulti__Reference3_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference 3 Value --></label>
+        <name>zkmulti__Reference3_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference 4 Type --></label>
+        <name>zkmulti__Reference4_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference 4 Value --></label>
+        <name>zkmulti__Reference4_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference 5 Type --></label>
+        <name>zkmulti__Reference5_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference 5 Value --></label>
+        <name>zkmulti__Reference5_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Return Line --></label>
+        <name>zkmulti__Return_Line__c</name>
+        <relationshipLabel><!-- Shipments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>返品</label>
+        <name>zkmulti__Return_Shipment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender Address is Residential --></label>
+        <name>zkmulti__Sender_Address_is_Residential__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender City --></label>
+        <name>zkmulti__Sender_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender Company --></label>
+        <name>zkmulti__Sender_Company__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender Country --></label>
+        <name>zkmulti__Sender_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender Email --></label>
+        <name>zkmulti__Sender_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender Name --></label>
+        <name>zkmulti__Sender_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender Phone --></label>
+        <name>zkmulti__Sender_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender State/Province --></label>
+        <name>zkmulti__Sender_State_Province__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender Street --></label>
+        <name>zkmulti__Sender_Street__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender Zip/Postal Code --></label>
+        <name>zkmulti__Sender_Zip_Postal_Code__c</name>
+    </fields>
+    <fields>
+        <label>サービス区分名</label>
+        <name>zkmulti__Service_Type_Name__c</name>
+    </fields>
+    <fields>
+        <label>サービス区分</label>
+        <name>zkmulti__Service_Type__c</name>
+    </fields>
+    <fields>
+        <label>出荷日</label>
+        <name>zkmulti__Ship_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Preference --></label>
+        <name>zkmulti__Shipmate_Preference__c</name>
+        <relationshipLabel><!-- Shipments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>ステータス詳細</label>
+        <name>zkmulti__ShipmentDescription__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipment Status --></label>
+        <name>zkmulti__ShipmentStatus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipment Voided --></label>
+        <name>zkmulti__Shipment_Deleted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipment Info --></label>
+        <name>zkmulti__Shipment_Info__c</name>
+        <relationshipLabel><!-- Shipments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Shipment Notes --></label>
+        <name>zkmulti__Shipment_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipment Processing Completed --></label>
+        <name>zkmulti__Shipment_Processing_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipment Type --></label>
+        <name>zkmulti__Shipment_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Signed For By --></label>
+        <name>zkmulti__SignedForBy__c</name>
+    </fields>
+    <fields>
+        <label>ステータス詳細</label>
+        <name>zkmulti__Status_Description__c</name>
+    </fields>
+    <fields>
+        <label>割引合計額</label>
+        <name>zkmulti__TotalBaseCharge__c</name>
+    </fields>
+    <fields>
+        <label>割引合計額</label>
+        <name>zkmulti__TotalDiscounts__c</name>
+    </fields>
+    <fields>
+        <label>合計額</label>
+        <name>zkmulti__TotalNetCharge__c</name>
+    </fields>
+    <fields>
+        <label>追加料金内訳</label>
+        <name>zkmulti__TotalSurchargeDescriptions__c</name>
+    </fields>
+    <fields>
+        <label>追加料金合計額</label>
+        <name>zkmulti__TotalSurcharges__c</name>
+    </fields>
+    <fields>
+        <label>税金合計額</label>
+        <name>zkmulti__TotalTaxes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Mile Tracking Number --></label>
+        <name>zkmulti__Tracker_Id__c</name>
+    </fields>
+    <fields>
+        <label>追跡番号</label>
+        <name>zkmulti__Tracking_Number__c</name>
+    </fields>
+    <fields>
+        <label>配送状況</label>
+        <name>zkmulti__Tracking_Stage__c</name>
+        <picklistValues>
+            <masterLabel>Awaiting Packing</masterLabel>
+            <translation><!-- Awaiting Packing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delivered</masterLabel>
+            <translation><!-- Delivered --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Driver En Route</masterLabel>
+            <translation><!-- Driver En Route --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Driver on Pickup Site</masterLabel>
+            <translation><!-- Driver on Pickup Site --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exception</masterLabel>
+            <translation><!-- Exception --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Transit</masterLabel>
+            <translation><!-- In Transit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Out for Delivery</masterLabel>
+            <translation><!-- Out for Delivery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Picked Up</masterLabel>
+            <translation><!-- Picked Up --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready For Pickup</masterLabel>
+            <translation><!-- Ready For Pickup --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>運送料金</label>
+        <name>zkmulti__TransportationCharges__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Allowed Edit of Recipient Info --></label>
+        <name>zkmulti__User_Allowed_Edit_of_Recipient_Info__c</name>
+    </fields>
+    <fields>
+        <label>重量単位</label>
+        <name>zkmulti__Weight_Units__c</name>
+        <picklistValues>
+            <masterLabel>LB</masterLabel>
+            <translation><!-- LB --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Mobile Shipment Layout</layout>
+        <sections>
+            <label><!-- Estimated Costs --></label>
+            <section>Estimated Costs</section>
+        </sections>
+        <sections>
+            <label><!-- General Shipment Details --></label>
+            <section>General Shipment Details</section>
+        </sections>
+        <sections>
+            <label><!-- Recipient (Sender for Return Shipments) --></label>
+            <section>Recipient (Sender for Return Shipments)</section>
+        </sections>
+        <sections>
+            <label><!-- Save Recipient --></label>
+            <section>Save Recipient</section>
+        </sections>
+        <sections>
+            <label><!-- Sender (Recipient for Return Shipments) --></label>
+            <section>Sender (Recipient for Return Shipments)</section>
+        </sections>
+        <sections>
+            <label><!-- Shipment Details --></label>
+            <section>Shipment Details</section>
+        </sections>
+        <sections>
+            <label><!-- Shipment State --></label>
+            <section>Shipment State</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>OnDemand Shipment Layout</layout>
+        <sections>
+            <label><!-- Estimated Costs --></label>
+            <section>Estimated Costs</section>
+        </sections>
+        <sections>
+            <label><!-- General Shipment Details --></label>
+            <section>General Shipment Details</section>
+        </sections>
+        <sections>
+            <label><!-- Notifications --></label>
+            <section>Notifications</section>
+        </sections>
+        <sections>
+            <label><!-- Recipient (Sender for Return Shipments) --></label>
+            <section>Recipient (Sender for Return Shipments)</section>
+        </sections>
+        <sections>
+            <label><!-- Referenced Standard Objects --></label>
+            <section>Referenced Standard Objects</section>
+        </sections>
+        <sections>
+            <label><!-- Return Shipment --></label>
+            <section>Return Shipment</section>
+        </sections>
+        <sections>
+            <label><!-- Save Recipient --></label>
+            <section>Save Recipient</section>
+        </sections>
+        <sections>
+            <label><!-- Sender (Recipient for Return Shipments) --></label>
+            <section>Sender (Recipient for Return Shipments)</section>
+        </sections>
+        <sections>
+            <label><!-- Shipment Info --></label>
+            <section>Shipment Info</section>
+        </sections>
+        <sections>
+            <label><!-- Shipment State --></label>
+            <section>Shipment State</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Shipment Layout</layout>
+        <sections>
+            <label><!-- Estimated Costs --></label>
+            <section>Estimated Costs</section>
+        </sections>
+        <sections>
+            <label><!-- General Shipment Details --></label>
+            <section>General Shipment Details</section>
+        </sections>
+        <sections>
+            <label><!-- Notifications --></label>
+            <section>Notifications</section>
+        </sections>
+        <sections>
+            <label><!-- Recipient (Sender for Return Shipments) --></label>
+            <section>Recipient (Sender for Return Shipments)</section>
+        </sections>
+        <sections>
+            <label><!-- Referenced Standard Objects --></label>
+            <section>Referenced Standard Objects</section>
+        </sections>
+        <sections>
+            <label><!-- Return Shipment --></label>
+            <section>Return Shipment</section>
+        </sections>
+        <sections>
+            <label><!-- Save Recipient --></label>
+            <section>Save Recipient</section>
+        </sections>
+        <sections>
+            <label><!-- Sender (Recipient for Return Shipments) --></label>
+            <section>Sender (Recipient for Return Shipments)</section>
+        </sections>
+        <sections>
+            <label><!-- Shipment Info --></label>
+            <section>Shipment Info</section>
+        </sections>
+        <sections>
+            <label><!-- Shipment State --></label>
+            <section>Shipment State</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Shipment Number --></nameFieldLabel>
+    <quickActions>
+        <label><!-- Email Label --></label>
+        <name>zkmulti__Email_Label</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Track Shipment --></label>
+        <name>zkmulti__Track_Shipment</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Void Shipment --></label>
+        <name>zkmulti__Void_Shipment</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Default --></label>
+        <name>zkmulti__Default</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- OnDemand --></label>
+        <name>zkmulti__OnDemand</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- Bulk_Cancel --></label>
+        <name>zkmulti__Bulk_Cancel</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Bulk_Print --></label>
+        <name>zkmulti__Bulk_Print</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Edit_Draft --></label>
+        <name>zkmulti__Edit_Draft</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Email_Label --></label>
+        <name>zkmulti__Email_Label</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Manage_Printers --></label>
+        <name>zkmulti__Manage_Printers</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Manage_Schedulers --></label>
+        <name>zkmulti__Manage_Schedulers</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Modify_Cancel_Shipment --></label>
+        <name>zkmulti__Modify_Cancel_Shipment</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Checkpoint --></label>
+        <name>zkmulti__New_Checkpoint</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Pickup --></label>
+        <name>zkmulti__New_Pickup</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- POD --></label>
+        <name>zkmulti__POD</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Print_Labels --></label>
+        <name>zkmulti__Print_Labels</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Printable_Summary --></label>
+        <name>zkmulti__Printable_Summary</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Schedule_Tracking --></label>
+        <name>zkmulti__Schedule_Tracking</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Track_Shipment --></label>
+        <name>zkmulti__Track_Shipment</name>
+    </webLinks>
+</CustomObjectTranslation>

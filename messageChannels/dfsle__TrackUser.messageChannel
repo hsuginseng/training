@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Bubbling Mixpanel User Events to main component</description>
+    <isExposed>true</isExposed>
+    <lightningMessageFields>
+        <description>User Event tracking type</description>
+        <fieldName>type</fieldName>
+    </lightningMessageFields>
+    <lightningMessageFields>
+        <description>Application/Event name being tracked</description>
+        <fieldName>eventName</fieldName>
+    </lightningMessageFields>
+    <lightningMessageFields>
+        <description>Properties associated with Mixpanel Event</description>
+        <fieldName>properties</fieldName>
+    </lightningMessageFields>
+    <masterLabel>TrackUser</masterLabel>
+</LightningMessageChannel>

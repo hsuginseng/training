@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Functional Review Session</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Functional Review Sessions</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Assignment Field Set --></label>
+        <name>copadoQuality__AssignmentFieldSet</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- RelatedList --></label>
+        <name>copadoQuality__RelatedList</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Assignee --></label>
+        <name>copadoQuality__Assignee__c</name>
+        <relationshipLabel><!-- Functional Review Sessions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Automation Status --></label>
+        <name>copadoQuality__Automation_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credential --></label>
+        <name>copadoQuality__Credential__c</name>
+        <relationshipLabel><!-- Functional Review Sessions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Execution Status --></label>
+        <name>copadoQuality__Execution_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exploration URL --></label>
+        <name>copadoQuality__Exploration_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>copadoQuality__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Functional Review --></label>
+        <name>copadoQuality__Functional_Review__c</name>
+        <relationshipLabel><!-- Functional Review Sessions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Outcome --></label>
+        <name>copadoQuality__Outcome__c</name>
+    </fields>
+    <fields>
+        <label><!-- Review Environment --></label>
+        <name>copadoQuality__Review_Environment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Session Summary --></label>
+        <name>copadoQuality__Review_Outcome__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>copadoQuality__Status__c</name>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regression Review</masterLabel>
+            <translation><!-- Regression Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Under Review</masterLabel>
+            <translation><!-- Under Review --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- User Story --></label>
+        <name>copadoQuality__User_Story__c</name>
+        <relationshipLabel><!-- Functional Review Sessions --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Functional Review Session Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Start Review --></label>
+        <name>copadoQuality__Start_Review</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

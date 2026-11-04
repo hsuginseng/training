@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>63.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>About Page - Milestones</masterLabel>
+    <description>...</description>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property label="Title" name="title" type="String" 
+                description="" default="Milestones" translatable="true"/>
+            <property label="Section Content" name="content" type="lightning__multilineTextType" translatable="true"
+                description="The content displayed within the Milestones section."/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

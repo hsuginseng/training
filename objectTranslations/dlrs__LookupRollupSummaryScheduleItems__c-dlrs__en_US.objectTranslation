@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Lookup Rollup Summary Schedule Item</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Lookup Rollup Summary Schedule Items</value>
+    </caseValues>
+    <fields>
+        <label><!-- Lookup Rollup Summary 2 --></label>
+        <name>dlrs__LookupRollupSummary2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Id --></label>
+        <name>dlrs__ParentId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Key Prefix --></label>
+        <name>dlrs__ParentKeyPrefix__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Record --></label>
+        <name>dlrs__ParentRecord__c</name>
+    </fields>
+    <fields>
+        <label><!-- Qualified Parent ID --></label>
+        <name>dlrs__QualifiedParentID__c</name>
+    </fields>
+    <layouts>
+        <layout>Lookup Rollup Summary Queue Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Readiness Report</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Readiness Reports</value>
+    </caseValues>
+    <fields>
+        <label><!-- Average Score --></label>
+        <name>pimly__Average_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Batch Job Id --></label>
+        <name>pimly__Batch_Job_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Catalog Only --></label>
+        <name>pimly__Catalog_Only__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pimly Channel --></label>
+        <name>pimly__Pimly_Channel__c</name>
+        <relationshipLabel><!-- Readiness Reports --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>pimly__Status__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

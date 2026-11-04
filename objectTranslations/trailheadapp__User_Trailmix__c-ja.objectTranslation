@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ユーザ Trailmix</value>
+    </caseValues>
+    <fields>
+        <label><!-- Assigned --></label>
+        <name>trailheadapp__Assigned_At__c</name>
+    </fields>
+    <fields>
+        <label><!-- Completed --></label>
+        <name>trailheadapp__Completed_At__c</name>
+    </fields>
+    <fields>
+        <help>割り当て者とユーザのタイムゾーンが異なる場合、この期日の表示は異なることがあります。</help>
+        <label><!-- Due --></label>
+        <name>trailheadapp__Due_At__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>trailheadapp__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Attempted --></label>
+        <name>trailheadapp__First_Attempted_At__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Attempted --></label>
+        <name>trailheadapp__Last_Attempted_At__c</name>
+    </fields>
+    <fields>
+        <help>ユーザの Trailmix のステータスは、「進行中」または「完了」という 2 つステータスで表示できます。</help>
+        <label><!-- Status --></label>
+        <name>trailheadapp__Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trailmix --></label>
+        <name>trailheadapp__Trailmix__c</name>
+        <relationshipLabel><!-- User Trailmixes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>trailheadapp__User__c</name>
+        <relationshipLabel><!-- User Trailmixes --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>User Trailmix Layout</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>ユーザ Traimix ID</nameFieldLabel>
+    <quickActions>
+        <label><!-- Assign Trailmix --></label>
+        <name>trailheadapp__AssignTrailmix</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Unassign Trailmix --></label>
+        <name>trailheadapp__Unassign_Trailmix</name>
+    </quickActions>
+</CustomObjectTranslation>

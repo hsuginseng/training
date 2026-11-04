@@ -1,0 +1,160 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Tours-About tours",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "attributes" : {
+          "textDisplayInfo" : "{\"textStyle\":\"heading-xsmall\",\"headingTag\":\"h5\"}",
+          "dxpStyle" : {
+            "margin" : {
+              "top" : "",
+              "left" : "",
+              "bottom" : "",
+              "right" : ""
+            }
+          },
+          "textAlign" : "left"
+        },
+        "id" : "b7252a00-1ca6-4566-979a-bbe7ee5c2bc4"
+      }, {
+        "id" : "09ae47ff-790a-445c-8c81-4e371c4c5d08",
+        "attributes" : {
+          "textAlign" : "left",
+          "dxpStyle" : {
+            "margin" : {
+              "top" : "",
+              "left" : "80px",
+              "bottom" : "",
+              "right" : ""
+            },
+            "isVisible" : false
+          }
+        }
+      }, {
+        "id" : "9bb9b939-cb34-4912-a370-a4052ea9d3f5",
+        "attributes" : {
+          "sectionVerticalAlign" : "flex-start",
+          "sectionColumnGutterWidth" : "",
+          "maxContentWidth" : "480px",
+          "dxpStyle" : {
+            "padding" : {
+              "top" : "",
+              "left" : "",
+              "bottom" : "",
+              "right" : ""
+            },
+            "isVisible" : true
+          }
+        }
+      }, {
+        "id" : "59870876-fe20-42c1-85b1-cd5b2892807e",
+        "attributes" : {
+          "dxpStyle" : {
+            "margin" : {
+              "bottom" : "",
+              "left" : "80px",
+              "right" : "",
+              "top" : ""
+            },
+            "isVisible" : false
+          }
+        }
+      }, {
+        "id" : "7a7b0446-b822-4c72-992f-2304f3d0a90f",
+        "attributes" : {
+          "dxpStyle" : {
+            "isVisible" : false
+          }
+        }
+      }, {
+        "id" : "211bb3db-7e14-4faa-86b8-d65aa1d38891",
+        "attributes" : {
+          "dxpStyle" : {
+            "isVisible" : false
+          }
+        }
+      }, {
+        "id" : "9e721860-cd87-41fc-842d-f39f9628522a",
+        "attributes" : {
+          "dxpStyle" : {
+            "isVisible" : false
+          }
+        }
+      }, {
+        "id" : "c5915821-e748-427b-99d5-1c50c628ea81",
+        "attributes" : {
+          "dxpStyle" : {
+            "margin" : {
+              "bottom" : "",
+              "left" : "80px",
+              "right" : "80px",
+              "top" : "30px"
+            },
+            "isVisible" : false
+          }
+        }
+      }, {
+        "id" : "baa70d61-a1a9-476a-9242-c5e282faf82b",
+        "attributes" : {
+          "dxpStyle" : {
+            "margin" : {
+              "bottom" : "",
+              "left" : "",
+              "right" : "20px",
+              "top" : ""
+            },
+            "isVisible" : false
+          }
+        }
+      }, {
+        "id" : "bcd51e15-20e1-4d90-80cc-c4c47d801b15",
+        "attributes" : {
+          "dxpStyle" : {
+            "margin" : {
+              "bottom" : "",
+              "left" : "",
+              "right" : "20px",
+              "top" : "20px"
+            },
+            "isVisible" : false
+          }
+        }
+      }, {
+        "id" : "276f2090-9c0d-4681-a899-a47b1adcf082",
+        "attributes" : {
+          "dxpStyle" : {
+            "margin" : {
+              "bottom" : "",
+              "left" : "",
+              "right" : "20px",
+              "top" : "20px"
+            },
+            "isVisible" : false
+          }
+        }
+      }, {
+        "id" : "d2ad8def-7eec-4369-869e-fbabbb1a649d",
+        "attributes" : {
+          "dxpStyle" : {
+            "padding" : {
+              "bottom" : "",
+              "left" : "80px",
+              "right" : "80px",
+              "top" : "30px"
+            },
+            "isVisible" : false
+          }
+        }
+      }, {
+        "id" : "72e63161-31ce-48dd-b3da-17a79d3caf6e",
+        "attributes" : {
+          "dxpStyle" : {
+            "isVisible" : false
+          }
+        }
+      } ]
+    }
+  },
+  "urlName" : "tours-about-tours"
+}

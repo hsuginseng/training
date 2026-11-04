@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>OCI Interaction Order Item Summary</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>OCI Interaction Order Item Summaries</value>
+    </caseValues>
+    <fields>
+        <label><!-- From Location Group --></label>
+        <name>FromLocationGroup__c</name>
+        <relationshipLabel><!-- OCI Order Item Summary Interaction From Location Groups --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- From Location --></label>
+        <name>FromLocation__c</name>
+        <relationshipLabel><!-- OCI Order Item Summary Interaction From Locations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Fulfillment Order --></label>
+        <name>FulfillmentOrder__c</name>
+        <relationshipLabel><!-- OCI Interaction Order Item Summaries --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Has Not Fulfillment Order --></label>
+        <name>HasNotFulfillmentOrder__c</name>
+    </fields>
+    <fields>
+        <label><!-- OCI Interaction Order Summary --></label>
+        <name>OCIInteractionOrderSummary__c</name>
+        <relationshipLabel><!-- OCI Interaction Order Item Summaries --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Order Product Summary --></label>
+        <name>OrderItemSummary__c</name>
+        <relationshipLabel><!-- OCI Interaction Order Item Summaries --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>ABANDONED</masterLabel>
+            <translation><!-- ABANDONED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COMPLETED_FAIL</masterLabel>
+            <translation><!-- COMPLETED_FAIL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COMPLETED_SUCCEED</masterLabel>
+            <translation><!-- COMPLETED_SUCCEED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PENDING</masterLabel>
+            <translation><!-- PENDING --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>REQUESTED</masterLabel>
+            <translation><!-- REQUESTED --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- To Location Group --></label>
+        <name>ToLocationGroup__c</name>
+        <relationshipLabel><!-- OCI Order Item Summary Interaction To Location Groups --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- To Location --></label>
+        <name>ToLocation__c</name>
+        <relationshipLabel><!-- OCI Order Item Summary Interaction To Locations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>CREATE_RESERVATION</masterLabel>
+            <translation><!-- CREATE_RESERVATION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RELEASE</masterLabel>
+            <translation><!-- RELEASE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RELEASE_RESERVATION</masterLabel>
+            <translation><!-- RELEASE_RESERVATION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRANSFER_MOVING</masterLabel>
+            <translation><!-- TRANSFER_MOVING --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRANSFER_ROUTING</masterLabel>
+            <translation><!-- TRANSFER_ROUTING --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- The Status must match the parent match --></errorMessage>
+        <name>MatchParentStatus</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The type must match the parent type --></errorMessage>
+        <name>MatchParentType</name>
+    </validationRules>
+</CustomObjectTranslation>

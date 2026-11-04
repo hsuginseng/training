@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Template Property</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Template Properties</value>
+    </caseValues>
+    <fields>
+        <label><!-- Family --></label>
+        <name>pimly__Family__c</name>
+        <relationshipLabel><!-- Template Properties --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Inheritance Group --></label>
+        <name>pimly__Inheritance_Group__c</name>
+        <relationshipLabel><!-- Template Properties --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Linked Item Type --></label>
+        <name>pimly__Linked_Item_Type__c</name>
+        <relationshipLabel><!-- Template Properties --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Property --></label>
+        <name>pimly__Property__c</name>
+        <relationshipLabel><!-- Template Properties --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Template Property Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

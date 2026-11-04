@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Docusign-ontvangersstatus</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Docusign-ontvangersstatussen</value>
+    </caseValues>
+    <fields>
+        <label>Account</label>
+        <name>dfsle__Account__c</name>
+        <relationshipLabel><!-- DocuSign Recipient Status --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Voltooid</label>
+        <name>dfsle__Completed__c</name>
+    </fields>
+    <fields>
+        <label>Contactpersoon</label>
+        <name>dfsle__Contact__c</name>
+        <relationshipLabel><!-- DocuSign Recipient Status --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>E-mail</label>
+        <name>dfsle__Email__c</name>
+    </fields>
+    <fields>
+        <label>DocuSign envelopstatus</label>
+        <name>dfsle__EnvelopeStatus__c</name>
+        <relationshipLabel>Status van DocuSign-ontvangers</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Laatste statusupdate</label>
+        <name>dfsle__LastStatusUpdate__c</name>
+    </fields>
+    <fields>
+        <label>Lead</label>
+        <name>dfsle__Lead__c</name>
+        <relationshipLabel><!-- DocuSign Recipient Status --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Reden voor weigeren</label>
+        <name>dfsle__Reason__c</name>
+    </fields>
+    <fields>
+        <label>Routeringsstructuur</label>
+        <name>dfsle__RoutingOrder__c</name>
+    </fields>
+    <fields>
+        <label>Verzonden</label>
+        <name>dfsle__Sent__c</name>
+    </fields>
+    <fields>
+        <label>Volgorde</label>
+        <name>dfsle__Sequence__c</name>
+    </fields>
+    <fields>
+        <label>Salesforce bron-ID</label>
+        <name>dfsle__SourceId__c</name>
+    </fields>
+    <fields>
+        <label>Status</label>
+        <name>dfsle__Status__c</name>
+    </fields>
+    <fields>
+        <label>Type</label>
+        <name>dfsle__Type__c</name>
+    </fields>
+    <gender>Neuter</gender>
+    <layouts>
+        <layout>DocuSign Recipient Status Layout</layout>
+        <sections>
+            <label><!-- Related Objects --></label>
+            <section>Related Objects</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Name</nameFieldLabel>
+</CustomObjectTranslation>

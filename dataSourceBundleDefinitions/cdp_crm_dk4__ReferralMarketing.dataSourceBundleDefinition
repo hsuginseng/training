@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataSourceBundleDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataPlatform>Salesforce_Sales_and_Service_Cloud</dataPlatform>
+    <description>Get rich insights about the company’s referral promotions with preconfigured data streams.</description>
+    <icon>standard:team_member</icon>
+    <isMultiDeploymentSupported>false</isMultiDeploymentSupported>
+    <masterLabel>ReferralMarketing</masterLabel>
+</DataSourceBundleDefinition>

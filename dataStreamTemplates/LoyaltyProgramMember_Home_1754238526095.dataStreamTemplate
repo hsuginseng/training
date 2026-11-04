@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataStreamTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataSourceBundleDefinition>loyaltypt2</dataSourceBundleDefinition>
+    <dataSourceObject>LoyaltyProgramMember_Home1</dataSourceObject>
+    <masterLabel>LoyaltyProgramMember_Home</masterLabel>
+    <objectCategory>Salesforce_SFDCReferenceModel_0_93.Profile</objectCategory>
+    <refreshFrequency>BATCH</refreshFrequency>
+    <refreshMode>UPSERT</refreshMode>
+    <sourceObjectName>LoyaltyProgramMember_Home</sourceObjectName>
+    <streamType>INGEST</streamType>
+    <templateVersion>2</templateVersion>
+</DataStreamTemplate>

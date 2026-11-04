@@ -1,0 +1,126 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Loyalty Info",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"55ea2ed5-25a9-4107-bf92-771de1e55543\",\"columns\":[{\"UUID\":\"c51a89f3-c607-4dda-8862-2d997f35567f\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "200px",
+                    "right" : "200px",
+                    "top" : "100px"
+                  }
+                },
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MC636TMBNXENCWXC7BLGD4XDEDEU?lastModifiedDate=Thu Oct 01 20:21:25 GMT 2026\",\"altText\":\"\",\"contentKey\":\"MC636TMBNXENCWXC7BLGD4XDEDEU\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "ed9358ac-a12e-40fa-9a50-4c59a775166e",
+              "type" : "component"
+            } ],
+            "id" : "c51a89f3-c607-4dda-8862-2d997f35567f",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "55ea2ed5-25a9-4107-bf92-771de1e55543",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"e51a8684-1f9c-419a-89f1-3f64b66ab6c5\",\"columns\":[{\"UUID\":\"099ae193-c24a-4bb0-862a-5056651b38ce\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : {
+                  "isVisible" : false
+                },
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCRX53OR2Y2RACJGPVNWDLWOLW6M?lastModifiedDate=Thu Oct 01 20:22:25 GMT 2026\",\"altText\":\"\",\"contentKey\":\"MCRX53OR2Y2RACJGPVNWDLWOLW6M\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "b4c15314-e1af-440e-8077-b71b169f611a",
+              "type" : "component"
+            } ],
+            "id" : "099ae193-c24a-4bb0-862a-5056651b38ce",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "e51a8684-1f9c-419a-89f1-3f64b66ab6c5",
+          "type" : "component"
+        } ],
+        "id" : "5e6aac38-b519-4be5-ad49-17fc8d9d4c76",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "Loyalty Info",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "d40d3a0d-e6b1-40d5-a79c-91c7e81a815d",
+          "type" : "component"
+        } ],
+        "id" : "f4639790-9203-4c03-981f-8f3199bdf204",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "d460ba89-fc2a-4383-8d7c-eb08b6a4dbd2",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-loyalty-info"
+  },
+  "urlName" : "loyalty-info"
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Linked Item Type</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Linked Item Types</value>
+    </caseValues>
+    <fields>
+        <label><!-- Admin Name --></label>
+        <name>pimly__Admin_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pimly Id --></label>
+        <name>pimly__Pimly_Id__c</name>
+    </fields>
+    <layouts>
+        <layout>Pimly Linked Item Type Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Linked Item Type Name</nameFieldLabel>
+    <quickActions>
+        <label><!-- Set Linked Item Type Template Properties --></label>
+        <name>pimly__Set_Linked_Item_Type_Template_Properties</name>
+    </quickActions>
+    <sharingReasons>
+        <label><!-- Pimly --></label>
+        <name>pimly__Pimly</name>
+    </sharingReasons>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

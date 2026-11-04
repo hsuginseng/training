@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email template for auto-response on Order Cancellation Denial</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Order Cancellation Rejection (MSimplified)</name>
+    <pageDevName>Order_Cancellation_Rejection_MSimplified1</pageDevName>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>Update Regarding Your Order Cancellation Request</subject>
+    <textOnly>Case # {{{Case.CaseNumber}}}
+
+Subject: {{{Case.Subject}}}
+
+Issue Description: {{{Case.Issue_Description__c}}}
+
+-----------------------------------------------------
+
+您好 {{{Case.First_Name__c}}}，感谢您联系我们！
+
+很抱歉，由于您的订单 #{{{Case.Order_Number__c}}} 已进入出货流程，我们目前无法取消您的订单，待您收到商品后，您可依照我们的退货政策（link to Return Policy page）申请退货。
+
+若您需要退货协助或有其他问题，欢迎回复此邮件或致电 1-800-826-1577 与我们联系。
+
+感谢您的理解与支持！
+
+此致,
+
+{{{Case.Case_Owner_Name__c}}}
+
+许氏客服部
+
+Hsu&apos;s Ginseng Enterprises, Inc.
+
+📌是订单相关问题吗?
+
+如果您要查询现有订单，请记得提供订单号，我们能更快为您服务喔！
+
+**
+----------------------------------------------------
+
+📞联系方式：
+
+电话： (715) 675-2325 / (1800) 826-1577
+
+Email：support@hsuginseng.com
+
+网站：www.hsuginseng.com &lt; http://www.hsuginseng.com/ &gt; 
+
+**
+----------------------------------------------------
+
+🕒客服时间：
+
+周一至周五（国定假日除外）
+
+早上8:30至 下午 5:00 （美国时间）</textOnly>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

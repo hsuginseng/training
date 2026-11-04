@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataStreamTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataSourceBundleDefinition>HealthScoring__UnifiedHealthScoring</dataSourceBundleDefinition>
+    <dataSourceObject>HealthScoring__Account</dataSourceObject>
+    <masterLabel>Account_00DB0000000dU8F</masterLabel>
+    <objectCategory>Salesforce_SFDCReferenceModel_0_93.Profile</objectCategory>
+    <refreshFrequency>HOURLY</refreshFrequency>
+    <refreshMode>UPSERT</refreshMode>
+    <templateVersion>1</templateVersion>
+</DataStreamTemplate>

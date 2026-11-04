@@ -1,0 +1,15 @@
+The following form submission has been recorded from the D2C English Site:
+
+Full Name:  {!Lead.Name}
+Email: {!Lead.Email}
+Phone: {!Lead.Phone}
+Preferred Tour Date: {!Lead.Preferred_Tour_Date__c}
+Preferred Tour Time: {!Lead.Preferred_Tour_Time__c}
+Number of Guests: {!Lead.Number_of_Guests__c}
+Age Range of Guests: {!Lead.Age_Range_of_Guests__c}
+Special Accommodations: {!Lead.Special_Accommodations__c}
+How did you hear about our tour?: {!Lead.How_did_you_hear_about_our_tour__c}
+If Other, Please Specify: {!Lead.If_Other_please_specify__c}
+Email Opt In: {!Lead.Email_Opt_In__c}
+
+Click on the link to access the lead directly:  {!Lead.Link}

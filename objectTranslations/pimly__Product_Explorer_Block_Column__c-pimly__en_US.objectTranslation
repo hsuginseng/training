@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Product Explorer Block Column</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Product Explorer Block Columns</value>
+    </caseValues>
+    <fields>
+        <help><!-- This is the order the column will show up on the catalog page --></help>
+        <label><!-- Order --></label>
+        <name>pimly__Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pimly Property --></label>
+        <name>pimly__Pimly_Property__c</name>
+        <relationshipLabel><!-- Product Explorer Block Columns --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product Explorer Block --></label>
+        <name>pimly__Product_Explorer_Block__c</name>
+        <relationshipLabel><!-- Product Explorer Block Columns --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingGuestRules>
+        <fullName>D2CSystemUserShare</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Shares the System User record with the D2C Guest User.</description>
+        <label>D2CSystemUserShare</label>
+        <sharedTo>
+            <guestUser>D2C_Primary_Storefront</guestUser>
+        </sharedTo>
+        <criteriaItems>
+            <field>Username</field>
+            <operation>equals</operation>
+            <value>systemuser@hsuginseng.com</value>
+        </criteriaItems>
+        <includeHVUOwnedRecords>false</includeHVUOwnedRecords>
+    </sharingGuestRules>
+</SharingRules>

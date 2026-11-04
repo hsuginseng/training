@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>訂單摘要確認郵件 (Order Summary Confirmation MTraditional)</name>
+    <relatedEntityType>OrderSummary</relatedEntityType>
+    <style>none</style>
+    <subject>訂單確認郵件</subject>
+    <textOnly>Dear {{{OrderSummary.Account_Name_Formula__c}}},
+
+We have received your order, and it is currently being processed. 
+
+Order Number: {{{OrderSummary.OrderNumber}}} 
+
+Thank you for your purchase, we hope you enjoyed your experience shopping with us online and look forward to assisting you again soon. 
+
+__________________________________________________________________________ 
+
+_________________ 
+
+Order Summary 
+
+__________________________________________________________________________ 
+
+_________________ 
+
+Shipping Address:
+
+{{{OrderSummary.Account_Name_Formula__c}}}
+
+{{{OrderSummary.BillingAddress}}}
+
+Payment Method:
+
+Mastercard Ending in 
+
+Billing Address:
+
+{{{OrderSummary.Account_Name_Formula__c}}}
+
+{{{OrderSummary.BillingAddress}}}
+
+Shipping:
+
+{{{OrderSummary.TotalAdjustedDeliveryAmount}}}</textOnly>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

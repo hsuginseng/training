@@ -1,0 +1,23 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "TheCompany-AboutUs",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "attributes" : {
+          "dxpStyle" : {
+            "isVisible" : false,
+            "margin" : {
+              "bottom" : "0px",
+              "left" : "200px",
+              "right" : "200px",
+              "top" : "0px"
+            }
+          }
+        },
+        "id" : "f49b2d83-a70a-4897-8bfb-b4d6a3b9cab7"
+      } ]
+    }
+  },
+  "urlName" : "thecompany-aboutus"
+}

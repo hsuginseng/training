@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ActivationPlatformActvAttr xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activationPlatform>cdpactvstrgptnr__AmazonPlatform</activationPlatform>
+    <applyHash>false</applyHash>
+    <destinationName>AmazonAdStorageConsent</destinationName>
+    <fieldName>AmazonAdStorageConsent</fieldName>
+    <isFromSourceObject>false</isFromSourceObject>
+    <isIdentifier>false</isIdentifier>
+    <isRequired>false</isRequired>
+    <masterLabel>AmazonAdStorageConsent</masterLabel>
+    <objectName>(consent)</objectName>
+</ActivationPlatformActvAttr>

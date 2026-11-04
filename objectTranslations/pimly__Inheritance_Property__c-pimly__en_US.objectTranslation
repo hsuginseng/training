@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Inheritance Property</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Inheritance Properties</value>
+    </caseValues>
+    <fields>
+        <label><!-- Inheritance Group --></label>
+        <name>pimly__Inheritance_Group__c</name>
+        <relationshipLabel><!-- Inheritance Properties --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Pimly Property --></label>
+        <name>pimly__Pimly_Property__c</name>
+        <relationshipLabel><!-- Inheritance Properties --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

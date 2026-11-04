@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Real Time Sync</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Real Time Syncs</value>
+    </caseValues>
+    <fields>
+        <help><!-- Batch Size allows records to be exported in batches in case of bulk create/update operation. --></help>
+        <label><!-- Batch Size --></label>
+        <name>integrator_da__Batch_Size__c</name>
+    </fields>
+    <fields>
+        <label><!-- Connection --></label>
+        <name>integrator_da__Connection__c</name>
+        <relationshipLabel><!-- Real Time Syncs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Connector Id --></label>
+        <name>integrator_da__Connector_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disabled --></label>
+        <name>integrator_da__Disabled__c</name>
+    </fields>
+    <fields>
+        <label><!-- GUID --></label>
+        <name>integrator_da__GUID__c</name>
+    </fields>
+    <fields>
+        <help><!-- If you would like to store NetSuite Internal Ids inside Salesforce (for subsequent, faster data updates) please tell the sync which field to use by entering that field&apos;s &apos;API Name&apos; here.  Example: NetSuite_Internal_Id__c --></help>
+        <label><!-- NetSuite Internal Id Field --></label>
+        <name>integrator_da__NetSuite_Internal_Id_Field__c</name>
+    </fields>
+    <fields>
+        <help><!-- If you would like to display sync error messages inside Salesforce please tell the sync which field to use by entering that field&apos;s &apos;API Name&apos; here.  Example: NetSuite_Sync_Error__c --></help>
+        <label><!-- NetSuite Sync Error Field --></label>
+        <name>integrator_da__NetSuite_Sync_Error_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Origin --></label>
+        <name>integrator_da__Origin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Qualifier --></label>
+        <name>integrator_da__Qualifier__c</name>
+    </fields>
+    <fields>
+        <help><!-- Each Integrator flow (inside NetSuite) has a unique numeric id.  Please enter that id value here.  This is a mandatory field. --></help>
+        <label><!-- Real Time Data Flow Id --></label>
+        <name>integrator_da__Real_Time_Data_Flow_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Referenced Fields --></label>
+        <name>integrator_da__Referenced_Fields__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please tell the sync which Salesforce object type you would like to export by entering that object&apos;s &apos;API Name&apos; here.  Example: Account --></help>
+        <label><!-- SObject Type --></label>
+        <name>integrator_da__SObject_Type__c</name>
+    </fields>
+    <fields>
+        <help><!-- Allows users to specify a checkbox field on the sObject being exported which can be marked on record create/update to skip exporting the record for that operation. The checkbox will auto-uncheck itself without initiating the Realtime export. --></help>
+        <label><!-- Skip Export Field Id --></label>
+        <name>integrator_da__Skip_Export_Field_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Defined Referenced Fields --></label>
+        <name>integrator_da__User_Defined_Referenced_Fields__c</name>
+    </fields>
+    <fields>
+        <label><!-- Export when field is set --></label>
+        <name>integrator_da__export_when_field_is_set__c</name>
+    </fields>
+    <fields>
+        <label><!-- package version --></label>
+        <name>integrator_da__package_version__c</name>
+    </fields>
+    <layouts>
+        <layout>Real Time Sync Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- The batch size should be in between 4 and 200 --></errorMessage>
+        <name>integrator_da__BatchSize_validation_rule</name>
+    </validationRules>
+</CustomObjectTranslation>

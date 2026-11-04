@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>カスタム接続アプリ</value>
+    </caseValues>
+    <fields>
+        <label>コールバックURL</label>
+        <name>copado__Callback_URL__c</name>
+    </fields>
+    <fields>
+        <label>クライアントID</label>
+        <name>copado__ClientId__c</name>
+    </fields>
+    <fields>
+        <label>クライアント・シークレット</label>
+        <name>copado__ClientSecret__c</name>
+    </fields>
+    <fields>
+        <label>接続アプリID</label>
+        <name>copado__Connected_App_Id__c</name>
+    </fields>
+    <nameFieldLabel>カスタム接続アプリ情報名</nameFieldLabel>
+</CustomObjectTranslation>

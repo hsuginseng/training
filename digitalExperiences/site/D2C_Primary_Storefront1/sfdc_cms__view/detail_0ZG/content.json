@@ -1,0 +1,976 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Category",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "0rem",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "none",
+            "sectionColumnGutterWidth" : "0rem",
+            "sectionConfig" : "{\"UUID\":\"8c39699a-a8f9-4312-9ece-5a24b54c8976\",\"columns\":[{\"UUID\":\"178f2a5d-105b-4f3a-99dd-9df6eb80c52a\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "ctaTextAddToCart" : "Add to Cart",
+                "ctaTextNoMoreAvailable" : "No More Available",
+                "ctaTextOutOfStock" : "Out of Stock",
+                "ctaTextSeeDetails" : "See Details",
+                "currentPageNumber" : "{!Search.Pagination.currentPage}",
+                "dxpStyle" : { },
+                "filterResults" : "{!Search.Results}",
+                "imageAlt" : "Receive a complimentary bottle of Korean White Ginseng Capsules when you purchase $138 or more.    This offer is valid from October 14, 2026 – October 28, 2026, while supplies last.    ",
+                "imageUrl" : "/sfsites/c/cms/delivery/media/MCKNTKUCGTVRAA3FSSJSRK42P2XA",
+                "isLoading" : "{!Search.ClientState.loading}",
+                "productCardCollection" : "{!Search.Results.cardCollection}",
+                "resultsPerPage" : "{!Search.Results.pageSize}",
+                "selectedCategoryId" : "{!recordId}",
+                "sortRules" : "{!Search.SortRules}",
+                "text" : "Receive a complimentary bottle of Korean White Ginseng Capsules when you purchase $138 or more.    This offer is valid from October 14, 2026 – October 28, 2026, while supplies last.    ",
+                "title" : "Halloween - Treat, No Tricks! ",
+                "totalResults" : "{!Search.Results.total}"
+              },
+              "definition" : "c:category",
+              "id" : "8ac50f8f-85e7-4ee7-89ba-4e86a4d100bc",
+              "type" : "component"
+            } ],
+            "id" : "178f2a5d-105b-4f3a-99dd-9df6eb80c52a",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "",
+          "definition" : "community_layout:section",
+          "id" : "8c39699a-a8f9-4312-9ece-5a24b54c8976",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "isVisible" : false
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"5fb5d826-cb19-4c6f-943f-7f6ef91d3226\",\"columns\":[{\"UUID\":\"ece4d392-c8d6-43cd-aab9-a9c66f016330\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "divider" : "chevron",
+                "dxpStyle" : { },
+                "hideOnMobile" : false,
+                "maxDepthOnMobile" : "3",
+                "showHomeLink" : true,
+                "showLastItemAsLink" : false,
+                "textSize" : "small"
+              },
+              "definition" : "commerce_builder:breadcrumbs",
+              "id" : "5929243b-370f-43eb-9ec2-90827827957c",
+              "type" : "component"
+            } ],
+            "id" : "ece4d392-c8d6-43cd-aab9-a9c66f016330",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "5fb5d826-cb19-4c6f-943f-7f6ef91d3226",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "isVisible" : false
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"b5612d59-61fb-4dbd-8378-d91f5fcb848b\",\"columns\":[{\"UUID\":\"085ccc1e-de5d-4ebc-b530-957c465a9ba8\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"4c16a19b-28cf-4035-8c0d-3746e9deb2c4\",\"columnName\":\"Column 2\",\"columnKey\":\"a34e2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "imageInfos" : "",
+                "richTextValue" : "<h1>Cultivated American Ginseng</h1>\n\n<p>Cultivated American ginseng (Panax quinquefolius L.), grown near the 45°north latitude, \n    takes 3-5 years to mature. It has been traditionally used to balance internal heat, \n    reduce stress, promote relaxation, and improve sleep. A well-rested and less-stressed body, \n    in turn, boosts energy levels and enhances cognitive function over time.</p>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "dd30b5b4-ce39-4407-8967-3dcba47d010d",
+              "type" : "component"
+            } ],
+            "id" : "085ccc1e-de5d-4ebc-b530-957c465a9ba8",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : { },
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCC2VZNVMKCFAUHLG2TJHTNMUCTI?lastModifiedDate=Mon Nov 04 23:18:47 GMT 2024\",\"altText\":\"\",\"contentKey\":\"MCC2VZNVMKCFAUHLG2TJHTNMUCTI\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 32
+              },
+              "definition" : "dxp_base:image",
+              "id" : "85a0237b-1604-47e8-8554-50ee208db782",
+              "type" : "component"
+            } ],
+            "id" : "4c16a19b-28cf-4035-8c0d-3746e9deb2c4",
+            "name" : "a34e2",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "products",
+          "definition" : "community_layout:section",
+          "id" : "b5612d59-61fb-4dbd-8378-d91f5fcb848b",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "isVisible" : false
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"e9a71e85-c6f7-49b6-bdb0-3100e688560f\",\"columns\":[{\"UUID\":\"0deecf9f-852f-483c-aa3f-fa8d58d6a39f\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"f29e6427-3d21-4c06-87e9-749a3f4f1980\",\"columnName\":\"Column 2\",\"columnKey\":\"2ed01\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "imageInfos" : "",
+                "richTextValue" : "<h1>Red American Ginseng</h1>\n\n<p>American red ginseng (Panax quinquefolius L.) is steamed and then \n    dried, which changes the color of the root and its nature, giving \n    it a darker appearance and making it more energizing and warming \n    compared to traditional white American ginseng. \n    The steaming process also intensifies its strong, earthy, and sweet flavor.</p>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "1981d7cf-dfe6-48d2-831b-6881f55ba667",
+              "type" : "component"
+            } ],
+            "id" : "0deecf9f-852f-483c-aa3f-fa8d58d6a39f",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "imageInfos" : "",
+                "richTextValue" : "<p style=\"text-align: center;\"><img src=\"{!cmsMedia.MCAPDH24OGJFE6ZFHLC3OZS3FA3U}\" alt=\"\" width=\"282\" style=\"\"></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "04219d0e-0055-4ef3-b702-5462e0e12ba8",
+              "type" : "component"
+            } ],
+            "id" : "f29e6427-3d21-4c06-87e9-749a3f4f1980",
+            "name" : "2ed01",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "products",
+          "definition" : "community_layout:section",
+          "id" : "e9a71e85-c6f7-49b6-bdb0-3100e688560f",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "isVisible" : false
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"b361eb7a-da4c-4c34-aba9-c6b8e5961a96\",\"columns\":[{\"UUID\":\"ac5e956b-d2cb-4db0-b36f-0b476ac1cd9e\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"fb40c496-28ae-47e7-9e31-b5ca95b3539a\",\"columnName\":\"Column 2\",\"columnKey\":\"f3a52\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "imageInfos" : "",
+                "richTextValue" : "<h1>Wild American Ginseng</h1>\n\n<p>Wild American ginseng (Panax quinquefolius L.) naturally \n    grows in shaded forests across the United States and Canada, taking over 10 years to reach maturity. Competing with surrounding plants and facing challenges from varying climate conditions, it is prized for its complex flavor and higher concentration of beneficial compounds like ginsenosides. \n    Traditionally, it has been used in herbal medicine to reduce stress, \n    enhance immune function, and boost energy levels.</p>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "2d7d12ab-493b-49c0-a231-8194d09c988a",
+              "type" : "component"
+            } ],
+            "id" : "ac5e956b-d2cb-4db0-b36f-0b476ac1cd9e",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "imageInfos" : "",
+                "richTextValue" : "<p style=\"text-align: center;\"><img src=\"{!cmsMedia.MCN37UBDHTWVGLFGUJEIVGZDB7WQ}\" alt=\"\" width=\"446\" style=\"\"></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "ff70cca9-fa91-416c-98b1-cde512d15968",
+              "type" : "component"
+            } ],
+            "id" : "fb40c496-28ae-47e7-9e31-b5ca95b3539a",
+            "name" : "f3a52",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "products",
+          "definition" : "community_layout:section",
+          "id" : "b361eb7a-da4c-4c34-aba9-c6b8e5961a96",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "isVisible" : false
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"3b772c49-0c88-497b-8598-f01aa54d814a\",\"columns\":[{\"UUID\":\"dfc026f5-cb52-4397-a887-b8433f52fbe6\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"9fdcdc14-6716-4ca1-9e6c-940792e1389b\",\"columnName\":\"Column 2\",\"columnKey\":\"13d74\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "imageInfos" : "",
+                "richTextValue" : "<h1>Woods-Grown American Ginseng</h1>\n<p>Woods-grown ginseng is a cultivation method that mimics the natural growing conditions of wild American ginseng \n    (Panax quinquefolius L.). This approach involves planting ginseng seeds in forested areas, allowing the \n    plants to grow under the natural canopy and soil conditions typically found in the wild. Unlike cultivated \n    ginseng, which is often grown in open fields under artificial shade cloth with controlled conditions, \n    wild-simulated ginseng benefits from the natural ecosystem and is still cared for and tended to. \n    It usually takes about 5 to 10 years for it to reach maturity.</p>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "1f9898dd-233c-4036-adbf-cc383ce4d953",
+              "type" : "component"
+            } ],
+            "id" : "dfc026f5-cb52-4397-a887-b8433f52fbe6",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "imageInfos" : "",
+                "richTextValue" : "<p style=\"text-align: center;\"><img src=\"{!cmsMedia.MCQJMEYLBPKJHPZGTD4XLC6OGF7Y}\" alt=\"\" width=\"274\" style=\"\"></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "3498885e-98b8-4817-a0df-c0aa1a75a86c",
+              "type" : "component"
+            } ],
+            "id" : "9fdcdc14-6716-4ca1-9e6c-940792e1389b",
+            "name" : "13d74",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "products",
+          "definition" : "community_layout:section",
+          "id" : "3b772c49-0c88-497b-8598-f01aa54d814a",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "isVisible" : false
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"e99e1711-9cb1-4784-a0fe-42a027f87872\",\"columns\":[{\"UUID\":\"6d9dbdd2-527c-4448-84da-f1189281a250\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"467ef525-1c3b-4660-80fc-700290223516\",\"columnName\":\"Column 2\",\"columnKey\":\"b154a\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "imageInfos" : "",
+                "richTextValue" : "<h1>Korean American Ginseng</h1>\n\n<p>Korean ginseng (Panax CA Meyer), also known as Asian ginseng or Panax ginseng and \n    similarly found in white and red types, is a plant native to the mountainous \n    regions of Korea and China. For this reason, it is similar to caffeine, making it a \n    popular ingredient in energy drinks in the United States due to the busy and \n    fast-paced lifestyles here. Traditionally, it has been used to boost physical performance and revitalize the body. \n    Its effects are felt quickly and can last for several hours after consumption but is primarily intended for short-term use.</p>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "48494fad-b8a2-4b78-9ff9-cfb871680a75",
+              "type" : "component"
+            } ],
+            "id" : "6d9dbdd2-527c-4448-84da-f1189281a250",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "imageInfos" : "",
+                "richTextValue" : "<p style=\"text-align: center;\"><img src=\"{!cmsMedia.MCCM46ZW3FGFEP7L7WKBLNKBIIYQ}\" alt=\"\" width=\"417\" style=\"\"></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "13b6ad5d-6119-4c2f-95ee-e6870ed3bacc",
+              "type" : "component"
+            } ],
+            "id" : "467ef525-1c3b-4660-80fc-700290223516",
+            "name" : "b154a",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "products",
+          "definition" : "community_layout:section",
+          "id" : "e99e1711-9cb1-4784-a0fe-42a027f87872",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "isVisible" : false
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"ed452639-e418-4b70-a7d5-1e1531bfceab\",\"columns\":[{\"UUID\":\"9c0ac620-1e15-414a-b530-c4b4a7401f75\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"ff8a32c2-6b93-4210-8d6a-42ecef635d1f\",\"columnName\":\"Column 2\",\"columnKey\":\"7649b\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "imageInfos" : "",
+                "richTextValue" : "<h1>Bird's Nest</h1>\n\n<p>When prepared correctly, bird’s nests are a rare delicacy renowned as a source of unprocessed collagen to naturally enhance your beauty. Hsu’s bird's nests are created from the saliva of a small bird called the edible-nest swiftlet (Aerodramus fuciphagus). They are considered a symbol of wealth, good health, and status. In Asian culture, women will drink bird's nest together to indulge in the rich nutrients that enhance skin health. \n<br><br>\n\n\n    <strong>White</strong>: Nests are originally white in color and are the most common type of bird's nest. They are normally harvested from eaves of roofs, human-constructed houses specifically built to encourage nest building or wherever the swiftlet decides to build its nest.\n<br><br>\n\n\n    <strong>Gold</strong>: When the sun hits the nest, and special conditions are just right during the drying process, a golden hue emerges. The golden color is more prized due to its rarity and color.\n<br><br>\n\n\n    <strong>Cave</strong>: In the wild, cave nests are harvested from natural geologically formed caves that are exposed to minerals from the cave walls. They are typically darker in color, more difficult to obtain and are labor-intensive to harvest.</p>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "e6bfdb51-6a94-48b1-b20b-360e2c355e10",
+              "type" : "component"
+            } ],
+            "id" : "9c0ac620-1e15-414a-b530-c4b4a7401f75",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : { },
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCUKCC66CKK5ESXAX6PPJC6O2P3M?lastModifiedDate=Mon Nov 04 23:18:47 GMT 2024\",\"altText\":\"\",\"contentKey\":\"MCUKCC66CKK5ESXAX6PPJC6O2P3M\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "customCssClasses" : "A",
+              "definition" : "dxp_base:image",
+              "id" : "de676cdb-56c1-444d-be93-d7dd4bca7f18",
+              "type" : "component"
+            } ],
+            "id" : "ff8a32c2-6b93-4210-8d6a-42ecef635d1f",
+            "name" : "7649b",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "products",
+          "definition" : "community_layout:section",
+          "id" : "ed452639-e418-4b70-a7d5-1e1531bfceab",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "isVisible" : false
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"cc3210f7-cc72-430d-a658-f7cabec0f01c\",\"columns\":[{\"UUID\":\"6ac900ff-61ba-4ba3-90b9-4ede908a9841\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"7e1c7701-4181-4b54-8c4b-99ff7b1dae2c\",\"columnName\":\"Column 2\",\"columnKey\":\"ccf28\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "imageInfos" : "",
+                "richTextValue" : "<h1>Sea Cucumbers</h2>\n\n<p>Sea cucumbers, a marine animal closely related to sea stars and sea urchins, \n    have elongated bodies with tentacles for feeding. They are shaped like a \n    cucumber with leathery skin and a distinct phallic-like appearance. \n    Sea cucumbers are present throughout the world, often found in warm, shallow \n    ocean waters; however, some are found at significant ocean depths. </p>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "9d0988a3-d8a1-4f20-95ad-02560354fd87",
+              "type" : "component"
+            } ],
+            "id" : "6ac900ff-61ba-4ba3-90b9-4ede908a9841",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : { },
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCRTTJLXDA4RHUVLFQQGI6WZYSMU?lastModifiedDate=Mon Nov 04 23:18:47 GMT 2024\",\"altText\":\"\",\"contentKey\":\"MCRTTJLXDA4RHUVLFQQGI6WZYSMU\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 56
+              },
+              "definition" : "dxp_base:image",
+              "id" : "492ceccd-14db-4487-8d88-1f3ad3db778d",
+              "type" : "component"
+            } ],
+            "id" : "7e1c7701-4181-4b54-8c4b-99ff7b1dae2c",
+            "name" : "ccf28",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "products",
+          "definition" : "community_layout:section",
+          "id" : "cc3210f7-cc72-430d-a658-f7cabec0f01c",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "isVisible" : false
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"4a98f55e-377b-4d0e-95af-6159c90225bc\",\"columns\":[{\"UUID\":\"a1f2bcfc-c1dd-4647-9b3b-ef56c2cb687e\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"ee8ada79-89b0-4664-995e-7205bbcf1efa\",\"columnName\":\"Column 2\",\"columnKey\":\"a9a98\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "imageInfos" : "",
+                "richTextValue" : "<h1>Hokkaido Scallops</h1>\n\n<p>Hokkaido scallops are a species of scallops native to the cold, \n    northern waters surrounding the most northerly island of Japan, \n    near the territorial waters of Russia. At Hsu’s Ginseng, we \n    source our scallops directly from Hokkaido, Japan, where 80% \n    are farmed in the Sea of Okhotsk. The waters in this \n    region are rich in nutrients and are home to a variety of marine \n    life. Like ginseng, the scallop beds of Hokkaido are also located at 45° N latitude.</p>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "6646126d-8106-4ae1-8c48-5368e5931011",
+              "type" : "component"
+            } ],
+            "id" : "a1f2bcfc-c1dd-4647-9b3b-ef56c2cb687e",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "imageInfos" : "",
+                "richTextValue" : "<p style=\"text-align: center;\"><img src=\"{!cmsMedia.MCZSG5JT5OEVEFXCTRDNEIUB22NI}\" alt=\"\" width=\"254\" style=\"\"></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "b9dda664-bed6-4178-af8f-9fd80f634617",
+              "type" : "component"
+            } ],
+            "id" : "ee8ada79-89b0-4664-995e-7205bbcf1efa",
+            "name" : "a9a98",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "products",
+          "definition" : "community_layout:section",
+          "id" : "4a98f55e-377b-4d0e-95af-6159c90225bc",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "isVisible" : false
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"fddd8a01-16c5-4052-b3e5-c19e72cdcd82\",\"columns\":[{\"UUID\":\"28680092-f142-458c-88f1-71657808e6a6\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"1de74135-8a89-44c5-bf93-50dc2fd24af9\",\"columnName\":\"Column 2\",\"columnKey\":\"87951\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "imageInfos" : "",
+                "richTextValue" : "<h1>Abalone</h1>\n\n<p>Abalone is a marine mollusk known for its rich, flavorful meat. In the past, \n    it was only consumed by royalty and elites, particularly in East Asia, due to \n    the expense. In parallel, abalone was also consumed by Native Americans along the coast of California. \n    To this day, abalone is considered a delicacy in Asian culture and can \n    still be found along the coastal areas of California. </p>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "078368ea-ec4e-48e4-b08f-e00a2afa280a",
+              "type" : "component"
+            } ],
+            "id" : "28680092-f142-458c-88f1-71657808e6a6",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "imageInfos" : "",
+                "richTextValue" : "<p style=\"text-align: center;\"><img src=\"{!cmsMedia.MCPTD7K2ZMQ5DFROWI4ALSFV653U}\" alt=\"\" width=\"413\" style=\"\"></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "ff610ad7-67ce-43f6-be20-eb9f65afb267",
+              "type" : "component"
+            } ],
+            "id" : "1de74135-8a89-44c5-bf93-50dc2fd24af9",
+            "name" : "87951",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "products",
+          "definition" : "community_layout:section",
+          "id" : "fddd8a01-16c5-4052-b3e5-c19e72cdcd82",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "isVisible" : false
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"cf6a0b0f-96ac-4939-a921-cdf450f64983\",\"columns\":[{\"UUID\":\"29a4e34e-d9a2-4cf4-83f4-a6d1b8edc738\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "searchResultsLoading" : "{!Search.ClientState.loading}",
+                "searchResultsTotal" : "{!Search.Results.total}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "dxpStyle" : { }
+                  },
+                  "children" : [ {
+                    "id" : "b9d667b9-161a-4151-b7c0-f2c020fea275",
+                    "name" : "categoryHeader",
+                    "title" : "Category Header",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "backgroundColor" : "",
+                        "dxpStyle" : { },
+                        "isLinkable" : false,
+                        "linkAssistiveText" : "",
+                        "paddingHorizontal" : "none",
+                        "paddingVertical" : "small",
+                        "text" : "{!Search.Results.description}",
+                        "textAlign" : "left",
+                        "textDecoration" : "{}",
+                        "textDisplayInfo" : "{\"textStyle\":\"heading-small\",\"headingTag\":\"h4\",\"enableOverride\":false}"
+                      },
+                      "definition" : "dxp_base:textBlock",
+                      "id" : "e069c429-2ed2-45ec-9d30-049cb480c5e0",
+                      "type" : "component"
+                    } ],
+                    "id" : "b912813b-6dd0-4c43-8a68-f4404740cfbe",
+                    "name" : "searchHeader",
+                    "title" : "Results Header",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "dxpStyle" : { },
+                        "sortRuleId" : "{!Search.SortRules.currentSortRuleId}",
+                        "sortRules" : "{!Search.SortRules.rules}"
+                      },
+                      "children" : [ {
+                        "children" : [ {
+                          "attributes" : {
+                            "backgroundColor" : "",
+                            "dxpStyle" : { },
+                            "isLinkable" : false,
+                            "linkAssistiveText" : "",
+                            "paddingHorizontal" : "small",
+                            "paddingVertical" : "none",
+                            "text" : "{!Label.B2B_Search_Results.sortBy}",
+                            "textAlign" : "right",
+                            "textDecoration" : "{}",
+                            "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\",\"enableOverride\":false}"
+                          },
+                          "definition" : "dxp_base:textBlock",
+                          "id" : "7dead7c3-716f-495d-859d-afc70419e31a",
+                          "type" : "component"
+                        } ],
+                        "id" : "e9ed7c82-3632-4ffc-8c26-a270018f4c35",
+                        "name" : "sortMenuLabel",
+                        "title" : "sortMenuLabel",
+                        "type" : "region"
+                      } ],
+                      "definition" : "commerce_builder:searchSortMenu",
+                      "id" : "1990ecf9-51d8-4739-8aec-e086873ff48c",
+                      "type" : "component"
+                    } ],
+                    "id" : "7ef9ea2f-fec1-4b6c-8ec4-c75cdbc00b6b",
+                    "name" : "sortingMenu",
+                    "title" : "Sorting Menu",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "dxpStyle" : { },
+                        "headingTextAlign" : "left",
+                        "headingTextDecoration" : "{}",
+                        "headingTextDisplayInfo" : "{}",
+                        "linkSpacing" : "x-small",
+                        "linkTextAlign" : "left",
+                        "maxDepth" : "1",
+                        "paddingHorizontal" : "none",
+                        "paddingVertical" : "none",
+                        "searchResults" : "{!Search.Results}",
+                        "showFacetCounts" : true,
+                        "showFilters" : "{!Search.ClientState.showFilters}",
+                        "sortRuleId" : "{!Search.SortRules.currentSortRuleId}",
+                        "sortRules" : "{!Search.SortRules.rules}",
+                        "textDecoration" : "{}",
+                        "textDisplayInfo" : "{}"
+                      },
+                      "definition" : "commerce_builder:searchFilters",
+                      "id" : "20867fe2-5023-4a67-bb41-a9225ed0739f",
+                      "type" : "component"
+                    } ],
+                    "id" : "e1847407-e018-4e91-b926-11873088b8b4",
+                    "name" : "searchFilters",
+                    "title" : "Filters",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "currentPage" : "{!Search.Pagination.currentPage}",
+                        "dxpStyle" : { },
+                        "gridColumnSpacing" : "small",
+                        "gridRowSpacing" : "small",
+                        "numberOfColumns" : "default",
+                        "numberOfColumnsOnMobile" : "2",
+                        "pageSize" : "{!Search.Results.pageSize}",
+                        "searchResultsLoading" : "{!Search.ClientState.loading}",
+                        "total" : "{!Search.Results.total}"
+                      },
+                      "children" : [ {
+                        "children" : [ {
+                          "attributes" : {
+                            "addToCartButtonLabel" : "Add To Cart",
+                            "cardBorderColor" : "rgba(0, 0, 0, 0)",
+                            "cardBorderRadius" : 5,
+                            "cardBorderWeight" : 1,
+                            "cardImageBorderColor" : "#d9dfe7",
+                            "cardImageSize" : "contain",
+                            "combinePromosThreshold" : "1",
+                            "dxpStyle" : { },
+                            "imageHoverAction" : "none",
+                            "item" : "{!Item}",
+                            "priceType" : "displayAllPrices",
+                            "primaryPriceFontSize" : "medium",
+                            "primaryPriceTextStyle" : "{\"bold\":true}",
+                            "promotionTextColor" : "#0d825d",
+                            "secondaryPriceFontSize" : "small",
+                            "secondaryPriceTextColor" : "#707275",
+                            "showButtonOnDesktop" : true,
+                            "showButtonOnMobile" : false,
+                            "showProductImage" : true,
+                            "showSku" : false,
+                            "showWishlistIcon" : true,
+                            "skuLabel" : "SKU:",
+                            "unavailablePriceLabel" : "Price Unavailable"
+                          },
+                          "definition" : "commerce_builder:productCard",
+                          "id" : "8355e9ff-cf82-4336-a233-bbdb37e76fd3",
+                          "type" : "component"
+                        } ],
+                        "id" : "de186d84-8565-4ae7-af02-3b7c4483f22b",
+                        "name" : "sfdcRepeaterItem",
+                        "title" : "sfdcRepeaterItem",
+                        "type" : "region"
+                      } ],
+                      "definition" : "commerce_builder:searchResultsGrid",
+                      "id" : "a1b0fd36-4383-4626-8e30-f5ee555d3da3",
+                      "type" : "component",
+                      "dataProviders" : [ {
+                        "definition" : "sfdc_cms__expressionDataProvider",
+                        "sfdcExpressionKey" : "Item",
+                        "attributes" : {
+                          "listSource" : "{!Search.Results.cardCollection}"
+                        }
+                      } ]
+                    } ],
+                    "id" : "9ddf8b14-fcf4-4db6-a8a2-07b617b80afd",
+                    "name" : "searchResult",
+                    "title" : "Results",
+                    "type" : "region"
+                  } ],
+                  "definition" : "commerce_builder:searchResultsLayout",
+                  "id" : "26f8d9b1-b894-49db-bdc7-10dbc5ab840b",
+                  "type" : "component"
+                } ],
+                "id" : "5a4ddd08-2f68-4e2c-8f43-a9176e414389",
+                "name" : "resultsLayout",
+                "title" : "Results Layout",
+                "type" : "region"
+              }, {
+                "id" : "7965befa-189c-4ab4-9969-d7c302519bba",
+                "name" : "noResults",
+                "title" : "No Results",
+                "type" : "region"
+              }, {
+                "id" : "216979ca-c740-45a9-ac73-b75d24e624b7",
+                "name" : "loaderPlaceholder",
+                "title" : "loaderPlaceholder",
+                "type" : "region"
+              } ],
+              "definition" : "commerce_builder:searchNoResultsLayout",
+              "id" : "a348b238-d775-4d07-b3aa-17c8928ba6cf",
+              "type" : "component"
+            } ],
+            "id" : "29a4e34e-d9a2-4cf4-83f4-a6d1b8edc738",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "cf6a0b0f-96ac-4939-a921-cdf450f64983",
+          "type" : "component"
+        } ],
+        "id" : "cb8710fb-815b-4509-be42-fee20a637545",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "{!Record.Description}",
+            "dxpStyle" : { },
+            "pageTitle" : "{!Record._Title}",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "cc9a07a4-6a70-45f1-80fd-15ef7f7da082",
+          "type" : "component"
+        } ],
+        "id" : "9a996ac2-7485-4a28-aa4f-e17d4d5fb909",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "0b98a0e1-225e-4b76-a895-8923180b9667",
+      "type" : "component"
+    },
+    "contentOperations" : {
+      "operations" : [ {
+        "targetId" : "b5612d59-61fb-4dbd-8378-d91f5fcb848b",
+        "isHiddenOnOperationSuccess" : false,
+        "isActive" : true,
+        "rule" : {
+          "name" : "96bd6f5e-698a-4648-a04b-2083692d3013",
+          "description" : "",
+          "criteriaType" : "AllCriteriaMatch",
+          "expressionCriteria" : [ {
+            "resource" : "Search.Results.categoryName",
+            "operator" : "Equal",
+            "value" : "Cultivated American",
+            "criterionNumber" : 1
+          } ]
+        }
+      }, {
+        "targetId" : "e99e1711-9cb1-4784-a0fe-42a027f87872",
+        "isHiddenOnOperationSuccess" : false,
+        "isActive" : true,
+        "rule" : {
+          "name" : "072b9cc5-6980-4b4c-9da9-3872c293b335",
+          "description" : "",
+          "criteriaType" : "AllCriteriaMatch",
+          "expressionCriteria" : [ {
+            "resource" : "Search.Results.categoryName",
+            "operator" : "Equal",
+            "value" : "Korean",
+            "criterionNumber" : 1
+          } ]
+        }
+      }, {
+        "targetId" : "3b772c49-0c88-497b-8598-f01aa54d814a",
+        "isHiddenOnOperationSuccess" : false,
+        "isActive" : true,
+        "rule" : {
+          "name" : "fdabc3a8-8789-4998-a8e3-bde37d318458",
+          "description" : "",
+          "criteriaType" : "AllCriteriaMatch",
+          "expressionCriteria" : [ {
+            "resource" : "Search.Results.categoryName",
+            "operator" : "Equal",
+            "value" : "Wood Grown",
+            "criterionNumber" : 1
+          } ]
+        }
+      }, {
+        "targetId" : "b361eb7a-da4c-4c34-aba9-c6b8e5961a96",
+        "isHiddenOnOperationSuccess" : false,
+        "isActive" : true,
+        "rule" : {
+          "name" : "e90f8a54-17f4-4ba5-b909-13abae77d4c8",
+          "description" : "",
+          "criteriaType" : "AllCriteriaMatch",
+          "expressionCriteria" : [ {
+            "resource" : "Search.Results.categoryName",
+            "operator" : "Equal",
+            "value" : "Wild",
+            "criterionNumber" : 1
+          } ]
+        }
+      }, {
+        "targetId" : "e9a71e85-c6f7-49b6-bdb0-3100e688560f",
+        "isHiddenOnOperationSuccess" : false,
+        "isActive" : true,
+        "rule" : {
+          "name" : "f0aa52b4-9cc5-4939-81f2-8ab3ba48a593",
+          "description" : "",
+          "criteriaType" : "AllCriteriaMatch",
+          "expressionCriteria" : [ {
+            "resource" : "Search.Results.categoryName",
+            "operator" : "Equal",
+            "value" : "Red",
+            "criterionNumber" : 1
+          } ]
+        }
+      }, {
+        "targetId" : "ed452639-e418-4b70-a7d5-1e1531bfceab",
+        "isHiddenOnOperationSuccess" : false,
+        "isActive" : true,
+        "rule" : {
+          "name" : "f2b0da56-86c5-4353-93ff-5783104acd4d",
+          "description" : "",
+          "criteriaType" : "AllCriteriaMatch",
+          "expressionCriteria" : [ {
+            "resource" : "Search.Results.categoryName",
+            "operator" : "Equal",
+            "value" : "Bird's Nest",
+            "criterionNumber" : 1
+          } ]
+        }
+      }, {
+        "targetId" : "cc3210f7-cc72-430d-a658-f7cabec0f01c",
+        "isHiddenOnOperationSuccess" : false,
+        "isActive" : true,
+        "rule" : {
+          "name" : "c681227d-73f7-4874-966e-04031cb87104",
+          "description" : "",
+          "criteriaType" : "AllCriteriaMatch",
+          "expressionCriteria" : [ {
+            "resource" : "Search.Results.categoryName",
+            "operator" : "Equal",
+            "value" : "Sea Cucumber",
+            "criterionNumber" : 1
+          } ]
+        }
+      }, {
+        "targetId" : "fddd8a01-16c5-4052-b3e5-c19e72cdcd82",
+        "isHiddenOnOperationSuccess" : false,
+        "isActive" : true,
+        "rule" : {
+          "name" : "072f447c-3d43-422f-90d9-8befc0bcf7cc",
+          "description" : "",
+          "criteriaType" : "AllCriteriaMatch",
+          "expressionCriteria" : [ {
+            "resource" : "Search.Results.categoryName",
+            "operator" : "Equal",
+            "value" : "Abalone",
+            "criterionNumber" : 1
+          } ]
+        }
+      }, {
+        "targetId" : "4a98f55e-377b-4d0e-95af-6159c90225bc",
+        "isHiddenOnOperationSuccess" : false,
+        "isActive" : true,
+        "rule" : {
+          "name" : "97c2b831-b2c8-4834-868f-6de4329102e9",
+          "description" : "",
+          "criteriaType" : "AllCriteriaMatch",
+          "expressionCriteria" : [ {
+            "resource" : "Search.Results.categoryName",
+            "operator" : "Equal",
+            "value" : "Scallop",
+            "criterionNumber" : 1
+          } ]
+        }
+      } ]
+    },
+    "dataProviders" : [ {
+      "definition" : "sfdc_cms__commerceSearchDataProvider",
+      "sfdcExpressionKey" : "Search",
+      "attributes" : {
+        "searchTerm" : "{!Route.term}",
+        "categoryPathId" : "{!Route.recordId}",
+        "categoryId" : "{!Route.recordId}"
+      }
+    } ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "detail-0ZG"
+  },
+  "urlName" : "category"
+}

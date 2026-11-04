@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Return Policy",
+  "contentBody" : {
+    "activeViewId" : "Return_Policy",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-return-policy",
+    "urlPrefix" : "return-policy"
+  },
+  "urlName" : "return-policy"
+}

@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Blog-Events",
+  "contentBody" : {
+    "activeViewId" : "Blog_Events",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-blog-events",
+    "urlPrefix" : "blog-events"
+  },
+  "urlName" : "blog-events"
+}

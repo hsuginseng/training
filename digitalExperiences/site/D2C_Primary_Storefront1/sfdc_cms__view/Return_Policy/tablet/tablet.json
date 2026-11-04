@@ -1,0 +1,17 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Return Policy",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "attributes" : {
+          "dxpStyle" : {
+            "isVisible" : false
+          }
+        },
+        "id" : "efc28143-a249-414b-8ea5-01f8ecae9ca0"
+      } ]
+    }
+  },
+  "urlName" : "return-policy"
+}

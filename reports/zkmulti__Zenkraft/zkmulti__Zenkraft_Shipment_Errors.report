@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>zkmulti__MCShipment__c$CreatedDate</field>
+    </columns>
+    <columns>
+        <field>zkmulti__MCShipment__c.zkmulti__Shipment_Status__r$Name</field>
+    </columns>
+    <columns>
+        <field>zkmulti__MCShipment__c.zkmulti__Shipment_Status__r$zkmulti__Status_Message__c</field>
+    </columns>
+    <columns>
+        <field>zkmulti__MCShipment__c$Name</field>
+    </columns>
+    <columns>
+        <field>zkmulti__MCShipment__c$Id</field>
+    </columns>
+    <columns>
+        <field>zkmulti__MCShipment__c$zkmulti__Recipient_Contact__c</field>
+    </columns>
+    <columns>
+        <field>zkmulti__MCShipment__c$zkmulti__Recipient_Account__c</field>
+    </columns>
+    <description>Zenkraft Carrier Shipment Exceptions</description>
+    <filter>
+        <criteriaItems>
+            <column>zkmulti__MCShipment__c$zkmulti__Tracking_Stage__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Exception</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Zenkraft shipment exceptions</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>zkmulti__Zenkraft_Shipments__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>zkmulti__MCShipment__c$CreatedDate</sortColumn>
+    <sortOrder>Desc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>zkmulti__MCShipment__c$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

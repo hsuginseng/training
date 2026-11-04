@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email template for auto-response on Tours Request scheduled</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Tour Request Scheduled (MSimplified</name>
+    <pageDevName>Tour_Request_Scheduled_MSimplified</pageDevName>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>Your Tour at HSU Ginseng Farm is Scheduled</subject>
+    <textOnly>Case #: {{{Case.CaseNumber}}}
+
+-----------------------------------------------------
+
+{{{Case.First_Name__c}}}, 感谢您预约参观许氏花旗参园！
+
+我们很高兴通知您，您的参观行程已确认:
+
+• 联络电话:{{{Case.Phone_Number__c}}}
+
+• 预约参观日期：{{{Case.Scheduled_Tour_Date_Time__c}}}
+
+• 希望导游使用的语言：{{{Case.Preferred_Language__c}}}
+
+参观资讯:
+
+• 导游:{{{Case.Case_Owner_Name__c}}}
+
+• 联络电话：{{{Case.Tour_Guide_Phone__c}}}
+
+• 参观地点: T6500 County Rd W, Wausau, WI 54403
+
+Google Maps &lt; https://www.google.com/maps/place/237895+County+Rd+W,+Wausau,+WI+54403/@45.0261194,-89.6193939,17z/data=!4m6!3m5!1s0x4d55336497c84c05:0x568cc817418300c3!8m2!3d45.0261194!4d-89.6193939!16s%2Fg%2F11h_k7t39c?entry=ttu&amp;g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%253D%253D &gt; 
+
+溫馨提醒：
+
+• 為確保行程準時開始，請您至少提前 5 分鐘抵達現場。
+
+• 若需取消或變更參觀時間，敬請務必提前通知，以便為您重新安排相關事宜。
+
+若您在參觀前有任何問題，歡迎隨時與我們聯繫。
+
+我們期待在花旗參園與您見面！
+
+此致,
+
+導覽員,{{{Case.Tour_Guide__c}}}
+
+Hsu&apos;s Ginseng Enterprises, Inc.
+
+📌温馨提醒：
+
+- 参观费用为每人$5，可于当日在本店消费时全额抵扣。
+
+• 全程导览时间约为 1 至 1.5 小时，实际时间视当日情况略有调整。
+
+• 由于参观活动部分为户外行程，天气状况可能影响整体体验。
+
+**
+----------------------------------------------------
+
+📞联络方式：
+
+电话： (715) 675-2325 / (1800) 826-1577
+
+Email：support@hsuginseng.com
+
+网站：www.hsuginseng.com &lt; http://www.hsuginseng.com/ &gt; 
+
+**
+----------------------------------------------------
+
+🕒客服时间：
+
+周一至周五（国定假日除外）
+
+早上 8:30 至 下午 5:00 （美中时间）</textOnly>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

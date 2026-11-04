@@ -1,0 +1,241 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "About Us",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "About Us",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "0d227b8c-fd73-455d-bb15-e3b899b9d084",
+          "type" : "component"
+        } ],
+        "id" : "b149cc80-4465-4930-a417-86b52f89362e",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "ctaText" : "",
+            "ctaUrl" : "",
+            "dxpStyle" : { },
+            "title" : "Providing Traditional Herbal Remedies and Culinary Delicacies Since 1974",
+            "videoUrl" : "/sfsites/c/cms/delivery/media/MCLOA5PGMKWJEJDLEGV2K242NUI4"
+          },
+          "definition" : "c:bannerVideo",
+          "id" : "14a6fe63-4d0c-422b-99ca-e73a75ea6163",
+          "type" : "component"
+        } ],
+        "id" : "541e2f0c-1605-4fab-b3a4-2ed965a4a53f",
+        "name" : "banner-video",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "dxpStyle" : { },
+            "text" : "Since 1974, Hsu’s Ginseng has remained faithful to our promise of providing authentic and responsibly sourced products alongside the purest American ginseng from Wisconsin to enhance your health and vitality. With generations of expertise in farming and sourcing and with an unwavering commitment to quality, we strive to ensure our customers harness the natural strengths of American ginseng and experience all that a balanced, energized life has to offer."
+          },
+          "definition" : "c:aboutIntro",
+          "id" : "2699cfe4-c3e1-486e-9504-9888338ac11e",
+          "type" : "component"
+        } ],
+        "id" : "b196d862-fe40-4786-a130-4af235d820d2",
+        "name" : "intro-text",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "dxpStyle" : { },
+            "imageUrl" : "/sfsites/c/cms/delivery/media/MCRYAARKQJ6ZGJJJKWW4HN4O7WQU",
+            "text" : "Family-owned and independently operated, the company is committed to maintaining its farms, production facilities and world headquarters in Wausau, Wisconsin, while expanding its international distribution network of branch offices around the globe as it transitions to the next generation of family leadership as a leader in the ginseng industry.",
+            "youTubeEmbed" : "https://www.youtube.com/embed/2Cc0Tmr3QAA",
+            "youTubeTitle" : "YouTube Video Title"
+          },
+          "definition" : "c:aboutVideo",
+          "id" : "78f71b17-d79e-4670-a60f-4e748cea0cb9",
+          "type" : "component"
+        } ],
+        "id" : "fe5f23d6-ce81-4d77-9946-1f527857e06a",
+        "name" : "intro-video",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "dxpStyle" : { },
+            "title" : "We Oversee Every Step from Farm to Your Table "
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { }
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "dxpStyle" : { },
+                    "imageId" : "MC26FB3KNHKFATFHOJ7TDJI5JQ4Y",
+                    "text" : "Planting  Sow seeds in optimal conditions to ensure healthy and sustainable growth. ",
+                    "title" : "Planting"
+                  },
+                  "definition" : "c:aboutProcessCard",
+                  "id" : "8b7f5e39-34d6-433a-85c3-21c274a45736",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "dxpStyle" : { },
+                    "imageId" : "MCL5WQZKRERVAMPHKQA5YS2L3G2U",
+                    "text" : "Provide care through watering, fertilizing, weeding, and pest control to support crop development.",
+                    "title" : "Maintenance"
+                  },
+                  "definition" : "c:aboutProcessCard",
+                  "id" : "c63d1cbd-96d4-4bdf-aea5-ffba07217f62",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "dxpStyle" : { },
+                    "imageId" : "MC7BUT6JRKWNBGBLF7EUVFKWXSLQ",
+                    "text" : "Harvested after 4-5 years in the fall, after berries ripen and tops start to die back.",
+                    "title" : "Harvesting"
+                  },
+                  "definition" : "c:aboutProcessCard",
+                  "id" : "1470d68c-ff33-48bf-b4b3-5b28a13460e4",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "dxpStyle" : { },
+                    "imageId" : "MCTU5JE4SBWBGJLHQKNZ5LF44W2M",
+                    "text" : "Thoroughly washed twice to remove dirt, debris, pesticides, and contaminants. ",
+                    "title" : "Washing"
+                  },
+                  "definition" : "c:aboutProcessCard",
+                  "id" : "d05e3104-b1e0-40e6-bf62-3ec1ede835d0",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "dxpStyle" : { },
+                    "imageId" : "MC5JWPNDRBBFBYPPGCELVKZICSNA",
+                    "text" : "Extensive quality-check measures, products are inspected and categorized based on various criteria such as size, quality, ripeness, and appearance.",
+                    "title" : "Grading"
+                  },
+                  "definition" : "c:aboutProcessCard",
+                  "id" : "b6066191-10c8-49f7-8cbc-e156d65821ea",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "dxpStyle" : { },
+                    "imageId" : "MCABDYYVI4O5G7DFRLW7CNYF7T7I",
+                    "text" : "Graded products are refined and transformed into finished or semi-finished goods that cater to specific market demands.",
+                    "title" : "Processing"
+                  },
+                  "definition" : "c:aboutProcessCard",
+                  "id" : "999e0eee-1d77-4a7b-8ff9-b96f7f37219f",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "dxpStyle" : { },
+                    "imageId" : "MC6L2FYFMZEBDWBLW3L4KZM75NJQ",
+                    "text" : "Securely pack items by hand to preserve quality and ensure safe transport.",
+                    "title" : "Packaging"
+                  },
+                  "definition" : "c:aboutProcessCard",
+                  "id" : "860a98d3-e3f7-4abc-ba0c-6b0987a870b8",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "dxpStyle" : { },
+                    "imageId" : "MCUAEEFVQGTZGW7FBSCXBHOUOSAY",
+                    "text" : "Deliver products efficiently to customers and markets.",
+                    "title" : "Distribute"
+                  },
+                  "definition" : "c:aboutProcessCard",
+                  "id" : "52a03b78-f6b7-407f-a23b-ef7f8370287b",
+                  "type" : "component"
+                } ],
+                "id" : "c0ff012e-c0f9-443d-963e-32704d3205b6",
+                "name" : "ProcessCards",
+                "title" : "ProcessCards",
+                "type" : "region"
+              } ],
+              "definition" : "c:aboutProcessGrid",
+              "id" : "e3427238-62c7-4b66-a54c-4c5a3de65520",
+              "type" : "component"
+            } ],
+            "id" : "f8b0147c-ed10-4e43-ada0-dcecee1dc0cf",
+            "name" : "ProcessCardGrid",
+            "title" : "ProcessCardGrid",
+            "type" : "region"
+          } ],
+          "definition" : "c:aboutProcess",
+          "id" : "9466e6dd-97a5-4463-9840-8aed4566169a",
+          "type" : "component"
+        } ],
+        "id" : "56dedd12-9019-4f1c-a449-f21984988b9d",
+        "name" : "process",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "content" : "[\n{\n\"id\":\"1\",\n\"imageUrl\":\"/sfsites/c/cms/delivery/media/MCT62553IHPJFPTJMIBF2Z66QJ3E\",\n\"imageAlt\":\"HSU Headquarters from 1974\",\n\"year\":\"1974\",\n\"title\":\"Our Creation\",\n\"text\":\"Hsu's Ginseng Enterprises, Inc. was established\"\n},\n{\n\"id\":\"2\",\n\"imageUrl\":\"/sfsites/c/cms/delivery/media/MCXE55LKHSBRGFLMECHKJGEGQLFM\",\n\"imageAlt\":\"Our First Farm purchased in 1978\",\n\"year\":\"1978\",\n\"title\":\"Our First Farm\",\n\"text\":\"Paul and Sharon purchased their first farm and started Hsu Ginseng Farms, LLP\"\n},\n{\n\"id\":\"3\",\n\"imageUrl\":\"/sfsites/c/cms/delivery/media/MCUI5EGWEOPBCOPO6EY2XLFQ5FBM\",\n\"imageAlt\":\"Paul and Ron Sandquist harvest their first ginseng crop\",\n\"year\":\"1981\",\n\"title\":\"Our First Harvest\",\n\"text\":\"Paul and Ron Sandquist (far left, farm manager and first employee) harvested their first ginseng crop.\"\n},\n{\n\"id\":\"4\",\n\"imageUrl\":\"/sfsites/c/cms/delivery/media/MCVOTIR5DGKFADPNWUF2GY7XRZ7A\",\n\"imageAlt\":\"image alt\",\n\"year\":\"1996\",\n\"title\":\"Partnerships with Japan\",\n\"text\":\"Hsu's Ginseng partnered with Japan’s Gyoren, Hokkaido Federation of Fisheries Cooperative Association, to distribute dried scallops and seafood to North America.\"\n},\n{\n\"id\":\"5\",\n\"imageUrl\":\"/sfsites/c/cms/delivery/media/MCUCV4LDBMZNBBJMSKXREM4XXXBE\",\n\"imageAlt\":\"image alt\",\n\"year\":\"1997\",\n\"title\":\"Creation of Hsu Growing Supply\",\n\"text\":\"Hsu Growing Supply, a division of Hsu Ginseng Farms LLP, was established and received one of the Wisconsin’s first commercial composting licenses.\"\n}\n]",
+            "dxpStyle" : { },
+            "title" : "Milestones"
+          },
+          "definition" : "c:aboutMilestones",
+          "id" : "e9b8bd49-d2f8-485e-93f4-853ea42589b3",
+          "type" : "component"
+        } ],
+        "id" : "2f179dcc-3b7c-4d26-955c-c31caa1aa71d",
+        "name" : "milestones",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "ctaText" : "Explore Our Products",
+            "ctaUrl" : "/category/shop/0ZGV5000000093JOAQ",
+            "dxpStyle" : { },
+            "imageAlt" : "",
+            "imageUrl" : "/sfsites/c/cms/delivery/media/MCAZLW23ZOBNFOLGMBJWKWFHBOPU",
+            "title" : "Explore the Path to Wellness"
+          },
+          "definition" : "c:aboutProducts",
+          "id" : "d55311ed-a0e4-4edf-b2ff-07fe6995d614",
+          "type" : "component"
+        } ],
+        "id" : "1b8a9545-edae-48d8-94da-976650ca6264",
+        "name" : "products",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "displayTextPlain" : "In 1968, Paul Hsu arrived in the United States with a bachelors degree in English Language and Literature from the Taiwan National University. He came to the US to pursue further education, earning a masters degree in social work from the University of Denver in 1971. After graduation, he took on a role as a social worker at Wisconsin’s Department of Health and Social Services in Fond du Lac. Paul is the 10th of 14 children and was born in Penghu, Taiwan. He is the first person in his family to attend college and immigrate to the United States.\n\nOne day, while working as a social worker, a colleague handed Paul an article from Mother Earth Magazine that focused on the medicinal uses of ginseng. He learned that Marathon County, not far from where he lived at the time, was home to several ginseng growers. Curious and determined, Paul drove to a local farm, knocked on the door and asked the farmer to share their knowledge about the crop.\n\nPaul bought some ginseng from that farmer and sent it to his mother in Kaohsiung, Taiwan, who had been struggling with health concerns. About ten months later, he received a letter from his father with a simple, profound message: “The ginseng worked. Send more.” This experience made Paul a firm believer in the power of ginseng and its potential to improve lives.\n\nHe started buying ginseng from local farmers, trimming the roots at home, selling and sharing it with family and friends, who were also impressed by the results. In 1974, Paul took a bold step, by placing a small ad in a Chinese newspaper and began a small operation in the basement of his home in Fond du Lac, Wisconsin. \n\nThe mail orders trickled in at first, then grew into a steady stream. By 1976, with his business thriving, Paul made the decision to move to Wausau, closer to the heart of American ginseng country. Just two years later, in 1978, Paul took his passion to the next level and purchased his very first ginseng farm, which we operate on to this day as the home farm for Hsu’s Ginseng in Wausau, Wisconsin.",
+            "dxpStyle" : { },
+            "image1Alt" : "image 1 alt",
+            "image1Url" : "/sfsites/c/cms/delivery/media/MCM5FGQ6QVCJB4DFWWRD6FTCSKBQ",
+            "image2Alt" : "image 2 alt",
+            "image2Url" : "/sfsites/c/cms/delivery/media/MCTEG2VG7U3FEPZBGTT66LDBSONI",
+            "title" : "The Founder’s Story"
+          },
+          "definition" : "c:aboutFounders",
+          "id" : "5f7f8e50-a7be-48de-a503-74a39c5a397b",
+          "type" : "component"
+        } ],
+        "id" : "c42bdccc-3fa3-4aa6-b2db-acc98de8b02c",
+        "name" : "founders",
+        "type" : "region"
+      } ],
+      "definition" : "c:d2cAboutPageTemplate",
+      "id" : "299a0834-ea98-4feb-b2a7-4d9de14e130f",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-about-template"
+  },
+  "urlName" : "about-us"
+}

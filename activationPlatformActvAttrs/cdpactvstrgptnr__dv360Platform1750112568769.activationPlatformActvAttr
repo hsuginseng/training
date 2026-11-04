@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ActivationPlatformActvAttr xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activationPlatform>cdpactvstrgptnr__dv360Platform</activationPlatform>
+    <applyHash>false</applyHash>
+    <attributeMappingSchemas>[{&quot;name&quot;:&quot;ANON&quot;,&quot;category&quot;:&quot;optional&quot;}]</attributeMappingSchemas>
+    <destinationName>GENERIC_DEVICE_ID</destinationName>
+    <fieldName>AdvertiserId</fieldName>
+    <isFromSourceObject>false</isFromSourceObject>
+    <isIdentifier>false</isIdentifier>
+    <isRequired>false</isRequired>
+    <masterLabel>AdvertisingDeviceId</masterLabel>
+    <objectName>Device</objectName>
+</ActivationPlatformActvAttr>

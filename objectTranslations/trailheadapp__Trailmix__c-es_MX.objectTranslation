@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Trailmix</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Trailmixes</value>
+    </caseValues>
+    <fields>
+        <label><!-- Is Deleted --></label>
+        <name>trailheadapp__Archived__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created At --></label>
+        <name>trailheadapp__Created_At__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created By Profile --></label>
+        <name>trailheadapp__Created_By_Profile__c</name>
+    </fields>
+    <fields>
+        <help>ESTE CAMPO YA NO SE REQUIERE. MODIFIQUE LAS PROPIEDADES DE ESTE CAMPO EN EL FORMATO DE PÁGINA Y NO MARQUE EL CUADRO REQUERIDO.</help>
+        <label><!-- Created By --></label>
+        <name>trailheadapp__Creator_TH_SFID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>trailheadapp__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>trailheadapp__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Featured --></label>
+        <name>trailheadapp__Featured__c</name>
+    </fields>
+    <fields>
+        <label><!-- API Name --></label>
+        <name>trailheadapp__Slug__c</name>
+    </fields>
+    <fields>
+        <label><!-- URL --></label>
+        <name>trailheadapp__URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Updated At --></label>
+        <name>trailheadapp__Updated_At__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Trailmix Layout</layout>
+        <sections>
+            <label>Vínculos personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Nombre de Trailmix</nameFieldLabel>
+    <quickActions>
+        <label><!-- Assign Users --></label>
+        <name>trailheadapp__Assign_Multiple_Users</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Unassign Users --></label>
+        <name>trailheadapp__Unassign_Multiple_Users</name>
+    </quickActions>
+    <webLinks>
+        <label><!-- Assign_Users --></label>
+        <name>trailheadapp__Assign_Users</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Unassign_Users --></label>
+        <name>trailheadapp__Unassign_Users</name>
+    </webLinks>
+</CustomObjectTranslation>

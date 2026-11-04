@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>オートメーションイベント</value>
+    </caseValues>
+    <fields>
+        <label>アクション名</label>
+        <name>copado__Action_Name__c</name>
+    </fields>
+    <fields>
+        <label>アクションの結果</label>
+        <name>copado__Action_Result__c</name>
+    </fields>
+    <fields>
+        <label>アクションのステータス</label>
+        <name>copado__Action_Status__c</name>
+    </fields>
+    <fields>
+        <label>環境ID</label>
+        <name>copado__Environment_Id__c</name>
+    </fields>
+    <fields>
+        <label>ジョブ実行ID</label>
+        <name>copado__Job_Execution_Id__c</name>
+    </fields>
+    <fields>
+        <label>オートメーションログ</label>
+        <name>copado__Log__c</name>
+    </fields>
+    <fields>
+        <label>ペイロード</label>
+        <name>copado__Payload__c</name>
+    </fields>
+    <fields>
+        <label>パイプラインID</label>
+        <name>copado__Pipeline_Id__c</name>
+    </fields>
+    <fields>
+        <label>処理ステータス</label>
+        <name>copado__Processing_Status__c</name>
+        <picklistValues>
+            <masterLabel>Failed</masterLabel>
+            <translation><!-- Failed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processed</masterLabel>
+            <translation><!-- Processed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retry</masterLabel>
+            <translation><!-- Retry --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>ステージID</label>
+        <name>copado__Stage_Id__c</name>
+    </fields>
+    <fields>
+        <label>ターゲットアクション、ジョブ実行ID</label>
+        <name>copado__Target_Action_Job_Execution_Ids__c</name>
+    </fields>
+    <fields>
+        <label>ターゲットアクション数</label>
+        <name>copado__Target_Action_Number__c</name>
+    </fields>
+    <nameFieldLabel>MCオートメーション イベント名</nameFieldLabel>
+</CustomObjectTranslation>

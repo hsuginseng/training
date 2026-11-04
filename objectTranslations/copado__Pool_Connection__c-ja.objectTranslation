@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Pool Connection --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Maintenance Schedule Id --></label>
+        <name>copado__Maintenance_Schedule_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pipeline --></label>
+        <name>copado__Pipeline__c</name>
+        <relationshipLabel><!-- Pool Connections --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>この環境プールに対応する Git ブランチ名です。形式は pool/TargetEnvironmentName/PoolEnvironmentName となります。例：pool/ScrumQA/QA1</help>
+        <label><!-- Pool Environment Branch Name --></label>
+        <name>copado__Pool_Environment_Branch_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pool Environment --></label>
+        <name>copado__Pool_Environment__c</name>
+        <relationshipLabel><!-- Pool Connections (Pool Environment) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>copado__Status__c</name>
+        <picklistValues>
+            <masterLabel>Decommissioning</masterLabel>
+            <translation>廃止</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready</masterLabel>
+            <translation>準備完了</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unauthorized</masterLabel>
+            <translation>未承認</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unavailable</masterLabel>
+            <translation>利用不可</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Updating</masterLabel>
+            <translation>更新中</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Validating</masterLabel>
+            <translation>検証中</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Target Environment --></label>
+        <name>copado__Target_Environment__c</name>
+        <relationshipLabel><!-- Pool Connections --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Pool Connection Layout</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Pool Connection Reference --></nameFieldLabel>
+</CustomObjectTranslation>

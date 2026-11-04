@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Tour-Sign-Up",
+  "contentBody" : {
+    "activeViewId" : "Tours_Sign_Up",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-tours-sign-up",
+    "urlPrefix" : "tours-sign-up"
+  },
+  "urlName" : "tours-sign-up"
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Saves changes made to Source Files on Envelope Configuration</description>
+    <isExposed>true</isExposed>
+    <lightningMessageFields>
+        <description>Flag to determine whether to attach files from the record</description>
+        <fieldName>attachSourceFiles</fieldName>
+    </lightningMessageFields>
+    <lightningMessageFields>
+        <description>Document data to be placed at a specific sequence.</description>
+        <fieldName>document</fieldName>
+    </lightningMessageFields>
+    <lightningMessageFields>
+        <description>Sequence or routing order for the documents that are part of envelope configuration</description>
+        <fieldName>index</fieldName>
+    </lightningMessageFields>
+    <masterLabel>DecUpdateSourceFiles</masterLabel>
+</LightningMessageChannel>

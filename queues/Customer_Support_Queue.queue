@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Queue for Customer Support cases to be submitted to.</description>
+    <doesIncludeBosses>true</doesIncludeBosses>
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <name>Customer Support Queue</name>
+    <queueMembers>
+        <users>
+            <user>arthur@hsuginseng.com</user>
+            <user>henry.zhang@hsuginseng.com</user>
+            <user>josephine@hsuginseng.com</user>
+            <user>vanessa.kurth@hsuginseng.com</user>
+            <user>vincent@hsuginseng.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

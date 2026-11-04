@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- UISection --></value>
+    </caseValues>
+    <fields>
+        <label>コンポーネント</label>
+        <name>copado__Component__c</name>
+    </fields>
+    <fields>
+        <label>エクステンションパッケージの構成</label>
+        <name>copado__Extension_Package_Configuration__c</name>
+        <relationshipLabel>UIセクション</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ロケーション</label>
+        <name>copado__Location__c</name>
+    </fields>
+    <fields>
+        <label>テストツール</label>
+        <name>copado__TestTool__c</name>
+        <relationshipLabel>UIセクション</relationshipLabel>
+    </fields>
+    <fields>
+        <label>これはどこで使用されますか？</label>
+        <name>copado__WhereIsThisUsed__c</name>
+    </fields>
+    <layouts>
+        <layout>UISection Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

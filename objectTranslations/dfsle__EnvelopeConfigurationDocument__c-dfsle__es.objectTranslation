@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Documento de la configuración de sobres de Docusign</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Documentos de la configuración de sobres de Docusign</value>
+    </caseValues>
+    <fields>
+        <label>Configuración del sobre</label>
+        <name>dfsle__EnvelopeConfiguration__c</name>
+        <relationshipLabel><!-- Documents --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Extensión</label>
+        <name>dfsle__Extension__c</name>
+    </fields>
+    <fields>
+        <label>Filtrar</label>
+        <name>dfsle__Filter__c</name>
+    </fields>
+    <fields>
+        <label>Nombre</label>
+        <name>dfsle__Name__c</name>
+    </fields>
+    <fields>
+        <label>Solo lectura</label>
+        <name>dfsle__ReadOnly__c</name>
+    </fields>
+    <fields>
+        <label>Obligatorio</label>
+        <name>dfsle__Required__c</name>
+    </fields>
+    <fields>
+        <label>Secuencia</label>
+        <name>dfsle__Sequence__c</name>
+    </fields>
+    <fields>
+        <label>ID de fuente</label>
+        <name>dfsle__SourceId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Document Type --></help>
+        <label>Tipo</label>
+        <name>dfsle__Type__c</name>
+        <picklistValues>
+            <masterLabel>Source Files</masterLabel>
+            <translation><!-- Source Files --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Template</masterLabel>
+            <translation><!-- Template --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Template Document</masterLabel>
+            <translation><!-- Template Document --></translation>
+        </picklistValues>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Document</nameFieldLabel>
+</CustomObjectTranslation>

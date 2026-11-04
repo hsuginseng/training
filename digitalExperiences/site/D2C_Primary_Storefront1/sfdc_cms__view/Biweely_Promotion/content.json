@@ -1,0 +1,88 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Biweely Promotion",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"f051461d-eaf1-43b6-8d0c-3014d236a3bd\",\"columns\":[{\"UUID\":\"76d714fa-e2de-4dfa-a7f9-ba0b6576d3e9\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"2\",\"seedComponents\":[]},{\"UUID\":\"2926b294-c767-4398-b4ab-291e6298eb77\",\"columnName\":\"Column 2\",\"columnKey\":\"1826d\",\"columnWidth\":\"8\",\"seedComponents\":[]},{\"UUID\":\"9a9d4d78-815e-4a25-9a2b-bff5e60301be\",\"columnName\":\"Column 3\",\"columnKey\":\"cf118\",\"columnWidth\":\"2\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "id" : "76d714fa-e2de-4dfa-a7f9-ba0b6576d3e9",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : { },
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCEHD4WJEF3JDP3GU35ENFZXCIWA?lastModifiedDate=Tue Oct 13 17:07:13 GMT 2026\",\"altText\":\"\",\"contentKey\":\"MCEHD4WJEF3JDP3GU35ENFZXCIWA\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "4a0df096-7eca-413b-87cc-069c3f96f598",
+              "type" : "component"
+            } ],
+            "id" : "2926b294-c767-4398-b4ab-291e6298eb77",
+            "name" : "1826d",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "id" : "9a9d4d78-815e-4a25-9a2b-bff5e60301be",
+            "name" : "cf118",
+            "title" : "Column 3",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "f051461d-eaf1-43b6-8d0c-3014d236a3bd",
+          "type" : "component"
+        } ],
+        "id" : "7ba15fd8-db46-4b6c-a77d-1de451ee2f47",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "Biweely Promotion",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "a3fbeec1-38fd-4def-9459-06c52df718ed",
+          "type" : "component"
+        } ],
+        "id" : "4a5756fc-e061-41c8-a53b-27324bb669f3",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "51790683-dade-472e-be5f-8e52aeb94307",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-biweely-promotion"
+  },
+  "urlName" : "biweely-promotion"
+}

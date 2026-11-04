@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Custom Address Source Field</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Custom Address Source Fields</value>
+    </caseValues>
+    <fields>
+        <label><!-- Carrier --></label>
+        <name>zkmulti__Carrier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom Address Source --></label>
+        <name>zkmulti__Custom_Address_Source__c</name>
+        <relationshipLabel><!-- Custom Address Source Fields --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Field Label --></label>
+        <name>zkmulti__Field_Label__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field Name --></label>
+        <name>zkmulti__Field_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field Type --></label>
+        <name>zkmulti__Field_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field Value --></label>
+        <name>zkmulti__Field_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Index --></label>
+        <name>zkmulti__Index__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Dynamic --></label>
+        <name>zkmulti__Is_Dynamic__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Output Field --></label>
+        <name>zkmulti__Is_Output_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Label --></label>
+        <name>zkmulti__Object_Label__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Name --></label>
+        <name>zkmulti__Object_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Option Type --></label>
+        <name>zkmulti__Option_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Output Condition --></label>
+        <name>zkmulti__Output_Condition__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom Address Source Package --></label>
+        <name>zkmulti__Package__c</name>
+        <relationshipLabel><!-- Custom Address Source Fields --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Parent Object --></label>
+        <name>zkmulti__Parent_Object__c</name>
+    </fields>
+    <fields>
+        <label><!-- Schema Field Type --></label>
+        <name>zkmulti__Schema_Field_Type__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

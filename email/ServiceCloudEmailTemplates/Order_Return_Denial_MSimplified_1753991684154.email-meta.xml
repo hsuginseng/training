@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email template for auto-response on Order Return Denial</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Order Return Denial (MSimplified)</name>
+    <pageDevName>Order_Return_Denial_MSimplified</pageDevName>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>Update Regarding Your Return Request</subject>
+    <textOnly>Case #: {{{Case.CaseNumber}}}
+
+Subject: {{{Case.Subject}}}
+
+Issue Description: {{{Case.Issue_Description__c}}}
+
+-----------------------------------------------------
+
+您好 {{{Case.First_Name__c}}}，感谢您的联系，
+
+很抱歉通知您，您针对订单 #{{{Case.Order_Number__c}}} 中商品 [SKU#] 的退货申请，不符合我们退货政策 &lt; https://https://hsusginseng--uat.sandbox.my.site.com/d2c/return-policy &gt; 中的相关规定。
+
+请留意以下说明：
+
+• 已开封的商品恕不接受退货或退款。
+
+• 特殊商品无论是否开封，皆无法办理退货。
+
+若您认为此次审核结果有误，或有其他补充资讯，欢迎回复此邮件或致电 1-800-826-1577 与我们联系，我们将乐意再次为您审查案件。
+
+感谢您的理解与持续支持！
+
+此致,
+
+{{{Case.Case_Owner_Name__c}}}
+
+许氏客服部
+
+Hsu&apos;s Ginseng Enterprises, Inc.
+
+📌是订单相关问题吗？
+
+如果您要查询现有订单，请记得提供订单号，我们能更快为您服务喔！
+
+**
+----------------------------------------------------
+
+📞联系方式：
+
+电话： (715) 675-2325 / (1800) 826-1577
+
+Email：support@hsuginseng.com
+
+网站：www.hsuginseng.com &lt; http://www.hsuginseng.com/ &gt; 
+
+**
+----------------------------------------------------
+
+🕒客服时间:
+
+周一至周五（国定假日除外）
+
+早上8:30至 下午 5:00 （美国时间）</textOnly>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

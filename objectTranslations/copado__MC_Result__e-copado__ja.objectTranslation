@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- MC Result --></value>
+    </caseValues>
+    <fields>
+        <label>エラーコード</label>
+        <name>copado__Error_Code__c</name>
+    </fields>
+    <fields>
+        <label>エラーメッセージ</label>
+        <name>copado__Error_Message__c</name>
+    </fields>
+    <fields>
+        <label>終了しました</label>
+        <name>copado__IsFinished__c</name>
+    </fields>
+    <fields>
+        <label>成功しました</label>
+        <name>copado__IsSuccess__c</name>
+    </fields>
+    <fields>
+        <label>進行状況</label>
+        <name>copado__Progress_Status__c</name>
+    </fields>
+    <fields>
+        <label>結果ID</label>
+        <name>copado__ResultId__c</name>
+    </fields>
+    <fields>
+        <label>結果データ</label>
+        <name>copado__Result_Data__c</name>
+    </fields>
+</CustomObjectTranslation>

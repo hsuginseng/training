@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Export Configuration Property</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Export Configuration Properties</value>
+    </caseValues>
+    <fields>
+        <label><!-- Export Configuration --></label>
+        <name>pimly__Export_Configuration__c</name>
+        <relationshipLabel><!-- Export Configuration Properties --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Pimly Property --></label>
+        <name>pimly__Pimly_Property__c</name>
+        <relationshipLabel><!-- Export Configuration Properties --></relationshipLabel>
+    </fields>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

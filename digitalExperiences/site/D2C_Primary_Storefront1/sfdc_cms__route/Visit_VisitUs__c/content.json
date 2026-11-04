@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Visit-VisitUs",
+  "contentBody" : {
+    "activeViewId" : "Visit_VisitUs",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-visit-visitus",
+    "urlPrefix" : "visit-visitus"
+  },
+  "urlName" : "visit-visitus"
+}

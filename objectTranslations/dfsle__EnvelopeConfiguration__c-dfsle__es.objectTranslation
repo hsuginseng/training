@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Plantilla de sobres Docusign</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Plantillas de sobres Docusign</value>
+    </caseValues>
+    <fields>
+        <label>Acción</label>
+        <name>dfsle__Action__c</name>
+        <picklistValues>
+            <masterLabel>Prepare</masterLabel>
+            <translation><!-- Prepare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Send</masterLabel>
+            <translation><!-- Send --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tag</masterLabel>
+            <translation><!-- Tag --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Activo</label>
+        <name>dfsle__Active__c</name>
+    </fields>
+    <fields>
+        <label>Agregar documentos de origen de Salesforce</label>
+        <name>dfsle__AddSourceDocuments__c</name>
+    </fields>
+    <fields>
+        <label>Agregar destinatarios cuyo origen es Salesforce</label>
+        <name>dfsle__AddSourceRecipients__c</name>
+    </fields>
+    <fields>
+        <label>Campos personalizados</label>
+        <name>dfsle__CustomFields__c</name>
+    </fields>
+    <fields>
+        <label><!-- DFS Template ID --></label>
+        <name>dfsle__DFSTemplateId__c</name>
+    </fields>
+    <fields>
+        <label>Id. de plantilla de DocuSign</label>
+        <name>dfsle__DocuSignId__c</name>
+    </fields>
+    <fields>
+        <label>Mensaje del correo electrónico</label>
+        <name>dfsle__EmailMessage__c</name>
+    </fields>
+    <fields>
+        <label>Asunto del correo electrónico</label>
+        <name>dfsle__EmailSubject__c</name>
+    </fields>
+    <fields>
+        <label>Caducar/anular sobre en N días</label>
+        <name>dfsle__ExpireAfterDays__c</name>
+    </fields>
+    <fields>
+        <label>Advertir de caducidad N días antes</label>
+        <name>dfsle__ExpireWarnDays__c</name>
+    </fields>
+    <fields>
+        <label>Caducar/anular sobre</label>
+        <name>dfsle__Expires__c</name>
+    </fields>
+    <fields>
+        <label>Es un borrador</label>
+        <name>dfsle__IsDraft__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Quick Send --></label>
+        <name>dfsle__IsQuickSend__c</name>
+    </fields>
+    <fields>
+        <label>Campos de combinación</label>
+        <name>dfsle__MergeFields__c</name>
+    </fields>
+    <fields>
+        <label>Notificaciones</label>
+        <name>dfsle__Notifications__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de objeto</label>
+        <name>dfsle__ObjectType__c</name>
+    </fields>
+    <fields>
+        <label>Opciones</label>
+        <name>dfsle__Options__c</name>
+    </fields>
+    <fields>
+        <label>Enviar recordatorio en N días</label>
+        <name>dfsle__RemindAfterDays__c</name>
+    </fields>
+    <fields>
+        <label>Recordar cada N día(s) hasta que se complete</label>
+        <name>dfsle__RemindFrequencyDays__c</name>
+    </fields>
+    <fields>
+        <label>Recordar a los firmantes por correo electrónico</label>
+        <name>dfsle__Remind__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender DocuSign UserName --></label>
+        <name>dfsle__SenderDocuSignUserName__c</name>
+    </fields>
+    <fields>
+        <label>Permisos del remitente</label>
+        <name>dfsle__SenderPermissions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender Salesforce UserName --></label>
+        <name>dfsle__SenderSalesforceUserName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender --></label>
+        <name>dfsle__Sender__c</name>
+        <relationshipLabel><!-- Docusign Envelope Templates --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sending Experience --></label>
+        <name>dfsle__SendingExperience__c</name>
+        <picklistValues>
+            <masterLabel>edit</masterLabel>
+            <translation><!-- edit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>quickSend</masterLabel>
+            <translation><!-- quickSend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>send</masterLabel>
+            <translation><!-- send --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>tag</masterLabel>
+            <translation><!-- tag --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Mostrar Configuración de Chatter</label>
+        <name>dfsle__ShowChatterSettings__c</name>
+    </fields>
+    <fields>
+        <label>Mostrar Mensaje de correo electrónico</label>
+        <name>dfsle__ShowEmailMessage__c</name>
+    </fields>
+    <fields>
+        <label>Mostrar Asunto de correo electrónico</label>
+        <name>dfsle__ShowEmailSubject__c</name>
+    </fields>
+    <fields>
+        <label>Mostrar la configuración de recordatorios y caducidad</label>
+        <name>dfsle__ShowRemindExpire__c</name>
+    </fields>
+    <fields>
+        <label>Mostrar botón Enviar</label>
+        <name>dfsle__ShowSendButton__c</name>
+    </fields>
+    <fields>
+        <label>Mostrar botón Etiquetar</label>
+        <name>dfsle__ShowTagButton__c</name>
+    </fields>
+    <fields>
+        <label>Objeto de origen</label>
+        <name>dfsle__SourceObject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Template Type --></label>
+        <name>dfsle__TemplateType__c</name>
+        <picklistValues>
+            <masterLabel>Embedded</masterLabel>
+            <translation><!-- Embedded --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General</masterLabel>
+            <translation><!-- General --></translation>
+        </picklistValues>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>DocuSign Envelope Configuration Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Information --></label>
+            <section>Information</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Name --></nameFieldLabel>
+</CustomObjectTranslation>

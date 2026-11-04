@@ -1,0 +1,55 @@
+@import 'c/cssLibrary';
+
+.card {
+
+	h3 {
+		margin: 0 0 0.5rem 0;
+	}
+
+	p {
+		margin: 0 0 1rem 0;
+		color: #272525 !important;
+	}
+
+	a {
+		font-family: "Acumin VF", sans-serif;
+		font-size: 1.313rem;
+		font-weight: 500;
+		line-height: 1.4;
+		letter-spacing: 0.00168em;
+		text-transform: uppercase;
+		text-decoration: underline;
+		color: #900;
+
+		@media (max-width: 620px) {
+			font-size: 1rem;
+		}
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+}
+
+.card-image {
+	display: block;
+	aspect-ratio: 1 / 1.3;
+	margin-bottom: 1.875rem;
+
+	@media (max-width: 768px) {
+		aspect-ratio: 1 / 1;
+	}
+
+	img {
+		display: block;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		border-radius: 1rem;
+	}
+}
+
+.cta-link-alignment {
+	position: absolute;
+	bottom: 0
+}

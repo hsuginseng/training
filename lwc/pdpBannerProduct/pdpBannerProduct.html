@@ -1,0 +1,18 @@
+<template>
+	<div class="product">
+		<h1>{title}</h1>
+		<div lwc:if={showPricing} class="pricing">
+			<p lwc:if={hasOriginalPrice} class="price">
+				<lightning-formatted-number value={price} format-style="currency" currency-code="USD"></lightning-formatted-number>
+			</p>
+			<p lwc:if={hasDiscountedPrice} class="sale-price">
+				<lightning-formatted-number value={discountedPrice} format-style="currency" currency-code="USD"></lightning-formatted-number>
+			</p>
+		</div>
+		<ul class="benefits">
+			<template for:each={benefits} for:item="benefit">
+				<li key={benefit.id}>{benefit.text}</li>
+			</template>
+		</ul>
+	</div>
+</template>

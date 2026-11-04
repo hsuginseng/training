@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Package</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Packages</value>
+    </caseValues>
+    <fields>
+        <label><!-- Actual Delivery Date --></label>
+        <name>zkmulti__ActualDeliveryDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Additional Handling --></label>
+        <name>zkmulti__AdditionalHandling__c</name>
+    </fields>
+    <fields>
+        <label><!-- Additional Tracking Numbers --></label>
+        <name>zkmulti__AdditionalTrackingNumbers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Admissibility Package Type Name --></label>
+        <name>zkmulti__AdmissibilityPackageTypeName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Identifier --></label>
+        <name>zkmulti__AdmissibilityPackageType__c</name>
+    </fields>
+    <fields>
+        <help><!-- if multiple, different hazmat/chemicals are contained within one box in a package --></help>
+        <label><!-- All Packed HazMat In One Package --></label>
+        <name>zkmulti__AllPackedHaZmatInOnePackage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allow Record Delete --></label>
+        <name>zkmulti__Allow_Record_Delete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier Type --></label>
+        <name>zkmulti__CarrierType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier --></label>
+        <name>zkmulti__Carrier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Damaged --></label>
+        <name>zkmulti__Damaged__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dangerous Goods Type --></label>
+        <name>zkmulti__DangerousGoodsType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Declared/Carriage Value Currency --></label>
+        <name>zkmulti__DeclaredValueCurrency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Declared/Carriage Value --></label>
+        <name>zkmulti__DeclaredValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Voided from Shipment --></label>
+        <name>zkmulti__DeletedFromShipment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deliver Without Signature --></label>
+        <name>zkmulti__DeliverWithoutSignature__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivered --></label>
+        <name>zkmulti__Delivered__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>zkmulti__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dimension Units --></label>
+        <name>zkmulti__Dimension_Units__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dry Ice Medical Use Indicator --></label>
+        <name>zkmulti__DryIceMedicalUseIndicator__c</name>
+    </fields>
+    <fields>
+        <label><!-- Regulation Set --></label>
+        <name>zkmulti__DryIceRegulationSet__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dry Ice --></label>
+        <name>zkmulti__DryIce__c</name>
+    </fields>
+    <fields>
+        <label><!-- Emergency Contact --></label>
+        <name>zkmulti__EmergencyContact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Emergency Phone --></label>
+        <name>zkmulti__EmergencyPhone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Empty Box Weight --></label>
+        <name>zkmulti__Empty_Box_Weight__c</name>
+    </fields>
+    <fields>
+        <label><!-- Extra Cost --></label>
+        <name>zkmulti__ExtraCost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Freight Class --></label>
+        <name>zkmulti__Freight_Class__c</name>
+    </fields>
+    <fields>
+        <label><!-- Handling Unit Count --></label>
+        <name>zkmulti__Handling_Unit_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Handling Unit Type --></label>
+        <name>zkmulti__Handling_Unit_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Haz Mat Details First --></label>
+        <name>zkmulti__HazMatDetailsFirst__c</name>
+        <relationshipLabel><!-- Packages (Haz Mat Details First) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Haz Mat Details Second --></label>
+        <name>zkmulti__HazMatDetailsSecond__c</name>
+        <relationshipLabel><!-- Packages (Haz Mat Details Second) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Haz Mat Details Third --></label>
+        <name>zkmulti__HazMatDetailsThird__c</name>
+        <relationshipLabel><!-- Packages (Haz Mat Details Third) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Haz Mat First Quantity --></label>
+        <name>zkmulti__HazMatFirstQuantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Haz Mat Second Quantity --></label>
+        <name>zkmulti__HazMatSecondQuantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Haz Mat Third Quantity --></label>
+        <name>zkmulti__HazMatThirdQuantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Height --></label>
+        <name>zkmulti__Height__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inner Height --></label>
+        <name>zkmulti__Inner_Height__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inner Length --></label>
+        <name>zkmulti__Inner_Length__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inner Width --></label>
+        <name>zkmulti__Inner_Width__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ion in Equip --></label>
+        <name>zkmulti__IonInEquip__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ion w/ Equip --></label>
+        <name>zkmulti__IonWithEquip__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Freight --></label>
+        <name>zkmulti__IsFreight__c</name>
+    </fields>
+    <fields>
+        <label><!-- Length --></label>
+        <name>zkmulti__Length__c</name>
+    </fields>
+    <fields>
+        <label><!-- Max Weight --></label>
+        <name>zkmulti__Max_Weight__c</name>
+    </fields>
+    <fields>
+        <label><!-- Metal in Equip --></label>
+        <name>zkmulti__MetalInEquip__c</name>
+    </fields>
+    <fields>
+        <label><!-- Metal w/ Equip --></label>
+        <name>zkmulti__MetalWithEquip__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mod Key --></label>
+        <name>zkmulti__Mod_Key__c</name>
+    </fields>
+    <fields>
+        <label><!-- NMFC Number --></label>
+        <name>zkmulti__NMFC_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- NMFC Sub Category --></label>
+        <name>zkmulti__NMFC_Sub_Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Item Id --></label>
+        <name>zkmulti__Order_Item_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Object Id --></label>
+        <name>zkmulti__OriginalObjectId__c</name>
+    </fields>
+    <fields>
+        <help><!-- One or more hazmat/chemicals are in separate boxes in a package --></help>
+        <label><!-- Over Packed HazMat --></label>
+        <name>zkmulti__OverPackedHazMat__c</name>
+    </fields>
+    <fields>
+        <label><!-- Package Handling Amount --></label>
+        <name>zkmulti__PackageHandlingAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Package Profile Description --></label>
+        <name>zkmulti__PackageProfileDescription__c</name>
+    </fields>
+    <fields>
+        <label><!-- Package Profile --></label>
+        <name>zkmulti__PackageProfile__c</name>
+    </fields>
+    <fields>
+        <label><!-- Packaging Type Name --></label>
+        <name>zkmulti__Packaging_Type_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Packaging Type --></label>
+        <name>zkmulti__Packaging_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pickup Tag --></label>
+        <name>zkmulti__Pickup_Tag__c</name>
+    </fields>
+    <fields>
+        <label><!-- Proactive --></label>
+        <name>zkmulti__Proactive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Profile --></label>
+        <name>zkmulti__Profile__c</name>
+        <relationshipLabel><!-- Packages --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Q Value --></label>
+        <name>zkmulti__QValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>zkmulti__Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference 1 Value --></label>
+        <name>zkmulti__Reference1_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference 2 Value --></label>
+        <name>zkmulti__Reference2_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference 3 Value --></label>
+        <name>zkmulti__Reference3_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- COD Type --></label>
+        <name>zkmulti__SSCodType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sequence Number --></label>
+        <name>zkmulti__SequenceNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipment --></label>
+        <name>zkmulti__Shipment__c</name>
+        <relationshipLabel><!-- Packages --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Signature Confirmation --></label>
+        <name>zkmulti__SignatureConfirmation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Specific Product Package --></label>
+        <name>zkmulti__Specific_Product_Package__c</name>
+    </fields>
+    <fields>
+        <label><!-- COD Collection Amount Currency --></label>
+        <name>zkmulti__SsCodAmountCurrency__c</name>
+    </fields>
+    <fields>
+        <label><!-- COD Collection Amount --></label>
+        <name>zkmulti__SsCodAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- COD Cashier&apos;s Check or Money Order Only --></label>
+        <name>zkmulti__SsCodCashiersCheckOrMoneyOrderOnly__c</name>
+    </fields>
+    <fields>
+        <label><!-- COD --></label>
+        <name>zkmulti__SsCod__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dangerous Goods Accessibility --></label>
+        <name>zkmulti__SsDangerousGoodsAccessibility__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dry Ice Weight --></label>
+        <name>zkmulti__SsDryIceWeight__c</name>
+    </fields>
+    <fields>
+        <label><!-- E.C.O.D. --></label>
+        <name>zkmulti__SsElectronicCod__c</name>
+    </fields>
+    <fields>
+        <label><!-- HazMat Details --></label>
+        <name>zkmulti__SsHazMatDetails__c</name>
+        <relationshipLabel><!-- Packages --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Non Standard Packaging --></label>
+        <name>zkmulti__SsNonStandardPackaging__c</name>
+    </fields>
+    <fields>
+        <label><!-- ORM-D Details --></label>
+        <name>zkmulti__SsOrmDDetails__c</name>
+        <relationshipLabel><!-- Packages --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Priority Alert - Content --></label>
+        <name>zkmulti__SsPriorityAlertContent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Priority Alert Plus --></label>
+        <name>zkmulti__SsPriorityAlertPlus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Priority Alert --></label>
+        <name>zkmulti__SsPriorityAlert__c</name>
+    </fields>
+    <fields>
+        <label><!-- Signature Options --></label>
+        <name>zkmulti__SsSignatureOption__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status Description --></label>
+        <name>zkmulti__StatusDescription__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Pieces On Skid --></label>
+        <name>zkmulti__TotalPiecesOnSkid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tracking Number Type --></label>
+        <name>zkmulti__TrackingIdType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tracking Number --></label>
+        <name>zkmulti__TrackingId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transportation Mode --></label>
+        <name>zkmulti__TransportationMode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Verbal Confirmation --></label>
+        <name>zkmulti__VerbalConfirmation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Weight Units --></label>
+        <name>zkmulti__Weight_Units__c</name>
+    </fields>
+    <fields>
+        <label><!-- Weight --></label>
+        <name>zkmulti__Weight__c</name>
+    </fields>
+    <fields>
+        <label><!-- Width --></label>
+        <name>zkmulti__Width__c</name>
+    </fields>
+    <layouts>
+        <layout>Package Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Declared/Carriage Value --></label>
+            <section>Declared/Carriage Value</section>
+        </sections>
+        <sections>
+            <label><!-- Dimensions --></label>
+            <section>Dimensions</section>
+        </sections>
+        <sections>
+            <label><!-- Freight Details --></label>
+            <section>Freight Details</section>
+        </sections>
+        <sections>
+            <label><!-- Inner Dimensions --></label>
+            <section>Inner Dimensions</section>
+        </sections>
+        <sections>
+            <label><!-- Other Information --></label>
+            <section>Other Information</section>
+        </sections>
+        <sections>
+            <label><!-- Packaging Type --></label>
+            <section>Packaging Type</section>
+        </sections>
+        <sections>
+            <label><!-- Qty --></label>
+            <section>Qty</section>
+        </sections>
+        <sections>
+            <label><!-- References --></label>
+            <section>References</section>
+        </sections>
+        <sections>
+            <label><!-- Special Service - Dangerous Goods --></label>
+            <section>Special Service - Dangerous Goods</section>
+        </sections>
+        <sections>
+            <label><!-- Special Service - Lithium Batteries/Cells --></label>
+            <section>Special Service - Lithium Batteries/Cells</section>
+        </sections>
+        <sections>
+            <label><!-- Special Service - -  COD --></label>
+            <section>Special Service -- COD</section>
+        </sections>
+        <sections>
+            <label><!-- Special Services --></label>
+            <section>Special Services</section>
+        </sections>
+        <sections>
+            <label><!-- Speical Service - -  Dry Ice --></label>
+            <section>Speical Service -- Dry Ice</section>
+        </sections>
+        <sections>
+            <label><!-- Tracking Information --></label>
+            <section>Tracking Information</section>
+        </sections>
+        <sections>
+            <label><!-- Weight --></label>
+            <section>Weight</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

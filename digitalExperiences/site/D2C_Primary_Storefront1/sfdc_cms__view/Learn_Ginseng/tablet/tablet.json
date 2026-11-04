@@ -1,0 +1,23 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Learn-Ginseng",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "attributes" : {
+          "dxpStyle" : {
+            "isVisible" : false,
+            "margin" : {
+              "bottom" : "",
+              "left" : "200px",
+              "right" : "200px",
+              "top" : ""
+            }
+          }
+        },
+        "id" : "a14a9e47-5a50-48eb-bce0-1656dfde8ed5"
+      } ]
+    }
+  },
+  "urlName" : "learn-ginseng"
+}

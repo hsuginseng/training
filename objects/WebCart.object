@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>AVA_B2BLEX__Cross_Border_Summary__c</fullName>
+        <deprecated>false</deprecated>
+        <inlineHelpText>Cross-border messages</inlineHelpText>
+        <label>Cross Border Summary</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>AVA_B2BLEX__Invoice_Message__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field record invoice message, VAT/BIN message</description>
+        <label>Invoice Message</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>AVA_B2BLEX__Transport__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>This specifies who is responsible for transport of the goods on the transaction</inlineHelpText>
+        <label>Transport</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AccountId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Applied_Loyalty_Voucher_Id__c</fullName>
+        <description>A commerce data provider visible field used for the D2C checkout process.</description>
+        <externalId>false</externalId>
+        <formula>CASESAFEID(Applied_Loyalty_Voucher__r.Id)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Applied Loyalty Voucher Id</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Applied_Loyalty_Voucher__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>This stores the ID of the loyalty voucher issued for the cart.</description>
+        <label>Applied Loyalty Voucher</label>
+        <referenceTo>Voucher</referenceTo>
+        <relationshipLabel>Carts</relationshipLabel>
+        <relationshipName>Carts</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>B2B_OOBO_Approval_Needed_Formula__c</fullName>
+        <formula>IF( WebStore.Name = &apos;D2C Primary Storefront&apos;, false,
+IF( WebStore.Name = &apos;B2B Primary Storefront&apos;, false,
+IF( WebStore.Name = &apos;B2B Canada Storefront&apos;, false,
+
+Cart_Total_Discount_Percentage_Formula__c &gt; 0.10 ||  Cart_Item_Max_Discount_Percentage_Rollup__c &gt; 0.10
+
+
+)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Triggers Approval Process; Gets copied to B2B_OOBO_Approval_Needed</inlineHelpText>
+        <label>B2B OOBO Approval Needed Formula</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>B2B_OOBO_Approval_Needed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Triggers B2B Discount Approval Process</description>
+        <inlineHelpText>Triggers B2B Discount Approval Process</inlineHelpText>
+        <label>B2B OOBO Approval Needed</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>BillingAddress</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Cart_Discount_Percentage__c</fullName>
+        <description>Cart Discount Percentage entered by Sales Rep on OOBO; Applied to all Cart Items after Line Item Discount are applied.</description>
+        <inlineHelpText>Cart Discount Percentage entered by Sales Rep on OOBO; Applied to all Cart Items after Line Item Discount are applied.</inlineHelpText>
+        <label>Cart Discount (%)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Cart_Id__c</fullName>
+        <externalId>false</externalId>
+        <label>Cart Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Cart_Item_Max_Discount_Percentage_Rollup__c</fullName>
+        <description>Maximum Cart Item Discount Percentage; Gets copied to Cart_Item_Max_Discount_Percentage</description>
+        <inlineHelpText>Maximum Cart Item Discount Percentage; Gets copied to Cart_Item_Max_Discount_Percentage</inlineHelpText>
+        <label>Cart Item Max Discount Percentage Rollup</label>
+        <summarizedField>CartItem.Cart_Item_Discount_Percentage_Formula__c</summarizedField>
+        <summaryForeignKey>CartItem.CartId</summaryForeignKey>
+        <summaryOperation>max</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Cart_Item_Max_Discount_Percentage__c</fullName>
+        <description>Maximum Cart Item Discount Percentage</description>
+        <inlineHelpText>Maximum Cart Item Discount Percentage</inlineHelpText>
+        <label>Cart Item Max Discount (%)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Cart_Total_Discount_Percentage_Formula__c</fullName>
+        <description>Total Discount Percentage of Cart; Gets copied to Cart_Total_Discount_Percentage</description>
+        <formula>TotalAdjustmentAmount / (TotalProductAmount + TotalAdjustmentAmount)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Cart Total Discount Percentage Formula</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Cart_Total_Discount_Percentage__c</fullName>
+        <description>Total Discount Percentage of Cart</description>
+        <inlineHelpText>Total Discount Percentage of Cart</inlineHelpText>
+        <label>Cart Total Discount (%)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Cash_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Cash Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CollaborationLockedAt</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>CollaborationLockedById</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CollaborationStatus</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Expedite_Shipping_Amount_Remaining__c</fullName>
+        <formula>100 - Expedite_Shipping_Amount__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Expedite Shipping Amount Remaining</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Expedite_Shipping_Amount__c</fullName>
+        <label>Expedite Shipping Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>FirstPymtGrandTotalAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>FirstPymtTotalTaxAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Free_Shipping_Override__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This field allows Hsu&apos;s B2B sales persons to override shipping for a cart.</description>
+        <label>Free Shipping Override</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Fresh_Ginseng_Weight_Remaining__c</fullName>
+        <externalId>false</externalId>
+        <formula>2 -  Fresh_Ginseng_Weight__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Fresh Ginseng Weight Remaining</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Fresh_Ginseng_Weight__c</fullName>
+        <externalId>false</externalId>
+        <label>Fresh Ginseng Weight</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>GrandTotalAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>GuestCompanyName</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>GuestEmailAddress</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>GuestFirstName</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>GuestLastName</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>GuestPhoneNumber</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>GuestSecondName</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>InitialOrderReferenceNumber</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>InventoryReservationIdentifier</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>IsRepricingNeeded</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>IsSecondary</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Is_Destination_State_In_Lower_48__c</fullName>
+        <formula>IF(OR(Shipping_Destination_State__c = &apos;HI&apos;, Shipping_Destination_State__c = &apos;AK&apos;, Shipping_Destination_Country__c &lt;&gt; &apos;US&apos;), FALSE, TRUE)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Is Destination State In Lower 48</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Destination_State_In_Two_Day_Zone__c</fullName>
+        <formula>IF(AND(Shipping_Destination_Country__c = &apos;US&apos;, OR(Shipping_Destination_State__c = &apos;WI&apos;, Shipping_Destination_State__c = &apos;MN&apos;, Shipping_Destination_State__c = &apos;IA&apos;, Shipping_Destination_State__c = &apos;IL&apos;, Shipping_Destination_State__c = &apos;IN&apos;, Shipping_Destination_State__c = &apos;OH&apos;, Shipping_Destination_State__c = &apos;MI&apos;, Shipping_Destination_State__c = &apos;KY&apos;, Shipping_Destination_State__c = &apos;KS&apos;, Shipping_Destination_State__c = &apos;MO&apos;, Shipping_Destination_State__c = &apos;ND&apos;, Shipping_Destination_State__c = &apos;SD&apos;)), TRUE, FALSE)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Is Destination State In Two Day Zone</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_OOBO_Cart__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>A checkbox that indicates if carts are created in the Order On Behalf Of Flow.</description>
+        <label>Is OOBO Cart</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>LastOperationJobId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>LastRepricingDate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Location__c</fullName>
+        <description>This location field is used to determine the inventory reservation location.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The external identifier of the inventory location should be populated here.</inlineHelpText>
+        <label>Location</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>OrderOwnerId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Pay_Later__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Pay Later</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PaymentGroupId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PaymentMethodId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Payment_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Payment Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PoNumber</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Prioritize__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Prioritize</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QuoteLineItemCount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Sales_Representative_Id__c</fullName>
+        <externalId>false</externalId>
+        <label>Sales Representative Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sales_Representative__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <label>Sales Representative</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Carts</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Shipping_Category_Name__c</fullName>
+        <description>If D2C, determines if order needs Expedited Shipping. If B2B, determines to offer free shipping or not.</description>
+        <externalId>false</externalId>
+        <formula>If(CASESAFEID(AccountId) = &apos;001V500000XaNmMIAV&apos;, &apos;InStoreAccount&apos;,
+If(AND(OR(WebStore.Name = &apos;B2B Canada Storefront&apos;, WebStore.Name = &apos;B2B Primary Storefront&apos;), OR(Free_Shipping_Override__c = True,  Expedite_Shipping_Amount__c + Standard_Shipping_Amount__c &gt;= 500)), &apos;FreeB2B&apos;,
+IF(Free_Shipping_Override__c = TRUE, &apos;FreeB2B&apos; ,
+If(OR(WebStore.Name = &apos;B2B Canada Storefront&apos;, WebStore.Name = &apos;B2B Primary Storefront&apos;), &apos;StandardB2B&apos;,
+If(AND(Shipping_Category__c &gt; 0,  Fresh_Ginseng_Weight__c &gt;= 2, Is_Destination_State_In_Lower_48__c,  Is_Destination_State_In_Two_Day_Zone__c = FALSE),&apos;ExpediteFree&apos;, 
+If(AND(Shipping_Category__c &gt; 0,  Fresh_Ginseng_Weight__c &gt;= 2, Is_Destination_State_In_Lower_48__c,  Is_Destination_State_In_Two_Day_Zone__c = TRUE),&apos;StandardFree&apos;, 
+If(AND(Shipping_Category__c &gt; 0, Is_Destination_State_In_Two_Day_Zone__c = FALSE), &apos;Expedite&apos;, 
+If(AND(Shipping_Category__c &gt; 0, Is_Destination_State_In_Two_Day_Zone__c = TRUE), &apos;Standard&apos;, 
+If(AND(OR(Shipping_Category__c = 0, ISBLANK(Shipping_Category__c)), Standard_Shipping_Amount_Remaining__c &lt;= 0, Is_Destination_State_In_Lower_48__c), &apos;StandardFree&apos;, &apos;Standard&apos;)))))))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Shipping Category Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Shipping_Category__c</fullName>
+        <externalId>false</externalId>
+        <label>Shipping Category</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Shipping_Destination_Country__c</fullName>
+        <externalId>false</externalId>
+        <label>Shipping Destination Country</label>
+        <length>2</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Shipping_Destination_State__c</fullName>
+        <description>The 2-or-3-letter state abbreviation for the destination state of the cart&apos;s related order.</description>
+        <externalId>false</externalId>
+        <label>Shipping Destination State</label>
+        <length>3</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Shipping_Error_Message__c</fullName>
+        <externalId>false</externalId>
+        <label>Shipping Error Message</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Shipping_Origin_City__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(OR(WebStore.Name = &apos;B2B Canada Storefront&apos;, WebStore.Name = &apos;B2B Primary Storefront&apos;) , CreatedBy.City , $Organization.City)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Shipping Origin City</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Shipping_Origin_Country__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(OR(WebStore.Name = &apos;B2B Canada Storefront&apos;, WebStore.Name = &apos;B2B Primary Storefront&apos;) , CreatedBy.Country , $Organization.Country)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Shipping Origin Country</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Shipping_Origin_Postal_Code__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(OR(WebStore.Name = &apos;B2B Canada Storefront&apos;, WebStore.Name = &apos;B2B Primary Storefront&apos;) , CreatedBy.PostalCode , $Organization.PostalCode)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Shipping Origin Postal Code</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Shipping_Origin_State_Province__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(OR(WebStore.Name = &apos;B2B Canada Storefront&apos;, WebStore.Name = &apos;B2B Primary Storefront&apos;) , CreatedBy.State , $Organization.State)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Shipping Origin State/Province</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Shipping_Origin_Street__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(OR(WebStore.Name = &apos;B2B Canada Storefront&apos;, WebStore.Name = &apos;B2B Primary Storefront&apos;),  CreatedBy.Street , $Organization.Street)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Shipping Origin Street</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Source_Process__c</fullName>
+        <description>This formula determines the process created by the cart, necessary for shipping integrations.</description>
+        <externalId>false</externalId>
+        <formula>IF(Is_OOBO_Cart__c, &apos;OrderOnBehalfOf&apos;, &apos;Storefront&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Source Process</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Split_Payments__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Split Payments</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Standard_Shipping_Amount_Remaining__c</fullName>
+        <formula>100 -  Standard_Shipping_Amount__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Standard Shipping Amount Remaining</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Standard_Shipping_Amount__c</fullName>
+        <label>Standard Shipping Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>SubStatus</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>TaxLocaleType</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TaxType</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalAdjustmentAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalAmountAfterAllAdjustments</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalCartLevelAdjAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalChargeAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalChargeFirstPymtTaxAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalChargeItemAdjAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalChargeTaxAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalLineItemsWithErrors</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalListAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalProductAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalProductCount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalProductFirstPymtTaxAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalProductItemAdjAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalProductItemAdjTaxAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalProductLineItemCount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalProductListAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalProductTaxAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalPromoAdjustmentAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalPromoAdjustmentTaxAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalSubProductCount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalTaxAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>Total_Shipping_Weight_LBs__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Shipping Weight LBs</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Type</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>UniqueProductCount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>WebStoreId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <listViews>
+        <fullName>All_Carts</fullName>
+        <columns>Owner</columns>
+        <columns>Name</columns>
+        <columns>CreatedDate</columns>
+        <columns>Account</columns>
+        <columns>Status</columns>
+        <columns>GrandTotalAmount</columns>
+        <columns>Shipping_Destination_State__c</columns>
+        <columns>TotalTaxAmount</columns>
+        <columns>LastModifiedDate</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Carts</label>
+    </listViews>
+    <listViews>
+        <fullName>All_WebCarts</fullName>
+        <columns>Name</columns>
+        <columns>CreatedDate</columns>
+        <columns>GrandTotalAmount</columns>
+        <columns>Status</columns>
+        <columns>Owner</columns>
+        <columns>Account</columns>
+        <columns>LastModifiedDate</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status</field>
+            <operation>equals</operation>
+            <value>A</value>
+        </filters>
+        <filters>
+            <field>Type</field>
+            <operation>equals</operation>
+            <value>C</value>
+        </filters>
+        <label>All Active Carts</label>
+    </listViews>
+    <searchLayouts>
+        <customTabListAdditionalFields>CreatedDate</customTabListAdditionalFields>
+        <customTabListAdditionalFields>GrandTotalAmount</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Status</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Owner</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Account</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>CreatedDate</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>GrandTotalAmount</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Status</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Owner</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Account</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CreatedDate</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>GrandTotalAmount</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Status</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Owner</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Account</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>CreatedDate</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>GrandTotalAmount</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Status</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Owner</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Account</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+    <validationRules>
+        <fullName>Voucher_Modify_Lock</fullName>
+        <active>true</active>
+        <description>This prevents the applied loyalty voucher from being modified after it is originally set, unless to clear the value.</description>
+        <errorConditionFormula>AND(NOT(ISBLANK(PRIORVALUE(Applied_Loyalty_Voucher__c))),
+ ISCHANGED(Applied_Loyalty_Voucher__c),
+ NOT(ISBLANK(Applied_Loyalty_Voucher__c)))</errorConditionFormula>
+        <errorDisplayField>Applied_Loyalty_Voucher__c</errorDisplayField>
+        <errorMessage>The applied loyalty voucher cannot be modified once it has been set.</errorMessage>
+    </validationRules>
+</CustomObject>

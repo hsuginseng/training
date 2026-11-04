@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email template for auto-response on Tours Request submission</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Tours Request Submission</name>
+    <pageDevName>Tours_Request_Submission</pageDevName>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>Thank you for your interest in visiting Hsu’s Ginseng Farm</subject>
+    <textOnly>Case #: {{{Case.CaseNumber}}}
+
+-----------------------------------------------------
+
+Dear {{{Case.First_Name__c}}},
+
+Thank you for your interest in visiting Hsu’s Ginseng Farm!
+
+We have received your inquiry, and our team will review your request and get back to you within 1-2 business days.
+
+Here is the touring information you submitted:
+
+• Phone: ({{{Case.Phone_Country_Code__c}}}) - {{{Case.Phone_Number__c}}}
+
+•Preferred Tour Date / Time:{{{Case.Preferred_Tour_Date_Time__c}}}
+
+• Preferred Language:{{{Case.Preferred_Language__c}}}
+
+Warm Regards,
+
+Hsu&apos;s Ginseng Enterprises, Inc.
+
+📌Tour Tips:
+
+• Tour fee: $5 per person (can be used as a store discount)
+
+• Tour duration: Approximately 1 to 1.5 hours
+
+• Please note that weather conditions may affect the tour experience
+
+**
+----------------------------------------------------
+
+📞Contact Us：
+
+Phone: (715) 675-2325 / (1800) 826-1577
+
+Email: tours@hsuginseng.com
+
+Website: www.hsuginseng.com &lt; https://www.hsuginseng.com &gt; 
+
+**
+----------------------------------------------------
+
+🕒Customer Service Hours：
+
+Monday to Friday (Excluding Holidays)
+
+8:30 AM – 5:00 PM (CST)</textOnly>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Updates changes made to notification options settings in Envelope Template</description>
+    <isExposed>true</isExposed>
+    <lightningMessageFields>
+        <description>Payload to update notifications in Envelope Template</description>
+        <fieldName>notifications</fieldName>
+    </lightningMessageFields>
+    <masterLabel>DecUpdateNotifications</masterLabel>
+</LightningMessageChannel>

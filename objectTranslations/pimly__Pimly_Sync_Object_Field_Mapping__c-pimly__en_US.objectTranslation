@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Pimly Sync Object Field Mapping</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Pimly Sync Object Field Mappings</value>
+    </caseValues>
+    <fields>
+        <help><!-- API Name of the destination Product2 field.  Ex: ProductCode or Source__c --></help>
+        <label><!-- Destination Field --></label>
+        <name>pimly__Destination_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Destination Sync Object --></label>
+        <name>pimly__Destination_Sync_Object__c</name>
+        <relationshipLabel><!-- Field Mappings (Destination Sync Object) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Pimly Id --></label>
+        <name>pimly__Pimly_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- API Name of the Property record in Salsify --></help>
+        <label><!-- Source Field --></label>
+        <name>pimly__Source_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source Sync Object --></label>
+        <name>pimly__Source_Sync_Object__c</name>
+        <relationshipLabel><!-- Field Mappings (Source) --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

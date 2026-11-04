@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Celigo NetSuite integration status</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Celigo NetSuite integration statuses</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>celigo_sfnsio__Account__c</name>
+        <relationshipLabel><!-- Celigo NetSuite integration statuses --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>celigo_sfnsio__Contact__c</name>
+        <relationshipLabel><!-- Celigo NetSuite integration statuses --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Stores the error message if there is an error in the flow run. --></help>
+        <label><!-- Error Message --></label>
+        <name>celigo_sfnsio__Error_Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>celigo_sfnsio__Opportunity__c</name>
+        <relationshipLabel><!-- Celigo NetSuite integration statuses --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Order --></label>
+        <name>celigo_sfnsio__Order__c</name>
+        <relationshipLabel><!-- Celigo NetSuite integration statuses --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Stores the status of the flow run. If the flow run is successful, the status is Success. If there is an error in the flow run, status is Error. If the flow run is in progress, the status is In Progress. --></help>
+        <label><!-- Sync Status --></label>
+        <name>celigo_sfnsio__Sync_Status__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

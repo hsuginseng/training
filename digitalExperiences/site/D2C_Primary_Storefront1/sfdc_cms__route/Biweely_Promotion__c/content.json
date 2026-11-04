@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Biweely Promotion",
+  "contentBody" : {
+    "activeViewId" : "Biweely_Promotion",
+    "configurationTags" : [ ],
+    "pageAccess" : "Public",
+    "routeType" : "custom-biweely-promotion",
+    "urlPrefix" : "biweely-promotion"
+  },
+  "urlName" : "biweely-promotion"
+}

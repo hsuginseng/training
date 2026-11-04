@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Pimly Digital Asset</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Pimly Digital Assets</value>
+    </caseValues>
+    <fields>
+        <help><!-- User definable external Id reference used for Pimly. Auto generated if not set by user. --></help>
+        <label><!-- Admin Name --></label>
+        <name>pimly__Admin_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>pimly__Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- Pending, Completed, Failed --></help>
+        <label><!-- Indexing Status --></label>
+        <name>pimly__Indexing_Status__c</name>
+        <picklistValues>
+            <masterLabel>Out of Tokens</masterLabel>
+            <translation><!-- Out of Tokens --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parse Error</masterLabel>
+            <translation><!-- Parse Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Success</masterLabel>
+            <translation><!-- Success --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- LLM - Basic: Fastest. Best for simple digital PDFs. (3 tokens/page)
+
+LVM (Vision) - Basic: Best for simple scanned documents. (25 tokens/page)
+
+LVM (Vision) - Advanced: Best for complex layouts, handwriting, low-quality scans. (60 tokens/page)
+
+Agent - Basic: Fast and effective. A step above LLM - Basic. Best for semi-complex documents. (30 tokens/page)
+
+Agent - Advanced: Best for documents requiring reasoning or multi-step analysis. Complex tables, diagrams. (90 tokens/page) --></help>
+        <label><!-- Indexing Strategy --></label>
+        <name>pimly__Indexing_Strategy__c</name>
+        <picklistValues>
+            <masterLabel>Agent - Advanced</masterLabel>
+            <translation><!-- Agent - Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agent - Basic</masterLabel>
+            <translation><!-- Agent - Basic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LLM - Basic</masterLabel>
+            <translation><!-- LLM - Basic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LVM - Advanced</masterLabel>
+            <translation><!-- LVM - Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LVM - Basic</masterLabel>
+            <translation><!-- LVM - Basic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>embedding</masterLabel>
+            <translation><!-- embedding --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The unique identifier used for Pimly. This is system generated and is not modifiable. --></help>
+        <label><!-- Pimly Id --></label>
+        <name>pimly__Pimly_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tags --></label>
+        <name>pimly__Tags__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>pimly__Type__c</name>
+        <picklistValues>
+            <masterLabel>Image</masterLabel>
+            <translation><!-- Image --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PDF</masterLabel>
+            <translation><!-- PDF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Video</masterLabel>
+            <translation><!-- Video --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- URL --></label>
+        <name>pimly__URL__c</name>
+    </fields>
+    <layouts>
+        <layout>Pimly Digital Asset Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Shareable Link --></label>
+        <name>pimly__Shareable_Link</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

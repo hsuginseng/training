@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConsentTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>The default email preference form</description>
+    <filterGroups>
+        <basicFilters>
+            <fieldType>DCCommSubscriptionConsent.DataSourceId</fieldType>
+            <filterValue>3iPV50000000C9FMAU</filterValue>
+            <operator>EqualTo</operator>
+        </basicFilters>
+        <basicFilters>
+            <fieldType>DCCommSubscriptionConsent.DataSpace</fieldType>
+            <filterValue>default</filterValue>
+            <operator>EqualTo</operator>
+        </basicFilters>
+        <basicFilters>
+            <fieldType>DCCommSubscriptionConsent.DataSourceObjectForECT</fieldType>
+            <filterValue>9XDV50000003P1tOAE</filterValue>
+            <operator>EqualTo</operator>
+        </basicFilters>
+        <basicFilters>
+            <fieldType>DCCommSubscriptionConsent.ECTPK</fieldType>
+            <filterValue>0eFV500000001TxMAI</filterValue>
+            <operator>EqualTo</operator>
+        </basicFilters>
+        <basicFilters>
+            <fieldType>DCCommSubscriptionConsent.DataSourceObjectForCS</fieldType>
+            <filterValue>9XDV50000003P1yOAE</filterValue>
+            <operator>EqualTo</operator>
+        </basicFilters>
+        <basicFilters>
+            <fieldType>DCCommSubscriptionConsent.DataSourceObjectForCSCT</fieldType>
+            <filterValue>9XDV50000003P1uOAE</filterValue>
+            <operator>EqualTo</operator>
+        </basicFilters>
+        <basicFilters>
+            <fieldType>DCCommSubscriptionConsent.CSCTPK</fieldType>
+            <filterValue>0eBV500000000uTMAQ</filterValue>
+            <operator>EqualTo</operator>
+        </basicFilters>
+        <basicFilters>
+            <fieldType>DCCommSubscriptionConsent.CSCTID_TOCSNAME_MAP</fieldType>
+            <filterValue>18|0eBV500000000uTMAQMarketing</filterValue>
+            <operator>EqualTo</operator>
+        </basicFilters>
+    </filterGroups>
+    <isActive>true</isActive>
+    <label>Default Marketing Email Template</label>
+    <type>data_cloud_subscription</type>
+</ConsentTemplate>

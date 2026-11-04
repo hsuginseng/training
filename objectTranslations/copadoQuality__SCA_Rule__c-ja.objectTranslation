@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- SCAルール --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Active --></label>
+        <name>copadoQuality__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Category --></label>
+        <name>copadoQuality__Category__c</name>
+        <picklistValues>
+            <masterLabel>Best Practices</masterLabel>
+            <translation>ベストプラクティス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code Style</masterLabel>
+            <translation>コードスタイル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custom</masterLabel>
+            <translation>カスタム</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Design</masterLabel>
+            <translation>デザイン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Documentation</masterLabel>
+            <translation>ドキュメンテーション</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Error Prone</masterLabel>
+            <translation>エラーを起こしやすい</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multithreading</masterLabel>
+            <translation>マルチスレッド</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Performance</masterLabel>
+            <translation>パフォーマンス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Security</masterLabel>
+            <translation>セキュリティー</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Config Json --></label>
+        <name>copadoQuality__ConfigJson__c</name>
+    </fields>
+    <fields>
+        <label><!-- Extension Configuration --></label>
+        <name>copadoQuality__Extension_Configuration__c</name>
+        <relationshipLabel><!-- SCA Rules --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- File Path --></label>
+        <name>copadoQuality__FilePath__c</name>
+    </fields>
+    <fields>
+        <label><!-- Message --></label>
+        <name>copadoQuality__Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Priority --></label>
+        <name>copadoQuality__Priority__c</name>
+        <picklistValues>
+            <masterLabel>1 - High</masterLabel>
+            <translation>1 - 高</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Medium High</masterLabel>
+            <translation>2 - やや高い</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Medium</masterLabel>
+            <translation>3 - 中</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 - Medium Low</masterLabel>
+            <translation>4 - 中低</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 - Low</masterLabel>
+            <translation>5 - 低</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Rule Language --></label>
+        <name>copadoQuality__Rule_Language__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rule Name --></label>
+        <name>copadoQuality__Rule_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rule Reference --></label>
+        <name>copadoQuality__Rule_Reference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rule Type --></label>
+        <name>copadoQuality__Rule_Type__c</name>
+        <picklistValues>
+            <masterLabel>Standard</masterLabel>
+            <translation>標準</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>XPath</masterLabel>
+            <translation><!-- XPath --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- XPath Expression --></label>
+        <name>copadoQuality__XPath_Expression__c</name>
+    </fields>
+    <fields>
+        <label><!-- XPath Version --></label>
+        <name>copadoQuality__XPath_Version__c</name>
+        <picklistValues>
+            <masterLabel>1.0</masterLabel>
+            <translation>1</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2.0</masterLabel>
+            <translation>2</translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>SCA Rule Layout</layout>
+        <sections>
+            <label>基本情報</label>
+            <section>Basic Information</section>
+        </sections>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>ルール設定</label>
+            <section>Rule Configuration</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Rule ID --></nameFieldLabel>
+</CustomObjectTranslation>

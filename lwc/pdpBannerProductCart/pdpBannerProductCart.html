@@ -1,0 +1,39 @@
+<template>
+	<template for:each={variationSets} for:item="variantSet" for:index="variantIndex">
+		<p key={variantSet.label} class="label">{variantSet.label}</p>
+		<div key={variantSet.label} class="quantities">
+			<template for:each={variantSet.options} for:item="option" for:index="index">
+				<button key={option.label} class={option.class} disabled={option.disabled} onclick={handleVariantOptionSelection}
+					data-variant-label={option.label} data-variant-set-index={variantIndex} data-variant-index={option.index} data-selected={option.selected}>
+					{option.label}
+				</button>
+			</template>
+		</div>	
+	</template>
+	<!-- <p class="label">{variationTypeLabel}</p>
+	<div class="quantities">
+		<template for:each={variationProducts} for:item="variant">
+			<button key={variant.productId} data-variant-button=true data-id={variant.productId} onclick={handleQuantity}>{variant.canonicalKey}</button>
+		</template>
+	</div> -->
+	<div lwc:if={allowCartActions} class="cart-add">
+		<div class="cart-number">
+			<button class="decrement" onclick={handleDecrementQuantity}>
+				<span class="sr-only">Remove one</span>
+			</button>
+			<span class="number">{quantitySelected}</span>
+			<button class="increment" onclick={handleIncrementQuantity}>
+				<span class="sr-only">Add one</span>
+			</button>
+		</div>
+		<div class="cart-cta">
+			<c-cta-btn-red-cart
+				cta-label-add-to-cart={ctaLabelAddToCart}
+				out-of-stock-label={outOfStockLabel}
+				max-in-cart-label={maxInCartLabel}
+				quantity-selected={quantitySelected}
+				product-id={productId}
+			></c-cta-btn-red-cart>
+		</div>
+	</div>
+</template>

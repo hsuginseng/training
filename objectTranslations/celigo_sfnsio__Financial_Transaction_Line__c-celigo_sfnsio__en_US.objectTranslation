@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Financial Transaction Line</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Financial Transaction Lines</value>
+    </caseValues>
+    <fields>
+        <label><!-- Amount --></label>
+        <name>celigo_sfnsio__Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>celigo_sfnsio__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discount --></label>
+        <name>celigo_sfnsio__Discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gross Amount --></label>
+        <name>celigo_sfnsio__Gross_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- NetSuite ID --></label>
+        <name>celigo_sfnsio__NetSuite_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price Level --></label>
+        <name>celigo_sfnsio__Price_Level__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price --></label>
+        <name>celigo_sfnsio__Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>celigo_sfnsio__Product__c</name>
+        <relationshipLabel><!-- Financial Transaction Line --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>celigo_sfnsio__Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax Amount --></label>
+        <name>celigo_sfnsio__Tax_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax Code --></label>
+        <name>celigo_sfnsio__Tax_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax Rate --></label>
+        <name>celigo_sfnsio__Tax_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transaction Id --></label>
+        <name>celigo_sfnsio__Transaction_Id__c</name>
+        <relationshipLabel><!-- Financial Transaction Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Units --></label>
+        <name>celigo_sfnsio__Units__c</name>
+    </fields>
+    <layouts>
+        <layout>Financial Transaction Line Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

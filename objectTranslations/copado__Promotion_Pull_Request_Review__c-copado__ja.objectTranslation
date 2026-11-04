@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Promotion Pull Request Review --></value>
+    </caseValues>
+    <fields>
+        <label>本文</label>
+        <name>copado__Body__c</name>
+    </fields>
+    <fields>
+        <label>プロモーションプルリクエスト</label>
+        <name>copado__Promotion_Pull_Request__c</name>
+        <relationshipLabel>プロモーションプルリクエストのレビュー</relationshipLabel>
+    </fields>
+    <fields>
+        <label>レビューアクション</label>
+        <name>copado__Review_Action__c</name>
+    </fields>
+    <fields>
+        <label>レビューID</label>
+        <name>copado__Review_Id__c</name>
+    </fields>
+    <fields>
+        <label>URLリンク</label>
+        <name>copado__URL_Link__c</name>
+    </fields>
+    <fields>
+        <label>URL</label>
+        <name>copado__Url__c</name>
+    </fields>
+    <fields>
+        <label>ユーザーアバターURL</label>
+        <name>copado__User_Avatar_Url__c</name>
+    </fields>
+    <fields>
+        <label>ユーザーアバター</label>
+        <name>copado__User_Avatar__c</name>
+    </fields>
+    <fields>
+        <label>ユーザー名</label>
+        <name>copado__Username__c</name>
+    </fields>
+    <nameFieldLabel><!-- Promotion Pull Request Review Name --></nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Copado Data Change Event --></value>
+    </caseValues>
+    <fields>
+        <label>ベースオブジェクト</label>
+        <name>copado__Base_Object__c</name>
+    </fields>
+    <fields>
+        <label>古い値</label>
+        <name>copado__Old_Value__c</name>
+    </fields>
+    <fields>
+        <label>レコードID</label>
+        <name>copado__Record_ID__c</name>
+    </fields>
+    <fields>
+        <label>サブスクライバーコード</label>
+        <name>copado__Subscriber_Code__c</name>
+    </fields>
+    <fields>
+        <label>トリガーアクション</label>
+        <name>copado__Triggering_Action__c</name>
+    </fields>
+</CustomObjectTranslation>

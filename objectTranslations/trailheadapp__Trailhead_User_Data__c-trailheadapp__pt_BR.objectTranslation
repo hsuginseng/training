@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Dado de usuário do Trailhead</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Dados de usuário do Trailhead</value>
+    </caseValues>
+    <fields>
+        <label>Avatar</label>
+        <name>trailheadapp__Avatar__c</name>
+    </fields>
+    <fields>
+        <label>External_Id</label>
+        <name>trailheadapp__External_Id__c</name>
+    </fields>
+    <fields>
+        <label>Profile_URL</label>
+        <name>trailheadapp__Profile_URL__c</name>
+    </fields>
+    <fields>
+        <label>Profile_Visibility</label>
+        <name>trailheadapp__Profile_Visibility__c</name>
+    </fields>
+    <fields>
+        <label>Ranking</label>
+        <name>trailheadapp__Rank__c</name>
+    </fields>
+    <fields>
+        <label>Total_Points</label>
+        <name>trailheadapp__Total_Points__c</name>
+    </fields>
+    <fields>
+        <label>Usuário</label>
+        <name>trailheadapp__User__c</name>
+        <relationshipLabel><!-- Trailhead Users Data --></relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nome dos dados de usuário do Trailhead</nameFieldLabel>
+</CustomObjectTranslation>

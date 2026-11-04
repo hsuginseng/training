@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email template for auto-response on Order Cancellation Confirmation</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Order Cancellation Confirmation</name>
+    <pageDevName>Order_Cancellation_Confirmation</pageDevName>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>Your Order Has Been Successfully Cancelled</subject>
+    <textOnly>Case #: {{{Case.CaseNumber}}}
+
+Subject: {{{Case.Subject}}}
+
+Issue Description: {{{Case.Issue_Description__c}}}
+
+-----------------------------------------------------
+
+Dear {{{Case.First_Name__c}}},
+
+We’re writing to confirm that your order {{{Case.Order_Number__c}}} has been successfully cancelled, as requested. If you have any further questions or need assistance with a new order, please feel free to contact us again.
+
+Thank you for choosing HSU Ginseng.
+
+Warm Regards,
+
+Customer Support Team
+
+Hsu&apos;s Ginseng Enterprises, Inc.
+
+📌Need help with your order?
+
+If your question is about an existing order, please include your order number for faster service.
+
+**
+----------------------------------------------------
+
+📞Contact Us：
+
+Phone: (715) 675-2325/ (1800) 826-1577
+
+Email: support@hsuginseng.com
+
+Website: www.hsuginseng.com &lt; https://www.hsuginseng.com &gt; 
+
+**
+----------------------------------------------------
+
+🕒Customer Service Hours：
+
+Monday to Friday (Excluding Holidays)
+
+8:30 AM – 5:00 PM (CST)</textOnly>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

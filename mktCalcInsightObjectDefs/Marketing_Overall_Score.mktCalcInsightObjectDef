@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MktCalcInsightObjectDef xmlns="http://soap.sforce.com/2006/04/metadata">
+    <builderExpression>PZ1:eJztV01vGjEQ/SvWnilKVfXCjaCkQk0CCqGXKkLGHnbdeO2t7SVFiP/e8Xq/IEA/kkqo4gYzbz3jeW+fvevIMm2Eiu9zCRZc1FO5lJ2I27GBhfgR9aKoExlItYORiftSUBtijDqItVnhvzHoTALGMmpAuUGdCWuVFfpxbCDGXBXPlVgI4EPFxVLwnMqot66Co/k3YK6fiTua4gPRdBc7m3GZYkkp1FMDa/JDjp0It7rBfIUt174WIHn5gLXazWZDPpuxcrFpC/Si/j3gXngbPtG5YRDiDbwdrdC2iDWYsvTOjjZ1m33GdK5qRpZgrNAq6r3vXuD0EyE5DjvqfV2/BYVXKqYxpDizPTQ2BJ+p/I+pjCZ5a7RnLl/FZciq3f3PGnZmE2zDMyHpHOQWijQoUqE4WGZE5opi0UMiLPEUAhH4mKffkkQ/kzRnCXFJCIfVLP7GED6gTUzcKkO4lCuMOjCUOfIsXEJWOAdiKeqOMJ2muFtcFIvZLhZf+LFvaSt0H0aYAU5QOczYHc/3Og5DD8q5pdkexC04yqmjxRuQaewL1/mwBflkdJ55IWL7fqKmjtWwgcYdFx0X67SADabdy5i65KCEu0ck290rkTJ6lVIhW2MqNV4NsATV+UFClQLZZ77xSpJLKnPf++BmOPiM/zUOmDptPAHf/QuJasBxPYQdWud3Fm0eO1HsJzKq0X7Qm13lFA0SJgV7IrAMLiHsFyoF9udMDptOQ8K7j2cWpneT6eVkcD+8vPo3XOTK5nMfnsMBRh79gqWX3FLzBA6rHLOSGvR6JxG2ZSV73MO27COty54t5DTEe7aQU2DhJCyk8ya3y2tx/kI4kVtlcxIgKUeOAMz+qfczqS2gyRf2jwK0WqG5O5Zg3l8uWUK994MR1gmGF8tFuHNywDOC5dbpFAxZaBPOhXluhQK7dQ7UPZ8PgF3rwS4cTnfsd9HnyLy1++1n4DVjVi/sRgkHnEyc5/ONDScM/neuJyMUMd4UXgizjJNGoL8UJ63cJKjv8O2GUMV3ILX6u+QBEweqkwRkZr1aCQeGOibPCeBXkyYWcElKMjRFpLAtb0y2Ppoc0LSl7zCnLVWvj93dehddPCj3vdI+s/nrt6Hg8CdXzy0S</builderExpression>
+    <creationType>Custom</creationType>
+    <description>This score aggregates the Marketing Engagement Score and the Marketing Fit Score. The Overall Marketing Score helps you decide when to send a potential customer to your sales team.</description>
+    <expression>SELECT    FIRST(Marketing_Engagement_Score__cio.Engagement_Score__c) as Engagement_Score__c,Marketing_Engagement_Score__cio.Unified_Individual__c as Unified_Individual0__c,
+FIRST(Marketing_Fit_Score__cio.Fit_Score__c) as Fit_Score__c,Marketing_Fit_Score__cio.Unified_Individual__c as Unified_Individual1__c,
+    ROUND(0.5*FIRST(Marketing_Engagement_Score__cio.Engagement_Score__c)+0.5*FIRST(Marketing_Fit_Score__cio.Fit_Score__c),0) as People_Score__c,    UnifiedIndividual__dlm.ssot__Id__c as Unified_Individual__c    FROM        UnifiedIndividual__dlm    LEFT JOIN Marketing_Engagement_Score__cio ON (Marketing_Engagement_Score__cio.Unified_Individual__c = UnifiedIndividual__dlm.ssot__Id__c)
+LEFT JOIN Marketing_Fit_Score__cio ON (Marketing_Fit_Score__cio.Unified_Individual__c = UnifiedIndividual__dlm.ssot__Id__c)
+ GROUP BY Unified_Individual0__c,Unified_Individual1__c, Unified_Individual__c</expression>
+    <masterLabel>Overall Marketing Score</masterLabel>
+</MktCalcInsightObjectDef>

@@ -1,0 +1,43 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Visit-Reservation",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "attributes" : {
+          "dxpStyle" : {
+            "isVisible" : false,
+            "margin" : {
+              "bottom" : "",
+              "left" : "200px",
+              "right" : "200px",
+              "top" : ""
+            }
+          }
+        },
+        "id" : "dd4117cf-b887-41fb-9a40-aac9eb96c180"
+      }, {
+        "id" : "ba55d0f9-dc77-46b2-8916-281777913afe",
+        "attributes" : {
+          "dxpStyle" : {
+            "margin" : {
+              "bottom" : "",
+              "left" : "200px",
+              "right" : "200px",
+              "top" : ""
+            },
+            "isVisible" : false
+          }
+        }
+      }, {
+        "id" : "5e37ab27-12af-4168-b891-d955bce2213a",
+        "attributes" : {
+          "dxpStyle" : {
+            "isVisible" : false
+          }
+        }
+      } ]
+    }
+  },
+  "urlName" : "visit-reservation"
+}

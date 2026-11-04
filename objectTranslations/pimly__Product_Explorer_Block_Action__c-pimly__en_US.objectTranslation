@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Product Explorer Block Action</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Product Explorer Block Actions</value>
+    </caseValues>
+    <fields>
+        <label><!-- Pimly Action --></label>
+        <name>pimly__Pimly_Action__c</name>
+        <relationshipLabel><!-- Product Explorer Block Actions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product Explorer Block --></label>
+        <name>pimly__Product_Explorer_Block__c</name>
+        <relationshipLabel><!-- Product Explorer Block Actions --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

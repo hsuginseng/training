@@ -1,0 +1,37 @@
+<template lwc:render-mode='light'>
+	<div class="slds-hide">{swiperLoaded}</div>
+	<div class="home-rec-carousel swiper">
+		<div class="home-rec-carousel-wrapper swiper-wrapper">
+			<template for:each={products} for:item="product">
+				<div key={product.id} class="home-rec-carousel-slide swiper-slide">
+					<c-home-recommended-carousel-slide
+						key={product.id}
+						product-id={product.productId}
+						image-url={product.imageUrl}
+						image-alt={product.imageAlt}
+						brand={product.brand}
+						title={product.title}
+						price={product.price}
+						sale-price={product.salePrice}
+						allows-add-to-cart={product.allowsAddToCart}
+						is-out-of-stock={product.isOutOfStock}
+						cta-text={product.ctaText}
+						cta-url={product.ctaUrl}
+    					has-inventory-data={product.hasInventoryData}
+					></c-home-recommended-carousel-slide>
+				</div>
+			</template>
+		</div>
+	</div>
+
+	<div class="home-rec-carousel-controls">
+		<button class="home-rec-carousel-prev">
+			<span class="sr-only">View Next Slide</span>
+		</button>
+		<div class="home-rec-carousel-pagination swiper-pagination">
+			<span class="home-rec-carousel-current-slide">{currSlideIndex}</span> / <span class="home-rec-carousel-total-slides">{products.length}</span> </div>
+		<button class="home-rec-carousel-next">
+			<span class="sr-only">View Previous Slide</span>
+		</button>
+	</div>
+</template>

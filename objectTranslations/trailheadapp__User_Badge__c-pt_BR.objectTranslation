@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Badge do usuário</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Badges do usuário</value>
+    </caseValues>
+    <fields>
+        <help>O registro foi arquivado e não está mais disponível.</help>
+        <label><!-- Archived --></label>
+        <name>trailheadapp__Archived__c</name>
+    </fields>
+    <fields>
+        <help>Representa a data em que o badge foi atribuído para rastrear a atividade de um usuário antes do início dos trabalhos.</help>
+        <label><!-- Assigned On Date --></label>
+        <name>trailheadapp__Assigned_Date__c</name>
+    </fields>
+    <fields>
+        <help>Quanto tempo levou até a conclusão desde a primeira atribuição, ou tentativa quando não está atribuído.</help>
+        <label><!-- Duration to Complete (Days) --></label>
+        <name>trailheadapp__Assigned_to_Complete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Badge Icon --></label>
+        <name>trailheadapp__Badge_Icon__c</name>
+    </fields>
+    <fields>
+        <label><!-- Badge --></label>
+        <name>trailheadapp__Badge__c</name>
+        <relationshipLabel><!-- User Badge --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Representa a data de vencimento do badge para rastrear o tempo que falta até a conclusão pelo usuário.</help>
+        <label><!-- Due Date --></label>
+        <name>trailheadapp__Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>trailheadapp__External_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Finished Date --></label>
+        <name>trailheadapp__Finished_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Attempted Date --></label>
+        <name>trailheadapp__First_Attempted_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Attempted Date --></label>
+        <name>trailheadapp__Last_Attempted_Date__c</name>
+    </fields>
+    <fields>
+        <help>Existem três tipos de status, “Assigned”, “In Progress” ou “Completed”, para representar o status do badge do usuário.</help>
+        <label><!-- Status --></label>
+        <name>trailheadapp__Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- URL --></label>
+        <name>trailheadapp__URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>trailheadapp__User__c</name>
+        <relationshipLabel><!-- User Badges --></relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Trailhead User Badge Layout</layout>
+        <sections>
+            <label>Links personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>ID do badge do usuário</nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- A user must exist. --></errorMessage>
+        <name>trailheadapp__User_Is_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Not a valid status. --></errorMessage>
+        <name>trailheadapp__Validate_Status</name>
+    </validationRules>
+</CustomObjectTranslation>

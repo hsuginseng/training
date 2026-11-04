@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Property Validation</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Property Validations</value>
+    </caseValues>
+    <fields>
+        <label><!-- Expression 1 --></label>
+        <name>pimly__Expression_1__c</name>
+        <picklistValues>
+            <masterLabel>AND</masterLabel>
+            <translation><!-- AND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OR</masterLabel>
+            <translation><!-- OR --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Expression 2 --></label>
+        <name>pimly__Expression_2__c</name>
+        <picklistValues>
+            <masterLabel>AND</masterLabel>
+            <translation><!-- AND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OR</masterLabel>
+            <translation><!-- OR --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Expression 3 --></label>
+        <name>pimly__Expression_3__c</name>
+        <picklistValues>
+            <masterLabel>AND</masterLabel>
+            <translation><!-- AND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OR</masterLabel>
+            <translation><!-- OR --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Expression 4 --></label>
+        <name>pimly__Expression_4__c</name>
+        <picklistValues>
+            <masterLabel>AND</masterLabel>
+            <translation><!-- AND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OR</masterLabel>
+            <translation><!-- OR --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Family --></label>
+        <name>pimly__Family__c</name>
+        <relationshipLabel><!-- Property Validations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Is Active --></label>
+        <name>pimly__Is_Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Linked Item Type --></label>
+        <name>pimly__Linked_Item_Type__c</name>
+        <relationshipLabel><!-- Property Validations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Matches --></label>
+        <name>pimly__Matches__c</name>
+    </fields>
+    <fields>
+        <label><!-- Message --></label>
+        <name>pimly__Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pimly Channel --></label>
+        <name>pimly__Pimly_Channel__c</name>
+        <relationshipLabel><!-- Property Validations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Pimly Property --></label>
+        <name>pimly__Pimly_Property__c</name>
+        <relationshipLabel><!-- Property Validations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Rule 1 --></label>
+        <name>pimly__Rule_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rule 2 --></label>
+        <name>pimly__Rule_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rule 3 --></label>
+        <name>pimly__Rule_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rule 4 --></label>
+        <name>pimly__Rule_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rule 5 --></label>
+        <name>pimly__Rule_5__c</name>
+    </fields>
+    <layouts>
+        <layout>Property Validation Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

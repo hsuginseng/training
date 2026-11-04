@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>ProcessExceptionAdminShare</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>This shares all portal user process exceptions with internal users.</description>
+        <label>ProcessExceptionAdminShare</label>
+        <sharedTo>
+            <role>Sales_Representative</role>
+        </sharedTo>
+        <sharedFrom>
+            <allCustomerPortalUsers></allCustomerPortalUsers>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

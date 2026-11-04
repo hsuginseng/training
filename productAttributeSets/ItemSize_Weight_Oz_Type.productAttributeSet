@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProductAttributeSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <developerName>ItemSize_Weight_Oz_Type</developerName>
+    <masterLabel>ItemSize_Weight(Oz)_Type</masterLabel>
+    <productAttributeSetItems>
+        <field>propc84d80ca469342529c9c02febc8246b1__c</field>
+        <isGroupedBy>false</isGroupedBy>
+        <sequence>2</sequence>
+    </productAttributeSetItems>
+    <productAttributeSetItems>
+        <field>propfe0526cf0de646b6a4a4c197dfee2dd8__c</field>
+        <isGroupedBy>false</isGroupedBy>
+        <sequence>1</sequence>
+    </productAttributeSetItems>
+    <productAttributeSetItems>
+        <field>prop4894e94098af49c99bdb77ff84feb014__c</field>
+        <isGroupedBy>false</isGroupedBy>
+        <sequence>0</sequence>
+    </productAttributeSetItems>
+</ProductAttributeSet>

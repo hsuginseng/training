@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>スナップショットコミット</value>
+    </caseValues>
+    <fieldSets>
+        <label>CBMフィールド</label>
+        <name>copado__CBM_Fields</name>
+    </fieldSets>
+    <fields>
+        <label>バックエンドバイパス</label>
+        <name>copado__Backend_Bypass__c</name>
+    </fields>
+    <fields>
+        <label>変更</label>
+        <name>copado__Changes__c</name>
+    </fields>
+    <fields>
+        <label>コミット日付</label>
+        <name>copado__Commit_Date__c</name>
+    </fields>
+    <fields>
+        <label>コミットID</label>
+        <name>copado__Commit_Id__c</name>
+    </fields>
+    <fields>
+        <label>コミットメッセージ</label>
+        <name>copado__Commit_Message__c</name>
+    </fields>
+    <fields>
+        <label>Gitスナップショット</label>
+        <name>copado__Git_Backup__c</name>
+        <relationshipLabel>スナップショットをコミット</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The Git operation executed by the Copado. --></help>
+        <label>Git操作</label>
+        <name>copado__Git_Operation__c</name>
+        <picklistValues>
+            <masterLabel>Commit Files</masterLabel>
+            <translation><!-- Commit Files --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Destructive Changes</masterLabel>
+            <translation><!-- Destructive Changes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>クレデンシャル</label>
+        <name>copado__Org__c</name>
+        <relationshipLabel>スナップショットをコミット</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The status of the commit. This value is updating automatically by Copado. --></help>
+        <label>ステータス</label>
+        <name>copado__Status__c</name>
+        <picklistValues>
+            <masterLabel>Commit not in branch</masterLabel>
+            <translation><!-- Commit not in branch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commit undone</masterLabel>
+            <translation><!-- Commit undone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Failed</masterLabel>
+            <translation><!-- Failed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In progress</masterLabel>
+            <translation><!-- In progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No changes</masterLabel>
+            <translation><!-- No changes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Gitで参照</label>
+        <name>copado__View_in_Git__c</name>
+    </fields>
+    <layouts>
+        <layout>Git Org Commit Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+        <sections>
+            <label><!-- MetaData Selections --></label>
+            <section>MetaData Selections</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Snapshot Commit Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- MetaData Selections --></label>
+            <section>MetaData Selections</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>コミット名</nameFieldLabel>
+    <validationRules>
+        <errorMessage>コミットIDがあるときは、コミットステータスを「保留」または「変更なし」にすることはできません。</errorMessage>
+        <name>copado__Commit_Id_Status_Complete</name>
+    </validationRules>
+</CustomObjectTranslation>

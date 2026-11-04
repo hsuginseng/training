@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Seleniumテスト実行</value>
+    </caseValues>
+    <fields>
+        <help><!-- Optional Base URL where this test will be run, if Credentials are not specified. --></help>
+        <label>ベースURL</label>
+        <name>copado__Base_URL__c</name>
+    </fields>
+    <fields>
+        <label>バッチ番号</label>
+        <name>copado__Batch_No__c</name>
+    </fields>
+    <fields>
+        <label>環境</label>
+        <name>copado__Environment__c</name>
+    </fields>
+    <fields>
+        <label>外部ID</label>
+        <name>copado__External_ID__c</name>
+    </fields>
+    <fields>
+        <label>最終ステータス日付</label>
+        <name>copado__Last_Status_Date__c</name>
+    </fields>
+    <fields>
+        <label>最終ステータスアイコン</label>
+        <name>copado__Last_Status_Icon__c</name>
+    </fields>
+    <fields>
+        <label>最後の状況</label>
+        <name>copado__Last_Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed successfully</masterLabel>
+            <translation><!-- Completed successfully --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed with errors</masterLabel>
+            <translation><!-- Completed with errors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Provider Failure</masterLabel>
+            <translation><!-- Provider Failure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Queued</masterLabel>
+            <translation><!-- Queued --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Starting</masterLabel>
+            <translation><!-- Starting --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Copado will log in to Salesforce using this Credential.  There is no need to record username and password of the Salesforce login page. --></help>
+        <label>クレデンシャル</label>
+        <name>copado__Org_Credential__c</name>
+        <relationshipLabel>Seleniumテストラン</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Copado will run the Test Suites for each of the selected Platforms in these Settings. --></help>
+        <label>Selenium設定</label>
+        <name>copado__Selenium_Settings__c</name>
+        <relationshipLabel>Seleniumテストラン</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- This field should not be populated.  The value is automatically maintained. --></help>
+        <label>Seleniumテストグループ</label>
+        <name>copado__Selenium_Test_Group__c</name>
+        <relationshipLabel>Seleniumテストラン</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Seleniumテストスイート</label>
+        <name>copado__Selenium_Test_Suite__c</name>
+        <relationshipLabel>Seleniumテストラン</relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Salesforce Selenium Test Run Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Web App Selenium Test Run Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Seleniumテスト実行名</nameFieldLabel>
+    <recordTypes>
+        <description>一般的なWebアプリケーションのテスト</description>
+        <label>一般的なWebアプリケーション</label>
+        <name>copado__Generic_Web_Application</name>
+    </recordTypes>
+    <recordTypes>
+        <description>OAuth認証を使用してセールスフォース組織をテストします。</description>
+        <label>セールスフォース</label>
+        <name>copado__Salesforce</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>クレデンシャルが選択されている場合、ベースURLは入力できません。</errorMessage>
+        <name>copado__Credentials_or_BaseURL</name>
+    </validationRules>
+    <webLinks>
+        <label>テストグループに選択を追加</label>
+        <name>copado__Add_Selection_to_a_Test_Group</name>
+    </webLinks>
+    <webLinks>
+        <label>テスト実行</label>
+        <name>copado__Quick_Run</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,19 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Checkout",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "id" : "2357a3c3-2ed4-445f-87c4-0c93abea2805",
+        "attributes" : {
+          "signUpMessage" : "註冊會員，送 1000 積分！",
+          "signUpButtonText" : "立即註冊",
+          "loyaltyAppliedMessage" : "忠誠積分已應用",
+          "deletePromotionLabel" : "取消積分兌換",
+          "deletePromotionTitle" : "取消積分兌換"
+        }
+      } ]
+    }
+  },
+  "urlName" : "checkout"
+}

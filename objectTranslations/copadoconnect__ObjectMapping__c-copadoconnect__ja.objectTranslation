@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>オブジェクトマッピング</value>
+    </caseValues>
+    <fieldSets>
+        <label>オブジェクトのマッピング</label>
+        <name>copadoconnect__Objects_Mappings</name>
+    </fieldSets>
+    <fields>
+        <label>コパード統合</label>
+        <name>copadoconnect__Copado_Integration__c</name>
+        <relationshipLabel>オブジェクトマッピング</relationshipLabel>
+    </fields>
+    <fields>
+        <label>プロバイダーオブジェクト</label>
+        <name>copadoconnect__External_Object_Name__c</name>
+    </fields>
+    <fields>
+        <label>プロバイダータイプ</label>
+        <name>copadoconnect__External_Object_Record_Type_Label__c</name>
+    </fields>
+    <fields>
+        <label>プロバイダータイプ</label>
+        <name>copadoconnect__External_Object_Record_Type__c</name>
+    </fields>
+    <fields>
+        <label>指定クレデンシャル</label>
+        <name>copadoconnect__Named_Credential__c</name>
+    </fields>
+    <fields>
+        <label>プロバイダー</label>
+        <name>copadoconnect__Provider__c</name>
+    </fields>
+    <fields>
+        <label>コパードオブジェクト</label>
+        <name>copadoconnect__Salesforce_Object_Name__c</name>
+    </fields>
+    <fields>
+        <label>コパードレコードタイプ</label>
+        <name>copadoconnect__Salesforce_Object_Record_Type__c</name>
+    </fields>
+    <fields>
+        <label>ステータス</label>
+        <name>copadoconnect__Status__c</name>
+        <picklistValues>
+            <masterLabel>Failed</masterLabel>
+            <translation><!-- Failed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mapped</masterLabel>
+            <translation><!-- Mapped --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>同期済みか？</label>
+        <name>copadoconnect__Synced__c</name>
+    </fields>
+    <layouts>
+        <layout>Object Mapping Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>オブジェクトマッピング名</nameFieldLabel>
+</CustomObjectTranslation>

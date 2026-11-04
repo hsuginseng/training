@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Docusign 봉투 문서</value>
+    </caseValues>
+    <fields>
+        <help><!-- Envelope --></help>
+        <label>DocuSign 봉투</label>
+        <name>dfsle__Envelope__c</name>
+        <relationshipLabel>DocuSign 봉투 문서</relationshipLabel>
+    </fields>
+    <fields>
+        <label>확장자</label>
+        <name>dfsle__Extension__c</name>
+    </fields>
+    <fields>
+        <label><!-- Full Name --></label>
+        <name>dfsle__FullName__c</name>
+    </fields>
+    <fields>
+        <label>대체</label>
+        <name>dfsle__IsReplacement__c</name>
+    </fields>
+    <fields>
+        <help><!-- Source Last Modified --></help>
+        <label>소스 마지막 수정 날짜</label>
+        <name>dfsle__LastModified__c</name>
+    </fields>
+    <fields>
+        <label>옵션</label>
+        <name>dfsle__Options__c</name>
+    </fields>
+    <fields>
+        <label>읽기 전용</label>
+        <name>dfsle__ReadOnly__c</name>
+    </fields>
+    <fields>
+        <help><!-- Replacement document --></help>
+        <label>대체 문서</label>
+        <name>dfsle__Replacement__c</name>
+        <relationshipLabel>대체 문서</relationshipLabel>
+    </fields>
+    <fields>
+        <label>필수</label>
+        <name>dfsle__Required__c</name>
+    </fields>
+    <fields>
+        <label>순서</label>
+        <name>dfsle__Sequence__c</name>
+    </fields>
+    <fields>
+        <help><!-- Document Size --></help>
+        <label>크기</label>
+        <name>dfsle__Size__c</name>
+    </fields>
+    <fields>
+        <label>소스 ID</label>
+        <name>dfsle__SourceId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Document Type --></help>
+        <label>종류</label>
+        <name>dfsle__Type__c</name>
+        <picklistValues>
+            <masterLabel>Document</masterLabel>
+            <translation><!-- Document --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>File</masterLabel>
+            <translation><!-- File --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Template</masterLabel>
+            <translation><!-- Template --></translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel>Name</nameFieldLabel>
+</CustomObjectTranslation>

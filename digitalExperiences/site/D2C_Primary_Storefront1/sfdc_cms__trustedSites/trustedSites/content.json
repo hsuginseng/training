@@ -1,0 +1,36 @@
+{
+  "type" : "sfdc_cms__trustedSites",
+  "title" : "trustedSites",
+  "contentBody" : {
+    "trustedSites" : [ {
+      "isActive" : true,
+      "source" : "https://pimly-prod-assets.pimlyapp.com",
+      "sourceName" : "Pimly"
+    }, {
+      "isActive" : true,
+      "source" : "https://maps.google.com",
+      "sourceName" : "Google Maps"
+    }, {
+      "isActive" : true,
+      "source" : "https://js.stripe.com",
+      "sourceName" : "Stripe JS"
+    }, {
+      "isActive" : true,
+      "source" : "https://*.googletagmanager.com",
+      "sourceName" : "*.googletagmanager.com"
+    }, {
+      "isActive" : true,
+      "source" : "https://www.hsuginseng.com",
+      "sourceName" : "Hsu's"
+    }, {
+      "isActive" : true,
+      "source" : "https://www.facebook.com",
+      "sourceName" : "www.facebook.com"
+    }, {
+      "isActive" : true,
+      "source" : "https://connect.facebook.net",
+      "sourceName" : "connect.facebook.net"
+    } ]
+  },
+  "urlName" : "trustedsites"
+}

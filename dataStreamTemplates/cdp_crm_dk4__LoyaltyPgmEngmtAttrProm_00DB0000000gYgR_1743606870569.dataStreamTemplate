@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataStreamTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataSourceBundleDefinition>cdp_crm_dk4__LoyaltyManagementGrowth</dataSourceBundleDefinition>
+    <dataSourceObject>cdp_crm_dk4__LoyaltyPgmEngmtAttrProm_00DB0000000gYgR3</dataSourceObject>
+    <masterLabel>LoyaltyPgmEngmtAttrProm_00DB0000000gYgR</masterLabel>
+    <objectCategory>Salesforce_SFDCReferenceModel_0_93.Related</objectCategory>
+    <refreshFrequency>BATCH</refreshFrequency>
+    <refreshMode>UPSERT</refreshMode>
+    <sourceObjectName>cdp_crm_dk4__LoyaltyPgmEngmtAttrProm_00DB0000000gYgR</sourceObjectName>
+    <streamType>INGEST</streamType>
+    <templateVersion>1</templateVersion>
+</DataStreamTemplate>

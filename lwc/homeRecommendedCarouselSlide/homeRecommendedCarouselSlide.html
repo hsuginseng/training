@@ -1,0 +1,26 @@
+<template>
+	<div class="home-rec-carousel-slide-card">
+		<div class="home-rec-carousel-slide-content">
+			<a href={ctaUrl} class="card-image">
+				<img src={imageUrl} alt={imageAlt}/>
+			</a>
+			<p class="home-rec-carousel-brand">{brand}</p>
+			<h3>{title}</h3>
+			<div lwc:if={showPricing} class="home-rec-carousel-slide-price">
+				<template lwc:if={hasOriginalPriceData}>
+					<p class="home-rec-carousel-sale-price">
+						<lightning-formatted-number value={price} format-style="currency" currency-code="USD"></lightning-formatted-number>
+					</p>
+				</template>
+				<template lwc:if={hasSalePriceData}>
+					<p class="home-rec-carousel-price">
+						<lightning-formatted-number value={salePrice} format-style="currency" currency-code="USD"></lightning-formatted-number>
+					</p>
+				</template>
+			</div>
+		</div>
+		<div>
+			<button class="cta" type="button" disabled={ctaDisabled} onclick={handleClickCtaButton}>{ctaText}</button>
+		</div>
+	</div>
+</template>

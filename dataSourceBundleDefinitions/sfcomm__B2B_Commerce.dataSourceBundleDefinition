@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataSourceBundleDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataPlatform>Salesforce_Sales_and_Service_Cloud</dataPlatform>
+    <description>Analyze aspects of how your buyers interact with your products, product attributes, and product catalogs, react to place orders and make payments in your B2B store.</description>
+    <icon>/img/sfdc_bundles/CommerceLogoCircular.png</icon>
+    <isMultiDeploymentSupported>false</isMultiDeploymentSupported>
+    <masterLabel>B2B_Commerce</masterLabel>
+</DataSourceBundleDefinition>

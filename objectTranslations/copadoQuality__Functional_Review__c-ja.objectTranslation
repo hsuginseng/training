@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- レビュー --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- RelatedList --></label>
+        <name>copadoQuality__RelatedList</name>
+    </fieldSets>
+    <fields>
+        <help>ターゲットレビュー URL に「https://」を自動的に追加するには、このチェックボックスをオンにしてください。別のプロトコルを使用する場合は、無効にしてください。</help>
+        <label><!-- Add https Prefix --></label>
+        <name>copadoQuality__Add_https_Prefix__c</name>
+    </fields>
+    <fields>
+        <label><!-- Automation Status --></label>
+        <name>copadoQuality__Automation_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Config JSON --></label>
+        <name>copadoQuality__Config_JSON__c</name>
+    </fields>
+    <fields>
+        <help>例えば、アプリケーションのどの部分に焦点を当てるべきか、あるいは詳細な情報はどこにあるのか、などのアウトラインを提供します。レビュアーが参照できるように、ドキュメントやビデオへのリンクを含めてください。</help>
+        <label><!-- Description --></label>
+        <name>copadoQuality__Description__c</name>
+    </fields>
+    <fields>
+        <help>このレビューが関連するかもしれない Epic を指定してください。</help>
+        <label><!-- Epic --></label>
+        <name>copadoQuality__Epic__c</name>
+        <relationshipLabel><!-- Functional Reviews --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Execution Status --></label>
+        <name>copadoQuality__Execution_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Extension Configuration --></label>
+        <name>copadoQuality__Extension_Configuration__c</name>
+        <relationshipLabel><!-- Functional Reviews --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>レビューが特定の機能に関するものかどうかを指定します。</help>
+        <label><!-- Feature --></label>
+        <name>copadoQuality__Feature__c</name>
+        <relationshipLabel><!-- Functional Reviews --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Outcome --></label>
+        <name>copadoQuality__Outcome__c</name>
+    </fields>
+    <fields>
+        <help>オプション： レビューが行われる日付</help>
+        <label><!-- Planned Date --></label>
+        <name>copadoQuality__Planned_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Release --></label>
+        <name>copadoQuality__Release__c</name>
+        <relationshipLabel><!-- Functional Reviews --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>利用可能な場合、レビューが行われる環境を選択します。組織クレデンシャルが有効な場合、コパードはレビュー開始時にユーザーの自動ログインを行います。</help>
+        <label><!-- Review Environment --></label>
+        <name>copadoQuality__Review_Environment__c</name>
+        <relationshipLabel><!-- Functional Reviews --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>レビューの概要を入力してください。スプレッドシートやquipドキュメントなどの追跡ソースに自由にリンクしてください。これは、個々のレビューからのコメントやAIによって生成された要約で部分的に自動生成することができます。</help>
+        <label><!-- Review Summary --></label>
+        <name>copadoQuality__Review_Outcome__c</name>
+    </fields>
+    <fields>
+        <label><!-- Review Target URL --></label>
+        <name>copadoQuality__Review_Target_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Story --></label>
+        <name>copadoQuality__User_Story__c</name>
+        <relationshipLabel><!-- Functional Reviews --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Functional Review Layout</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Functional Review Title --></nameFieldLabel>
+    <quickActions>
+        <label><!-- Start Review --></label>
+        <name>copadoQuality__Start_Review</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage><!-- Target url has to start with a protocol.(exp: https://) --></errorMessage>
+        <name>copadoQuality__Protocol_Control</name>
+    </validationRules>
+</CustomObjectTranslation>

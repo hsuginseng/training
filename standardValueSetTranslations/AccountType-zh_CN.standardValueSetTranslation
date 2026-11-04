@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Competitor</masterLabel>
+        <translation>竞争对手</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Partner</masterLabel>
+        <translation>合作伙伴</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Prospect</masterLabel>
+        <translation>潜在客户</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Retail</masterLabel>
+        <translation>零售</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Wholesale</masterLabel>
+        <translation>批发</translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

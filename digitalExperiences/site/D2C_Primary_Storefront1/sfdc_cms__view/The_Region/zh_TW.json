@@ -1,0 +1,20 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "The Region",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "attributes" : {
+          "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCGFNFMQBNWZBIXOWIRCME2JQIFA?lastModifiedDate=Wed Mar 11 15:54:27 GMT 2026\",\"altText\":\"\",\"contentKey\":\"MCGFNFMQBNWZBIXOWIRCME2JQIFA\",\"contentType\":null}}"
+        },
+        "id" : "63d3ab93-4072-4c28-a189-c2c853c70b77"
+      }, {
+        "id" : "bb6425cb-b872-485b-922e-c0989caecb1b",
+        "attributes" : {
+          "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MC4KR7U6VQYJC77N3WTKCHUCSWPQ?lastModifiedDate=Wed Mar 11 15:54:07 GMT 2026\",\"altText\":\"\",\"contentKey\":\"MC4KR7U6VQYJC77N3WTKCHUCSWPQ\",\"contentType\":null}}"
+        }
+      } ]
+    }
+  },
+  "urlName" : "the-region"
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>zkmulti__MCShipment__c$Name</field>
+    </columns>
+    <columns>
+        <field>zkmulti__MCShipment__c.zkmulti__Shipment_Status__r$Name</field>
+    </columns>
+    <description>Zenkraft unused return labels</description>
+    <filter>
+        <criteriaItems>
+            <column>zkmulti__MCShipment__c$zkmulti__Return_Shipment__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>1</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>zkmulti__MCShipment__c$zkmulti__Tracking_Stage__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value></value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Zenkraft unused return labels</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>zkmulti__Zenkraft_Shipments__c</reportType>
+    <scope>user</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>zkmulti__MCShipment__c$CreatedDate</dateColumn>
+        <interval>INTERVAL_CURFY</interval>
+    </timeFrameFilter>
+</Report>

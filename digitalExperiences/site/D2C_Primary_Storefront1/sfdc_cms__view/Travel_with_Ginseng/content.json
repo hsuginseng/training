@@ -1,0 +1,126 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Travel with Ginseng",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"a01eefa1-8cbb-4d69-a334-f0a9531563d9\",\"columns\":[{\"UUID\":\"3fa151fd-b823-4981-ba2f-b84b99182dce\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "200px",
+                    "right" : "200px",
+                    "top" : "100px"
+                  }
+                },
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCJ2SN57DD7ZHT3PLVGZZCVH7D7Q?lastModifiedDate=Wed Mar 11 15:36:39 GMT 2026\",\"altText\":\"\",\"contentKey\":\"MCJ2SN57DD7ZHT3PLVGZZCVH7D7Q\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "cf40c0ad-4f41-47f9-83be-52e76f0c4e59",
+              "type" : "component"
+            } ],
+            "id" : "3fa151fd-b823-4981-ba2f-b84b99182dce",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "a01eefa1-8cbb-4d69-a334-f0a9531563d9",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "isVisible" : false
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"5da3e40c-e717-45e3-923b-80a0931f525d\",\"columns\":[{\"UUID\":\"aee963e8-db33-44d6-b7fa-cb408a74e8c3\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : { },
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCOSZNVF3VRFCD7I4KABKNOJ7FHY?lastModifiedDate=Wed Mar 11 15:36:22 GMT 2026\",\"altText\":\"\",\"contentKey\":\"MCOSZNVF3VRFCD7I4KABKNOJ7FHY\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "5727882f-342e-499b-94cf-b9f3fcfc7c61",
+              "type" : "component"
+            } ],
+            "id" : "aee963e8-db33-44d6-b7fa-cb408a74e8c3",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "5da3e40c-e717-45e3-923b-80a0931f525d",
+          "type" : "component"
+        } ],
+        "id" : "95b0ded2-dcae-479a-b6f2-e78e4e196854",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "Travel with Ginseng",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "2a88991d-727c-482a-9474-c6c2c7698a7b",
+          "type" : "component"
+        } ],
+        "id" : "6fef003f-20f9-4bff-9447-2ac04ff249ec",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "3b0b5b26-50bf-4f07-9e72-cfa3ac3a3719",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-travel-with-ginseng"
+  },
+  "urlName" : "travel-with-ginseng"
+}

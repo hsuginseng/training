@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Pimly Category</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Pimly Categories</value>
+    </caseValues>
+    <fields>
+        <help><!-- User definable external Id reference used for Pimly. Auto generated if not set by user. --></help>
+        <label><!-- Admin Name --></label>
+        <name>pimly__Admin_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Catalog Id --></label>
+        <name>pimly__Catalog_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- When enabled, products can only be associated to the last category within a branch of the catalog. This can not be changed once set. --></help>
+        <label><!-- Enforce Strict Product Placement --></label>
+        <name>pimly__Enforce_Strict_Product_Placement__c</name>
+    </fields>
+    <fields>
+        <label><!-- Full Name --></label>
+        <name>pimly__Full_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- When enabled, Parent products can be assigned to categories in this catalog. If a Parent is assigned, its child products cannot be individually assigned in the same catalog. --></help>
+        <label><!-- Is Parent Assignable --></label>
+        <name>pimly__Is_Parent_Assignable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Pimly Category --></label>
+        <name>pimly__Parent_Pimly_Category__c</name>
+        <relationshipLabel><!-- Pimly Categories --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The unique identifier used for Pimly. This is system generated and is not modifiable. --></help>
+        <label><!-- Pimly Id --></label>
+        <name>pimly__Pimly_Id__c</name>
+    </fields>
+    <sharingReasons>
+        <label><!-- Pimly --></label>
+        <name>pimly__Pimly</name>
+    </sharingReasons>
+    <sharingReasons>
+        <label><!-- Required for Channel --></label>
+        <name>pimly__Required_for_Channel</name>
+    </sharingReasons>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

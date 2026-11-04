@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Pimly User Settings</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Pimly User Settings</value>
+    </caseValues>
+    <fields>
+        <help><!-- Is this setting record for an experience site? Experience sites are tied to a single channel and locale. --></help>
+        <label><!-- For Experience Site? --></label>
+        <name>pimly__For_Experience_Site__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ory AI Tokens Used --></label>
+        <name>pimly__OryAI_Tokens_Used__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pinned Linked Item List View --></label>
+        <lookupFilter>
+            <errorMessage><!-- The List View you are trying to pin is of the wrong type. Ensure it is a Linked Item List View. --></errorMessage>
+        </lookupFilter>
+        <name>pimly__Pinned_Linked_Item_List_View__c</name>
+        <relationshipLabel><!-- Pimly User Settings (Pinned Linked Item List View) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Pinned List View --></label>
+        <name>pimly__Pinned_List_View__c</name>
+        <relationshipLabel><!-- Pimly User Settings --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Pinned SmartSync Configuration --></label>
+        <name>pimly__Pinned_Sync_Configuration__c</name>
+        <relationshipLabel><!-- Pimly User Settings --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product Migration Allowed? --></label>
+        <name>pimly__Product_Migration_Allowed__c</name>
+    </fields>
+    <fields>
+        <help><!-- Internal Salesforce Users can toggle between channels and locales they have access to. Experience Sites are fixed to a single channel and locale so external users are viewing data in the same context. --></help>
+        <label><!-- User or Experience Site Id --></label>
+        <name>pimly__User_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Users Current PDP Context --></label>
+        <name>pimly__Users_Current_PDP_Context__c</name>
+    </fields>
+    <fields>
+        <label><!-- Users Current Pimly Channel --></label>
+        <name>pimly__Users_Current_Pimly_Channel__c</name>
+    </fields>
+    <layouts>
+        <layout>Pimly User Settings Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,126 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "The Region",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"95b029e9-acb4-4dd8-b23c-9fa4a1f977bc\",\"columns\":[{\"UUID\":\"1ae4d4ab-342f-4410-aa22-f8816ba55bae\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "200px",
+                    "right" : "200px",
+                    "top" : "100px"
+                  }
+                },
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCHKRHK7IRMNFXLME3PKMPNRQXCY?lastModifiedDate=Wed Mar 11 15:37:21 GMT 2026\",\"altText\":\"\",\"contentKey\":\"MCHKRHK7IRMNFXLME3PKMPNRQXCY\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "63d3ab93-4072-4c28-a189-c2c853c70b77",
+              "type" : "component"
+            } ],
+            "id" : "1ae4d4ab-342f-4410-aa22-f8816ba55bae",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "95b029e9-acb4-4dd8-b23c-9fa4a1f977bc",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"5be6fbb0-7f54-41e5-89f3-f05ad63f157c\",\"columns\":[{\"UUID\":\"a9ca5e76-e813-46c9-ae81-824e6196ff7f\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : {
+                  "isVisible" : false
+                },
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCNFQVFRXCMZGBFOEBL54LKT5AEE?lastModifiedDate=Wed Mar 11 15:37:04 GMT 2026\",\"altText\":\"\",\"contentKey\":\"MCNFQVFRXCMZGBFOEBL54LKT5AEE\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "bb6425cb-b872-485b-922e-c0989caecb1b",
+              "type" : "component"
+            } ],
+            "id" : "a9ca5e76-e813-46c9-ae81-824e6196ff7f",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "5be6fbb0-7f54-41e5-89f3-f05ad63f157c",
+          "type" : "component"
+        } ],
+        "id" : "30285e7a-b1e9-4bbb-bb6c-7f0784463001",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "The Region",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "75d2becb-50ce-42d4-9f7c-cff84e9382b3",
+          "type" : "component"
+        } ],
+        "id" : "12b76834-8383-43ec-9383-6ed059cf8f35",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "d405bddb-3229-40c1-8598-749b2de2a66b",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-the-region"
+  },
+  "urlName" : "the-region"
+}

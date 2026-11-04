@@ -1,0 +1,123 @@
+<html>
+<head>
+	<title></title>
+	<style type="text/css">@media screen and (max-width: 480px) {slot[style] {margin-right: 0 !important;}.columnDiv {margin-right: 0 !important;}}@media screen and (min-width: 480px) {slot[style] {margin-bottom: 0 !important;}.columnDiv {margin-bottom: 0 !important;}}
+	</style>
+	<style type="text/css">@media screen and (max-width: 480px) {.contentbuilderBaseColumnRow .columnCell {display:inline-block;width:100%}}
+	</style>
+	<style type="text/css">.contentpageDefaultEmailTemplatePageTemplate .contentRoot {width: 600px;}@media only screen and (max-width: 480px) {.contentpageDefaultEmailTemplatePageTemplate .contentRoot {width: 320px;}}
+	</style>
+</head>
+<body style="height: auto; min-height: auto;">
+<table cellpadding="0" cellspacing="0" class="contentpageDefaultEmailTemplatePageTemplate" id="contentpage_emailTemplateBodyContent" style="background-color: #E9EAEC;" width="100%">
+	
+		<tr>
+			<td align="center" width="100%">
+			<table cellpadding="0" cellspacing="0" class="contentRoot" style="background-color: #FFFFFF;" width="600">
+				
+					<tr>
+						<td style="padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 10px;">
+						<table cellpadding="0" cellspacing="0" class="contentbuilderBaseColumnRow" style="align-items: flex-start; width: 100%; background-color:;" width="100%">
+							
+								<tr valign="top">
+									<td class="columnCell" style="vertical-align: top;display: inline-block; float:left" width="100%">
+									<table cellpadding="0" cellspacing="0" style="width: 100%; border-collapse: collapse; word-break:break-word;">
+										
+											<tr>
+												<td>
+												<table cellpadding="0" cellspacing="0" id="contentRegion" style="width: 100%; border-collapse: collapse; word-break: break-word; font-size: 14px">
+													
+														<tr>
+															<td style="font-family: Arial, Helvetica, sans-serif;">親愛的 {{{OrderSummary.Account_Name_Formula__c}}},<br />
+															<br />
+															我們已收到您的訂單，目前正在處理中。
+															<div style="text-align: center;"><br />
+															訂單編號:&nbsp;{{{OrderSummary.OrderNumber}}}<br />
+															<br />
+															感謝您的購買！希望您在線上購物的過程中擁有愉快的體驗，並期待不久後再次為您服務。</div>
+
+															<hr />
+															<div>&nbsp;</div>
+
+															<div style="text-align: center;">訂單摘要
+															<hr /><br />
+															&nbsp;</div>
+															</td>
+														</tr>
+													
+												</table>
+												</td>
+											</tr>
+										
+									</table>
+									</td>
+								</tr>
+							
+						</table>
+
+						<table cellpadding="0" cellspacing="0" class="contentbuilderBaseColumnRow" style="align-items: flex-start; width: 100%; background-color:;" width="100%">
+							
+								<tr valign="top">
+									<td class="columnCell" style="vertical-align: top;display: inline-block; float:left" width="50%">
+									<div class="columnDiv" style="margin-right: 5px;margin-bottom: 5px;">
+									<table cellpadding="0" cellspacing="0" style="width: 100%; border-collapse: collapse; word-break:break-word;">
+										
+											<tr>
+												<td>
+												<table cellpadding="0" cellspacing="0" id="contentRegion" style="width: 100%; border-collapse: collapse; word-break: break-word; font-size: 14px">
+													
+														<tr>
+															<td style="font-family: Arial, Helvetica, sans-serif;">收貨地址<strong>:</strong><br />
+															<br />
+															{{{OrderSummary.Account_Name_Formula__c}}}<br />
+															{{{OrderSummary.BillingAddress}}}<br />
+															<br />
+															<br />
+															&nbsp;</td>
+														</tr>
+													
+												</table>
+												</td>
+											</tr>
+										
+									</table>
+									</div>
+									</td>
+									<td class="columnCell" style="vertical-align: top;display: inline-block; float:left" width="50%">
+									<div class="columnDiv" style="margin-right: 5px;margin-bottom: 5px;">
+									<table cellpadding="0" cellspacing="0" style="width: 100%; border-collapse: collapse; word-break:break-word;">
+										
+											<tr>
+												<td>
+												<table cellpadding="0" cellspacing="0" id="contentRegion" style="width: 100%; border-collapse: collapse; word-break: break-word; font-size: 14px">
+													
+														<tr>
+															<td style="font-family: Arial, Helvetica, sans-serif;">帳單地址<strong>:</strong><br />
+															<br />
+															{{{OrderSummary.Account_Name_Formula__c}}}<br />
+															{{{OrderSummary.BillingAddress}}}<br />
+															<br />
+															<br />
+															&nbsp;</td>
+														</tr>
+													
+												</table>
+												</td>
+											</tr>
+										
+									</table>
+									</div>
+									</td>
+								</tr>
+							
+						</table>
+						</td>
+					</tr>
+				
+			</table>
+			</td>
+		</tr>
+	
+</table>
+</body>
+</html>

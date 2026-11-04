@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- コパード統合 --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- ConnectionDetailFieldSet --></label>
+        <name>copadoconnect__ConnectionDetailFieldSet</name>
+    </fieldSets>
+    <fields>
+        <help>JIRA とセールスフォース間で 1 対多のプロジェクトマッピングを作成する場合は、同じプロジェクトキーの下にある各 Copado 統合レコードに一意のテキスト値を指定して、この項目を使用してください。これは、プロバイダとして JIRA/ADO にのみ使用されます。</help>
+        <label><!-- Appendix --></label>
+        <name>copadoconnect__Appendix__c</name>
+    </fields>
+    <fields>
+        <help>指定クレデンシャル接続のステータス。Draft = 作成および保存済み、Connected = サードパーティアプリケーションへの認証および接続に成功、Failed = 構成または認証の問題により接続に失敗。</help>
+        <label><!-- Connection Status --></label>
+        <name>copadoconnect__Connection_Status__c</name>
+        <picklistValues>
+            <masterLabel>Connected</masterLabel>
+            <translation><!-- Connected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Failed</masterLabel>
+            <translation><!-- Failed --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>copadoconnect__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Project ID --></label>
+        <name>copadoconnect__External_Project_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Project Key --></label>
+        <name>copadoconnect__External_Project_Key__c</name>
+    </fields>
+    <fields>
+        <help>統合とレコードの同期のステータスを表します。</help>
+        <label><!-- Integration Status --></label>
+        <name>copadoconnect__Integration_Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Active with Errors</masterLabel>
+            <translation><!-- Active with Errors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>JQLフィルターは同期基準を定義します。重複をチェックするには、有効化する前に JQL フィルタを検証してください。複数の統合レコード (同じJIRA プロジェクトをもつ) が同じJQLフィルタ値を持つ場合、同期は失敗します。</help>
+        <label><!-- JQL Extended Filter --></label>
+        <name>copadoconnect__JQL_Extended_Filter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Named Credential --></label>
+        <name>copadoconnect__Named_Credential__c</name>
+    </fields>
+    <fields>
+        <label><!-- Organization --></label>
+        <name>copadoconnect__Organization__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project --></label>
+        <name>copadoconnect__Project__c</name>
+        <relationshipLabel><!-- Copado Integrations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Provider --></label>
+        <name>copadoconnect__Provider__c</name>
+        <picklistValues>
+            <masterLabel>AzureDevOps</masterLabel>
+            <translation><!-- AzureDevOps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JIRA</masterLabel>
+            <translation><!-- JIRA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ServiceNow</masterLabel>
+            <translation><!-- ServiceNow --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Server Info --></label>
+        <name>copadoconnect__Server_Info__c</name>
+    </fields>
+    <fields>
+        <label><!-- Validation Error Message --></label>
+        <name>copadoconnect__Validation_Error_Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Validation Status --></label>
+        <name>copadoconnect__Validation_Status__c</name>
+        <picklistValues>
+            <masterLabel>Failed</masterLabel>
+            <translation><!-- Failed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Validated</masterLabel>
+            <translation><!-- Not Validated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Success</masterLabel>
+            <translation><!-- Success --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- WIQL Extended Filter --></label>
+        <name>copadoconnect__WIQL_Extended_Filter__c</name>
+    </fields>
+    <layouts>
+        <layout>Copado Integration Layout</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Connection Name --></nameFieldLabel>
+    <quickActions>
+        <label><!-- Activate --></label>
+        <name>copadoconnect__Activate</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Object Mapping --></label>
+        <name>copadoconnect__Add_Mapping</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Clone --></label>
+        <name>copadoconnect__Clone</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Deactivate --></label>
+        <name>copadoconnect__Deactivate</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Resync --></label>
+        <name>copadoconnect__Resync</name>
+    </quickActions>
+</CustomObjectTranslation>

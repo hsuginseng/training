@@ -1,0 +1,28 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Category",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "attributes" : {
+          "title" : "萬聖節深秋好禮 · Treat 不 Trick！ ",
+          "text" : "滿 $138，送高麗白參丸   活動期：10/14/2026–10/28/2026  *送完爲止 ",
+          "imageAlt" : "滿 $138，送高麗白參丸   活動期：10/14/2026–10/28/2026  *送完爲止 ",
+          "cardSubLabelNumOptions" : "选项",
+          "actionLabelPreviousPage" : "上一頁",
+          "actionLabelNextPage" : "下一頁",
+          "actionLabelSortBy" : "排序方式",
+          "actionLabelFilters" : "過濾器",
+          "ctaTextAddToCart" : "加入購物車",
+          "ctaTextSeeDetails" : "看詳情",
+          "filterModalActionLabelApplyFilters" : "篩選",
+          "filterModalActionLabelClearFilters" : "刪除過濾器",
+          "ctaTextOutOfStock" : "暫時缺貨",
+          "ctaTextNoMoreAvailable" : "已無庫存"
+        },
+        "id" : "8ac50f8f-85e7-4ee7-89ba-4e86a4d100bc"
+      } ]
+    }
+  },
+  "urlName" : "category"
+}

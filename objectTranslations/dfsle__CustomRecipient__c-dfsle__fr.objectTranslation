@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Destinataire DocuSign personnalisé</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Destinataires DocuSign personnalisés</value>
+    </caseValues>
+    <fields>
+        <help><!-- Access Code --></help>
+        <label>Code d’accès</label>
+        <name>dfsle__AccessCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Message --></label>
+        <name>dfsle__EmailMessage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Subject --></label>
+        <name>dfsle__EmailSubject__c</name>
+    </fields>
+    <fields>
+        <label>E‑mail</label>
+        <name>dfsle__Email__c</name>
+    </fields>
+    <fields>
+        <label>Configuration de l’enveloppe</label>
+        <name>dfsle__EnvelopeConfiguration__c</name>
+        <relationshipLabel><!-- Custom Recipients --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Prénom</label>
+        <name>dfsle__FirstName__c</name>
+    </fields>
+    <fields>
+        <label>E‑mail de l’hôte</label>
+        <name>dfsle__HostEmail__c</name>
+    </fields>
+    <fields>
+        <label>Nom de l’hôte</label>
+        <name>dfsle__HostName__c</name>
+    </fields>
+    <fields>
+        <label>Langue</label>
+        <name>dfsle__Language__c</name>
+    </fields>
+    <fields>
+        <label>Nom</label>
+        <name>dfsle__LastName__c</name>
+    </fields>
+    <fields>
+        <label>Message privé</label>
+        <name>dfsle__Note__c</name>
+    </fields>
+    <fields>
+        <label>Relation du contact</label>
+        <name>dfsle__Relationship__c</name>
+    </fields>
+    <fields>
+        <help><!-- Role --></help>
+        <label>Rôle</label>
+        <name>dfsle__Role__c</name>
+    </fields>
+    <fields>
+        <help><!-- Routing Order --></help>
+        <label>Ordre d’acheminement</label>
+        <name>dfsle__RoutingOrder__c</name>
+    </fields>
+    <fields>
+        <label>Signer maintenant</label>
+        <name>dfsle__SignNow__c</name>
+    </fields>
+    <fields>
+        <help><!-- Signing Group ID --></help>
+        <label>Identifiant du groupe de signature</label>
+        <name>dfsle__SigningGroupId__c</name>
+    </fields>
+    <fields>
+        <label>Nom du groupe de signature</label>
+        <name>dfsle__SigningGroupName__c</name>
+    </fields>
+    <fields>
+        <label>Numéro de téléphone SMS</label>
+        <name>dfsle__SmsPhoneNumber__c</name>
+    </fields>
+    <fields>
+        <help><!-- Type --></help>
+        <label>Type</label>
+        <name>dfsle__Type__c</name>
+        <picklistValues>
+            <masterLabel>Allow to Edit</masterLabel>
+            <translation><!-- Allow to Edit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Person Signer</masterLabel>
+            <translation><!-- In Person Signer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Needs to Sign</masterLabel>
+            <translation><!-- Needs to Sign --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Needs to View</masterLabel>
+            <translation><!-- Needs to View --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Receives a Copy</masterLabel>
+            <translation><!-- Receives a Copy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Specify Recipients</masterLabel>
+            <translation><!-- Specify Recipients --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Update Recipients</masterLabel>
+            <translation><!-- Update Recipients --></translation>
+        </picklistValues>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Name</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

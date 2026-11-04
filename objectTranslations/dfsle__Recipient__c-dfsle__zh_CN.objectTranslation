@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Docusign 信封收件人</value>
+    </caseValues>
+    <fields>
+        <help><!-- Access Code --></help>
+        <label>访问代码</label>
+        <name>dfsle__AccessCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deliver By Sms --></label>
+        <name>dfsle__DeliverBySms__c</name>
+    </fields>
+    <fields>
+        <label>电子邮件消息</label>
+        <name>dfsle__EmailMessage__c</name>
+    </fields>
+    <fields>
+        <label>电子邮件主题</label>
+        <name>dfsle__EmailSubject__c</name>
+    </fields>
+    <fields>
+        <label>电子邮件</label>
+        <name>dfsle__Email__c</name>
+    </fields>
+    <fields>
+        <label>信封收件人 ID</label>
+        <name>dfsle__EnvelopeRecipientId__c</name>
+    </fields>
+    <fields>
+        <help><!-- DocuSign Envelope --></help>
+        <label>DocuSign 信封</label>
+        <name>dfsle__Envelope__c</name>
+        <relationshipLabel>DocuSign 信封收件人</relationshipLabel>
+    </fields>
+    <fields>
+        <label>负责人电子邮件</label>
+        <name>dfsle__HostEmail__c</name>
+    </fields>
+    <fields>
+        <label>负责人名称</label>
+        <name>dfsle__HostName__c</name>
+    </fields>
+    <fields>
+        <label>需要检查 ID</label>
+        <name>dfsle__IdCheckRequired__c</name>
+    </fields>
+    <fields>
+        <label>语言</label>
+        <name>dfsle__Language__c</name>
+    </fields>
+    <fields>
+        <label>收件人注释</label>
+        <name>dfsle__Note__c</name>
+    </fields>
+    <fields>
+        <label>选项</label>
+        <name>dfsle__Options__c</name>
+    </fields>
+    <fields>
+        <label>只读</label>
+        <name>dfsle__ReadOnly__c</name>
+    </fields>
+    <fields>
+        <label>必填</label>
+        <name>dfsle__Required__c</name>
+    </fields>
+    <fields>
+        <label>角色值</label>
+        <name>dfsle__RoleValue__c</name>
+    </fields>
+    <fields>
+        <help><!-- Role --></help>
+        <label>角色</label>
+        <name>dfsle__Role__c</name>
+    </fields>
+    <fields>
+        <help><!-- Routing Order --></help>
+        <label>发送顺序</label>
+        <name>dfsle__RoutingOrder__c</name>
+    </fields>
+    <fields>
+        <label>序列</label>
+        <name>dfsle__Sequence__c</name>
+    </fields>
+    <fields>
+        <label>立即签名</label>
+        <name>dfsle__SignNow__c</name>
+    </fields>
+    <fields>
+        <help><!-- Signing Group ID --></help>
+        <label>签名组 ID</label>
+        <name>dfsle__SigningGroupId__c</name>
+    </fields>
+    <fields>
+        <label>签名组名称</label>
+        <name>dfsle__SigningGroupName__c</name>
+    </fields>
+    <fields>
+        <label>SMS 电话号码</label>
+        <name>dfsle__SmsPhoneNumber__c</name>
+    </fields>
+    <fields>
+        <label>源 ID</label>
+        <name>dfsle__SourceId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Type --></help>
+        <label>類型</label>
+        <name>dfsle__Type__c</name>
+        <picklistValues>
+            <masterLabel>Allow to Edit</masterLabel>
+            <translation><!-- Allow to Edit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Person Signer</masterLabel>
+            <translation><!-- In Person Signer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Needs to Sign</masterLabel>
+            <translation><!-- Needs to Sign --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Needs to View</masterLabel>
+            <translation><!-- Needs to View --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Receives a Copy</masterLabel>
+            <translation><!-- Receives a Copy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seal</masterLabel>
+            <translation><!-- Seal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Specify Recipients</masterLabel>
+            <translation><!-- Specify Recipients --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Update Recipients</masterLabel>
+            <translation><!-- Update Recipients --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Witness</masterLabel>
+            <translation><!-- Witness --></translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel>Name</nameFieldLabel>
+</CustomObjectTranslation>

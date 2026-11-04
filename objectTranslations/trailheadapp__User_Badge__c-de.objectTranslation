@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Benutzer-Badge</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Benutzer-Badges</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Benutzer-Badge</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Benutzer-Badges</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Benutzer-Badges</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Benutzer-Badges</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Benutzer-Badge</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Benutzer-Badges</value>
+    </caseValues>
+    <fields>
+        <help>Der Datensatz wurde archiviert und ist nicht mehr verfügbar.</help>
+        <label><!-- Archived --></label>
+        <name>trailheadapp__Archived__c</name>
+    </fields>
+    <fields>
+        <help>Stellt das Datum der Zuweisung des Badges zum Zwecke der Verfolgung der Aktivität eines Benutzers dar, bevor dieser mit der Arbeit daran beginnt.</help>
+        <label><!-- Assigned On Date --></label>
+        <name>trailheadapp__Assigned_Date__c</name>
+    </fields>
+    <fields>
+        <help>Zeitraum bis zum Abschluss ab dem Zeitpunkt der ersten Zuweisung oder des ersten Versuchs, falls nicht zugewiesen.</help>
+        <label><!-- Duration to Complete (Days) --></label>
+        <name>trailheadapp__Assigned_to_Complete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Badge Icon --></label>
+        <name>trailheadapp__Badge_Icon__c</name>
+    </fields>
+    <fields>
+        <label><!-- Badge --></label>
+        <name>trailheadapp__Badge__c</name>
+        <relationshipLabel><!-- User Badge --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Stellt das Datum dar, an dem der Badge fällig ist, um die Zeit zu verfolgen, die einem Benutzer zum Abschluss des Badges bleibt.</help>
+        <label><!-- Due Date --></label>
+        <name>trailheadapp__Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>trailheadapp__External_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Finished Date --></label>
+        <name>trailheadapp__Finished_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Attempted Date --></label>
+        <name>trailheadapp__First_Attempted_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Attempted Date --></label>
+        <name>trailheadapp__Last_Attempted_Date__c</name>
+    </fields>
+    <fields>
+        <help>Drei Arten von Status, &quot;Assigned&quot;, &quot;In Progress&quot; oder &quot;Completed&quot;, stehen zur Darstellung des Status des Badges eines Benutzers zur Verfügung.</help>
+        <label><!-- Status --></label>
+        <name>trailheadapp__Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- URL --></label>
+        <name>trailheadapp__URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>trailheadapp__User__c</name>
+        <relationshipLabel><!-- User Badges --></relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Trailhead User Badge Layout</layout>
+        <sections>
+            <label>Benutzerdefinierte Links</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Benutzer-Badge-ID</nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- A user must exist. --></errorMessage>
+        <name>trailheadapp__User_Is_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Not a valid status. --></errorMessage>
+        <name>trailheadapp__Validate_Status</name>
+    </validationRules>
+</CustomObjectTranslation>

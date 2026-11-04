@@ -1,0 +1,126 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Learn-Ginseng",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"155506a3-0582-4af6-a67a-1b4ddffaba1b\",\"columns\":[{\"UUID\":\"e744b2a5-ff61-47f4-8013-407ee6d5204b\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "200px",
+                    "right" : "200px",
+                    "top" : ""
+                  }
+                },
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCRNVNNY5WSJCDXM2NWBKETAWSVY?lastModifiedDate=Mon Feb 02 17:25:36 GMT 2026\",\"altText\":\"\",\"contentKey\":\"MCRNVNNY5WSJCDXM2NWBKETAWSVY\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "a14a9e47-5a50-48eb-bce0-1656dfde8ed5",
+              "type" : "component"
+            } ],
+            "id" : "e744b2a5-ff61-47f4-8013-407ee6d5204b",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "155506a3-0582-4af6-a67a-1b4ddffaba1b",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"dd0d0c5d-4b10-45e0-9da5-c62e6b788407\",\"columns\":[{\"UUID\":\"2d05d54a-0563-4212-bf38-96d82f5b56c6\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : {
+                  "isVisible" : false
+                },
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCLEQZGPCW75BG7FKWJDN2UWRMJQ?lastModifiedDate=Mon Feb 02 17:26:28 GMT 2026\",\"altText\":\"\",\"contentKey\":\"MCLEQZGPCW75BG7FKWJDN2UWRMJQ\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "b73907fd-d01d-46b3-a45c-d94ccc2dbb45",
+              "type" : "component"
+            } ],
+            "id" : "2d05d54a-0563-4212-bf38-96d82f5b56c6",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "dd0d0c5d-4b10-45e0-9da5-c62e6b788407",
+          "type" : "component"
+        } ],
+        "id" : "182db047-463f-48f9-a7f8-523662ab3a1d",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "Learn-Ginseng",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "ba085748-d150-4df1-ae96-f5ba6f9a28a8",
+          "type" : "component"
+        } ],
+        "id" : "d8970976-0e97-42df-b517-de807a866249",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "adf56630-3b82-4bad-99e9-57ebf8441aaa",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-learn-ginseng"
+  },
+  "urlName" : "learn-ginseng"
+}

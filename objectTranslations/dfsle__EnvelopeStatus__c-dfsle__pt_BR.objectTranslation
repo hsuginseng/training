@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Status do Docusign</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Status do Docusign</value>
+    </caseValues>
+    <fields>
+        <label>Conta</label>
+        <name>dfsle__Account__c</name>
+        <relationshipLabel><!-- DocuSign Status --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Caso</label>
+        <name>dfsle__Case__c</name>
+        <relationshipLabel><!-- DocuSign Status --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Concluído</label>
+        <name>dfsle__Completed__c</name>
+    </fields>
+    <fields>
+        <label>Contato</label>
+        <name>dfsle__Contact__c</name>
+        <relationshipLabel><!-- DocuSign Status --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Contrato</label>
+        <name>dfsle__Contract__c</name>
+        <relationshipLabel><!-- DocuSign Status --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>ID do Envelope da DocuSign</label>
+        <name>dfsle__DocuSignId__c</name>
+    </fields>
+    <fields>
+        <label>Assunto do email</label>
+        <name>dfsle__EmailSubject__c</name>
+    </fields>
+    <fields>
+        <label>Expira</label>
+        <name>dfsle__Expires__c</name>
+    </fields>
+    <fields>
+        <label>Última atualização de status</label>
+        <name>dfsle__LastStatusUpdate__c</name>
+    </fields>
+    <fields>
+        <label>Lead</label>
+        <name>dfsle__Lead__c</name>
+        <relationshipLabel><!-- DocuSign Status --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Oportunidade</label>
+        <name>dfsle__Opportunity__c</name>
+        <relationshipLabel><!-- DocuSign Status --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Motivo da recusa ou anulação</label>
+        <name>dfsle__Reason__c</name>
+    </fields>
+    <fields>
+        <label>E-mail do Remetente</label>
+        <name>dfsle__SenderEmail__c</name>
+    </fields>
+    <fields>
+        <label>Nome do remetente</label>
+        <name>dfsle__SenderName__c</name>
+    </fields>
+    <fields>
+        <label>Enviado</label>
+        <name>dfsle__Sent__c</name>
+    </fields>
+    <fields>
+        <label>ID fonte do Salesforce</label>
+        <name>dfsle__SourceId__c</name>
+    </fields>
+    <fields>
+        <label>Status</label>
+        <name>dfsle__Status__c</name>
+    </fields>
+    <fields>
+        <label>Tempo até a conclusão</label>
+        <name>dfsle__TimeToComplete__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>DocuSign Envelope Status Layout</layout>
+        <sections>
+            <label><!-- Information --></label>
+            <section>Information</section>
+        </sections>
+        <sections>
+            <label><!-- Related Objects --></label>
+            <section>Related Objects</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Envelope#</nameFieldLabel>
+    <webLinks>
+        <label><!-- ViewEnvelope --></label>
+        <name>dfsle__ViewEnvelope</name>
+    </webLinks>
+</CustomObjectTranslation>

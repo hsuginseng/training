@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Docusign 收件人狀態</value>
+    </caseValues>
+    <fields>
+        <label>帳戶</label>
+        <name>dfsle__Account__c</name>
+        <relationshipLabel><!-- DocuSign Recipient Status --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>已完成</label>
+        <name>dfsle__Completed__c</name>
+    </fields>
+    <fields>
+        <label>連絡人</label>
+        <name>dfsle__Contact__c</name>
+        <relationshipLabel><!-- DocuSign Recipient Status --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>電子郵件</label>
+        <name>dfsle__Email__c</name>
+    </fields>
+    <fields>
+        <label>DocuSign 信封狀態</label>
+        <name>dfsle__EnvelopeStatus__c</name>
+        <relationshipLabel>DocuSign 收件人狀態</relationshipLabel>
+    </fields>
+    <fields>
+        <label>上次狀態更新</label>
+        <name>dfsle__LastStatusUpdate__c</name>
+    </fields>
+    <fields>
+        <label>商機</label>
+        <name>dfsle__Lead__c</name>
+        <relationshipLabel><!-- DocuSign Recipient Status --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>拒絕原因</label>
+        <name>dfsle__Reason__c</name>
+    </fields>
+    <fields>
+        <label>傳送順序</label>
+        <name>dfsle__RoutingOrder__c</name>
+    </fields>
+    <fields>
+        <label>已傳送</label>
+        <name>dfsle__Sent__c</name>
+    </fields>
+    <fields>
+        <label>序數</label>
+        <name>dfsle__Sequence__c</name>
+    </fields>
+    <fields>
+        <label>Salesforce 來源 ID</label>
+        <name>dfsle__SourceId__c</name>
+    </fields>
+    <fields>
+        <label>狀態</label>
+        <name>dfsle__Status__c</name>
+    </fields>
+    <fields>
+        <label>類型</label>
+        <name>dfsle__Type__c</name>
+    </fields>
+    <layouts>
+        <layout>DocuSign Recipient Status Layout</layout>
+        <sections>
+            <label><!-- Related Objects --></label>
+            <section>Related Objects</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Name</nameFieldLabel>
+</CustomObjectTranslation>

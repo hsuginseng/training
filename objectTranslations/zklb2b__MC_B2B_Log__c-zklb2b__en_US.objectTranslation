@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>MC B2B Log</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>MC B2B Logs</value>
+    </caseValues>
+    <fields>
+        <label><!-- Cart Object Id --></label>
+        <name>zklb2b__Cart_Object_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- MC B2B Configuration --></label>
+        <name>zklb2b__Configuration__c</name>
+        <relationshipLabel><!-- MC B2B Logs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Encrypted Cart Id --></label>
+        <name>zklb2b__Encrypted_Cart_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Error Description --></label>
+        <name>zklb2b__Error_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Error Status --></label>
+        <name>zklb2b__Error_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>zklb2b__Status__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,83 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "About-Hsus Ginseng Process",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"0010d438-e135-4f98-8b63-fcbe7aaaa8a5\",\"columns\":[{\"UUID\":\"6ef32f31-b25e-4342-a302-0f56d90d7ee4\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"a2fc6b77-e8d2-4967-9154-6d6ccabd6866\",\"columnName\":\"Column 2\",\"columnKey\":\"9f77d\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"2b84aacc-0112-4283-af0f-79eb96e7c4a3\",\"columnName\":\"Column 3\",\"columnKey\":\"ee5ac\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "id" : "6ef32f31-b25e-4342-a302-0f56d90d7ee4",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "imageInfos" : "",
+                "richTextValue" : "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/mtMZV63VpXc?si=H0HjAYtcA8DZaa6R\"/iframe>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "3e7b1fef-f88b-49af-9df3-59c1ca92ef39",
+              "type" : "component"
+            } ],
+            "id" : "a2fc6b77-e8d2-4967-9154-6d6ccabd6866",
+            "name" : "9f77d",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "id" : "2b84aacc-0112-4283-af0f-79eb96e7c4a3",
+            "name" : "ee5ac",
+            "title" : "Column 3",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "0010d438-e135-4f98-8b63-fcbe7aaaa8a5",
+          "type" : "component"
+        } ],
+        "id" : "4d78335d-8ad2-4af1-a3a6-105590ad8fdb",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "About-Hsus Ginseng Process",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "5de851ff-7778-4490-bb54-eb24a520601a",
+          "type" : "component"
+        } ],
+        "id" : "b826c6c8-5430-4faf-a20d-5ad67979a33f",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "f5c25adc-0b1e-43cb-970f-b262bc03ac59",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-about-hsus-ginseng-process"
+  },
+  "urlName" : "about-hsus-ginseng-process"
+}

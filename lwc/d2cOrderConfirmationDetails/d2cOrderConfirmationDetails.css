@@ -1,0 +1,15 @@
+@import 'c/cssLibrary';
+
+p {
+    color: var(--dxp-c-text-block-text-color);
+    font-family: Lora;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.slds-spinner_container {
+    background-color: var(--slds-g-color-neutral-100-opacity-75,rgba(255,255,255,.75));
+    position: fixed;
+}

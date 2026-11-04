@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Message Channel to pass product variation updates</description>
+    <isExposed>true</isExposed>
+    <lightningMessageFields>
+        <description>This is the URL of the image for the hovered variation</description>
+        <fieldName>imageurl</fieldName>
+    </lightningMessageFields>
+    <lightningMessageFields>
+        <description>This denotes whether the effect is active or inactive</description>
+        <fieldName>hoverstatus</fieldName>
+    </lightningMessageFields>
+    <masterLabel>VariationUpdated</masterLabel>
+</LightningMessageChannel>

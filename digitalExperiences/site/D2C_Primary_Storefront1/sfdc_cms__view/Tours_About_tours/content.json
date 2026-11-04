@@ -1,0 +1,824 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Tours-About tours",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "isVisible" : false
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"832ce42f-7af3-492c-b113-ced1f9a6ce89\",\"columns\":[{\"UUID\":\"900d5d12-2d96-4c72-a5a4-174cdd78fd14\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "imageInfos" : "",
+                "richTextValue" : "<h1>What to Expect On Our Tours</h1>\n\n<p>Typically our tour guide will bring you to our ginseng gardens, our first ginseng farm, our production facility and gift shop.\n</p>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "c73939a6-b84b-45b9-a966-12bd0f353ceb",
+              "type" : "component"
+            } ],
+            "id" : "900d5d12-2d96-4c72-a5a4-174cdd78fd14",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "832ce42f-7af3-492c-b113-ced1f9a6ce89",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "isVisible" : false
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"28a61744-8025-4b26-9ae9-cf1a06063922\",\"columns\":[{\"UUID\":\"9ce8467d-bb20-420e-acd7-0145c89751b7\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : { },
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MC4JY54PLTUZEAZL3VRRU7MKLREU?lastModifiedDate=Mon Nov 04 23:18:47 GMT 2024\",\"altText\":\"\",\"contentKey\":\"MC4JY54PLTUZEAZL3VRRU7MKLREU\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "511739c9-5942-44dc-b749-c49b22ba022a",
+              "type" : "component"
+            } ],
+            "id" : "9ce8467d-bb20-420e-acd7-0145c89751b7",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "28a61744-8025-4b26-9ae9-cf1a06063922",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "isVisible" : false
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"7c2ef1d6-0420-4ca0-bd0e-42e89895bbc4\",\"columns\":[{\"UUID\":\"09c9165e-6c2e-49b9-8101-c1310d045090\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "imageInfos" : "",
+                "richTextValue" : "<h2>Introduction</h2>\n\n<p>Our tours start with an introduction at our main facility. Your tour guide will introduce you to ginseng and our company, then ask questions \n    to tailor the tour specific to each group. During this time, you will be introduced to ginseng, learn the differences between American and \n    Asian ginseng and understand the history of ginseng and our company.</p><br>\n\n<h2>Step Into Our Ginseng Gardens</h2>\n\n<p>We have several fields of ginseng at different ages and stages of the growth cycle depending on the month or season of your visit. \n    Experience one of our ginseng gardens in person. Learn about the unique growth cycle of American ginseng, \n    field prep, and cultivation challenges of this specialty crop.</p><br>\n\n<h2>Visit Our Farm Facilities</h2>\n<p>We have several fields of ginseng at different ages and stages of the growth cycle depending on the month or season of your visit. \n    Experience one of our ginseng gardens in person. Learn about the unique growth cycle of American ginseng, field prep, and \n    cultivation challenges of this specialty crop.</p><br>\n\n<h2>Discover Our Headquarters</h2>\n<p>At Hsu’s Ginseng, we have a brokerage and export business process built on over 50 years of trust and personal relationships with local \n    farmers and foreign buyers. You will learn how Paul Hsu started this process in the basement of his home. \n    Our headquarters is also home to our production area for many of our packaged products found on Chinatown store shelves and airport gift shops. \n    You will understand production challenges as well as discover our products.</p>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "11d3d453-17bc-4170-b478-458fefe81ad0",
+              "type" : "component"
+            } ],
+            "id" : "09c9165e-6c2e-49b9-8101-c1310d045090",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "7c2ef1d6-0420-4ca0-bd0e-42e89895bbc4",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "isVisible" : false
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"e0f275e6-2d89-47d7-ba0e-6c6db8ae7c9d\",\"columns\":[{\"UUID\":\"ea415f38-ff18-4f5c-ba6f-76f69e1f9d8a\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : { },
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCUNJXWFW3QNEUTJN2BKL44EDZLU?lastModifiedDate=Mon Nov 04 23:18:47 GMT 2024\",\"altText\":\"\",\"contentKey\":\"MCUNJXWFW3QNEUTJN2BKL44EDZLU\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "b1cc6706-4cf7-4d35-8cf0-456d4e42eac3",
+              "type" : "component"
+            } ],
+            "id" : "ea415f38-ff18-4f5c-ba6f-76f69e1f9d8a",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "e0f275e6-2d89-47d7-ba0e-6c6db8ae7c9d",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "isVisible" : false
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"738b3224-71b2-4ddf-bf71-970ae378668f\",\"columns\":[{\"UUID\":\"e9225ac4-3baa-4dab-99bc-e95ecbd6033d\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "imageInfos" : "",
+                "richTextValue" : "<h2>Additional Information</h2>\n\n<h3>Location</h3>\n\n<p>Meet at Hsu’s Ginseng Enterprises, 237895 County Rd W, Wausau, WI 54403.</p>\n\n<br>\n<h3>Preparation</h3>\n\n<p>Please remember to dress appropriately for the weather. We highly recommend wearing shoes and clothing that you don't mind getting dirty.</p>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "40b5207a-82a8-4f7d-9bf8-0dbed68befac",
+              "type" : "component"
+            } ],
+            "id" : "e9225ac4-3baa-4dab-99bc-e95ecbd6033d",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "738b3224-71b2-4ddf-bf71-970ae378668f",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "padding" : {
+                "bottom" : "80px",
+                "left" : "80px",
+                "right" : "80px",
+                "top" : "120px"
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"9bb9b939-cb34-4912-a370-a4052ea9d3f5\",\"columns\":[{\"UUID\":\"197c3294-a7ef-4310-afee-18198cc21df3\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "dxpStyle" : { },
+                "layoutDirectionDesktop" : "row",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"7a7b0446-b822-4c72-992f-2304f3d0a90f\",\"columns\":[{\"UUID\":\"eca02959-65a1-45a7-bf45-8dac170ff495\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "",
+                        "left" : "80px",
+                        "right" : "",
+                        "top" : ""
+                      }
+                    },
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "What to Expect On Our Tours",
+                    "textAlign" : "left",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\"}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "59870876-fe20-42c1-85b1-cd5b2892807e",
+                  "type" : "component"
+                } ],
+                "id" : "eca02959-65a1-45a7-bf45-8dac170ff495",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "7a7b0446-b822-4c72-992f-2304f3d0a90f",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "dxpStyle" : { },
+                "layoutDirectionDesktop" : "row",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"211bb3db-7e14-4faa-86b8-d65aa1d38891\",\"columns\":[{\"UUID\":\"3c434d35-500e-404f-bcce-7008f47be63a\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"b22d1f95-e27d-4b3d-891b-edb9f4e28511\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "",
+                        "left" : "80px",
+                        "right" : "",
+                        "top" : "30px"
+                      }
+                    },
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Typically our tour guide will bring you to our ginseng gardens, our first ginseng farm, our production facility and gift shop.",
+                    "textAlign" : "left",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{\"textStyle\":\"heading-xsmall\",\"headingTag\":\"h5\"}"
+                  },
+                  "customCssClasses" : "text",
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "b7252a00-1ca6-4566-979a-bbe7ee5c2bc4",
+                  "type" : "component"
+                } ],
+                "id" : "3c434d35-500e-404f-bcce-7008f47be63a",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "dxpStyle" : { },
+                    "fit" : "contain",
+                    "height" : 350,
+                    "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MC4JY54PLTUZEAZL3VRRU7MKLREU?lastModifiedDate=Mon Nov 04 23:18:47 GMT 2024\",\"altText\":\"\",\"contentKey\":\"MC4JY54PLTUZEAZL3VRRU7MKLREU\",\"contentType\":null}}",
+                    "overlayColor" : "",
+                    "position" : "center center",
+                    "width" : 70
+                  },
+                  "definition" : "dxp_base:image",
+                  "id" : "83ad0036-93c6-4284-aa52-7ffb03f6245d",
+                  "type" : "component"
+                } ],
+                "id" : "b22d1f95-e27d-4b3d-891b-edb9f4e28511",
+                "name" : "col2",
+                "title" : "Column 2",
+                "type" : "region"
+              } ],
+              "customCssClasses" : "wrapper",
+              "definition" : "dxp_layout:columns",
+              "id" : "211bb3db-7e14-4faa-86b8-d65aa1d38891",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "20px",
+                    "left" : "80px",
+                    "right" : "80px",
+                    "top" : "20px"
+                  }
+                },
+                "lineStyle" : "solid",
+                "size" : 1,
+                "width" : 100
+              },
+              "definition" : "dxp_base:horizontalLine",
+              "id" : "09a1d496-3825-418c-914f-e34ef0f567fd",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "dxpStyle" : { },
+                "layoutDirectionDesktop" : "row",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"9e721860-cd87-41fc-842d-f39f9628522a\",\"columns\":[{\"UUID\":\"f20e42f5-082d-4878-bf3e-7b49111a3dc8\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "",
+                        "left" : "80px",
+                        "right" : "",
+                        "top" : ""
+                      }
+                    },
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Introduction",
+                    "textAlign" : "left",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\"}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "09ae47ff-790a-445c-8c81-4e371c4c5d08",
+                  "type" : "component"
+                } ],
+                "id" : "f20e42f5-082d-4878-bf3e-7b49111a3dc8",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "9e721860-cd87-41fc-842d-f39f9628522a",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "80px",
+                    "right" : "80px",
+                    "top" : "30px"
+                  }
+                },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Our tours start with an introduction at our main facility. Your tour guide will introduce you to ginseng and our company, then ask questions to tailor the tour specific to each group. During this time, you will be introduced to ginseng, learn the differences between American and Asian ginseng and understand the history of ginseng and our company.",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xsmall\",\"headingTag\":\"h5\"}"
+              },
+              "customCssClasses" : "text",
+              "definition" : "dxp_base:textBlock",
+              "id" : "c5915821-e748-427b-99d5-1c50c628ea81",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "80px",
+                    "right" : "80px",
+                    "top" : "30px"
+                  }
+                },
+                "layoutDirectionDesktop" : "row",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"d2ad8def-7eec-4369-869e-fbabbb1a649d\",\"columns\":[{\"UUID\":\"81885e0a-a27d-476e-a548-7da0d9f842e1\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"9dabbe8a-a0d3-4e2a-8ecd-9e40deddd172\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"1cee9957-23e2-49b3-b848-40f37b5e39f4\",\"columnName\":\"Column 3\",\"columnKey\":\"a2b86\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "",
+                        "left" : "",
+                        "right" : "20px",
+                        "top" : ""
+                      }
+                    },
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Step Into Our Ginseng Gardens",
+                    "textAlign" : "left",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{\"textStyle\":\"heading-xxsmall\",\"headingTag\":\"h6\"}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "baa70d61-a1a9-476a-9242-c5e282faf82b",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "",
+                        "left" : "",
+                        "right" : "20px",
+                        "top" : "20px"
+                      }
+                    },
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "We have several fields of ginseng at different ages and stages of the growth cycle depending on the month or season of your visit. Experience one of our ginseng gardens in person. Learn about the unique growth cycle of American ginseng, field prep, and cultivation challenges of this specialty crop.",
+                    "textAlign" : "left",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{\"textStyle\":\"heading-xsmall\",\"headingTag\":\"h5\"}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "bcd51e15-20e1-4d90-80cc-c4c47d801b15",
+                  "type" : "component"
+                } ],
+                "id" : "81885e0a-a27d-476e-a548-7da0d9f842e1",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "",
+                        "left" : "",
+                        "right" : "20px",
+                        "top" : ""
+                      }
+                    },
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Visit Our Farm Facilities",
+                    "textAlign" : "left",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{\"textStyle\":\"heading-xxsmall\",\"headingTag\":\"h6\"}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "3c357704-e36c-430a-8939-ea5fad8c0f8b",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "",
+                        "left" : "",
+                        "right" : "20px",
+                        "top" : "20px"
+                      }
+                    },
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "We have several fields of ginseng at different ages and stages of the growth cycle depending on the month or season of your visit. Experience one of our ginseng gardens in person. Learn about the unique growth cycle of American ginseng, field prep, and cultivation challenges of this specialty crop.",
+                    "textAlign" : "left",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{\"textStyle\":\"heading-xsmall\",\"headingTag\":\"h5\"}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "276f2090-9c0d-4681-a899-a47b1adcf082",
+                  "type" : "component"
+                } ],
+                "id" : "9dabbe8a-a0d3-4e2a-8ecd-9e40deddd172",
+                "name" : "col2",
+                "title" : "Column 2",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "dxpStyle" : { },
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Discover Our Headquarters",
+                    "textAlign" : "left",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{\"textStyle\":\"heading-xxsmall\",\"headingTag\":\"h6\"}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "caf1f24e-9d5e-4024-98e7-26908f29446d",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "",
+                        "left" : "",
+                        "right" : "",
+                        "top" : "20px"
+                      }
+                    },
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "At Hsu’s Ginseng, we have a brokerage and export business process built on over 50 years of trust and personal relationships with local farmers and foreign buyers. You will learn how Paul Hsu started this process in the basement of his home. Our headquarters is also home to our production area for many of our packaged products found on Chinatown store shelves and airport gift shops. You will understand production challenges as well as discover our products.",
+                    "textAlign" : "left",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{\"textStyle\":\"heading-xsmall\",\"headingTag\":\"h5\"}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "64ce2e82-e919-4cc3-80d3-c0a51b0d5f3e",
+                  "type" : "component"
+                } ],
+                "id" : "1cee9957-23e2-49b3-b848-40f37b5e39f4",
+                "name" : "a2b86",
+                "title" : "Column 3",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "d2ad8def-7eec-4369-869e-fbabbb1a649d",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "20px",
+                    "left" : "80px",
+                    "right" : "80px",
+                    "top" : "20px"
+                  }
+                },
+                "lineStyle" : "solid",
+                "size" : 1,
+                "width" : 100
+              },
+              "definition" : "dxp_base:horizontalLine",
+              "id" : "a23a74ba-052e-442e-b848-479e411ff226",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "dxpStyle" : { },
+                "layoutDirectionDesktop" : "row",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"72e63161-31ce-48dd-b3da-17a79d3caf6e\",\"columns\":[{\"UUID\":\"d24ec8a0-74f3-4ade-9512-b4c37863f3bc\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "",
+                        "left" : "80px",
+                        "right" : "80px",
+                        "top" : ""
+                      }
+                    },
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Additional Information",
+                    "textAlign" : "left",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\"}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "0b94f5af-a544-4805-9d8d-c7c9b99be150",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "dxpStyle" : {
+                      "padding" : {
+                        "bottom" : "",
+                        "left" : "80px",
+                        "right" : "80px",
+                        "top" : "30px"
+                      }
+                    },
+                    "layoutDirectionDesktop" : "row",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"f1978511-31a3-4a75-a9f1-163e24521cca\",\"columns\":[{\"UUID\":\"dc03ea7d-2598-4021-82f1-e33bbc0862d3\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"d3c38974-3768-4e07-b6ce-99ff412657c5\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "backgroundColor" : "",
+                        "dxpStyle" : { },
+                        "isLinkable" : false,
+                        "linkAssistiveText" : "",
+                        "paddingHorizontal" : "none",
+                        "paddingVertical" : "none",
+                        "text" : "Location",
+                        "textAlign" : "left",
+                        "textDecoration" : "{}",
+                        "textDisplayInfo" : "{\"textStyle\":\"heading-xxsmall\",\"headingTag\":\"h6\"}"
+                      },
+                      "definition" : "dxp_base:textBlock",
+                      "id" : "2594d86d-22cc-4e02-bab7-4e5fe1f8d67d",
+                      "type" : "component"
+                    }, {
+                      "attributes" : {
+                        "backgroundColor" : "",
+                        "dxpStyle" : {
+                          "margin" : {
+                            "bottom" : "",
+                            "left" : "",
+                            "right" : "",
+                            "top" : "10px"
+                          }
+                        },
+                        "isLinkable" : false,
+                        "linkAssistiveText" : "",
+                        "paddingHorizontal" : "none",
+                        "paddingVertical" : "none",
+                        "text" : "Meet at Hsu’s Ginseng Enterprises, 237895 County Rd W, Wausau, WI 54403.",
+                        "textAlign" : "left",
+                        "textDecoration" : "{}",
+                        "textDisplayInfo" : "{\"textStyle\":\"heading-xsmall\",\"headingTag\":\"h5\"}"
+                      },
+                      "definition" : "dxp_base:textBlock",
+                      "id" : "0da8a510-bdcb-451d-9218-832e7f9267cf",
+                      "type" : "component"
+                    }, {
+                      "attributes" : {
+                        "backgroundColor" : "",
+                        "dxpStyle" : {
+                          "margin" : {
+                            "bottom" : "",
+                            "left" : "",
+                            "right" : "",
+                            "top" : "30px"
+                          }
+                        },
+                        "isLinkable" : false,
+                        "linkAssistiveText" : "",
+                        "paddingHorizontal" : "none",
+                        "paddingVertical" : "none",
+                        "text" : "Preparation",
+                        "textAlign" : "left",
+                        "textDecoration" : "{}",
+                        "textDisplayInfo" : "{\"textStyle\":\"heading-xxsmall\",\"headingTag\":\"h6\"}"
+                      },
+                      "definition" : "dxp_base:textBlock",
+                      "id" : "ca756bdd-4a2b-4d35-9b50-a235106e5b1e",
+                      "type" : "component"
+                    }, {
+                      "attributes" : {
+                        "backgroundColor" : "",
+                        "dxpStyle" : {
+                          "margin" : {
+                            "bottom" : "",
+                            "left" : "",
+                            "right" : "",
+                            "top" : "10px"
+                          }
+                        },
+                        "isLinkable" : false,
+                        "linkAssistiveText" : "",
+                        "paddingHorizontal" : "none",
+                        "paddingVertical" : "none",
+                        "text" : "Please remember to dress appropriately for the weather. We highly recommend wearing shoes and clothing that you don't mind getting dirty. ",
+                        "textAlign" : "left",
+                        "textDecoration" : "{}",
+                        "textDisplayInfo" : "{\"textStyle\":\"heading-xsmall\",\"headingTag\":\"h5\"}"
+                      },
+                      "definition" : "dxp_base:textBlock",
+                      "id" : "d6045adf-d97c-40eb-b451-ef28aa234bb7",
+                      "type" : "component"
+                    } ],
+                    "id" : "dc03ea7d-2598-4021-82f1-e33bbc0862d3",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "alignment" : "center",
+                        "dxpStyle" : { },
+                        "fit" : "contain",
+                        "height" : 350,
+                        "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCUNJXWFW3QNEUTJN2BKL44EDZLU?lastModifiedDate=Mon Nov 04 23:18:47 GMT 2024\",\"altText\":\"\",\"contentKey\":\"MCUNJXWFW3QNEUTJN2BKL44EDZLU\",\"contentType\":null}}",
+                        "overlayColor" : "",
+                        "position" : "center center",
+                        "width" : 70
+                      },
+                      "definition" : "dxp_base:image",
+                      "id" : "9361b22c-9b3a-4fe8-a5ad-7934ef3a2a42",
+                      "type" : "component"
+                    } ],
+                    "id" : "d3c38974-3768-4e07-b6ce-99ff412657c5",
+                    "name" : "col2",
+                    "title" : "Column 2",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "f1978511-31a3-4a75-a9f1-163e24521cca",
+                  "type" : "component"
+                } ],
+                "id" : "d24ec8a0-74f3-4ade-9512-b4c37863f3bc",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "72e63161-31ce-48dd-b3da-17a79d3caf6e",
+              "type" : "component"
+            } ],
+            "id" : "197c3294-a7ef-4310-afee-18198cc21df3",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "customCssClasses" : "text",
+          "definition" : "community_layout:section",
+          "id" : "9bb9b939-cb34-4912-a370-a4052ea9d3f5",
+          "type" : "component"
+        } ],
+        "id" : "2d10aba3-ccfa-4fc7-9ebb-b57d3fa5a922",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "Tours-About tours",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "b55d3cc6-efa7-4da5-87bb-71ce18bf7041",
+          "type" : "component"
+        } ],
+        "id" : "feb73331-2797-4a26-b255-e9bffb178071",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "493cef2e-8646-49db-8f41-538c9f48b975",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-tours-about-tours"
+  },
+  "urlName" : "tours-about-tours"
+}

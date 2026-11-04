@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Seleniumテストグループ</value>
+    </caseValues>
+    <fieldSets>
+        <label>Selenium結果タブ</label>
+        <name>copado__Selenium_Results_Tab</name>
+    </fieldSets>
+    <fields>
+        <label>説明</label>
+        <name>copado__Description__c</name>
+    </fields>
+    <fields>
+        <label>環境</label>
+        <name>copado__Environment__c</name>
+        <relationshipLabel>Seleniumテストグループ</relationshipLabel>
+    </fields>
+    <fields>
+        <label>外部ID</label>
+        <name>copado__External_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- When this option is unchecked, Copado will automatically create/update/remove Test Runs for each Suite/ Credential.
+
+Check it to manage the Test Runs in this group manually, then go to a Test Run list view, and use the &quot;Add to Test Group&quot; option. --></help>
+        <label>テストを手動で管理</label>
+        <name>copado__Manage_Test_Runs_manually__c</name>
+    </fields>
+    <fields>
+        <help><!-- If checked, tests runs will be executed in sequence, one after another, instead of doing it in parallel --></help>
+        <label>順次実行する</label>
+        <name>copado__Run_Sequentially__c</name>
+    </fields>
+    <fields>
+        <help><!-- All tests runs belonging to this Test Group will use these Selenium Settings. --></help>
+        <label>Selenium設定</label>
+        <name>copado__Selenium_Settings__c</name>
+        <relationshipLabel>Seleniumテストグループ</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ステータス日付</label>
+        <name>copado__Status_Date__c</name>
+    </fields>
+    <fields>
+        <label>ステータスアイコン</label>
+        <name>copado__Status_Icon__c</name>
+    </fields>
+    <fields>
+        <label>ステータス</label>
+        <name>copado__Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed Successfully</masterLabel>
+            <translation><!-- Completed Successfully --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed with Errors</masterLabel>
+            <translation><!-- Completed with Errors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Queued</masterLabel>
+            <translation><!-- Queued --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- If “Regression Test” or “User Story Test” is selected, then all Credentials associated to that Test Group must be linked to the same environment. --></help>
+        <label>タイプ</label>
+        <name>copado__Type__c</name>
+        <picklistValues>
+            <masterLabel>Default</masterLabel>
+            <translation><!-- Default --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regression Test</masterLabel>
+            <translation><!-- Regression Test --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User Story Test</masterLabel>
+            <translation><!-- User Story Test --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Selenium Test Group Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Seleniumテストグループ名</nameFieldLabel>
+    <validationRules>
+        <errorMessage>タイプが「ユーザーストーリーテスト」または「回帰テスト」の場合は、環境フィールドが必要です。</errorMessage>
+        <name>copado__Environment_Required</name>
+    </validationRules>
+    <webLinks>
+        <label>グループで実行</label>
+        <name>copado__Run_Group</name>
+    </webLinks>
+</CustomObjectTranslation>

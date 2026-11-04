@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Custom Address Source</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Custom Address Sources</value>
+    </caseValues>
+    <fields>
+        <label><!-- Auto Create Shipment --></label>
+        <name>zkmulti__Auto_Create_Shipment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Auto Print --></label>
+        <name>zkmulti__Auto_Print__c</name>
+    </fields>
+    <fields>
+        <label><!-- Auto Ship Carrier Field --></label>
+        <name>zkmulti__Auto_Ship_Carrier_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Auto Ship Service Type Field --></label>
+        <name>zkmulti__Auto_Ship_Service_Type_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Account  Number Field --></label>
+        <name>zkmulti__Billing_Account_Number_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing City Field --></label>
+        <name>zkmulti__Billing_City_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Company Name Field --></label>
+        <name>zkmulti__Billing_Company_Name_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Country Field --></label>
+        <name>zkmulti__Billing_Country_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Email Field --></label>
+        <name>zkmulti__Billing_Email_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Name Field --></label>
+        <name>zkmulti__Billing_Name_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Phone Field --></label>
+        <name>zkmulti__Billing_Phone_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Postal Code Field --></label>
+        <name>zkmulti__Billing_Postal_Code_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing State Field --></label>
+        <name>zkmulti__Billing_State_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Street Field --></label>
+        <name>zkmulti__Billing_Street_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Branding Field --></label>
+        <name>zkmulti__BrandingField__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier Code Default --></label>
+        <name>zkmulti__Carrier_Code_Default__c</name>
+    </fields>
+    <fields>
+        <label><!-- Child Product Filter --></label>
+        <name>zkmulti__Child_Customs_Item_Filter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Child Product Object Name --></label>
+        <name>zkmulti__Child_Customs_Item_Object_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Child Product Parent Field --></label>
+        <name>zkmulti__Child_Customs_Item_Parent_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Child Product Parent Lookup Field --></label>
+        <name>zkmulti__Child_Customs_Item_Parent_Lookup_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Child Package Filter --></label>
+        <name>zkmulti__Child_Package_Filter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Child Package Object Name --></label>
+        <name>zkmulti__Child_Package_Object_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Child Package Parent Field --></label>
+        <name>zkmulti__Child_Package_Parent_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Child Package Parent Lookup Field --></label>
+        <name>zkmulti__Child_Package_Parent_Lookup_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- City Field --></label>
+        <name>zkmulti__City_Field__c</name>
+    </fields>
+    <fields>
+        <help><!-- SF object Id --></help>
+        <label><!-- Commercial Invoice Field --></label>
+        <name>zkmulti__CommercialInvoiceField__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Name Field --></label>
+        <name>zkmulti__Company_Name_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contents Explanation Field --></label>
+        <name>zkmulti__Contents_Explanation_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contents Type Field --></label>
+        <name>zkmulti__Contents_Type_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country Field --></label>
+        <name>zkmulti__Country_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom Address Source Object --></label>
+        <name>zkmulti__Custom_Address_Source_Object__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom Address Source (Return Shipment) --></label>
+        <name>zkmulti__Custom_Address_Source__c</name>
+        <relationshipLabel><!-- Custom Address Sources --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product Object Lookup Field --></label>
+        <name>zkmulti__CustomsItemObjectLookupField__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customs Certify Field --></label>
+        <name>zkmulti__Customs_Certify_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customs Signer Field --></label>
+        <name>zkmulti__Customs_Signer_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Field --></label>
+        <name>zkmulti__DateField__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivered By Field --></label>
+        <name>zkmulti__Delivered_By_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dimension Units Field --></label>
+        <name>zkmulti__Dimension_Units_Field__c</name>
+    </fields>
+    <fields>
+        <help><!-- SF object Id --></help>
+        <label><!-- EEI From Field --></label>
+        <name>zkmulti__EEIFromField__c</name>
+    </fields>
+    <fields>
+        <label><!-- EEL or PFC Field --></label>
+        <name>zkmulti__EEL_PFC_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Field --></label>
+        <name>zkmulti__Email_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Error Message Field --></label>
+        <name>zkmulti__Error_Message_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Height Field --></label>
+        <name>zkmulti__Height_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- International Service Type Field --></label>
+        <name>zkmulti__InternationalServiceTypeField__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Cheapest --></label>
+        <name>zkmulti__Is_Cheapest__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Fastest --></label>
+        <name>zkmulti__Is_Fastest__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Residence Field --></label>
+        <name>zkmulti__Is_Residence_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Label Image Type Field --></label>
+        <name>zkmulti__Label_Image_Type_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Length Field --></label>
+        <name>zkmulti__Length_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mod Key --></label>
+        <name>zkmulti__Mod_Key__c</name>
+    </fields>
+    <fields>
+        <help><!-- SF object Id --></help>
+        <label><!-- USMCA CO Field --></label>
+        <name>zkmulti__NAFTACOField__c</name>
+    </fields>
+    <fields>
+        <label><!-- Name Field --></label>
+        <name>zkmulti__Name_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Non Delivery Field --></label>
+        <name>zkmulti__Non_Delivery_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Origin Custom Address Source Id Field --></label>
+        <name>zkmulti__Origin_Custom_Address_Source_Id_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Output Delivery Date Field --></label>
+        <name>zkmulti__OutputDeliveryDateField__c</name>
+    </fields>
+    <fields>
+        <label><!-- Output Delivery Day Of Week Field --></label>
+        <name>zkmulti__OutputDeliveryDayOfWeekField__c</name>
+    </fields>
+    <fields>
+        <label><!-- Output Delivery Days Field --></label>
+        <name>zkmulti__OutputDeliveryDaysField__c</name>
+    </fields>
+    <fields>
+        <label><!-- Output Net Charge --></label>
+        <name>zkmulti__OutputNetCharge__c</name>
+    </fields>
+    <fields>
+        <label><!-- Output Preference Id Field --></label>
+        <name>zkmulti__OutputPreferenceIdField__c</name>
+    </fields>
+    <fields>
+        <label><!-- Output Service Name Field --></label>
+        <name>zkmulti__OutputServiceNameField__c</name>
+    </fields>
+    <fields>
+        <label><!-- Package Boxing Algorithm --></label>
+        <name>zkmulti__PackageBoxingAlgorithm__c</name>
+    </fields>
+    <fields>
+        <label><!-- Package Object Lookup Field --></label>
+        <name>zkmulti__PackageObjectLookupField__c</name>
+    </fields>
+    <fields>
+        <label><!-- Package Type Field --></label>
+        <name>zkmulti__Package_Type_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Type Field --></label>
+        <name>zkmulti__Payment_Type_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone Field --></label>
+        <name>zkmulti__Phone_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Postal Code Field --></label>
+        <name>zkmulti__Postal_Code_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Preference Name Field --></label>
+        <name>zkmulti__Preference_Name_Field__c</name>
+    </fields>
+    <fields>
+        <help><!-- SF object Id --></help>
+        <label><!-- Pro Forma Invoice Field --></label>
+        <name>zkmulti__ProFormaInvoiceField__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference Field --></label>
+        <name>zkmulti__Reference_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Restriction Comments Field --></label>
+        <name>zkmulti__Restriction_Comments_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Restriction Type Field --></label>
+        <name>zkmulti__Restriction_Type_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Return Shipment Field --></label>
+        <name>zkmulti__Return_Shipment_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender City Field --></label>
+        <name>zkmulti__Sender_City_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender Company Name Field --></label>
+        <name>zkmulti__Sender_Company_Name_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender Country Field --></label>
+        <name>zkmulti__Sender_Country_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender Email Field --></label>
+        <name>zkmulti__Sender_Email_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender Is Residence Field --></label>
+        <name>zkmulti__Sender_Is_Residence_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender Name Field --></label>
+        <name>zkmulti__Sender_Name_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender Phone Field --></label>
+        <name>zkmulti__Sender_Phone_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender Postal Code Field --></label>
+        <name>zkmulti__Sender_Postal_Code_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender State Field --></label>
+        <name>zkmulti__Sender_State_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender Street 1 Text Line Field --></label>
+        <name>zkmulti__Sender_Street_1_Text_Line_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender Street 2 Text Line Field --></label>
+        <name>zkmulti__Sender_Street_2_Text_Line_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender Street Text Area Field --></label>
+        <name>zkmulti__Sender_Street_Text_Area_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Type Field --></label>
+        <name>zkmulti__ServiceTypeField__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipment Type Field --></label>
+        <name>zkmulti__ShipmentTypeField__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipment Object Lookup Field --></label>
+        <name>zkmulti__Shipment_Object_Lookup_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- State Field --></label>
+        <name>zkmulti__State_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Street 1 Text Line Field --></label>
+        <name>zkmulti__Street_1_Text_Line_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Street 2 Text Line Field --></label>
+        <name>zkmulti__Street_2_Text_Line_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Street Text Area Field --></label>
+        <name>zkmulti__Street_Text_Area_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Weight Field --></label>
+        <name>zkmulti__Weight_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Weight Units Field --></label>
+        <name>zkmulti__Weight_Units_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Width Field --></label>
+        <name>zkmulti__Width_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Wizard Mode --></label>
+        <name>zkmulti__WizardMode__c</name>
+    </fields>
+    <layouts>
+        <layout>Custom Address Source Layout</layout>
+        <sections>
+            <label><!-- Auto Printing --></label>
+            <section>Auto Printing</section>
+        </sections>
+        <sections>
+            <label><!-- Billing Fields --></label>
+            <section>Billing Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Branding --></label>
+            <section>Branding</section>
+        </sections>
+        <sections>
+            <label><!-- Carrier Code --></label>
+            <section>Carrier Code</section>
+        </sections>
+        <sections>
+            <label><!-- Child Options --></label>
+            <section>Child Options</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Address Source Object --></label>
+            <section>Custom Address Source Object</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Error Handler --></label>
+            <section>Error Handler</section>
+        </sections>
+        <sections>
+            <label><!-- International Details Fields --></label>
+            <section>International Details Fields</section>
+        </sections>
+        <sections>
+            <label><!-- International Documents --></label>
+            <section>International Documents</section>
+        </sections>
+        <sections>
+            <label><!-- Output Fields --></label>
+            <section>Output Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Package Detail --></label>
+            <section>Package Detail</section>
+        </sections>
+        <sections>
+            <label><!-- Package Type --></label>
+            <section>Package Type</section>
+        </sections>
+        <sections>
+            <label><!-- Preference Fields --></label>
+            <section>Preference Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Recipient Address Fields --></label>
+            <section>Recipient Address Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Reference Fields --></label>
+            <section>Reference Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Sender Address Fields --></label>
+            <section>Sender Address Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Service Types --></label>
+            <section>Service Types</section>
+        </sections>
+        <sections>
+            <label><!-- Shipment Auto-create --></label>
+            <section>Shipment Auto-create</section>
+        </sections>
+        <sections>
+            <label><!-- Shipment Object Lookup Field --></label>
+            <section>Shipment Object Lookup Field</section>
+        </sections>
+        <sections>
+            <label><!-- Shipment Type --></label>
+            <section>Shipment Type</section>
+        </sections>
+        <sections>
+            <label><!-- Shipment Type Fields --></label>
+            <section>Shipment Type Fields</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- ExportCustomAddressSource --></label>
+        <name>zkmulti__ExportCustomAddressSource</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ImportCustomAddressSource --></label>
+        <name>zkmulti__ImportCustomAddressSource</name>
+    </webLinks>
+</CustomObjectTranslation>

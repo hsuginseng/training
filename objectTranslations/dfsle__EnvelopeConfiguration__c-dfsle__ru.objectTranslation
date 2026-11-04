@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Шаблон конверта Docusign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Шаблоны конвертов Docusign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Конфигурация конверта DocuSign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Конфигурации конвертов DocuSign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Конфигурация конверта DocuSign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Конфигурации конвертов DocuSign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Конфигурация конверта DocuSign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Конфигурации конвертов DocuSign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Конфигурация конверта DocuSign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Конфигурации конвертов DocuSign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>false</plural>
+        <value>Конфигурация конверта DocuSign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>true</plural>
+        <value>Конфигурации конвертов DocuSign</value>
+    </caseValues>
+    <fields>
+        <label>Действие</label>
+        <name>dfsle__Action__c</name>
+        <picklistValues>
+            <masterLabel>Prepare</masterLabel>
+            <translation><!-- Prepare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Send</masterLabel>
+            <translation><!-- Send --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tag</masterLabel>
+            <translation><!-- Tag --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Активна</label>
+        <name>dfsle__Active__c</name>
+    </fields>
+    <fields>
+        <label>Добавить документы из источника Salesforce</label>
+        <name>dfsle__AddSourceDocuments__c</name>
+    </fields>
+    <fields>
+        <label>Добавить получателей из источника Salesforce</label>
+        <name>dfsle__AddSourceRecipients__c</name>
+    </fields>
+    <fields>
+        <label>Настраиваемые поля</label>
+        <name>dfsle__CustomFields__c</name>
+    </fields>
+    <fields>
+        <label><!-- DFS Template ID --></label>
+        <name>dfsle__DFSTemplateId__c</name>
+    </fields>
+    <fields>
+        <label>Идентификатор шаблона DocuSign</label>
+        <name>dfsle__DocuSignId__c</name>
+    </fields>
+    <fields>
+        <label>Сообщение электронной почты</label>
+        <name>dfsle__EmailMessage__c</name>
+    </fields>
+    <fields>
+        <label>Тема сообщения электронной почты</label>
+        <name>dfsle__EmailSubject__c</name>
+    </fields>
+    <fields>
+        <label>Истечение срока действия/аннулирование конверта через N дн.</label>
+        <name>dfsle__ExpireAfterDays__c</name>
+    </fields>
+    <fields>
+        <label>Предупреждать об истечении срока действия за N дн.</label>
+        <name>dfsle__ExpireWarnDays__c</name>
+    </fields>
+    <fields>
+        <label>Истечение срока действия/аннулирование конверта</label>
+        <name>dfsle__Expires__c</name>
+    </fields>
+    <fields>
+        <label>Является черновиком</label>
+        <name>dfsle__IsDraft__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Quick Send --></label>
+        <name>dfsle__IsQuickSend__c</name>
+    </fields>
+    <fields>
+        <label>Объединить поля</label>
+        <name>dfsle__MergeFields__c</name>
+    </fields>
+    <fields>
+        <label>Оповещения</label>
+        <name>dfsle__Notifications__c</name>
+    </fields>
+    <fields>
+        <label>Тип объекта</label>
+        <name>dfsle__ObjectType__c</name>
+    </fields>
+    <fields>
+        <label>Параметры</label>
+        <name>dfsle__Options__c</name>
+    </fields>
+    <fields>
+        <label>Отправить напоминание через N дн.</label>
+        <name>dfsle__RemindAfterDays__c</name>
+    </fields>
+    <fields>
+        <label>Напоминать каждые N дн. до завершения</label>
+        <name>dfsle__RemindFrequencyDays__c</name>
+    </fields>
+    <fields>
+        <label>Отправлять подписантам напоминания по электронной почте</label>
+        <name>dfsle__Remind__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender DocuSign UserName --></label>
+        <name>dfsle__SenderDocuSignUserName__c</name>
+    </fields>
+    <fields>
+        <label>Разрешения отправителя</label>
+        <name>dfsle__SenderPermissions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender Salesforce UserName --></label>
+        <name>dfsle__SenderSalesforceUserName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender --></label>
+        <name>dfsle__Sender__c</name>
+        <relationshipLabel><!-- Docusign Envelope Templates --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sending Experience --></label>
+        <name>dfsle__SendingExperience__c</name>
+        <picklistValues>
+            <masterLabel>edit</masterLabel>
+            <translation><!-- edit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>quickSend</masterLabel>
+            <translation><!-- quickSend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>send</masterLabel>
+            <translation><!-- send --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>tag</masterLabel>
+            <translation><!-- tag --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Показать параметры Chatter</label>
+        <name>dfsle__ShowChatterSettings__c</name>
+    </fields>
+    <fields>
+        <label>Показать сообщение эл. почты</label>
+        <name>dfsle__ShowEmailMessage__c</name>
+    </fields>
+    <fields>
+        <label>Показать тему сообщения</label>
+        <name>dfsle__ShowEmailSubject__c</name>
+    </fields>
+    <fields>
+        <label>Показать параметры напоминаний и истечения срока действия</label>
+        <name>dfsle__ShowRemindExpire__c</name>
+    </fields>
+    <fields>
+        <label>Показать кнопку &quot;Отправить&quot;</label>
+        <name>dfsle__ShowSendButton__c</name>
+    </fields>
+    <fields>
+        <label>Показать кнопку &quot;Добавить теги&quot;</label>
+        <name>dfsle__ShowTagButton__c</name>
+    </fields>
+    <fields>
+        <label>Исходный объект</label>
+        <name>dfsle__SourceObject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Template Type --></label>
+        <name>dfsle__TemplateType__c</name>
+        <picklistValues>
+            <masterLabel>Embedded</masterLabel>
+            <translation><!-- Embedded --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General</masterLabel>
+            <translation><!-- General --></translation>
+        </picklistValues>
+    </fields>
+    <gender>Neuter</gender>
+    <layouts>
+        <layout>DocuSign Envelope Configuration Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Information --></label>
+            <section>Information</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Name --></nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>DocuSign Envelope</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>dfsle__CustomFields__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Use envelope custom fields to classify, record, and track your sent envelopes.</description>
+        <label>Custom Fields</label>
+        <length>131072</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>dfsle__DFSTemplateId__c</fullName>
+        <defaultValue>&quot;NA&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Migrated DFS Template ID</description>
+        <externalId>true</externalId>
+        <label>DFS Template ID</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>dfsle__DocuSignId__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <deprecated>false</deprecated>
+        <externalId>true</externalId>
+        <label>DocuSign Envelope ID</label>
+        <length>36</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>dfsle__EmailMessage__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Email Message</description>
+        <inlineHelpText>Edit this email message Text (up to 10,000 characters) and it will appear in the notification to sign for
+			your DocuSign Recipient.
+		</inlineHelpText>
+        <label>Email message</label>
+        <length>10000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>dfsle__EmailSubject__c</fullName>
+        <defaultValue>&quot;Documents for your DocuSign Signature&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Email Subject</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Change this default email subject text and it will appear as the Subject Line in the notification to Sign
+			for your DocuSign Recipients.
+		</inlineHelpText>
+        <label>Email subject</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>dfsle__EnvelopeConfiguration__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <inlineHelpText>The configuration used to generate this envelope.</inlineHelpText>
+        <label>Envelope Configuration</label>
+        <referenceTo>dfsle__EnvelopeConfiguration__c</referenceTo>
+        <relationshipLabel>Envelope Configuration</relationshipLabel>
+        <relationshipName>EnvelopeConfiguration</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>dfsle__ExpireAfterDays__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Days before Envelope is Expired/Voided</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicate the number of days until this transaction is expired.</inlineHelpText>
+        <label>Expire/void envelope in N day(s)</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>dfsle__ExpireWarnDays__c</fullName>
+        <deprecated>false</deprecated>
+        <description>An email message to alert recipients that a deadline approaches for completing an envelope. This is
+			sent only to recipients who have not yet completed the envelope.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicate how many days prior to expiration you want an email message to alert recipients that a deadline
+			approaches for completion. This is sent only to recipients who have not yet completed the transaction.
+		</inlineHelpText>
+        <label>Warn of expiration in N day(s) prior</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>dfsle__Expires__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>At times, you may need to encourage your recipients to complete an envelope more rapidly. After an envelope expires, DocuSign voids the envelope and sends a notification to both sender and recipient.</description>
+        <inlineHelpText>At times, you may need to encourage your recipients to complete an envelope more rapidly. After an envelope expires, DocuSign voids the envelope and sends a notification to both sender and recipient.</inlineHelpText>
+        <label>Expire envelope</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>dfsle__Options__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Options</label>
+        <length>131072</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>dfsle__RemindAfterDays__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Reminder Interval in Days to remind them
+			to review and complete the document(s).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicate how many days should pass before the first reminder is sent</inlineHelpText>
+        <label>Send reminder in N day(s)</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>dfsle__RemindFrequencyDays__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Reminder Repeat Interval in Days to remind them
+			to review and complete the document(s).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicate how often (in days) the reminder should repeat until the transaction is complete.</inlineHelpText>
+        <label>Remind every N day(s) until complete</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>dfsle__Remind__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Should a reminder be sent periodically to recipients
+			who have not yet completed the envelope?</description>
+        <inlineHelpText>Check this box to have an email reminder sent to recipients of the envelope who have not yet completed
+			their task.
+		</inlineHelpText>
+        <label>Remind signers via email</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>dfsle__SenderPermissions__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Sender Permissions</label>
+        <length>131072</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>dfsle__Sender__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The DocuSign user used for sending the envelope.</description>
+        <label>Sender</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>DocuSign_Envelopes</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>dfsle__Sent__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Date and time when envelope was sent</description>
+        <inlineHelpText>Date and time sent</inlineHelpText>
+        <label>Sent</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>dfsle__SourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Salesforce source ID</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Salesforce source ID</inlineHelpText>
+        <label>Salesforce source ID</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>dfsle__TransactionId__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <deprecated>false</deprecated>
+        <externalId>true</externalId>
+        <label>Transaction ID</label>
+        <length>36</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>dfsle__UpdateChatter__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <inlineHelpText>Check to show chatter during DocuSign signature workflow.</inlineHelpText>
+        <label>Enable Chatter status updates</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Docusign Envelope</label>
+    <listViews>
+        <fullName>dfsle__All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>DSE-{0000000}</displayFormat>
+        <label>DocuSign Envelope</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Docusign Envelopes</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>dfsle__EmailSubject__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>dfsle__DocuSignId__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>dfsle__Sent__c</customTabListAdditionalFields>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <lookupDialogsAdditionalFields>dfsle__EmailSubject__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>dfsle__DocuSignId__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>dfsle__Sent__c</lookupDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>dfsle__EmailSubject__c</searchFilterFields>
+        <searchFilterFields>dfsle__DocuSignId__c</searchFilterFields>
+        <searchFilterFields>dfsle__Sent__c</searchFilterFields>
+        <searchResultsAdditionalFields>dfsle__EmailSubject__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>dfsle__DocuSignId__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>dfsle__Sent__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

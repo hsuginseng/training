@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Connection</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Connections</value>
+    </caseValues>
+    <fields>
+        <label><!-- Access Token --></label>
+        <name>integrator_da__Access_Token__c</name>
+    </fields>
+    <fields>
+        <label><!-- NetSuite Account Id --></label>
+        <name>integrator_da__Account_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consumer Key --></label>
+        <name>integrator_da__Consumer_Key__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consumer Secret --></label>
+        <name>integrator_da__Consumer_Secret__c</name>
+    </fields>
+    <fields>
+        <label><!-- Endpoint --></label>
+        <name>integrator_da__Endpoint__c</name>
+    </fields>
+    <fields>
+        <label><!-- GUID --></label>
+        <name>integrator_da__GUID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Password --></label>
+        <name>integrator_da__Password__c</name>
+    </fields>
+    <fields>
+        <label><!-- NetSuite Role Id --></label>
+        <name>integrator_da__Role_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Token Id --></label>
+        <name>integrator_da__Token_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Token Secret --></label>
+        <name>integrator_da__Token_Secret__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Name --></label>
+        <name>integrator_da__User_Name__c</name>
+    </fields>
+    <layouts>
+        <layout>Connection Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

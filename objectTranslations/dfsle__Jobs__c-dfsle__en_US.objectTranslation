@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Docusign Job</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Docusign Jobs</value>
+    </caseValues>
+    <fields>
+        <label>ContentVersion Ids</label>
+        <name>dfsle__ContentVersion_Ids__c</name>
+    </fields>
+    <fields>
+        <label>Gen Template Id</label>
+        <name>dfsle__Gen_Template_Id__c</name>
+    </fields>
+    <fields>
+        <label>Sending Status</label>
+        <name>dfsle__JobEnvelopeStatus__c</name>
+    </fields>
+    <fields>
+        <label>Job Id</label>
+        <name>dfsle__JobId__c</name>
+    </fields>
+    <fields>
+        <label>Job Status</label>
+        <name>dfsle__Job_Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed - Successful</masterLabel>
+            <translation><!-- Completed - Successful --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Failed</masterLabel>
+            <translation><!-- Failed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Source Id</label>
+        <name>dfsle__Source_Id__c</name>
+    </fields>
+    <fields>
+        <label>Task Ids</label>
+        <name>dfsle__TaskId__c</name>
+    </fields>
+    <layouts>
+        <layout>Docusign Jobs Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

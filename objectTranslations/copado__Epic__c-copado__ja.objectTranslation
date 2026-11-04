@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>エピック</value>
+    </caseValues>
+    <fields>
+        <label>アプリケーション</label>
+        <name>copado__Application__c</name>
+        <relationshipLabel>エピック</relationshipLabel>
+    </fields>
+    <fields>
+        <label>解除された理由</label>
+        <name>copado__Cancelled_Reason__c</name>
+    </fields>
+    <fields>
+        <label>説明</label>
+        <name>copado__Description__c</name>
+    </fields>
+    <fields>
+        <label>エピックの詳細</label>
+        <name>copado__Epic_Details__c</name>
+    </fields>
+    <fields>
+        <label>エピック名称</label>
+        <name>copado__Epic_Title__c</name>
+    </fields>
+    <fields>
+        <label>リリース</label>
+        <name>copado__Release__c</name>
+        <relationshipLabel>エピック</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ステータス</label>
+        <name>copado__Status__c</name>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Planned</masterLabel>
+            <translation><!-- Planned --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>技術的な前提条件</label>
+        <name>copado__Technical_Assumptions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Connect log --></label>
+        <name>copadoconnect__Connect_log__c</name>
+    </fields>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>copadoconnect__External_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Synced Date --></label>
+        <name>copadoconnect__Last_Synced_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project --></label>
+        <name>copadoconnect__Project__c</name>
+        <relationshipLabel><!-- Epics --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Epic Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Owners --></label>
+            <section>Owners</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>エピックリファレンス</nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>OrderSummary.FulfillmentOrders$Status</field>
+    </columns>
+    <columns>
+        <field>OrderSummary.FulfillmentOrders.FulfillmentOrderLineItems$Product2</field>
+    </columns>
+    <columns>
+        <field>OrderSummary.FulfillmentOrders.FulfillmentOrderLineItems$OrderItemSummary.Status</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>OrderSummary$Balance_Due__c</field>
+    </columns>
+    <crossFilters>
+        <operation>with</operation>
+        <primaryTableColumn>OrderSummary$Id</primaryTableColumn>
+        <relatedTable>OrderPaymentSummary</relatedTable>
+        <relatedTableJoinColumn>OrderSummary</relatedTableJoinColumn>
+    </crossFilters>
+    <currency>USD</currency>
+    <description>This report contains B2B order summaries that have been fulfilled. These order summaries include payment data indicating that the orders were not fully paid.</description>
+    <filter>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND (5 OR 6)</booleanFilter>
+        <criteriaItems>
+            <column>OrderSummary$Fulfilled_Product_Count__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>greaterThan</operator>
+            <value>0</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>OrderSummary.FulfillmentOrders.FulfillmentOrderLineItems$Type</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Delivery Charge,Fee</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>OrderSummary$Balance_Due__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value>USD 0</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>OrderSummary.FulfillmentOrders.FulfillmentOrderLineItems$OrderItemSummary.Status</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>RETURNED,CANCELED</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>OrderSummary$SalesChannel</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>B2B Sales Channel</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>OrderSummary$SalesChannel</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>B2B Canada Sales Channel</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>OrderSummary$Name</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>OrderSummary.FulfillmentOrders$Name</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>All B2B Fulfilled Orders with a Balance</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Fulfilled_Fresh_Ginseng_Orders_Payment_Capture_Failures__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>OrderSummary.FulfillmentOrders$Status</sortColumn>
+    <sortOrder>Desc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>OrderSummary$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>CartId</fullName>
+        <type>MasterDetail</type>
+    </fields>
+    <fields>
+        <fullName>CompanyName</fullName>
+    </fields>
+    <fields>
+        <fullName>DeliverToFirstName</fullName>
+    </fields>
+    <fields>
+        <fullName>DeliverToLastName</fullName>
+    </fields>
+    <fields>
+        <fullName>DeliverToName</fullName>
+    </fields>
+    <fields>
+        <fullName>DeliveryMethodId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>DesiredDeliveryDate</fullName>
+    </fields>
+    <fields>
+        <fullName>Fresh_Ginseng_Weight__c</fullName>
+        <externalId>false</externalId>
+        <label>Fresh Ginseng Weight</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>GiftMessage</fullName>
+    </fields>
+    <fields>
+        <fullName>GiftToName</fullName>
+    </fields>
+    <fields>
+        <fullName>GrandTotalAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>IsDefault</fullName>
+    </fields>
+    <fields>
+        <fullName>IsGift</fullName>
+    </fields>
+    <fields>
+        <fullName>Is_Destination_State_In_Lower_48__c</fullName>
+        <formula>IF(OR(DeliverToState = &apos;HI&apos;, DeliverToState = &apos;AK&apos;, DeliverToCountry &lt;&gt; &apos;US&apos;), FALSE, TRUE)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Is Destination State In Lower 48</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Destination_State_In_Two_Day_Zone__c</fullName>
+        <formula>IF(AND(DeliverToCountry = &apos;US&apos;, OR(DeliverToState = &apos;WI&apos;, DeliverToState = &apos;MN&apos;, DeliverToState = &apos;IA&apos;, DeliverToState = &apos;IL&apos;, DeliverToState = &apos;IN&apos;, DeliverToState = &apos;OH&apos;, DeliverToState = &apos;MI&apos;, DeliverToState = &apos;KY&apos;, DeliverToState = &apos;KS&apos;, DeliverToState = &apos;MO&apos;, DeliverToState = &apos;ND&apos;, DeliverToState = &apos;SD&apos;)), TRUE, FALSE)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Is Destination State In Two Day Zone</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Loyalty_Adjustment_Amount__c</fullName>
+        <formula>Cart.Applied_Loyalty_Voucher__r.FaceValue</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Loyalty Adjustment Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+    </fields>
+    <fields>
+        <fullName>SelectedDeliveryMethodId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ShipToPhoneNumber</fullName>
+    </fields>
+    <fields>
+        <fullName>ShippingInstructions</fullName>
+    </fields>
+    <fields>
+        <fullName>Shipping_Category_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(CASESAFEID(Cart.AccountId) = &apos;001V500000XaNmMIAV&apos;,&apos;InStoreAccount&apos;,
+If(AND(ISPICKVAL(Cart.WebStore.Type, &apos;B2B&apos;), OR(Cart.Free_Shipping_Override__c = TRUE, Cart.Expedite_Shipping_Amount__c + Cart.Standard_Shipping_Amount__c &gt;= 500)), &apos;FreeB2B&apos;,
+IF(AND(ISPICKVAL(Cart.WebStore.Type, &apos;B2B&apos;), Cart.Free_Shipping_Override__c = TRUE), &apos;FreeB2B&apos;,
+If(ISPICKVAL(Cart.WebStore.Type, &apos;B2B&apos;), &apos;StandardB2B&apos;,
+If(AND(Shipping_Category__c &gt; 0, Is_Destination_State_In_Lower_48__c = FALSE), &apos;&apos;,
+If(OR(AND(Cart.Free_Shipping_Override__c = TRUE, Shipping_Category__c &gt; 0, Is_Destination_State_In_Lower_48__c, Is_Destination_State_In_Two_Day_Zone__c = FALSE), AND(Shipping_Category__c &gt; 0, Fresh_Ginseng_Weight__c &gt;= 2, Is_Destination_State_In_Lower_48__c, Is_Destination_State_In_Two_Day_Zone__c = FALSE)),&apos;ExpediteFree&apos;,
+If(OR(AND(Cart.Free_Shipping_Override__c = TRUE, Shipping_Category__c &gt; 0, Is_Destination_State_In_Lower_48__c, Is_Destination_State_In_Two_Day_Zone__c = TRUE), AND(Shipping_Category__c &gt; 0,  Two_Day_Zone_Shipping_Amount_Remaining__c  &lt;= 0, Is_Destination_State_In_Lower_48__c, Is_Destination_State_In_Two_Day_Zone__c = TRUE)),&apos;StandardFree&apos;,
+If(AND(Shipping_Category__c &gt; 0, Is_Destination_State_In_Two_Day_Zone__c = FALSE, Is_Destination_State_In_Lower_48__c), &apos;Expedite&apos;,
+If(AND(Shipping_Category__c &gt; 0, Is_Destination_State_In_Two_Day_Zone__c = TRUE, Is_Destination_State_In_Lower_48__c), &apos;Standard&apos;,
+If(AND(Cart.Free_Shipping_Override__c = TRUE, OR(Shipping_Category__c = 0, ISBLANK(Shipping_Category__c))), &apos;StandardFree&apos;,
+If(AND(OR(Shipping_Category__c = 0, ISBLANK(Shipping_Category__c)), Standard_Shipping_Amount_Remaining__c &lt;= 0, Is_Destination_State_In_Lower_48__c), &apos;StandardFree&apos;, &apos;Standard&apos;)))))))))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Shipping Category Name</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Shipping_Category__c</fullName>
+        <externalId>false</externalId>
+        <label>Shipping Category</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Standard_Shipping_Adjustment_Amount__c</fullName>
+        <description>This field is used by DLRS to store the All Adjustments Total field of qualifying cart items.</description>
+        <label>Standard Shipping Adjustment Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Standard_Shipping_Amount_Remaining__c</fullName>
+        <formula>100 + Loyalty_Adjustment_Amount__c - (Standard_Shipping_Amount__c + Standard_Shipping_Adjustment_Amount__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Standard Shipping Amount Remaining</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Standard_Shipping_Amount__c</fullName>
+        <label>Standard Shipping Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>TotalAdjustmentAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalAdjustmentTaxAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalChargeAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalChargeTaxAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalProductAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalProductTaxAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalTaxAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>Total_Shipping_Weight_LBs__c</fullName>
+        <description>Represents the total weight for all Cart Items associated to this Cart Delivery Group.</description>
+        <externalId>false</externalId>
+        <label>Total Shipping Weight LBs</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Two_Day_Zone_Shipping_Amount_Remaining__c</fullName>
+        <description>Calculates the subtotal of all items in a cart, excluding shipping items, to determine if a cart delivery group is eligible for free shipping.</description>
+        <formula>100 + Loyalty_Adjustment_Amount__c - (Cart.Expedite_Shipping_Amount__c + Cart.Standard_Shipping_Amount__c + Cart.TotalProductItemAdjAmount)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Two Day Zone Shipping Amount Remaining</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+    <sharingModel>ControlledByParent</sharingModel>
+</CustomObject>

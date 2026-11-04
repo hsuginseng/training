@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>User Printer</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>User Printers</value>
+    </caseValues>
+    <fields>
+        <label><!-- Doc Printer Tray --></label>
+        <name>zkmulti__DocPrinterTray__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Default --></label>
+        <name>zkmulti__Is_Default__c</name>
+    </fields>
+    <fields>
+        <label><!-- Non Thermal Printer Tray --></label>
+        <name>zkmulti__NonThermalPrinterTray__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number Of Copies --></label>
+        <name>zkmulti__Number_Of_Copies__c</name>
+    </fields>
+    <fields>
+        <label><!-- Printer Type --></label>
+        <name>zkmulti__PrinterType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Printer --></label>
+        <name>zkmulti__Printer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scale Computer Id --></label>
+        <name>zkmulti__ScaleComputerId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scale Device Id --></label>
+        <name>zkmulti__ScaleDeviceId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scale Name --></label>
+        <name>zkmulti__ScaleName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scale Weight Unit --></label>
+        <name>zkmulti__ScaleWeightUnit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Setting Category --></label>
+        <name>zkmulti__Setting_Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Setting Type --></label>
+        <name>zkmulti__Setting_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Thermal Printer Tray --></label>
+        <name>zkmulti__ThermalPrinterTray__c</name>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>zkmulti__User__c</name>
+        <relationshipLabel><!-- User Printers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Value Type --></label>
+        <name>zkmulti__Value_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Value --></label>
+        <name>zkmulti__Value__c</name>
+    </fields>
+    <layouts>
+        <layout>User Printer Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Print Setting --></label>
+            <section>Print Setting</section>
+        </sections>
+        <sections>
+            <label><!-- Printer Setting --></label>
+            <section>Printer Setting</section>
+        </sections>
+        <sections>
+            <label><!-- Scale Setting --></label>
+            <section>Scale Setting</section>
+        </sections>
+        <sections>
+            <label><!-- Tray Setting --></label>
+            <section>Tray Setting</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

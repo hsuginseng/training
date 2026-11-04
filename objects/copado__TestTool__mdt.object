@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>copado__Automate_Test_Readiness__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>If ticked, test records created in the Test object or as a quality gate are automatically marked as Ready to Run. No manual configuration is required before their execution.</inlineHelpText>
+        <label>Automate Test Readiness</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>copado__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Description</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>copado__Environment_Scan_Enabled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>When enabled, this test tool is available for Environment Scans.</inlineHelpText>
+        <label>Environment Scan Enabled</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>copado__Environment_Scan_Job_Template__c</fullName>
+        <deprecated>false</deprecated>
+        <description>API name of the Job Template used when the test tool runs as an Environment Scan.</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Environment Scan Job Template</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>copado__ExcludeFromValidationPromotion__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Exclude from Validation Promotion</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>copado__JobTemplate__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Job Template</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>copado__Quality_Gates_Readiness_Logic__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>API Name of the Apex class that validates if the Quality Gate Rule configuration is complete. This validation is triggered when a user saves a new Quality Gate Rule. If the validation fails, the Quality Gate Rule cannot be saved until the user completes the missing configuration. The Apex class must implement the interface with name “QualityGateReadinessInterface”.</inlineHelpText>
+        <label>Quality Gates Readiness Logic</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>copado__Requires_Manual_Interaction__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether this testing tool requires manual intervention. When checked, the system determines this step to be completed by human interaction only</description>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Check this box if this test tool cannot be completed automatically and a human interaction is necessary.</inlineHelpText>
+        <label>Requires Manual Interaction</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>copado__TestType__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Test Type</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>copado__Test_Readiness_Logic__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>API Name of the apex class that validates if the test configuration is complete and ready to run. This validation is triggered when a user tries to mark the test as Ready to Run. If the validation fails, the test cannot be marked as Ready To Run until the user completes the missing configuration. The apex class must inherit the interface with name “TestReadinessInterface”.</inlineHelpText>
+        <label>Test Readiness Logic</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>copado__UserStoryBundleTestsUnifierLogic__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>API Name of the apex class that unifies all the tests record related to user stories that are bundled. The apex class must extend the class with name “UserStoryBundleTestsUnifier”.</inlineHelpText>
+        <label>User Story Bundle Tests Unifier Logic</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Test Tool</label>
+    <pluralLabel>Test Tools</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

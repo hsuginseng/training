@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Docusign-Massensendungsstatus</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Docusign-Massensendungsstatus</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Docusign-Massensendungsstatus</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Docusign-Massensendungsstatus</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Docusign-Massensendungsstatus</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Docusign-Massensendungsstatus</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Docusign-Massensendungsstatus</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Docusign-Massensendungsstatus</value>
+    </caseValues>
+    <fields>
+        <label>Batch-Größe</label>
+        <name>dfsle__BatchSize__c</name>
+    </fields>
+    <fields>
+        <label>DocuSign-Batch-ID</label>
+        <name>dfsle__DocuSignId__c</name>
+    </fields>
+    <fields>
+        <label>Fehlgeschlagene Umschläge</label>
+        <name>dfsle__FailedEnvelopes__c</name>
+    </fields>
+    <fields>
+        <label>Letzter Status-Update</label>
+        <name>dfsle__LastStatusUpdate__c</name>
+    </fields>
+    <fields>
+        <label>Umschläge in Warteschlange</label>
+        <name>dfsle__QueuedEnvelopes__c</name>
+    </fields>
+    <fields>
+        <label>Gesendete Umschläge</label>
+        <name>dfsle__SentEnvelopes__c</name>
+    </fields>
+    <fields>
+        <label>Salesforce-Quell-ID</label>
+        <name>dfsle__SourceId__c</name>
+    </fields>
+    <fields>
+        <label>Gesendet</label>
+        <name>dfsle__Submitted__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Envelope#</nameFieldLabel>
+</CustomObjectTranslation>

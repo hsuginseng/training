@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Product Score</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Product Scores</value>
+    </caseValues>
+    <fields>
+        <label><!-- Enumerated Fields Invalid --></label>
+        <name>pimly__Enumerated_Fields_Invalid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enumerated Fields Total --></label>
+        <name>pimly__Enumerated_Fields_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enumerated Fields Valid --></label>
+        <name>pimly__Enumerated_Fields_Valid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pimly Channel --></label>
+        <name>pimly__Pimly_Channel__c</name>
+        <relationshipLabel><!-- Product Scores --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>pimly__Product__c</name>
+        <relationshipLabel><!-- Product Scores --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Readiness Report --></label>
+        <name>pimly__Readiness_Report__c</name>
+        <relationshipLabel><!-- Product Scores --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Readiness Score --></label>
+        <name>pimly__Readiness_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rel Attr Fields - Failing --></label>
+        <name>pimly__Rel_Attr_Fields_Failing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rel Attr Fields - Passing --></label>
+        <name>pimly__Rel_Attr_Fields_Passing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rel Attr Fields - Total --></label>
+        <name>pimly__Rel_Attr_Fields_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Required Fields - Missing --></label>
+        <name>pimly__Required_Fields_Missing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Required Fields - Populated --></label>
+        <name>pimly__Required_Fields_Populated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Required Fields - Total --></label>
+        <name>pimly__Required_Fields_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Validations - Failed --></label>
+        <name>pimly__Validations_Failed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Validations - Passed --></label>
+        <name>pimly__Validations_Passed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Validations - Total --></label>
+        <name>pimly__Validations_Total__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

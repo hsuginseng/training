@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Promotion Pull Request</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Promotion Pull Requests</value>
+    </caseValues>
+    <fields>
+        <label><!-- Approval Status --></label>
+        <name>copado__Approval_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Request Changes</masterLabel>
+            <translation><!-- Request Changes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Assignees --></label>
+        <name>copado__Assignees__c</name>
+    </fields>
+    <fields>
+        <label><!-- Changed Files --></label>
+        <name>copado__Changed_Files__c</name>
+    </fields>
+    <fields>
+        <label><!-- Closed At --></label>
+        <name>copado__Closed_At__c</name>
+    </fields>
+    <fields>
+        <label><!-- Commits --></label>
+        <name>copado__Commits__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>copado__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mergeable --></label>
+        <name>copado__Mergeable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Merged At --></label>
+        <name>copado__Merged_At__c</name>
+    </fields>
+    <fields>
+        <label><!-- Merged By --></label>
+        <name>copado__Merged_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- Merged --></label>
+        <name>copado__Merged__c</name>
+    </fields>
+    <fields>
+        <label><!-- Promotion --></label>
+        <name>copado__Promotion__c</name>
+        <relationshipLabel><!-- Pull Requests --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Request Number --></label>
+        <name>copado__Request_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Requested Reviewers --></label>
+        <name>copado__Requested_Reviewers_Long__c</name>
+    </fields>
+    <fields>
+        <label><!-- Requested Reviewers --></label>
+        <name>copado__Requested_Reviewers__c</name>
+    </fields>
+    <fields>
+        <help><!-- Specifies the number of required reviewer approvals set in your Git provider. Helps determine if a pull request meets the configured approval threshold. Depending on the provider, data may be available via webhook or may require OAuth authorization. --></help>
+        <label><!-- Required Reviewer Approvals --></label>
+        <name>copado__Required_Reviewer_Approvals__c</name>
+    </fields>
+    <fields>
+        <help><!-- Shows the number of reviewers who have approved the pull request. Updates automatically as reviewers approve the pull request in your Git provider. Depending on the provider, data may be available via webhook or may require OAuth authorization --></help>
+        <label><!-- Reviewer Approvals Count --></label>
+        <name>copado__Reviewer_Approvals_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>copado__State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target Branch --></label>
+        <name>copado__Target_Branch__c</name>
+    </fields>
+    <fields>
+        <label><!-- URL Link --></label>
+        <name>copado__URL_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Url --></label>
+        <name>copado__Url__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Avatar Url --></label>
+        <name>copado__User_Avatar_Url__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Avatar --></label>
+        <name>copado__User_Avatar__c</name>
+    </fields>
+    <fields>
+        <label><!-- Username --></label>
+        <name>copado__Username__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>コンプライアンス所見</value>
+    </caseValues>
+    <fields>
+        <label>コンプライアンスルール</label>
+        <name>copado__Compliance_Rule__c</name>
+        <relationshipLabel>コンプライアンス調査結果</relationshipLabel>
+    </fields>
+    <fields>
+        <label>コンプライアンススキャン結果</label>
+        <name>copado__Compliance_Scan_Result__c</name>
+        <relationshipLabel>コンプライアンス調査結果</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ルールエラーメッセージ</label>
+        <name>copado__Rule_Error_Message__c</name>
+    </fields>
+    <fields>
+        <help><!-- The severity of the Rule that has been violated --></help>
+        <label>深刻度</label>
+        <name>copado__Severity__c</name>
+    </fields>
+    <layouts>
+        <layout>Compliance Finding Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Summary --></label>
+            <section>Summary</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>コンプライアンスに関する指摘事項</nameFieldLabel>
+    <recordTypes>
+        <description>このレコードタイプは、コパードによって生成されたスキャン調査結果に使用されます。</description>
+        <label>コパード</label>
+        <name>copado__Copado</name>
+    </recordTypes>
+    <recordTypes>
+        <description>このレコードタイプを使用して、セールスフォース以外のスキャン結果をキャプチャします。</description>
+        <label>その他</label>
+        <name>copado__Other</name>
+    </recordTypes>
+</CustomObjectTranslation>

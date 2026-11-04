@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>OCI Interaction Fulfill Order</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>OCI Interaction Fulfill Order</value>
+    </caseValues>
+    <fields>
+        <label><!-- Connection Failed Attempts --></label>
+        <name>ConnectionFailedAttempts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fulfillment Order --></label>
+        <name>FulfillmentOrder__c</name>
+        <relationshipLabel><!-- OCI Interaction Fulfill Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Schedule --></label>
+        <name>Schedule__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>ABANDONED</masterLabel>
+            <translation><!-- ABANDONED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COMPLETED_FAIL</masterLabel>
+            <translation><!-- COMPLETED_FAIL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COMPLETED_SUCCEED</masterLabel>
+            <translation><!-- COMPLETED_SUCCEED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>REQUESTED</masterLabel>
+            <translation><!-- REQUESTED --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>FULFILLMENT</masterLabel>
+            <translation><!-- FULFILLMENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRANSFER_CANCEL</masterLabel>
+            <translation><!-- TRANSFER_CANCEL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRANSFER_MOVE</masterLabel>
+            <translation><!-- TRANSFER_MOVE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRANSFER_RELEASE</masterLabel>
+            <translation><!-- TRANSFER_RELEASE --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

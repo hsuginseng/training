@@ -1,0 +1,126 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Return Policy",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"2f99757c-6a73-4c65-9587-0d78ae30a7cc\",\"columns\":[{\"UUID\":\"d046635f-a6ce-4f23-b559-8babbc0b7736\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "200px",
+                    "right" : "200px",
+                    "top" : "100px"
+                  }
+                },
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCUCOTLKDZKVC2HKRTGPLE4YELAI?lastModifiedDate=Wed Mar 11 15:43:39 GMT 2026\",\"altText\":\"\",\"contentKey\":\"MCUCOTLKDZKVC2HKRTGPLE4YELAI\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "efc28143-a249-414b-8ea5-01f8ecae9ca0",
+              "type" : "component"
+            } ],
+            "id" : "d046635f-a6ce-4f23-b559-8babbc0b7736",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "2f99757c-6a73-4c65-9587-0d78ae30a7cc",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"104a0855-536f-46e5-bf25-196f7ba2336b\",\"columns\":[{\"UUID\":\"c7e6b899-8bbd-4ad7-8ce8-95ec6dd4e1ec\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : {
+                  "isVisible" : false
+                },
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCAEIYPWSZO5GJTBUXWMXZBL6DEA?lastModifiedDate=Wed Mar 11 15:43:05 GMT 2026\",\"altText\":\"\",\"contentKey\":\"MCAEIYPWSZO5GJTBUXWMXZBL6DEA\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "89fad6ce-d77c-40f7-8af3-2f44bfbb3d8d",
+              "type" : "component"
+            } ],
+            "id" : "c7e6b899-8bbd-4ad7-8ce8-95ec6dd4e1ec",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "104a0855-536f-46e5-bf25-196f7ba2336b",
+          "type" : "component"
+        } ],
+        "id" : "62479c26-0e4a-4ff5-b515-be55821221e8",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "Return Policy",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "96bd8fac-0b8d-4084-bb2b-9ffee839d277",
+          "type" : "component"
+        } ],
+        "id" : "26f550d6-d33f-4898-8b37-d94f15578b34",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "4b170317-449f-4fc4-a086-1248dee882db",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-return-policy"
+  },
+  "urlName" : "return-policy"
+}

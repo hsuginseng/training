@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectBinding xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <implementationField>ssot__Campaign__dlm.ssot__ParentCampaignId__c</implementationField>
+        <interfaceField>CampaignDmo.ParentCampaignId</interfaceField>
+    </fields>
+    <implementationObject>ssot__Campaign__dlm</implementationObject>
+    <interfaceObject>CampaignDmo</interfaceObject>
+    <masterLabel>ssot__Campaign</masterLabel>
+</CustomObjectBinding>

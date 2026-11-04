@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Pimly Property Group</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Pimly Property Groups</value>
+    </caseValues>
+    <fields>
+        <label><!-- Admin Name --></label>
+        <name>pimly__Admin_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- This determines the order that Property Groups appear on a Product detail page in the Data Management app. --></help>
+        <label><!-- Order Number --></label>
+        <name>pimly__Order_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pimly Id --></label>
+        <name>pimly__Pimly_Id__c</name>
+    </fields>
+    <layouts>
+        <layout>Pimly Property Group Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

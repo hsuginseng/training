@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>65.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <assignments>
+        <description>Assign the Product lookup on the FOP to the populated Product on the related Order Product Summary. This only occurs when the Product value is already blank and the Order Product Summary lookup is populated.</description>
+        <name>AssignProductIdToFOP</name>
+        <label>Assign ProductId to FOP</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Product2Id</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.OrderItemSummary.Product2Id</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <description>This flow runs when the Fulfillment Order Product (FOP) record is created or updated (Before Save). If Order Product Summary (OPS) lookup is populated and Product lookup is not populated, copy the Product lookup from the OPS to the FOP</description>
+    <environments>Default</environments>
+    <interviewLabel>Fulfillment Order Product - Before Save - Populate Product Lookup {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Fulfillment Order Product - Before Save - Populate Product Lookup</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>AssignProductIdToFOP</targetReference>
+        </connector>
+        <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>OrderItemSummaryId</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Product2Id</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <object>FulfillmentOrderLineItem</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

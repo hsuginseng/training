@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Bug Report</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Bug Reports</value>
+    </caseValues>
+    <fields>
+        <help><!-- Please indicate if this is a true bug that disrupts the execution of business task or if it is a nice-to-have (enchancement) --></help>
+        <label><!-- Bug Type --></label>
+        <name>ALEYS__Bug_Type__c</name>
+        <picklistValues>
+            <masterLabel>Bug</masterLabel>
+            <translation><!-- Bug --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enhancement Request</masterLabel>
+            <translation><!-- Enhancement Request --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Designates if this bug pertains to internal SFDC functionality or is due to integration issues. --></help>
+        <label><!-- Category --></label>
+        <name>ALEYS__Category__c</name>
+        <picklistValues>
+            <masterLabel>Functional</masterLabel>
+            <translation><!-- Functional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technical/Integration</masterLabel>
+            <translation><!-- Technical/Integration --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The date this bug was initially reported/opened --></help>
+        <label><!-- Date Opened --></label>
+        <name>ALEYS__Date_Opened__c</name>
+    </fields>
+    <fields>
+        <help><!-- The date a particular bug was marked as resolved by the user. --></help>
+        <label><!-- Date Resolved --></label>
+        <name>ALEYS__Date_Resolved__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please give a thorough description of the bug you found. --></help>
+        <label><!-- Description --></label>
+        <name>ALEYS__Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- If you received an error message from Salesforce please copy and paste it here. --></help>
+        <label><!-- Error Message --></label>
+        <name>ALEYS__Error_Message__c</name>
+    </fields>
+    <fields>
+        <help><!-- The estimated level of effort assigned to resolve this bug by the backend team. --></help>
+        <label><!-- Level of Effort --></label>
+        <name>ALEYS__Level_of_Effort__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The level of prioritization that should be assigned to this bug as it is evaluated by your Salesforce team. &quot;Critical&quot; meaning the bug is causing severe disruptions in completing business processes or the continuation of testing. --></help>
+        <label><!-- Priority --></label>
+        <name>ALEYS__Priority__c</name>
+        <picklistValues>
+            <masterLabel>Critical</masterLabel>
+            <translation><!-- Critical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The project this bug corresponds to. --></help>
+        <label><!-- Project --></label>
+        <name>ALEYS__Project__c</name>
+        <picklistValues>
+            <masterLabel>International Foundations</masterLabel>
+            <translation><!-- International Foundations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>International Sales POC</masterLabel>
+            <translation><!-- International Sales POC --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Record URL --></label>
+        <name>ALEYS__Record_URL__c</name>
+    </fields>
+    <fields>
+        <help><!-- The status of the bug found. This is defaulted to &quot;New&quot; when found by a user and updated by an administrator as the bug is worked on/corrected. --></help>
+        <label><!-- Status --></label>
+        <name>ALEYS__Status__c</name>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Investigating</masterLabel>
+            <translation><!-- Investigating --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Resolved</masterLabel>
+            <translation><!-- Not Resolved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready For Retest</masterLabel>
+            <translation><!-- Ready For Retest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resolved</masterLabel>
+            <translation><!-- Resolved --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- If necessary, list out the steps to recreate this bug --></help>
+        <label><!-- Steps to Recreate --></label>
+        <name>ALEYS__Steps_to_Recreate__c</name>
+    </fields>
+    <fields>
+        <help><!-- The user who submitted this bug report. --></help>
+        <label><!-- Submitted By --></label>
+        <name>ALEYS__Submitted_By__c</name>
+        <relationshipLabel><!-- Bug Reports --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Please copy and paste the test script # of the script that you encountered this bug on. --></help>
+        <label><!-- Test Script # --></label>
+        <name>ALEYS__Test_Script__c</name>
+    </fields>
+    <fields>
+        <help><!-- Did this bug occur during UAT, functional testing, or integration testing? --></help>
+        <label><!-- Testing Period --></label>
+        <name>ALEYS__Testing_Period__c</name>
+        <picklistValues>
+            <masterLabel>Functional</masterLabel>
+            <translation><!-- Functional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Integration</masterLabel>
+            <translation><!-- Integration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regression Testing</masterLabel>
+            <translation><!-- Regression Testing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UAT</masterLabel>
+            <translation><!-- UAT --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Please enter a high level title to describe the bug you encountered. --></help>
+        <label><!-- Title --></label>
+        <name>ALEYS__Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- URL --></label>
+        <name>ALEYS__URL__c</name>
+    </fields>
+    <layouts>
+        <layout>Bug Report Layout</layout>
+        <sections>
+            <label><!-- Bug Details --></label>
+            <section>Bug Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Mark as Not Resolved --></label>
+        <name>ALEYS__Mark_as_Not_Resolved</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Mark as Resolved --></label>
+        <name>ALEYS__Mark_as_Resolved</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Shipment Event</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Shipment Events</value>
+    </caseValues>
+    <fields>
+        <label><!-- Error Message --></label>
+        <name>zkmulti__Error_Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Object Id --></label>
+        <name>zkmulti__Original_Object_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipment Id --></label>
+        <name>zkmulti__Shipment_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Success --></label>
+        <name>zkmulti__Success__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>zkmulti__Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- UUIID --></label>
+        <name>zkmulti__UUIID__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

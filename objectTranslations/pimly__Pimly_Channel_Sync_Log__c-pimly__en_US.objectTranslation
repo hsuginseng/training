@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Pimly Channel Sync Log</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Pimly Channel Sync Logs</value>
+    </caseValues>
+    <fields>
+        <label><!-- Append To Log --></label>
+        <name>pimly__Append_To_Log__c</name>
+    </fields>
+    <fields>
+        <label><!-- Log Message --></label>
+        <name>pimly__Log_Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pimly Channel --></label>
+        <name>pimly__Pimly_Channel__c</name>
+        <relationshipLabel><!-- Pimly Channel Sync Logs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Run Date --></label>
+        <name>pimly__Run_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>pimly__Status__c</name>
+    </fields>
+    <layouts>
+        <layout>Pimly Channel Sync Log Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

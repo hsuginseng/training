@@ -1,0 +1,896 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>B2B_Canada</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Canada</shortDescription>
+        <value>0ZEWE0000008uRd4AI</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Primary</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Primary</shortDescription>
+        <value>0ZEV50000000UsXOAU</value>
+    </labels>
+    <labels>
+        <fullName>Cannot_Create_And_Release_Error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cannot Create and Release Reservation in one Interaction.</shortDescription>
+        <value>This change order has both cancellations and additions. Reservations cannot be created and released in the same interaction.</value>
+    </labels>
+    <labels>
+        <fullName>CommerceFreeShippingLabel</fullName>
+        <categories>D2C, B2B, Free Shipping, Header Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Commerce Free Shipping Label</shortDescription>
+        <value>Free Ground Shipping on Orders $100 and over!</value>
+    </labels>
+    <labels>
+        <fullName>Create_Invoice_Error</fullName>
+        <categories>CreateInvoiceEnsureFundsFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Create Invoice Error Message</shortDescription>
+        <value>The Create Invoice action returned one or more errors. The Description field contains the errors.</value>
+    </labels>
+    <labels>
+        <fullName>D2C_StoreID</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>D2C StoreID</shortDescription>
+        <value>0ZEV50000000TMzOAM</value>
+    </labels>
+    <labels>
+        <fullName>Ensure_Funds_Error</fullName>
+        <categories>CreateInvoiceEnsureFundsFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ensure Funds Error Message</shortDescription>
+        <value>The Ensure Funds action returned one or more errors. The Description field contains the errors.</value>
+    </labels>
+    <labels>
+        <fullName>FlowErrors_invocableErrorMessage</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FlowErrors Invocable Error Message</shortDescription>
+        <value>Please close this window and check the Order Summary page for updated information.</value>
+    </labels>
+    <labels>
+        <fullName>FlowErrors_locationGroupIsNotEnabledErrorDescription</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Location or Group Unsynced Error Description</shortDescription>
+        <value>The assigned location or location group isn&apos;t configured to sync with Omnichannel Inventory.</value>
+    </labels>
+    <labels>
+        <fullName>FlowErrors_locationGroupIsNotEnabledErrorMessage</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Location or Group Unsynced Error Message</shortDescription>
+        <value>The location or group {0} isn&apos;t configured to sync with Omnichannel Inventory.</value>
+    </labels>
+    <labels>
+        <fullName>FlowErrors_locationGroupMissMatchErrorDescription</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Location or Group Mismatch Error Description</shortDescription>
+        <value>Some products in the delivery group have different fulfillment locations or location groups.</value>
+    </labels>
+    <labels>
+        <fullName>FlowErrors_locationGroupMissMatchErrorMessage</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Location or Group Mismatch Error Message</shortDescription>
+        <value>Product {0} has a different fulfillment location or location group than other products in the delivery group.</value>
+    </labels>
+    <labels>
+        <fullName>FlowErrors_locationGroupUnavailableErrorMessage</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No Location Groups Found Error Message</shortDescription>
+        <value>You can only run this flow in an org with at least one location group.</value>
+    </labels>
+    <labels>
+        <fullName>FlowErrors_locationGroupUnavailableErrorTitle</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No Location Groups Found Error Title</shortDescription>
+        <value>No Location Groups Found</value>
+    </labels>
+    <labels>
+        <fullName>FlowErrors_locationUnavailableErrorMessage</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No Locations Found Error Message</shortDescription>
+        <value>You can only run this flow in an org with at least one location.</value>
+    </labels>
+    <labels>
+        <fullName>FlowErrors_locationUnavailableErrorTitle</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No Locations Found Error Title</shortDescription>
+        <value>No Locations Found</value>
+    </labels>
+    <labels>
+        <fullName>FlowErrors_noDeliveryGroupsToFulfill</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No Delivery Groups To Fulfill Empty State Message</shortDescription>
+        <value>When an order has items to fulfill, you&apos;ll find them here.</value>
+    </labels>
+    <labels>
+        <fullName>FlowErrors_noDeliveryGroupsToFulfillTitle</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No Delivery Groups To Fulfill Empty State Title</shortDescription>
+        <value>Nothing to Fulfill</value>
+    </labels>
+    <labels>
+        <fullName>FlowErrors_orderDeliveryGroupEntityMessage</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OrderDeliveryGroup Not Found Error Message</shortDescription>
+        <value>We couldn&apos;t find the order delivery group. Try again. If this problem continues, ask your admin for help.</value>
+    </labels>
+    <labels>
+        <fullName>FlowErrors_orderDeliveryGroupEntityTitle</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OrderDeliveryGroup Not Found Error Title</shortDescription>
+        <value>Order Delivery Group Unavailable</value>
+    </labels>
+    <labels>
+        <fullName>FlowErrors_orderSummaryEntityMessage</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OrderSummary Not Found Error Message</shortDescription>
+        <value>We couldn&apos;t find the order summary. Try again. If this problem continues, ask your admin for help.</value>
+    </labels>
+    <labels>
+        <fullName>FlowErrors_orderSummaryEntityTitle</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OrderSummary Not Found Error Title</shortDescription>
+        <value>Order Summary Unavailable</value>
+    </labels>
+    <labels>
+        <fullName>FlowErrors_reservedAtLocationIdIsNotSetErrorDescription</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ReservedAtLocationId Not Set Error Description</shortDescription>
+        <value>Every product must have a reserved at location or location group.</value>
+    </labels>
+    <labels>
+        <fullName>FlowErrors_reservedAtLocationIdIsNotSetErrorMessage</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ReservedAtLocationId Not Set Error Message</shortDescription>
+        <value>Product {0} doesn&apos;t have a reserved at location or location group specified.</value>
+    </labels>
+    <labels>
+        <fullName>FlowErrors_unmanagedOrderErrorMessage</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Unmanaged Order Error Message</shortDescription>
+        <value>You can only run this flow on a managed order summary.</value>
+    </labels>
+    <labels>
+        <fullName>FlowErrors_unmanagedOrderErrorTitle</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Unmanaged Order Error Title</shortDescription>
+        <value>Unmanaged Order Summary</value>
+    </labels>
+    <labels>
+        <fullName>FlowErrors_unsuccessfulFulfillmentOrderCreationErrorMessage</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Fulfillment Order Creation Screen Error Message</shortDescription>
+        <value>The system encountered an error.</value>
+    </labels>
+    <labels>
+        <fullName>FlowErrors_unsuccessfulFulfillmentOrderCreationErrorTitle</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Fulfillment Order Creation Screen Error Title</shortDescription>
+        <value>No Fulfillment Orders Created</value>
+    </labels>
+    <labels>
+        <fullName>FulfillFlow_doNotIncludeShippingCharges</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Do Not Include Shipping Charges Button Label</shortDescription>
+        <value>Don&apos;t include shipping charges</value>
+    </labels>
+    <labels>
+        <fullName>FulfillFlow_includeShippingCharges</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Include Shipping Charges Button Label</shortDescription>
+        <value>Include shipping charges</value>
+    </labels>
+    <labels>
+        <fullName>FulfillFlow_selectDeliveryGroupHeader</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Select Delivery Group Title</shortDescription>
+        <value>Select Shipping Address</value>
+    </labels>
+    <labels>
+        <fullName>FulfillFlow_selectFulfillLocationHeader</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Select Fulfillment Locations Title</shortDescription>
+        <value>Select Fulfillment Locations</value>
+    </labels>
+    <labels>
+        <fullName>FulfillFlow_selectProductsHeader</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Select Products Title</shortDescription>
+        <value>Select Products to Fulfill</value>
+    </labels>
+    <labels>
+        <fullName>FulfillFlow_selectShippingChargesHeader</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Include Shipping Charges Title</shortDescription>
+        <value>Include Remaining Shipping Charges</value>
+    </labels>
+    <labels>
+        <fullName>FulfillFlow_successMessage</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Fulfillment Orders Success Title</shortDescription>
+        <value>Fulfillment Order Creation Succeeded</value>
+    </labels>
+    <labels>
+        <fullName>Invalid_Interaction_Order_Summary_Configuration</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Multiple Locations Error Description</shortDescription>
+        <value>An interaction order can&apos;t include items with different fulfillment locations.</value>
+    </labels>
+    <labels>
+        <fullName>Loyalty_Program_Name</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Loyalty Program Name</shortDescription>
+        <value>Hsu&apos;s Loyalty Program v1</value>
+    </labels>
+    <labels>
+        <fullName>No_Reservation_Location_For_Item_Error</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No Reservation Location for Item</shortDescription>
+        <value>The item does not have a ReservedAtLocation set, so no reservation has been created.</value>
+    </labels>
+    <labels>
+        <fullName>OCIConnectionFailedAttempts</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Max Connection Failures Error Description</shortDescription>
+        <value>The number of unsuccessful attempts to send transfer requests to Omnichannel Inventory has reached the limit.</value>
+    </labels>
+    <labels>
+        <fullName>OCICreateReservationError</fullName>
+        <categories>CreateReservationReshipFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Create Reservation Error Message</shortDescription>
+        <value>The Create Reservation action returned one or more errors. For more information, see the Message field.</value>
+    </labels>
+    <labels>
+        <fullName>OCIFOsCreationError</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Fulfillment Order Creation Error Description</shortDescription>
+        <value>The Create Fulfillment Order action returned an error.</value>
+    </labels>
+    <labels>
+        <fullName>OCIReleaseReservationError</fullName>
+        <categories>CancelFOItemFlow,ReleaseReservationReshipFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Release Reservation Error Message</shortDescription>
+        <value>The Release Reservation action returned one or more errors. The Description field contains the errors.</value>
+    </labels>
+    <labels>
+        <fullName>OCITransferReservationError</fullName>
+        <categories>CancelFOItemFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Transfer Reservation Error Message</shortDescription>
+        <value>The Transfer Reservation action returned one or more errors. The Description field contains the errors.</value>
+    </labels>
+    <labels>
+        <fullName>OCIUnableGetResponse</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Max Connection Failures Error Message</shortDescription>
+        <value>The Transfer Reservation action returned an error the maximum allowable number of times.</value>
+    </labels>
+    <labels>
+        <fullName>OCI_Find_Routes_With_Fewest_Splits_Output_Error</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Find Routes With Fewest Splits Output Error Message</shortDescription>
+        <value>The Find Routes with Fewest Splits action didn&apos;t return any routes.</value>
+    </labels>
+    <labels>
+        <fullName>OCI_Find_Routes_With_Fewest_Splits_Output_Error_Description</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Find Routes With Fewest Splits Error Description</shortDescription>
+        <value>The Find Routes with Fewest Splits action failed.</value>
+    </labels>
+    <labels>
+        <fullName>OCI_Get_Availability_Output_Error</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Get Availability Output Error Message</shortDescription>
+        <value>The Get Availability action didn&apos;t return any available inventory.</value>
+    </labels>
+    <labels>
+        <fullName>OCI_Get_Availability_Output_Error_Description</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Get Availability Error Description</shortDescription>
+        <value>The Get Availability action failed.</value>
+    </labels>
+    <labels>
+        <fullName>OCI_Rank_by_Average_Distance_Output_Error</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Rank by Average Distance Error Message</shortDescription>
+        <value>The Rank by Average Distance action didn&apos;t return a valid response.</value>
+    </labels>
+    <labels>
+        <fullName>OCI_Rank_by_Average_Distance_Output_Error_Description</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Rank by Average Distance Error Description</shortDescription>
+        <value>The Rank by Average Distance action failed.</value>
+    </labels>
+    <labels>
+        <fullName>Omnichannel_Get_Location_Error</fullName>
+        <categories>RoutingFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Get Location Error</shortDescription>
+        <value>We couldn&apos;t find location {0} in this org.</value>
+    </labels>
+    <labels>
+        <fullName>Omnichannel_Get_Location_Error_Description</fullName>
+        <categories>RoutingFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Get Location Error Description</shortDescription>
+        <value>Exception caused by Get Location element.</value>
+    </labels>
+    <labels>
+        <fullName>RoutingLocationFault</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Routing Location Fault</shortDescription>
+        <value>The item&apos;s location is missing or not configured to sync with Omnichannel Inventory.</value>
+    </labels>
+    <labels>
+        <fullName>SelfRegisterPortalFirstNameError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SelfRegisterPortalFirstNameError</shortDescription>
+        <value>First name is required.</value>
+    </labels>
+    <labels>
+        <fullName>SelfRegisterPortalUserError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SelfRegisterPortalUserError</shortDescription>
+        <value>An account with this information already exists. Try logging in or resetting your password.</value>
+    </labels>
+    <labels>
+        <fullName>Support_Email_List</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Support Email List</shortDescription>
+        <value>akoleti@cloudqnect.com,sclark@cloudqnect.com,Henry.Zhang@hsuginseng.com,Mike@hsuginseng.com</value>
+    </labels>
+    <labels>
+        <fullName>Unable_To_Create_Fulfillment_Order</fullName>
+        <categories>FulfillFlow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Multiple Locations Error Message</shortDescription>
+        <value>Some of the items specified for the interaction order have different fulfillment locations.</value>
+    </labels>
+    <labels>
+        <fullName>ers_CancelButton</fullName>
+        <categories>buttons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>ers_ClearFilterAction</fullName>
+        <categories>actions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Clear Filter</shortDescription>
+        <value>Clear Filter</value>
+    </labels>
+    <labels>
+        <fullName>ers_ClearFilterButton</fullName>
+        <categories>buttons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Clear All Filters</shortDescription>
+        <value>Clear All Filters</value>
+    </labels>
+    <labels>
+        <fullName>ers_ClearSelectionButton</fullName>
+        <categories>buttons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Clear Selection</shortDescription>
+        <value>Clear Selection</value>
+    </labels>
+    <labels>
+        <fullName>ers_ColumnHeader</fullName>
+        <categories>headers</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Column</shortDescription>
+        <value>Column</value>
+    </labels>
+    <labels>
+        <fullName>ers_EmptyTableMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Empty</shortDescription>
+        <value>This table currently has no data to display</value>
+    </labels>
+    <labels>
+        <fullName>ers_ErrorRequiredEntry</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Required</shortDescription>
+        <value>This is a required entry.  At least 1 row must be selected.</value>
+    </labels>
+    <labels>
+        <fullName>ers_FilterHeader</fullName>
+        <categories>headers</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Filter</shortDescription>
+        <value>Filter</value>
+    </labels>
+    <labels>
+        <fullName>ers_FirstButton</fullName>
+        <categories>buttons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>First Page</shortDescription>
+        <value>First</value>
+    </labels>
+    <labels>
+        <fullName>ers_LabelHeader</fullName>
+        <categories>headers</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label</shortDescription>
+        <value>Label</value>
+    </labels>
+    <labels>
+        <fullName>ers_LastButton</fullName>
+        <categories>buttons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Last Page</shortDescription>
+        <value>Last</value>
+    </labels>
+    <labels>
+        <fullName>ers_NextButton</fullName>
+        <categories>buttons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Next Page</shortDescription>
+        <value>Next</value>
+    </labels>
+    <labels>
+        <fullName>ers_PreviousButton</fullName>
+        <categories>buttons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Previous Page</shortDescription>
+        <value>Prev</value>
+    </labels>
+    <labels>
+        <fullName>ers_RecordsPerPage</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Records per Page input label</shortDescription>
+        <value>Records per Page</value>
+    </labels>
+    <labels>
+        <fullName>ers_SaveButton</fullName>
+        <categories>buttons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Save</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>ers_SearchPlaceholder</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search Term</shortDescription>
+        <value>Enter search term ...</value>
+    </labels>
+    <labels>
+        <fullName>ers_SetFilterAction</fullName>
+        <categories>actions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Set Filter</shortDescription>
+        <value>Set Filter</value>
+    </labels>
+    <labels>
+        <fullName>ers_ShowingPageMiddle</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Showing Page x of y Pages input label middle</shortDescription>
+        <value>of</value>
+    </labels>
+    <labels>
+        <fullName>ers_ShowingPagePrefix</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Showing Page x of y Pages input label prefix</shortDescription>
+        <value>Showing Page</value>
+    </labels>
+    <labels>
+        <fullName>ers_ShowingPageSuffix</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Showing Page x of y Pages input label suffix</shortDescription>
+        <value>Pages</value>
+    </labels>
+    <labels>
+        <fullName>ers_filterBlankHelpText</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Help Text for Filter Blank Checkbox</shortDescription>
+        <value>Check here if you want to filter rows where the value in this column is blank</value>
+    </labels>
+    <labels>
+        <fullName>ers_filterBlankLabel</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label for Filter Blank Checkbox</shortDescription>
+        <value>Filter Blank Values?</value>
+    </labels>
+    <labels>
+        <fullName>fsc_AccessLevel</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AccessLevel</shortDescription>
+        <value>Access Level</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Back</fullName>
+        <categories>Buttons,Filters,Title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Back</shortDescription>
+        <value>Back</value>
+    </labels>
+    <labels>
+        <fullName>fsc_ButtonIsNotSupportedMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ButtonIsNotSupportedMessage</shortDescription>
+        <value>Following buttons are note supported:</value>
+    </labels>
+    <labels>
+        <fullName>fsc_ConditionLogicHelpText</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ConditionLogicHelpText</shortDescription>
+        <value>Use parentheses, AND, OR, and NOT to customize the logic. For example, if you enter “(1 AND 2 AND 3) OR 4”, the flow evaluates whether the first three conditions are true or only the fourth condition is true.</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Delete</fullName>
+        <categories>labels, buttons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Delete</shortDescription>
+        <value>Delete</value>
+    </labels>
+    <labels>
+        <fullName>fsc_FieldIsNotSupportedMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FieldIsNotSupportedMessage</shortDescription>
+        <value>Following fields are not supported:</value>
+    </labels>
+    <labels>
+        <fullName>fsc_FieldTypeNotSuportedMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>fsc_FieldTypeNotSuportedMessage</shortDescription>
+        <value>You provided an unsupported value for the DataTypeFilter input on Object and Field Picker. Currently the only supported value is ’picklist’</value>
+    </labels>
+    <labels>
+        <fullName>fsc_For</fullName>
+        <categories>Buttons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>For</shortDescription>
+        <value>For</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Key_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Key Label</shortDescription>
+        <value>Key</value>
+    </labels>
+    <labels>
+        <fullName>fsc_LackingPermissions</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LackingPermissions</shortDescription>
+        <value>You don\&apos;t have the proper permissions for ths action</value>
+    </labels>
+    <labels>
+        <fullName>fsc_ManagerEmptyMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ManagerEmptyMessage</shortDescription>
+        <value>&quot;Manager APEX Class&quot; can not be empty</value>
+    </labels>
+    <labels>
+        <fullName>fsc_MultipleGroupsForRole</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MultipleGroupsForRole</shortDescription>
+        <value>There are multiple groups for that role</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Name</fullName>
+        <categories>quicklinks, Labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Name</shortDescription>
+        <value>Name</value>
+    </labels>
+    <labels>
+        <fullName>fsc_NonePicklistValueLabel</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NonePicklistValueLabel</shortDescription>
+        <value>-- None --</value>
+    </labels>
+    <labels>
+        <fullName>fsc_OWDReadWrite</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OWDReadWrite</shortDescription>
+        <value>Sharing Settings must be private or public read/write to enable manual sharing</value>
+    </labels>
+    <labels>
+        <fullName>fsc_OwnerAdminModify</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OwnerAdminModify</shortDescription>
+        <value>Only the record owner or administrators can modify permissions</value>
+    </labels>
+    <labels>
+        <fullName>fsc_PublicGroups</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PublicGroups</shortDescription>
+        <value>Public Groups</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Queues</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Queues</shortDescription>
+        <value>Queues</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Read</fullName>
+        <categories>labels, buttons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Read</shortDescription>
+        <value>Read</value>
+    </labels>
+    <labels>
+        <fullName>fsc_ReadWrite</fullName>
+        <categories>labels, buttons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ReadWrite</shortDescription>
+        <value>Read / Write</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Reason</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reason</shortDescription>
+        <value>Reason</value>
+    </labels>
+    <labels>
+        <fullName>fsc_RelatedUsers</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RelatedUsers</shortDescription>
+        <value>Related Users</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Roles</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Roles</shortDescription>
+        <value>Roles</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Search</fullName>
+        <categories>Actions,Buttons,quicklinks</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search in</shortDescription>
+        <value>Search in</value>
+    </labels>
+    <labels>
+        <fullName>fsc_SearchFor</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SearchFor</shortDescription>
+        <value>For</value>
+    </labels>
+    <labels>
+        <fullName>fsc_SetAccessLevel</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SetAccessLevel</shortDescription>
+        <value>Set Access Level</value>
+    </labels>
+    <labels>
+        <fullName>fsc_SupportedAddCapabilitiesEmptyMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SupportedAddCapabilitiesEmptyMessage</shortDescription>
+        <value>&quot;Add Capabilities&quot; can not be empty</value>
+    </labels>
+    <labels>
+        <fullName>fsc_SupportedButtonsEmptyMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SupportedButtonsEmptyMessage</shortDescription>
+        <value>&quot;Supported Buttons&quot; can not be empty</value>
+    </labels>
+    <labels>
+        <fullName>fsc_SupportedEditCapabilitiesEmptyMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SupportedEditCapabilitiesEmptyMessage</shortDescription>
+        <value>&quot;Edit Capabilities&quot; can not be empty</value>
+    </labels>
+    <labels>
+        <fullName>fsc_TooManyResultsMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TooManyResultsMessage</shortDescription>
+        <value>Your search found more than 200 results.  Keep typing to make it more specific</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Type</fullName>
+        <categories>Buttons,Filters,Title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Type</shortDescription>
+        <value>Type</value>
+    </labels>
+    <labels>
+        <fullName>fsc_UserOrGroup</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>UserOrGroup</shortDescription>
+        <value>User Or Group</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Users</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Users</shortDescription>
+        <value>Users</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Value_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Value Label</shortDescription>
+        <value>Value</value>
+    </labels>
+</CustomLabels>

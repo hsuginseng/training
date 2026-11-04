@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Seller</fullName>
+        <default>false</default>
+        <label>Seller</label>
+    </customValue>
+    <customValue>
+        <fullName>Buyer</fullName>
+        <default>false</default>
+        <label>Buyer</label>
+    </customValue>
+    <customValue>
+        <fullName>ThirdPartyForSeller</fullName>
+        <default>false</default>
+        <label>Third Party For Seller</label>
+    </customValue>
+    <customValue>
+        <fullName>ThirdPartyForBuyer</fullName>
+        <default>false</default>
+        <label>Third Party For Buyer</label>
+    </customValue>
+    <customValue>
+        <fullName>None</fullName>
+        <default>false</default>
+        <label>No Transport</label>
+    </customValue>
+    <description>Transport Values for AvaTax Transactions</description>
+    <masterLabel>Avalara Transport</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

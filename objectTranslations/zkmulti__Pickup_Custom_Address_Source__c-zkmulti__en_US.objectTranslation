@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Pickup Custom Address Source</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Pickup Custom Address Sources</value>
+    </caseValues>
+    <fields>
+        <label><!-- Auto Create Pickup --></label>
+        <name>zkmulti__Auto_Create_Pickup__c</name>
+    </fields>
+    <fields>
+        <label><!-- Building Type Description Field --></label>
+        <name>zkmulti__Building_Type_Description_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Building Type Field --></label>
+        <name>zkmulti__Building_Type_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier Code Field --></label>
+        <name>zkmulti__Carrier_Code_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- City Field --></label>
+        <name>zkmulti__City_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Close Time Field --></label>
+        <name>zkmulti__Close_Time_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Name Field --></label>
+        <name>zkmulti__Company_Name_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Email Field --></label>
+        <name>zkmulti__Contact_Email_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Name Field --></label>
+        <name>zkmulti__Contact_Name_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Phone Field --></label>
+        <name>zkmulti__Contact_Phone_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country Field --></label>
+        <name>zkmulti__Country_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Courier Remarks Field --></label>
+        <name>zkmulti__Courier_Remarks_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Currency Field --></label>
+        <name>zkmulti__Currency_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom Address Source Object --></label>
+        <name>zkmulti__Custom_Address_Source_Object__c</name>
+    </fields>
+    <fields>
+        <label><!-- Error Message Field --></label>
+        <name>zkmulti__Error_Message_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Residential Field --></label>
+        <name>zkmulti__Is_Residential_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mod Key --></label>
+        <name>zkmulti__Mod_Key__c</name>
+    </fields>
+    <fields>
+        <label><!-- Origin Custom Address Source Id Field --></label>
+        <name>zkmulti__Origin_Custom_Address_Source_Id_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Package Count Field --></label>
+        <name>zkmulti__Package_Count_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Package Location Field --></label>
+        <name>zkmulti__Package_Location_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Package Type Field --></label>
+        <name>zkmulti__Package_Type_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pickup Object Lookup Field --></label>
+        <name>zkmulti__Pickup_Object_Lookup_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pickup Service Category Field --></label>
+        <name>zkmulti__Pickup_Service_Category_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Preference Name Field --></label>
+        <name>zkmulti__Preference_Name_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ready Time Field --></label>
+        <name>zkmulti__Ready_Time_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recipient Country Field --></label>
+        <name>zkmulti__Recipient_Country_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference Number Field --></label>
+        <name>zkmulti__Reference_Number_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Type Field --></label>
+        <name>zkmulti__Service_Type_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipment Object Lookup Field --></label>
+        <name>zkmulti__Shipment_Object_Lookup_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipment Selection Condition Field --></label>
+        <name>zkmulti__Shipment_Selection_Condition_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- State Field --></label>
+        <name>zkmulti__State_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Street 1 Text Line Field --></label>
+        <name>zkmulti__Street_1_Text_Line_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Street 2 Text Line Field --></label>
+        <name>zkmulti__Street_2_Text_Line_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Street Field --></label>
+        <name>zkmulti__Street_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- UTC Time Field --></label>
+        <name>zkmulti__UTC_Time_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Weight Field --></label>
+        <name>zkmulti__Weight_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Weight Units Field --></label>
+        <name>zkmulti__Weight_Units_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zip/Postal Code Field --></label>
+        <name>zkmulti__Zip_Postal_Code_Field__c</name>
+    </fields>
+    <layouts>
+        <layout>Pickup Custom Address Source Layout</layout>
+        <sections>
+            <label><!-- Automation settings --></label>
+            <section>Automation settings</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Address Source --></label>
+            <section>Custom Address Source</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Error Handler --></label>
+            <section>Error Handler</section>
+        </sections>
+        <sections>
+            <label><!-- Pickup Date/Time --></label>
+            <section>Pickup Date/Time</section>
+        </sections>
+        <sections>
+            <label><!-- Pickup Information &amp; Location --></label>
+            <section>Pickup Information &amp; Location</section>
+        </sections>
+        <sections>
+            <label><!-- Reference Number --></label>
+            <section>Reference Number</section>
+        </sections>
+        <sections>
+            <label><!-- Shipments --></label>
+            <section>Shipments</section>
+        </sections>
+        <sections>
+            <label><!-- Special Information --></label>
+            <section>Special Information</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

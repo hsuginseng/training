@@ -1,0 +1,24 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Quote Summary Details",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "attributes" : {
+          "dxpStyle" : {
+            "isVisible" : false
+          }
+        },
+        "id" : "3dee4cea-e33e-44ad-b62d-1ad07539464c"
+      }, {
+        "attributes" : {
+          "dxpStyle" : {
+            "isVisible" : false
+          }
+        },
+        "id" : "6d808e76-db54-4bc3-8f3c-925804bd54ba"
+      } ]
+    }
+  },
+  "urlName" : "quote-summary-details"
+}

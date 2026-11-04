@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MktCalcInsightObjectDef xmlns="http://soap.sforce.com/2006/04/metadata">
+    <creationType>Custom</creationType>
+    <description>Calculate the return rate of a product</description>
+    <expression>SELECT ssot__SalesOrderProduct__dlm.ssot__ProductId__c as sfcomm__product__c, SUM(ssot__SalesOrderProduct__dlm.ssot__ProductReturnQuantity__c)/SUM(ssot__SalesOrderProduct__dlm.ssot__AvailableQuantity__c) as sfcomm__return_rate__c From ssot__SalesOrderProduct__dlm where ssot__SalesOrderProduct__dlm.ssot__SalesOrderProductSubType__c = &apos;Product&apos; GROUP BY ssot__SalesOrderProduct__dlm.ssot__ProductId__c</expression>
+    <masterLabel>return_rate_by_product</masterLabel>
+</MktCalcInsightObjectDef>

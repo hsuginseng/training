@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>OCI Interaction Fulfill Order Item</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>OCI Interaction Fulfill Order Items</value>
+    </caseValues>
+    <fields>
+        <label><!-- From Location Group --></label>
+        <name>FromLocationGroup__c</name>
+        <relationshipLabel><!-- OCII FO From Location Groups --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- From Location --></label>
+        <name>FromLocation__c</name>
+        <relationshipLabel><!-- OCI Interaction Fulfill Order Items (From Location) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Fulfillment Order Product --></label>
+        <name>FulfillmentOrderItem__c</name>
+        <relationshipLabel><!-- OCI Interaction Fulfill Order Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Is Tranfer Move Or Transfer Cancel --></label>
+        <name>IsTranferMoveOrTransferCancel__c</name>
+    </fields>
+    <fields>
+        <label><!-- OCI Interaction Fulfill Order --></label>
+        <name>OCIInteractionFulfillOrder__c</name>
+        <relationshipLabel><!-- OCI Interaction Fulfill Order Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>ABANDONED</masterLabel>
+            <translation><!-- ABANDONED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COMPLETED_FAIL</masterLabel>
+            <translation><!-- COMPLETED_FAIL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COMPLETED_SUCCEED</masterLabel>
+            <translation><!-- COMPLETED_SUCCEED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>REQUESTED</masterLabel>
+            <translation><!-- REQUESTED --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- To Location Group --></label>
+        <name>ToLocationGroup__c</name>
+        <relationshipLabel><!-- OCI Interaction Fulfill Order Items (To Location Group) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- To Location --></label>
+        <name>ToLocation__c</name>
+        <relationshipLabel><!-- OCI Interaction Fulfill Order Items (To Location) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>FULFILLMENT</masterLabel>
+            <translation><!-- FULFILLMENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRANSFER_CANCEL</masterLabel>
+            <translation><!-- TRANSFER_CANCEL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRANSFER_MOVE</masterLabel>
+            <translation><!-- TRANSFER_MOVE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRANSFER_RELEASE</masterLabel>
+            <translation><!-- TRANSFER_RELEASE --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Status must match parent --></errorMessage>
+        <name>MatchParentStatus</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Type must match parent --></errorMessage>
+        <name>MatchParentType</name>
+    </validationRules>
+</CustomObjectTranslation>

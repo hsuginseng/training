@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Return</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Returns</value>
+    </caseValues>
+    <fields>
+        <label><!-- External Customer ID --></label>
+        <name>zkmulti__External_Customer_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Order ID --></label>
+        <name>zkmulti__External_Order_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Return ID --></label>
+        <name>zkmulti__External_Return_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Return From City --></label>
+        <name>zkmulti__Return_From_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Return From Company --></label>
+        <name>zkmulti__Return_From_Company__c</name>
+    </fields>
+    <fields>
+        <label><!-- Return From Country --></label>
+        <name>zkmulti__Return_From_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Return From Email --></label>
+        <name>zkmulti__Return_From_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Return From Name --></label>
+        <name>zkmulti__Return_From_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Return From Phone Number --></label>
+        <name>zkmulti__Return_From_Phone_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Return From Postal Code --></label>
+        <name>zkmulti__Return_From_Postal_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Return From State --></label>
+        <name>zkmulti__Return_From_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Return From Street 1 --></label>
+        <name>zkmulti__Return_From_Street_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Return From Street 2 --></label>
+        <name>zkmulti__Return_From_Street_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Return From Street 3 --></label>
+        <name>zkmulti__Return_From_Street_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Return Number --></label>
+        <name>zkmulti__Return_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Return Shipping Option --></label>
+        <name>zkmulti__Return_Shipping_Option__c</name>
+    </fields>
+    <fields>
+        <label><!-- Return To City --></label>
+        <name>zkmulti__Return_To_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Return To Company --></label>
+        <name>zkmulti__Return_To_Company__c</name>
+    </fields>
+    <fields>
+        <label><!-- Return To Country --></label>
+        <name>zkmulti__Return_To_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Return To Email --></label>
+        <name>zkmulti__Return_To_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Return To Name --></label>
+        <name>zkmulti__Return_To_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Return To Phone Number --></label>
+        <name>zkmulti__Return_To_Phone_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Return To Postal Code --></label>
+        <name>zkmulti__Return_To_Postal_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Return To State --></label>
+        <name>zkmulti__Return_To_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Return To Street 1 --></label>
+        <name>zkmulti__Return_To_Street_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Return To Street 2 --></label>
+        <name>zkmulti__Return_To_Street_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Return To Street 3 --></label>
+        <name>zkmulti__Return_To_Street_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipmate Preference --></label>
+        <name>zkmulti__Shipmate_Preference__c</name>
+        <relationshipLabel><!-- Returns --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>zkmulti__Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partially Approved</masterLabel>
+            <translation><!-- Partially Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Queued Shipment Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Return From --></label>
+            <section>Return From</section>
+        </sections>
+        <sections>
+            <label><!-- Return To --></label>
+            <section>Return To</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

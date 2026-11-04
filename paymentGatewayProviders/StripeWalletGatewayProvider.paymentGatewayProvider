@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PaymentGatewayProvider xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apexAdapter>StripePaymentGatewayAdapter</apexAdapter>
+    <comments>Stripe Wallet Payment Gateway Adapter</comments>
+    <idempotencySupported>Yes</idempotencySupported>
+    <masterLabel>Stripe Wallet Gateway Provider</masterLabel>
+</PaymentGatewayProvider>

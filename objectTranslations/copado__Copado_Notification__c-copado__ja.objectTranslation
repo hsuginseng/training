@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>コパード通知</value>
+    </caseValues>
+    <fields>
+        <label>添付ID</label>
+        <name>copado__AttachmentId__c</name>
+    </fields>
+    <fields>
+        <label>マッチングキー</label>
+        <name>copado__Matching_Key__c</name>
+    </fields>
+    <fields>
+        <label>メッセージ</label>
+        <name>copado__Message__c</name>
+    </fields>
+    <fields>
+        <label>Parent2ID</label>
+        <name>copado__Parent2Id__c</name>
+    </fields>
+    <fields>
+        <label>親ID</label>
+        <name>copado__ParentId__c</name>
+    </fields>
+    <fields>
+        <label>タイプ</label>
+        <name>copado__Type__c</name>
+    </fields>
+    <fields>
+        <label>終了</label>
+        <name>copado__isFinished__c</name>
+    </fields>
+    <fields>
+        <label>成功</label>
+        <name>copado__isSuccess__c</name>
+    </fields>
+    <fields>
+        <label>ステータス</label>
+        <name>copado__status__c</name>
+    </fields>
+    <layouts>
+        <layout>Copado Notification Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>コパード通知名</nameFieldLabel>
+</CustomObjectTranslation>

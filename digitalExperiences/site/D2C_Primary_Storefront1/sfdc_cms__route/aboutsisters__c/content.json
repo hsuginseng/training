@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "About-Sisters",
+  "contentBody" : {
+    "activeViewId" : "About_Sisters",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-about-sisters",
+    "urlPrefix" : "about-sisters"
+  },
+  "urlName" : "about-sisters"
+}

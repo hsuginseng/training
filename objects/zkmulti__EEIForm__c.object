@@ -1,0 +1,1264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>EEI Form is a collection of data defined for generating a Electronic Export Information</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>zkmulti__ACMNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Approved Community Member Number (ACM)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Approved Community Member Number (ACM)</inlineHelpText>
+        <label>ACM Number</label>
+        <length>11</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>zkmulti__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>zkmulti__ECCNNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Product ECCN Number issued by BIS (Bureau of Industry and Security). The format is #A### or EAR99</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Product ECCN Number issued by BIS (Bureau of Industry and Security). The format is #A### or EAR99</inlineHelpText>
+        <label>ECCN Number</label>
+        <length>5</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>zkmulti__EEIEmailAddress__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Email Address where the notification is sent</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Email Address where the notification is sent</inlineHelpText>
+        <label>EEI Email Address</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>zkmulti__EEIFillingType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>EEI Filling Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Shipper filed</fullName>
+                    <default>false</default>
+                    <label>Shipper filed</label>
+                </value>
+                <value>
+                    <fullName>UPS filed</fullName>
+                    <default>false</default>
+                    <label>UPS filed</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>zkmulti__EEIShipper__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicates the EEI Shipper sub option</description>
+        <inlineHelpText>Indicates the EEI Shipper sub option</inlineHelpText>
+        <label>EEI Shipper</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>zkmulti__EEIFillingType__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Requires the ITN</fullName>
+                    <default>false</default>
+                    <label>Requires the ITN</label>
+                </value>
+                <value>
+                    <fullName>Requires the Exemption Legend</fullName>
+                    <default>false</default>
+                    <label>Requires the Exemption Legend</label>
+                </value>
+                <value>
+                    <fullName>Requires the post departure filing citation</fullName>
+                    <default>false</default>
+                    <label>Requires the post departure filing citation</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Shipper filed</controllingFieldValue>
+                <valueName>Requires the ITN</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Shipper filed</controllingFieldValue>
+                <valueName>Requires the Exemption Legend</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Shipper filed</controllingFieldValue>
+                <valueName>Requires the post departure filing citation</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>zkmulti__EEIUPSFiledPOA__c</fullName>
+        <deprecated>false</deprecated>
+        <label>EEI UPS Filed POA</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>One Time POA</fullName>
+                    <default>false</default>
+                    <label>One Time POA</label>
+                </value>
+                <value>
+                    <fullName>Blanket POA</fullName>
+                    <default>false</default>
+                    <label>Blanket POA</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>zkmulti__EligibleParty__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Presence/Absent indicator. Certification by the U.S. exporter that the exporter is an eligible party to participate in the defense trade</description>
+        <inlineHelpText>Presence/Absent indicator. Certification by the U.S. exporter that the exporter is an eligible party to participate in the defense trade</inlineHelpText>
+        <label>Eligible Party</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>zkmulti__EntryNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Import Entry Number when the export transaction is used as proof of export for import transactions (examples: In Bond, Temporary Import Bond or Drawbacks)
+
+Conditionally Required for SED forms when In Bond Code value is other than 70 (&quot;Not In Bond&quot;)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Import Entry Number when the export transaction is used as proof of export for import transactions (examples: In Bond, Temporary Import Bond or Drawbacks)
+
+Conditionally Required for SED forms when In Bond Code value is other than 70 (&quot;Not In Bond&quot;)</inlineHelpText>
+        <label>Entry Number</label>
+        <length>25</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>zkmulti__ExemptionLegend__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Exemption Legend</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>zkmulti__EEIFillingType__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>30.2(d)(2)</fullName>
+                    <default>false</default>
+                    <label>30.2(d)(2)</label>
+                </value>
+                <value>
+                    <fullName>30.26(a)</fullName>
+                    <default>false</default>
+                    <label>30.26(a)</label>
+                </value>
+                <value>
+                    <fullName>30.36</fullName>
+                    <default>false</default>
+                    <label>30.36</label>
+                </value>
+                <value>
+                    <fullName>30.37(a)</fullName>
+                    <default>false</default>
+                    <label>30.37(a)</label>
+                </value>
+                <value>
+                    <fullName>30.37(b)</fullName>
+                    <default>false</default>
+                    <label>30.37(b)</label>
+                </value>
+                <value>
+                    <fullName>30.37(c)</fullName>
+                    <default>false</default>
+                    <label>30.37(c)</label>
+                </value>
+                <value>
+                    <fullName>30.37(d)</fullName>
+                    <default>false</default>
+                    <label>30.37(d)</label>
+                </value>
+                <value>
+                    <fullName>30.37(f)</fullName>
+                    <default>false</default>
+                    <label>30.37(f)</label>
+                </value>
+                <value>
+                    <fullName>30.37(h)</fullName>
+                    <default>false</default>
+                    <label>30.37(h)</label>
+                </value>
+                <value>
+                    <fullName>30.37(i)</fullName>
+                    <default>false</default>
+                    <label>30.37(i)</label>
+                </value>
+                <value>
+                    <fullName>30.37(j)</fullName>
+                    <default>false</default>
+                    <label>30.37(j)</label>
+                </value>
+                <value>
+                    <fullName>30.37(k)</fullName>
+                    <default>false</default>
+                    <label>30.37(k)</label>
+                </value>
+                <value>
+                    <fullName>30.37(l)</fullName>
+                    <default>false</default>
+                    <label>30.37(l)</label>
+                </value>
+                <value>
+                    <fullName>30.37(m)</fullName>
+                    <default>false</default>
+                    <label>30.37(m)</label>
+                </value>
+                <value>
+                    <fullName>30.37(n)</fullName>
+                    <default>false</default>
+                    <label>30.37(n)</label>
+                </value>
+                <value>
+                    <fullName>30.37(o)</fullName>
+                    <default>false</default>
+                    <label>30.37(o)</label>
+                </value>
+                <value>
+                    <fullName>30.37(p)</fullName>
+                    <default>false</default>
+                    <label>30.37(p)</label>
+                </value>
+                <value>
+                    <fullName>30.37(q)</fullName>
+                    <default>false</default>
+                    <label>30.37(q)</label>
+                </value>
+                <value>
+                    <fullName>30.37(r)</fullName>
+                    <default>false</default>
+                    <label>30.37(r)</label>
+                </value>
+                <value>
+                    <fullName>30.37(s)</fullName>
+                    <default>false</default>
+                    <label>30.37(s)</label>
+                </value>
+                <value>
+                    <fullName>30.37(t)</fullName>
+                    <default>false</default>
+                    <label>30.37(t)</label>
+                </value>
+                <value>
+                    <fullName>30.37(u)</fullName>
+                    <default>false</default>
+                    <label>30.37(u)</label>
+                </value>
+                <value>
+                    <fullName>30.37(x)</fullName>
+                    <default>false</default>
+                    <label>30.37(x)</label>
+                </value>
+                <value>
+                    <fullName>30.37(y)(1)</fullName>
+                    <default>false</default>
+                    <label>30.37(y)(1)</label>
+                </value>
+                <value>
+                    <fullName>30.37(y)(2)</fullName>
+                    <default>false</default>
+                    <label>30.37(y)(2)</label>
+                </value>
+                <value>
+                    <fullName>30.37(y)(3)</fullName>
+                    <default>false</default>
+                    <label>30.37(y)(3)</label>
+                </value>
+                <value>
+                    <fullName>30.37(y)(4)</fullName>
+                    <default>false</default>
+                    <label>30.37(y)(4)</label>
+                </value>
+                <value>
+                    <fullName>30.37(y)(5)</fullName>
+                    <default>false</default>
+                    <label>30.37(y)(5)</label>
+                </value>
+                <value>
+                    <fullName>30.37(y)(6)</fullName>
+                    <default>false</default>
+                    <label>30.37(y)(6)</label>
+                </value>
+                <value>
+                    <fullName>30.39</fullName>
+                    <default>false</default>
+                    <label>30.39</label>
+                </value>
+                <value>
+                    <fullName>30.40(a)</fullName>
+                    <default>false</default>
+                    <label>30.40(a)</label>
+                </value>
+                <value>
+                    <fullName>30.40(b)</fullName>
+                    <default>false</default>
+                    <label>30.40(b)</label>
+                </value>
+                <value>
+                    <fullName>30.40(c)</fullName>
+                    <default>false</default>
+                    <label>30.40(c)</label>
+                </value>
+                <value>
+                    <fullName>30.40(d)</fullName>
+                    <default>false</default>
+                    <label>30.40(d)</label>
+                </value>
+                <value>
+                    <fullName>30.8(b)</fullName>
+                    <default>false</default>
+                    <label>30.8(b)</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Shipper filed</controllingFieldValue>
+                <valueName>30.2(d)(2)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Shipper filed</controllingFieldValue>
+                <valueName>30.26(a)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Shipper filed</controllingFieldValue>
+                <valueName>30.36</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Shipper filed</controllingFieldValue>
+                <valueName>30.37(a)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Shipper filed</controllingFieldValue>
+                <valueName>30.37(b)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Shipper filed</controllingFieldValue>
+                <valueName>30.37(c)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Shipper filed</controllingFieldValue>
+                <valueName>30.37(d)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Shipper filed</controllingFieldValue>
+                <valueName>30.37(f)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Shipper filed</controllingFieldValue>
+                <valueName>30.37(h)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Shipper filed</controllingFieldValue>
+                <valueName>30.37(i)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Shipper filed</controllingFieldValue>
+                <valueName>30.37(j)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Shipper filed</controllingFieldValue>
+                <valueName>30.37(k)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Shipper filed</controllingFieldValue>
+                <valueName>30.37(l)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Shipper filed</controllingFieldValue>
+                <valueName>30.37(m)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Shipper filed</controllingFieldValue>
+                <valueName>30.37(n)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Shipper filed</controllingFieldValue>
+                <valueName>30.37(o)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Shipper filed</controllingFieldValue>
+                <valueName>30.37(p)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Shipper filed</controllingFieldValue>
+                <valueName>30.37(q)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Shipper filed</controllingFieldValue>
+                <valueName>30.37(r)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Shipper filed</controllingFieldValue>
+                <valueName>30.37(s)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Shipper filed</controllingFieldValue>
+                <valueName>30.37(t)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Shipper filed</controllingFieldValue>
+                <valueName>30.37(u)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Shipper filed</controllingFieldValue>
+                <valueName>30.37(x)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Shipper filed</controllingFieldValue>
+                <valueName>30.37(y)(1)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Shipper filed</controllingFieldValue>
+                <valueName>30.37(y)(2)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Shipper filed</controllingFieldValue>
+                <valueName>30.37(y)(3)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Shipper filed</controllingFieldValue>
+                <valueName>30.37(y)(4)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Shipper filed</controllingFieldValue>
+                <valueName>30.37(y)(5)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Shipper filed</controllingFieldValue>
+                <valueName>30.37(y)(6)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Shipper filed</controllingFieldValue>
+                <valueName>30.39</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Shipper filed</controllingFieldValue>
+                <valueName>30.40(a)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Shipper filed</controllingFieldValue>
+                <valueName>30.40(b)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Shipper filed</controllingFieldValue>
+                <valueName>30.40(c)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Shipper filed</controllingFieldValue>
+                <valueName>30.40(d)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Shipper filed</controllingFieldValue>
+                <valueName>30.8(b)</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>zkmulti__ExportInformation__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Required for EEI form id it is a SDL product. Valid values: LC, LV, SS,MS, GS, DP, HR, UG, IC, SC, DD, HH, SR, TE,TL, IS, CR, GP, RJ, TP, IP, IR, DB, CH, RS, OS</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Required for EEI form id it is a SDL product. Valid values: LC, LV, SS,MS, GS, DP, HR, UG, IC, SC, DD, HH, SR, TE,TL, IS, CR, GP, RJ, TP, IP, IR, DB, CH, RS, OS</inlineHelpText>
+        <label>Export Information</label>
+        <length>2</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>zkmulti__ForwardingAgentCity__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Forwarding Agent City</label>
+        <length>30</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>zkmulti__ForwardingAgentCompanyName__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Forwarding Agent Company Name</label>
+        <length>35</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>zkmulti__ForwardingAgentCountryCode__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Forwarding Agent Country Code</label>
+        <length>2</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>zkmulti__ForwardingAgentEinIrsNo__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Forwarding Agent&apos;s EIN (IRS) NO</label>
+        <length>15</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>zkmulti__ForwardingAgentPostalCode__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Forwarding Agent Postal Code</label>
+        <length>9</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>zkmulti__ForwardingAgentStateProvince__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Forwarding Agent State/Province</label>
+        <length>5</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>zkmulti__ForwardingAgentStreet__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Forwarding Agent Street</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>zkmulti__ITARExemptionNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>ITAR Exemption Number</label>
+        <length>10</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>zkmulti__InBondCode__c</fullName>
+        <deprecated>false</deprecated>
+        <description>70: Not in bond
+36: Warehouse withdrawal for IE
+37: Warehouse withdrawal for T and E
+62: T and E
+63: IE
+67: IE from a FTZ
+68: T and E from a FTZ</description>
+        <inlineHelpText>70: Not in bond
+36: Warehouse withdrawal for IE
+37: Warehouse withdrawal for T and E
+62: T and E
+63: IE
+67: IE from a FTZ
+68: T and E from a FTZ</inlineHelpText>
+        <label>In Bond Code</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>70</fullName>
+                    <default>false</default>
+                    <label>70</label>
+                </value>
+                <value>
+                    <fullName>36</fullName>
+                    <default>false</default>
+                    <label>36</label>
+                </value>
+                <value>
+                    <fullName>37</fullName>
+                    <default>false</default>
+                    <label>37</label>
+                </value>
+                <value>
+                    <fullName>62</fullName>
+                    <default>false</default>
+                    <label>62</label>
+                </value>
+                <value>
+                    <fullName>63</fullName>
+                    <default>false</default>
+                    <label>63</label>
+                </value>
+                <value>
+                    <fullName>67</fullName>
+                    <default>false</default>
+                    <label>67</label>
+                </value>
+                <value>
+                    <fullName>68</fullName>
+                    <default>false</default>
+                    <label>68</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>zkmulti__LicenseCode__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The standard license code published by US government (from C30 to C60)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The standard license code published by US government (from C30 to C60)</inlineHelpText>
+        <label>License Code</label>
+        <length>3</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>zkmulti__LicenseDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>License Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>zkmulti__LicenseLineValue__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The export monetary amount allowed per license. Required for a licensable product when the EEI form is selected</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The export monetary amount allowed per license. Required for a licensable product when the EEI form is selected</inlineHelpText>
+        <label>License Line Value</label>
+        <length>10</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>zkmulti__LicenseNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>License Number</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>zkmulti__LoadingPier__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Loading Pier</label>
+        <length>35</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>zkmulti__ModeOfTransport__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Mode of Transport</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Air</fullName>
+                    <default>false</default>
+                    <label>Air</label>
+                </value>
+                <value>
+                    <fullName>Air Containerized</fullName>
+                    <default>false</default>
+                    <label>Air Containerized</label>
+                </value>
+                <value>
+                    <fullName>Auto</fullName>
+                    <default>false</default>
+                    <label>Auto</label>
+                </value>
+                <value>
+                    <fullName>Fixed Transport Installations</fullName>
+                    <default>false</default>
+                    <label>Fixed Transport Installations</label>
+                </value>
+                <value>
+                    <fullName>Mail</fullName>
+                    <default>false</default>
+                    <label>Mail</label>
+                </value>
+                <value>
+                    <fullName>Passenger Handcarried</fullName>
+                    <default>false</default>
+                    <label>Passenger Handcarried</label>
+                </value>
+                <value>
+                    <fullName>Pedestrian</fullName>
+                    <default>false</default>
+                    <label>Pedestrian</label>
+                </value>
+                <value>
+                    <fullName>Rail</fullName>
+                    <default>false</default>
+                    <label>Rail</label>
+                </value>
+                <value>
+                    <fullName>Rail Containerized</fullName>
+                    <default>false</default>
+                    <label>Rail Containerized</label>
+                </value>
+                <value>
+                    <fullName>Road Other</fullName>
+                    <default>false</default>
+                    <label>Road Other</label>
+                </value>
+                <value>
+                    <fullName>Sea Barge</fullName>
+                    <default>false</default>
+                    <label>Sea Barge</label>
+                </value>
+                <value>
+                    <fullName>Sea Containerized</fullName>
+                    <default>false</default>
+                    <label>Sea Containerized</label>
+                </value>
+                <value>
+                    <fullName>Sea Non-containerized</fullName>
+                    <default>false</default>
+                    <label>Sea Non-containerized</label>
+                </value>
+                <value>
+                    <fullName>Truck</fullName>
+                    <default>false</default>
+                    <label>Truck</label>
+                </value>
+                <value>
+                    <fullName>Truck Containerized</fullName>
+                    <default>false</default>
+                    <label>Truck Containerized</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>zkmulti__PointOfOrigin__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Contains either the two-digit U.S. Postal Service abbreviation for the state from which the goods were shipped (user PR for Puerto Rico), or the Foreign Trade Zone number of the zone from where the exports are leaving.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Contains either the two-digit U.S. Postal Service abbreviation for the state from which the goods were shipped (user PR for Puerto Rico), or the Foreign Trade Zone number of the zone from where the exports are leaving.</inlineHelpText>
+        <label>Point of Origin</label>
+        <length>5</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>zkmulti__PortOfExport__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Port of Export</label>
+        <length>35</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>zkmulti__PortOfUnloading__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Port of Unloading</label>
+        <length>35</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>zkmulti__PreDepartureITNNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The format is available from AESDirect website</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The format is available from AESDirect website</inlineHelpText>
+        <label>Pre Departure ITN Number</label>
+        <length>17</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>zkmulti__RegistrationNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <description>It is a unique registration code assigned to the registrant. The DDTC registration code consist of a letter prefix, M (assigned to a manufacturer and/or exporter) or K (assigned to a broker), followed by four or five digits (e.g. K-1234 or M12345)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>It is a unique registration code assigned to the registrant. The DDTC registration code consist of a letter prefix, M (assigned to a manufacturer and/or exporter) or K (assigned to a broker), followed by four or five digits (e.g. K-1234 or M12345)</inlineHelpText>
+        <label>Registration Number</label>
+        <length>6</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>zkmulti__ShipperTaxId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Company Tax ID of the Shipper.</description>
+        <inlineHelpText>The Company Tax ID of the Shipper.</inlineHelpText>
+        <label>Shipper Tax ID</label>
+        <length>30</length>
+        <maskChar>asterisk</maskChar>
+        <maskType>lastFour</maskType>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>EncryptedText</type>
+    </fields>
+    <fields>
+        <fullName>zkmulti__SignificantMilitaryEquipment__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Significant Military Equipment</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>zkmulti__USMLCategoryCode__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Digit numeric code (e.g. 01-18, 20 or 21). Indicates the U.S. Munitions List (USML) category article, service or related technical data as it applies to the article reported.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Digit numeric code (e.g. 01-18, 20 or 21). Indicates the U.S. Munitions List (USML) category article, service or related technical data as it applies to the article reported.</inlineHelpText>
+        <label>USML Category Code</label>
+        <length>2</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>zkmulti__UltimateConsigneeCity__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Ultimate Consignee City</label>
+        <length>30</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>zkmulti__UltimateConsigneeCompanyName__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Ultimate Consignee Company Name</label>
+        <length>35</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>zkmulti__UltimateConsigneeCountryCode__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Ultimate Consignee Country Code</label>
+        <length>2</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>zkmulti__UltimateConsigneePostalCode__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Ultimate Consignee Postal Code</label>
+        <length>9</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>zkmulti__UltimateConsigneeStateProvince__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Ultimate Consignee State/Province</label>
+        <length>5</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>zkmulti__UltimateConsigneeStreet__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Up to 3 lines maximum. Each line must be no more than 35 characters long.</description>
+        <inlineHelpText>Up to 3 lines maximum. Each line must be no more than 35 characters long.</inlineHelpText>
+        <label>Ultimate Consignee Street</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>zkmulti__UltimateConsigneeType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Ultimate Consignee Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>zkmulti__EEIFillingType__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Direct Consumer</fullName>
+                    <default>false</default>
+                    <label>Direct Consumer</label>
+                </value>
+                <value>
+                    <fullName>Government Entity</fullName>
+                    <default>false</default>
+                    <label>Government Entity</label>
+                </value>
+                <value>
+                    <fullName>Resellr</fullName>
+                    <default>false</default>
+                    <label>Resellr</label>
+                </value>
+                <value>
+                    <fullName>Other/Unknown</fullName>
+                    <default>false</default>
+                    <label>Other/Unknown</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Shipper filed</controllingFieldValue>
+                <controllingFieldValue>UPS filed</controllingFieldValue>
+                <valueName>Direct Consumer</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Shipper filed</controllingFieldValue>
+                <controllingFieldValue>UPS filed</controllingFieldValue>
+                <valueName>Government Entity</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Shipper filed</controllingFieldValue>
+                <controllingFieldValue>UPS filed</controllingFieldValue>
+                <valueName>Resellr</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Shipper filed</controllingFieldValue>
+                <controllingFieldValue>UPS filed</controllingFieldValue>
+                <valueName>Other/Unknown</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <label>EEI Form</label>
+    <nameField>
+        <displayFormat>EEI-{0000}</displayFormat>
+        <label>EEI Form Name</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>EEI Forms</pluralLabel>
+    <searchLayouts>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <fullName>zkmulti__CheckUltimate_Consignee_Type</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(TEXT(zkmulti__EEIFillingType__c)=&apos;Shipper filed&apos;,TEXT(zkmulti__UltimateConsigneeType__c) = null)</errorConditionFormula>
+        <errorDisplayField>zkmulti__UltimateConsigneeType__c</errorDisplayField>
+        <errorMessage>Please select option</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>zkmulti__Requires_the_Exemption_Legend_Check</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(TEXT(zkmulti__EEIShipper__c)=&apos;Requires the Exemption Legend&apos;,TEXT(zkmulti__ExemptionLegend__c)=null)</errorConditionFormula>
+        <errorDisplayField>zkmulti__ExemptionLegend__c</errorDisplayField>
+        <errorMessage>Please select option</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>zkmulti__Requires_the_ITN_Check</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(TEXT(zkmulti__EEIShipper__c)=&apos;Requires the ITN&apos;,zkmulti__PreDepartureITNNumber__c=null)</errorConditionFormula>
+        <errorDisplayField>zkmulti__PreDepartureITNNumber__c</errorDisplayField>
+        <errorMessage>Please fill field</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>zkmulti__Shipper_filed_check</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(TEXT(zkmulti__EEIFillingType__c)=&apos;Shipper filed&apos;,TEXT(zkmulti__EEIShipper__c)=null)</errorConditionFormula>
+        <errorDisplayField>zkmulti__EEIShipper__c</errorDisplayField>
+        <errorMessage>Please choose option</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>zkmulti__filed_check</fullName>
+        <active>false</active>
+        <errorConditionFormula>TEXT(zkmulti__EEIFillingType__c)=&apos;UPS filed&apos;</errorConditionFormula>
+        <errorDisplayField>zkmulti__EEIFillingType__c</errorDisplayField>
+        <errorMessage>&apos;UPS filled&apos; option is not supported.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

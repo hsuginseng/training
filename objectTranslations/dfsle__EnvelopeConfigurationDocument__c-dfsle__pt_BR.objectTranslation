@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Documento de configuração de envelope do Docusign</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Documentos de configuração de envelope do Docusign</value>
+    </caseValues>
+    <fields>
+        <label>Configuração do envelope</label>
+        <name>dfsle__EnvelopeConfiguration__c</name>
+        <relationshipLabel><!-- Documents --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Extensão</label>
+        <name>dfsle__Extension__c</name>
+    </fields>
+    <fields>
+        <label>Filtro</label>
+        <name>dfsle__Filter__c</name>
+    </fields>
+    <fields>
+        <label>Nome</label>
+        <name>dfsle__Name__c</name>
+    </fields>
+    <fields>
+        <label>Somente leitura</label>
+        <name>dfsle__ReadOnly__c</name>
+    </fields>
+    <fields>
+        <label>Exigido</label>
+        <name>dfsle__Required__c</name>
+    </fields>
+    <fields>
+        <label>Sequência</label>
+        <name>dfsle__Sequence__c</name>
+    </fields>
+    <fields>
+        <label>ID fonte</label>
+        <name>dfsle__SourceId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Document Type --></help>
+        <label>Tipo</label>
+        <name>dfsle__Type__c</name>
+        <picklistValues>
+            <masterLabel>Source Files</masterLabel>
+            <translation><!-- Source Files --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Template</masterLabel>
+            <translation><!-- Template --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Template Document</masterLabel>
+            <translation><!-- Template Document --></translation>
+        </picklistValues>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Document</nameFieldLabel>
+</CustomObjectTranslation>

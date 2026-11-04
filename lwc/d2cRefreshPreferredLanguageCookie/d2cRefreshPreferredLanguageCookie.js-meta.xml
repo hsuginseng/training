@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>63.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Refresh Preferred Language Cookie</masterLabel>
+    <description>This component will fetch a User's preferred language.</description>
+    <capabilities>
+        <capability>lightningCommunity__RelaxedCSP</capability>
+    </capabilities>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property label="User ID" name="userId" type="String" description="Id of the User"/>
+            <property label="Current Page" name="currentPage" type="String" description="The placement of the component" datasource="Login,CoreSite"/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

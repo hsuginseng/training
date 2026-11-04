@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>継続的インテグレーション</value>
+    </caseValues>
+    <fieldSets>
+        <label>カスタムフィールド</label>
+        <name>copado__CustomFields</name>
+    </fieldSets>
+    <fields>
+        <label>アクティブ</label>
+        <name>copado__Active__c</name>
+    </fields>
+    <fields>
+        <label>ブランチ</label>
+        <name>copado__Branch__c</name>
+    </fields>
+    <fields>
+        <label>チェックのみ</label>
+        <name>copado__Check_Only__c</name>
+    </fields>
+    <fields>
+        <label>宛先クレデンシャル</label>
+        <name>copado__Destination_Org_Credential__c</name>
+        <relationshipLabel>継続的インテグレーション</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- For supported metadata items only. --></help>
+        <label>デプロイメントファイル</label>
+        <name>copado__Files_to_be_deployed__c</name>
+        <picklistValues>
+            <masterLabel>Deploy all Files</masterLabel>
+            <translation><!-- Deploy all Files --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deploy only Committed Files</masterLabel>
+            <translation><!-- Deploy only Committed Files --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Gitリポジトリ</label>
+        <name>copado__Git_Repository__c</name>
+        <relationshipLabel>継続的インテグレーション</relationshipLabel>
+    </fields>
+    <fields>
+        <label>最終ビルドタスク期間</label>
+        <name>copado__Last_Build_Task_Duration__c</name>
+    </fields>
+    <fields>
+        <label>失敗したデプロイメント後のジョブ</label>
+        <name>copado__Post_Failed_Deployment_Jobs__c</name>
+        <relationshipLabel>継続的インテグレーション（デプロイメント失敗後のジョブ）</relationshipLabel>
+    </fields>
+    <fields>
+        <label>デプロイメント成功後のジョブ</label>
+        <name>copado__Post_Success_Deployment_Jobs__c</name>
+        <relationshipLabel>継続的インテグレーション（デプロイメントジョブ後のジョブ）</relationshipLabel>
+    </fields>
+    <fields>
+        <label>デプロイメント前のジョブ</label>
+        <name>copado__Pre_Deployment_Jobs__c</name>
+        <relationshipLabel>継続的インテグレーション</relationshipLabel>
+    </fields>
+    <fields>
+        <label>プレデプロイメントオプション</label>
+        <name>copado__Pre_Deployment_Options__c</name>
+        <picklistValues>
+            <masterLabel>Always run build task deployment</masterLabel>
+            <translation><!-- Always run build task deployment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Run build task deployment only if pre deployment job is successful</masterLabel>
+            <translation><!-- Run build task deployment only if pre deployment job is successful --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- If this checkbox is checked, all apex tests will be run as part of the build. --></help>
+        <label>すべてのテストを実行</label>
+        <name>copado__Run_All_Tests__c</name>
+    </fields>
+    <fields>
+        <label>ステータス</label>
+        <name>copado__Status__c</name>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Failed</masterLabel>
+            <translation><!-- Failed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Success</masterLabel>
+            <translation><!-- Success --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Continuous Integration Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Destination environment --></label>
+            <section>Destination environment</section>
+        </sections>
+        <sections>
+            <label><!-- Pre/Post-Build Automation --></label>
+            <section>Pre/Post-Build Automation</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>継続的インテグレーション名</nameFieldLabel>
+    <sharingReasons>
+        <label>継続的インテグレーションの許可</label>
+        <name>copado__ContinuousIntegrationPermission</name>
+    </sharingReasons>
+</CustomObjectTranslation>

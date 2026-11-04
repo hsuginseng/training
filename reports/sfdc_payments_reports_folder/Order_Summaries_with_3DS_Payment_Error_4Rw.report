@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>OrderSummary$Name</field>
+    </columns>
+    <columns>
+        <field>OrderSummary$Account</field>
+    </columns>
+    <columns>
+        <field>OrderSummary$Sales_Representative__c</field>
+    </columns>
+    <columns>
+        <field>OrderSummary$SalesStore</field>
+    </columns>
+    <currency>USD</currency>
+    <description>A report of all order summaries that have an active 3DS payment error.</description>
+    <filter>
+        <criteriaItems>
+            <column>OrderSummary$Payment_Error__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>1</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Order Summaries with 3DS Payment Error</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Order_Summaries__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>OrderSummary$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

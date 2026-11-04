@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Seleniumテスト結果</value>
+    </caseValues>
+    <fields>
+        <label>バッチ番号</label>
+        <name>copado__Batch_No__c</name>
+    </fields>
+    <fields>
+        <label>経過時間（秒）</label>
+        <name>copado__Elapsed_Time_Seconds__c</name>
+    </fields>
+    <fields>
+        <label>メッセージ</label>
+        <name>copado__Message__c</name>
+    </fields>
+    <fields>
+        <label>プラットホーム</label>
+        <name>copado__Platform__c</name>
+    </fields>
+    <fields>
+        <label>結果URL</label>
+        <name>copado__Result_URL__c</name>
+    </fields>
+    <fields>
+        <label>Seleniumテストラン</label>
+        <name>copado__Selenium_Test_Run__c</name>
+        <relationshipLabel>Seleniumテスト結果</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Seleniumテストスイート</label>
+        <name>copado__Selenium_Test_Suite__c</name>
+        <relationshipLabel>Seleniumテスト結果</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ステータス</label>
+        <name>copado__Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed successfully</masterLabel>
+            <translation><!-- Completed successfully --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed with errors</masterLabel>
+            <translation><!-- Completed with errors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Provider Failure</masterLabel>
+            <translation><!-- Provider Failure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Queued</masterLabel>
+            <translation><!-- Queued --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Starting</masterLabel>
+            <translation><!-- Starting --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Selenium Test Result Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- ID --></nameFieldLabel>
+</CustomObjectTranslation>

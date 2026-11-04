@@ -1,0 +1,101 @@
+@import 'c/cssLibrary';
+
+.quantities {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: .5rem;
+
+	button {
+		font-family: "Acumin VF", sans-serif;
+		font-size: .875rem;
+		font-weight: 400;
+		line-height: 1.5;
+		color: #272525;
+		padding: .25rem 1.5rem;
+		background: #fff;
+		border: 1px solid #CBD5E1;
+		border-radius: .5rem;
+
+		&.selected {
+			border: 1px solid #900;
+		}
+
+		&:disabled {
+            color: #9199A5;
+            background-color: #E5EBF1;
+            background-image: linear-gradient(160deg, transparent 0%, transparent 48%, #9199A5 50%, transparent 52%, transparent 100%);
+            border: 1px solid #CBD5E1;
+		}
+	}
+}
+
+.label {
+	font-family: "Acumin VF", sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	text-transform: uppercase;
+	color: #000;
+	margin: 3.25rem 0 .625rem 0;
+}
+
+.cart-add {
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	gap: 1rem;
+	margin-top: 3.75rem;
+}
+
+.cart-number {
+	display: flex;
+	align-items: center;
+	padding: 1rem;
+	gap: 1.5rem;
+	border-radius: 1rem;
+	border: 1px solid #272525;
+	background: #fff;
+
+	button {
+		width: 1.25rem;
+		height: 1.25rem;
+		margin: 0;
+		padding: 0;
+		background-color: #fff;
+		border: 0;
+		border-radius: 0;
+		appearance: none;
+		background-size: contain;
+		background-repeat: no-repeat;
+		transition: transform .3s ease-in-out;
+
+		&:hover {
+			transform: scale(1.5);
+			cursor: pointer;
+		}
+	}
+
+	.number {
+		font-family: "Acumin VF", sans-serif;
+		font-size: 1.125rem;
+		font-weight: 400;
+		line-height: 1.8;
+		color: #272525;
+
+		@media (max-width: 620px) {
+			font-size: 1.063rem;
+		}
+	}
+
+	.decrement {
+		background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M4.167 10h11.666" stroke="%23900" stroke-width=".75" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+	}
+
+	.increment {
+		background-image: url('data:image/svg+xml,<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 4.167v11.666M4.167 10h11.666" stroke="%23900" stroke-width=".75" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+	}
+}
+
+.cart-cta {
+	flex: 1;
+}

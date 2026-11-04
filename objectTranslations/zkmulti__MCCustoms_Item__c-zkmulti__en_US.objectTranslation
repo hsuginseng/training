@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Product</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Products</value>
+    </caseValues>
+    <fields>
+        <label><!-- ACM Number --></label>
+        <name>zkmulti__ACM_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allow Record Delete --></label>
+        <name>zkmulti__Allow_Record_Delete__c</name>
+    </fields>
+    <fields>
+        <label><!-- CI Marks and Numbers --></label>
+        <name>zkmulti__CIMarksAndNumbers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier Type --></label>
+        <name>zkmulti__CarrierType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier --></label>
+        <name>zkmulti__Carrier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contents Type --></label>
+        <name>zkmulti__Contents_Type__c</name>
+        <picklistValues>
+            <masterLabel>Commodities</masterLabel>
+            <translation><!-- Commodities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Documents</masterLabel>
+            <translation><!-- Documents --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Country of Manufacture --></label>
+        <name>zkmulti__Country_of_Manufacture__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>zkmulti__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- ECCN Number --></label>
+        <name>zkmulti__ECCN_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Eligible Party --></label>
+        <name>zkmulti__Eligible_Party__c</name>
+    </fields>
+    <fields>
+        <label><!-- Entry Number --></label>
+        <name>zkmulti__Entry_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Export License Expiration Date --></label>
+        <name>zkmulti__ExportLicenseExpirationDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Export License Number --></label>
+        <name>zkmulti__ExportLicenseNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Export Type --></label>
+        <name>zkmulti__ExportType__c</name>
+        <picklistValues>
+            <masterLabel>Domestic</masterLabel>
+            <translation><!-- Domestic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Foreign</masterLabel>
+            <translation><!-- Foreign --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Foreign Military</masterLabel>
+            <translation><!-- Foreign Military --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Export Information --></label>
+        <name>zkmulti__Export_Information__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gross Weight Units --></label>
+        <name>zkmulti__Gross_Weight_Units__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gross Weight --></label>
+        <name>zkmulti__Gross_Weight__c</name>
+    </fields>
+    <fields>
+        <label><!-- Grouped Package Ids --></label>
+        <name>zkmulti__Grouped_Package_Ids__c</name>
+    </fields>
+    <fields>
+        <label><!-- Handling Unit Quantity --></label>
+        <name>zkmulti__Handling_Unit_Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Handling Unit Type --></label>
+        <name>zkmulti__Handling_Unit_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Harmonized Code --></label>
+        <name>zkmulti__Harmonized_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hazardous Material --></label>
+        <name>zkmulti__Hazardous_Material__c</name>
+    </fields>
+    <fields>
+        <label><!-- Height --></label>
+        <name>zkmulti__Height__c</name>
+    </fields>
+    <fields>
+        <label><!-- ITAR Exemption Number --></label>
+        <name>zkmulti__ITAR_Exemption_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Image Url --></label>
+        <name>zkmulti__ImageUrl__c</name>
+    </fields>
+    <fields>
+        <label><!-- Individually Packed --></label>
+        <name>zkmulti__Individually_Packed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Profile --></label>
+        <name>zkmulti__Is_Profile__c</name>
+    </fields>
+    <fields>
+        <label><!-- Item Code --></label>
+        <name>zkmulti__Item_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Joint Production --></label>
+        <name>zkmulti__JointProduction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Length --></label>
+        <name>zkmulti__Length__c</name>
+    </fields>
+    <fields>
+        <label><!-- Export License Code --></label>
+        <name>zkmulti__License_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Export License Line Value --></label>
+        <name>zkmulti__License_Line_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacture State Code --></label>
+        <name>zkmulti__ManufactureStateCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mod Key --></label>
+        <name>zkmulti__Mod_Key__c</name>
+    </fields>
+    <fields>
+        <label><!-- Freight Class --></label>
+        <name>zkmulti__NMFC_Class__c</name>
+    </fields>
+    <fields>
+        <label><!-- NMFC Number --></label>
+        <name>zkmulti__NMFC_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- NMFC Sub Category --></label>
+        <name>zkmulti__NMFC_Sub_Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Preference Criterion --></label>
+        <name>zkmulti__NaftaPreferenceCriterion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Producer Determination --></label>
+        <name>zkmulti__NaftaProducerDetermination__c</name>
+    </fields>
+    <fields>
+        <label><!-- Name --></label>
+        <name>zkmulti__Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Net Cost Date Range End --></label>
+        <name>zkmulti__NetCostDateRangeEnd__c</name>
+    </fields>
+    <fields>
+        <label><!-- Net Cost Date Range Start --></label>
+        <name>zkmulti__NetCostDateRangeStart__c</name>
+    </fields>
+    <fields>
+        <label><!-- Net Cost Method --></label>
+        <name>zkmulti__NetCostMethod__c</name>
+    </fields>
+    <fields>
+        <label><!-- Net Weight --></label>
+        <name>zkmulti__Net_Weight__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Pieces --></label>
+        <name>zkmulti__NumberOfPieces__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Item Id --></label>
+        <name>zkmulti__Order_Item_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Object Id --></label>
+        <name>zkmulti__OriginalObjectId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Package Index --></label>
+        <name>zkmulti__Package_Index__c</name>
+    </fields>
+    <fields>
+        <label><!-- Package Type --></label>
+        <name>zkmulti__Package_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Package --></label>
+        <name>zkmulti__Package__c</name>
+        <relationshipLabel><!-- Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Packed Quantity --></label>
+        <name>zkmulti__Packed_Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Part Number --></label>
+        <name>zkmulti__PartNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Barcode --></label>
+        <name>zkmulti__Product_Barcode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Identifier --></label>
+        <name>zkmulti__Product_Identifier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Units --></label>
+        <name>zkmulti__QuantityUnits__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>zkmulti__Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference --></label>
+        <name>zkmulti__Reference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Registration Number --></label>
+        <name>zkmulti__Registration_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Schedule B Number --></label>
+        <name>zkmulti__ScheduleBNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Schedule B Unit Of Measurement --></label>
+        <name>zkmulti__ScheduleBUnitOfMeasurementCode__c</name>
+        <picklistValues>
+            <masterLabel>Barrels</masterLabel>
+            <translation><!-- Barrels --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carat</masterLabel>
+            <translation><!-- Carat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clean Yield Kilogram</masterLabel>
+            <translation><!-- Clean Yield Kilogram --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Content Kilogram</masterLabel>
+            <translation><!-- Content Kilogram --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Content Ton</masterLabel>
+            <translation><!-- Content Ton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cubic Meters</masterLabel>
+            <translation><!-- Cubic Meters --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Curie</masterLabel>
+            <translation><!-- Curie --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dozen</masterLabel>
+            <translation><!-- Dozen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dozen Pairs</masterLabel>
+            <translation><!-- Dozen Pairs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dozen Pieces</masterLabel>
+            <translation><!-- Dozen Pieces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fiber Meter</masterLabel>
+            <translation><!-- Fiber Meter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gram</masterLabel>
+            <translation><!-- Gram --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gross</masterLabel>
+            <translation><!-- Gross --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gross Containers</masterLabel>
+            <translation><!-- Gross Containers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hundred</masterLabel>
+            <translation><!-- Hundred --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kilogram</masterLabel>
+            <translation><!-- Kilogram --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kilogram Total Sugars</masterLabel>
+            <translation><!-- Kilogram Total Sugars --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liter</masterLabel>
+            <translation><!-- Liter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Meter</masterLabel>
+            <translation><!-- Meter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Millicurie</masterLabel>
+            <translation><!-- Millicurie --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Quantity required</masterLabel>
+            <translation><!-- No Quantity required --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Number</masterLabel>
+            <translation><!-- Number --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pack</masterLabel>
+            <translation><!-- Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pairs</masterLabel>
+            <translation><!-- Pairs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pieces</masterLabel>
+            <translation><!-- Pieces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proof Liter</masterLabel>
+            <translation><!-- Proof Liter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Running Bales</masterLabel>
+            <translation><!-- Running Bales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Square</masterLabel>
+            <translation><!-- Square --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Square Centimeters</masterLabel>
+            <translation><!-- Square Centimeters --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Square Meters</masterLabel>
+            <translation><!-- Square Meters --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thousand Cubic Meters</masterLabel>
+            <translation><!-- Thousand Cubic Meters --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thousands</masterLabel>
+            <translation><!-- Thousands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ton</masterLabel>
+            <translation><!-- Ton --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Package Sequence Number --></label>
+        <name>zkmulti__SequenceNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Serial Number --></label>
+        <name>zkmulti__SerialNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipment --></label>
+        <name>zkmulti__Shipment__c</name>
+        <relationshipLabel><!-- Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Significant Military Equipment --></label>
+        <name>zkmulti__Significant_Military_Equipment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Terms Of Trade --></label>
+        <name>zkmulti__TermsOfTrade__c</name>
+    </fields>
+    <fields>
+        <label><!-- Package Tracking Number --></label>
+        <name>zkmulti__TrackingId__c</name>
+    </fields>
+    <fields>
+        <label><!-- USML Category Code --></label>
+        <name>zkmulti__USML_Category_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Unit Of Measurement --></label>
+        <name>zkmulti__UnitOfMeasurementOther__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unit Of Measurement --></label>
+        <name>zkmulti__UnitOfMeasurement__c</name>
+        <picklistValues>
+            <masterLabel>Bag</masterLabel>
+            <translation><!-- Bag --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Barrel</masterLabel>
+            <translation><!-- Barrel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bolt</masterLabel>
+            <translation><!-- Bolt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Box</masterLabel>
+            <translation><!-- Box --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bunch</masterLabel>
+            <translation><!-- Bunch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bundle</masterLabel>
+            <translation><!-- Bundle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Butt</masterLabel>
+            <translation><!-- Butt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canister</masterLabel>
+            <translation><!-- Canister --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carton</masterLabel>
+            <translation><!-- Carton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case</masterLabel>
+            <translation><!-- Case --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Centimeter</masterLabel>
+            <translation><!-- Centimeter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Container</masterLabel>
+            <translation><!-- Container --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Crate</masterLabel>
+            <translation><!-- Crate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cylinder</masterLabel>
+            <translation><!-- Cylinder --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dozen</masterLabel>
+            <translation><!-- Dozen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Each</masterLabel>
+            <translation><!-- Each --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Envelope</masterLabel>
+            <translation><!-- Envelope --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Feet</masterLabel>
+            <translation><!-- Feet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kilogram</masterLabel>
+            <translation><!-- Kilogram --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kilograms</masterLabel>
+            <translation><!-- Kilograms --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liter</masterLabel>
+            <translation><!-- Liter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Meter</masterLabel>
+            <translation><!-- Meter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Number</masterLabel>
+            <translation><!-- Number --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Package</masterLabel>
+            <translation><!-- Package --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Packet</masterLabel>
+            <translation><!-- Packet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pair</masterLabel>
+            <translation><!-- Pair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pairs</masterLabel>
+            <translation><!-- Pairs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pallet</masterLabel>
+            <translation><!-- Pallet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Piece</masterLabel>
+            <translation><!-- Piece --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pieces</masterLabel>
+            <translation><!-- Pieces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pound</masterLabel>
+            <translation><!-- Pound --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pounds</masterLabel>
+            <translation><!-- Pounds --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proof Liters</masterLabel>
+            <translation><!-- Proof Liters --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roll</masterLabel>
+            <translation><!-- Roll --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Set</masterLabel>
+            <translation><!-- Set --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Square Meters</masterLabel>
+            <translation><!-- Square Meters --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Square Yards</masterLabel>
+            <translation><!-- Square Yards --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tube</masterLabel>
+            <translation><!-- Tube --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yard</masterLabel>
+            <translation><!-- Yard --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Unit Price Currency --></label>
+        <name>zkmulti__UnitPriceCurrency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unit Price --></label>
+        <name>zkmulti__UnitPrice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Value Currency --></label>
+        <name>zkmulti__Value_Currency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Value --></label>
+        <name>zkmulti__Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vehicle ID --></label>
+        <name>zkmulti__VehicleId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Weight Units --></label>
+        <name>zkmulti__Weight_Units__c</name>
+    </fields>
+    <fields>
+        <label><!-- Weight --></label>
+        <name>zkmulti__Weight__c</name>
+    </fields>
+    <fields>
+        <label><!-- Width --></label>
+        <name>zkmulti__Width__c</name>
+    </fields>
+    <layouts>
+        <layout>Customs Item Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Department of State/ Directorate of Defense Trade Control Information --></label>
+            <section>Department of State/ Directorate of Defense Trade Control Information</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- EEI Specific Fields --></label>
+            <section>EEI Specific Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Export License --></label>
+            <section>Export License</section>
+        </sections>
+        <sections>
+            <label><!-- NAFTA Details --></label>
+            <section>NAFTA Details</section>
+        </sections>
+        <sections>
+            <label><!-- Number of Pieces --></label>
+            <section>Number of Pieces</section>
+        </sections>
+        <sections>
+            <label><!-- Other Information --></label>
+            <section>Other Information</section>
+        </sections>
+        <sections>
+            <label><!-- Package --></label>
+            <section>Package</section>
+        </sections>
+        <sections>
+            <label><!-- Quantity --></label>
+            <section>Quantity</section>
+        </sections>
+        <sections>
+            <label><!-- Value --></label>
+            <section>Value</section>
+        </sections>
+        <sections>
+            <label><!-- Weight/Dimensions --></label>
+            <section>Weight/Dimensions</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

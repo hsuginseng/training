@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>パイプライン接続</value>
+    </caseValues>
+    <fields>
+        <label>自動的にマージ＆デプロイします</label>
+        <name>copado__Automatically_Merge_and_Deploy__c</name>
+    </fields>
+    <fields>
+        <help><!-- Git branch linked to the source environment. --></help>
+        <label>ソースブランチ</label>
+        <name>copado__Branch__c</name>
+    </fields>
+    <fields>
+        <label>コミット（Ahead）</label>
+        <name>copado__Commits_Ahead__c</name>
+    </fields>
+    <fields>
+        <label>コミット（Behind)</label>
+        <name>copado__Commits_Behind__c</name>
+    </fields>
+    <fields>
+        <label>接続動作の上書き</label>
+        <name>copado__Connection_Behavior_Override__c</name>
+        <relationshipLabel>パイプライン接続</relationshipLabel>
+    </fields>
+    <fields>
+        <label>接続動作</label>
+        <name>copado__Connection_Behavior__c</name>
+    </fields>
+    <fields>
+        <label>パイプライン</label>
+        <name>copado__Deployment_Flow__c</name>
+        <relationshipLabel>パイプライン接続</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Value updated automatically by Copado. This is defined in the Deployment Flow Step of the Destination Environment. --></help>
+        <label>宛先環境のブランチ</label>
+        <name>copado__Destination_Branch__c</name>
+    </fields>
+    <fields>
+        <label>宛先環境(To)</label>
+        <name>copado__Destination_Environment__c</name>
+        <relationshipLabel>パイプライン接続（宛先環境）</relationshipLabel>
+    </fields>
+    <fields>
+        <label>スクラッチ組織ターゲットとして有効化</label>
+        <name>copado__Enable_as_Scratch_Org_Destination__c</name>
+        <picklistValues>
+            <masterLabel>DX Patch Target</masterLabel>
+            <translation><!-- DX Patch Target --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DX Target</masterLabel>
+            <translation><!-- DX Target --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Default DX Target</masterLabel>
+            <translation><!-- Default DX Target --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Last date and time when the source and target branch were in Sync (no commits ahead or behind). --></help>
+        <label>最後のマージベース</label>
+        <name>copado__Last_Merge_Base__c</name>
+    </fields>
+    <fields>
+        <help><!-- Last date and time when the CBM Sync button was clicked to merge and deploy changes to the destination environment. --></help>
+        <label>最終マージCBM同期</label>
+        <name>copado__Last_Merge_CBM_Sync__c</name>
+    </fields>
+    <fields>
+        <help><!-- Last date and time when the CBM Sync button was clicked to merge and deploy changes to the source environment. --></help>
+        <label>最終プルCBM同期</label>
+        <name>copado__Last_Pull_CBM_Sync__c</name>
+    </fields>
+    <fields>
+        <help><!-- List of conflicted files auto resolved by Copado when merging the source branch into the destination branch. --></help>
+        <label>自動解決ファイルをマージ</label>
+        <name>copado__Merge_Auto_Resolved_Files__c</name>
+    </fields>
+    <fields>
+        <label>次のステージ</label>
+        <name>copado__Next_Stage__c</name>
+    </fields>
+    <fields>
+        <label>プラットホーム</label>
+        <name>copado__Platform__c</name>
+    </fields>
+    <fields>
+        <help><!-- List of conflicted files auto resolved by Copado when merging the destination branch into the source branch. --></help>
+        <label>自動解決されたファイルをプルします</label>
+        <name>copado__Pull_Auto_Resolved_Files__c</name>
+    </fields>
+    <fields>
+        <label>ソース環境(From)</label>
+        <name>copado__Source_Environment__c</name>
+        <relationshipLabel>パイプライン接続（ソース環境）</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Stage Connection where the source environment belongs to. --></help>
+        <label>ステージ接続</label>
+        <lookupFilter>
+            <errorMessage>同じパイプラインに属しているステージ接続を選択する事ができます。</errorMessage>
+        </lookupFilter>
+        <name>copado__Stage_Connection__c</name>
+        <relationshipLabel>パイプライン接続</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Stage to which the source environment belongs. --></help>
+        <label>ステージ</label>
+        <name>copado__Stage__c</name>
+    </fields>
+    <fields>
+        <label>マージ状態の同期</label>
+        <name>copado__Sync_Merge_State__c</name>
+        <picklistValues>
+            <masterLabel>In sync</masterLabel>
+            <translation><!-- In sync --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Needs recalculating</masterLabel>
+            <translation><!-- Needs recalculating --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recalculating</masterLabel>
+            <translation><!-- Recalculating --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Syncing</masterLabel>
+            <translation><!-- Syncing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Validated</masterLabel>
+            <translation><!-- Validated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Validation errors</masterLabel>
+            <translation><!-- Validation errors --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>プル状況を同期</label>
+        <name>copado__Sync_Pull_State__c</name>
+        <picklistValues>
+            <masterLabel>In sync</masterLabel>
+            <translation><!-- In sync --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Needs recalculating</masterLabel>
+            <translation><!-- Needs recalculating --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recalculating</masterLabel>
+            <translation><!-- Recalculating --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Syncing</masterLabel>
+            <translation><!-- Syncing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Validated</masterLabel>
+            <translation><!-- Validated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Validation errors</masterLabel>
+            <translation><!-- Validation errors --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Recommended Test Level: &quot;Run Local Tests&quot; --></help>
+        <label>テストレベル</label>
+        <name>copado__Test_Level__c</name>
+        <picklistValues>
+            <masterLabel>No Test Run</masterLabel>
+            <translation><!-- No Test Run --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Run All Tests In Org</masterLabel>
+            <translation><!-- Run All Tests In Org --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Run Local Tests</masterLabel>
+            <translation><!-- Run Local Tests --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Run Specified Tests</masterLabel>
+            <translation><!-- Run Specified Tests --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Deployment Flow Step Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields Updated By Copado --></label>
+            <section>Fields Updated By Copado</section>
+        </sections>
+        <sections>
+            <label><!-- Stage Information --></label>
+            <section>Stage Information</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>パイプライン接続リファレンス</nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- Source Environment and Destination Environment must be different. --></errorMessage>
+        <name>cmcSf__Different_Environments_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>パイプラインのプラットフォームと環境が一致する必要があります。</errorMessage>
+        <name>copado__EnvironmentAndPipelinePlatformMustBeSame</name>
+    </validationRules>
+    <webLinks>
+        <label>ブランチを選択</label>
+        <name>copado__Select_Branch</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MarketSegmentDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <includeCriteria>{&quot;type&quot;:&quot;LogicalComparison&quot;,&quot;operator&quot;:&quot;or&quot;,&quot;filters&quot;:[{&quot;type&quot;:&quot;TextComparison&quot;,&quot;path&quot;:null,&quot;joinPath&quot;:null,&quot;subject&quot;:{&quot;objectApiName&quot;:&quot;ssot__Account__dlm&quot;,&quot;fieldApiName&quot;:&quot;Email__c&quot;},&quot;selfReference&quot;:false,&quot;operator&quot;:&quot;equal&quot;,&quot;subjectFieldDataType&quot;:&quot;TEXT&quot;,&quot;subjectFieldBusinessType&quot;:&quot;EMAIL&quot;,&quot;subjectFieldSourceType&quot;:&quot;DIRECT&quot;,&quot;values&quot;:[&quot;henry.zhang@hsuginseng.com&quot;]},{&quot;type&quot;:&quot;TextComparison&quot;,&quot;path&quot;:null,&quot;joinPath&quot;:null,&quot;subject&quot;:{&quot;objectApiName&quot;:&quot;ssot__Account__dlm&quot;,&quot;fieldApiName&quot;:&quot;Email__c&quot;},&quot;selfReference&quot;:false,&quot;operator&quot;:&quot;equal&quot;,&quot;subjectFieldDataType&quot;:&quot;TEXT&quot;,&quot;subjectFieldBusinessType&quot;:&quot;EMAIL&quot;,&quot;subjectFieldSourceType&quot;:&quot;DIRECT&quot;,&quot;values&quot;:[&quot;henry.zhang+000@hsuginseng.com&quot;]}]}</includeCriteria>
+    <masterLabel>EmailTest</masterLabel>
+    <segmentOn>ssot__Account__dlm</segmentOn>
+    <segmentType>UI</segmentType>
+</MarketSegmentDefinition>

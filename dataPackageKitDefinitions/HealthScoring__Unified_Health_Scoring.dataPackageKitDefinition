@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataPackageKitDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataKitSource>EXTERNAL</dataKitSource>
+    <dataKitType>NONE</dataKitType>
+    <description>Unified Health Scoring - A Salesforce Health Cloud capability that helps to create a single view and score of our customers.</description>
+    <developerName>Unified_Health_Scoring</developerName>
+    <isDeployed>false</isDeployed>
+    <isEnabled>false</isEnabled>
+    <masterLabel>Unified Health Scoring</masterLabel>
+    <useDeterministicNaming>false</useDeterministicNaming>
+    <versionNumber>17.0</versionNumber>
+</DataPackageKitDefinition>

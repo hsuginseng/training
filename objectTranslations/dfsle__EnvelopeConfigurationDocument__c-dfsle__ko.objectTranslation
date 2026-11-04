@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Docusign 봉투 구성 문서</value>
+    </caseValues>
+    <fields>
+        <label>봉투 구성</label>
+        <name>dfsle__EnvelopeConfiguration__c</name>
+        <relationshipLabel><!-- Documents --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>확장자</label>
+        <name>dfsle__Extension__c</name>
+    </fields>
+    <fields>
+        <label>필터</label>
+        <name>dfsle__Filter__c</name>
+    </fields>
+    <fields>
+        <label>이름</label>
+        <name>dfsle__Name__c</name>
+    </fields>
+    <fields>
+        <label>읽기 전용</label>
+        <name>dfsle__ReadOnly__c</name>
+    </fields>
+    <fields>
+        <label>필수</label>
+        <name>dfsle__Required__c</name>
+    </fields>
+    <fields>
+        <label>순서</label>
+        <name>dfsle__Sequence__c</name>
+    </fields>
+    <fields>
+        <label>소스 ID</label>
+        <name>dfsle__SourceId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Document Type --></help>
+        <label>종류</label>
+        <name>dfsle__Type__c</name>
+        <picklistValues>
+            <masterLabel>Source Files</masterLabel>
+            <translation><!-- Source Files --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Template</masterLabel>
+            <translation><!-- Template --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Template Document</masterLabel>
+            <translation><!-- Template Document --></translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel>Document</nameFieldLabel>
+</CustomObjectTranslation>

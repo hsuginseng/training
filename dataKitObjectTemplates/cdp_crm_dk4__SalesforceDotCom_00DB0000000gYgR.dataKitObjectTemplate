@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataKitObjectTemplate xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <developerName xsi:nil="true"/>
+    <entityPayload>{&quot;devName&quot;:&quot;SalesforceDotCom_00DB0000000gYgR&quot;,&quot;masterLabel&quot;:&quot;Salesforce Connector Salesforce 00DB0000000gYgR&quot;,&quot;dataConnectorType&quot;:&quot;SalesforceDotCom&quot;,&quot;extRecordId&quot;:&quot;00DB0000000gYgR&quot;,&quot;alias&quot;:null,&quot;dsTenantDevName&quot;:&quot;SalesforceDotCom_core_prod_00DB0000000gYgRMAU&quot;,&quot;dsTenantMasterLabel&quot;:&quot;Salesforce&quot;,&quot;dsTenantExtRecordId&quot;:&quot;core/prod/00DB0000000gYgRMAU&quot;}</entityPayload>
+    <masterLabel>Salesforce Connector Salesforce 00DB0000000gYgR</masterLabel>
+    <parentDataPackageKitDefinitionName xsi:nil="true"/>
+    <sourceObject>0hMB0000000PBZWMA4</sourceObject>
+    <sourceObjectType>InternalDataConnector</sourceObjectType>
+    <templateVersion>1</templateVersion>
+</DataKitObjectTemplate>

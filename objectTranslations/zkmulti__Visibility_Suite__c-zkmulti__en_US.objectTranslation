@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Branded Tracking</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Branded Tracking</value>
+    </caseValues>
+    <fields>
+        <label><!-- Button Text --></label>
+        <name>zkmulti__Button_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Button Url --></label>
+        <name>zkmulti__Button_Url__c</name>
+    </fields>
+    <fields>
+        <label><!-- Checkpoint DateTime Field --></label>
+        <name>zkmulti__Checkpoint_DateTime_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Upsell Skyscraper --></label>
+        <name>zkmulti__Default_Upsell_Skyscraper__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default --></label>
+        <name>zkmulti__Default__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dynamics Skyscraper Image URL field --></label>
+        <name>zkmulti__Dynamics_Skyscraper_Image_URL_field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dynamics Skyscraper URL field --></label>
+        <name>zkmulti__Dynamics_Skyscraper_URL_field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Upsell Skyscraper --></label>
+        <name>zkmulti__Enable_Upsell_Skyscraper__c</name>
+    </fields>
+    <fields>
+        <label><!-- Footer Text --></label>
+        <name>zkmulti__Footer_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Javascript Code --></label>
+        <name>zkmulti__Javascript_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Color --></label>
+        <name>zkmulti__Primary_Color__c</name>
+    </fields>
+    <fields>
+        <label><!-- Public URL --></label>
+        <name>zkmulti__Public_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Secondary Color --></label>
+        <name>zkmulti__Secondary_Color__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show Order Details --></label>
+        <name>zkmulti__Show_Order_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show Travel History --></label>
+        <name>zkmulti__Show_Travel_History__c</name>
+    </fields>
+    <fields>
+        <label><!-- Skyscraper Title --></label>
+        <name>zkmulti__Skyscraper_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Theme Name --></label>
+        <name>zkmulti__Theme_Name__c</name>
+    </fields>
+    <layouts>
+        <layout>Visibility Suite Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

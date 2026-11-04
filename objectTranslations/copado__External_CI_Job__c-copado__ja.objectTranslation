@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>外部CIジョブ</value>
+    </caseValues>
+    <fieldSets>
+        <label>関連リストフィールド</label>
+        <name>copado__relatedListFields</name>
+    </fieldSets>
+    <fields>
+        <label>失敗でも継続</label>
+        <name>copado__Continue_on_failure__c</name>
+    </fields>
+    <fields>
+        <label>環境</label>
+        <name>copado__Environment__c</name>
+        <relationshipLabel>外部CIジョブ</relationshipLabel>
+    </fields>
+    <fields>
+        <label>外部CI設定</label>
+        <name>copado__External_CI_Setting__c</name>
+        <relationshipLabel>外部CIジョブ</relationshipLabel>
+    </fields>
+    <fields>
+        <label>起動対象（Invoke on)</label>
+        <name>copado__Invoke_on__c</name>
+        <picklistValues>
+            <masterLabel>After deployment</masterLabel>
+            <translation><!-- After deployment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Before deployment</masterLabel>
+            <translation><!-- Before deployment --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>ジョブAPIの名前</label>
+        <name>copado__Job_Api_Name__c</name>
+    </fields>
+    <fields>
+        <label>順序</label>
+        <name>copado__Order__c</name>
+    </fields>
+    <fields>
+        <label>タイムアウト時間</label>
+        <name>copado__Timeout_in_minutes__c</name>
+    </fields>
+    <fields>
+        <label>ユーザーストーリー</label>
+        <name>copado__User_Story__c</name>
+        <relationshipLabel>外部CIジョブ</relationshipLabel>
+    </fields>
+    <fields>
+        <label>データJSON</label>
+        <name>copado__dataJSON__c</name>
+    </fields>
+    <layouts>
+        <layout>External CI Job Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>外部CIジョブ名</nameFieldLabel>
+</CustomObjectTranslation>

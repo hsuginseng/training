@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Shipment Info</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Shipment Info</value>
+    </caseValues>
+    <fields>
+        <label><!-- Allow Record Delete --></label>
+        <name>zkmulti__Allow_Record_Delete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Alternate City --></label>
+        <name>zkmulti__AlternateCity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Alternate Country --></label>
+        <name>zkmulti__AlternateCountry__c</name>
+    </fields>
+    <fields>
+        <label><!-- Alternate Name --></label>
+        <name>zkmulti__AlternateName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Alternate Phone --></label>
+        <name>zkmulti__AlternatePhone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Alternate State/Province --></label>
+        <name>zkmulti__AlternateStateProvince__c</name>
+    </fields>
+    <fields>
+        <label><!-- Alternate Street --></label>
+        <name>zkmulti__AlternateStreet__c</name>
+    </fields>
+    <fields>
+        <label><!-- Alternate Zip/Postal Code Ext --></label>
+        <name>zkmulti__AlternateZipPostalCodeExt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Alternate Zip/Postal Code --></label>
+        <name>zkmulti__AlternateZipPostalCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Amazon Order Id --></label>
+        <name>zkmulti__Amazon_Order_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing City --></label>
+        <name>zkmulti__Billing_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Company --></label>
+        <name>zkmulti__Billing_Company__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Email --></label>
+        <name>zkmulti__Billing_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Name --></label>
+        <name>zkmulti__Billing_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Phone --></label>
+        <name>zkmulti__Billing_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing State --></label>
+        <name>zkmulti__Billing_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Street --></label>
+        <name>zkmulti__Billing_Street__c</name>
+    </fields>
+    <fields>
+        <label><!-- Branding --></label>
+        <name>zkmulti__Branding__c</name>
+    </fields>
+    <fields>
+        <label><!-- Certificate Number --></label>
+        <name>zkmulti__CertificateNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Close Time --></label>
+        <name>zkmulti__CloseTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Confirmed By Carrier --></label>
+        <name>zkmulti__Confirmed_By_Carrier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contents Explanation --></label>
+        <name>zkmulti__Contents_Explanation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contents Type --></label>
+        <name>zkmulti__Contents_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cost Center --></label>
+        <name>zkmulti__CostCenter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customs Certify --></label>
+        <name>zkmulti__Customs_Certify__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customs Signer --></label>
+        <name>zkmulti__Customs_Signer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duties Account Postal Code --></label>
+        <name>zkmulti__DutiesAccountPostalCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duties/Taxes/Fees Payment Type --></label>
+        <name>zkmulti__DutiesPaymentType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duties Payor Account Country --></label>
+        <name>zkmulti__DutiesPayorAccountCountry__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duties/Taxes/Fees Payor Account --></label>
+        <name>zkmulti__DutiesPayorAccount__c</name>
+    </fields>
+    <fields>
+        <label><!-- EEL PFC --></label>
+        <name>zkmulti__EEL_PFC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Notify on Estimated Delivery --></label>
+        <name>zkmulti__EMailNotifyOnEstimatedDelivery__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Notify on Tender --></label>
+        <name>zkmulti__EMailNotifyOnTender__c</name>
+    </fields>
+    <fields>
+        <label><!-- Earliest Delivery --></label>
+        <name>zkmulti__Earliest_Delivery__c</name>
+    </fields>
+    <fields>
+        <label><!-- Earliest Pickup --></label>
+        <name>zkmulti__Earliest_Pickup__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Notify On Shipment --></label>
+        <name>zkmulti__EmailNotifyOnShipment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Template Id --></label>
+        <name>zkmulti__Email_Template_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Entry Facility --></label>
+        <name>zkmulti__Entry_Facility__c</name>
+    </fields>
+    <fields>
+        <label><!-- Entry Number --></label>
+        <name>zkmulti__Entry_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Export Compliance Statement Status --></label>
+        <name>zkmulti__ExportComplianceStatement__c</name>
+    </fields>
+    <fields>
+        <label><!-- Freight Booking Confirmation Number --></label>
+        <name>zkmulti__FreightBookingConfirmationNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Freight Class (Deprecated) --></label>
+        <name>zkmulti__FreightClass__c</name>
+    </fields>
+    <fields>
+        <label><!-- Freight Packing List Enclosed --></label>
+        <name>zkmulti__FreightPackingListEnclosed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Handling Height --></label>
+        <name>zkmulti__HandlingHeight__c</name>
+    </fields>
+    <fields>
+        <label><!-- Handling Length --></label>
+        <name>zkmulti__HandlingLength__c</name>
+    </fields>
+    <fields>
+        <label><!-- Handling Quantity --></label>
+        <name>zkmulti__HandlingQuantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Handling Units --></label>
+        <name>zkmulti__HandlingUnits__c</name>
+    </fields>
+    <fields>
+        <label><!-- Handling Width --></label>
+        <name>zkmulti__HandlingWidth__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hide Sender Address --></label>
+        <name>zkmulti__Hide_Sender_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ineligible for Money Back Guarantee --></label>
+        <name>zkmulti__IneligibleForMoneyBackGuarantee__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Number --></label>
+        <name>zkmulti__InvoiceNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Label Image Resolution --></label>
+        <name>zkmulti__Label_Image_Resolution__c</name>
+    </fields>
+    <fields>
+        <label><!-- Label Image Rotation --></label>
+        <name>zkmulti__Label_Image_Rotation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Label Image Size --></label>
+        <name>zkmulti__Label_Image_Size__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Track Update Status Code --></label>
+        <name>zkmulti__Last_Track_Update_Status_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Latest Delivery --></label>
+        <name>zkmulti__Latest_Delivery__c</name>
+    </fields>
+    <fields>
+        <label><!-- Latest Pickup --></label>
+        <name>zkmulti__Latest_Pickup__c</name>
+    </fields>
+    <fields>
+        <label><!-- License Number --></label>
+        <name>zkmulti__LicenseNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mod Key --></label>
+        <name>zkmulti__Mod_Key__c</name>
+    </fields>
+    <fields>
+        <label><!-- Negotiated Rates Message --></label>
+        <name>zkmulti__NegotiatedRatesMessage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Non Machineable --></label>
+        <name>zkmulti__NonMachineable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Non Delivery --></label>
+        <name>zkmulti__Non_Delivery__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Id --></label>
+        <name>zkmulti__Order_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- PO ZipCode --></label>
+        <name>zkmulti__PO_ZipCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- PackageId --></label>
+        <name>zkmulti__PackageId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ready Time --></label>
+        <name>zkmulti__ReadyTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recipient Customs ID Type --></label>
+        <name>zkmulti__RecipientCustomsIdType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recipient Customs ID --></label>
+        <name>zkmulti__RecipientCustomsId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recipient Tax ID Type --></label>
+        <name>zkmulti__RecipientTaxIdType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recipient Tax ID --></label>
+        <name>zkmulti__RecipientTaxId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recipient Time Zone --></label>
+        <name>zkmulti__RecipientTimeZone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference Bar Code --></label>
+        <name>zkmulti__ReferenceBarCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Restriction Comments --></label>
+        <name>zkmulti__Restriction_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Restriction Type --></label>
+        <name>zkmulti__Restriction_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Returned To Sender --></label>
+        <name>zkmulti__Returned_To_Sender__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender Tax ID Type --></label>
+        <name>zkmulti__SenderTaxIdType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender Tax ID --></label>
+        <name>zkmulti__SenderTaxId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipment Type Ext --></label>
+        <name>zkmulti__ShipmentTypeExt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Signatory Date --></label>
+        <name>zkmulti__SignatoryDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Signatory Person Name --></label>
+        <name>zkmulti__SignatoryPersonName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Signatory Person Title --></label>
+        <name>zkmulti__SignatoryPersonTitle__c</name>
+    </fields>
+    <fields>
+        <label><!-- Signatory Place --></label>
+        <name>zkmulti__SignatoryPlace__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sort Type --></label>
+        <name>zkmulti__Sort_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Customs Value --></label>
+        <name>zkmulti__TotalCustomsValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Rebates --></label>
+        <name>zkmulti__TotalRebates__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tracking URL --></label>
+        <name>zkmulti__TrackingUrl__c</name>
+    </fields>
+    <fields>
+        <label><!-- USPS Endorsement --></label>
+        <name>zkmulti__USPSEndorsement__c</name>
+    </fields>
+    <fields>
+        <label><!-- Use Alternate Address --></label>
+        <name>zkmulti__UseAlternateAddress__c</name>
+    </fields>
+    <fields>
+        <label><!-- Validate Address --></label>
+        <name>zkmulti__Validate_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- WebServiceShipmentId --></label>
+        <name>zkmulti__WebServiceShipmentId__c</name>
+    </fields>
+    <layouts>
+        <layout>Shipment Info Layout</layout>
+        <sections>
+            <label><!-- Alternate Address --></label>
+            <section>Alternate Address</section>
+        </sections>
+        <sections>
+            <label><!-- Bill Duties/Taxes To --></label>
+            <section>Bill Duties/Taxes To</section>
+        </sections>
+        <sections>
+            <label><!-- Billing Information --></label>
+            <section>Billing Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- DG Signatory Info --></label>
+            <section>DG Signatory Info</section>
+        </sections>
+        <sections>
+            <label><!-- DateTimes --></label>
+            <section>DateTimes</section>
+        </sections>
+        <sections>
+            <label><!-- Freight --></label>
+            <section>Freight</section>
+        </sections>
+        <sections>
+            <label><!-- Freight Density Information --></label>
+            <section>Freight Density Information</section>
+        </sections>
+        <sections>
+            <label><!-- International Information --></label>
+            <section>International Information</section>
+        </sections>
+        <sections>
+            <label><!-- Label Information --></label>
+            <section>Label Information</section>
+        </sections>
+        <sections>
+            <label><!-- Other Information --></label>
+            <section>Other Information</section>
+        </sections>
+        <sections>
+            <label><!-- Package Informartion --></label>
+            <section>Package Informartion</section>
+        </sections>
+        <sections>
+            <label><!-- Tax Identification Number (TIN) Information --></label>
+            <section>Tax Identification Number (TIN) Information</section>
+        </sections>
+        <sections>
+            <label><!-- Tracking Information --></label>
+            <section>Tracking Information</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

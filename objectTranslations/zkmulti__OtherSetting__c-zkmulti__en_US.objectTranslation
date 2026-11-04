@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Zenkraft Other Setting</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Zenkraft Other Setting</value>
+    </caseValues>
+    <fields>
+        <label><!-- Carrier --></label>
+        <name>zkmulti__Carrier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Checkbox Value --></label>
+        <name>zkmulti__CheckboxValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- DateTime Value --></label>
+        <name>zkmulti__DateTimeValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Value --></label>
+        <name>zkmulti__DateValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Decimal Value --></label>
+        <name>zkmulti__DecimalValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Name --></label>
+        <name>zkmulti__Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number Value --></label>
+        <name>zkmulti__NumberValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Object Id --></label>
+        <name>zkmulti__RelatedObjectId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Setting Type --></label>
+        <name>zkmulti__SettingType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Text Value --></label>
+        <name>zkmulti__TextValue__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

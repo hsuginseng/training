@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Custom Address Source Package</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Custom Address Source Packages</value>
+    </caseValues>
+    <fields>
+        <label><!-- Child Object --></label>
+        <name>zkmulti__Child_Object__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country of Manufacture Field --></label>
+        <name>zkmulti__Country_of_Manufacture_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom Address Source --></label>
+        <name>zkmulti__Custom_Address_Source__c</name>
+        <relationshipLabel><!-- Custom Address Source Packages --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Description Field --></label>
+        <name>zkmulti__Description_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Harmonized Code Field --></label>
+        <name>zkmulti__Harmonized_Code_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Height Field --></label>
+        <name>zkmulti__Height_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- ImageUrl Field --></label>
+        <name>zkmulti__ImageUrl_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Index --></label>
+        <name>zkmulti__Index__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Product Data --></label>
+        <name>zkmulti__Is_Customs_Data__c</name>
+    </fields>
+    <fields>
+        <label><!-- Length Field --></label>
+        <name>zkmulti__Length_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Packed Quantity Field --></label>
+        <name>zkmulti__Packed_Quantity_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Barcode Field --></label>
+        <name>zkmulti__Product_Barcode_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Code Field --></label>
+        <name>zkmulti__Product_Code_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Field --></label>
+        <name>zkmulti__Quantity_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Text Area --></label>
+        <name>zkmulti__Text_Area__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>zkmulti__Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Value Field --></label>
+        <name>zkmulti__Value_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Weight Field --></label>
+        <name>zkmulti__Weight_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Width Field --></label>
+        <name>zkmulti__Width_Field__c</name>
+    </fields>
+    <layouts>
+        <layout>Custom Address Source Item Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

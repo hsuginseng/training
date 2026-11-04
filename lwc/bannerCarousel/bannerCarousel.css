@@ -1,0 +1,56 @@
+@import 'c/cssLibrary';
+@import 'c/cssLibrarySwiper';
+
+.banner-carousel {
+	position: relative;
+	background-color: #FFFFE7;
+}
+
+.banner-carousel-pagination {
+	position: absolute;
+	bottom: 4rem;
+	left: 50%;
+	display: flex;
+	gap: 1rem;
+	width: calc(100% - 8.5rem);
+	max-width: 90rem;
+	transform: translateX(-50%);
+	z-index: 1;
+
+	@media (max-width: 1024px) {
+		width: calc(100% - 6rem);
+	}
+
+	@media (max-width: 768px) {
+		width: calc(100% - 4rem);
+	}
+
+	@media (max-width: 620px) {
+		bottom: 2rem;
+		justify-content: center;
+		width: calc(100% - 2rem);
+	}
+}
+
+.banner-carousel-pagination-btn {
+	display: block;
+	width: .75rem;
+	height: .75rem;
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+	border: 1px solid #900;
+	border-radius: 50%;
+	transition: background-color .3s ease-in-out;
+	appearance: none;
+	cursor: pointer;
+
+	&:hover,
+	&.current {
+		background-color: #900;
+	}
+
+	&.current {
+		cursor: default;
+	}
+}

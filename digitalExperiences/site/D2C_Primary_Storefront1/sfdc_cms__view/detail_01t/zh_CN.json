@@ -1,0 +1,17 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Product",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "id" : "8fe343cc-6011-4a6e-a12f-4a419a709097",
+        "attributes" : {
+          "ctaLabelAddToCart" : "添加到购物车",
+          "outOfStockLabel" : "暂时缺货",
+          "maxInCartLabel" : "已无库存"
+        }
+      } ]
+    }
+  },
+  "urlName" : "product"
+}

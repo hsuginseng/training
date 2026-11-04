@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email template for auto-response on Tours Request submission</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Tours Request Submission (MSimplified)</name>
+    <pageDevName>Tours_Request_Submission_MSimplified</pageDevName>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>Thank you for your interest in visiting Hsu’s Ginseng Farm</subject>
+    <textOnly>Case #: {{{Case.CaseNumber}}}
+
+-----------------------------------------------------
+
+{{{Case.First_Name__c}}}, 感谢您预约参观许氏花旗参园！
+
+我们的导游正在处理您的预约申请，预计将于1–2 个工作日内回复您，感谢您的耐心等待。
+
+您所提交的预约信息如下：
+
+ - 联络电话：({{{Case.Phone_Country_Code__c}}}) - {{{Case.Phone_Number__c}}}
+
+•预约参观日期：{{{Case.Preferred_Tour_Date_Time__c}}}
+
+• 希望导游使用的语言：{{{Case.Preferred_Language__c}}}
+
+此致,
+
+Hsu&apos;s Ginseng Enterprises, Inc.
+
+📌温馨提醒：
+
+• 参观费用为每人$5，可于当日在本店消费时全额抵扣。
+
+• 全程导览时间约为 1 至 1.5 小时，实际时间视当日情况略有调整。
+
+• 由于参观活动部分为户外行程，天气状况可能影响整体体验。
+
+**
+----------------------------------------------------
+
+📞联络方式：
+
+电话： (715) 675-2325 / (1800) 826-1577
+
+Email：support@hsuginseng.com
+
+网站：www.hsuginseng.com &lt; http://www.hsuginseng.com/ &gt; 
+
+**
+----------------------------------------------------
+
+🕒客服時間：
+
+周一至周五（国定假日除外）
+
+早上 8:30 至 下午 5:00 （美中时间）</textOnly>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

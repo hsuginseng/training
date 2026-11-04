@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Cancellation_Acceptance_Email</name>
+        <label>Cancellation Acceptance Email</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <actionName>Case.Alert_for_Order_Cancellation_Acceptance</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>Case.Alert_for_Order_Cancellation_Acceptance</nameSegment>
+        <offset>0</offset>
+    </actionCalls>
+    <actionCalls>
+        <name>Order_Cancellation_Confirmation_MSimplified</name>
+        <label>Order Cancellation Confirmation (MSimplified)</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <actionName>Case.Order_Cancellation_Confirmation_MSimplified</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>Case.Order_Cancellation_Confirmation_MSimplified</nameSegment>
+        <offset>0</offset>
+    </actionCalls>
+    <actionCalls>
+        <name>Order_Cancellation_Confirmation_MTraditional</name>
+        <label>Order Cancellation Confirmation (MTraditional)</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <actionName>Case.Customer_Support_Order_Cancellation_Acceptance_Email_MTraditional</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>Case.Customer_Support_Order_Cancellation_Acceptance_Email_MTraditional</nameSegment>
+        <offset>0</offset>
+    </actionCalls>
+    <apiVersion>64.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <decisions>
+        <name>Null_Check_for_Email</name>
+        <label>Null Check for Email</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Check_Contact_Email_Address</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Email__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.SuppliedEmail</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Preferred_Language</targetReference>
+            </connector>
+            <label>Check Contact Email Address</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Preferred_Language</name>
+        <label>Preferred Language</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>Cancellation_Acceptance_Email</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>English</defaultConnectorLabel>
+        <rules>
+            <name>Mandarin_Traditional</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Preferred_Language__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Traditional Mandarin</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Order_Cancellation_Confirmation_MTraditional</targetReference>
+            </connector>
+            <label>Mandarin Traditional</label>
+        </rules>
+        <rules>
+            <name>Mandarin_Simplified</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Preferred_Language__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Simplified Mandarin</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Order_Cancellation_Confirmation_MSimplified</targetReference>
+            </connector>
+            <label>Mandarin Simplified</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <interviewLabel>Customer Support Order Cancellation Auto-Response {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Customer Support Order Cancellation Acceptance Auto-Response</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Null_Check_for_Email</targetReference>
+        </connector>
+        <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+        <filterFormula>ISPICKVAL({!$Record.Cancellation_Status__c}, &apos;Accepted&apos;)</filterFormula>
+        <object>Case</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

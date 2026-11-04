@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>AvaTax Exemption Certificate</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>AvaTax Exemption Certificates</value>
+    </caseValues>
+    <fields>
+        <help><!-- Add the account records with the certificate. --></help>
+        <label><!-- Account --></label>
+        <name>AVA_B2BLEX__Account__c</name>
+        <relationshipLabel><!-- AvaTax Exemption Certificates --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- AvaTax certificate and company code mapping. This field is managed by AvaTax and should not be modified by user. --></help>
+        <label><!-- AvaTax Certificate Mapping --></label>
+        <name>AVA_B2BLEX__AvaTaxCertificateMapping__c</name>
+    </fields>
+    <fields>
+        <help><!-- A unique ID used by AvaTax to apply exemptions. --></help>
+        <label><!-- Certificate Number --></label>
+        <name>AVA_B2BLEX__Avalara_Certificate_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- Shows the current status of the certificate. --></help>
+        <label><!-- Certificate Status --></label>
+        <name>AVA_B2BLEX__CertificateStatus__c</name>
+    </fields>
+    <fields>
+        <help><!-- Issuing date of the certificate. --></help>
+        <label><!-- Signed Date --></label>
+        <name>AVA_B2BLEX__DateIssued__c</name>
+    </fields>
+    <fields>
+        <help><!-- The reason the customer is exempt. --></help>
+        <label><!-- Exemption Reason --></label>
+        <name>AVA_B2BLEX__ExemptionReason__c</name>
+        <relationshipLabel><!-- AvaTax Exemption Certificates --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Expiration date of the certificate. --></help>
+        <label><!-- Expiration Date --></label>
+        <name>AVA_B2BLEX__ExpirationDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- State where the exemption applies. --></help>
+        <label><!-- Exposure Zone --></label>
+        <name>AVA_B2BLEX__ExposureZone__c</name>
+        <relationshipLabel><!-- AvaTax Exemption Certificates --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>AvaTax Exemption Certificate Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Manage Certificate (Deprecated) --></label>
+        <name>AVA_B2BLEX__Manage_Compliance_Document</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- B2B &amp; D2C Commerce Certificate Utility --></label>
+        <name>AVA_B2BLEX__Save_And_Upload</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Upload Certificate (Deprecated) --></label>
+        <name>AVA_B2BLEX__Upload_Compliance_Document</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- This certificate is invalid. Please create a new certificate. --></errorMessage>
+        <name>AVA_B2BLEX__Disable_Edit_Option</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please do not edit/delete this value --></errorMessage>
+        <name>AVA_B2BLEX__Lock_AvaTax_Certificate_Mapping_Field</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please do not edit this value --></errorMessage>
+        <name>AVA_B2BLEX__Lock_Avalara_Certificate_Id_field</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Save_And_Upload --></label>
+        <name>AVA_B2BLEX__Save_And_Upload</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Export Log</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Export Logs</value>
+    </caseValues>
+    <fields>
+        <label><!-- CSV List Value Separator --></label>
+        <name>pimly__CSV_List_Value_Separator__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSV Use Asset URLs --></label>
+        <name>pimly__CSV_Use_Asset_URLs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expired --></label>
+        <name>pimly__Expired__c</name>
+    </fields>
+    <fields>
+        <help><!-- The key to use in identifying Pimly objects during the export --></help>
+        <label><!-- Identifier --></label>
+        <name>pimly__Identifier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job End Time --></label>
+        <name>pimly__Job_End_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Progress --></label>
+        <name>pimly__Job_Progress__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Start Time --></label>
+        <name>pimly__Job_Start_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Status --></label>
+        <name>pimly__Job_Status__c</name>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Failed</masterLabel>
+            <translation><!-- Failed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Job Type --></label>
+        <name>pimly__Job_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Message --></label>
+        <name>pimly__Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Output Expiration --></label>
+        <name>pimly__Output_Expiration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Output Filetype --></label>
+        <name>pimly__Output_Filetype__c</name>
+        <picklistValues>
+            <masterLabel>CSV</masterLabel>
+            <translation><!-- CSV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JSON</masterLabel>
+            <translation><!-- JSON --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Output URL --></label>
+        <name>pimly__Output_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pimly Channel --></label>
+        <name>pimly__Pimly_Channel__c</name>
+        <relationshipLabel><!-- Export Logs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Pimly Locale --></label>
+        <name>pimly__Pimly_Locale__c</name>
+        <relationshipLabel><!-- Export Logs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Pimly ParsedQuery --></label>
+        <name>pimly__Pimly_ParsedQuery__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pimly Record Type --></label>
+        <name>pimly__Pimly_Record_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Processed Records --></label>
+        <name>pimly__Processed_Records__c</name>
+    </fields>
+    <fields>
+        <label><!-- SOQL Where Clause --></label>
+        <name>pimly__SOQL_Where_Clause__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Records --></label>
+        <name>pimly__Total_Records__c</name>
+    </fields>
+    <layouts>
+        <layout>Export Log Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

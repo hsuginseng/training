@@ -1,0 +1,96 @@
+{
+  "type" : "sfdc_cms__themeLayout",
+  "title" : "Checkout Layout",
+  "contentBody" : {
+    "component" : {
+      "attributes" : { },
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "dxpStyle" : { },
+            "imageInfos" : "",
+            "richTextValue" : "<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-NFT5LV3\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->"
+          },
+          "definition" : "community_builder:htmlEditor",
+          "id" : "0de1d33a-8db3-4d41-b40f-1b47c0300a13",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "dxpStyle" : { }
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "left",
+                "dxpStyle" : { },
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCVPBGM4E2KJCTNPEXVJDVW5JUW4?lastModifiedDate=Thu Sep 05 16:14:59 GMT 2024\",\"altText\":\"\",\"contentKey\":\"MCVPBGM4E2KJCTNPEXVJDVW5JUW4\",\"contentType\":null}}",
+                "imageInfoMobile" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MC4NMDXMKIGZGARCZM3724ISDDHU?lastModifiedDate=Mon Jul 29 20:55:18 GMT 2024\",\"altText\":\"\",\"contentKey\":\"MC4NMDXMKIGZGARCZM3724ISDDHU\",\"contentType\":null}}",
+                "logoWidth" : 250
+              },
+              "definition" : "dxp_content_layout:siteLogo",
+              "id" : "e12fa564-25c9-4bf3-b350-df5c1bd7f30e",
+              "type" : "component"
+            } ],
+            "id" : "ce3e1443-368e-4fab-845a-eaad661bd5e7",
+            "name" : "storeLogo",
+            "title" : "Store Logo",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "iconStyle" : "userIcon",
+                "includeCompanyName" : false,
+                "logOutLabel" : "Log Out",
+                "loginLinkText" : "Log In",
+                "loginLinkTextDecoration" : "{\"underline\":true}",
+                "loginLinkTextOrientation" : "leftOfIcon",
+                "menuStyle" : "iconAndName",
+                "userNameTextOrientation" : "leftOfIcon",
+                "userProfileMenuNavigationMenuEditor" : "Default_User_Profile_Menu"
+              },
+              "definition" : "commerce_builder:userProfileMenu",
+              "id" : "18e9887a-54ab-478c-83ba-41db18db9bb6",
+              "type" : "component"
+            } ],
+            "id" : "1d052f4e-799f-42b0-9f07-ca6a280660a4",
+            "name" : "myAccount",
+            "title" : "myAccount",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "countType" : "TotalProductCount",
+                "dxpStyle" : { },
+                "showCount" : false
+              },
+              "definition" : "commerce_builder:cartBadge",
+              "id" : "ca6d6940-19de-4fe3-8bf7-2174f28b4ffe",
+              "type" : "component"
+            } ],
+            "id" : "2bfb73e1-2460-4f01-85ef-45f7d337bb05",
+            "name" : "cart",
+            "title" : "Cart",
+            "type" : "region"
+          } ],
+          "definition" : "commerce_unified_checkout:layoutHeader",
+          "id" : "1f99c469-cfc1-46f9-aa37-8105801f6179",
+          "type" : "component"
+        } ],
+        "id" : "3fd68748-3452-4a44-a7a6-61fe9d9c19f1",
+        "name" : "header",
+        "title" : "Header",
+        "type" : "region"
+      }, {
+        "id" : "a2eebd7b-5c8c-4aa1-af9f-554d09032cde",
+        "name" : "footer",
+        "title" : "Footer",
+        "type" : "region"
+      } ],
+      "definition" : "commerce:layoutSite",
+      "id" : "6889dfcb-696f-4743-9a5d-16227cace7f3",
+      "type" : "component"
+    }
+  },
+  "urlName" : "checkout-layout"
+}

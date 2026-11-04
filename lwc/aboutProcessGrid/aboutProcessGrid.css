@@ -1,0 +1,12 @@
+@import 'c/cssLibrary';
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 5rem 1.375rem;
+
+	@media (max-width: 620px) {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 3rem 1.375rem;
+	}
+}

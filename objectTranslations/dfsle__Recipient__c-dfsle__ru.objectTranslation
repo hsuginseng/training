@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Получатель конверта Docusign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Получатели конверта Docusign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Получатель конверта Docusign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Получатели конверта Docusign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Получатель конверта Docusign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Получатели конверта Docusign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Получатель конверта Docusign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Получатели конверта Docusign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Получатель конверта Docusign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Получатели конверта Docusign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>false</plural>
+        <value>Получатель конверта Docusign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>true</plural>
+        <value>Получатели конверта Docusign</value>
+    </caseValues>
+    <fields>
+        <help><!-- Access Code --></help>
+        <label>Код доступа</label>
+        <name>dfsle__AccessCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deliver By Sms --></label>
+        <name>dfsle__DeliverBySms__c</name>
+    </fields>
+    <fields>
+        <label>Сообщение электронной почты</label>
+        <name>dfsle__EmailMessage__c</name>
+    </fields>
+    <fields>
+        <label>Тема сообщения электронной почты</label>
+        <name>dfsle__EmailSubject__c</name>
+    </fields>
+    <fields>
+        <label>Электронная почта</label>
+        <name>dfsle__Email__c</name>
+    </fields>
+    <fields>
+        <label>ИД получателя конверта</label>
+        <name>dfsle__EnvelopeRecipientId__c</name>
+    </fields>
+    <fields>
+        <help><!-- DocuSign Envelope --></help>
+        <label>Конверт DocuSign</label>
+        <name>dfsle__Envelope__c</name>
+        <relationshipLabel>Получатели конверта DocuSign</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Адрес электронной почты организатора подписания</label>
+        <name>dfsle__HostEmail__c</name>
+    </fields>
+    <fields>
+        <label>Имя организатора подписания</label>
+        <name>dfsle__HostName__c</name>
+    </fields>
+    <fields>
+        <label>Требуется проверка идентификатора</label>
+        <name>dfsle__IdCheckRequired__c</name>
+    </fields>
+    <fields>
+        <label>Язык</label>
+        <name>dfsle__Language__c</name>
+    </fields>
+    <fields>
+        <label>Примечание получателя</label>
+        <name>dfsle__Note__c</name>
+    </fields>
+    <fields>
+        <label>Параметры</label>
+        <name>dfsle__Options__c</name>
+    </fields>
+    <fields>
+        <label>Только для чтения</label>
+        <name>dfsle__ReadOnly__c</name>
+    </fields>
+    <fields>
+        <label>Требуется</label>
+        <name>dfsle__Required__c</name>
+    </fields>
+    <fields>
+        <label>Значение роли</label>
+        <name>dfsle__RoleValue__c</name>
+    </fields>
+    <fields>
+        <help><!-- Role --></help>
+        <label>Роль</label>
+        <name>dfsle__Role__c</name>
+    </fields>
+    <fields>
+        <help><!-- Routing Order --></help>
+        <label>Порядок подписания</label>
+        <name>dfsle__RoutingOrder__c</name>
+    </fields>
+    <fields>
+        <label>Последовательность</label>
+        <name>dfsle__Sequence__c</name>
+    </fields>
+    <fields>
+        <label>Подписать сейчас</label>
+        <name>dfsle__SignNow__c</name>
+    </fields>
+    <fields>
+        <help><!-- Signing Group ID --></help>
+        <label>Идентификатор группы подписания</label>
+        <name>dfsle__SigningGroupId__c</name>
+    </fields>
+    <fields>
+        <label>Имя группы подписания</label>
+        <name>dfsle__SigningGroupName__c</name>
+    </fields>
+    <fields>
+        <label>Номер телефона для SMS</label>
+        <name>dfsle__SmsPhoneNumber__c</name>
+    </fields>
+    <fields>
+        <label>Идентификатор источника</label>
+        <name>dfsle__SourceId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Type --></help>
+        <label>Тип</label>
+        <name>dfsle__Type__c</name>
+        <picklistValues>
+            <masterLabel>Allow to Edit</masterLabel>
+            <translation><!-- Allow to Edit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Person Signer</masterLabel>
+            <translation><!-- In Person Signer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Needs to Sign</masterLabel>
+            <translation><!-- Needs to Sign --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Needs to View</masterLabel>
+            <translation><!-- Needs to View --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Receives a Copy</masterLabel>
+            <translation><!-- Receives a Copy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seal</masterLabel>
+            <translation><!-- Seal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Specify Recipients</masterLabel>
+            <translation><!-- Specify Recipients --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Update Recipients</masterLabel>
+            <translation><!-- Update Recipients --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Witness</masterLabel>
+            <translation><!-- Witness --></translation>
+        </picklistValues>
+    </fields>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Name</nameFieldLabel>
+</CustomObjectTranslation>

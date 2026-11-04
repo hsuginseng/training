@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ActivationPlatformActvAttr xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activationPlatform>cdpactvstrgptnr__Snapchat_Conversions_API</activationPlatform>
+    <actvPlatformAdncIdentifier>cdpactvstrgptnr__Snapchat_Conversions_API177739972703317773997270341777399727035</actvPlatformAdncIdentifier>
+    <applyHash>false</applyHash>
+    <destinationName>ph</destinationName>
+    <fieldName>FormattedE164PhoneNumber</fieldName>
+    <isFromSourceObject>false</isFromSourceObject>
+    <isIdentifier>true</isIdentifier>
+    <isRequired>false</isRequired>
+    <masterLabel>Phone Number</masterLabel>
+    <objectName>ContactPointPhone</objectName>
+</ActivationPlatformActvAttr>

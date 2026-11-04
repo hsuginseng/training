@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Granular authorization rules for commit and environment operations (Granular Authorization Engine).</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>copado__ApplyToAllUsers__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When selected, the rule applies to all users in the org.</description>
+        <inlineHelpText>When selected, the rule applies to all users in the org. Do not populate User or Persona.</inlineHelpText>
+        <label>Apply to All Users</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>copado__Environment__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Target environment for Environment-type rules.</description>
+        <inlineHelpText>Choose the specific environment where this rule should be applied</inlineHelpText>
+        <label>Environment</label>
+        <referenceTo>copado__Environment__c</referenceTo>
+        <relationshipLabel>Security Rules</relationshipLabel>
+        <relationshipName>Security_Rules</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>copado__IsActive__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Inactive rules are ignored by policy evaluation.</description>
+        <inlineHelpText>Activate/Deactivate this rule</inlineHelpText>
+        <label>Active</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>copado__PersonaDefinition__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Persona-specific security rule subject.</description>
+        <inlineHelpText>Select a Persona to apply this rule to</inlineHelpText>
+        <label>Persona</label>
+        <referenceTo>copado__Persona_Definition__c</referenceTo>
+        <relationshipLabel>Security Rules</relationshipLabel>
+        <relationshipName>Security_Rules</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>copado__Pipeline__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Optional pipeline scope. Blank means the rule applies org-wide for all pipelines.</description>
+        <inlineHelpText>Choose a specific pipeline scope or leave blank to apply this rule in all Pipelines</inlineHelpText>
+        <label>Pipeline</label>
+        <referenceTo>copado__Deployment_Flow__c</referenceTo>
+        <relationshipLabel>Security Rules</relationshipLabel>
+        <relationshipName>Security_Rules</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>copado__RuleEffect__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Whether matching actions are allowed or denied when this rule applies</description>
+        <inlineHelpText>Define if this rule allows or prevents an action</inlineHelpText>
+        <label>Rule Effect</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Allow</fullName>
+                    <default>true</default>
+                    <label>Allow</label>
+                </value>
+                <value>
+                    <fullName>Deny</fullName>
+                    <default>false</default>
+                    <label>Deny</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>copado__TargetAction__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Operation controlled by this rule. Values depend on Type.</description>
+        <inlineHelpText>Choose the action you want to enforce</inlineHelpText>
+        <label>Target Action</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>copado__Type__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Commit_AddWithSystemPermissions</fullName>
+                    <default>false</default>
+                    <label>Commit (Add With System Permissions)</label>
+                </value>
+                <value>
+                    <fullName>Commit_Delete</fullName>
+                    <default>false</default>
+                    <label>Commit (Delete)</label>
+                </value>
+                <value>
+                    <fullName>Commit_Full</fullName>
+                    <default>false</default>
+                    <label>Commit (Full)</label>
+                </value>
+                <value>
+                    <fullName>Commit_Retrieve_Only</fullName>
+                    <default>false</default>
+                    <label>Commit (Retrieve Only)</label>
+                </value>
+                <value>
+                    <fullName>Commit_Selective</fullName>
+                    <default>false</default>
+                    <label>Commit (Selective)</label>
+                </value>
+                <value>
+                    <fullName>Validate</fullName>
+                    <default>false</default>
+                    <label>Validate</label>
+                </value>
+                <value>
+                    <fullName>Deploy</fullName>
+                    <default>false</default>
+                    <label>Deploy</label>
+                </value>
+                <value>
+                    <fullName>Commit_Add</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Commit_Add</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Metadata</controllingFieldValue>
+                <valueName>Commit_AddWithSystemPermissions</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Metadata</controllingFieldValue>
+                <valueName>Commit_Delete</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Metadata</controllingFieldValue>
+                <valueName>Commit_Full</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Metadata</controllingFieldValue>
+                <valueName>Commit_Retrieve_Only</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Metadata</controllingFieldValue>
+                <valueName>Commit_Selective</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Environment</controllingFieldValue>
+                <valueName>Validate</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Environment</controllingFieldValue>
+                <valueName>Deploy</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>copado__TargetValues__c</fullName>
+        <deprecated>false</deprecated>
+        <description>For Metadata rules: comma-separated metadata type API names. Blank means all metadata types.</description>
+        <inlineHelpText>For Metadata rules, enter metadata type API names separated by commas (e.g. ApexClass, Profile). Leave blank to apply to all metadata types.</inlineHelpText>
+        <label>Target Values</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>copado__Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Rule category — Metadata commit restrictions or Environment deploy/validate restrictions.</description>
+        <inlineHelpText>Choose the type of rule you want to enforce</inlineHelpText>
+        <label>Type</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Metadata</fullName>
+                    <default>true</default>
+                    <label>Metadata</label>
+                </value>
+                <value>
+                    <fullName>Environment</fullName>
+                    <default>false</default>
+                    <label>Environment</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>copado__User__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>User-specific security rule subject.</description>
+        <inlineHelpText>Select an individual user to apply this rule to</inlineHelpText>
+        <label>User</label>
+        <referenceTo>User</referenceTo>
+        <relationshipLabel>Security Rules</relationshipLabel>
+        <relationshipName>Security_Rules</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <label>Security Rule</label>
+    <nameField>
+        <label>Security Rule Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Security Rules</pluralLabel>
+    <searchLayouts>
+        <searchResultsAdditionalFields>copado__IsActive__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>copado__Type__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>copado__RuleEffect__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>copado__TargetAction__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>copado__ApplyToAllUsers__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>copado__Pipeline__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Read</sharingModel>
+    <validationRules>
+        <fullName>copado__EnforceSingleSubject</fullName>
+        <active>true</active>
+        <description>Exactly one subject scope must be set: Apply to All Users, User, or Persona.</description>
+        <errorConditionFormula>(
+  IF(copado__ApplyToAllUsers__c, 1, 0) +
+  IF(NOT(ISBLANK(copado__User__c)), 1, 0) +
+  IF(NOT(ISBLANK(copado__PersonaDefinition__c)), 1, 0)
+) &lt;&gt; 1</errorConditionFormula>
+        <errorMessage>Select exactly one subject: Apply to All Users, User, or Persona.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>copado__Environment_Requires_Target</fullName>
+        <active>true</active>
+        <description>Environment-type rules must specify a target environment.</description>
+        <errorConditionFormula>AND(
+  ISPICKVAL(copado__Type__c, &quot;Environment&quot;),
+  ISBLANK(copado__Environment__c)
+)</errorConditionFormula>
+        <errorDisplayField>copado__Environment__c</errorDisplayField>
+        <errorMessage>Environment is required when Type is Environment.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

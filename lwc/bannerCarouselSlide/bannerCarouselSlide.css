@@ -1,0 +1,101 @@
+@import 'c/cssLibrary';
+
+.banner-carousel-slide {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 4rem;
+	width: 100%;
+
+	@media (max-width: 620px) {
+		display: block;
+	}
+}
+
+.banner-carousel-slide-inner {
+	position: relative;
+	display: flex;
+	align-items: center;
+	width: calc(100% - 8.5rem);
+	height: 100%;
+	max-width: 90rem;
+	margin-inline: auto;
+	overflow: hidden;
+
+	@media (max-width: 1024px) {
+		width: calc(100% - 6rem);
+	}
+
+	@media (max-width: 768px) {
+		width: calc(100% - 4rem);
+	}
+
+	@media (max-width: 620px) {
+		width: calc(100% - 2rem);
+	}
+}
+
+.banner-carousel-slide-text {
+	width: calc(50% - 3.125rem);
+	padding: 12.5rem 0 16.5rem 0;
+
+	@media (max-width: 1024px) {
+		padding: 8.5rem 0 12.5rem 0;
+	}
+
+	@media (max-width: 768px) {
+		width: calc(50% - 2rem);
+		padding: 6.5rem 0 10.5rem 0;
+	}
+
+	@media (max-width: 620px) {
+		width: 100%;
+		padding: 2rem 0 5rem 0;
+	}
+
+	h2 {
+		margin: 0 0 1rem 0;
+	}
+	 
+	p {
+		font-family: "Acumin VF", sans-serif;
+		font-size: 1.125rem;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 1.8;
+		color: #272525;
+		margin: 0 0 2rem 0;
+
+		@media (max-width: 620px) {
+			font-size: 1.063rem;
+		}
+	}
+}
+
+.banner-carousel-slide-image {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: calc(50% - 3.125rem);
+	height: 100%;
+
+	@media (max-width: 768px) {
+		width: calc(50% - 2rem);
+	}
+
+	@media (max-width: 620px) {
+		position: relative;
+		top: unset;
+		right: unset;
+		height: unset;
+		width: 100%;
+		aspect-ratio: 2 / 1;
+	}
+
+	img {
+		display: block;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+}

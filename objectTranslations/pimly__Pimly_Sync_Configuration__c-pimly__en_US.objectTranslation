@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Pimly SmartSync Configuration</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Pimly SmartSync Configurations</value>
+    </caseValues>
+    <fields>
+        <label><!-- Additional Settings --></label>
+        <name>pimly__Additional_Settings__c</name>
+    </fields>
+    <fields>
+        <label><!-- B2B Store --></label>
+        <name>pimly__B2B_Store__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bundle Mappings --></label>
+        <name>pimly__Bundle_Mappings__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>pimly__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Destination Catalog ID --></label>
+        <name>pimly__Destination_Catalog_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- External ID: AttributeDefinition --></label>
+        <name>pimly__ExtId_AttributeDefinition__c</name>
+    </fields>
+    <fields>
+        <label><!-- External ID: AttributePicklistValue --></label>
+        <name>pimly__ExtId_AttributePicklistValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- External ID: AttributePicklist --></label>
+        <name>pimly__ExtId_AttributePicklist__c</name>
+    </fields>
+    <fields>
+        <label><!-- External ID: Product2 --></label>
+        <name>pimly__ExtId_Product2__c</name>
+    </fields>
+    <fields>
+        <label><!-- External ID: ProductCategoryProduct --></label>
+        <name>pimly__ExtId_ProductCategoryProduct__c</name>
+    </fields>
+    <fields>
+        <label><!-- External ID: ProductCategory --></label>
+        <name>pimly__ExtId_ProductCategory__c</name>
+    </fields>
+    <fields>
+        <label><!-- External ID: ProductClassificationAttr --></label>
+        <name>pimly__ExtId_ProductClassificationAttr__c</name>
+    </fields>
+    <fields>
+        <label><!-- External ID: ProductClassification --></label>
+        <name>pimly__ExtId_ProductClassification__c</name>
+    </fields>
+    <fields>
+        <label><!-- External ID: ProductComponentGroup --></label>
+        <name>pimly__ExtId_ProductComponentGroup__c</name>
+    </fields>
+    <fields>
+        <label><!-- External ID: ProductRelatedComponent --></label>
+        <name>pimly__ExtId_ProductRelatedComponent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source Pimly Channel --></label>
+        <name>pimly__Pimly_Channel__c</name>
+        <relationshipLabel><!-- SmartSync Configurations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Shopify Store --></label>
+        <name>pimly__Shopify_Store__c</name>
+    </fields>
+    <fields>
+        <label><!-- SmartSync Job Type --></label>
+        <name>pimly__Sync_Job_Type__c</name>
+        <picklistValues>
+            <masterLabel>ARM</masterLabel>
+            <translation><!-- ARM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B2B</masterLabel>
+            <translation><!-- B2B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product2</masterLabel>
+            <translation><!-- Product2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shopify</masterLabel>
+            <translation><!-- Shopify --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sync Validated Products Only --></label>
+        <name>pimly__Sync_Validated_Products_Only__c</name>
+    </fields>
+    <fields>
+        <label><!-- Translation Mappings --></label>
+        <name>pimly__Translation_Mappings__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

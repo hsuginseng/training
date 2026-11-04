@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This sends the inheritnace group details to the display panel within the inheritance model app page</description>
+    <isExposed>true</isExposed>
+    <lightningMessageFields>
+        <description>selected group element details</description>
+        <fieldName>groupelement</fieldName>
+    </lightningMessageFields>
+    <masterLabel>GroupDetailstoDisplay</masterLabel>
+</LightningMessageChannel>

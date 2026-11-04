@@ -1,0 +1,37 @@
+@import 'c/cssLibrary';
+
+.sort div.slds-combobox__form-element {
+	border: none !important;
+}
+
+.sort lightning-icon {
+	display: none !important;
+}
+
+.sort button {
+	position: relative;
+	display: block !important;
+	width: 100% !important;
+	font-family: 'Acumin VF', sans-serif !important;
+	font-size: 1rem !important;
+	line-height: 1 !important;
+	text-align: center !important;
+	text-decoration: none !important;
+	color: #272525 !important;
+	padding: 1.25rem 6rem 1.25rem 1.25rem !important;
+	background-color: #fff !important;
+	background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="m6 9 6 6 6-6" stroke="%23272525" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+	background-position: calc(100% - 1.25rem) center;
+	background-repeat: no-repeat;
+	border: 1px solid #900 !important;
+ 	border-radius: 1rem !important;
+	appearance: none;
+	transition: all .3s ease-in-out !important;
+	
+
+	&:hover {
+		color: #fff !important;
+		background-color: #900 !important;
+		background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="m6 9 6 6 6-6" stroke="%23fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+	}
+}

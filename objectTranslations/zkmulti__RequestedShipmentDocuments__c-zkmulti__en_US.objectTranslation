@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Requested Shipment Documents</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Requested Shipment Documents</value>
+    </caseValues>
+    <fields>
+        <label><!-- Certificate Of Origin --></label>
+        <name>zkmulti__CO__c</name>
+    </fields>
+    <fields>
+        <label><!-- Commercial Invoice LetterHead --></label>
+        <name>zkmulti__CommercialInvoiceLetterHead__c</name>
+    </fields>
+    <fields>
+        <label><!-- Commercial Invoice Signature --></label>
+        <name>zkmulti__CommercialInvoiceSignature__c</name>
+    </fields>
+    <fields>
+        <label><!-- Commercial Invoice --></label>
+        <name>zkmulti__CommercialInvoice__c</name>
+        <relationshipLabel><!-- Requested Shipment Documents --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Consolidation --></label>
+        <name>zkmulti__Consolidation__c</name>
+        <relationshipLabel><!-- Requested Shipment Documents --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- EEI Form --></label>
+        <name>zkmulti__EEIForm__c</name>
+        <relationshipLabel><!-- Requested Shipment Documents --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Enable Post Shipment Upload --></label>
+        <name>zkmulti__EnablePostShipmentUpload__c</name>
+    </fields>
+    <fields>
+        <label><!-- Export Date --></label>
+        <name>zkmulti__ExportDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Sold-To / Importer of Records Account (if not same as consignee) --></help>
+        <label><!-- Sold-To/Importer Account --></label>
+        <name>zkmulti__ImporterAccount__c</name>
+        <relationshipLabel><!-- Requested Shipment Documents --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Sold-To / Importer of Records Same as Consignee --></help>
+        <label><!-- Sold-To/Importer Same as Consignee --></label>
+        <name>zkmulti__ImporterSameAsConsignee__c</name>
+    </fields>
+    <fields>
+        <label><!-- Importer City --></label>
+        <name>zkmulti__Importer_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Importer Company --></label>
+        <name>zkmulti__Importer_Company__c</name>
+    </fields>
+    <fields>
+        <label><!-- Importer Contact Email --></label>
+        <name>zkmulti__Importer_Contact_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Importer Contact Name --></label>
+        <name>zkmulti__Importer_Contact_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Importer Contact Phone --></label>
+        <name>zkmulti__Importer_Contact_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Importer Country --></label>
+        <name>zkmulti__Importer_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Importer State/Province --></label>
+        <name>zkmulti__Importer_State_Province__c</name>
+    </fields>
+    <fields>
+        <label><!-- Importer Street --></label>
+        <name>zkmulti__Importer_Street__c</name>
+    </fields>
+    <fields>
+        <label><!-- Importer Tax Id Type --></label>
+        <name>zkmulti__Importer_Tax_Id_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Importer Tax Id --></label>
+        <name>zkmulti__Importer_Tax_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Importer Zip/Postal Code --></label>
+        <name>zkmulti__Importer_Zip_Postal_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mod Key --></label>
+        <name>zkmulti__Mod_Key__c</name>
+    </fields>
+    <fields>
+        <label><!-- USMCA CO Signature --></label>
+        <name>zkmulti__NaftaCoSignature__c</name>
+    </fields>
+    <fields>
+        <label><!-- USMCA CO --></label>
+        <name>zkmulti__NaftaCo__c</name>
+        <relationshipLabel><!-- Requested Shipment Documents --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- If selected, indicates that the specified international documents will not be submitted electronically to Carrier --></help>
+        <label><!-- Override Paperless for Intl Documents --></label>
+        <name>zkmulti__OverridePaperlessForIntlDocuments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partial Commercial Invoice --></label>
+        <name>zkmulti__PartialCommercialInvoice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pro Forma Invoice LetterHead --></label>
+        <name>zkmulti__ProFormaInvoiceLetterHead__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pro Forma Invoice Signature --></label>
+        <name>zkmulti__ProFormaInvoiceSignature__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pro Forma Invoice --></label>
+        <name>zkmulti__ProFormaInvoice__c</name>
+        <relationshipLabel><!-- Requested Shipment Documents --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Shipment --></label>
+        <name>zkmulti__Shipment__c</name>
+        <relationshipLabel><!-- Requested Shipment Documents --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Requested Shipment Documents Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Signatures &amp; Letter Heads --></label>
+            <section>Signatures &amp; Letter Heads</section>
+        </sections>
+        <sections>
+            <label><!-- Sold-To / Importer --></label>
+            <section>Sold-To / Importer</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

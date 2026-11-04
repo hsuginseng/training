@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Updates the collection of documents in the sending experience</description>
+    <isExposed>true</isExposed>
+    <lightningMessageFields>
+        <description>The documents to be set while Sending with Docusign</description>
+        <fieldName>documents</fieldName>
+    </lightningMessageFields>
+    <masterLabel>SendingUpdateDocuments</masterLabel>
+</LightningMessageChannel>

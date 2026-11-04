@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>データセット</value>
+    </caseValues>
+    <fields>
+        <help><!-- The selected Data Template will be used as a base for object relationships, related fields and filtering. --></help>
+        <label>データテンプレート</label>
+        <name>copado__Data_Template__c</name>
+        <relationshipLabel>データセット</relationshipLabel>
+    </fields>
+    <fields>
+        <label>説明</label>
+        <name>copado__Description__c</name>
+    </fields>
+    <fields>
+        <label>ジョブ実行</label>
+        <name>copado__Execution_Job__c</name>
+        <relationshipLabel>データセット</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ファイルの実行状況</label>
+        <name>copado__Execution_Status__c</name>
+    </fields>
+    <fields>
+        <help><!-- This date is automatically updated by Copado when generating the data set CSV files from a source environment. Update this value when generating the CSV files from an external database or process. --></help>
+        <label>最終生成日付</label>
+        <name>copado__Last_Generated_Date__c</name>
+    </fields>
+    <fields>
+        <label>MCDD有効</label>
+        <name>copado__MCDD_Enabled__c</name>
+    </fields>
+    <fields>
+        <label>プラットフォーム</label>
+        <name>copado__Platform__c</name>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFDX</masterLabel>
+            <translation><!-- SFDX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce</masterLabel>
+            <translation><!-- Salesforce --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The Environment where the data was extracted from in the last generation of Data Sets. --></help>
+        <label>データソース環境</label>
+        <name>copado__Source_Org__c</name>
+        <relationshipLabel>データセット</relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Data Set Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- General Information --></label>
+            <section>General Information</section>
+        </sections>
+        <sections>
+            <label><!-- Last File Generation --></label>
+            <section>Last File Generation</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>データセット名</nameFieldLabel>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>データセットをデプロイ</label>
+        <name>copado__Deploy_Data_Set</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>データセットのデプロイ</label>
+        <name>copado__Deploy_Data_Set_MC</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>データセットを生成</label>
+        <name>copado__Generate_Data_Set</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>データセットの生成</label>
+        <name>copado__Generate_Data_Set_MC</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>ファイルバージョンを削除</label>
+        <name>copado__Remove_File_Versions</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage>データセットが作成されたら、データテンプレートを変更することはできません。新しいデータセットを作成してください。</errorMessage>
+        <name>copado__Prevent_change_Data_Template</name>
+    </validationRules>
+</CustomObjectTranslation>

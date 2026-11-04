@@ -1,0 +1,126 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Our Story",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"e6751fd0-8af2-4260-9332-0f06eab7396c\",\"columns\":[{\"UUID\":\"289f42bc-cbfe-4e1b-b58a-a464833e1f3e\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "0px",
+                    "left" : "200px",
+                    "right" : "200px",
+                    "top" : "0px"
+                  }
+                },
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCJX56GIMPDBHRJFX4MUVKKBI7DA?lastModifiedDate=Wed Mar 11 15:38:48 GMT 2026\",\"altText\":\"\",\"contentKey\":\"MCJX56GIMPDBHRJFX4MUVKKBI7DA\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "f49b2d83-a70a-4897-8bfb-b4d6a3b9cab7",
+              "type" : "component"
+            } ],
+            "id" : "289f42bc-cbfe-4e1b-b58a-a464833e1f3e",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "e6751fd0-8af2-4260-9332-0f06eab7396c",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"9eb0d203-8a1a-4931-b560-b488a6ca4b0b\",\"columns\":[{\"UUID\":\"2609cca4-438b-46eb-91bc-92e991c5fd75\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : {
+                  "isVisible" : false
+                },
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCROQFIX5465E3BBO4S2G5DKNXQI?lastModifiedDate=Wed Mar 11 16:33:34 GMT 2026\",\"altText\":\"\",\"contentKey\":\"MCROQFIX5465E3BBO4S2G5DKNXQI\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "db70e5c6-9a24-4302-bd91-239808712516",
+              "type" : "component"
+            } ],
+            "id" : "2609cca4-438b-46eb-91bc-92e991c5fd75",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "9eb0d203-8a1a-4931-b560-b488a6ca4b0b",
+          "type" : "component"
+        } ],
+        "id" : "7ab6ed93-da53-4e11-b917-a9fecce3c6b0",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "Our Story",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "e393e148-0979-4781-9046-4281c50a4745",
+          "type" : "component"
+        } ],
+        "id" : "7163ec37-db4b-47ae-9eec-71883878ad70",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "aea6293b-e1aa-4f8b-a8b3-d8e131668936",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-thecompany-aboutus"
+  },
+  "urlName" : "thecompany-aboutus"
+}

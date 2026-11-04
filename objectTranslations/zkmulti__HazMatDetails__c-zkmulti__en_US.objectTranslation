@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Dangerous Goods</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Dangerous Goods</value>
+    </caseValues>
+    <fields>
+        <label><!-- ADR Item Number --></label>
+        <name>zkmulti__ADRItemNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- ADR Points --></label>
+        <name>zkmulti__ADRPoints__c</name>
+    </fields>
+    <fields>
+        <label><!-- Additional Description --></label>
+        <name>zkmulti__AdditionalDescription__c</name>
+    </fields>
+    <fields>
+        <label><!-- All Packed HazMat In One Package --></label>
+        <name>zkmulti__AllPackedHaZmatInOnePackage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Authorization --></label>
+        <name>zkmulti__Authorization__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cargo Craft Only --></label>
+        <name>zkmulti__CargoCraftOnly__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier --></label>
+        <name>zkmulti__Carrier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Class Division Number --></label>
+        <name>zkmulti__ClassDivisionNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dangerous Goods Type --></label>
+        <name>zkmulti__CommodityRegulatedLevelCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Container --></label>
+        <name>zkmulti__Container__c</name>
+    </fields>
+    <fields>
+        <help><!-- Telephone number to use for contact in the event of an emergency --></help>
+        <label><!-- Emergency Contact Number --></label>
+        <name>zkmulti__EmergencyContactNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- HazMat Container --></label>
+        <name>zkmulti__HazMatContainer__c</name>
+        <relationshipLabel><!-- Dangerous Goods --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- ID Number --></label>
+        <name>zkmulti__IDNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Profile --></label>
+        <name>zkmulti__Is_Profile__c</name>
+    </fields>
+    <fields>
+        <label><!-- Net Explosive Amount --></label>
+        <name>zkmulti__NetExplosiveAmount__c</name>
+    </fields>
+    <fields>
+        <help><!-- The total mass of the contained explosive substances, without the mass of any casings, bullets, shells, etc. --></help>
+        <label><!-- Net Explosive Type --></label>
+        <name>zkmulti__NetExplosiveType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Net Explosive Units --></label>
+        <name>zkmulti__NetExplosiveUnits__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number Of Containers --></label>
+        <name>zkmulti__NumberOfContainers__c</name>
+    </fields>
+    <fields>
+        <help><!-- Offeror&apos;s name or contract number, per DOT regulation --></help>
+        <label><!-- Offeror --></label>
+        <name>zkmulti__Offeror__c</name>
+    </fields>
+    <fields>
+        <help><!-- Units in which the hazardous commodity is packaged --></help>
+        <label><!-- Packaging Count Units --></label>
+        <name>zkmulti__PackagingCountUnits__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of units, in the units specified by the Packaging Count Units --></help>
+        <label><!-- Packaging Count --></label>
+        <name>zkmulti__PackagingCount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Packaging Group Type --></label>
+        <name>zkmulti__PackagingGroupType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Packaging Instruction Code --></label>
+        <name>zkmulti__PackagingInstructionCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Packaging Type Quantity --></label>
+        <name>zkmulti__PackagingTypeQuantity__c</name>
+    </fields>
+    <fields>
+        <help><!-- Ex. FIBERBOARD BOX, WOOD(EN) BOX, PLASTIC JERRICAN, METAL BOX, STEEL DRUM, OTHER, PLASTIC BOX, PLASTIC DRUM, STYROFOAM BOX, CYLINDERS and etc --></help>
+        <label><!-- Packaging Type --></label>
+        <name>zkmulti__PackagingType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Proper Shipping Name --></label>
+        <name>zkmulti__ProperShippingName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Type --></label>
+        <name>zkmulti__QuantityType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>zkmulti__Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference Number --></label>
+        <name>zkmulti__ReferenceNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Regulation Set --></label>
+        <name>zkmulti__RegulationSet__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reportable Quantity --></label>
+        <name>zkmulti__ReportableQuantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sequence Number --></label>
+        <name>zkmulti__SequenceNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sub Risk Class --></label>
+        <name>zkmulti__SubRiskClass__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please use comma as separator --></help>
+        <label><!-- Subsidiary Classes --></label>
+        <name>zkmulti__SubsidiaryClasses__c</name>
+    </fields>
+    <fields>
+        <label><!-- Technical Name --></label>
+        <name>zkmulti__TechnicalName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transport Category --></label>
+        <name>zkmulti__TransportCategory__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transportation Mode --></label>
+        <name>zkmulti__TransportationMode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tunnel Restriction Code --></label>
+        <name>zkmulti__TunnelRestrictionCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unit Of Measure --></label>
+        <name>zkmulti__UnitOfMeasure__c</name>
+    </fields>
+    <layouts>
+        <layout>FedEx HazMat Details Layout</layout>
+        <sections>
+            <label><!-- Carrier Specific Fields --></label>
+            <section>Carrier Specific Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+        <sections>
+            <label><!-- Packaging --></label>
+            <section>Packaging</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

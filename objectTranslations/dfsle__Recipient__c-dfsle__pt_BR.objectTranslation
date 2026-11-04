@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Destinatário de envelope do Docusign</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Destinatários de envelope do Docusign</value>
+    </caseValues>
+    <fields>
+        <help><!-- Access Code --></help>
+        <label>Código de acesso</label>
+        <name>dfsle__AccessCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deliver By Sms --></label>
+        <name>dfsle__DeliverBySms__c</name>
+    </fields>
+    <fields>
+        <label>Mensagem de email</label>
+        <name>dfsle__EmailMessage__c</name>
+    </fields>
+    <fields>
+        <label>Assunto do email</label>
+        <name>dfsle__EmailSubject__c</name>
+    </fields>
+    <fields>
+        <label>E-mail</label>
+        <name>dfsle__Email__c</name>
+    </fields>
+    <fields>
+        <label>ID do destinatário do envelope</label>
+        <name>dfsle__EnvelopeRecipientId__c</name>
+    </fields>
+    <fields>
+        <help><!-- DocuSign Envelope --></help>
+        <label>Envelope da DocuSign</label>
+        <name>dfsle__Envelope__c</name>
+        <relationshipLabel>Destinatários de envelope da DocuSign</relationshipLabel>
+    </fields>
+    <fields>
+        <label>E-mail do anfitrião</label>
+        <name>dfsle__HostEmail__c</name>
+    </fields>
+    <fields>
+        <label>Nome de anfitrião</label>
+        <name>dfsle__HostName__c</name>
+    </fields>
+    <fields>
+        <label>A verificação de ID é necessária.</label>
+        <name>dfsle__IdCheckRequired__c</name>
+    </fields>
+    <fields>
+        <label>Idioma</label>
+        <name>dfsle__Language__c</name>
+    </fields>
+    <fields>
+        <label>Observação do destinatário</label>
+        <name>dfsle__Note__c</name>
+    </fields>
+    <fields>
+        <label>Opções</label>
+        <name>dfsle__Options__c</name>
+    </fields>
+    <fields>
+        <label>Somente leitura</label>
+        <name>dfsle__ReadOnly__c</name>
+    </fields>
+    <fields>
+        <label>Exigido</label>
+        <name>dfsle__Required__c</name>
+    </fields>
+    <fields>
+        <label>Valor do papel</label>
+        <name>dfsle__RoleValue__c</name>
+    </fields>
+    <fields>
+        <help><!-- Role --></help>
+        <label>Função</label>
+        <name>dfsle__Role__c</name>
+    </fields>
+    <fields>
+        <help><!-- Routing Order --></help>
+        <label>Ordem de envio</label>
+        <name>dfsle__RoutingOrder__c</name>
+    </fields>
+    <fields>
+        <label>Sequência</label>
+        <name>dfsle__Sequence__c</name>
+    </fields>
+    <fields>
+        <label>Assinar agora</label>
+        <name>dfsle__SignNow__c</name>
+    </fields>
+    <fields>
+        <help><!-- Signing Group ID --></help>
+        <label>ID do grupo de assinatura</label>
+        <name>dfsle__SigningGroupId__c</name>
+    </fields>
+    <fields>
+        <label>Nome do grupo de assinatura</label>
+        <name>dfsle__SigningGroupName__c</name>
+    </fields>
+    <fields>
+        <label>Número de telefone SMS</label>
+        <name>dfsle__SmsPhoneNumber__c</name>
+    </fields>
+    <fields>
+        <label>ID fonte</label>
+        <name>dfsle__SourceId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Type --></help>
+        <label>Tipo</label>
+        <name>dfsle__Type__c</name>
+        <picklistValues>
+            <masterLabel>Allow to Edit</masterLabel>
+            <translation><!-- Allow to Edit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Person Signer</masterLabel>
+            <translation><!-- In Person Signer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Needs to Sign</masterLabel>
+            <translation><!-- Needs to Sign --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Needs to View</masterLabel>
+            <translation><!-- Needs to View --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Receives a Copy</masterLabel>
+            <translation><!-- Receives a Copy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seal</masterLabel>
+            <translation><!-- Seal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Specify Recipients</masterLabel>
+            <translation><!-- Specify Recipients --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Update Recipients</masterLabel>
+            <translation><!-- Update Recipients --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Witness</masterLabel>
+            <translation><!-- Witness --></translation>
+        </picklistValues>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Name</nameFieldLabel>
+</CustomObjectTranslation>

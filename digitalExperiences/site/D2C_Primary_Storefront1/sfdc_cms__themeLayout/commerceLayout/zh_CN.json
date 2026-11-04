@@ -1,0 +1,38 @@
+{
+  "type" : "sfdc_cms__themeLayout",
+  "title" : "Commerce Layout",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "id" : "8c8c00f8-b523-4d44-a370-671268263f7b",
+        "attributes" : {
+          "text" : "公司信息"
+        }
+      }, {
+        "id" : "7f0520fc-1e50-4e95-9518-9112422dd9f8",
+        "attributes" : {
+          "text" : "会员专区"
+        }
+      }, {
+        "id" : "37ac466f-ea14-4181-b231-eff6638c0a6b",
+        "attributes" : {
+          "text" : "客服专区"
+        }
+      }, {
+        "id" : "178befcb-01fb-4e05-b9f1-4daea5514097",
+        "attributes" : {
+          "headerText" : "购物车",
+          "checkoutButtonText" : "结帐",
+          "continueShoppingButtonText" : "继续购物",
+          "viewCartButtonText" : "查看购物车"
+        }
+      }, {
+        "id" : "52740f41-300c-447d-9d26-be90f0c77b85",
+        "attributes" : {
+          "richTextValue" : "<div class=\"slds-p-around_small\">\n    <p>\n        {!Label.c.CommerceFreeShippingLabel}\n    </p>\n</div>"
+        }
+      } ]
+    }
+  },
+  "urlName" : "commerce-layout"
+}

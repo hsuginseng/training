@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Sends tracking details whenever a shipment is created.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Shipment Created, Share Tracking</name>
+    <relatedEntityType>Shipment</relatedEntityType>
+    <style>none</style>
+    <subject>Hsu&apos;s Ginseng - Your order has been shipped!</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

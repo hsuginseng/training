@@ -1,0 +1,37 @@
+<template>
+    <div class="oobo-validator">
+        <template lwc:if={isWaiting}>
+            <div class="oobo-waiting" role="status" aria-live="polite">
+                <div class="oobo-loader" aria-hidden="true">
+                    <div class="oobo-loader__ring"></div>
+                </div>
+                <p class="oobo-waiting-text">Validating Payment<span class="oobo-dots" aria-hidden="true"></span></p>
+            </div>
+        </template>
+
+        <template lwc:elseif={isSuccess}>
+            <div class="oobo-result oobo-success" role="status" aria-live="polite">
+                <div class="oobo-success-burst">
+                    <svg class="oobo-checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52" aria-hidden="true">
+                        <circle class="oobo-checkmark__circle" cx="26" cy="26" r="25" fill="none"></circle>
+                        <path class="oobo-checkmark__check" fill="none" d="M14 27 l8 8 16-18"></path>
+                    </svg>
+                </div>
+                <h1 class="oobo-success-message">{successHeader}</h1>
+                <p class="oobo-success-subtext">{successMessage}</p>
+            </div>
+        </template>
+
+        <template lwc:elseif={isFailure}>
+            <div class="oobo-result oobo-failure" role="alert" aria-live="assertive">
+                <svg class="oobo-xmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52" aria-hidden="true">
+                    <circle class="oobo-xmark__circle" cx="26" cy="26" r="22"></circle>
+                    <path class="oobo-xmark__line oobo-xmark__line--one" d="M17 17 L35 35"></path>
+                    <path class="oobo-xmark__line oobo-xmark__line--two" d="M35 17 L17 35"></path>
+                </svg>
+                <h1 class="oobo-failure-message">{failureHeader}</h1>
+                <p class="oobo-failure-subtext">{failureMessage}</p>
+            </div>
+        </template>
+    </div>
+</template>

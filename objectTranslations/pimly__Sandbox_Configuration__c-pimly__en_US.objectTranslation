@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Sandbox Configuration</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Sandbox Configurations</value>
+    </caseValues>
+    <fields>
+        <label><!-- Last Refresh Date --></label>
+        <name>pimly__Last_Refresh_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Org Id --></label>
+        <name>pimly__Org_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sandbox Name --></label>
+        <name>pimly__Sandbox_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>pimly__Type__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,30 @@
+<template lwc:render-mode='light'>
+	<div class="slds-hide">{swiperLoaded}</div>
+	<div class="about-milestones-carousel swiper">
+		<div class="about-milestones-carousel-wrapper swiper-wrapper">
+			<template for:each={milestones} for:item="milestone">
+				<div key={milestone.id} class="about-milestones-carousel-slide swiper-slide">
+					<c-about-milestones-slide
+						key={milestone.id}
+						image-url={milestone.imageUrl}
+						image-alt={milestone.imageAlt}
+						year={milestone.year}
+						title={milestone.title}
+						text={milestone.text}
+					></c-about-milestones-slide>
+				</div>
+			</template>
+		</div>
+	</div>
+
+	<div class="about-milestones-carousel-controls">
+		<button class="about-milestones-carousel-prev">
+			<span class="sr-only">View Next Slide</span>
+		</button>
+		<div class="about-milestones-carousel-pagination swiper-pagination">
+			<span class="about-milestones-carousel-current-slide"></span> / <span class="about-milestones-carousel-total-slides"></span> </div>
+		<button class="about-milestones-carousel-next">
+			<span class="sr-only">View Previous Slide</span>
+		</button>
+	</div>
+</template>

@@ -1,0 +1,20 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Travel with Ginseng",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "attributes" : {
+          "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCZB225XRNR5GJ7CDMHI6LQ25VTU?lastModifiedDate=Wed Mar 11 15:53:51 GMT 2026\",\"altText\":\"\",\"contentKey\":\"MCZB225XRNR5GJ7CDMHI6LQ25VTU\",\"contentType\":null}}"
+        },
+        "id" : "cf40c0ad-4f41-47f9-83be-52e76f0c4e59"
+      }, {
+        "id" : "5727882f-342e-499b-94cf-b9f3fcfc7c61",
+        "attributes" : {
+          "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MC25DAMN2MVFDYLFRRFXARFAYZBI?lastModifiedDate=Wed Mar 11 15:45:26 GMT 2026\",\"altText\":\"\",\"contentKey\":\"MC25DAMN2MVFDYLFRRFXARFAYZBI\",\"contentType\":null}}"
+        }
+      } ]
+    }
+  },
+  "urlName" : "travel-with-ginseng"
+}

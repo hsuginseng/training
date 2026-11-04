@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>EEI Form</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>EEI Forms</value>
+    </caseValues>
+    <fields>
+        <help><!-- Approved Community Member Number (ACM) --></help>
+        <label><!-- ACM Number --></label>
+        <name>zkmulti__ACMNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>zkmulti__Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- Product ECCN Number issued by BIS (Bureau of Industry and Security). The format is #A### or EAR99 --></help>
+        <label><!-- ECCN Number --></label>
+        <name>zkmulti__ECCNNumber__c</name>
+    </fields>
+    <fields>
+        <help><!-- Email Address where the notification is sent --></help>
+        <label><!-- EEI Email Address --></label>
+        <name>zkmulti__EEIEmailAddress__c</name>
+    </fields>
+    <fields>
+        <label><!-- EEI Filling Type --></label>
+        <name>zkmulti__EEIFillingType__c</name>
+        <picklistValues>
+            <masterLabel>Shipper filed</masterLabel>
+            <translation><!-- Shipper filed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UPS filed</masterLabel>
+            <translation><!-- UPS filed --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Indicates the EEI Shipper sub option --></help>
+        <label><!-- EEI Shipper --></label>
+        <name>zkmulti__EEIShipper__c</name>
+        <picklistValues>
+            <masterLabel>Requires the Exemption Legend</masterLabel>
+            <translation><!-- Requires the Exemption Legend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Requires the ITN</masterLabel>
+            <translation><!-- Requires the ITN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Requires the post departure filing citation</masterLabel>
+            <translation><!-- Requires the post departure filing citation --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- EEI UPS Filed POA --></label>
+        <name>zkmulti__EEIUPSFiledPOA__c</name>
+        <picklistValues>
+            <masterLabel>Blanket POA</masterLabel>
+            <translation><!-- Blanket POA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>One Time POA</masterLabel>
+            <translation><!-- One Time POA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Presence/Absent indicator. Certification by the U.S. exporter that the exporter is an eligible party to participate in the defense trade --></help>
+        <label><!-- Eligible Party --></label>
+        <name>zkmulti__EligibleParty__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Import Entry Number when the export transaction is used as proof of export for import transactions (examples: In Bond, Temporary Import Bond or Drawbacks)
+
+Conditionally Required for SED forms when In Bond Code value is other than 70 (&quot;Not In Bond&quot;) --></help>
+        <label><!-- Entry Number --></label>
+        <name>zkmulti__EntryNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exemption Legend --></label>
+        <name>zkmulti__ExemptionLegend__c</name>
+        <picklistValues>
+            <masterLabel>30.2(d)(2)</masterLabel>
+            <translation><!-- 30.2(d)(2) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30.26(a)</masterLabel>
+            <translation><!-- 30.26(a) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30.36</masterLabel>
+            <translation><!-- 30.36 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30.37(a)</masterLabel>
+            <translation><!-- 30.37(a) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30.37(b)</masterLabel>
+            <translation><!-- 30.37(b) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30.37(c)</masterLabel>
+            <translation><!-- 30.37(c) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30.37(d)</masterLabel>
+            <translation><!-- 30.37(d) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30.37(f)</masterLabel>
+            <translation><!-- 30.37(f) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30.37(h)</masterLabel>
+            <translation><!-- 30.37(h) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30.37(i)</masterLabel>
+            <translation><!-- 30.37(i) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30.37(j)</masterLabel>
+            <translation><!-- 30.37(j) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30.37(k)</masterLabel>
+            <translation><!-- 30.37(k) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30.37(l)</masterLabel>
+            <translation><!-- 30.37(l) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30.37(m)</masterLabel>
+            <translation><!-- 30.37(m) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30.37(n)</masterLabel>
+            <translation><!-- 30.37(n) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30.37(o)</masterLabel>
+            <translation><!-- 30.37(o) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30.37(p)</masterLabel>
+            <translation><!-- 30.37(p) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30.37(q)</masterLabel>
+            <translation><!-- 30.37(q) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30.37(r)</masterLabel>
+            <translation><!-- 30.37(r) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30.37(s)</masterLabel>
+            <translation><!-- 30.37(s) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30.37(t)</masterLabel>
+            <translation><!-- 30.37(t) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30.37(u)</masterLabel>
+            <translation><!-- 30.37(u) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30.37(x)</masterLabel>
+            <translation><!-- 30.37(x) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30.37(y)(1)</masterLabel>
+            <translation><!-- 30.37(y)(1) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30.37(y)(2)</masterLabel>
+            <translation><!-- 30.37(y)(2) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30.37(y)(3)</masterLabel>
+            <translation><!-- 30.37(y)(3) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30.37(y)(4)</masterLabel>
+            <translation><!-- 30.37(y)(4) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30.37(y)(5)</masterLabel>
+            <translation><!-- 30.37(y)(5) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30.37(y)(6)</masterLabel>
+            <translation><!-- 30.37(y)(6) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30.39</masterLabel>
+            <translation><!-- 30.39 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30.40(a)</masterLabel>
+            <translation><!-- 30.40(a) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30.40(b)</masterLabel>
+            <translation><!-- 30.40(b) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30.40(c)</masterLabel>
+            <translation><!-- 30.40(c) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30.40(d)</masterLabel>
+            <translation><!-- 30.40(d) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30.8(b)</masterLabel>
+            <translation><!-- 30.8(b) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Required for EEI form id it is a SDL product. Valid values: LC, LV, SS,MS, GS, DP, HR, UG, IC, SC, DD, HH, SR, TE,TL, IS, CR, GP, RJ, TP, IP, IR, DB, CH, RS, OS --></help>
+        <label><!-- Export Information --></label>
+        <name>zkmulti__ExportInformation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Forwarding Agent City --></label>
+        <name>zkmulti__ForwardingAgentCity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Forwarding Agent Company Name --></label>
+        <name>zkmulti__ForwardingAgentCompanyName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Forwarding Agent Country Code --></label>
+        <name>zkmulti__ForwardingAgentCountryCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Forwarding Agent&apos;s EIN (IRS) NO --></label>
+        <name>zkmulti__ForwardingAgentEinIrsNo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Forwarding Agent Postal Code --></label>
+        <name>zkmulti__ForwardingAgentPostalCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Forwarding Agent State/Province --></label>
+        <name>zkmulti__ForwardingAgentStateProvince__c</name>
+    </fields>
+    <fields>
+        <label><!-- Forwarding Agent Street --></label>
+        <name>zkmulti__ForwardingAgentStreet__c</name>
+    </fields>
+    <fields>
+        <label><!-- ITAR Exemption Number --></label>
+        <name>zkmulti__ITARExemptionNumber__c</name>
+    </fields>
+    <fields>
+        <help><!-- 70: Not in bond
+36: Warehouse withdrawal for IE
+37: Warehouse withdrawal for T and E
+62: T and E
+63: IE
+67: IE from a FTZ
+68: T and E from a FTZ --></help>
+        <label><!-- In Bond Code --></label>
+        <name>zkmulti__InBondCode__c</name>
+        <picklistValues>
+            <masterLabel>36</masterLabel>
+            <translation><!-- 36 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>37</masterLabel>
+            <translation><!-- 37 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>62</masterLabel>
+            <translation><!-- 62 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>63</masterLabel>
+            <translation><!-- 63 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>67</masterLabel>
+            <translation><!-- 67 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>68</masterLabel>
+            <translation><!-- 68 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>70</masterLabel>
+            <translation><!-- 70 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The standard license code published by US government (from C30 to C60) --></help>
+        <label><!-- License Code --></label>
+        <name>zkmulti__LicenseCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- License Date --></label>
+        <name>zkmulti__LicenseDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- The export monetary amount allowed per license. Required for a licensable product when the EEI form is selected --></help>
+        <label><!-- License Line Value --></label>
+        <name>zkmulti__LicenseLineValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- License Number --></label>
+        <name>zkmulti__LicenseNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Loading Pier --></label>
+        <name>zkmulti__LoadingPier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mode of Transport --></label>
+        <name>zkmulti__ModeOfTransport__c</name>
+        <picklistValues>
+            <masterLabel>Air</masterLabel>
+            <translation><!-- Air --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Air Containerized</masterLabel>
+            <translation><!-- Air Containerized --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auto</masterLabel>
+            <translation><!-- Auto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fixed Transport Installations</masterLabel>
+            <translation><!-- Fixed Transport Installations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail</masterLabel>
+            <translation><!-- Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Passenger Handcarried</masterLabel>
+            <translation><!-- Passenger Handcarried --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pedestrian</masterLabel>
+            <translation><!-- Pedestrian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rail</masterLabel>
+            <translation><!-- Rail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rail Containerized</masterLabel>
+            <translation><!-- Rail Containerized --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Road Other</masterLabel>
+            <translation><!-- Road Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sea Barge</masterLabel>
+            <translation><!-- Sea Barge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sea Containerized</masterLabel>
+            <translation><!-- Sea Containerized --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sea Non-containerized</masterLabel>
+            <translation><!-- Sea Non-containerized --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Truck</masterLabel>
+            <translation><!-- Truck --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Truck Containerized</masterLabel>
+            <translation><!-- Truck Containerized --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Contains either the two-digit U.S. Postal Service abbreviation for the state from which the goods were shipped (user PR for Puerto Rico), or the Foreign Trade Zone number of the zone from where the exports are leaving. --></help>
+        <label><!-- Point of Origin --></label>
+        <name>zkmulti__PointOfOrigin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Port of Export --></label>
+        <name>zkmulti__PortOfExport__c</name>
+    </fields>
+    <fields>
+        <label><!-- Port of Unloading --></label>
+        <name>zkmulti__PortOfUnloading__c</name>
+    </fields>
+    <fields>
+        <help><!-- The format is available from AESDirect website --></help>
+        <label><!-- Pre Departure ITN Number --></label>
+        <name>zkmulti__PreDepartureITNNumber__c</name>
+    </fields>
+    <fields>
+        <help><!-- It is a unique registration code assigned to the registrant. The DDTC registration code consist of a letter prefix, M (assigned to a manufacturer and/or exporter) or K (assigned to a broker), followed by four or five digits (e.g. K-1234 or M12345) --></help>
+        <label><!-- Registration Number --></label>
+        <name>zkmulti__RegistrationNumber__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Company Tax ID of the Shipper. --></help>
+        <label><!-- Shipper Tax ID --></label>
+        <name>zkmulti__ShipperTaxId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Significant Military Equipment --></label>
+        <name>zkmulti__SignificantMilitaryEquipment__c</name>
+    </fields>
+    <fields>
+        <help><!-- Digit numeric code (e.g. 01-18, 20 or 21). Indicates the U.S. Munitions List (USML) category article, service or related technical data as it applies to the article reported. --></help>
+        <label><!-- USML Category Code --></label>
+        <name>zkmulti__USMLCategoryCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ultimate Consignee City --></label>
+        <name>zkmulti__UltimateConsigneeCity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ultimate Consignee Company Name --></label>
+        <name>zkmulti__UltimateConsigneeCompanyName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ultimate Consignee Country Code --></label>
+        <name>zkmulti__UltimateConsigneeCountryCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ultimate Consignee Postal Code --></label>
+        <name>zkmulti__UltimateConsigneePostalCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ultimate Consignee State/Province --></label>
+        <name>zkmulti__UltimateConsigneeStateProvince__c</name>
+    </fields>
+    <fields>
+        <help><!-- Up to 3 lines maximum. Each line must be no more than 35 characters long. --></help>
+        <label><!-- Ultimate Consignee Street --></label>
+        <name>zkmulti__UltimateConsigneeStreet__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ultimate Consignee Type --></label>
+        <name>zkmulti__UltimateConsigneeType__c</name>
+        <picklistValues>
+            <masterLabel>Direct Consumer</masterLabel>
+            <translation><!-- Direct Consumer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Government Entity</masterLabel>
+            <translation><!-- Government Entity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other/Unknown</masterLabel>
+            <translation><!-- Other/Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resellr</masterLabel>
+            <translation><!-- Resellr --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>EEI Form Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Directorate of Defense Trade Control Information (Deprecated) --></label>
+            <section>Directorate of Defense Trade Control Information (Deprecated)</section>
+        </sections>
+        <sections>
+            <label><!-- Export Information (Deprecated) --></label>
+            <section>Export Information (Deprecated)</section>
+        </sections>
+        <sections>
+            <label><!-- Forwarding Agent --></label>
+            <section>Forwarding Agent</section>
+        </sections>
+        <sections>
+            <label><!-- General --></label>
+            <section>General</section>
+        </sections>
+        <sections>
+            <label><!-- In Bond Code --></label>
+            <section>In Bond Code</section>
+        </sections>
+        <sections>
+            <label><!-- Licensing Information (Deprecated) --></label>
+            <section>Licensing Information (Deprecated)</section>
+        </sections>
+        <sections>
+            <label><!-- Transportation Information --></label>
+            <section>Transportation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Ultimate Consignee --></label>
+            <section>Ultimate Consignee</section>
+        </sections>
+    </layouts>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <errorMessage><!-- Please select option --></errorMessage>
+        <name>zkmulti__CheckUltimate_Consignee_Type</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select option --></errorMessage>
+        <name>zkmulti__Requires_the_Exemption_Legend_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please fill field --></errorMessage>
+        <name>zkmulti__Requires_the_ITN_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please choose option --></errorMessage>
+        <name>zkmulti__Shipper_filed_check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &apos;UPS filled&apos; option is not supported. --></errorMessage>
+        <name>zkmulti__filed_check</name>
+    </validationRules>
+</CustomObjectTranslation>

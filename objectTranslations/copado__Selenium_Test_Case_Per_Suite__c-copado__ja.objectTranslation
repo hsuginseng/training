@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>スイートごとのSeleniumテストケース</value>
+    </caseValues>
+    <fields>
+        <label>順序</label>
+        <name>copado__Order__c</name>
+    </fields>
+    <fields>
+        <label>Seleniumテストケース</label>
+        <name>copado__Selenium_Test_Case__c</name>
+        <relationshipLabel>スイートごとのSeleniumテストケース</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Seleniumテストスイート</label>
+        <name>copado__Selenium_Test_Suite__c</name>
+        <relationshipLabel>テストケース</relationshipLabel>
+    </fields>
+    <fields>
+        <label>テストデータセット名</label>
+        <name>copado__Test_Dataset_Name__c</name>
+    </fields>
+    <layouts>
+        <layout>Selenium Test Case per Suite Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>リファレンス#</nameFieldLabel>
+</CustomObjectTranslation>

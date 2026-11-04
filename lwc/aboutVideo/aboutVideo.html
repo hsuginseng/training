@@ -1,0 +1,20 @@
+<template>
+	<section class="section">
+		<div class="inner">
+			<div class="flex">
+				<div class="video">
+					<button class="video-btn" onclick={handleVideo}>
+						<span class="sr-only">Play Video</span>
+					</button>
+					<div class="video-image">
+						<img src={imageUrl} alt="" />
+					</div>
+					<iframe src={youTubeEmbed} title={youTubeTitle} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</div>
+				<div class="text">
+					<p>{text}</p>
+				</div>
+			</div>
+		</div>
+	</section>
+</template>

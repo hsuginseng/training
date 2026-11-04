@@ -1,0 +1,126 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "TheCompany-AboutFarm",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"8c9e8cef-b1c6-41ab-9c94-6370885f7986\",\"columns\":[{\"UUID\":\"69268c82-fec0-4d28-b1f6-f0f1ee6e6a89\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "0px",
+                    "left" : "200px",
+                    "right" : "200px",
+                    "top" : "0px"
+                  }
+                },
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCKG4FULACCRDSVOTTSVZFZSMSXU?lastModifiedDate=Mon Feb 02 17:22:03 GMT 2026\",\"altText\":\"\",\"contentKey\":\"MCKG4FULACCRDSVOTTSVZFZSMSXU\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "7f9a6d00-f9aa-43b2-b1a3-b77c2ec0a79c",
+              "type" : "component"
+            } ],
+            "id" : "69268c82-fec0-4d28-b1f6-f0f1ee6e6a89",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "8c9e8cef-b1c6-41ab-9c94-6370885f7986",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"d0c6d4b9-054e-4223-87ab-2f5f86602693\",\"columns\":[{\"UUID\":\"11011260-914d-4e93-92eb-3554e5728905\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : {
+                  "isVisible" : false
+                },
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MC2X2Y3VN3BJF57AA72N7RPQGZCA?lastModifiedDate=Mon Feb 02 17:23:07 GMT 2026\",\"altText\":\"\",\"contentKey\":\"MC2X2Y3VN3BJF57AA72N7RPQGZCA\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "2aa7f03b-c878-4fe0-8d22-f54726ee9c4e",
+              "type" : "component"
+            } ],
+            "id" : "11011260-914d-4e93-92eb-3554e5728905",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "d0c6d4b9-054e-4223-87ab-2f5f86602693",
+          "type" : "component"
+        } ],
+        "id" : "6c56e36e-4b6f-4bcb-bf65-92f634609698",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "TheCompany-AboutFarm",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "67215c8e-704e-4dab-a1a7-3e4064387db5",
+          "type" : "component"
+        } ],
+        "id" : "fdd99eae-6d36-4ba8-a7cd-58d5fcbec1b6",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "5cda3ef4-38c9-4331-b394-b3bbf7ea4354",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-thecompany-aboutfarm"
+  },
+  "urlName" : "thecompany-aboutfarm"
+}

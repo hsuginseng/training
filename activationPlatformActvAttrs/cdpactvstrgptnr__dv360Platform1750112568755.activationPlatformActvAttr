@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ActivationPlatformActvAttr xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activationPlatform>cdpactvstrgptnr__dv360Platform</activationPlatform>
+    <applyHash>false</applyHash>
+    <attributeMappingSchemas>[{&quot;name&quot;:&quot;ANON&quot;,&quot;category&quot;:&quot;required&quot;}]</attributeMappingSchemas>
+    <destinationName>PARTNER_PROVIDED_ID</destinationName>
+    <fieldName>FirstPartyAssignedId</fieldName>
+    <isFromSourceObject>false</isFromSourceObject>
+    <isIdentifier>false</isIdentifier>
+    <isRequired>true</isRequired>
+    <masterLabel>SyncedFirstPartyId</masterLabel>
+    <objectName>UserBrowser</objectName>
+</ActivationPlatformActvAttr>

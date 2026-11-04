@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataPackageKitDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataKitSource>EXTERNAL</dataKitSource>
+    <dataKitType>NONE</dataKitType>
+    <description>This package contains the B2B Commerce, D2C Commerce and Salesforce Order Management bundles</description>
+    <developerName>Salesforce_CDP_Salesforce_Commerce</developerName>
+    <isDeployed>false</isDeployed>
+    <isEnabled>false</isEnabled>
+    <masterLabel>Salesforce CDP Salesforce Commerce</masterLabel>
+    <useDeterministicNaming>false</useDeterministicNaming>
+    <versionNumber>48.0</versionNumber>
+</DataPackageKitDefinition>

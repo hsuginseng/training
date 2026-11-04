@@ -1,0 +1,83 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Tours-Virtual",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"4c58c16f-a406-4653-9b20-5c847110e714\",\"columns\":[{\"UUID\":\"5917811f-9033-4040-b8f8-17a40a6b2925\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"a2d689c3-fd75-4baf-908e-8283149bd211\",\"columnName\":\"Column 2\",\"columnKey\":\"4a3a9\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"d56cfb2e-3a7f-43d2-96d5-6916847a3ceb\",\"columnName\":\"Column 3\",\"columnKey\":\"ba7af\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "imageInfos" : "",
+                "richTextValue" : "<p>Use this HTML Editor to add your own markup.</p>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "5062514d-40be-47e6-9489-bd742185ff24",
+              "type" : "component"
+            } ],
+            "id" : "5917811f-9033-4040-b8f8-17a40a6b2925",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "id" : "a2d689c3-fd75-4baf-908e-8283149bd211",
+            "name" : "4a3a9",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "id" : "d56cfb2e-3a7f-43d2-96d5-6916847a3ceb",
+            "name" : "ba7af",
+            "title" : "Column 3",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "4c58c16f-a406-4653-9b20-5c847110e714",
+          "type" : "component"
+        } ],
+        "id" : "646f1716-34cf-488f-a8de-b05f963db120",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "Tours-Virtual",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "d463991d-53d8-4340-a8de-e337d948e8e9",
+          "type" : "component"
+        } ],
+        "id" : "7adfef74-c3b3-4d8c-a1f5-32cfa1f3fb1d",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "8b9470b5-369c-4eaa-a543-bde10a248218",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-tours-virtual"
+  },
+  "urlName" : "tours-virtual"
+}

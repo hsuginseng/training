@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Package Checkpoint</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Package Checkpoints</value>
+    </caseValues>
+    <fields>
+        <label><!-- Address --></label>
+        <name>zkmulti__Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- City --></label>
+        <name>zkmulti__City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>zkmulti__Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Time --></label>
+        <name>zkmulti__Date_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Geolocation --></label>
+        <name>zkmulti__Geolocation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>zkmulti__Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Message --></label>
+        <name>zkmulti__Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Package --></label>
+        <name>zkmulti__Package__c</name>
+        <relationshipLabel><!-- Package Checkpoints --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Source --></label>
+        <name>zkmulti__Source__c</name>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>zkmulti__State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>zkmulti__Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zip --></label>
+        <name>zkmulti__Zip__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

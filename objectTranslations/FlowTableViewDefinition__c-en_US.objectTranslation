@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>FlowTableViewDefinition</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>FlowTableViewDefinitions</value>
+    </caseValues>
+    <fields>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Alignments --></label>
+        <name>Alignments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cell Attributes --></label>
+        <name>Cell_Attributes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Edits --></label>
+        <name>Edits__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field API Names --></label>
+        <name>Field_API_Names__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field Sorting --></label>
+        <name>Field_Sorting__c</name>
+    </fields>
+    <fields>
+        <label><!-- Filters --></label>
+        <name>Filters__c</name>
+    </fields>
+    <fields>
+        <label><!-- Icons --></label>
+        <name>Icons__c</name>
+    </fields>
+    <fields>
+        <label><!-- Labels --></label>
+        <name>Labels__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object API Name --></label>
+        <name>Object_API_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Attributes --></label>
+        <name>Other_Attributes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Selection Method --></label>
+        <name>Selection_Method__c</name>
+        <picklistValues>
+            <masterLabel>Pick</masterLabel>
+            <translation><!-- Pick --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Type</masterLabel>
+            <translation><!-- Type --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Type Attributes --></label>
+        <name>Type_Attributes__c</name>
+    </fields>
+    <fields>
+        <label><!-- View Name --></label>
+        <name>View_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Widths --></label>
+        <name>Widths__c</name>
+    </fields>
+    <fields>
+        <label><!-- Wraps --></label>
+        <name>Wraps__c</name>
+    </fields>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

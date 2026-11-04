@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectBinding xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <implementationField>ssot__Lead__dlm.ssot__AnnualRevenue__c</implementationField>
+        <interfaceField>LeadDmo.AnnualRevenue</interfaceField>
+    </fields>
+    <fields>
+        <implementationField>ssot__Lead__dlm.ssot__EmployeeCount__c</implementationField>
+        <interfaceField>LeadDmo.EmployeeCount</interfaceField>
+    </fields>
+    <fields>
+        <implementationField>ssot__Lead__dlm.ssot__IndustryId__c</implementationField>
+        <interfaceField>LeadDmo.IndustryId</interfaceField>
+    </fields>
+    <fields>
+        <implementationField>ssot__Lead__dlm.ssot__OwnerId__c</implementationField>
+        <interfaceField>LeadDmo.OwnerId</interfaceField>
+    </fields>
+    <fields>
+        <implementationField>ssot__Lead__dlm.ssot__PersonName__c</implementationField>
+        <interfaceField>LeadDmo.PersonName</interfaceField>
+    </fields>
+    <fields>
+        <implementationField>ssot__Lead__dlm.ssot__Title__c</implementationField>
+        <interfaceField>LeadDmo.Title</interfaceField>
+    </fields>
+    <implementationObject>ssot__Lead__dlm</implementationObject>
+    <interfaceObject>LeadDmo</interfaceObject>
+    <masterLabel>ssot__Lead</masterLabel>
+</CustomObjectBinding>

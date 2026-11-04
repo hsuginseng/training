@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email template for auto-response on Tours Request scheduled</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Tour Request Scheduled</name>
+    <pageDevName>Tour_Request_Scheduled</pageDevName>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>Your Tour at HSU Ginseng Farm is Scheduled</subject>
+    <textOnly>Case #: {{{Case.CaseNumber}}}
+
+-----------------------------------------------------
+
+Dear {{{Case.First_Name__c}}},
+
+Thank you for choosing to visit Hsu’s Ginseng Farm!
+
+We are pleased to confirm that your tour has been scheduled as follows:
+
+• Phone Number: {{{Case.Phone_Number__c}}}
+
+• Scheduled Tour Date/Time: {{{Case.Scheduled_Tour_Date_Time__c}}}
+
+• Language: {{{Case.Preferred_Language__c}}}
+
+Tour Information:
+
+• Tour Guide:{{{Case.Case_Owner_Name__c}}}
+
+• Contact Number:{{{Case.Tour_Guide_Phone__c}}}
+
+• Location:T6500 County Rd W, Wausau, WI 54403
+
+Google Maps &lt; https://www.google.com/maps/place/237895+County+Rd+W,+Wausau,+WI+54403/@45.0261194,-89.6193939,17z/data=!4m6!3m5!1s0x4d55336497c84c05:0x568cc817418300c3!8m2!3d45.0261194!4d-89.6193939!16s%2Fg%2F11h_k7t39c?entry=ttu&amp;g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%253D%253D &gt; 
+
+Reminders:
+
+• Please arrive at least 5 minutes earlyso we can begin on time.
+
+• If you need to cancel or reschedule your visit, we kindly ask that you notify us as early as possible.
+
+If you have any questions before your visit, feel free to reach out. We look forward to welcoming you to our farm!
+
+Warm Regards,
+
+Your Tour Guide,{{{Case.Tour_Guide__c}}}
+
+Hsu&apos;s Ginseng Enterprises, Inc.
+
+📌Tour Tips:
+
+• Tour fee: $5 per person (can be used as a store discount)
+
+• Tour duration: Approximately 1 to 1.5 hours
+
+• Please note that weather conditions may affect the tour experience
+
+**
+----------------------------------------------------
+
+📞Contact Us：
+
+Phone: (715) 675-2325 / (1800) 826-1577
+
+Email: tours@hsuginseng.com
+
+Website: www.hsuginseng.com &lt; https://www.hsuginseng.com &gt; 
+
+**
+----------------------------------------------------
+
+🕒Customer Service Hours：
+
+Monday to Friday (Excluding Holidays)
+
+8:30 AM – 5:00 PM (CST)</textOnly>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

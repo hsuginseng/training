@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Registro de depuração</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Registros de depuração</value>
+    </caseValues>
+    <fields>
+        <label>Classe</label>
+        <name>trailheadapp__Class__c</name>
+    </fields>
+    <fields>
+        <help><!-- The date/time of the log message. --></help>
+        <label>Data e hora</label>
+        <name>trailheadapp__Datetime__c</name>
+    </fields>
+    <fields>
+        <label>Mensagem</label>
+        <name>trailheadapp__Message__c</name>
+    </fields>
+    <fields>
+        <label>Método</label>
+        <name>trailheadapp__Method__c</name>
+    </fields>
+    <fields>
+        <label>Gravidade</label>
+        <name>trailheadapp__Severity__c</name>
+    </fields>
+    <fields>
+        <label>Transação</label>
+        <name>trailheadapp__Transaction__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nome do registro de depuração</nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Docusign 大量傳送清單</value>
+    </caseValues>
+    <fields>
+        <label>DocuSign 批次清單 ID</label>
+        <name>dfsle__DocuSignId__c</name>
+    </fields>
+    <fields>
+        <label>收件人</label>
+        <name>dfsle__Recipients__c</name>
+    </fields>
+    <fields>
+        <label>Salesforce 來源 ID</label>
+        <name>dfsle__SourceId__c</name>
+    </fields>
+    <nameFieldLabel>Name</nameFieldLabel>
+</CustomObjectTranslation>

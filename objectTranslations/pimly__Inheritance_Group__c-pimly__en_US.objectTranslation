@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Inheritance Group</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Inheritance Groups</value>
+    </caseValues>
+    <fields>
+        <help><!-- User Definable field to use as an external Id. --></help>
+        <label><!-- Admin Name --></label>
+        <name>pimly__Admin_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>pimly__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Family --></label>
+        <name>pimly__Family__c</name>
+        <relationshipLabel><!-- Inheritance Groups --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The parent of this inheritance group --></help>
+        <label><!-- Inheritance Group --></label>
+        <name>pimly__Inheritance_Group__c</name>
+        <relationshipLabel><!-- Inheritance Groups --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Inheritance Model Id --></label>
+        <name>pimly__Inheritance_Model_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Model Name --></label>
+        <name>pimly__Model_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- This unique id is used throughout Pimly and used to associate parents and product to the group via API. --></help>
+        <label><!-- Pimly Id --></label>
+        <name>pimly__Pimly_Id__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

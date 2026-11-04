@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>SCA Rule</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>SCA Rules</value>
+    </caseValues>
+    <fields>
+        <label><!-- Active --></label>
+        <name>copadoQuality__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Category --></label>
+        <name>copadoQuality__Category__c</name>
+        <picklistValues>
+            <masterLabel>Best Practices</masterLabel>
+            <translation><!-- Best Practices --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code Style</masterLabel>
+            <translation><!-- Code Style --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custom</masterLabel>
+            <translation><!-- Custom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Design</masterLabel>
+            <translation><!-- Design --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Documentation</masterLabel>
+            <translation><!-- Documentation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Error Prone</masterLabel>
+            <translation><!-- Error Prone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multithreading</masterLabel>
+            <translation><!-- Multithreading --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Performance</masterLabel>
+            <translation><!-- Performance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Security</masterLabel>
+            <translation><!-- Security --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Config Json --></label>
+        <name>copadoQuality__ConfigJson__c</name>
+    </fields>
+    <fields>
+        <label><!-- Extension Configuration --></label>
+        <name>copadoQuality__Extension_Configuration__c</name>
+        <relationshipLabel><!-- SCA Rules --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- File Path --></label>
+        <name>copadoQuality__FilePath__c</name>
+    </fields>
+    <fields>
+        <label><!-- Message --></label>
+        <name>copadoQuality__Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Priority --></label>
+        <name>copadoQuality__Priority__c</name>
+        <picklistValues>
+            <masterLabel>1 - High</masterLabel>
+            <translation><!-- 1 - High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Medium High</masterLabel>
+            <translation><!-- 2 - Medium High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Medium</masterLabel>
+            <translation><!-- 3 - Medium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 - Medium Low</masterLabel>
+            <translation><!-- 4 - Medium Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 - Low</masterLabel>
+            <translation><!-- 5 - Low --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Rule Language --></label>
+        <name>copadoQuality__Rule_Language__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rule Name --></label>
+        <name>copadoQuality__Rule_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rule Reference --></label>
+        <name>copadoQuality__Rule_Reference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rule Type --></label>
+        <name>copadoQuality__Rule_Type__c</name>
+        <picklistValues>
+            <masterLabel>Standard</masterLabel>
+            <translation><!-- Standard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>XPath</masterLabel>
+            <translation><!-- XPath --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- XPath Expression --></label>
+        <name>copadoQuality__XPath_Expression__c</name>
+    </fields>
+    <fields>
+        <label><!-- XPath Version --></label>
+        <name>copadoQuality__XPath_Version__c</name>
+        <picklistValues>
+            <masterLabel>1.0</masterLabel>
+            <translation><!-- 1.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2.0</masterLabel>
+            <translation><!-- 2.0 --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>SCA Rule Layout</layout>
+        <sections>
+            <label><!-- Basic Information --></label>
+            <section>Basic Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Rule Configuration --></label>
+            <section>Rule Configuration</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

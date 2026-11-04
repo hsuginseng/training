@@ -1,0 +1,19 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Login",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "attributes" : {
+          "usernameLabel" : "電子郵件",
+          "passwordLabel" : "密碼",
+          "loginButtonLabel" : "登入",
+          "forgotPasswordLabel" : "忘記密碼？",
+          "selfRegisterLabel" : "尚未成為會員？"
+        },
+        "id" : "21b50927-3b5a-4ae6-8aa4-fbf722cabf8a"
+      } ]
+    }
+  },
+  "urlName" : "login"
+}

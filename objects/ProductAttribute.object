@@ -1,0 +1,3189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>ProductId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Sequence</fullName>
+    </fields>
+    <fields>
+        <fullName>VariantParentId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>prop07395a0749b949a9bd7d2884792382ba__c</fullName>
+        <label>Color</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Blue</fullName>
+                    <default>false</default>
+                    <label>Blue</label>
+                </value>
+                <value>
+                    <fullName>Green</fullName>
+                    <default>false</default>
+                    <label>Green</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>prop1bc78413f43f4b8bb1f116df80d71e02__c</fullName>
+        <label>Capacity</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>11-Cup</fullName>
+                    <default>false</default>
+                    <label>11-Cup</label>
+                </value>
+                <value>
+                    <fullName>6-Cup</fullName>
+                    <default>false</default>
+                    <label>6-Cup</label>
+                </value>
+                <value>
+                    <fullName>10-Cup</fullName>
+                    <default>false</default>
+                    <label>10-Cup</label>
+                </value>
+                <value>
+                    <fullName>3-Cup</fullName>
+                    <default>false</default>
+                    <label>3-Cup</label>
+                </value>
+                <value>
+                    <fullName>5.5-Cup</fullName>
+                    <default>false</default>
+                    <label>5.5-Cup</label>
+                </value>
+                <value>
+                    <fullName>3 L</fullName>
+                    <default>false</default>
+                    <label>3 L</label>
+                </value>
+                <value>
+                    <fullName>4 L</fullName>
+                    <default>false</default>
+                    <label>4 L</label>
+                </value>
+                <value>
+                    <fullName>5 L</fullName>
+                    <default>false</default>
+                    <label>5 L</label>
+                </value>
+                <value>
+                    <fullName>5-Cup</fullName>
+                    <default>false</default>
+                    <label>5-Cup</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>prop21a27fb9517d48d890d070ead52dbe68__c</fullName>
+        <label>Product Benefits</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Hydrating</fullName>
+                    <default>false</default>
+                    <label>Hydrating</label>
+                </value>
+                <value>
+                    <fullName>Whitening</fullName>
+                    <default>false</default>
+                    <label>Whitening</label>
+                </value>
+                <value>
+                    <fullName>Plumping</fullName>
+                    <default>false</default>
+                    <label>Plumping</label>
+                </value>
+                <value>
+                    <fullName>Ceramide Moisturizing</fullName>
+                    <default>false</default>
+                    <label>Ceramide Moisturizing</label>
+                </value>
+                <value>
+                    <fullName>Arbutin Brightening</fullName>
+                    <default>false</default>
+                    <label>Arbutin Brightening</label>
+                </value>
+                <value>
+                    <fullName>Mandelic Acid Refining</fullName>
+                    <default>false</default>
+                    <label>Mandelic Acid Refining</label>
+                </value>
+                <value>
+                    <fullName>Xpertmoist Deeply Moisturizing</fullName>
+                    <default>false</default>
+                    <label>Xpertmoist Deeply Moisturizing</label>
+                </value>
+                <value>
+                    <fullName>Algae Extract Hydrating</fullName>
+                    <default>false</default>
+                    <label>Algae Extract Hydrating</label>
+                </value>
+                <value>
+                    <fullName>Brightening</fullName>
+                    <default>false</default>
+                    <label>Brightening</label>
+                </value>
+                <value>
+                    <fullName>Moisturizing</fullName>
+                    <default>false</default>
+                    <label>Moisturizing</label>
+                </value>
+                <value>
+                    <fullName>Repairing</fullName>
+                    <default>false</default>
+                    <label>Repairing</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>prop34bbe423999848c8a464862ab4cb7d30__c</fullName>
+        <label>Size</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Ungraded</fullName>
+                    <default>false</default>
+                    <label>Ungraded</label>
+                </value>
+                <value>
+                    <fullName>Rhizome</fullName>
+                    <default>false</default>
+                    <label>Rhizome</label>
+                </value>
+                <value>
+                    <fullName>Prongs &amp; Fibers</fullName>
+                    <default>false</default>
+                    <label>Prongs &amp; Fibers</label>
+                </value>
+                <value>
+                    <fullName>Jumbo</fullName>
+                    <default>false</default>
+                    <label>Jumbo</label>
+                </value>
+                <value>
+                    <fullName>Extra Large</fullName>
+                    <default>false</default>
+                    <label>Extra Large</label>
+                </value>
+                <value>
+                    <fullName>Large</fullName>
+                    <default>false</default>
+                    <label>Large</label>
+                </value>
+                <value>
+                    <fullName>Medium</fullName>
+                    <default>false</default>
+                    <label>Medium</label>
+                </value>
+                <value>
+                    <fullName>Medium Small</fullName>
+                    <default>false</default>
+                    <label>Medium Small</label>
+                </value>
+                <value>
+                    <fullName>Small #1</fullName>
+                    <default>false</default>
+                    <label>Small #1</label>
+                </value>
+                <value>
+                    <fullName>Small #2</fullName>
+                    <default>false</default>
+                    <label>Small #2</label>
+                </value>
+                <value>
+                    <fullName>Small Bulk</fullName>
+                    <default>false</default>
+                    <label>Small Bulk</label>
+                </value>
+                <value>
+                    <fullName>Small</fullName>
+                    <default>false</default>
+                    <label>Small</label>
+                </value>
+                <value>
+                    <fullName>Large Medium</fullName>
+                    <default>false</default>
+                    <label>Large Medium</label>
+                </value>
+                <value>
+                    <fullName>Tea-cut</fullName>
+                    <default>false</default>
+                    <label>Tea-cut</label>
+                </value>
+                <value>
+                    <fullName>Giant</fullName>
+                    <default>false</default>
+                    <label>Giant</label>
+                </value>
+                <value>
+                    <fullName>Mixed Sizes</fullName>
+                    <default>false</default>
+                    <label>Mixed Sizes</label>
+                </value>
+                <value>
+                    <fullName>Super Giant</fullName>
+                    <default>false</default>
+                    <label>Super Giant</label>
+                </value>
+                <value>
+                    <fullName>8 oz</fullName>
+                    <default>false</default>
+                    <label>8 oz</label>
+                </value>
+                <value>
+                    <fullName>Extra Giant</fullName>
+                    <default>false</default>
+                    <label>Extra Giant</label>
+                </value>
+                <value>
+                    <fullName>Extra Jumbo</fullName>
+                    <default>false</default>
+                    <label>Extra Jumbo</label>
+                </value>
+                <value>
+                    <fullName>Small #3</fullName>
+                    <default>false</default>
+                    <label>Small #3</label>
+                </value>
+                <value>
+                    <fullName>Low Grade</fullName>
+                    <default>false</default>
+                    <label>Low Grade</label>
+                </value>
+                <value>
+                    <fullName>Mix-sized</fullName>
+                    <default>false</default>
+                    <label>Mix-sized</label>
+                </value>
+                <value>
+                    <fullName>20 Heaven</fullName>
+                    <default>false</default>
+                    <label>20 Heaven</label>
+                </value>
+                <value>
+                    <fullName>30 Heaven</fullName>
+                    <default>false</default>
+                    <label>30 Heaven</label>
+                </value>
+                <value>
+                    <fullName>40 Heaven</fullName>
+                    <default>false</default>
+                    <label>40 Heaven</label>
+                </value>
+                <value>
+                    <fullName>20 Earth</fullName>
+                    <default>false</default>
+                    <label>20 Earth</label>
+                </value>
+                <value>
+                    <fullName>30 Earth</fullName>
+                    <default>false</default>
+                    <label>30 Earth</label>
+                </value>
+                <value>
+                    <fullName>40 Earth</fullName>
+                    <default>false</default>
+                    <label>40 Earth</label>
+                </value>
+                <value>
+                    <fullName>20 Good</fullName>
+                    <default>false</default>
+                    <label>20 Good</label>
+                </value>
+                <value>
+                    <fullName>30 Good</fullName>
+                    <default>false</default>
+                    <label>30 Good</label>
+                </value>
+                <value>
+                    <fullName>40 Good</fullName>
+                    <default>false</default>
+                    <label>40 Good</label>
+                </value>
+                <value>
+                    <fullName>Prong &amp; Fiber</fullName>
+                    <default>false</default>
+                    <label>Prong &amp; Fiber</label>
+                </value>
+                <value>
+                    <fullName>Giant Mixed</fullName>
+                    <default>false</default>
+                    <label>Giant Mixed</label>
+                </value>
+                <value>
+                    <fullName>Large Mixed</fullName>
+                    <default>false</default>
+                    <label>Large Mixed</label>
+                </value>
+                <value>
+                    <fullName>Round Cut Slices</fullName>
+                    <default>false</default>
+                    <label>Round Cut Slices</label>
+                </value>
+                <value>
+                    <fullName>Standard</fullName>
+                    <default>false</default>
+                    <label>Standard</label>
+                </value>
+                <value>
+                    <fullName>Mixed</fullName>
+                    <default>false</default>
+                    <label>Mixed</label>
+                </value>
+                <value>
+                    <fullName>10 pcs per lb</fullName>
+                    <default>false</default>
+                    <label>10 pcs per lb</label>
+                </value>
+                <value>
+                    <fullName>20 pcs per lb</fullName>
+                    <default>false</default>
+                    <label>20 pcs per lb</label>
+                </value>
+                <value>
+                    <fullName>25 pcs per lb</fullName>
+                    <default>false</default>
+                    <label>25 pcs per lb</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>prop3c8382c255b54e8e88c8046559c2ca67__c</fullName>
+        <label>Count</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>10</fullName>
+                    <default>false</default>
+                    <label>10</label>
+                </value>
+                <value>
+                    <fullName>18</fullName>
+                    <default>false</default>
+                    <label>18</label>
+                </value>
+                <value>
+                    <fullName>100</fullName>
+                    <default>false</default>
+                    <label>100</label>
+                </value>
+                <value>
+                    <fullName>500</fullName>
+                    <default>false</default>
+                    <label>500</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>prop4286edc00b774949b47429dd5003c2fc__c</fullName>
+        <label>Package Type</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Bag</fullName>
+                    <default>false</default>
+                    <label>Bag</label>
+                </value>
+                <value>
+                    <fullName>Can</fullName>
+                    <default>false</default>
+                    <label>Can</label>
+                </value>
+                <value>
+                    <fullName>Economic Packaging</fullName>
+                    <default>false</default>
+                    <label>Economic Packaging</label>
+                </value>
+                <value>
+                    <fullName>Economy Size</fullName>
+                    <default>false</default>
+                    <label>Economy Size</label>
+                </value>
+                <value>
+                    <fullName>Gift Box</fullName>
+                    <default>false</default>
+                    <label>Gift Box</label>
+                </value>
+                <value>
+                    <fullName>Gift Set</fullName>
+                    <default>false</default>
+                    <label>Gift Set</label>
+                </value>
+                <value>
+                    <fullName>Standard</fullName>
+                    <default>false</default>
+                    <label>Standard</label>
+                </value>
+                <value>
+                    <fullName>Travel Size</fullName>
+                    <default>false</default>
+                    <label>Travel Size</label>
+                </value>
+                <value>
+                    <fullName>Twin Pack</fullName>
+                    <default>false</default>
+                    <label>Twin Pack</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>prop4894e94098af49c99bdb77ff84feb014__c</fullName>
+        <label>Type</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Black Truffle</fullName>
+                    <default>false</default>
+                    <label>Black Truffle</label>
+                </value>
+                <value>
+                    <fullName>Braised Abalone</fullName>
+                    <default>false</default>
+                    <label>Braised Abalone</label>
+                </value>
+                <value>
+                    <fullName>Brine</fullName>
+                    <default>false</default>
+                    <label>Brine</label>
+                </value>
+                <value>
+                    <fullName>Non-Spiky</fullName>
+                    <default>false</default>
+                    <label>Non-Spiky</label>
+                </value>
+                <value>
+                    <fullName>Oyster Sauce</fullName>
+                    <default>false</default>
+                    <label>Oyster Sauce</label>
+                </value>
+                <value>
+                    <fullName>Scallop Sauce</fullName>
+                    <default>false</default>
+                    <label>Scallop Sauce</label>
+                </value>
+                <value>
+                    <fullName>Spiky</fullName>
+                    <default>false</default>
+                    <label>Spiky</label>
+                </value>
+                <value>
+                    <fullName>Superior Sauce</fullName>
+                    <default>false</default>
+                    <label>Superior Sauce</label>
+                </value>
+                <value>
+                    <fullName>Tangerine Peel Sauce</fullName>
+                    <default>false</default>
+                    <label>Tangerine Peel Sauce</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>prop5743bd8f943f42d2a7e7d80c0b92c0ba__c</fullName>
+        <label>Pack Size</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>6</fullName>
+                    <default>false</default>
+                    <label>6</label>
+                </value>
+                <value>
+                    <fullName>72</fullName>
+                    <default>false</default>
+                    <label>72</label>
+                </value>
+                <value>
+                    <fullName>7</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>7</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>prop583b49cdb6944a1ab93921be87a276be__c</fullName>
+        <label>Root ID</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>304</fullName>
+                    <default>false</default>
+                    <label>304</label>
+                </value>
+                <value>
+                    <fullName>330</fullName>
+                    <default>false</default>
+                    <label>330</label>
+                </value>
+                <value>
+                    <fullName>334</fullName>
+                    <default>false</default>
+                    <label>334</label>
+                </value>
+                <value>
+                    <fullName>335</fullName>
+                    <default>false</default>
+                    <label>335</label>
+                </value>
+                <value>
+                    <fullName>336</fullName>
+                    <default>false</default>
+                    <label>336</label>
+                </value>
+                <value>
+                    <fullName>337</fullName>
+                    <default>false</default>
+                    <label>337</label>
+                </value>
+                <value>
+                    <fullName>366</fullName>
+                    <default>false</default>
+                    <label>366</label>
+                </value>
+                <value>
+                    <fullName>367</fullName>
+                    <default>false</default>
+                    <label>367</label>
+                </value>
+                <value>
+                    <fullName>372</fullName>
+                    <default>false</default>
+                    <label>372</label>
+                </value>
+                <value>
+                    <fullName>375</fullName>
+                    <default>false</default>
+                    <label>375</label>
+                </value>
+                <value>
+                    <fullName>379</fullName>
+                    <default>false</default>
+                    <label>379</label>
+                </value>
+                <value>
+                    <fullName>386</fullName>
+                    <default>false</default>
+                    <label>386</label>
+                </value>
+                <value>
+                    <fullName>387</fullName>
+                    <default>false</default>
+                    <label>387</label>
+                </value>
+                <value>
+                    <fullName>394</fullName>
+                    <default>false</default>
+                    <label>394</label>
+                </value>
+                <value>
+                    <fullName>395</fullName>
+                    <default>false</default>
+                    <label>395</label>
+                </value>
+                <value>
+                    <fullName>396</fullName>
+                    <default>false</default>
+                    <label>396</label>
+                </value>
+                <value>
+                    <fullName>397</fullName>
+                    <default>false</default>
+                    <label>397</label>
+                </value>
+                <value>
+                    <fullName>404</fullName>
+                    <default>false</default>
+                    <label>404</label>
+                </value>
+                <value>
+                    <fullName>405</fullName>
+                    <default>false</default>
+                    <label>405</label>
+                </value>
+                <value>
+                    <fullName>406</fullName>
+                    <default>false</default>
+                    <label>406</label>
+                </value>
+                <value>
+                    <fullName>407</fullName>
+                    <default>false</default>
+                    <label>407</label>
+                </value>
+                <value>
+                    <fullName>408</fullName>
+                    <default>false</default>
+                    <label>408</label>
+                </value>
+                <value>
+                    <fullName>409</fullName>
+                    <default>false</default>
+                    <label>409</label>
+                </value>
+                <value>
+                    <fullName>410</fullName>
+                    <default>false</default>
+                    <label>410</label>
+                </value>
+                <value>
+                    <fullName>411</fullName>
+                    <default>false</default>
+                    <label>411</label>
+                </value>
+                <value>
+                    <fullName>412</fullName>
+                    <default>false</default>
+                    <label>412</label>
+                </value>
+                <value>
+                    <fullName>413</fullName>
+                    <default>false</default>
+                    <label>413</label>
+                </value>
+                <value>
+                    <fullName>414</fullName>
+                    <default>false</default>
+                    <label>414</label>
+                </value>
+                <value>
+                    <fullName>415</fullName>
+                    <default>false</default>
+                    <label>415</label>
+                </value>
+                <value>
+                    <fullName>416</fullName>
+                    <default>false</default>
+                    <label>416</label>
+                </value>
+                <value>
+                    <fullName>417</fullName>
+                    <default>false</default>
+                    <label>417</label>
+                </value>
+                <value>
+                    <fullName>418</fullName>
+                    <default>false</default>
+                    <label>418</label>
+                </value>
+                <value>
+                    <fullName>419</fullName>
+                    <default>false</default>
+                    <label>419</label>
+                </value>
+                <value>
+                    <fullName>209</fullName>
+                    <default>false</default>
+                    <label>209</label>
+                </value>
+                <value>
+                    <fullName>265</fullName>
+                    <default>false</default>
+                    <label>265</label>
+                </value>
+                <value>
+                    <fullName>266</fullName>
+                    <default>false</default>
+                    <label>266</label>
+                </value>
+                <value>
+                    <fullName>267</fullName>
+                    <default>false</default>
+                    <label>267</label>
+                </value>
+                <value>
+                    <fullName>268</fullName>
+                    <default>false</default>
+                    <label>268</label>
+                </value>
+                <value>
+                    <fullName>274</fullName>
+                    <default>false</default>
+                    <label>274</label>
+                </value>
+                <value>
+                    <fullName>281</fullName>
+                    <default>false</default>
+                    <label>281</label>
+                </value>
+                <value>
+                    <fullName>282</fullName>
+                    <default>false</default>
+                    <label>282</label>
+                </value>
+                <value>
+                    <fullName>284</fullName>
+                    <default>false</default>
+                    <label>284</label>
+                </value>
+                <value>
+                    <fullName>356</fullName>
+                    <default>false</default>
+                    <label>356</label>
+                </value>
+                <value>
+                    <fullName>358</fullName>
+                    <default>false</default>
+                    <label>358</label>
+                </value>
+                <value>
+                    <fullName>400</fullName>
+                    <default>false</default>
+                    <label>400</label>
+                </value>
+                <value>
+                    <fullName>425</fullName>
+                    <default>false</default>
+                    <label>425</label>
+                </value>
+                <value>
+                    <fullName>426</fullName>
+                    <default>false</default>
+                    <label>426</label>
+                </value>
+                <value>
+                    <fullName>427</fullName>
+                    <default>false</default>
+                    <label>427</label>
+                </value>
+                <value>
+                    <fullName>429</fullName>
+                    <default>false</default>
+                    <label>429</label>
+                </value>
+                <value>
+                    <fullName>431</fullName>
+                    <default>false</default>
+                    <label>431</label>
+                </value>
+                <value>
+                    <fullName>432</fullName>
+                    <default>false</default>
+                    <label>432</label>
+                </value>
+                <value>
+                    <fullName>433</fullName>
+                    <default>false</default>
+                    <label>433</label>
+                </value>
+                <value>
+                    <fullName>434</fullName>
+                    <default>false</default>
+                    <label>434</label>
+                </value>
+                <value>
+                    <fullName>435</fullName>
+                    <default>false</default>
+                    <label>435</label>
+                </value>
+                <value>
+                    <fullName>436</fullName>
+                    <default>false</default>
+                    <label>436</label>
+                </value>
+                <value>
+                    <fullName>437</fullName>
+                    <default>false</default>
+                    <label>437</label>
+                </value>
+                <value>
+                    <fullName>438</fullName>
+                    <default>false</default>
+                    <label>438</label>
+                </value>
+                <value>
+                    <fullName>440</fullName>
+                    <default>false</default>
+                    <label>440</label>
+                </value>
+                <value>
+                    <fullName>441</fullName>
+                    <default>false</default>
+                    <label>441</label>
+                </value>
+                <value>
+                    <fullName>443</fullName>
+                    <default>false</default>
+                    <label>443</label>
+                </value>
+                <value>
+                    <fullName>444</fullName>
+                    <default>false</default>
+                    <label>444</label>
+                </value>
+                <value>
+                    <fullName>445</fullName>
+                    <default>false</default>
+                    <label>445</label>
+                </value>
+                <value>
+                    <fullName>446</fullName>
+                    <default>false</default>
+                    <label>446</label>
+                </value>
+                <value>
+                    <fullName>447</fullName>
+                    <default>false</default>
+                    <label>447</label>
+                </value>
+                <value>
+                    <fullName>449</fullName>
+                    <default>false</default>
+                    <label>449</label>
+                </value>
+                <value>
+                    <fullName>450</fullName>
+                    <default>false</default>
+                    <label>450</label>
+                </value>
+                <value>
+                    <fullName>452</fullName>
+                    <default>false</default>
+                    <label>452</label>
+                </value>
+                <value>
+                    <fullName>453</fullName>
+                    <default>false</default>
+                    <label>453</label>
+                </value>
+                <value>
+                    <fullName>454</fullName>
+                    <default>false</default>
+                    <label>454</label>
+                </value>
+                <value>
+                    <fullName>456</fullName>
+                    <default>false</default>
+                    <label>456</label>
+                </value>
+                <value>
+                    <fullName>457</fullName>
+                    <default>false</default>
+                    <label>457</label>
+                </value>
+                <value>
+                    <fullName>458</fullName>
+                    <default>false</default>
+                    <label>458</label>
+                </value>
+                <value>
+                    <fullName>459</fullName>
+                    <default>false</default>
+                    <label>459</label>
+                </value>
+                <value>
+                    <fullName>460</fullName>
+                    <default>false</default>
+                    <label>460</label>
+                </value>
+                <value>
+                    <fullName>461</fullName>
+                    <default>false</default>
+                    <label>461</label>
+                </value>
+                <value>
+                    <fullName>462</fullName>
+                    <default>false</default>
+                    <label>462</label>
+                </value>
+                <value>
+                    <fullName>464</fullName>
+                    <default>false</default>
+                    <label>464</label>
+                </value>
+                <value>
+                    <fullName>465</fullName>
+                    <default>false</default>
+                    <label>465</label>
+                </value>
+                <value>
+                    <fullName>466</fullName>
+                    <default>false</default>
+                    <label>466</label>
+                </value>
+                <value>
+                    <fullName>467</fullName>
+                    <default>false</default>
+                    <label>467</label>
+                </value>
+                <value>
+                    <fullName>468</fullName>
+                    <default>false</default>
+                    <label>468</label>
+                </value>
+                <value>
+                    <fullName>469</fullName>
+                    <default>false</default>
+                    <label>469</label>
+                </value>
+                <value>
+                    <fullName>470</fullName>
+                    <default>false</default>
+                    <label>470</label>
+                </value>
+                <value>
+                    <fullName>471</fullName>
+                    <default>false</default>
+                    <label>471</label>
+                </value>
+                <value>
+                    <fullName>472</fullName>
+                    <default>false</default>
+                    <label>472</label>
+                </value>
+                <value>
+                    <fullName>473</fullName>
+                    <default>false</default>
+                    <label>473</label>
+                </value>
+                <value>
+                    <fullName>475</fullName>
+                    <default>false</default>
+                    <label>475</label>
+                </value>
+                <value>
+                    <fullName>476</fullName>
+                    <default>false</default>
+                    <label>476</label>
+                </value>
+                <value>
+                    <fullName>477</fullName>
+                    <default>false</default>
+                    <label>477</label>
+                </value>
+                <value>
+                    <fullName>478</fullName>
+                    <default>false</default>
+                    <label>478</label>
+                </value>
+                <value>
+                    <fullName>479</fullName>
+                    <default>false</default>
+                    <label>479</label>
+                </value>
+                <value>
+                    <fullName>480</fullName>
+                    <default>false</default>
+                    <label>480</label>
+                </value>
+                <value>
+                    <fullName>481</fullName>
+                    <default>false</default>
+                    <label>481</label>
+                </value>
+                <value>
+                    <fullName>482</fullName>
+                    <default>false</default>
+                    <label>482</label>
+                </value>
+                <value>
+                    <fullName>483</fullName>
+                    <default>false</default>
+                    <label>483</label>
+                </value>
+                <value>
+                    <fullName>484</fullName>
+                    <default>false</default>
+                    <label>484</label>
+                </value>
+                <value>
+                    <fullName>485</fullName>
+                    <default>false</default>
+                    <label>485</label>
+                </value>
+                <value>
+                    <fullName>486</fullName>
+                    <default>false</default>
+                    <label>486</label>
+                </value>
+                <value>
+                    <fullName>487</fullName>
+                    <default>false</default>
+                    <label>487</label>
+                </value>
+                <value>
+                    <fullName>S002</fullName>
+                    <default>false</default>
+                    <label>S002</label>
+                </value>
+                <value>
+                    <fullName>S003</fullName>
+                    <default>false</default>
+                    <label>S003</label>
+                </value>
+                <value>
+                    <fullName>S004</fullName>
+                    <default>false</default>
+                    <label>S004</label>
+                </value>
+                <value>
+                    <fullName>S005</fullName>
+                    <default>false</default>
+                    <label>S005</label>
+                </value>
+                <value>
+                    <fullName>S006</fullName>
+                    <default>false</default>
+                    <label>S006</label>
+                </value>
+                <value>
+                    <fullName>S007</fullName>
+                    <default>false</default>
+                    <label>S007</label>
+                </value>
+                <value>
+                    <fullName>S010</fullName>
+                    <default>false</default>
+                    <label>S010</label>
+                </value>
+                <value>
+                    <fullName>S011</fullName>
+                    <default>false</default>
+                    <label>S011</label>
+                </value>
+                <value>
+                    <fullName>S012</fullName>
+                    <default>false</default>
+                    <label>S012</label>
+                </value>
+                <value>
+                    <fullName>S014</fullName>
+                    <default>false</default>
+                    <label>S014</label>
+                </value>
+                <value>
+                    <fullName>S015</fullName>
+                    <default>false</default>
+                    <label>S015</label>
+                </value>
+                <value>
+                    <fullName>S018</fullName>
+                    <default>false</default>
+                    <label>S018</label>
+                </value>
+                <value>
+                    <fullName>S019</fullName>
+                    <default>false</default>
+                    <label>S019</label>
+                </value>
+                <value>
+                    <fullName>S020</fullName>
+                    <default>false</default>
+                    <label>S020</label>
+                </value>
+                <value>
+                    <fullName>S022</fullName>
+                    <default>false</default>
+                    <label>S022</label>
+                </value>
+                <value>
+                    <fullName>S024</fullName>
+                    <default>false</default>
+                    <label>S024</label>
+                </value>
+                <value>
+                    <fullName>S025</fullName>
+                    <default>false</default>
+                    <label>S025</label>
+                </value>
+                <value>
+                    <fullName>S026</fullName>
+                    <default>false</default>
+                    <label>S026</label>
+                </value>
+                <value>
+                    <fullName>S027</fullName>
+                    <default>false</default>
+                    <label>S027</label>
+                </value>
+                <value>
+                    <fullName>S028</fullName>
+                    <default>false</default>
+                    <label>S028</label>
+                </value>
+                <value>
+                    <fullName>S029</fullName>
+                    <default>false</default>
+                    <label>S029</label>
+                </value>
+                <value>
+                    <fullName>S030</fullName>
+                    <default>false</default>
+                    <label>S030</label>
+                </value>
+                <value>
+                    <fullName>S031</fullName>
+                    <default>false</default>
+                    <label>S031</label>
+                </value>
+                <value>
+                    <fullName>319</fullName>
+                    <default>false</default>
+                    <label>319</label>
+                </value>
+                <value>
+                    <fullName>322</fullName>
+                    <default>false</default>
+                    <label>322</label>
+                </value>
+                <value>
+                    <fullName>323</fullName>
+                    <default>false</default>
+                    <label>323</label>
+                </value>
+                <value>
+                    <fullName>324</fullName>
+                    <default>false</default>
+                    <label>324</label>
+                </value>
+                <value>
+                    <fullName>325</fullName>
+                    <default>false</default>
+                    <label>325</label>
+                </value>
+                <value>
+                    <fullName>327</fullName>
+                    <default>false</default>
+                    <label>327</label>
+                </value>
+                <value>
+                    <fullName>328</fullName>
+                    <default>false</default>
+                    <label>328</label>
+                </value>
+                <value>
+                    <fullName>329</fullName>
+                    <default>false</default>
+                    <label>329</label>
+                </value>
+                <value>
+                    <fullName>331</fullName>
+                    <default>false</default>
+                    <label>331</label>
+                </value>
+                <value>
+                    <fullName>332</fullName>
+                    <default>false</default>
+                    <label>332</label>
+                </value>
+                <value>
+                    <fullName>333</fullName>
+                    <default>false</default>
+                    <label>333</label>
+                </value>
+                <value>
+                    <fullName>338</fullName>
+                    <default>false</default>
+                    <label>338</label>
+                </value>
+                <value>
+                    <fullName>340</fullName>
+                    <default>false</default>
+                    <label>340</label>
+                </value>
+                <value>
+                    <fullName>341</fullName>
+                    <default>false</default>
+                    <label>341</label>
+                </value>
+                <value>
+                    <fullName>342</fullName>
+                    <default>false</default>
+                    <label>342</label>
+                </value>
+                <value>
+                    <fullName>343</fullName>
+                    <default>false</default>
+                    <label>343</label>
+                </value>
+                <value>
+                    <fullName>344</fullName>
+                    <default>false</default>
+                    <label>344</label>
+                </value>
+                <value>
+                    <fullName>345</fullName>
+                    <default>false</default>
+                    <label>345</label>
+                </value>
+                <value>
+                    <fullName>346</fullName>
+                    <default>false</default>
+                    <label>346</label>
+                </value>
+                <value>
+                    <fullName>347</fullName>
+                    <default>false</default>
+                    <label>347</label>
+                </value>
+                <value>
+                    <fullName>348</fullName>
+                    <default>false</default>
+                    <label>348</label>
+                </value>
+                <value>
+                    <fullName>349</fullName>
+                    <default>false</default>
+                    <label>349</label>
+                </value>
+                <value>
+                    <fullName>350</fullName>
+                    <default>false</default>
+                    <label>350</label>
+                </value>
+                <value>
+                    <fullName>351</fullName>
+                    <default>false</default>
+                    <label>351</label>
+                </value>
+                <value>
+                    <fullName>352</fullName>
+                    <default>false</default>
+                    <label>352</label>
+                </value>
+                <value>
+                    <fullName>353</fullName>
+                    <default>false</default>
+                    <label>353</label>
+                </value>
+                <value>
+                    <fullName>354</fullName>
+                    <default>false</default>
+                    <label>354</label>
+                </value>
+                <value>
+                    <fullName>357</fullName>
+                    <default>false</default>
+                    <label>357</label>
+                </value>
+                <value>
+                    <fullName>S001</fullName>
+                    <default>false</default>
+                    <label>S001</label>
+                </value>
+                <value>
+                    <fullName>S009</fullName>
+                    <default>false</default>
+                    <label>S009</label>
+                </value>
+                <value>
+                    <fullName>S013</fullName>
+                    <default>false</default>
+                    <label>S013</label>
+                </value>
+                <value>
+                    <fullName>264</fullName>
+                    <default>false</default>
+                    <label>264</label>
+                </value>
+                <value>
+                    <fullName>269</fullName>
+                    <default>false</default>
+                    <label>269</label>
+                </value>
+                <value>
+                    <fullName>270</fullName>
+                    <default>false</default>
+                    <label>270</label>
+                </value>
+                <value>
+                    <fullName>271</fullName>
+                    <default>false</default>
+                    <label>271</label>
+                </value>
+                <value>
+                    <fullName>272</fullName>
+                    <default>false</default>
+                    <label>272</label>
+                </value>
+                <value>
+                    <fullName>273</fullName>
+                    <default>false</default>
+                    <label>273</label>
+                </value>
+                <value>
+                    <fullName>275</fullName>
+                    <default>false</default>
+                    <label>275</label>
+                </value>
+                <value>
+                    <fullName>488</fullName>
+                    <default>false</default>
+                    <label>488</label>
+                </value>
+                <value>
+                    <fullName>489</fullName>
+                    <default>false</default>
+                    <label>489</label>
+                </value>
+                <value>
+                    <fullName>491</fullName>
+                    <default>false</default>
+                    <label>491</label>
+                </value>
+                <value>
+                    <fullName>492</fullName>
+                    <default>false</default>
+                    <label>492</label>
+                </value>
+                <value>
+                    <fullName>493</fullName>
+                    <default>false</default>
+                    <label>493</label>
+                </value>
+                <value>
+                    <fullName>494</fullName>
+                    <default>false</default>
+                    <label>494</label>
+                </value>
+                <value>
+                    <fullName>495</fullName>
+                    <default>false</default>
+                    <label>495</label>
+                </value>
+                <value>
+                    <fullName>496</fullName>
+                    <default>false</default>
+                    <label>496</label>
+                </value>
+                <value>
+                    <fullName>497</fullName>
+                    <default>false</default>
+                    <label>497</label>
+                </value>
+                <value>
+                    <fullName>498</fullName>
+                    <default>false</default>
+                    <label>498</label>
+                </value>
+                <value>
+                    <fullName>499</fullName>
+                    <default>false</default>
+                    <label>499</label>
+                </value>
+                <value>
+                    <fullName>500</fullName>
+                    <default>false</default>
+                    <label>500</label>
+                </value>
+                <value>
+                    <fullName>501</fullName>
+                    <default>false</default>
+                    <label>501</label>
+                </value>
+                <value>
+                    <fullName>502</fullName>
+                    <default>false</default>
+                    <label>502</label>
+                </value>
+                <value>
+                    <fullName>71</fullName>
+                    <default>false</default>
+                    <label>71</label>
+                </value>
+                <value>
+                    <fullName>276</fullName>
+                    <default>false</default>
+                    <label>276</label>
+                </value>
+                <value>
+                    <fullName>278</fullName>
+                    <default>false</default>
+                    <label>278</label>
+                </value>
+                <value>
+                    <fullName>279</fullName>
+                    <default>false</default>
+                    <label>279</label>
+                </value>
+                <value>
+                    <fullName>280</fullName>
+                    <default>false</default>
+                    <label>280</label>
+                </value>
+                <value>
+                    <fullName>283</fullName>
+                    <default>false</default>
+                    <label>283</label>
+                </value>
+                <value>
+                    <fullName>S008</fullName>
+                    <default>false</default>
+                    <label>S008</label>
+                </value>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>1</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>prop5b8a3fc8b0d643339f9f5104085486a1__c</fullName>
+        <label>Hair Color</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>4S-Brown</fullName>
+                    <default>false</default>
+                    <label>4S-Brown</label>
+                </value>
+                <value>
+                    <fullName>5S Natural Brown</fullName>
+                    <default>false</default>
+                    <label>5S Natural Brown</label>
+                </value>
+                <value>
+                    <fullName>6S - Dark Brown</fullName>
+                    <default>false</default>
+                    <label>6S - Dark Brown</label>
+                </value>
+                <value>
+                    <fullName>Medium Brown</fullName>
+                    <default>false</default>
+                    <label>Medium Brown</label>
+                </value>
+                <value>
+                    <fullName>Dark Brown</fullName>
+                    <default>false</default>
+                    <label>Dark Brown</label>
+                </value>
+                <value>
+                    <fullName>Darkest Brown</fullName>
+                    <default>false</default>
+                    <label>Darkest Brown</label>
+                </value>
+                <value>
+                    <fullName>Natural Black</fullName>
+                    <default>false</default>
+                    <label>Natural Black</label>
+                </value>
+                <value>
+                    <fullName>Burgundy Brown</fullName>
+                    <default>false</default>
+                    <label>Burgundy Brown</label>
+                </value>
+                <value>
+                    <fullName>Cinnamon Brown</fullName>
+                    <default>false</default>
+                    <label>Cinnamon Brown</label>
+                </value>
+                <value>
+                    <fullName>Brown Black</fullName>
+                    <default>false</default>
+                    <label>Brown Black</label>
+                </value>
+                <value>
+                    <fullName>Chocolate Brown</fullName>
+                    <default>false</default>
+                    <label>Chocolate Brown</label>
+                </value>
+                <value>
+                    <fullName>Coffee Brown</fullName>
+                    <default>false</default>
+                    <label>Coffee Brown</label>
+                </value>
+                <value>
+                    <fullName>Brownish Black</fullName>
+                    <default>false</default>
+                    <label>Brownish Black</label>
+                </value>
+                <value>
+                    <fullName>Warm Chestnut</fullName>
+                    <default>false</default>
+                    <label>Warm Chestnut</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>prop647828d68ce44a7aa626e8f2902919f6__c</fullName>
+        <label>Count</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>80</fullName>
+                    <default>false</default>
+                    <label>80</label>
+                </value>
+                <value>
+                    <fullName>20</fullName>
+                    <default>false</default>
+                    <label>20</label>
+                </value>
+                <value>
+                    <fullName>40</fullName>
+                    <default>false</default>
+                    <label>40</label>
+                </value>
+                <value>
+                    <fullName>100</fullName>
+                    <default>false</default>
+                    <label>100</label>
+                </value>
+                <value>
+                    <fullName>500</fullName>
+                    <default>false</default>
+                    <label>500</label>
+                </value>
+                <value>
+                    <fullName>180</fullName>
+                    <default>false</default>
+                    <label>180</label>
+                </value>
+                <value>
+                    <fullName>60</fullName>
+                    <default>false</default>
+                    <label>60</label>
+                </value>
+                <value>
+                    <fullName>120</fullName>
+                    <default>false</default>
+                    <label>120</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>prop6bec0c9075d14f6fa3e3058dd967fb74__c</fullName>
+        <label>Grade</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>3A</fullName>
+                    <default>false</default>
+                    <label>3A</label>
+                </value>
+                <value>
+                    <fullName>2A</fullName>
+                    <default>false</default>
+                    <label>2A</label>
+                </value>
+                <value>
+                    <fullName>Premium Grade</fullName>
+                    <default>false</default>
+                    <label>Premium Grade</label>
+                </value>
+                <value>
+                    <fullName>5A</fullName>
+                    <default>false</default>
+                    <label>5A</label>
+                </value>
+                <value>
+                    <fullName>6A</fullName>
+                    <default>false</default>
+                    <label>6A</label>
+                </value>
+                <value>
+                    <fullName>4A</fullName>
+                    <default>false</default>
+                    <label>4A</label>
+                </value>
+                <value>
+                    <fullName>Grade A</fullName>
+                    <default>false</default>
+                    <label>Grade A</label>
+                </value>
+                <value>
+                    <fullName>Grade B</fullName>
+                    <default>false</default>
+                    <label>Grade B</label>
+                </value>
+                <value>
+                    <fullName>Grade C</fullName>
+                    <default>false</default>
+                    <label>Grade C</label>
+                </value>
+                <value>
+                    <fullName>Broken Pieces</fullName>
+                    <default>false</default>
+                    <label>Broken Pieces</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>prop6e3909f9116f4595ac6c4b9c6a611b72__c</fullName>
+        <label>Flavor</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Rock Sugar</fullName>
+                    <default>false</default>
+                    <label>Rock Sugar</label>
+                </value>
+                <value>
+                    <fullName>American Ginseng &amp; Rock Sugar</fullName>
+                    <default>false</default>
+                    <label>American Ginseng &amp; Rock Sugar</label>
+                </value>
+                <value>
+                    <fullName>Sugar Free</fullName>
+                    <default>false</default>
+                    <label>Sugar Free</label>
+                </value>
+                <value>
+                    <fullName>Vegetarian Burdock</fullName>
+                    <default>false</default>
+                    <label>Vegetarian Burdock</label>
+                </value>
+                <value>
+                    <fullName>Vegetarian Pumpkin</fullName>
+                    <default>false</default>
+                    <label>Vegetarian Pumpkin</label>
+                </value>
+                <value>
+                    <fullName>Hericium Erinaceus</fullName>
+                    <default>false</default>
+                    <label>Hericium Erinaceus</label>
+                </value>
+                <value>
+                    <fullName>Vegetarian Nori Kelp</fullName>
+                    <default>false</default>
+                    <label>Vegetarian Nori Kelp</label>
+                </value>
+                <value>
+                    <fullName>Salted Egg Yolk Soy</fullName>
+                    <default>false</default>
+                    <label>Salted Egg Yolk Soy</label>
+                </value>
+                <value>
+                    <fullName>Dried Guava</fullName>
+                    <default>false</default>
+                    <label>Dried Guava</label>
+                </value>
+                <value>
+                    <fullName>Dried Pineapple</fullName>
+                    <default>false</default>
+                    <label>Dried Pineapple</label>
+                </value>
+                <value>
+                    <fullName>Dried Green Mango</fullName>
+                    <default>false</default>
+                    <label>Dried Green Mango</label>
+                </value>
+                <value>
+                    <fullName>Dried Mango</fullName>
+                    <default>false</default>
+                    <label>Dried Mango</label>
+                </value>
+                <value>
+                    <fullName>Dried Peach</fullName>
+                    <default>false</default>
+                    <label>Dried Peach</label>
+                </value>
+                <value>
+                    <fullName>Flaxseed</fullName>
+                    <default>false</default>
+                    <label>Flaxseed</label>
+                </value>
+                <value>
+                    <fullName>Egg Yolk</fullName>
+                    <default>false</default>
+                    <label>Egg Yolk</label>
+                </value>
+                <value>
+                    <fullName>Black Sesame</fullName>
+                    <default>false</default>
+                    <label>Black Sesame</label>
+                </value>
+                <value>
+                    <fullName>Red Quinoa</fullName>
+                    <default>false</default>
+                    <label>Red Quinoa</label>
+                </value>
+                <value>
+                    <fullName>Black Sesame Oil with Mashed Ginger</fullName>
+                    <default>false</default>
+                    <label>Black Sesame Oil with Mashed Ginger</label>
+                </value>
+                <value>
+                    <fullName>Goose Oil</fullName>
+                    <default>false</default>
+                    <label>Goose Oil</label>
+                </value>
+                <value>
+                    <fullName>Original</fullName>
+                    <default>false</default>
+                    <label>Original</label>
+                </value>
+                <value>
+                    <fullName>Spicy</fullName>
+                    <default>false</default>
+                    <label>Spicy</label>
+                </value>
+                <value>
+                    <fullName>Shacha</fullName>
+                    <default>false</default>
+                    <label>Shacha</label>
+                </value>
+                <value>
+                    <fullName>Garlic</fullName>
+                    <default>false</default>
+                    <label>Garlic</label>
+                </value>
+                <value>
+                    <fullName>Date &amp; Logan Walnut</fullName>
+                    <default>false</default>
+                    <label>Date &amp; Logan Walnut</label>
+                </value>
+                <value>
+                    <fullName>Sesame &amp; Walnut</fullName>
+                    <default>false</default>
+                    <label>Sesame &amp; Walnut</label>
+                </value>
+                <value>
+                    <fullName>Fried Salmon</fullName>
+                    <default>false</default>
+                    <label>Fried Salmon</label>
+                </value>
+                <value>
+                    <fullName>Fried Sailfish</fullName>
+                    <default>false</default>
+                    <label>Fried Sailfish</label>
+                </value>
+                <value>
+                    <fullName>Shredded Squid</fullName>
+                    <default>false</default>
+                    <label>Shredded Squid</label>
+                </value>
+                <value>
+                    <fullName>Roasted Squid</fullName>
+                    <default>false</default>
+                    <label>Roasted Squid</label>
+                </value>
+                <value>
+                    <fullName>Smoked Shredded Squid</fullName>
+                    <default>false</default>
+                    <label>Smoked Shredded Squid</label>
+                </value>
+                <value>
+                    <fullName>With Sesame</fullName>
+                    <default>false</default>
+                    <label>With Sesame</label>
+                </value>
+                <value>
+                    <fullName>Sweet</fullName>
+                    <default>false</default>
+                    <label>Sweet</label>
+                </value>
+                <value>
+                    <fullName>Peppered</fullName>
+                    <default>false</default>
+                    <label>Peppered</label>
+                </value>
+                <value>
+                    <fullName>Sweet and Spicy</fullName>
+                    <default>false</default>
+                    <label>Sweet and Spicy</label>
+                </value>
+                <value>
+                    <fullName>Ginger</fullName>
+                    <default>false</default>
+                    <label>Ginger</label>
+                </value>
+                <value>
+                    <fullName>Jujube Longan</fullName>
+                    <default>false</default>
+                    <label>Jujube Longan</label>
+                </value>
+                <value>
+                    <fullName>Rose &amp; Siwu</fullName>
+                    <default>false</default>
+                    <label>Rose &amp; Siwu</label>
+                </value>
+                <value>
+                    <fullName>Burdock, Cordyceps Fungus, Jujube and Wolfberry</fullName>
+                    <default>false</default>
+                    <label>Burdock, Cordyceps Fungus, Jujube and Wolfberry</label>
+                </value>
+                <value>
+                    <fullName>Turmeric</fullName>
+                    <default>false</default>
+                    <label>Turmeric</label>
+                </value>
+                <value>
+                    <fullName>Chrysanthemum &amp; Wolfberry</fullName>
+                    <default>false</default>
+                    <label>Chrysanthemum &amp; Wolfberry</label>
+                </value>
+                <value>
+                    <fullName>Cordyceps Militaris</fullName>
+                    <default>false</default>
+                    <label>Cordyceps Militaris</label>
+                </value>
+                <value>
+                    <fullName>Sesame</fullName>
+                    <default>false</default>
+                    <label>Sesame</label>
+                </value>
+                <value>
+                    <fullName>Hot Blended Sesame</fullName>
+                    <default>false</default>
+                    <label>Hot Blended Sesame</label>
+                </value>
+                <value>
+                    <fullName>Cranberry</fullName>
+                    <default>false</default>
+                    <label>Cranberry</label>
+                </value>
+                <value>
+                    <fullName>Coffee</fullName>
+                    <default>false</default>
+                    <label>Coffee</label>
+                </value>
+                <value>
+                    <fullName>Mulberry</fullName>
+                    <default>false</default>
+                    <label>Mulberry</label>
+                </value>
+                <value>
+                    <fullName>Honey Tangerine</fullName>
+                    <default>false</default>
+                    <label>Honey Tangerine</label>
+                </value>
+                <value>
+                    <fullName>Kumquat</fullName>
+                    <default>false</default>
+                    <label>Kumquat</label>
+                </value>
+                <value>
+                    <fullName>Paouchong Tea</fullName>
+                    <default>false</default>
+                    <label>Paouchong Tea</label>
+                </value>
+                <value>
+                    <fullName>Custard</fullName>
+                    <default>false</default>
+                    <label>Custard</label>
+                </value>
+                <value>
+                    <fullName>Coconut</fullName>
+                    <default>false</default>
+                    <label>Coconut</label>
+                </value>
+                <value>
+                    <fullName>Spicy Sichuan Pepper with Vinegar</fullName>
+                    <default>false</default>
+                    <label>Spicy Sichuan Pepper with Vinegar</label>
+                </value>
+                <value>
+                    <fullName>Garlic and Sesame</fullName>
+                    <default>false</default>
+                    <label>Garlic and Sesame</label>
+                </value>
+                <value>
+                    <fullName>Scallion</fullName>
+                    <default>false</default>
+                    <label>Scallion</label>
+                </value>
+                <value>
+                    <fullName>Barbecue</fullName>
+                    <default>false</default>
+                    <label>Barbecue</label>
+                </value>
+                <value>
+                    <fullName>Tangerine Peel</fullName>
+                    <default>false</default>
+                    <label>Tangerine Peel</label>
+                </value>
+                <value>
+                    <fullName>Scallop</fullName>
+                    <default>false</default>
+                    <label>Scallop</label>
+                </value>
+                <value>
+                    <fullName>Oyster</fullName>
+                    <default>false</default>
+                    <label>Oyster</label>
+                </value>
+                <value>
+                    <fullName>Braised</fullName>
+                    <default>false</default>
+                    <label>Braised</label>
+                </value>
+                <value>
+                    <fullName>Superior Sauce</fullName>
+                    <default>false</default>
+                    <label>Superior Sauce</label>
+                </value>
+                <value>
+                    <fullName>Brine</fullName>
+                    <default>false</default>
+                    <label>Brine</label>
+                </value>
+                <value>
+                    <fullName>BRAND&apos;s Rock Sugar</fullName>
+                    <default>false</default>
+                    <label>BRAND&apos;s Rock Sugar</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>prop889c8cdcf88940708c4c714152e6427a__c</fullName>
+        <label>Age</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>10-20 years</fullName>
+                    <default>false</default>
+                    <label>10-20 years</label>
+                </value>
+                <value>
+                    <fullName>20-30 years</fullName>
+                    <default>false</default>
+                    <label>20-30 years</label>
+                </value>
+                <value>
+                    <fullName>30-50 years</fullName>
+                    <default>false</default>
+                    <label>30-50 years</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>prop917f077b2e834b6b85051e0875ea56ce__c</fullName>
+        <label>Grade</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>2A</fullName>
+                    <default>false</default>
+                    <label>2A</label>
+                </value>
+                <value>
+                    <fullName>3A</fullName>
+                    <default>false</default>
+                    <label>3A</label>
+                </value>
+                <value>
+                    <fullName>4A</fullName>
+                    <default>false</default>
+                    <label>4A</label>
+                </value>
+                <value>
+                    <fullName>6A</fullName>
+                    <default>false</default>
+                    <label>6A</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>prop972bbb236af145b5bebec6021e16a6ff__c</fullName>
+        <label>Age (Years)</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>30-50 Years</fullName>
+                    <default>false</default>
+                    <label>30-50 Years</label>
+                </value>
+                <value>
+                    <fullName>20-30 Years</fullName>
+                    <default>false</default>
+                    <label>20-30 Years</label>
+                </value>
+                <value>
+                    <fullName>10-20 Years</fullName>
+                    <default>false</default>
+                    <label>10-20 Years</label>
+                </value>
+                <value>
+                    <fullName>10+ Years</fullName>
+                    <default>false</default>
+                    <label>10+ Years</label>
+                </value>
+                <value>
+                    <fullName>5 Years</fullName>
+                    <default>false</default>
+                    <label>5 Years</label>
+                </value>
+                <value>
+                    <fullName>48 Years</fullName>
+                    <default>false</default>
+                    <label>48 Years</label>
+                </value>
+                <value>
+                    <fullName>50 Years</fullName>
+                    <default>false</default>
+                    <label>50 Years</label>
+                </value>
+                <value>
+                    <fullName>58 Years</fullName>
+                    <default>false</default>
+                    <label>58 Years</label>
+                </value>
+                <value>
+                    <fullName>60 Years</fullName>
+                    <default>false</default>
+                    <label>60 Years</label>
+                </value>
+                <value>
+                    <fullName>70 Years</fullName>
+                    <default>false</default>
+                    <label>70 Years</label>
+                </value>
+                <value>
+                    <fullName>NA</fullName>
+                    <default>false</default>
+                    <label>NA</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>propb78108cdf5224595bb3bc8d311719c12__c</fullName>
+        <label>Net Weight</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1 Pound</fullName>
+                    <default>false</default>
+                    <label>1 Pound</label>
+                </value>
+                <value>
+                    <fullName>600 gms</fullName>
+                    <default>false</default>
+                    <label>600 gms</label>
+                </value>
+                <value>
+                    <fullName>8 oz</fullName>
+                    <default>false</default>
+                    <label>8 oz</label>
+                </value>
+                <value>
+                    <fullName>425g</fullName>
+                    <default>false</default>
+                    <label>425g</label>
+                </value>
+                <value>
+                    <fullName>220g</fullName>
+                    <default>false</default>
+                    <label>220g</label>
+                </value>
+                <value>
+                    <fullName>9.59 oz</fullName>
+                    <default>false</default>
+                    <label>9.59 oz</label>
+                </value>
+                <value>
+                    <fullName>8.47 oz</fullName>
+                    <default>false</default>
+                    <label>8.47 oz</label>
+                </value>
+                <value>
+                    <fullName>6.5 oz</fullName>
+                    <default>false</default>
+                    <label>6.5 oz</label>
+                </value>
+                <value>
+                    <fullName>6.34 oz</fullName>
+                    <default>false</default>
+                    <label>6.34 oz</label>
+                </value>
+                <value>
+                    <fullName>500 g</fullName>
+                    <default>false</default>
+                    <label>500 g</label>
+                </value>
+                <value>
+                    <fullName>5.64 oz</fullName>
+                    <default>false</default>
+                    <label>5.64 oz</label>
+                </value>
+                <value>
+                    <fullName>5.62 oz</fullName>
+                    <default>false</default>
+                    <label>5.62 oz</label>
+                </value>
+                <value>
+                    <fullName>5.29 oz</fullName>
+                    <default>false</default>
+                    <label>5.29 oz</label>
+                </value>
+                <value>
+                    <fullName>5 oz</fullName>
+                    <default>false</default>
+                    <label>5 oz</label>
+                </value>
+                <value>
+                    <fullName>425 g</fullName>
+                    <default>false</default>
+                    <label>425 g</label>
+                </value>
+                <value>
+                    <fullName>4.4 oz</fullName>
+                    <default>false</default>
+                    <label>4.4 oz</label>
+                </value>
+                <value>
+                    <fullName>4.23 oz</fullName>
+                    <default>false</default>
+                    <label>4.23 oz</label>
+                </value>
+                <value>
+                    <fullName>4.22 oz</fullName>
+                    <default>false</default>
+                    <label>4.22 oz</label>
+                </value>
+                <value>
+                    <fullName>4 oz</fullName>
+                    <default>false</default>
+                    <label>4 oz</label>
+                </value>
+                <value>
+                    <fullName>360 g</fullName>
+                    <default>false</default>
+                    <label>360 g</label>
+                </value>
+                <value>
+                    <fullName>31.75 oz</fullName>
+                    <default>false</default>
+                    <label>31.75 oz</label>
+                </value>
+                <value>
+                    <fullName>3.6 oz</fullName>
+                    <default>false</default>
+                    <label>3.6 oz</label>
+                </value>
+                <value>
+                    <fullName>3.52 oz</fullName>
+                    <default>false</default>
+                    <label>3.52 oz</label>
+                </value>
+                <value>
+                    <fullName>3.5 oz</fullName>
+                    <default>false</default>
+                    <label>3.5 oz</label>
+                </value>
+                <value>
+                    <fullName>227 g</fullName>
+                    <default>false</default>
+                    <label>227 g</label>
+                </value>
+                <value>
+                    <fullName>220 g</fullName>
+                    <default>false</default>
+                    <label>220 g</label>
+                </value>
+                <value>
+                    <fullName>2.82 oz</fullName>
+                    <default>false</default>
+                    <label>2.82 oz</label>
+                </value>
+                <value>
+                    <fullName>2.4 oz</fullName>
+                    <default>false</default>
+                    <label>2.4 oz</label>
+                </value>
+                <value>
+                    <fullName>2 oz</fullName>
+                    <default>false</default>
+                    <label>2 oz</label>
+                </value>
+                <value>
+                    <fullName>180 g</fullName>
+                    <default>false</default>
+                    <label>180 g</label>
+                </value>
+                <value>
+                    <fullName>18 oz</fullName>
+                    <default>false</default>
+                    <label>18 oz</label>
+                </value>
+                <value>
+                    <fullName>16 oz</fullName>
+                    <default>false</default>
+                    <label>16 oz</label>
+                </value>
+                <value>
+                    <fullName>14.1 oz</fullName>
+                    <default>false</default>
+                    <label>14.1 oz</label>
+                </value>
+                <value>
+                    <fullName>14 oz</fullName>
+                    <default>false</default>
+                    <label>14 oz</label>
+                </value>
+                <value>
+                    <fullName>13.8 fl. oz</fullName>
+                    <default>false</default>
+                    <label>13.8 fl. oz</label>
+                </value>
+                <value>
+                    <fullName>12.0 fl. oz</fullName>
+                    <default>false</default>
+                    <label>12.0 fl. oz</label>
+                </value>
+                <value>
+                    <fullName>12 oz</fullName>
+                    <default>false</default>
+                    <label>12 oz</label>
+                </value>
+                <value>
+                    <fullName>11.28 oz</fullName>
+                    <default>false</default>
+                    <label>11.28 oz</label>
+                </value>
+                <value>
+                    <fullName>10.58 oz</fullName>
+                    <default>false</default>
+                    <label>10.58 oz</label>
+                </value>
+                <value>
+                    <fullName>1 oz</fullName>
+                    <default>false</default>
+                    <label>1 oz</label>
+                </value>
+                <value>
+                    <fullName>1 Ib</fullName>
+                    <default>false</default>
+                    <label>1 Ib</label>
+                </value>
+                <value>
+                    <fullName>0.67 oz</fullName>
+                    <default>false</default>
+                    <label>0.67 oz</label>
+                </value>
+                <value>
+                    <fullName>0.65 oz</fullName>
+                    <default>false</default>
+                    <label>0.65 oz</label>
+                </value>
+                <value>
+                    <fullName>0.62 oz</fullName>
+                    <default>false</default>
+                    <label>0.62 oz</label>
+                </value>
+                <value>
+                    <fullName>0.53 oz</fullName>
+                    <default>false</default>
+                    <label>0.53 oz</label>
+                </value>
+                <value>
+                    <fullName>0.51 oz</fullName>
+                    <default>false</default>
+                    <label>0.51 oz</label>
+                </value>
+                <value>
+                    <fullName>0.49 oz</fullName>
+                    <default>false</default>
+                    <label>0.49 oz</label>
+                </value>
+                <value>
+                    <fullName>0.48 oz</fullName>
+                    <default>false</default>
+                    <label>0.48 oz</label>
+                </value>
+                <value>
+                    <fullName>0.46 oz</fullName>
+                    <default>false</default>
+                    <label>0.46 oz</label>
+                </value>
+                <value>
+                    <fullName>0.44 oz</fullName>
+                    <default>false</default>
+                    <label>0.44 oz</label>
+                </value>
+                <value>
+                    <fullName>0.42 oz</fullName>
+                    <default>false</default>
+                    <label>0.42 oz</label>
+                </value>
+                <value>
+                    <fullName>0.4 oz</fullName>
+                    <default>false</default>
+                    <label>0.4 oz</label>
+                </value>
+                <value>
+                    <fullName>0.39 oz</fullName>
+                    <default>false</default>
+                    <label>0.39 oz</label>
+                </value>
+                <value>
+                    <fullName>0.37 oz</fullName>
+                    <default>false</default>
+                    <label>0.37 oz</label>
+                </value>
+                <value>
+                    <fullName>0.35 oz</fullName>
+                    <default>false</default>
+                    <label>0.35 oz</label>
+                </value>
+                <value>
+                    <fullName>0.33 oz</fullName>
+                    <default>false</default>
+                    <label>0.33 oz</label>
+                </value>
+                <value>
+                    <fullName>0.32 oz</fullName>
+                    <default>false</default>
+                    <label>0.32 oz</label>
+                </value>
+                <value>
+                    <fullName>0.3 oz</fullName>
+                    <default>false</default>
+                    <label>0.3 oz</label>
+                </value>
+                <value>
+                    <fullName>0.28 oz</fullName>
+                    <default>false</default>
+                    <label>0.28 oz</label>
+                </value>
+                <value>
+                    <fullName>0.26 oz</fullName>
+                    <default>false</default>
+                    <label>0.26 oz</label>
+                </value>
+                <value>
+                    <fullName>0.25 oz</fullName>
+                    <default>false</default>
+                    <label>0.25 oz</label>
+                </value>
+                <value>
+                    <fullName>0.23 oz</fullName>
+                    <default>false</default>
+                    <label>0.23 oz</label>
+                </value>
+                <value>
+                    <fullName>0.21 oz</fullName>
+                    <default>false</default>
+                    <label>0.21 oz</label>
+                </value>
+                <value>
+                    <fullName>0.19 oz</fullName>
+                    <default>false</default>
+                    <label>0.19 oz</label>
+                </value>
+                <value>
+                    <fullName>0.18 oz</fullName>
+                    <default>false</default>
+                    <label>0.18 oz</label>
+                </value>
+                <value>
+                    <fullName>0.16 oz</fullName>
+                    <default>false</default>
+                    <label>0.16 oz</label>
+                </value>
+                <value>
+                    <fullName>&gt;37 g</fullName>
+                    <default>false</default>
+                    <label>&gt;37 g</label>
+                </value>
+                <value>
+                    <fullName>&gt;31 g</fullName>
+                    <default>false</default>
+                    <label>&gt;31 g</label>
+                </value>
+                <value>
+                    <fullName>&gt;26 g</fullName>
+                    <default>false</default>
+                    <label>&gt;26 g</label>
+                </value>
+                <value>
+                    <fullName>&gt;21 g</fullName>
+                    <default>false</default>
+                    <label>&gt;21 g</label>
+                </value>
+                <value>
+                    <fullName>&gt;16 g</fullName>
+                    <default>false</default>
+                    <label>&gt;16 g</label>
+                </value>
+                <value>
+                    <fullName>0.5 oz</fullName>
+                    <default>false</default>
+                    <label>0.5 oz</label>
+                </value>
+                <value>
+                    <fullName>6 oz</fullName>
+                    <default>false</default>
+                    <label>6 oz</label>
+                </value>
+                <value>
+                    <fullName>16.1 fl. oz</fullName>
+                    <default>false</default>
+                    <label>16.1 fl. oz</label>
+                </value>
+                <value>
+                    <fullName>2.11 oz</fullName>
+                    <default>false</default>
+                    <label>2.11 oz</label>
+                </value>
+                <value>
+                    <fullName>13.1 oz</fullName>
+                    <default>false</default>
+                    <label>13.1 oz</label>
+                </value>
+                <value>
+                    <fullName>3.58 oz</fullName>
+                    <default>false</default>
+                    <label>3.58 oz</label>
+                </value>
+                <value>
+                    <fullName>3.46 oz</fullName>
+                    <default>false</default>
+                    <label>3.46 oz</label>
+                </value>
+                <value>
+                    <fullName>2.98 oz</fullName>
+                    <default>false</default>
+                    <label>2.98 oz</label>
+                </value>
+                <value>
+                    <fullName>3.12 oz</fullName>
+                    <default>false</default>
+                    <label>3.12 oz</label>
+                </value>
+                <value>
+                    <fullName>3.04 oz</fullName>
+                    <default>false</default>
+                    <label>3.04 oz</label>
+                </value>
+                <value>
+                    <fullName>3.18 oz</fullName>
+                    <default>false</default>
+                    <label>3.18 oz</label>
+                </value>
+                <value>
+                    <fullName>2.96 oz</fullName>
+                    <default>false</default>
+                    <label>2.96 oz</label>
+                </value>
+                <value>
+                    <fullName>3.22 oz</fullName>
+                    <default>false</default>
+                    <label>3.22 oz</label>
+                </value>
+                <value>
+                    <fullName>3.24 oz</fullName>
+                    <default>false</default>
+                    <label>3.24 oz</label>
+                </value>
+                <value>
+                    <fullName>3.32 oz</fullName>
+                    <default>false</default>
+                    <label>3.32 oz</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>propbc65503aa4944959bb7b74ab00bb5929__c</fullName>
+        <label>Quantity</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>80</fullName>
+                    <default>false</default>
+                    <label>80</label>
+                </value>
+                <value>
+                    <fullName>20</fullName>
+                    <default>false</default>
+                    <label>20</label>
+                </value>
+                <value>
+                    <fullName>40</fullName>
+                    <default>false</default>
+                    <label>40</label>
+                </value>
+                <value>
+                    <fullName>60</fullName>
+                    <default>false</default>
+                    <label>60</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>propc84d80ca469342529c9c02febc8246b1__c</fullName>
+        <label>Item Size</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Broken Pieces</fullName>
+                    <default>false</default>
+                    <label>Broken Pieces</label>
+                </value>
+                <value>
+                    <fullName>Extra Large</fullName>
+                    <default>false</default>
+                    <label>Extra Large</label>
+                </value>
+                <value>
+                    <fullName>Large</fullName>
+                    <default>false</default>
+                    <label>Large</label>
+                </value>
+                <value>
+                    <fullName>Medium</fullName>
+                    <default>false</default>
+                    <label>Medium</label>
+                </value>
+                <value>
+                    <fullName>Medium Small</fullName>
+                    <default>false</default>
+                    <label>Medium Small</label>
+                </value>
+                <value>
+                    <fullName>Small</fullName>
+                    <default>false</default>
+                    <label>Small</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>propccca44994ede43038ece794641652f61__c</fullName>
+        <label>Root Size</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Small #1 Economy</fullName>
+                    <default>false</default>
+                    <label>Small #1 Economy</label>
+                </value>
+                <value>
+                    <fullName>Small #1</fullName>
+                    <default>false</default>
+                    <label>Small #1</label>
+                </value>
+                <value>
+                    <fullName>Small #2</fullName>
+                    <default>false</default>
+                    <label>Small #2</label>
+                </value>
+                <value>
+                    <fullName>Travel Size</fullName>
+                    <default>false</default>
+                    <label>Travel Size</label>
+                </value>
+                <value>
+                    <fullName>Tea-cut</fullName>
+                    <default>false</default>
+                    <label>Tea-cut</label>
+                </value>
+                <value>
+                    <fullName>Small#2 Economy</fullName>
+                    <default>false</default>
+                    <label>Small#2 Economy</label>
+                </value>
+                <value>
+                    <fullName>Small#1 Economy</fullName>
+                    <default>false</default>
+                    <label>Small#1 Economy</label>
+                </value>
+                <value>
+                    <fullName>Small#2</fullName>
+                    <default>false</default>
+                    <label>Small#2</label>
+                </value>
+                <value>
+                    <fullName>Small#1</fullName>
+                    <default>false</default>
+                    <label>Small#1</label>
+                </value>
+                <value>
+                    <fullName>Economy Size</fullName>
+                    <default>false</default>
+                    <label>Economy Size</label>
+                </value>
+                <value>
+                    <fullName>40 Good</fullName>
+                    <default>false</default>
+                    <label>40 Good</label>
+                </value>
+                <value>
+                    <fullName>30 Good</fullName>
+                    <default>false</default>
+                    <label>30 Good</label>
+                </value>
+                <value>
+                    <fullName>20 Good</fullName>
+                    <default>false</default>
+                    <label>20 Good</label>
+                </value>
+                <value>
+                    <fullName>40 Earth</fullName>
+                    <default>false</default>
+                    <label>40 Earth</label>
+                </value>
+                <value>
+                    <fullName>30 Earth</fullName>
+                    <default>false</default>
+                    <label>30 Earth</label>
+                </value>
+                <value>
+                    <fullName>20 Earth</fullName>
+                    <default>false</default>
+                    <label>20 Earth</label>
+                </value>
+                <value>
+                    <fullName>40 Heaven</fullName>
+                    <default>false</default>
+                    <label>40 Heaven</label>
+                </value>
+                <value>
+                    <fullName>30 Heaven</fullName>
+                    <default>false</default>
+                    <label>30 Heaven</label>
+                </value>
+                <value>
+                    <fullName>20 Heaven</fullName>
+                    <default>false</default>
+                    <label>20 Heaven</label>
+                </value>
+                <value>
+                    <fullName>Twin Pack</fullName>
+                    <default>false</default>
+                    <label>Twin Pack</label>
+                </value>
+                <value>
+                    <fullName>Standard</fullName>
+                    <default>false</default>
+                    <label>Standard</label>
+                </value>
+                <value>
+                    <fullName>Medium Small Economy</fullName>
+                    <default>false</default>
+                    <label>Medium Small Economy</label>
+                </value>
+                <value>
+                    <fullName>Prongs &amp; Fibers</fullName>
+                    <default>false</default>
+                    <label>Prongs &amp; Fibers</label>
+                </value>
+                <value>
+                    <fullName>Giant</fullName>
+                    <default>false</default>
+                    <label>Giant</label>
+                </value>
+                <value>
+                    <fullName>Extra Jumbo</fullName>
+                    <default>false</default>
+                    <label>Extra Jumbo</label>
+                </value>
+                <value>
+                    <fullName>Jumbo</fullName>
+                    <default>false</default>
+                    <label>Jumbo</label>
+                </value>
+                <value>
+                    <fullName>Extra Giant</fullName>
+                    <default>false</default>
+                    <label>Extra Giant</label>
+                </value>
+                <value>
+                    <fullName>Super Giant</fullName>
+                    <default>false</default>
+                    <label>Super Giant</label>
+                </value>
+                <value>
+                    <fullName>Extra Large</fullName>
+                    <default>false</default>
+                    <label>Extra Large</label>
+                </value>
+                <value>
+                    <fullName>Large</fullName>
+                    <default>false</default>
+                    <label>Large</label>
+                </value>
+                <value>
+                    <fullName>Lage Economy</fullName>
+                    <default>false</default>
+                    <label>Lage Economy</label>
+                </value>
+                <value>
+                    <fullName>Large Economy</fullName>
+                    <default>false</default>
+                    <label>Large Economy</label>
+                </value>
+                <value>
+                    <fullName>Medium</fullName>
+                    <default>false</default>
+                    <label>Medium</label>
+                </value>
+                <value>
+                    <fullName>Medium Small</fullName>
+                    <default>false</default>
+                    <label>Medium Small</label>
+                </value>
+                <value>
+                    <fullName>Small</fullName>
+                    <default>false</default>
+                    <label>Small</label>
+                </value>
+                <value>
+                    <fullName>Small Economy</fullName>
+                    <default>false</default>
+                    <label>Small Economy</label>
+                </value>
+                <value>
+                    <fullName>Small Bulk</fullName>
+                    <default>false</default>
+                    <label>Small Bulk</label>
+                </value>
+                <value>
+                    <fullName>Small # 1</fullName>
+                    <default>false</default>
+                    <label>Small # 1</label>
+                </value>
+                <value>
+                    <fullName>Small # 2</fullName>
+                    <default>false</default>
+                    <label>Small # 2</label>
+                </value>
+                <value>
+                    <fullName>Small #2 Economy</fullName>
+                    <default>false</default>
+                    <label>Small #2 Economy</label>
+                </value>
+                <value>
+                    <fullName>Small # 2 Economy</fullName>
+                    <default>false</default>
+                    <label>Small # 2 Economy</label>
+                </value>
+                <value>
+                    <fullName>Small # 3</fullName>
+                    <default>false</default>
+                    <label>Small # 3</label>
+                </value>
+                <value>
+                    <fullName>Ungraded</fullName>
+                    <default>false</default>
+                    <label>Ungraded</label>
+                </value>
+                <value>
+                    <fullName>Mixed</fullName>
+                    <default>false</default>
+                    <label>Mixed</label>
+                </value>
+                <value>
+                    <fullName>Powder</fullName>
+                    <default>false</default>
+                    <label>Powder</label>
+                </value>
+                <value>
+                    <fullName>Prong</fullName>
+                    <default>false</default>
+                    <label>Prong</label>
+                </value>
+                <value>
+                    <fullName>Coarse</fullName>
+                    <default>false</default>
+                    <label>Coarse</label>
+                </value>
+                <value>
+                    <fullName>Deluxe Pack</fullName>
+                    <default>false</default>
+                    <label>Deluxe Pack</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>propd98ccfbdd6354f7fbc7cbef975c6af97__c</fullName>
+        <label>Package Type</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Economic Bags</fullName>
+                    <default>false</default>
+                    <label>Economic Bags</label>
+                </value>
+                <value>
+                    <fullName>Deluxe Pack</fullName>
+                    <default>false</default>
+                    <label>Deluxe Pack</label>
+                </value>
+                <value>
+                    <fullName>Box</fullName>
+                    <default>false</default>
+                    <label>Box</label>
+                </value>
+                <value>
+                    <fullName>Bag</fullName>
+                    <default>false</default>
+                    <label>Bag</label>
+                </value>
+                <value>
+                    <fullName>Gift Box</fullName>
+                    <default>false</default>
+                    <label>Gift Box</label>
+                </value>
+                <value>
+                    <fullName>Can</fullName>
+                    <default>false</default>
+                    <label>Can</label>
+                </value>
+                <value>
+                    <fullName>Bottle</fullName>
+                    <default>false</default>
+                    <label>Bottle</label>
+                </value>
+                <value>
+                    <fullName>Economics Bags</fullName>
+                    <default>false</default>
+                    <label>Economics Bags</label>
+                </value>
+                <value>
+                    <fullName>Twin Pack</fullName>
+                    <default>false</default>
+                    <label>Twin Pack</label>
+                </value>
+                <value>
+                    <fullName>Travel Size</fullName>
+                    <default>false</default>
+                    <label>Travel Size</label>
+                </value>
+                <value>
+                    <fullName>Gift Set</fullName>
+                    <default>false</default>
+                    <label>Gift Set</label>
+                </value>
+                <value>
+                    <fullName>Economic Box</fullName>
+                    <default>false</default>
+                    <label>Economic Box</label>
+                </value>
+                <value>
+                    <fullName>Economic Packaging</fullName>
+                    <default>false</default>
+                    <label>Economic Packaging</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>propfe0526cf0de646b6a4a4c197dfee2dd8__c</fullName>
+        <label>Weight (Oz)</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>0</fullName>
+                    <default>false</default>
+                    <label>0</label>
+                </value>
+                <value>
+                    <fullName>8.25 Ounces</fullName>
+                    <default>false</default>
+                    <label>8.25 Ounces</label>
+                </value>
+                <value>
+                    <fullName>8.28 Ounces</fullName>
+                    <default>false</default>
+                    <label>8.28 Ounces</label>
+                </value>
+                <value>
+                    <fullName>5.29 Ounces</fullName>
+                    <default>false</default>
+                    <label>5.29 Ounces</label>
+                </value>
+                <value>
+                    <fullName>0.17 Ounces</fullName>
+                    <default>false</default>
+                    <label>0.17 Ounces</label>
+                </value>
+                <value>
+                    <fullName>0.25 Ounces</fullName>
+                    <default>false</default>
+                    <label>0.25 Ounces</label>
+                </value>
+                <value>
+                    <fullName>0.3 Ounces</fullName>
+                    <default>false</default>
+                    <label>0.3 Ounces</label>
+                </value>
+                <value>
+                    <fullName>0.35 Ounces</fullName>
+                    <default>false</default>
+                    <label>0.35 Ounces</label>
+                </value>
+                <value>
+                    <fullName>0.4 Ounces</fullName>
+                    <default>false</default>
+                    <label>0.4 Ounces</label>
+                </value>
+                <value>
+                    <fullName>0.46 Ounces</fullName>
+                    <default>false</default>
+                    <label>0.46 Ounces</label>
+                </value>
+                <value>
+                    <fullName>0.5 Ounces</fullName>
+                    <default>false</default>
+                    <label>0.5 Ounces</label>
+                </value>
+                <value>
+                    <fullName>0.55 Ounces</fullName>
+                    <default>false</default>
+                    <label>0.55 Ounces</label>
+                </value>
+                <value>
+                    <fullName>0.58 Ounces</fullName>
+                    <default>false</default>
+                    <label>0.58 Ounces</label>
+                </value>
+                <value>
+                    <fullName>0.75 Ounces</fullName>
+                    <default>false</default>
+                    <label>0.75 Ounces</label>
+                </value>
+                <value>
+                    <fullName>0.91 Ounces</fullName>
+                    <default>false</default>
+                    <label>0.91 Ounces</label>
+                </value>
+                <value>
+                    <fullName>1 Ounce</fullName>
+                    <default>false</default>
+                    <label>1 Ounce</label>
+                </value>
+                <value>
+                    <fullName>1 Ounces</fullName>
+                    <default>false</default>
+                    <label>1 Ounces</label>
+                </value>
+                <value>
+                    <fullName>1.3 Ounces</fullName>
+                    <default>false</default>
+                    <label>1.3 Ounces</label>
+                </value>
+                <value>
+                    <fullName>1.41 Ounces</fullName>
+                    <default>false</default>
+                    <label>1.41 Ounces</label>
+                </value>
+                <value>
+                    <fullName>1.69 Ounces</fullName>
+                    <default>false</default>
+                    <label>1.69 Ounces</label>
+                </value>
+                <value>
+                    <fullName>2 Ounces</fullName>
+                    <default>false</default>
+                    <label>2 Ounces</label>
+                </value>
+                <value>
+                    <fullName>2.5 Ounces</fullName>
+                    <default>false</default>
+                    <label>2.5 Ounces</label>
+                </value>
+                <value>
+                    <fullName>2.7 Ounces</fullName>
+                    <default>false</default>
+                    <label>2.7 Ounces</label>
+                </value>
+                <value>
+                    <fullName>3 Ounces</fullName>
+                    <default>false</default>
+                    <label>3 Ounces</label>
+                </value>
+                <value>
+                    <fullName>4 Ounces</fullName>
+                    <default>false</default>
+                    <label>4 Ounces</label>
+                </value>
+                <value>
+                    <fullName>5 Ounces</fullName>
+                    <default>false</default>
+                    <label>5 Ounces</label>
+                </value>
+                <value>
+                    <fullName>5.25 Ounces</fullName>
+                    <default>false</default>
+                    <label>5.25 Ounces</label>
+                </value>
+                <value>
+                    <fullName>5.6 Ounces</fullName>
+                    <default>false</default>
+                    <label>5.6 Ounces</label>
+                </value>
+                <value>
+                    <fullName>6 Ounces</fullName>
+                    <default>false</default>
+                    <label>6 Ounces</label>
+                </value>
+                <value>
+                    <fullName>6.5 Ounces</fullName>
+                    <default>false</default>
+                    <label>6.5 Ounces</label>
+                </value>
+                <value>
+                    <fullName>7.8 Ounces</fullName>
+                    <default>false</default>
+                    <label>7.8 Ounces</label>
+                </value>
+                <value>
+                    <fullName>8 Ounces</fullName>
+                    <default>false</default>
+                    <label>8 Ounces</label>
+                </value>
+                <value>
+                    <fullName>8.6 Ounces</fullName>
+                    <default>false</default>
+                    <label>8.6 Ounces</label>
+                </value>
+                <value>
+                    <fullName>9 Ounces</fullName>
+                    <default>false</default>
+                    <label>9 Ounces</label>
+                </value>
+                <value>
+                    <fullName>10 Ounces</fullName>
+                    <default>false</default>
+                    <label>10 Ounces</label>
+                </value>
+                <value>
+                    <fullName>11 Ounces</fullName>
+                    <default>false</default>
+                    <label>11 Ounces</label>
+                </value>
+                <value>
+                    <fullName>12 Ounces</fullName>
+                    <default>false</default>
+                    <label>12 Ounces</label>
+                </value>
+                <value>
+                    <fullName>15 Ounces</fullName>
+                    <default>false</default>
+                    <label>15 Ounces</label>
+                </value>
+                <value>
+                    <fullName>16 Ounces</fullName>
+                    <default>false</default>
+                    <label>16 Ounces</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>

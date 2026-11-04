@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Export Details</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Export Details</value>
+    </caseValues>
+    <fields>
+        <label><!-- B13A Filing Option --></label>
+        <name>zkmulti__B13aFilingOption__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consolidation --></label>
+        <name>zkmulti__Consolidation__c</name>
+        <relationshipLabel><!-- Export Details --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Field for exporting-country-specific export data (e.g. B13A for CA, FTSR Exemption or AES Citation for US) --></help>
+        <label><!-- Export Compliance Statement --></label>
+        <name>zkmulti__ExportComplianceStatement__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mod Key --></label>
+        <name>zkmulti__Mod_Key__c</name>
+    </fields>
+    <fields>
+        <label><!-- Permit Number --></label>
+        <name>zkmulti__PermitNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipment --></label>
+        <name>zkmulti__Shipment__c</name>
+        <relationshipLabel><!-- Export Details --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>FedEx Export Details Layout</layout>
+        <sections>
+            <label><!-- Canada Export Specific --></label>
+            <section>Canada Export Specific</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- General --></label>
+            <section>General</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

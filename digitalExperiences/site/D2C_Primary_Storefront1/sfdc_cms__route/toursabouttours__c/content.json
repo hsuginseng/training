@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Tours-About Tours",
+  "contentBody" : {
+    "activeViewId" : "Tours_About_tours",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-tours-about-tours",
+    "urlPrefix" : "tours-about-tours"
+  },
+  "urlName" : "tours-about-tours"
+}

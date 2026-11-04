@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>DocuSign 사용자 지정 수신인</value>
+    </caseValues>
+    <fields>
+        <help><!-- Access Code --></help>
+        <label>액세스 코드</label>
+        <name>dfsle__AccessCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Message --></label>
+        <name>dfsle__EmailMessage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Subject --></label>
+        <name>dfsle__EmailSubject__c</name>
+    </fields>
+    <fields>
+        <label>이메일</label>
+        <name>dfsle__Email__c</name>
+    </fields>
+    <fields>
+        <label>봉투 구성</label>
+        <name>dfsle__EnvelopeConfiguration__c</name>
+        <relationshipLabel><!-- Custom Recipients --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>이름</label>
+        <name>dfsle__FirstName__c</name>
+    </fields>
+    <fields>
+        <label>호스트 이메일</label>
+        <name>dfsle__HostEmail__c</name>
+    </fields>
+    <fields>
+        <label>호스트 이름</label>
+        <name>dfsle__HostName__c</name>
+    </fields>
+    <fields>
+        <label>언어</label>
+        <name>dfsle__Language__c</name>
+    </fields>
+    <fields>
+        <label>성</label>
+        <name>dfsle__LastName__c</name>
+    </fields>
+    <fields>
+        <label>개인 메시지</label>
+        <name>dfsle__Note__c</name>
+    </fields>
+    <fields>
+        <label>연락 관계</label>
+        <name>dfsle__Relationship__c</name>
+    </fields>
+    <fields>
+        <help><!-- Role --></help>
+        <label>직책</label>
+        <name>dfsle__Role__c</name>
+    </fields>
+    <fields>
+        <help><!-- Routing Order --></help>
+        <label>경로설정 순서</label>
+        <name>dfsle__RoutingOrder__c</name>
+    </fields>
+    <fields>
+        <label>지금 서명</label>
+        <name>dfsle__SignNow__c</name>
+    </fields>
+    <fields>
+        <help><!-- Signing Group ID --></help>
+        <label>서명 그룹 ID</label>
+        <name>dfsle__SigningGroupId__c</name>
+    </fields>
+    <fields>
+        <label>서명 그룹 이름</label>
+        <name>dfsle__SigningGroupName__c</name>
+    </fields>
+    <fields>
+        <label>SMS 전화번호</label>
+        <name>dfsle__SmsPhoneNumber__c</name>
+    </fields>
+    <fields>
+        <help><!-- Type --></help>
+        <label>종류</label>
+        <name>dfsle__Type__c</name>
+        <picklistValues>
+            <masterLabel>Allow to Edit</masterLabel>
+            <translation><!-- Allow to Edit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Person Signer</masterLabel>
+            <translation><!-- In Person Signer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Needs to Sign</masterLabel>
+            <translation><!-- Needs to Sign --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Needs to View</masterLabel>
+            <translation><!-- Needs to View --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Receives a Copy</masterLabel>
+            <translation><!-- Receives a Copy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Specify Recipients</masterLabel>
+            <translation><!-- Specify Recipients --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Update Recipients</masterLabel>
+            <translation><!-- Update Recipients --></translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel>Name</nameFieldLabel>
+</CustomObjectTranslation>

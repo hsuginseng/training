@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ActivationPlatformActvAttr xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activationPlatform>cdpactvstrgptnr__Snapchat_Conversions_API</activationPlatform>
+    <actvPlatformAdncIdentifier>cdpactvstrgptnr__Snapchat_Conversions_API177739972693217773997269331777399726934</actvPlatformAdncIdentifier>
+    <applyHash>false</applyHash>
+    <destinationName>em</destinationName>
+    <fieldName>EmailAddress</fieldName>
+    <isFromSourceObject>false</isFromSourceObject>
+    <isIdentifier>true</isIdentifier>
+    <isRequired>false</isRequired>
+    <masterLabel>Email Address</masterLabel>
+    <objectName>ContactPointEmail</objectName>
+</ActivationPlatformActvAttr>

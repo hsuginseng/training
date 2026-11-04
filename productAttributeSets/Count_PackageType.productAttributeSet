@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProductAttributeSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <developerName>Count_PackageType</developerName>
+    <masterLabel>Count_PackageType</masterLabel>
+    <productAttributeSetItems>
+        <field>prop647828d68ce44a7aa626e8f2902919f6__c</field>
+        <isGroupedBy>false</isGroupedBy>
+        <sequence>1</sequence>
+    </productAttributeSetItems>
+    <productAttributeSetItems>
+        <field>prop4286edc00b774949b47429dd5003c2fc__c</field>
+        <isGroupedBy>false</isGroupedBy>
+        <sequence>0</sequence>
+    </productAttributeSetItems>
+</ProductAttributeSet>

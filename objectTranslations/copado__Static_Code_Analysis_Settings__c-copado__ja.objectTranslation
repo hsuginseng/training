@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>静的コード分析設定</value>
+    </caseValues>
+    <fields>
+        <help><!-- You can get this Organization Id in CodeScan Cloud, under your profile, in the &quot;My Organizations&quot; setup menu. --></help>
+        <label>クラウド組織</label>
+        <name>copado__Cloud_Organization__c</name>
+    </fields>
+    <fields>
+        <label>CodeScan トークン</label>
+        <name>copado__CodeScan_Token__c</name>
+    </fields>
+    <fields>
+        <label>コードスキャンURL</label>
+        <name>copado__CodeScan_URL__c</name>
+    </fields>
+    <fields>
+        <help><!-- Cloud version requires a CodeScan Cloud license.
+On-premise SonarQube requires your SonarQube instance to be accesible through internet. --></help>
+        <label>CodeScan バージョン</label>
+        <name>copado__CodeScan_Version__c</name>
+        <picklistValues>
+            <masterLabel>Cloud</masterLabel>
+            <translation><!-- Cloud --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On-premise SonarQube</masterLabel>
+            <translation><!-- On-premise SonarQube --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>最終コミットからのイシューをレポートする</label>
+        <name>copado__ReportIssuesFromLatestCommit__c</name>
+    </fields>
+    <layouts>
+        <layout>CodeScan SCA Settings Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Static Code Analysis Settings Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>V.17 - Static Code Analysis Settings Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>V.17 CodeScan SCA Settings Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>静的コード分析設定名</nameFieldLabel>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>デフォルトルールセットの作成</label>
+        <name>copado__Generate_Default_Rule_Set</name>
+    </quickActions>
+    <recordTypes>
+        <description>Codescan統合のためのレコードタイプです。 Codescanのライセンスが必要です。</description>
+        <label><!-- CodeScan --></label>
+        <name>copado__CodeScan</name>
+    </recordTypes>
+    <recordTypes>
+        <description>無料のPMD統合のためのレコードタイプ</description>
+        <label><!-- PMD --></label>
+        <name>copado__PMD</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>次の必須フィールドを確認してください。
+　クラウド版ではクラウド組織が必要となります。 
+　オンプレミス版ではSonarQubeのトークンとURLが必要となります。</errorMessage>
+        <name>copado__CodeScan_Required_Fields</name>
+    </validationRules>
+    <webLinks>
+        <label>デフォルトのルールセットを生成</label>
+        <name>copado__Generate_Default_RuleSet</name>
+    </webLinks>
+</CustomObjectTranslation>

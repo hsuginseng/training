@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>63.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Home Page - Recommended Products (Section)</masterLabel>
+    <description>...</description>
+    <capabilities>
+        <capability>lightningCommunity__RelaxedCSP</capability>
+    </capabilities>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property label="Title" name="title" type="String" translatable="true"
+                description="The text that will display at the top of the section." default="Recommended Products"/>
+            <property label="CTA Text - Add To Cart" name="ctaTextAddToCart" type="String" translatable="true"
+                description="The text that will display within an 'Add to Cart' CTA Button."/>
+            <property label="CTA Text - See Details" name="ctaTextSeeDetails" type="String" translatable="true"
+                description="The text that will display within an 'See Details' CTA Button."/>
+            <property label="CTA Text - Out Of Stock" name="ctaTextOutOfStock" type="String" translatable="true"
+                description="The text that will display when a product is out of stock."/>
+            <property name="ctaTextNoMoreAvailable"
+                type="String"
+                label="CTA Text - No More Available"
+                default="No More Available"
+                description="CTA label shown when the shopper has already added all available stock of this product to their cart."
+                translatable="true" />
+            <property label="Section Content" name="content" type="lightning__multilineTextType" translatable="true"
+                description="The content displayed within the Recommended Categories section."/>
+            <property label="Product SKUs" name="productSkuList" type="lightning__multilineTextType" default="[]" translatable="false"
+                description="A list of SKUs that will be rendered as recommended product cards. Format as a JSON array, e.g. ['SKU #1', 'SKU #2', ..., 'SKU #N']."/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

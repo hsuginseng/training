@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Handles Dec related error events to display a toast message to end user</description>
+    <isExposed>true</isExposed>
+    <lightningMessageFields>
+        <description>The error message that has to be displayed to end user</description>
+        <fieldName>errorMessage</fieldName>
+    </lightningMessageFields>
+    <masterLabel>DecError</masterLabel>
+</LightningMessageChannel>

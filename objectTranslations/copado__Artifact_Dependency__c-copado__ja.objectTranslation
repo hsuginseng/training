@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>パッケージの依存性</value>
+    </caseValues>
+    <fields>
+        <help><!-- The artifact record which cannot be installed or managed without the depending artifact --></help>
+        <label>依存パッケージ</label>
+        <name>copado__Dependent_Artifact__c</name>
+        <relationshipLabel>パッケージの依存関係（依存アーティファクト）</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The minumum or exact version of depending artifact. This particular version will be used during version creation and installation operations. --></help>
+        <label>パッケージのバージョンに応じて</label>
+        <lookupFilter>
+            <errorMessage>値が存在しないか、フィルタリング条件に一致しません。依存するバージョンは、依存するアーティファクトのバージョンの中から選択する必要があります。</errorMessage>
+        </lookupFilter>
+        <name>copado__Depending_Artifact_Version__c</name>
+        <relationshipLabel>パッケージの依存関係</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The depending package artifact which contains required dependencies for the dependent package&apos;s metadata --></help>
+        <label>パッケージ依存</label>
+        <name>copado__Depending_Artifact__c</name>
+        <relationshipLabel>パッケージの依存関係（依存アーティファクト）</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- If checked, the latest version of the depending artifact will be used for version creation and installation operations --></help>
+        <label>最新バージョンに依存します</label>
+        <name>copado__Depends_on_the_latest_version__c</name>
+    </fields>
+    <nameFieldLabel>アーティファクトの依存関係</nameFieldLabel>
+</CustomObjectTranslation>

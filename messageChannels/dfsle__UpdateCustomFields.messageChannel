@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Updates changes made to custom fields options settings</description>
+    <isExposed>true</isExposed>
+    <lightningMessageFields>
+        <description>Payload to update custom fields</description>
+        <fieldName>customFields</fieldName>
+    </lightningMessageFields>
+    <masterLabel>UpdateCustomFields</masterLabel>
+</LightningMessageChannel>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>63.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>About Page - Products</masterLabel>
+    <description>...</description>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property label="Title" name="title" type="String" description="" translatable="true"/>
+            <property label="CTA Display Text" name="ctaText" type="String" translatable="true"
+                description="The alternate/descriptor text for the image. Displays on hover of the image and when read by screenreaders"/>
+            <property label="CTA Link" name="ctaUrl" type="String" translatable="false"
+                description="The brand of the product displayed. Use a data expression for proper function."/>
+            <property label="Image Link" name="imageUrl" type="String" translatable="false"
+                description="The link to the image that is displayed in the category card."/>
+            <property label="Image Alternate Text" name="imageAlt" type="String" translatable="true"
+                description="The alternate/descriptor text for the image. Displays on hover of the image and when read by screenreaders"
+                default=""/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

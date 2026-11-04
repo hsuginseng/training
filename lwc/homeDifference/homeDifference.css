@@ -1,0 +1,53 @@
+@import 'c/cssLibrary';
+
+.section {
+	width: 100vw;
+	padding-block: 0 5.25rem;
+	background-color: #fff;
+	overflow: clip;
+
+	@media (max-width: 1024px) {
+		padding-block: 0 4rem;
+	}
+
+	@media (max-width: 768px) {
+		padding-block: 0 3rem;
+	}
+
+	@media (max-width: 620px) {
+		padding-block: 0 2.5rem;
+	}
+}
+
+.inner {
+	position: relative;
+	width: calc(100% - 8.5rem);
+	max-width: 90rem;
+	height: 100%;
+	margin-inline: auto;
+
+	@media (max-width: 1024px) {
+		width: calc(100% - 6rem);
+	}
+
+	@media (max-width: 768px) {
+		width: calc(100% - 4rem);
+	}
+
+	@media (max-width: 620px) {
+		width: calc(100% - 2rem);
+	}
+}	
+
+h2 {
+	text-align: left;
+	margin: 0 0 3rem 0;
+
+	@media (max-width: 768px) {
+		margin-bottom: 2rem;
+	}
+
+	@media (max-width: 620px) {
+		margin-bottom: 1rem;
+	}
+}

@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Company Updates",
+  "contentBody" : {
+    "activeViewId" : "Company_Updates",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-company-updates",
+    "urlPrefix" : "company-updates"
+  },
+  "urlName" : "company-updates"
+}

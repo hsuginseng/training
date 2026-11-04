@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- BT_User_EPIM --></label>
+        <name>BT_User_EPIM</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- PersonalInfo_EPIM --></label>
+        <name>PersonalInfo_EPIM</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Functional Review Session Assignment Datatable --></label>
+        <name>copadoQuality__Functional_Review_Session_Assignment_Dat</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Copado License Manager --></label>
+        <name>copado__License_Manager</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Inventory Location External Reference --></label>
+        <name>Inventory_Location_External_Reference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Preferred Language --></label>
+        <name>Preferred_Language__c</name>
+        <picklistValues>
+            <masterLabel>Chinese (Simplified)</masterLabel>
+            <translation><!-- Chinese (Simplified) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chinese (Traditional)</masterLabel>
+            <translation><!-- Chinese (Traditional) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>English</masterLabel>
+            <translation><!-- English --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- API_URL --></label>
+        <name>copado__API_URL__c</name>
+    </fields>
+    <fields>
+        <help><!-- The visibility of the message asking users to rate &amp; feedback Copado on the AppExchange is controlled here. --></help>
+        <label><!-- Hide Copado feedback --></label>
+        <name>copado__Hide_Copado_feedback__c</name>
+    </fields>
+    <fields>
+        <label><!-- Persona Id --></label>
+        <name>copado__Persona_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show Copado Tips --></label>
+        <name>copado__Show_Copado_Tips__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work Manager Panels --></label>
+        <name>copado__Work_Manager_Panels__c</name>
+    </fields>
+    <fields>
+        <label><!-- Can Manage DocuSign Account --></label>
+        <name>dfsle__CanManageAccount__c</name>
+    </fields>
+    <fields>
+        <help>Дата предоставления</help>
+        <label><!-- DocuSign Provisioned Date --></label>
+        <name>dfsle__Provisioned__c</name>
+    </fields>
+    <fields>
+        <label><!-- Docusign Status --></label>
+        <name>dfsle__Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation>Активна</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation>Неактивный</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation>Ожидают завершения</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- DocuSign Username --></label>
+        <name>dfsle__Username__c</name>
+    </fields>
+    <fields>
+        <label><!-- User License Name --></label>
+        <name>pimly__User_License_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Encrypted FedEx End User Key --></label>
+        <name>zkmulti__EncryptedFedExEndUserKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- Encrypted FedEx End User Password --></label>
+        <name>zkmulti__EncryptedFedExEndUserPassword__c</name>
+    </fields>
+    <fields>
+        <label><!-- FedEx End User Key --></label>
+        <name>zkmulti__FedExEndUserKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- FedEx End User Password --></label>
+        <name>zkmulti__FedExEndUserPassword__c</name>
+    </fields>
+    <fields>
+        <label><!-- FedEx Registered Preference --></label>
+        <name>zkmulti__FedExRegisteredPreference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Registered Preference --></label>
+        <name>zkmulti__Registered_Preference__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Credentials Encrypted --></label>
+        <name>zkmulti__UserCredentialsEncrypted__c</name>
+    </fields>
+    <layouts>
+        <layout>User Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>User Profile Layout</layout>
+        <layoutType>UserAlt</layoutType>
+        <sections>
+            <label><!-- About --></label>
+            <section>About</section>
+        </sections>
+        <sections>
+            <label><!-- Background --></label>
+            <section>Background</section>
+        </sections>
+        <sections>
+            <label><!-- Contact --></label>
+            <section>Contact</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

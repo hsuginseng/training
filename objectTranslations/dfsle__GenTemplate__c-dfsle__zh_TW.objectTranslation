@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Docusign Gen 範本</value>
+    </caseValues>
+    <fields>
+        <label>協議中繼資料</label>
+        <name>dfsle__AgreementMetadata__c</name>
+    </fields>
+    <fields>
+        <label>Apply CLM Workflow</label>
+        <name>dfsle__ApplyCLMWorkflow__c</name>
+    </fields>
+    <fields>
+        <label><!-- Generator Can Edit --></label>
+        <name>dfsle__CurrencyLocaleEdit__c</name>
+    </fields>
+    <fields>
+        <label>描述</label>
+        <name>dfsle__Description__c</name>
+    </fields>
+    <fields>
+        <label>文件目標位置</label>
+        <name>dfsle__DocumentTargetLocation__c</name>
+        <picklistValues>
+            <masterLabel>clm</masterLabel>
+            <translation><!-- clm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>salesforce</masterLabel>
+            <translation><!-- salesforce --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The configuration used to generate this envelope. --></help>
+        <label>信封範本</label>
+        <name>dfsle__EnvelopeConfiguration__c</name>
+        <relationshipLabel><!-- DocuSign Gen Templates --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>檔案名稱</label>
+        <name>dfsle__FileName__c</name>
+    </fields>
+    <fields>
+        <label>檔案後綴</label>
+        <name>dfsle__FileSuffix__c</name>
+    </fields>
+    <fields>
+        <label><!-- Has Enabled Send For Signature --></label>
+        <name>dfsle__HasEnabledSendForSignature__c</name>
+    </fields>
+    <fields>
+        <label><!-- Has Launch Automatically --></label>
+        <name>dfsle__HasLaunchAutomatically__c</name>
+    </fields>
+    <fields>
+        <label>已預覽過文件</label>
+        <name>dfsle__HasPreviewedDocuments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Mappings --></label>
+        <name>dfsle__InvoiceMappings__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Automate Invoice --></label>
+        <name>dfsle__IsAutomateInvoice__c</name>
+    </fields>
+    <fields>
+        <label>為範本</label>
+        <name>dfsle__IsSample__c</name>
+    </fields>
+    <fields>
+        <label>Object Mappings 2</label>
+        <name>dfsle__ObjectMappings2__c</name>
+    </fields>
+    <fields>
+        <label>Object Mappings 3</label>
+        <name>dfsle__ObjectMappings3__c</name>
+    </fields>
+    <fields>
+        <label>Object Mappings 4</label>
+        <name>dfsle__ObjectMappings4__c</name>
+    </fields>
+    <fields>
+        <label>物件對應</label>
+        <name>dfsle__ObjectMappings__c</name>
+    </fields>
+    <fields>
+        <label>簽署人對應</label>
+        <name>dfsle__SignerMappings__c</name>
+    </fields>
+    <fields>
+        <label>來源物件</label>
+        <name>dfsle__SourceObject__c</name>
+    </fields>
+    <fields>
+        <label>已完成步驟</label>
+        <name>dfsle__StepsCompleted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Template Currency Format --></label>
+        <name>dfsle__TemplateCurrencyFormat__c</name>
+    </fields>
+    <fields>
+        <label>範本 ID</label>
+        <name>dfsle__TemplateId__c</name>
+    </fields>
+    <fields>
+        <label>範本類型</label>
+        <name>dfsle__TemplateType__c</name>
+        <picklistValues>
+            <masterLabel>DocuSign Agreement Cloud Editor</masterLabel>
+            <translation><!-- DocuSign Agreement Cloud Editor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Microsoft Word</masterLabel>
+            <translation><!-- Microsoft Word --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>使用所有範本</label>
+        <name>dfsle__UseAllTemplates__c</name>
+    </fields>
+    <fields>
+        <label>使用目前記錄</label>
+        <name>dfsle__UseCurrentRecord__c</name>
+    </fields>
+    <fields>
+        <label><!-- Template Currency Code --></label>
+        <name>dfsle__templateCurrencyCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Template Currency Symbol --></label>
+        <name>dfsle__templateCurrencySymbol__c</name>
+    </fields>
+    <fields>
+        <label><!-- Template ISO --></label>
+        <name>dfsle__templateISO__c</name>
+    </fields>
+    <fields>
+        <label><!-- Template Locale Code --></label>
+        <name>dfsle__templateLocaleCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Template Locale --></label>
+        <name>dfsle__templateLocale__c</name>
+    </fields>
+    <layouts>
+        <layout>Gen Template Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Name</nameFieldLabel>
+</CustomObjectTranslation>

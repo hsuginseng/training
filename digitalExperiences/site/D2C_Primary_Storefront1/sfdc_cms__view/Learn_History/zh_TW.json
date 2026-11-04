@@ -1,0 +1,20 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Learn-History",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "attributes" : {
+          "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCYRJRNH2Z3JDZDDSFFN5735VK54?lastModifiedDate=Mon Feb 02 17:40:06 GMT 2026\",\"altText\":\"\",\"contentKey\":\"MCYRJRNH2Z3JDZDDSFFN5735VK54\",\"contentType\":null}}"
+        },
+        "id" : "31af6bed-6453-4ebe-aa10-0c2d160984a6"
+      }, {
+        "id" : "023fe6e9-860f-48e3-ae77-75695d857345",
+        "attributes" : {
+          "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MC64A3XLOYRBHBND7FAA56QISMXQ?lastModifiedDate=Mon Feb 02 17:40:46 GMT 2026\",\"altText\":\"\",\"contentKey\":\"MC64A3XLOYRBHBND7FAA56QISMXQ\",\"contentType\":null}}"
+        }
+      } ]
+    }
+  },
+  "urlName" : "learn-history"
+}

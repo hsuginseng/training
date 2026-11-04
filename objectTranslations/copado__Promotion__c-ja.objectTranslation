@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>プロモーション</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Rollback Page --></label>
+        <name>cmcSf__Rollback_Page</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- SFDX Extension Fields --></label>
+        <name>cmcSf__SFDX_Extension_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Copado Header Fields --></label>
+        <name>copado__Copado_Header_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Custom Fields --></label>
+        <name>copado__CustomFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ManageBranchesDialog --></label>
+        <name>copado__ManageBranchesDialog</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Pipeline Manager Promotion Fields --></label>
+        <name>copado__Pipeline_Manager</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Apex Test Level --></label>
+        <name>cmcSf__Apex_Test_Level__c</name>
+    </fields>
+    <fields>
+        <help>デプロイのステータスに関係なく Vlocity ログを確認する場合は、このチェックボックスを有効にします。Vlocityログを含めると、かなりのファイルストレージを消費する可能性があります。</help>
+        <label><!-- Attach Vlocity(SFI) Build File --></label>
+        <name>cmcSf__Attach_Vlocity_Build_File__c</name>
+    </fields>
+    <fields>
+        <help>これを有効にすると、git リポジトリの copadoDebug/&lt;PromotionNumber&gt; というブランチにあるデプロイ先の組織に (このプロモーションの一部として) デプロイされたソースファイルを見ることができます。</help>
+        <label><!-- Debug Mode --></label>
+        <name>cmcSf__Debug_Mode__c</name>
+    </fields>
+    <fields>
+        <help><!-- When checked, deployment warnings will be ignored and the deployment will only fail if errors are returned --></help>
+        <label><!-- Ignore Deployment Warnings --></label>
+        <name>cmcSf__Ignore_Deployment_Warnings__c</name>
+    </fields>
+    <fields>
+        <help><!-- When checked, deployment warnings in rollback will be ignored and the deployment will only fail if errors are returned --></help>
+        <label><!-- Ignore Rollback Deployment Warnings --></label>
+        <name>cmcSf__Ignore_Rollback_Deployment_Warnings__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Rollback Execution Id --></label>
+        <name>cmcSf__Last_Rollback_Execution_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recreate Promotion Branch --></label>
+        <name>cmcSf__Recreate_Promotion_Branch__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rollback Status --></label>
+        <name>cmcSf__Rollback_Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation>完了</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Failed</masterLabel>
+            <translation>失敗</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation>進行中</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress (Validation Only)</masterLabel>
+            <translation>進行中（検証のみ）</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Started</masterLabel>
+            <translation>未着手</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Validated</masterLabel>
+            <translation>検証済み</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Validation Failed</masterLabel>
+            <translation>検証失敗</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Rolled Back Date --></label>
+        <name>cmcSf__Rolled_Back_Date__c</name>
+    </fields>
+    <fields>
+        <help>検証後、対象組織でクイックデプロイが利用可能な場合、このフィールドには検証IDが含まれます。プロモーションがデプロイされると、クイックデプロイが自動的に使用されます。</help>
+        <label><!-- Validate Deploy Request Id --></label>
+        <name>cmcSf__Validate_Deploy_Request_Id__c</name>
+    </fields>
+    <fields>
+        <help>パイプラインで上位の環境から下位の環境にプロモートする場合は、このチェックボックスを選択します。</help>
+        <label><!-- Is Back-Promotion --></label>
+        <name>copado__Back_Promotion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Backend Bypass --></label>
+        <name>copado__Backend_Bypass__c</name>
+    </fields>
+    <fields>
+        <help>このフィールドは、プロモーションがマージされ、マルチクラウドプラットフォームに正常にデプロイされると、コパードによってチェックされます。</help>
+        <label><!-- Completed --></label>
+        <name>copado__Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Connection Behavior --></label>
+        <name>copado__Connection_Behavior__c</name>
+    </fields>
+    <fields>
+        <help>追加した権限セットをフル権限セットのデプロイメントステップに移動させるかどうかを選択します。 これにより、メタデータステップから権限セットが除去されます。</help>
+        <label><!-- Create Full Permission Sets Step --></label>
+        <name>copado__Create_Full_Permission_Sets_Step__c</name>
+    </fields>
+    <fields>
+        <help>追加したプロファイルセットをフルプロファイルセットのデプロイメントステップに移動させるかどうかを選択します。 これにより、メタデータステップからプロファイルセットが除去されます。</help>
+        <label><!-- Create Full Profiles Step --></label>
+        <name>copado__Create_Full_Profiles_Step__c</name>
+    </fields>
+    <fields>
+        <label><!-- Destination Environment --></label>
+        <name>copado__Destination_Environment__c</name>
+        <relationshipLabel><!-- Promotions (Destination Environment) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>デプロイメントを作成するときに使用する、宛先環境（To）のクレデンシャルです。宛先環境（To）に対するクレデンシャルの保有者である場合、プロジェクトのデプロイメントフローに基づいて、空白のままでも自動的に入力されます。</help>
+        <label><!-- Destination Credential --></label>
+        <name>copado__Destination_Org_Credential__c</name>
+        <relationshipLabel><!-- Promotions (Destination Credential) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>機能ブランチをプロモーションブランチにマージする際にコンフリクトが発生した場合に、手動で解決するメタデータタイプを選択します。　このフィールドはメタデータフォーマットパイプラインにのみ影響し、ソースフォーマットパイプラインには影響しません。</help>
+        <label><!-- Exclude From Auto Resolve --></label>
+        <name>copado__Exclude_From_Auto_Resolve__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Rolled Back? --></label>
+        <name>copado__Is_Rolled_Back__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Deployment Execution Id --></label>
+        <name>copado__Last_Deployment_Execution_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Promotion Execution Id --></label>
+        <name>copado__Last_Promotion_Execution_Id__c</name>
+    </fields>
+    <fields>
+        <help>このプロモーションに手動でのコンフリクト解決が含まれていることを示します。</help>
+        <label><!-- Merge Conflict --></label>
+        <name>copado__Merge_Conflict__c</name>
+    </fields>
+    <fields>
+        <help>この項目を入力して、フォワードプロモーション時のユーザーストーリーのマージ順を昇順または降順に設定します（例：copado__Priority__c asc）。バックプロモーションの場合、ユーザーストーリーは元のフォワードプロモーション時にマージされた順序で自動的にマージされるため、この項目は無視されます。</help>
+        <label><!-- Order User Stories by --></label>
+        <name>copado__Order_by__c</name>
+    </fields>
+    <fields>
+        <help>有効にすると、ソース環境からのファイルが直接デプロイメントされ、宛先環境で進行中の作業はすべて上書きされます。無効にすると、Copado は進行中の作業を確認し、変更が検出された場合、コンフリクトの解決をプロンプトします。</help>
+        <label><!-- Override Destination Changes --></label>
+        <name>copado__Override_Destination_Changes__c</name>
+    </fields>
+    <fields>
+        <help>この項目は、ソースフォーマットパイプラインでのみ使用して、高度なユーザーストーリーのグループ化を有効にしてください。
+
+- 同じリリース内の異なるプロジェクトからユーザーストーリーをグループ化する場合：リリース（関連付けられたプロジェクトがないもの）とパイプラインを選択してください。
+
+- 任意のプロジェクトおよびリリースからユーザーストーリーをグループ化する場合：パイプラインのみを選択してください。
+
+プロジェクトおよび/またはリリース項目を使用した標準的なプロモーションを行う場合は、この項目を空のままにしてください。</help>
+        <label><!-- Pipeline --></label>
+        <name>copado__Pipeline__c</name>
+        <relationshipLabel><!-- Promotions --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>このフィールドには、パイプラインのプラットフォームが自動入力され表示されます。</help>
+        <label><!-- Platform --></label>
+        <name>copado__Platform__c</name>
+    </fields>
+    <fields>
+        <help>選択したプロジェクトはアクティブなパイプラインにリンクされている必要があります。</help>
+        <label><!-- Project --></label>
+        <name>copado__Project__c</name>
+        <relationshipLabel><!-- Promotions --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>環境との変更の同期方法を選択します。環境同期は、ソース環境のブランチからファイルを直接コピーするため、コンフリクトの解決のオーバーヘッドが軽減されます。クラシックプロモーションは、個々の機能ブランチを使用して変更をプロモートするため、各ブランチの順次マージとコンフリクトの解決が必要になります。</help>
+        <label><!-- Promotion Method --></label>
+        <name>copado__Promotion_Method__c</name>
+        <picklistValues>
+            <masterLabel>Classic Promotion</masterLabel>
+            <translation>クラシックプロモーション</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Environment Sync</masterLabel>
+            <translation>環境同期</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Point In Time Promotion</masterLabel>
+            <translation><!-- Point In Time Promotion --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Pull Requests Approved --></label>
+        <name>copado__Pull_Requests_Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Release --></label>
+        <name>copado__Release__c</name>
+        <relationshipLabel><!-- Promotions --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>プロモーションが完了した際に、プロモーションオーナーにメール通知を送信する場合は、このチェックボックスを選択します。</help>
+        <label><!-- Notify When Complete --></label>
+        <name>copado__Send_Deployment_Complete_email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source Environment --></label>
+        <name>copado__Source_Environment__c</name>
+        <relationshipLabel><!-- Promotions --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>ソース環境（From)のクレデンシャルは、デプロイメントを作成するときに使用されます。ソース環境（From）に対するクレデンシャルの所有者である場合、プロジェクトのディプロイメントフローに基づいて、空白のままでも自動的に入力されます。</help>
+        <label><!-- Source Credential --></label>
+        <name>copado__Source_Org_Credential__c</name>
+        <relationshipLabel><!-- Promotions (Source Credential) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>copado__Status__c</name>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation>キャンセル済</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation>完了しました</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed with errors</masterLabel>
+            <translation>エラーありで完了しました。</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Conflicts Resolved</masterLabel>
+            <translation>コンフリクトは解決されました</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation>下書き</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation>進行中</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Merge Conflict</masterLabel>
+            <translation>マージコンフリクト</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scheduled</masterLabel>
+            <translation>スケジュール</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Validated</masterLabel>
+            <translation>検証されました。</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Validation failed</masterLabel>
+            <translation>検証に失敗しました</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Git のユーザーストーリーのプロモーションブランチへのリンク。リンクは、Git リポジトリレコードのベースブランチ URL に基づいて生成されます。</help>
+        <label><!-- View in Git --></label>
+        <name>copado__View_in_Git__c</name>
+    </fields>
+    <layouts>
+        <layout>Promotion Layout</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>プロモーション名</nameFieldLabel>
+    <quickActions>
+        <label><!-- Cancel Promotion --></label>
+        <name>copado__Cancel_Promotion</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Deploy Changes --></label>
+        <name>copado__Deploy_Changes</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Edit --></label>
+        <name>copado__Edit</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Get Copado Help --></label>
+        <name>copado__Get_Copado_Help</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Merge Changes --></label>
+        <name>copado__Merge_Changes</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Merge &amp; Deploy Changes --></label>
+        <name>copado__Merge_Deploy</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Open Pull Request --></label>
+        <name>copado__Open_Pull_Request</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Validate Changes --></label>
+        <name>copado__ValidateChanges</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage><!-- Back Promotions to Scratch Orgs are not allowed --></errorMessage>
+        <name>copado__Scratch_Orgs_Disabled_for_Back_Promoting</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Rollback --></label>
+        <name>copado__Rollback</name>
+    </webLinks>
+</CustomObjectTranslation>

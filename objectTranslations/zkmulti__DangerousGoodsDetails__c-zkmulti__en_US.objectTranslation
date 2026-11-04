@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Dangerous Goods Details (Deprecated)</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Dangerous Goods Details (Deprecated)</value>
+    </caseValues>
+    <fields>
+        <help><!-- Telephone number to use for contact in the event of an emergency --></help>
+        <label><!-- Emergency Contact Number --></label>
+        <name>zkmulti__EmergencyContactNumber__c</name>
+    </fields>
+    <fields>
+        <help><!-- Units in which the dangerous goods commodity is packaged --></help>
+        <label><!-- Packaging Count Units --></label>
+        <name>zkmulti__PackagingCountUnits__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of units, in the units specified by the Packaging Count Units --></help>
+        <label><!-- Packaging Count --></label>
+        <name>zkmulti__PackagingCount__c</name>
+    </fields>
+    <layouts>
+        <layout>FedEx Dangerous Goods Details Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+        <sections>
+            <label><!-- Packaging --></label>
+            <section>Packaging</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NavigationMenu xmlns="http://soap.sforce.com/2006/04/metadata">
+    <container>D2C Primary Storefront</container>
+    <containerType>Network</containerType>
+    <label>Default Navigation</label>
+    <navigationMenuItem>
+        <label>Storefront Categories</label>
+        <position>1</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>StorefrontCategories</target>
+        <type>DataSourceDriven</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>The Company</label>
+        <position>2</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <subMenu>
+            <navigationMenuItem>
+                <label>Our Story</label>
+                <position>0</position>
+                <publiclyAvailable>true</publiclyAvailable>
+                <target>/OurStory</target>
+                <type>InternalLink</type>
+            </navigationMenuItem>
+            <navigationMenuItem>
+                <label>Our Farms</label>
+                <position>1</position>
+                <publiclyAvailable>true</publiclyAvailable>
+                <target>/thecompany-aboutfarm</target>
+                <type>InternalLink</type>
+            </navigationMenuItem>
+        </subMenu>
+        <type>MenuLabel</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Learn</label>
+        <position>3</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <subMenu>
+            <navigationMenuItem>
+                <label>Ginseng</label>
+                <position>0</position>
+                <publiclyAvailable>true</publiclyAvailable>
+                <target>/learn-ginseng</target>
+                <type>InternalLink</type>
+            </navigationMenuItem>
+            <navigationMenuItem>
+                <label>History</label>
+                <position>1</position>
+                <publiclyAvailable>true</publiclyAvailable>
+                <target>/learn-history</target>
+                <type>InternalLink</type>
+            </navigationMenuItem>
+            <navigationMenuItem>
+                <label>The Region</label>
+                <position>2</position>
+                <publiclyAvailable>true</publiclyAvailable>
+                <target>/the-region</target>
+                <type>InternalLink</type>
+            </navigationMenuItem>
+        </subMenu>
+        <type>MenuLabel</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Visit</label>
+        <position>4</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <subMenu>
+            <navigationMenuItem>
+                <label>Visit Us</label>
+                <position>0</position>
+                <publiclyAvailable>true</publiclyAvailable>
+                <target>/visit-visitus</target>
+                <type>InternalLink</type>
+            </navigationMenuItem>
+            <navigationMenuItem>
+                <label>Reservations</label>
+                <position>1</position>
+                <publiclyAvailable>true</publiclyAvailable>
+                <target>/visit-reservation</target>
+                <type>InternalLink</type>
+            </navigationMenuItem>
+        </subMenu>
+        <type>MenuLabel</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>CONTACT US</label>
+        <position>5</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>/contact-us</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>China Overseas</label>
+        <position>6</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>https://hsuschinaoversea.com</target>
+        <type>ExternalLink</type>
+    </navigationMenuItem>
+</NavigationMenu>

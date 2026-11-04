@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataKitObjectDependency xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataPackageKitDef>Data_cloud_sandbox_deployment</dataPackageKitDef>
+    <developerName>OrderItemSummary_Home</developerName>
+    <masterLabel>OrderItemSummary_Home__dll</masterLabel>
+    <sourceObject>OrderItemSummary_Home1</sourceObject>
+    <sourceObjectType>DataSourceObject</sourceObjectType>
+    <targetObject>OrderItemSummary_Home</targetObject>
+</DataKitObjectDependency>

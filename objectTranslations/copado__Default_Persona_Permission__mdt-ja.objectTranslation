@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Default Persona Permission --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Default Persona --></label>
+        <name>copado__Default_Persona__c</name>
+        <relationshipLabel><!-- Default Persona Permissions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>copado__Type__c</name>
+        <picklistValues>
+            <masterLabel>App Permission</masterLabel>
+            <translation>アプリの権限</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Copado License</masterLabel>
+            <translation>コパードライセンス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credential Access Level</masterLabel>
+            <translation>認証情報アクセスレベル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custom Permission</masterLabel>
+            <translation>カスタム権限</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Package License</masterLabel>
+            <translation>パッケージライセンス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Permission Set</masterLabel>
+            <translation>権限セット</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Permission Set Group</masterLabel>
+            <translation>権限セットグループ</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Value --></label>
+        <name>copado__Value__c</name>
+    </fields>
+    <layouts>
+        <layout>Default Persona Definition Layout</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

@@ -1,0 +1,17 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Terms and Privacy",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "attributes" : {
+          "dxpStyle" : {
+            "isVisible" : false
+          }
+        },
+        "id" : "fdad3e86-ea02-47f2-8ae4-bf61cc31dbd1"
+      } ]
+    }
+  },
+  "urlName" : "terms-and-privacy"
+}

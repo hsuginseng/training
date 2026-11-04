@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>63.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Product Page - Product Banner</masterLabel>
+    <description>Displays information specific to a product. This should only be used on a product detail page.</description>
+    <capabilities>
+        <capability>lightningCommunity__RelaxedCSP</capability>
+    </capabilities>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property label="Product Details" name="productDetail" type="String" 
+                description="Use a data expression for proper function." default="{!Product.Details}"/>
+            <property label="CTA Text - Add to Cart" name="ctaLabelAddToCart" type="String" translatable="true"
+                description=""/>
+            <property label="Out of Stock Label" name="outOfStockLabel" type="String" translatable="true"
+                description="The text that will display when the product is out of stock."/>
+            <property label="No More Available Label" name="maxInCartLabel" type="String" translatable="true" 
+                default="No More Available" 
+                description="Label shown when the shopper has already added all available stock to their cart."/>
+            <property label="title" name="title" type="String" 
+                description="Use a data expression for proper function." default=""/>
+            <property label="price" name="price" type="String" 
+                description="Use a data expression for proper function." default=""/>
+            <property label="discountedPrice" name="discountedPrice" type="String" 
+                description="Use a data expression for proper function." default=""/>
+            <property label="productId" name="productId" type="String" 
+                description="Use a data expression for proper function." default=""/>
+            <property label="mediaGroups" name="mediaGroups" type="String" 
+                description="Use a data expression for proper function." default=""/>    
+            
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Pro Forma Invoice</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Pro Forma Invoices</value>
+    </caseValues>
+    <fields>
+        <label><!-- Purpose --></label>
+        <name>zkmulti__Purpose__c</name>
+        <picklistValues>
+            <masterLabel>Gift</masterLabel>
+            <translation><!-- Gift --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Sold</masterLabel>
+            <translation><!-- Not Sold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal Effects</masterLabel>
+            <translation><!-- Personal Effects --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repair and Return</masterLabel>
+            <translation><!-- Repair and Return --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sample</masterLabel>
+            <translation><!-- Sample --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Special Instructions Extended --></label>
+        <name>zkmulti__SpecialInstructionsExtended__c</name>
+    </fields>
+    <fields>
+        <label><!-- Special Instructions --></label>
+        <name>zkmulti__SpecialInstructions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Terms of Sale --></label>
+        <name>zkmulti__TermsOfSale__c</name>
+        <picklistValues>
+            <masterLabel>Carriage Insurance Paid (CIP)</masterLabel>
+            <translation><!-- Carriage Insurance Paid (CIP) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carriage Paid TO (CPT)</masterLabel>
+            <translation><!-- Carriage Paid TO (CPT) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cost Insurance and Freight (CIF)</masterLabel>
+            <translation><!-- Cost Insurance and Freight (CIF) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cost and Freight (CFR)</masterLabel>
+            <translation><!-- Cost and Freight (CFR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delivered Duty Paid (DDP)</masterLabel>
+            <translation><!-- Delivered Duty Paid (DDP) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delivered Duty Unpaid (DDU)</masterLabel>
+            <translation><!-- Delivered Duty Unpaid (DDU) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delivered at Place (DAP)</masterLabel>
+            <translation><!-- Delivered at Place (DAP) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delivered at Terminal (DAT)</masterLabel>
+            <translation><!-- Delivered at Terminal (DAT) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ex Works (EXW)</masterLabel>
+            <translation><!-- Ex Works (EXW) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Free Carrier (FCA)</masterLabel>
+            <translation><!-- Free Carrier (FCA) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Free On Board (FOB)</masterLabel>
+            <translation><!-- Free On Board (FOB) --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>FedEx Pro Forma Invoice Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

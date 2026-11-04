@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Shipping Preference</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Shipping Preferences</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Number --></label>
+        <name>zkmulti__AccountNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Auto Weight Package --></label>
+        <name>zkmulti__AutoWeighPackage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing City --></label>
+        <name>zkmulti__Billing_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Company --></label>
+        <name>zkmulti__Billing_Company__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Contact Title --></label>
+        <name>zkmulti__Billing_Contact_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Country --></label>
+        <name>zkmulti__Billing_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Email --></label>
+        <name>zkmulti__Billing_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Name --></label>
+        <name>zkmulti__Billing_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Phone --></label>
+        <name>zkmulti__Billing_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing State --></label>
+        <name>zkmulti__Billing_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Street --></label>
+        <name>zkmulti__Billing_Street__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Zip/Postal Code --></label>
+        <name>zkmulti__Billing_Zip_Postal_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier Account Description --></label>
+        <name>zkmulti__CarrierAccountDescription__c</name>
+    </fields>
+    <fields>
+        <label><!-- CarrierType --></label>
+        <name>zkmulti__CarrierType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier Account Id --></label>
+        <name>zkmulti__Carrier_Account_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier --></label>
+        <name>zkmulti__Carrier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Name --></label>
+        <name>zkmulti__Company_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company URL --></label>
+        <name>zkmulti__Company_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Currency Default --></label>
+        <name>zkmulti__Currency_Default__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Email Send To --></label>
+        <name>zkmulti__DefaultEmailSendTo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default LetterHead Image --></label>
+        <name>zkmulti__DefaultLetterHeadImage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Signature Image --></label>
+        <name>zkmulti__DefaultSignatureImage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Detailed View Re Use Package List --></label>
+        <name>zkmulti__DetailedViewReUsePackageList__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dimension Units Default --></label>
+        <name>zkmulti__Dimension_Units_Default__c</name>
+    </fields>
+    <fields>
+        <label><!-- DocPrinterId --></label>
+        <name>zkmulti__DocPrinterId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Doc Printer Tray --></label>
+        <name>zkmulti__DocPrinterTray__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Message Default --></label>
+        <name>zkmulti__EMailMessageDefault__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Notify on Delivery --></label>
+        <name>zkmulti__EMailNotifyOnDeliveryDefault__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Notify on Estimated Delivery --></label>
+        <name>zkmulti__EMailNotifyOnEstimatedDelivery__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Notify on Exception --></label>
+        <name>zkmulti__EMailNotifyOnExceptionDefault__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Notify on Tender --></label>
+        <name>zkmulti__EMailNotifyOnTender__c</name>
+    </fields>
+    <fields>
+        <help><!-- For completed Shipments, this will be the default reply-to email address when sending shipping labels via email --></help>
+        <label><!-- Email Label Reply-To Email Default --></label>
+        <name>zkmulti__EmailLabelReplyToEmailDefault__c</name>
+    </fields>
+    <fields>
+        <help><!-- For completed Shipments, this will be the default sender display name when sending shipping labels via email --></help>
+        <label><!-- Email Label Sender Display Name Default --></label>
+        <name>zkmulti__EmailLabelSenderDisplayNameDefault__c</name>
+    </fields>
+    <fields>
+        <help><!-- For completed Shipments, this will be the default email subject line when sending shipping labels via email --></help>
+        <label><!-- Email Label Subject Line Default --></label>
+        <name>zkmulti__EmailLabelSubjectLineDefault__c</name>
+    </fields>
+    <fields>
+        <help><!-- For completed Shipments, this will be the default email body when sending shipping labels via email --></help>
+        <label><!-- Email Label Text Body Default --></label>
+        <name>zkmulti__EmailLabelTextBodyDefault__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Notify on Shipment --></label>
+        <name>zkmulti__EmailNotifyOnShipmentDefault__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Template Id Default --></label>
+        <name>zkmulti__Email_Template_Id_Default__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Scales --></label>
+        <name>zkmulti__EnableScales__c</name>
+    </fields>
+    <fields>
+        <label><!-- Encrypted Generic FedEx End User Key --></label>
+        <name>zkmulti__EncryptedGenericFedExEndUserKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- Encrypted Generic FedEx End User Passwd --></label>
+        <name>zkmulti__EncryptedGenericFedExEndUserPasswd__c</name>
+    </fields>
+    <fields>
+        <label><!-- Encrypted Meter Number --></label>
+        <name>zkmulti__EncryptedMeterNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Generic Credentials Encrypted --></label>
+        <name>zkmulti__GenericCredentialsEncrypted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Generic FedEx End User Key --></label>
+        <name>zkmulti__GenericFedExEndUserKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- Generic FedEx End User Password --></label>
+        <name>zkmulti__GenericFedExEndUserPassword__c</name>
+    </fields>
+    <fields>
+        <label><!-- Demo Mode --></label>
+        <name>zkmulti__Is_Demo_Carrier_Account__c</name>
+    </fields>
+    <fields>
+        <label><!-- Label Consolidation --></label>
+        <name>zkmulti__Label_Consolidation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Label Image Type Default --></label>
+        <name>zkmulti__Label_Image_Type_Default__c</name>
+        <picklistValues>
+            <masterLabel>PDF</masterLabel>
+            <translation><!-- PDF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PNG</masterLabel>
+            <translation><!-- PNG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZPL</masterLabel>
+            <translation><!-- ZPL --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Label Size Default --></label>
+        <name>zkmulti__Label_Size_Default__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Close Performed At --></label>
+        <name>zkmulti__LastClosePerformedAt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Close Date/Time --></label>
+        <name>zkmulti__LastCloseTimestamp__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Version Capture Time --></label>
+        <name>zkmulti__LastVersionCaptureTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- License Agreement --></label>
+        <name>zkmulti__LicenseAgreementAccepted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Meter Number --></label>
+        <name>zkmulti__MeterNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Migrated --></label>
+        <name>zkmulti__Migrated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mod Key --></label>
+        <name>zkmulti__Mod_Key__c</name>
+    </fields>
+    <fields>
+        <label><!-- NonThermalPrinterId --></label>
+        <name>zkmulti__NonThermalPrinterId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Non Thermal Printer Tray --></label>
+        <name>zkmulti__NonThermalPrinterTray__c</name>
+    </fields>
+    <fields>
+        <label><!-- Org Wide Address Id --></label>
+        <name>zkmulti__OrgWideAddressId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone Number --></label>
+        <name>zkmulti__PhoneNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Preference Info --></label>
+        <name>zkmulti__PreferenceInfo__c</name>
+        <relationshipLabel><!-- Shipping Preferences --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Scale Computer Id --></label>
+        <name>zkmulti__ScaleComputerId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scale Device Id --></label>
+        <name>zkmulti__ScaleDeviceId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scale Name --></label>
+        <name>zkmulti__ScaleName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scale Weight Unit --></label>
+        <name>zkmulti__ScaleWeightUnit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Send Email Notification to Recipient --></label>
+        <name>zkmulti__SendEMailNotificationToRecipient__c</name>
+    </fields>
+    <fields>
+        <label><!-- Send Email Notification to Shipper --></label>
+        <name>zkmulti__SendEMailNotificationToShipper__c</name>
+    </fields>
+    <fields>
+        <help><!-- If specified, the sender email will be defaulted to this value for all users. Otherwise, the sender email will be the email address of the user. --></help>
+        <label><!-- Sender Email Default --></label>
+        <name>zkmulti__Sender_Email_Default__c</name>
+    </fields>
+    <fields>
+        <help><!-- If specified, the sender name will be defaulted to this value for all users. Otherwise, the sender name will be the name of the user. --></help>
+        <label><!-- Sender Name Default --></label>
+        <name>zkmulti__Sender_Name_Default__c</name>
+    </fields>
+    <fields>
+        <help><!-- If specified, the sender phone will be defaulted to this value for all users. Otherwise, the sender phone will be the phone number of the user. --></help>
+        <label><!-- Sender Phone Default --></label>
+        <name>zkmulti__Sender_Phone_Default__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping City --></label>
+        <name>zkmulti__Shipping_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Country --></label>
+        <name>zkmulti__Shipping_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Is Residential --></label>
+        <name>zkmulti__Shipping_Is_Residential__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping State --></label>
+        <name>zkmulti__Shipping_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Street --></label>
+        <name>zkmulti__Shipping_Street__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Zip/Postal Code --></label>
+        <name>zkmulti__Shipping_Zip_Postal_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subscription Data Encrypted --></label>
+        <name>zkmulti__SubscriptionDataEncrypted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Thermal Printer Id --></label>
+        <name>zkmulti__ThermalPrinterId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Thermal Printer Tray --></label>
+        <name>zkmulti__ThermalPrinterTray__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tracking Preference --></label>
+        <name>zkmulti__Tracking_Preference__c</name>
+        <relationshipLabel><!-- Shipping Preferences --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Weight Units Default --></label>
+        <name>zkmulti__Weight_Units_Default__c</name>
+    </fields>
+    <layouts>
+        <layout>Preference Layout</layout>
+        <sections>
+            <label><!-- Billing Address --></label>
+            <section>Billing Address</section>
+        </sections>
+        <sections>
+            <label><!-- Carrier Account --></label>
+            <section>Carrier Account</section>
+        </sections>
+        <sections>
+            <label><!-- Company Information --></label>
+            <section>Company Information</section>
+        </sections>
+        <sections>
+            <label><!-- Credentials --></label>
+            <section>Credentials</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Default Sender Details --></label>
+            <section>Default Sender Details</section>
+        </sections>
+        <sections>
+            <label><!-- Other Defaults --></label>
+            <section>Other Defaults</section>
+        </sections>
+        <sections>
+            <label><!-- Printers and Scales --></label>
+            <section>Printers and Scales</section>
+        </sections>
+        <sections>
+            <label><!-- Shipping Address --></label>
+            <section>Shipping Address</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- CloseFedExShipDay --></label>
+        <name>zkmulti__CloseFedExShipDay</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CloseFedExSmartPostShipDay --></label>
+        <name>zkmulti__CloseFedExSmartPostShipDay</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- EndiciaAccountStatusBuyPostage --></label>
+        <name>zkmulti__EndiciaAccountStatusBuyPostage</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- FedExSetupSignatureAndLetterHead --></label>
+        <name>zkmulti__FedExSetupSignatureAndLetterHead</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Get_SCAN_Form --></label>
+        <name>zkmulti__Get_SCAN_Form</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Manage_Printers --></label>
+        <name>zkmulti__Manage_Printers</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Manifest --></label>
+        <name>zkmulti__Manifest</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- RegisterFedExUserButton --></label>
+        <name>zkmulti__RegisterFedExUserButton</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SubscribeFedExAccountButton --></label>
+        <name>zkmulti__SubscribeFedExAccountButton</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Update_License --></label>
+        <name>zkmulti__Update_License</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Version_Capture --></label>
+        <name>zkmulti__Version_Capture</name>
+    </webLinks>
+</CustomObjectTranslation>

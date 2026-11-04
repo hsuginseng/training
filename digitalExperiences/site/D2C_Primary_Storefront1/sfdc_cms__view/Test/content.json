@@ -1,0 +1,220 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Test",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"08865e43-cf3c-4a12-908b-8ec94bf90c6a\",\"columns\":[{\"UUID\":\"5c8eff8e-1be8-4dcd-91fa-c25c99bc21bb\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"54fd8dcb-2641-4c99-8363-3f9e9475b084\",\"columnName\":\"Column 2\",\"columnKey\":\"4f6b8\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "dxpStyle" : { },
+                "layoutDirectionDesktop" : "column",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"fcad6166-0265-4a7c-b05c-f9c773234b84\",\"columns\":[{\"UUID\":\"74ff33de-2cb4-4fe0-888c-ec7bbe8840fa\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"89c3667f-b804-471f-a66f-e5da4b6d125b\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"8\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "id" : "74ff33de-2cb4-4fe0-888c-ec7bbe8840fa",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "dxpStyle" : { },
+                    "layoutDirectionDesktop" : "column",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"1930b481-bbaf-4fde-95bf-0296ea7e0783\",\"columns\":[{\"UUID\":\"8c65e13a-08ca-4831-a894-47768060d026\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"44304cb3-924e-4473-998a-2d92932eb808\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"b6fca700-aeb7-4ec8-a6bc-7d93b021ab5b\",\"columnName\":\"Column 3\",\"columnKey\":\"10134\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"e0188aca-1d34-4de8-bb9f-5e84fc928065\",\"columnName\":\"Column 4\",\"columnKey\":\"b6b2c\",\"columnWidth\":\"3\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "columnGutterWidth" : "",
+                        "columnMinHeight" : "",
+                        "columnVerticalAlign" : "flex-start",
+                        "dxpStyle" : { },
+                        "layoutDirectionDesktop" : "row",
+                        "layoutDirectionMobile" : "column",
+                        "layoutDirectionTablet" : "column",
+                        "sectionConfig" : "{\"UUID\":\"27ba24a0-8668-44d6-bd80-ebb2da4ffdf2\",\"columns\":[{\"UUID\":\"48aeb99d-7921-4d48-9566-9a335c67fc52\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"d2ae525c-4531-4485-8a5d-722d4cb7abd3\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"d42ad264-1fa0-4c31-8135-7109ac5db47f\",\"columnName\":\"Column 3\",\"columnKey\":\"2a261\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"d2d51e2c-6d7d-495d-af9a-38396a6bbdf6\",\"columnName\":\"Column 4\",\"columnKey\":\"29543\",\"columnWidth\":\"3\",\"seedComponents\":[]}]}"
+                      },
+                      "children" : [ {
+                        "id" : "48aeb99d-7921-4d48-9566-9a335c67fc52",
+                        "name" : "col1",
+                        "title" : "Column 1",
+                        "type" : "region"
+                      }, {
+                        "id" : "d2ae525c-4531-4485-8a5d-722d4cb7abd3",
+                        "name" : "col2",
+                        "title" : "Column 2",
+                        "type" : "region"
+                      }, {
+                        "id" : "d42ad264-1fa0-4c31-8135-7109ac5db47f",
+                        "name" : "2a261",
+                        "title" : "Column 3",
+                        "type" : "region"
+                      }, {
+                        "children" : [ {
+                          "attributes" : {
+                            "alignment" : "center",
+                            "dxpStyle" : { },
+                            "size" : "standard",
+                            "stretch" : "standard",
+                            "text" : "Button",
+                            "type" : "primary"
+                          },
+                          "definition" : "dxp_base:button",
+                          "id" : "c59f1730-98e0-4f39-ac08-bf8842521a16",
+                          "type" : "component"
+                        } ],
+                        "id" : "d2d51e2c-6d7d-495d-af9a-38396a6bbdf6",
+                        "name" : "29543",
+                        "title" : "Column 4",
+                        "type" : "region"
+                      } ],
+                      "definition" : "dxp_layout:columns",
+                      "id" : "27ba24a0-8668-44d6-bd80-ebb2da4ffdf2",
+                      "type" : "component"
+                    } ],
+                    "id" : "8c65e13a-08ca-4831-a894-47768060d026",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "columnGutterWidth" : "",
+                        "columnMinHeight" : "",
+                        "columnVerticalAlign" : "flex-start",
+                        "dxpStyle" : { },
+                        "layoutDirectionDesktop" : "row",
+                        "layoutDirectionMobile" : "column",
+                        "layoutDirectionTablet" : "column",
+                        "sectionConfig" : "{\"UUID\":\"9e16698a-3e4c-4411-be9a-5558a52c6fef\",\"columns\":[{\"UUID\":\"202d274d-9aa1-48ee-8172-c9313dd9b366\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"2\",\"seedComponents\":[]},{\"UUID\":\"66d9eb5b-17ca-47ec-bca9-c18ece6cf08c\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"2\",\"seedComponents\":[]},{\"UUID\":\"fb5cb683-0f68-48fd-a4ef-f7167d9e8204\",\"columnName\":\"Column 3\",\"columnKey\":\"7e0d9\",\"columnWidth\":\"2\",\"seedComponents\":[]},{\"UUID\":\"debe2b6e-31a6-4fc2-9632-5307c31d854f\",\"columnName\":\"Column 4\",\"columnKey\":\"da79c\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"97e8ecd6-26d5-4dd4-8d01-4ede2d3b293b\",\"columnName\":\"Column 5\",\"columnKey\":\"12da0\",\"columnWidth\":\"3\",\"seedComponents\":[]}]}"
+                      },
+                      "children" : [ {
+                        "id" : "202d274d-9aa1-48ee-8172-c9313dd9b366",
+                        "name" : "col1",
+                        "title" : "Column 1",
+                        "type" : "region"
+                      }, {
+                        "id" : "66d9eb5b-17ca-47ec-bca9-c18ece6cf08c",
+                        "name" : "col2",
+                        "title" : "Column 2",
+                        "type" : "region"
+                      }, {
+                        "id" : "fb5cb683-0f68-48fd-a4ef-f7167d9e8204",
+                        "name" : "7e0d9",
+                        "title" : "Column 3",
+                        "type" : "region"
+                      }, {
+                        "id" : "debe2b6e-31a6-4fc2-9632-5307c31d854f",
+                        "name" : "da79c",
+                        "title" : "Column 4",
+                        "type" : "region"
+                      }, {
+                        "id" : "97e8ecd6-26d5-4dd4-8d01-4ede2d3b293b",
+                        "name" : "12da0",
+                        "title" : "Column 5",
+                        "type" : "region"
+                      } ],
+                      "definition" : "dxp_layout:columns",
+                      "id" : "9e16698a-3e4c-4411-be9a-5558a52c6fef",
+                      "type" : "component"
+                    } ],
+                    "id" : "44304cb3-924e-4473-998a-2d92932eb808",
+                    "name" : "col2",
+                    "title" : "Column 2",
+                    "type" : "region"
+                  }, {
+                    "id" : "b6fca700-aeb7-4ec8-a6bc-7d93b021ab5b",
+                    "name" : "10134",
+                    "title" : "Column 3",
+                    "type" : "region"
+                  }, {
+                    "id" : "e0188aca-1d34-4de8-bb9f-5e84fc928065",
+                    "name" : "b6b2c",
+                    "title" : "Column 4",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "1930b481-bbaf-4fde-95bf-0296ea7e0783",
+                  "type" : "component"
+                } ],
+                "id" : "89c3667f-b804-471f-a66f-e5da4b6d125b",
+                "name" : "col2",
+                "title" : "Column 2",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "fcad6166-0265-4a7c-b05c-f9c773234b84",
+              "type" : "component"
+            } ],
+            "id" : "5c8eff8e-1be8-4dcd-91fa-c25c99bc21bb",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "id" : "54fd8dcb-2641-4c99-8363-3f9e9475b084",
+            "name" : "4f6b8",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "08865e43-cf3c-4a12-908b-8ec94bf90c6a",
+          "type" : "component"
+        } ],
+        "id" : "7604773a-9134-4af3-846b-4dec9064e9b2",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "Test",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "d9383143-4993-4b5a-b4f0-9bc6a18f3bce",
+          "type" : "component"
+        } ],
+        "id" : "ee37520b-ed7c-442b-8547-d80a6cc03c82",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "1bb74a95-7d66-4ae3-b256-0670c55c5f1b",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-test"
+  },
+  "urlName" : "test"
+}

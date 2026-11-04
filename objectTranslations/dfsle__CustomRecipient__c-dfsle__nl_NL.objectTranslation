@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>DocuSign aangepaste ontvanger</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>DocuSign aangepaste ontvangers</value>
+    </caseValues>
+    <fields>
+        <help><!-- Access Code --></help>
+        <label>Toegangscode</label>
+        <name>dfsle__AccessCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Message --></label>
+        <name>dfsle__EmailMessage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Subject --></label>
+        <name>dfsle__EmailSubject__c</name>
+    </fields>
+    <fields>
+        <label>E-mail</label>
+        <name>dfsle__Email__c</name>
+    </fields>
+    <fields>
+        <label>Envelopconfiguratie</label>
+        <name>dfsle__EnvelopeConfiguration__c</name>
+        <relationshipLabel><!-- Custom Recipients --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Voornaam</label>
+        <name>dfsle__FirstName__c</name>
+    </fields>
+    <fields>
+        <label>E-mail van host</label>
+        <name>dfsle__HostEmail__c</name>
+    </fields>
+    <fields>
+        <label>Naam van host</label>
+        <name>dfsle__HostName__c</name>
+    </fields>
+    <fields>
+        <label>Taal</label>
+        <name>dfsle__Language__c</name>
+    </fields>
+    <fields>
+        <label>Achternaam</label>
+        <name>dfsle__LastName__c</name>
+    </fields>
+    <fields>
+        <label>Persoonlijk bericht</label>
+        <name>dfsle__Note__c</name>
+    </fields>
+    <fields>
+        <label>Relatie contactpersoon</label>
+        <name>dfsle__Relationship__c</name>
+    </fields>
+    <fields>
+        <help><!-- Role --></help>
+        <label>Rol</label>
+        <name>dfsle__Role__c</name>
+    </fields>
+    <fields>
+        <help><!-- Routing Order --></help>
+        <label>Routeringsstructuur</label>
+        <name>dfsle__RoutingOrder__c</name>
+    </fields>
+    <fields>
+        <label>Nu ondertekenen</label>
+        <name>dfsle__SignNow__c</name>
+    </fields>
+    <fields>
+        <help><!-- Signing Group ID --></help>
+        <label>Ondertekengroep ID</label>
+        <name>dfsle__SigningGroupId__c</name>
+    </fields>
+    <fields>
+        <label>Naam van de ondertekengroep</label>
+        <name>dfsle__SigningGroupName__c</name>
+    </fields>
+    <fields>
+        <label>SMS Telefoonnummer</label>
+        <name>dfsle__SmsPhoneNumber__c</name>
+    </fields>
+    <fields>
+        <help><!-- Type --></help>
+        <label>Type</label>
+        <name>dfsle__Type__c</name>
+        <picklistValues>
+            <masterLabel>Allow to Edit</masterLabel>
+            <translation><!-- Allow to Edit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Person Signer</masterLabel>
+            <translation><!-- In Person Signer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Needs to Sign</masterLabel>
+            <translation><!-- Needs to Sign --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Needs to View</masterLabel>
+            <translation><!-- Needs to View --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Receives a Copy</masterLabel>
+            <translation><!-- Receives a Copy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Specify Recipients</masterLabel>
+            <translation><!-- Specify Recipients --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Update Recipients</masterLabel>
+            <translation><!-- Update Recipients --></translation>
+        </picklistValues>
+    </fields>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Name</nameFieldLabel>
+</CustomObjectTranslation>

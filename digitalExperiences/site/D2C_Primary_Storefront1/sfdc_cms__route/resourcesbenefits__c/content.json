@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Resources-Benefits",
+  "contentBody" : {
+    "activeViewId" : "Resources_Benefits",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-resources-benefits",
+    "urlPrefix" : "resources-benefits"
+  },
+  "urlName" : "resources-benefits"
+}

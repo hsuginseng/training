@@ -1,0 +1,21 @@
+<template>
+
+    <lightning-file-upload
+        label={label}
+        name="fileUploader"
+        onuploadfinished={handleUploadFinished}
+        multiple>
+    </lightning-file-upload>
+
+    <template if:true={uploadedFileNames.length}>
+        <div class="slds-m-top_medium">
+            <p><strong>Uploaded Files:</strong></p>
+            <ul>
+                <template for:each={uploadedFileNames} for:item="fileName">
+                    <li key={fileName}>{fileName}</li>
+                </template>
+            </ul>
+        </div>
+    </template>
+
+</template>

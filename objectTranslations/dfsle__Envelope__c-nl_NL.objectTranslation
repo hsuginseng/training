@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Docusign-envelop</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Docusign-enveloppen</value>
+    </caseValues>
+    <fields>
+        <label><!-- Custom Fields --></label>
+        <name>dfsle__CustomFields__c</name>
+    </fields>
+    <fields>
+        <label><!-- DFS Template ID --></label>
+        <name>dfsle__DFSTemplateId__c</name>
+    </fields>
+    <fields>
+        <label><!-- DocuSign Envelope ID --></label>
+        <name>dfsle__DocuSignId__c</name>
+    </fields>
+    <fields>
+        <help>Bewerk de tekst voor dit e-mailbericht (maximaal 10.000 tekens). Het bericht wordt weergegeven in de ondertekeningsmelding
+			voor uw DocuSign-ontvanger.
+		</help>
+        <label><!-- Email message --></label>
+        <name>dfsle__EmailMessage__c</name>
+    </fields>
+    <fields>
+        <help>Wijzig deze standaardtekst voor het e-mailonderwerp. De tekst wordt weergegeven als onderwerpregel in de melding voor ondertekening voor uw DocuSign-ontvangers.
+		</help>
+        <label><!-- Email subject --></label>
+        <name>dfsle__EmailSubject__c</name>
+    </fields>
+    <fields>
+        <help>De configuratie die is gebruikt om deze envelop te genereren.</help>
+        <label><!-- Envelope Configuration --></label>
+        <name>dfsle__EnvelopeConfiguration__c</name>
+        <relationshipLabel><!-- Envelope Configuration --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Geef het aantal dagen voordat deze transactie is verlopen op.</help>
+        <label><!-- Expire/void envelope in N day(s) --></label>
+        <name>dfsle__ExpireAfterDays__c</name>
+    </fields>
+    <fields>
+        <help>Geef aan wanneer u een e-mailbericht wilt om ontvangers te waarschuwen dat de deadline voor voltooiing nadert.
+			Dit bericht wordt alleen verzonden naar ontvangers die de transactie nog niet hebben voltooid.
+		</help>
+        <label><!-- Warn of expiration in N day(s) prior --></label>
+        <name>dfsle__ExpireWarnDays__c</name>
+    </fields>
+    <fields>
+        <help>Soms kan het nodig zijn om uw ontvangers aan te sporen een envelop sneller te voltooien. Nadat een envelop verloopt, maakt DocuSign de envelop ongeldig en stuurt vervolgens een melding naar de afzender en de ontvanger.</help>
+        <label><!-- Expire envelope --></label>
+        <name>dfsle__Expires__c</name>
+    </fields>
+    <fields>
+        <label><!-- Options --></label>
+        <name>dfsle__Options__c</name>
+    </fields>
+    <fields>
+        <help>Geef aan hoeveel dagen moeten verstrijken voordat de eerste herinnering wordt verzonden</help>
+        <label><!-- Send reminder in N day(s) --></label>
+        <name>dfsle__RemindAfterDays__c</name>
+    </fields>
+    <fields>
+        <help>Geef aan hoe vaak (in dagen) de herinnering moet worden herhaald tot de transactie is voltooid.</help>
+        <label><!-- Remind every N day(s) until complete --></label>
+        <name>dfsle__RemindFrequencyDays__c</name>
+    </fields>
+    <fields>
+        <help>Schakel dit selectievakje in om een e-mailherinnering te verzenden naar ontvangers van de envelop die de taak nog niet
+			hebben voltooid.
+		</help>
+        <label><!-- Remind signers via email --></label>
+        <name>dfsle__Remind__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender Permissions --></label>
+        <name>dfsle__SenderPermissions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender --></label>
+        <name>dfsle__Sender__c</name>
+        <relationshipLabel><!-- Docusign Envelopes --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Datum en tijd verzonden</help>
+        <label><!-- Sent --></label>
+        <name>dfsle__Sent__c</name>
+    </fields>
+    <fields>
+        <help>Salesforce bron-ID</help>
+        <label><!-- Salesforce source ID --></label>
+        <name>dfsle__SourceId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transaction ID --></label>
+        <name>dfsle__TransactionId__c</name>
+    </fields>
+    <fields>
+        <help>Schakel deze optie in om Chatter weer te geven tijdens de workflow DocuSign-ondertekening.</help>
+        <label><!-- Enable Chatter status updates --></label>
+        <name>dfsle__UpdateChatter__c</name>
+    </fields>
+    <gender>Neuter</gender>
+    <layouts>
+        <layout>DocuSign Envelope Layout</layout>
+        <sections>
+            <label>Aangepaste koppelingen</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>DocuSign Envelope</nameFieldLabel>
+</CustomObjectTranslation>

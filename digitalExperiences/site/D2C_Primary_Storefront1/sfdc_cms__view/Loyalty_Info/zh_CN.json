@@ -1,0 +1,20 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Loyalty Info",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "attributes" : {
+          "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCQ4ESWDY3BZFGTKTU4XGJQJ4WKQ?lastModifiedDate=Thu Oct 01 20:20:12 GMT 2026\",\"altText\":\"\",\"contentKey\":\"MCQ4ESWDY3BZFGTKTU4XGJQJ4WKQ\",\"contentType\":null}}"
+        },
+        "id" : "ed9358ac-a12e-40fa-9a50-4c59a775166e"
+      }, {
+        "id" : "b4c15314-e1af-440e-8077-b71b169f611a",
+        "attributes" : {
+          "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCTGWPS4QSRNAWFDDINYK3ZD2M5U?lastModifiedDate=Thu Oct 01 20:20:49 GMT 2026\",\"altText\":\"\",\"contentKey\":\"MCTGWPS4QSRNAWFDDINYK3ZD2M5U\",\"contentType\":null}}"
+        }
+      } ]
+    }
+  },
+  "urlName" : "loyalty-info"
+}

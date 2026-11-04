@@ -1,0 +1,18 @@
+<template>
+	<div class="image-container">
+		<img src={displayedImage} alt="thumbnail 1" />
+	</div>
+	<div class="thumbnail-carousel">
+		<ul>
+			<template for:each={images} for:item="image" for:index="index">
+				<li key={image.id}>
+					<button class="slds-button thumbnail-carousel-image" role="tab" tabindex={index} data-index={image.id} data-url={image.url}
+						aria-selected={image.selected} onclick={handleImageClick} onmouseenter={handleImageMouseEnter} onmouseleave={handleImageMouseLeave}>
+
+						<img src={image.url}> alt="thumbnail 1" />
+					</button>
+				</li>
+			</template>
+		</ul>
+	</div>
+</template>

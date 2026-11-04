@@ -1,0 +1,21 @@
+<template>
+	<div class="grid">
+		<template for:each={products} for:item="product">
+			<c-category-card
+				key={product.id}
+				image-url={product.imageUrl}
+				image-alt={product.imageAlt}
+				label={product.label}
+				title={product.title}
+				desc={product.desc}
+				price={product.price}
+				sale-price={product.salePrice}
+				cta-text={product.ctaText}
+				cta-url={product.ctaUrl}
+				allow-add-to-cart={product.allowAddToCart}
+				is-out-of-stock={product.isOutOfStock}
+				has-inventory-data={product.hasInventoryData}
+			></c-category-card>
+		</template>
+	</div>
+</template>

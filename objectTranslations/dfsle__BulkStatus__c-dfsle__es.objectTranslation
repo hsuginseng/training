@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Estado de envío masivo de Docusign</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Estado de envío masivo de Docusign</value>
+    </caseValues>
+    <fields>
+        <label>Tamaño de lote</label>
+        <name>dfsle__BatchSize__c</name>
+    </fields>
+    <fields>
+        <label>ID de lote de DocuSign</label>
+        <name>dfsle__DocuSignId__c</name>
+    </fields>
+    <fields>
+        <label>Sobres con errores</label>
+        <name>dfsle__FailedEnvelopes__c</name>
+    </fields>
+    <fields>
+        <label>Última actualización del estado</label>
+        <name>dfsle__LastStatusUpdate__c</name>
+    </fields>
+    <fields>
+        <label>Sobres en cola</label>
+        <name>dfsle__QueuedEnvelopes__c</name>
+    </fields>
+    <fields>
+        <label>Sobres enviados</label>
+        <name>dfsle__SentEnvelopes__c</name>
+    </fields>
+    <fields>
+        <label>ID de fuente de Salesforce</label>
+        <name>dfsle__SourceId__c</name>
+    </fields>
+    <fields>
+        <label>Enviado</label>
+        <name>dfsle__Submitted__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Envelope#</nameFieldLabel>
+</CustomObjectTranslation>

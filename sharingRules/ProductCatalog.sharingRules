@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingGuestRules>
+        <fullName>Guest_User_Sharing_D2C_for_Catalog</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Allows guest users of the D2C site to checkout and see shipping options.</description>
+        <label>Guest User Sharing D2C for Catalog</label>
+        <sharedTo>
+            <guestUser>D2C_Primary_Storefront</guestUser>
+        </sharedTo>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>equals</operation>
+            <value>D2C English Catalog</value>
+        </criteriaItems>
+        <includeHVUOwnedRecords>false</includeHVUOwnedRecords>
+    </sharingGuestRules>
+</SharingRules>

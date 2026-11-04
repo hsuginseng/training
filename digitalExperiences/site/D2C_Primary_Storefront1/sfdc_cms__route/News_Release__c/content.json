@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "News-Release",
+  "contentBody" : {
+    "activeViewId" : "News_Release",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-news-release",
+    "urlPrefix" : "news-release"
+  },
+  "urlName" : "news-release"
+}

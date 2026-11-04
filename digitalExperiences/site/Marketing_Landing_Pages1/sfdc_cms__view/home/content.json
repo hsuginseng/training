@@ -1,0 +1,70 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Home",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"daddc9b7-32ef-46b7-acb8-61272a61d329\",\"columns\":[{\"UUID\":\"a659ec49-f25e-4dbc-ab3c-0f07799a0b9e\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "imageInfos" : "",
+                "richTextValue" : "<p style=\"text-align: center;\">This is the home page for your Marketing Landing Pages site. It’s intended only for internal use.</p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "435d5f6f-e091-4009-a7c8-ceff35e24054",
+              "type" : "component"
+            } ],
+            "id" : "a659ec49-f25e-4dbc-ab3c-0f07799a0b9e",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "daddc9b7-32ef-46b7-acb8-61272a61d329",
+          "type" : "component"
+        } ],
+        "id" : "96eeadf6-f918-4b6c-9296-dd7782e8e104",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Home",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "a67fe604-f043-4f09-9023-2ab061022560",
+          "type" : "component"
+        } ],
+        "id" : "0c8ae222-b426-4425-aec7-78feecc812f1",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "9607504f-5ef8-43a4-b9e8-91361e79bb5b",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "home"
+  },
+  "urlName" : "home"
+}

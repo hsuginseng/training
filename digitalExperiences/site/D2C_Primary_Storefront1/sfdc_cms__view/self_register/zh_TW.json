@@ -1,0 +1,26 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Register",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "attributes" : {
+          "firstNameLabel" : "名",
+          "lastNameLabel" : "姓",
+          "emailLabel" : "電子郵件",
+          "phoneLabel" : "電話號碼",
+          "preferredLanguageLabel" : "首選語言",
+          "createPasswordLabel" : "建立密碼",
+          "confirmPasswordLabel" : "確認密碼",
+          "signUpLabel" : "註冊",
+          "alreadyHaveAccountLabel" : "已有帳戶？",
+          "phoneCountryCodeLabel" : "電話國家代碼",
+          "birthdayLabel" : "生日",
+          "referralCodeLabel" : "邀請碼"
+        },
+        "id" : "ceebea45-5444-4cf8-94c8-39f918743e85"
+      } ]
+    }
+  },
+  "urlName" : "register"
+}

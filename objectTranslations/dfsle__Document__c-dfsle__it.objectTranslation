@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Documento busta Docusign</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Documenti busta Docusign</value>
+    </caseValues>
+    <fields>
+        <help><!-- Envelope --></help>
+        <label>Busta DocuSign</label>
+        <name>dfsle__Envelope__c</name>
+        <relationshipLabel>Documenti busta DocuSign</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Estensione</label>
+        <name>dfsle__Extension__c</name>
+    </fields>
+    <fields>
+        <label><!-- Full Name --></label>
+        <name>dfsle__FullName__c</name>
+    </fields>
+    <fields>
+        <label>È sostituzione</label>
+        <name>dfsle__IsReplacement__c</name>
+    </fields>
+    <fields>
+        <help><!-- Source Last Modified --></help>
+        <label>Ultima modifica dell&apos;origine</label>
+        <name>dfsle__LastModified__c</name>
+    </fields>
+    <fields>
+        <label>Opzioni</label>
+        <name>dfsle__Options__c</name>
+    </fields>
+    <fields>
+        <label>Sola lettura</label>
+        <name>dfsle__ReadOnly__c</name>
+    </fields>
+    <fields>
+        <help><!-- Replacement document --></help>
+        <label>Documento di sostituzione</label>
+        <name>dfsle__Replacement__c</name>
+        <relationshipLabel>Documento di sostituzione</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Campo obbligatorio</label>
+        <name>dfsle__Required__c</name>
+    </fields>
+    <fields>
+        <label>Sequenza</label>
+        <name>dfsle__Sequence__c</name>
+    </fields>
+    <fields>
+        <help><!-- Document Size --></help>
+        <label>Dimensione</label>
+        <name>dfsle__Size__c</name>
+    </fields>
+    <fields>
+        <label>ID origine</label>
+        <name>dfsle__SourceId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Document Type --></help>
+        <label>Tipo</label>
+        <name>dfsle__Type__c</name>
+        <picklistValues>
+            <masterLabel>Document</masterLabel>
+            <translation><!-- Document --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>File</masterLabel>
+            <translation><!-- File --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Template</masterLabel>
+            <translation><!-- Template --></translation>
+        </picklistValues>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Name</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

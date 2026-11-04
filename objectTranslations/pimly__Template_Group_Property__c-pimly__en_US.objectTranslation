@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Template Group Property</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Template Group Properties</value>
+    </caseValues>
+    <fields>
+        <label><!-- Inheritance Group --></label>
+        <name>pimly__Inheritance_Group__c</name>
+        <relationshipLabel><!-- Template Group Properties --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Order --></label>
+        <name>pimly__Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- Template Property --></label>
+        <name>pimly__Template_Property__c</name>
+        <relationshipLabel><!-- Template Group Properties --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Unique Id --></label>
+        <name>pimly__Unique_Id__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

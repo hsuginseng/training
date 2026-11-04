@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>外部CI ジョブ結果</value>
+    </caseValues>
+    <fieldSets>
+        <label>関連リストフィールド</label>
+        <name>copado__relatedListFields</name>
+    </fieldSets>
+    <fields>
+        <label>説明</label>
+        <name>copado__Description__c</name>
+    </fields>
+    <fields>
+        <label>期間（秒単位）</label>
+        <name>copado__Duration__c</name>
+    </fields>
+    <fields>
+        <label>終了時間</label>
+        <name>copado__End_Time__c</name>
+    </fields>
+    <fields>
+        <label>環境</label>
+        <name>copado__Environment__c</name>
+        <relationshipLabel>外部CIジョブの結果</relationshipLabel>
+    </fields>
+    <fields>
+        <label>外部CIジョブID</label>
+        <name>copado__External_CI_Job_ID__c</name>
+    </fields>
+    <fields>
+        <label>外部CIジョブ</label>
+        <name>copado__External_CI_Job__c</name>
+        <relationshipLabel>外部CIジョブの結果</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ジョブURLリンク</label>
+        <name>copado__Job_URL_Link__c</name>
+    </fields>
+    <fields>
+        <label>ジョブURL</label>
+        <name>copado__Job_URL__c</name>
+    </fields>
+    <fields>
+        <label>開始時間</label>
+        <name>copado__Start_Time__c</name>
+    </fields>
+    <fields>
+        <label>ステータス</label>
+        <name>copado__Status__c</name>
+        <picklistValues>
+            <masterLabel>Failed</masterLabel>
+            <translation><!-- Failed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In progress</masterLabel>
+            <translation><!-- In progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Success</masterLabel>
+            <translation><!-- Success --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Timed out</masterLabel>
+            <translation><!-- Timed out --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>ユーザーストーリー</label>
+        <name>copado__User_Story__c</name>
+        <relationshipLabel>外部CIジョブの結果</relationshipLabel>
+    </fields>
+    <nameFieldLabel>外部 CI ジョブ結果名</nameFieldLabel>
+</CustomObjectTranslation>

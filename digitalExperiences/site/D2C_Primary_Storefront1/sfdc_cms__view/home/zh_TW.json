@@ -1,0 +1,66 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Home",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "attributes" : {
+          "content" : "[\n{\n\"id\":\"1\",\n\"imageUrl\":\"/sfsites/c/cms/delivery/media/MCYKUQCPZJ65DYNFPMG5Z4ZUXTEY\",\n\"imageAlt\":\"image alt\",\n\"title\":\"美國花旗參 vs 亞洲花旗參\",\n\"desc\":\"探索美國花旗參與亞洲人參之間的關鍵差異，了解各自獨特的養生功效。\",\n\"ctaText\":\"了解更多\",\n\"ctaUrl\":\"/about-ginseng\"\n},\n{\n\"id\":\"2\",\n\"imageUrl\":\"/sfsites/c/cms/delivery/media/MCRUTAUUKMZ5F7XM46DX5FEDX4GE\",\n\"title\":\"威斯康辛州得天獨厚的氣候\",\n\"desc\":\"深入了解威斯康辛州的自然氣候，如何孕育出世界頂級的花旗參。\",\n\"imageAlt\":\"image alt\",\n\"ctaText\":\"了解更多\",\n\"ctaUrl\":\"/about-ginseng\"\n},\n{\n\"id\":\"3\",\n\"imageUrl\":\"/sfsites/c/cms/delivery/media/MCOK224FCCENGOTKDSOLX6DXPFHU\",\n\"title\":\"乾參、新鮮參大不同 \",\n\"desc\":\"細細品味乾參與鮮參各自的特色，以及它們在料理中的多元運用。\",\n\"imageAlt\":\"image alt\",\n\"ctaText\":\"了解更多\",\n\"ctaUrl\":\"/about-ginseng\"\n},\n{\n\"id\":\"4\",\n\"imageUrl\":\"/sfsites/c/cms/delivery/media/MCEOBDYMB7PFELPKKD4KBADVAR6E\",\n\"imageAlt\":\"image alt\",\n\"title\":\"攜帶花旗參旅行小貼\",\n\"desc\":\"出門在外，學會安全打包與攜帶花旗參的實用技巧，讓健康隨行。\",\n\"ctaText\":\"了解更多\",\n\"ctaUrl\":\"/about-ginseng\"\n}\n]",
+          "title" : "花旗參大小事，帶你輕鬆上手！"
+        },
+        "id" : "cdd640e9-2a8a-4d31-b771-23f5b2530f69"
+      }, {
+        "id" : "f5587633-26c6-4b8a-b455-d7c267797ea4",
+        "attributes" : {
+          "content" : "[\n{\n\"id\":\"1\",\n\"title\":\"萬聖節深秋好禮 · Treat 不 Trick！\",\n\"desc\":\"滿 $138，送高麗白參丸,活動期：10/14/2026–10/28/2026 *送完爲止 \",\n\"ctaText\":\"立即购买\",\n\"ctaUrl\":\"/category/shop/ginseng/american-ginseng/0ZGV5000000096dOAA\",\n\"imageUrl\":\"/sfsites/c/cms/delivery/media/MCKNTKUCGTVRAA3FSSJSRK42P2XA?channelId=0apV50000000Cqn\",\n\"imageAlt\":\"image 1 alt text\"\n},\n{\n\"id\":\"2\",\n\"title\":\"许氏全球购\",\n\"desc\":\"爆款花旗参特价+全馆满$150享25% OFF, 需使用折扣码HSUD11, 滿$200加送20包花旗參速溶粉10條裝一盒,活动至11/11/2026\",\n\"ctaText\":\"立即购买\",\n\"ctaUrl\":\"https://hsuschinaoversea.com/\",\n\"imageUrl\":\"/sfsites/c/cms/delivery/media/MCX6TMDW2GJRG5HDNBI3ZBI5LW5A?channelId=0apV50000000Cqn\",\n\"imageAlt\":\"image 2 alt text\"\n},\n{\n\"id\":\"3\",\n\"title\":\"新鮮花旗參\",\n\"desc\":\"\",\n\"ctaText\":\"立即购买\",\n\"ctaUrl\":\"/category/shop/Ginseng/Fresh/0ZGV5000000096bOAA\",\n\"imageUrl\":\"/sfsites/c/cms/delivery/media/MCD5KTNATQ35CKNGZEBOJY23KVME?channelId=0apV50000000Cqn\",\n\"imageAlt\":\"image 3 alt text\"\n}\n]"
+        }
+      }, {
+        "id" : "27a3c44c-b6de-49ae-b107-fa5a300f6d1b",
+        "attributes" : {
+          "ctaText" : "探索我們的故事"
+        }
+      }, {
+        "id" : "c1716490-fe7c-4964-afc9-f7a0c35a0aad",
+        "attributes" : {
+          "ctaText" : "關於我們",
+          "title" : "從農場到餐桌",
+          "desc" : "坐落於馬拉松縣中心，我們堅持自家管理每一道流程，從精心栽培到用心配送，只為呈現最優質的花旗參。"
+        }
+      }, {
+        "id" : "2fd18318-9313-41ae-b052-c71acb268eaf",
+        "attributes" : {
+          "content" : "[\n{\n\"id\":\"1\",\n\"imageUrl\":\"/sfsites/c/cms/delivery/media/MCMGFUKQJLJBAZXH26NUC5JJ4DZE\",\n\"imageAlt\":\"image alt\",\n\"ctaText\":\"選購花旗參\",\n\"ctaUrl\":\"/category/shop/ginseng/american-ginseng/0ZGV5000000096dOAA\"\n},\n{\n\"id\":\"2\",\n\"imageUrl\":\"/sfsites/c/cms/delivery/media/MCX22XL5SDLRG6LJTESFSG4IOMBI\",\n\"imageAlt\":\"image alt\",\n\"ctaText\":\"選購燕窩\",\n\"ctaUrl\":\"/category/shop/birds-nest/0ZGV5000000094vOAA\"\n},\n{\n\"id\":\"3\",\n\"imageUrl\":\"/sfsites/c/cms/delivery/media/MCDKZRNHBML5DVLL4JG7YEU726SI\",\n\"imageAlt\":\"image alt\",\n\"ctaText\":\"選購靈芝產品\",\n\"ctaUrl\":\"/category/shop/supplements/reishi/0ZGV50000000975OAA\"\n},\n{\n\"id\":\"4\",\n\"imageUrl\":\"/sfsites/c/cms/delivery/media/MCZSG5JT5OEVEFXCTRDNEIUB22NI\",\n\"imageAlt\":\"image alt\",\n\"ctaText\":\"選購海味\",\n\"ctaUrl\":\"/category/shop/seafood/0ZGV50000000950OAA\"\n}\n]",
+          "title" : "探索健康之路"
+        }
+      }, {
+        "id" : "831c72fc-f02c-425f-9c16-79c40fab4ca1",
+        "attributes" : {
+          "title" : "導覽許氏人參",
+          "ctaText" : "預約導覽"
+        }
+      }, {
+        "id" : "37b518d3-78ff-42e8-863d-ac43f85eed24",
+        "attributes" : {
+          "content" : "[\n  {\n    \"id\": \"1\",\n    \"imageUrl\": \"/sfsites/c/cms/delivery/media/MCMGFUKQJLJBAZXH26NUC5JJ4DZE\",\n    \"imageAlt\": \"image alt\",\n    \"ctaText\": \"選購花旗參\",\n    \"ctaUrl\": \"/category/shop/ginseng/american-ginseng/0ZGV5000000096dOAA\"\n  },\n  {\n    \"id\": \"2\",\n    \"imageUrl\": \"/sfsites/c/cms/delivery/media/MCX22XL5SDLRG6LJTESFSG4IOMBI\",\n    \"imageAlt\": \"image alt\",\n    \"ctaText\": \"選購燕窩\",\n    \"ctaUrl\": \"/category/shop/birds-nest/0ZGV5000000094vOAA\"\n  },\n  {\n    \"id\": \"3\",\n    \"imageUrl\": \"/sfsites/c/cms/delivery/media/MCDKZRNHBML5DVLL4JG7YEU726SI\",\n    \"imageAlt\": \"image alt\",\n    \"ctaText\": \"選購靈芝產品\",\n    \"ctaUrl\": \"/category/shop/supplements/reishi/0ZGV50000000975OAA\"\n  }\n]",
+          "title" : "精選分類瀏覽"
+        }
+      }, {
+        "id" : "a6079263-e3ae-486a-aa43-7fe5e832cfbf",
+        "attributes" : {
+          "title" : "了解更多",
+          "content" : "[\n{\n\"id\":\"1\",\n\"toggle\":\"什麼是美國花旗參？ \",\n\"text\":\"美國花旗參（Panax quinquefolius L.）根據種植方式與環境的不同，外觀與品質各具特色。主要可分為三大類型：人工花旗參（人工栽培）、移種野參（又稱半野山參或移植參 ）與正野生參，各自展現出不同的風貌與價值。 \",\n\"ctaText\":\"了解更多\",\n\"ctaUrl\":\"/about-ginseng\"\n},\n{\n\"id\":\"2\",\n\"toggle\":\"人工花旗參（人工栽培） \",\n\"text\":\"通常種植於經過遮蔭設計的田地。農民以大規模方式栽培，確保品質穩定一致。人工栽培的花旗參通常體型較大，表面較為光滑，顏色也較淺。 \",\n\"ctaText\":\"了解更多\",\n\"ctaUrl\":\"/about-ginseng\"\n},\n{\n\"id\":\"3\",\n\"toggle\":\"移種野參（又稱半野山參或移植參 ）\",\n\"text\":\"於天然森林土壤中種植，人為干預極少。它的生長速度較慢，根部質地較粗糙、顏色偏深，外觀更接近野生花旗參，呈現出更自然的質樸感。 \",\n\"ctaText\":\"了解更多\",\n\"ctaUrl\":\"/about-ginseng\"\n},\n{\n\"id\":\"4\",\n\"toggle\":\"正野生參 \",\n\"text\":\"生長於原始未受擾動的森林之中，是最為珍稀且受推崇的類型。這些參根在自然遮蔭、崎嶇土壤中緩慢成長，體型通常較小，形態扭曲、色澤深沉，每一株都獨一無二。 \",\n\"ctaText\":\"了解更多\",\n\"ctaUrl\":\"/about-ginseng\"\n},\n{\n\"id\":\"5\",\n\"toggle\":\"主要差異\",\n\"text\":\"三者的最大差異在於生長環境與根部特徵。人工花旗參產量充足且外觀一致；林下栽培參則兼具自然與人工管理的特點；而野生花旗參，以其珍稀、原生、獨特的風貌，成為最受珍藏的品項。\",\n\"ctaText\":\"了解更多\",\n\"ctaUrl\":\"/about-ginseng\"\n}\n]"
+        }
+      }, {
+        "id" : "0d097d14-4ad5-4be3-afb9-2525a247e660",
+        "attributes" : {
+          "title" : "產品推薦",
+          "ctaTextAddToCart" : "加入購物車",
+          "ctaTextSeeDetails" : "看詳情",
+          "ctaTextOutOfStock" : "暫時缺貨",
+          "ctaTextNoMoreAvailable" : "已無庫存"
+        }
+      } ]
+    }
+  },
+  "urlName" : "home"
+}

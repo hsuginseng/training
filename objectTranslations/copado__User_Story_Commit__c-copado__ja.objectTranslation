@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ユーザーストーリーコミット</value>
+    </caseValues>
+    <fields>
+        <label>バックエンドバイパス</label>
+        <name>copado__Backend_Bypass__c</name>
+    </fields>
+    <fields>
+        <label>コミットメッセージ</label>
+        <name>copado__CommitMessage__c</name>
+    </fields>
+    <fields>
+        <label>外部ID</label>
+        <name>copado__External_Id__c</name>
+    </fields>
+    <fields>
+        <label>最終ジョブ実行ID</label>
+        <name>copado__LastJobExecutionId__c</name>
+    </fields>
+    <fields>
+        <label>スナップショットコミット</label>
+        <name>copado__Snapshot_Commit__c</name>
+        <relationshipLabel>ユーザーストーリーのコミット</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ステータス</label>
+        <name>copado__Status__c</name>
+    </fields>
+    <fields>
+        <label>ユーザーストーリー</label>
+        <name>copado__User_Story__c</name>
+        <relationshipLabel>ユーザーストーリーのコミット</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Gitで参照</label>
+        <name>copado__View_in_Git__c</name>
+    </fields>
+    <layouts>
+        <layout>User Story Commit Layout</layout>
+        <sections>
+            <label><!-- Commit Information --></label>
+            <section>Commit Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>ユーザーストーリーコミット</nameFieldLabel>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Copadoのヘルプを表示</label>
+        <name>copado__Get_Copado_Help</name>
+    </quickActions>
+</CustomObjectTranslation>

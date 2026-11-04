@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FieldSrcTrgtRelationship xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <definitionCreationType>Standard</definitionCreationType>
+    <lookupFieldName>HealthScoring__HealthActivityTiming__dlm.HealthScoring__rel_1697767000085_end__c</lookupFieldName>
+    <masterLabel>HealthActivityTiming_HealthActivityTimingUsageTypeId_map_HealthActivityTimingUsageType_Id_N_1</masterLabel>
+    <owner>DataCloud</owner>
+    <relationshipCardinality>ManyToOne</relationshipCardinality>
+    <sourceFieldName>HealthScoring__HealthActivityTiming__dlm.HealthScoring__HealthActivityTimingUsageTypeId__c</sourceFieldName>
+    <targetEntity xsi:nil="true"/>
+    <targetFieldName>HealthScoring__HealthActivityTimingUsageType__dlm.HealthScoring__Id__c</targetFieldName>
+</FieldSrcTrgtRelationship>

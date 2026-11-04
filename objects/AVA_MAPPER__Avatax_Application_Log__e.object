@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <eventType>HighVolume</eventType>
+    <fields>
+        <fullName>AVA_MAPPER__Class_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the invoked class inside the Avalara-managed package</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The name of the invoked class inside the Avalara-managed package</inlineHelpText>
+        <isFilteringDisabled>false</isFilteringDisabled>
+        <isNameField>false</isNameField>
+        <isSortingDisabled>false</isSortingDisabled>
+        <label>Class Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AVA_MAPPER__Line_Number__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The package source code line number being executed</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The package source code line number being executed</inlineHelpText>
+        <isFilteringDisabled>false</isFilteringDisabled>
+        <isNameField>false</isNameField>
+        <isSortingDisabled>false</isSortingDisabled>
+        <label>Line Number</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AVA_MAPPER__Log_Message__c</fullName>
+        <deprecated>false</deprecated>
+        <description>A brief summary message of the exception results and possible debug suggestions</description>
+        <inlineHelpText>A brief summary message of the exception results and possible debug suggestions</inlineHelpText>
+        <isFilteringDisabled>false</isFilteringDisabled>
+        <isNameField>false</isNameField>
+        <isSortingDisabled>false</isSortingDisabled>
+        <label>Log Message</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>AVA_MAPPER__Log_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicates the AvaTax services and exception type logged</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates the AvaTax services and exception type logged</inlineHelpText>
+        <isFilteringDisabled>false</isFilteringDisabled>
+        <isNameField>false</isNameField>
+        <isSortingDisabled>false</isSortingDisabled>
+        <label>Log Type</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AVA_MAPPER__Method_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The function or method is called during the action being executed</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The function or method is called during the action being executed</inlineHelpText>
+        <isFilteringDisabled>false</isFilteringDisabled>
+        <isNameField>false</isNameField>
+        <isSortingDisabled>false</isSortingDisabled>
+        <label>Method Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AVA_MAPPER__Record_ID__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The relevant instance of an object involved</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The relevant instance of an object involved</inlineHelpText>
+        <isFilteringDisabled>false</isFilteringDisabled>
+        <isNameField>false</isNameField>
+        <isSortingDisabled>false</isSortingDisabled>
+        <label>Record ID</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AVA_MAPPER__Request_Log__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The request transactional details for the tax call sent to AvaTax</description>
+        <inlineHelpText>The request transactional details for the tax call sent to AvaTax</inlineHelpText>
+        <isFilteringDisabled>false</isFilteringDisabled>
+        <isNameField>false</isNameField>
+        <isSortingDisabled>false</isSortingDisabled>
+        <label>Request Log</label>
+        <length>131072</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>AVA_MAPPER__Response_Log__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The tax call results sent back from AvaTax to Salesforce and the connector</description>
+        <inlineHelpText>The tax call results sent back from AvaTax to Salesforce and the connector</inlineHelpText>
+        <isFilteringDisabled>false</isFilteringDisabled>
+        <isNameField>false</isNameField>
+        <isSortingDisabled>false</isSortingDisabled>
+        <label>Response Log</label>
+        <length>131072</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>AVA_MAPPER__Stack_Trace__c</fullName>
+        <deprecated>false</deprecated>
+        <description>A report of the active stack frames involved at the time of execution</description>
+        <inlineHelpText>A report of the active stack frames involved at the time of execution</inlineHelpText>
+        <isFilteringDisabled>false</isFilteringDisabled>
+        <isNameField>false</isNameField>
+        <isSortingDisabled>false</isSortingDisabled>
+        <label>Stack Trace</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <label>Avatax Application Log</label>
+    <pluralLabel>Avatax Application Logs</pluralLabel>
+    <publishBehavior>PublishImmediately</publishBehavior>
+</CustomObject>

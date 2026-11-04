@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>63.0</apiVersion>
+    <isExposed>false</isExposed>
+    <masterLabel>Home Page - Recommended Products Carousel</masterLabel>
+    <description>...</description>
+    <capabilities>
+        <capability>lightningCommunity__RelaxedCSP</capability>
+    </capabilities>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property label="Displayed Products" name="products" type="String" 
+                description="A list of product records/data to be displayed in the carousel. Use a data expression for proper function." default=""/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

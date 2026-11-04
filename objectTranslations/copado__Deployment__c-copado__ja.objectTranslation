@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>デプロイメント</value>
+    </caseValues>
+    <fieldSets>
+        <label>コパードヘッダーフィールド</label>
+        <name>copado__Copado_Header_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>カスタムフィールド</label>
+        <name>copado__CustomFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>パイプラインデプロイメントモダル</label>
+        <name>copado__Pipeline_Deployment_Modal</name>
+    </fieldSets>
+    <fields>
+        <help><!-- Only Active Templates are available when searching for them, for example in deployment steps --></help>
+        <label>アクティブ</label>
+        <name>copado__Active__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is a mandatory field if you intend to publish your automation template as copado extension package --></help>
+        <label>API名</label>
+        <name>copado__ApiName__c</name>
+    </fields>
+    <fields>
+        <label>デプロイメントファイルを添付</label>
+        <name>copado__Attach_Deployment_File__c</name>
+    </fields>
+    <fields>
+        <label>バックエンドバイパス</label>
+        <name>copado__Backend_Bypass__c</name>
+    </fields>
+    <fields>
+        <label>タスクの構築</label>
+        <name>copado__Build_Task__c</name>
+        <relationshipLabel>デプロイメント</relationshipLabel>
+    </fields>
+    <fields>
+        <label>％完了しました。</label>
+        <name>copado__Completed__c</name>
+    </fields>
+    <fields>
+        <label>コンプライアンスステータス</label>
+        <name>copado__Compliance_Status__c</name>
+    </fields>
+    <fields>
+        <label>＃完了済</label>
+        <name>copado__Count_Completed__c</name>
+    </fields>
+    <fields>
+        <help><!-- When this need to be deployed --></help>
+        <label>日付</label>
+        <name>copado__Date__c</name>
+    </fields>
+    <fields>
+        <label>％デプロイ完了</label>
+        <name>copado__Deployed__c</name>
+    </fields>
+    <fields>
+        <label>デプロイメント完了通知送信済</label>
+        <name>copado__Deployment_Completed_email_sent__c</name>
+    </fields>
+    <fields>
+        <label>デプロイメントジョブカウント</label>
+        <name>copado__Deployment_Jobs_Count__c</name>
+    </fields>
+    <fields>
+        <label>デプロイメントの最後のステップ</label>
+        <name>copado__Deployment_Last_Step__c</name>
+    </fields>
+    <fields>
+        <label>デプロイメントソースタイプ</label>
+        <name>copado__Deployment_Source_Type__c</name>
+    </fields>
+    <fields>
+        <label>デプロイメントタイプ</label>
+        <name>copado__Deployment_Type__c</name>
+    </fields>
+    <fields>
+        <label>デプロイメントコマンド送信</label>
+        <name>copado__Deployment_command_sent__c</name>
+    </fields>
+    <fields>
+        <label>説明</label>
+        <name>copado__Description__c</name>
+    </fields>
+    <fields>
+        <label>プロモーションを更新しないでください</label>
+        <name>copado__Do_Not_Update_Promotion__c</name>
+    </fields>
+    <fields>
+        <label>実行コンテキスト</label>
+        <name>copado__Execution_Context__c</name>
+        <picklistValues>
+            <masterLabel>Deployment</masterLabel>
+            <translation><!-- Deployment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>フラグステータス</label>
+        <name>copado__Flag_Status__c</name>
+    </fields>
+    <fields>
+        <label>ソースクレデンシャル</label>
+        <name>copado__From_Org__c</name>
+        <relationshipLabel>デプロイメント（Fromクレデンシャル）</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Gitリポジトリ</label>
+        <name>copado__Git_Repository__c</name>
+    </fields>
+    <fields>
+        <label>最後のコンプライアンススキャン日付</label>
+        <name>copado__Last_Compliance_Scan_Date__c</name>
+    </fields>
+    <fields>
+        <label>最終デプロイメント実行ID</label>
+        <name>copado__Last_Deployment_Execution_Id__c</name>
+    </fields>
+    <fields>
+        <label>親デプロイメント</label>
+        <name>copado__Parent_Deployment__c</name>
+        <relationshipLabel>デプロイメント（親デプロイメント）</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- This field is auto populated when a manual task is pending on deployment. --></help>
+        <label>一時停止</label>
+        <name>copado__Paused__c</name>
+    </fields>
+    <fields>
+        <label>プラットホーム</label>
+        <name>copado__Platform__c</name>
+    </fields>
+    <fields>
+        <label>プロモーション</label>
+        <name>copado__Promotion__c</name>
+        <relationshipLabel>デプロイメント</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Identifies the original deployment that was rolled back for reporting purposes --></help>
+        <label>ロールバックデプロイメント</label>
+        <name>copado__Rolled_back_Deployment__c</name>
+        <relationshipLabel>デプロイメント（ロールバック）</relationshipLabel>
+    </fields>
+    <fields>
+        <label>合計デプロイ数</label>
+        <name>copado__SUM_Deployed__c</name>
+    </fields>
+    <fields>
+        <label>スケジュール</label>
+        <name>copado__Schedule__c</name>
+        <picklistValues>
+            <masterLabel>Deploy later</masterLabel>
+            <translation><!-- Deploy later --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deploy now</masterLabel>
+            <translation><!-- Deploy now --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- When the deployment completes an email will be sent to the owner of the deployment informing them of the status. Uncheck this checkbox to not receive such an email. --></help>
+        <label>デプロイメント完了Eメールを送信</label>
+        <name>copado__Send_Deployment_Complete_email__c</name>
+    </fields>
+    <fields>
+        <label>サーバーURL</label>
+        <name>copado__Server_URL__c</name>
+    </fields>
+    <fields>
+        <label>ソース環境(From)</label>
+        <name>copado__Source_Environment__c</name>
+    </fields>
+    <fields>
+        <label>ステータス</label>
+        <name>copado__Status__c</name>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed Successfully</masterLabel>
+            <translation><!-- Completed Successfully --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed with Errors</masterLabel>
+            <translation><!-- Completed with Errors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In progress</masterLabel>
+            <translation><!-- In progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Merge Conflict</masterLabel>
+            <translation><!-- Merge Conflict --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scheduled</masterLabel>
+            <translation><!-- Scheduled --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The automation template that defined the steps of this deployment. --></help>
+        <label>テンプレート</label>
+        <name>copado__Template__c</name>
+        <relationshipLabel>テンプレートの実行</relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Advanced (Multi Step)</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Automation Template</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Data Deployment</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Deployment Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Progress --></label>
+            <section>Progress</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Metadata Deployment</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>デプロイメント名</nameFieldLabel>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>テンプレートを複製</label>
+        <name>copado__Clone_Template</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>テンプレートを実行</label>
+        <name>copado__Execute_Automation_Template</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>テンプレートをエクスポート</label>
+        <name>copado__Export_Template</name>
+    </quickActions>
+    <recordTypes>
+        <description>複数の種類のデプロイメントステップを作成 （技術的知識が必要です）</description>
+        <label>アドバンスト（マルチステップ）</label>
+        <name>copado__Advanced_multi_step</name>
+    </recordTypes>
+    <recordTypes>
+        <description>将来実行されるステップのグループ</description>
+        <label>自動化テンプレート</label>
+        <name>copado__Automation_Template</name>
+    </recordTypes>
+    <recordTypes>
+        <description>ポイント＆クリック操作でデプロイされるようにデータテンプレートを選択して下さい。</description>
+        <label>データデプロイメント</label>
+        <name>copado__Data_Deployment</name>
+    </recordTypes>
+    <recordTypes>
+        <description>ポイント＆クリック操作でデプロイされるように手動でメタデータを選択して下さい。</description>
+        <label>メタデータデプロイメント</label>
+        <name>copado__Metadata_Deployment</name>
+    </recordTypes>
+    <webLinks>
+        <label>デプロイメントをキャンセル（非推奨）</label>
+        <name>copado__Cancel_Deployment</name>
+    </webLinks>
+    <webLinks>
+        <label>デプロイ</label>
+        <name>copado__Deploy</name>
+    </webLinks>
+    <webLinks>
+        <label>テンプレートをインポート</label>
+        <name>copado__Import_Template</name>
+    </webLinks>
+    <workflowTasks>
+        <name>copado__Deployment_scheduled</name>
+        <subject>デプロイメントスケジュール</subject>
+    </workflowTasks>
+</CustomObjectTranslation>

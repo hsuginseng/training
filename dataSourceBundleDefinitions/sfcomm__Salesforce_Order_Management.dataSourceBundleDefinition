@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataSourceBundleDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataPlatform>Salesforce_Sales_and_Service_Cloud</dataPlatform>
+    <description>Use Salesforce Order Management data to review your order lifecycle and fulfillment. Analyze aspects of product, fulfillment, location group, and product returns.</description>
+    <icon>/img/sfdc_bundles/OMLogoCirular.png</icon>
+    <isMultiDeploymentSupported>false</isMultiDeploymentSupported>
+    <masterLabel>Salesforce_Order_Management</masterLabel>
+</DataSourceBundleDefinition>

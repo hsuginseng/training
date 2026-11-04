@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>63.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>About Page - Founders</masterLabel>
+    <description>...</description>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property label="Title" name="title" type="String" translatable="true"
+                description=""/>
+            <property label="Image #1 Link" name="image1Url" type="String" 
+                description="" translatable="false"/>
+            <property label="Image #1 Alt. Text" name="image1Alt" type="String" translatable="true"
+                description=""/>
+            <property label="Image #2 Link" name="image2Url" type="String" 
+                description="" translatable="false"/>
+            <property label="Image #2 Alt. Text" name="image2Alt" type="String" translatable="true"
+                description=""/>
+            <property label="Display Text (Plain)" name="displayTextPlain" type="lightning__multilineTextType" translatable="true"
+                description=""/>
+            <property label="Display Text (Rich)" name="displayTextRich" type="lightning__richTextType" translatable="true"
+                description=""/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

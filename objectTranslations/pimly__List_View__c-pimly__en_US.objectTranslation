@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>List View</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>List Views</value>
+    </caseValues>
+    <fields>
+        <label><!-- Created Date Column --></label>
+        <name>pimly__Date_Created_Column__c</name>
+    </fields>
+    <fields>
+        <label><!-- Filter Logic --></label>
+        <name>pimly__Filter_Logic__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Modified Date Column --></label>
+        <name>pimly__Last_Modified_Date_Column__c</name>
+    </fields>
+    <fields>
+        <label><!-- List View Object --></label>
+        <name>pimly__List_View_Object__c</name>
+        <picklistValues>
+            <masterLabel>Linked Item</masterLabel>
+            <translation><!-- Linked Item --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product/Parent</masterLabel>
+            <translation><!-- Product/Parent --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

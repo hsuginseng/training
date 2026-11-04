@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Location Map",
+  "contentBody" : {
+    "activeViewId" : "Location_Map",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-location-map",
+    "urlPrefix" : "location-map"
+  },
+  "urlName" : "location-map"
+}

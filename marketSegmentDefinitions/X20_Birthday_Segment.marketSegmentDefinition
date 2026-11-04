@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MarketSegmentDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <includeCriteria>{&quot;type&quot;:&quot;DateComparison&quot;,&quot;path&quot;:null,&quot;joinPath&quot;:null,&quot;subject&quot;:{&quot;objectApiName&quot;:&quot;UnifiedIndividual__dlm&quot;,&quot;fieldApiName&quot;:&quot;ssot__BirthDate__c&quot;},&quot;selfReference&quot;:false,&quot;operator&quot;:&quot;anniversary of&quot;,&quot;subjectFieldDataType&quot;:&quot;DATE&quot;,&quot;subjectFieldBusinessType&quot;:&quot;DATE&quot;,&quot;subjectFieldSourceType&quot;:&quot;DIRECT&quot;}</includeCriteria>
+    <masterLabel>20 - Birthday Segment</masterLabel>
+    <segmentOn>UnifiedIndividual__dlm</segmentOn>
+    <segmentType>UI</segmentType>
+</MarketSegmentDefinition>

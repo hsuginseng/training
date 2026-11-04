@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>61.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Register - Self Registration</masterLabel>
+    <description>This component will allow guest users to register for an account.</description>
+    <capabilities>
+        <capability>lightningCommunity__RelaxedCSP</capability>
+    </capabilities>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property label="First Name Label" name="firstNameLabel" type="String" 
+                description="Label for the first name field." translatable="true"/>
+            <property label="Last Name Label" name="lastNameLabel" type="String" 
+                description="Label for the last name field." translatable="true"/>
+            <property label="Email Label" name="emailLabel" type="String" 
+                description="Label for the email field." translatable="true"/>
+            <property label="Phone Country Code Label" name="phoneCountryCodeLabel" type="String" 
+                description="Label for the phone country code field." translatable="true"/>
+            <property label="Phone Number Label" name="phoneLabel" type="String" 
+                description="Label for the phone number field." translatable="true"/>
+            
+            <property label="Birthday Label" name="birthdayLabel" type="String"
+                description="Label for the birthday field." translatable="true" default="Birthday"/>
+            <property label="Referral Code Label" name="referralCodeLabel" type="String"
+                description="Label for the referral code field." translatable="true" default="Referral Code"/>
+            <property label="Preferred Language Label" name="preferredLanguageLabel" type="String" 
+                description="Label for the preferred language field." translatable="true"/>
+            <property label="Create Password Label" name="createPasswordLabel" type="String" 
+                description="Label for the create password field." translatable="true"/>
+            <property label="Confirm Password Label" name="confirmPasswordLabel" type="String" 
+                description="Label for the confirm password field." translatable="true"/>
+            <property label="Sign Up Button Label" name="signUpLabel" type="String" 
+                description="Label for the button that creates a new account." translatable="true"/>
+            <property label="Already Have Account Link Label" name="alreadyHaveAccountLabel" type="String" 
+                description="Label for the link if the user has an account." translatable="true"/>
+            <property label="Redirect To Home URL" name="redirectToHomeURL" type="String" 
+                description="Enter the URL for the index/home page of this site."/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

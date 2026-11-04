@@ -1,0 +1,28 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Category",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "attributes" : {
+          "title" : "万圣节深秋好礼 · Treat 不 Trick！ ",
+          "text" : "满 $138，送高丽白参丸   活动期：10/14/2026–10/28/2026  *送完为止 ",
+          "imageAlt" : "满 $138，送高丽白参丸   活动期：10/14/2026–10/28/2026  *送完为止 ",
+          "actionLabelFilters" : "过滤器",
+          "actionLabelSortBy" : "排序方式",
+          "actionLabelNextPage" : "下一页",
+          "actionLabelPreviousPage" : "上一页",
+          "cardSubLabelNumOptions" : "选项",
+          "ctaTextAddToCart" : "添加到购物车",
+          "ctaTextSeeDetails" : "查看详情",
+          "filterModalActionLabelClearFilters" : "删除过滤器",
+          "filterModalActionLabelApplyFilters" : "筛选",
+          "ctaTextOutOfStock" : "暂时缺货",
+          "ctaTextNoMoreAvailable" : "已无库存"
+        },
+        "id" : "8ac50f8f-85e7-4ee7-89ba-4e86a4d100bc"
+      } ]
+    }
+  },
+  "urlName" : "category"
+}

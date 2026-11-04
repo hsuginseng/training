@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Buyer</fullName>
+        <default>false</default>
+        <label>Buyer</label>
+    </customValue>
+    <customValue>
+        <fullName>None</fullName>
+        <default>false</default>
+        <label>None</label>
+    </customValue>
+    <customValue>
+        <fullName>Seller</fullName>
+        <default>false</default>
+        <label>Seller</label>
+    </customValue>
+    <customValue>
+        <fullName>Third Party for Buyer</fullName>
+        <default>false</default>
+        <label>Third Party for Buyer</label>
+    </customValue>
+    <customValue>
+        <fullName>Third Party for Seller</fullName>
+        <default>false</default>
+        <label>Third Party for Seller</label>
+    </customValue>
+    <masterLabel>Transport</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectBinding xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <implementationField>ssot__DigitalContent__dlm.ssot__TemplateId__c</implementationField>
+        <interfaceField>DigitalContentDmo.TemplateId</interfaceField>
+    </fields>
+    <implementationObject>ssot__DigitalContent__dlm</implementationObject>
+    <interfaceObject>DigitalContentDmo</interfaceObject>
+    <masterLabel>ssot__DigitalContent</masterLabel>
+</CustomObjectBinding>

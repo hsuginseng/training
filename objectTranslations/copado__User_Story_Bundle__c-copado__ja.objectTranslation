@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- DEPRECATED --></value>
+    </caseValues>
+    <fields>
+        <label>組織クレデンシャル</label>
+        <name>copado__Org_Credential__c</name>
+        <relationshipLabel>非推奨</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ステータスノート</label>
+        <name>copado__Status_Notes__c</name>
+    </fields>
+    <fields>
+        <label>ステータス</label>
+        <name>copado__Status__c</name>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Locked</masterLabel>
+            <translation><!-- Locked --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>タイトル</label>
+        <name>copado__Title__c</name>
+    </fields>
+    <fields>
+        <label>ユーザーストーリー</label>
+        <name>copado__User_Story__c</name>
+        <relationshipLabel>非推奨</relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>User Story Bundle Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- User Story Bundle Name --></nameFieldLabel>
+</CustomObjectTranslation>

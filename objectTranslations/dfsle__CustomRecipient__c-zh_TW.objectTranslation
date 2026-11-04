@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>DocuSign 自訂收件人</value>
+    </caseValues>
+    <fields>
+        <help><!-- Access Code --></help>
+        <label><!-- Access Code --></label>
+        <name>dfsle__AccessCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Message --></label>
+        <name>dfsle__EmailMessage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Subject --></label>
+        <name>dfsle__EmailSubject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recipient Email --></label>
+        <name>dfsle__Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- DocuSign Envelope Configuration --></label>
+        <name>dfsle__EnvelopeConfiguration__c</name>
+        <relationshipLabel><!-- Custom Recipients --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- First Name --></label>
+        <name>dfsle__FirstName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Host Email --></label>
+        <name>dfsle__HostEmail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Host Name --></label>
+        <name>dfsle__HostName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Language --></label>
+        <name>dfsle__Language__c</name>
+    </fields>
+    <fields>
+        <label><!-- LastName --></label>
+        <name>dfsle__LastName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Private Message --></label>
+        <name>dfsle__Note__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Relationship --></label>
+        <name>dfsle__Relationship__c</name>
+    </fields>
+    <fields>
+        <help><!-- Role --></help>
+        <label><!-- DocuSign Role --></label>
+        <name>dfsle__Role__c</name>
+    </fields>
+    <fields>
+        <help><!-- Routing Order --></help>
+        <label><!-- Routing Order --></label>
+        <name>dfsle__RoutingOrder__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sign now --></label>
+        <name>dfsle__SignNow__c</name>
+    </fields>
+    <fields>
+        <help><!-- Signing Group ID --></help>
+        <label><!-- Signing Group ID --></label>
+        <name>dfsle__SigningGroupId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Signing Group Name --></label>
+        <name>dfsle__SigningGroupName__c</name>
+    </fields>
+    <fields>
+        <label><!-- SMS Phone Number --></label>
+        <name>dfsle__SmsPhoneNumber__c</name>
+    </fields>
+    <fields>
+        <help><!-- Type --></help>
+        <label><!-- Type --></label>
+        <name>dfsle__Type__c</name>
+        <picklistValues>
+            <masterLabel>Allow to Edit</masterLabel>
+            <translation>允許編輯</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Person Signer</masterLabel>
+            <translation>現場親自簽署</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Needs to Sign</masterLabel>
+            <translation>需要簽署</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Needs to View</masterLabel>
+            <translation>必須檢視</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Receives a Copy</masterLabel>
+            <translation>接收複本</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Specify Recipients</masterLabel>
+            <translation>指定收件人</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Update Recipients</masterLabel>
+            <translation>更新收件人</translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel>Name</nameFieldLabel>
+</CustomObjectTranslation>

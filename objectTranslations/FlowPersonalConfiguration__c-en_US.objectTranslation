@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Flow Personal Configuration</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>FlowPersonalConfigurations</value>
+    </caseValues>
+    <fields>
+        <label><!-- Actor Id --></label>
+        <name>ActorId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Config1Name --></label>
+        <name>Config1Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Config1Value --></label>
+        <name>Config1Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Config2Name --></label>
+        <name>Config2Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Config2Value --></label>
+        <name>Config2Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Config3Name --></label>
+        <name>Config3Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Config3Value --></label>
+        <name>Config3Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Config4Name --></label>
+        <name>Config4Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Config4Value --></label>
+        <name>Config4Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Config5Name --></label>
+        <name>Config5Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Config5Value --></label>
+        <name>Config5Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Config6Name --></label>
+        <name>Config6Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Config6Value --></label>
+        <name>Config6Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Config7Name --></label>
+        <name>Config7Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Config7Value --></label>
+        <name>Config7Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Config8Name --></label>
+        <name>Config8Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Config8Value --></label>
+        <name>Config8Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Config9Name --></label>
+        <name>Config9Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Config9Value --></label>
+        <name>Config9Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location Id --></label>
+        <name>LocationId__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

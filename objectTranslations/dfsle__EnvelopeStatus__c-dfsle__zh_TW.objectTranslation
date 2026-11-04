@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Docusign 狀態</value>
+    </caseValues>
+    <fields>
+        <label>帳戶</label>
+        <name>dfsle__Account__c</name>
+        <relationshipLabel><!-- DocuSign Status --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>個案</label>
+        <name>dfsle__Case__c</name>
+        <relationshipLabel><!-- DocuSign Status --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>已完成</label>
+        <name>dfsle__Completed__c</name>
+    </fields>
+    <fields>
+        <label>連絡人</label>
+        <name>dfsle__Contact__c</name>
+        <relationshipLabel><!-- DocuSign Status --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>契約</label>
+        <name>dfsle__Contract__c</name>
+        <relationshipLabel><!-- DocuSign Status --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>DocuSign 信封 ID</label>
+        <name>dfsle__DocuSignId__c</name>
+    </fields>
+    <fields>
+        <label>電子郵件主旨</label>
+        <name>dfsle__EmailSubject__c</name>
+    </fields>
+    <fields>
+        <label>到期</label>
+        <name>dfsle__Expires__c</name>
+    </fields>
+    <fields>
+        <label>上次狀態更新</label>
+        <name>dfsle__LastStatusUpdate__c</name>
+    </fields>
+    <fields>
+        <label>商機</label>
+        <name>dfsle__Lead__c</name>
+        <relationshipLabel><!-- DocuSign Status --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>機會</label>
+        <name>dfsle__Opportunity__c</name>
+        <relationshipLabel><!-- DocuSign Status --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>拒絕簽署或作廢原因</label>
+        <name>dfsle__Reason__c</name>
+    </fields>
+    <fields>
+        <label>寄件人電子郵件</label>
+        <name>dfsle__SenderEmail__c</name>
+    </fields>
+    <fields>
+        <label>寄件人姓名</label>
+        <name>dfsle__SenderName__c</name>
+    </fields>
+    <fields>
+        <label>已傳送</label>
+        <name>dfsle__Sent__c</name>
+    </fields>
+    <fields>
+        <label>Salesforce 來源 ID</label>
+        <name>dfsle__SourceId__c</name>
+    </fields>
+    <fields>
+        <label>狀態</label>
+        <name>dfsle__Status__c</name>
+    </fields>
+    <fields>
+        <label>完成時間</label>
+        <name>dfsle__TimeToComplete__c</name>
+    </fields>
+    <layouts>
+        <layout>DocuSign Envelope Status Layout</layout>
+        <sections>
+            <label><!-- Information --></label>
+            <section>Information</section>
+        </sections>
+        <sections>
+            <label><!-- Related Objects --></label>
+            <section>Related Objects</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Envelope#</nameFieldLabel>
+    <webLinks>
+        <label><!-- ViewEnvelope --></label>
+        <name>dfsle__ViewEnvelope</name>
+    </webLinks>
+</CustomObjectTranslation>

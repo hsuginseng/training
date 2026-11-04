@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Docusignエンベロープ</value>
+    </caseValues>
+    <fields>
+        <label><!-- Custom Fields --></label>
+        <name>dfsle__CustomFields__c</name>
+    </fields>
+    <fields>
+        <label><!-- DFS Template ID --></label>
+        <name>dfsle__DFSTemplateId__c</name>
+    </fields>
+    <fields>
+        <label><!-- DocuSign Envelope ID --></label>
+        <name>dfsle__DocuSignId__c</name>
+    </fields>
+    <fields>
+        <help>DocuSign受信者に署名を依頼する通知メールの本文に表示されるメッセージを10,000文字以下で編集します。
+		</help>
+        <label><!-- Email message --></label>
+        <name>dfsle__EmailMessage__c</name>
+    </fields>
+    <fields>
+        <help>DocuSign受信者に署名を依頼する通知メールの件名として表示されるデフォルトの件名を変更します。
+		</help>
+        <label><!-- Email subject --></label>
+        <name>dfsle__EmailSubject__c</name>
+    </fields>
+    <fields>
+        <help>このエンベロープを生成したときに使用された設定。</help>
+        <label><!-- Envelope Configuration --></label>
+        <name>dfsle__EnvelopeConfiguration__c</name>
+        <relationshipLabel><!-- Envelope Configuration --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>このエンベロープの有効期限を日数で設定します。</help>
+        <label><!-- Expire/void envelope in N day(s) --></label>
+        <name>dfsle__ExpireAfterDays__c</name>
+    </fields>
+    <fields>
+        <help>期限切れの何日前に警告メールを送信するかを指定します。このメールは、トランザクションを完了していない受信者にのみ送信されます。
+		</help>
+        <label><!-- Warn of expiration in N day(s) prior --></label>
+        <name>dfsle__ExpireWarnDays__c</name>
+    </fields>
+    <fields>
+        <help>エンベロープへの対応を受信者に促すことができます。エンベロープの有効期限が切れると、そのエンベロープは無効になり、差出人および受信者に通知メールが送信されます。</help>
+        <label><!-- Expire envelope --></label>
+        <name>dfsle__Expires__c</name>
+    </fields>
+    <fields>
+        <label><!-- Options --></label>
+        <name>dfsle__Options__c</name>
+    </fields>
+    <fields>
+        <help>最初のリマインダーを送信するまでの日数を設定します</help>
+        <label><!-- Send reminder in N day(s) --></label>
+        <name>dfsle__RemindAfterDays__c</name>
+    </fields>
+    <fields>
+        <help>リマインダーの送信間隔（日数）を設定します。</help>
+        <label><!-- Remind every N day(s) until complete --></label>
+        <name>dfsle__RemindFrequencyDays__c</name>
+    </fields>
+    <fields>
+        <help>エンベロープへの対応を完了していない受信者にリマインダーメールを送信するには、このボックスをオンにします。
+		</help>
+        <label><!-- Remind signers via email --></label>
+        <name>dfsle__Remind__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender Permissions --></label>
+        <name>dfsle__SenderPermissions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender --></label>
+        <name>dfsle__Sender__c</name>
+        <relationshipLabel><!-- Docusign Envelopes --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>送信日時</help>
+        <label><!-- Sent --></label>
+        <name>dfsle__Sent__c</name>
+    </fields>
+    <fields>
+        <help>SalesforceソースID</help>
+        <label><!-- Salesforce source ID --></label>
+        <name>dfsle__SourceId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transaction ID --></label>
+        <name>dfsle__TransactionId__c</name>
+    </fields>
+    <fields>
+        <help>DocuSignエンベロープに関する通知をChatterで表示するには、このボックスをオンにします。</help>
+        <label><!-- Enable Chatter status updates --></label>
+        <name>dfsle__UpdateChatter__c</name>
+    </fields>
+    <layouts>
+        <layout>DocuSign Envelope Layout</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>DocuSign Envelope</nameFieldLabel>
+</CustomObjectTranslation>

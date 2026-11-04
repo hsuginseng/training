@@ -1,0 +1,73 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Tours-Form Completed",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"ecb02baf-4dc9-4aed-99f0-baba05f23ef7\",\"columns\":[{\"UUID\":\"0bf7e6d6-d8e6-41ad-ad8c-cff4e5f43823\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "imageInfos" : "",
+                "richTextValue" : "<p style=\"text-align: center;\"><strong style=\"font-size: 36px;\">Thank you!</strong></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\">Thank you for contacting us. We’ve received your submission. A member of our team will reach out to you soon.</p><p style=\"text-align: center;\">In the meantime, feel free to explore our website or contact us directly if you have any immediate questions.</p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\">715-675-2325</p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "5cc3c78e-944f-44cc-a0fa-14d85137f77c",
+              "type" : "component"
+            } ],
+            "id" : "0bf7e6d6-d8e6-41ad-ad8c-cff4e5f43823",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "ecb02baf-4dc9-4aed-99f0-baba05f23ef7",
+          "type" : "component"
+        } ],
+        "id" : "d3b0766c-d29d-4255-b480-bf9538fe6198",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "Tours-Form Completed",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "6ec2ba95-e6b2-41c2-be6a-fc4b11a6cf52",
+          "type" : "component"
+        } ],
+        "id" : "13eff646-ca9a-41e1-84f8-b07cf914dfab",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "8061a234-bae4-4c37-9248-dbb3b84d4756",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-tours-form-completed"
+  },
+  "urlName" : "tours-form-completed"
+}

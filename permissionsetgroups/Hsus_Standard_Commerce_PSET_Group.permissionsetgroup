@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>(NO Service Cloud) This PSET Group allows access to Commerce, Order Management, Marketing, and Loyalty Cloud features necessary to act on customer support requests.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Hsu&apos;s Standard Commerce PSET Group</label>
+    <mutingPermissionSets>Hsus_Standard_Commerce_PSET_Group_Muted</mutingPermissionSets>
+    <permissionSets>AVA_B2BLEX__AvalaraAvaTaxUsers</permissionSets>
+    <permissionSets>Commerce_User</permissionSets>
+    <permissionSets>Hsu_s_Account_Access</permissionSets>
+    <permissionSets>Internal_Merchant_Submitted_Payments_User</permissionSets>
+    <permissionSets>PaymentsAdministrator</permissionSets>
+    <permissionSets>Preview_Email_Content</permissionSets>
+    <permissionSets>Support_Requests_Permissions</permissionSets>
+    <permissionSets>USF_Flow_Screen_Component_Datatable</permissionSets>
+    <permissionSets>avaoms__AvaTaxUsers</permissionSets>
+    <permissionSets>celigo_sfnsio__celigo_sfnsio_permission_set</permissionSets>
+    <permissionSets>contentmanager</permissionSets>
+    <permissionSets>createcontentversion</permissionSets>
+    <permissionSets>dlrs__LookupRollupSummariesReadOnly</permissionSets>
+    <permissionSets>force__GenieUserEnhancedSecurity</permissionSets>
+    <permissionSets>force__OmnichannelInventoryMerchandiser</permissionSets>
+    <permissionSets>force__OrderManagement1Commerce</permissionSets>
+    <permissionSets>force__OrderOnBehalfAgent</permissionSets>
+    <permissionSets>force__OrderOnBehalfManager</permissionSets>
+    <permissionSets>zkmulti__Zenkraft_Read_Only</permissionSets>
+    <permissionSets>zkmulti__Zenkraft_Tracking</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

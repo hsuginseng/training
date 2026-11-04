@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>AvaTax Settings</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>AvaTax Settings</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Number --></label>
+        <name>AVA_B2BLEX__AccountNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- City --></label>
+        <name>AVA_B2BLEX__City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Code --></label>
+        <name>AVA_B2BLEX__CompanyCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Id --></label>
+        <name>AVA_B2BLEX__CompanyId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>AVA_B2BLEX__Country__c</name>
+    </fields>
+    <fields>
+        <help><!-- When disabled, the system applies user-defined custom mappings (if available) instead of Avalara’s default tax mappings during tax calculation for LWR store(s). --></help>
+        <label><!-- Activate Avalara Default Mapping --></label>
+        <name>AVA_B2BLEX__DisableDynamicMapping__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Address Validation --></label>
+        <name>AVA_B2BLEX__EnableAddressValidation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable AvaTax --></label>
+        <name>AVA_B2BLEX__EnableAvaTax__c</name>
+    </fields>
+    <fields>
+        <label><!-- License Key --></label>
+        <name>AVA_B2BLEX__LicenseKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- PostalCode --></label>
+        <name>AVA_B2BLEX__PostalCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Region --></label>
+        <name>AVA_B2BLEX__Region__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sandbox --></label>
+        <name>AVA_B2BLEX__Sandbox__c</name>
+    </fields>
+    <fields>
+        <label><!-- Save Transaction to AvaTax --></label>
+        <name>AVA_B2BLEX__SaveToAvaTax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Street 2 --></label>
+        <name>AVA_B2BLEX__Street2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Street --></label>
+        <name>AVA_B2BLEX__Street__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

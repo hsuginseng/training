@@ -1,0 +1,14 @@
+<template>
+	<div class="accordion">
+		<template for:each={accordions} for:item="accordion" for:index="index">
+			<c-accordion-item
+				key={accordion.id}
+				id={accordion.id}
+				toggle={accordion.toggle}
+				text={accordion.text}
+				cta-text={accordion.ctaText}
+				cta-url={accordion.ctaUrl}
+			></c-accordion-item>
+		</template>
+	</div>
+</template>

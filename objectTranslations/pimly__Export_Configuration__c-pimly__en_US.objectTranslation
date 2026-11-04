@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Export Configuration</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Export Configurations</value>
+    </caseValues>
+    <fields>
+        <label><!-- CSV List Value Separator --></label>
+        <name>pimly__CSV_List_Value_Separator__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSV Use Asset URLs --></label>
+        <name>pimly__CSV_Use_Asset_URLs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Configuration Name --></label>
+        <name>pimly__Configuration_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>pimly__Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- The key to use in identifying Pimly objects during the export --></help>
+        <label><!-- Identifier --></label>
+        <name>pimly__Identifier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Type --></label>
+        <name>pimly__Job_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Output Filetype --></label>
+        <name>pimly__Output_Filetype__c</name>
+        <picklistValues>
+            <masterLabel>CSV</masterLabel>
+            <translation><!-- CSV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JSON</masterLabel>
+            <translation><!-- JSON --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Pimly Channel --></label>
+        <name>pimly__Pimly_Channel__c</name>
+        <relationshipLabel><!-- Export Configurations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Pimly Filters --></label>
+        <name>pimly__Pimly_Filters__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pimly Locale --></label>
+        <name>pimly__Pimly_Locale__c</name>
+        <relationshipLabel><!-- Export Configurations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Pimly Record Type --></label>
+        <name>pimly__Pimly_Record_Type__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enable to include clickable signed URLs for private assets in export output. URLs expire after the configured TTL. --></help>
+        <label><!-- Presign Private Asset URLs --></label>
+        <name>pimly__Presign_Private_Asset_URLs__c</name>
+    </fields>
+    <fields>
+        <help><!-- TTL in hours for private asset URLs in exports. Default: 168 (7 days). --></help>
+        <label><!-- Private Asset URL TTL --></label>
+        <name>pimly__Private_Asset_URL_TTL__c</name>
+    </fields>
+    <fields>
+        <label><!-- SOQL Where Clause --></label>
+        <name>pimly__SOQL_Where_Clause__c</name>
+    </fields>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

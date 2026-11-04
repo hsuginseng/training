@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Shipping Preference Info</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Shipping Preference Info</value>
+    </caseValues>
+    <fields>
+        <label><!-- Setup for FedEx Ground® Economy --></label>
+        <name>zkmulti__AccountIsSetupForSmartPostOutbound__c</name>
+    </fields>
+    <fields>
+        <label><!-- Setup for FedEx Ground® Economy Returns --></label>
+        <name>zkmulti__AccountIsSetupForSmartPostReturns__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allow Record Delete --></label>
+        <name>zkmulti__Allow_Record_Delete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Type --></label>
+        <name>zkmulti__BillingType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier Account API ID --></label>
+        <name>zkmulti__CarrierAccount_APIID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier Account API Key --></label>
+        <name>zkmulti__CarrierAccount_APIKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier Account API Secret --></label>
+        <name>zkmulti__CarrierAccount_APISecretEncrypted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier Account API Secret --></label>
+        <name>zkmulti__CarrierAccount_APISecret__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier Account Collection Location --></label>
+        <name>zkmulti__CarrierAccount_Collection_Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier Account Contact ID --></label>
+        <name>zkmulti__CarrierAccount_ContactID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier Account Contract ID --></label>
+        <name>zkmulti__CarrierAccount_ContractID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier Account Customer Number --></label>
+        <name>zkmulti__CarrierAccount_CustomerNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier Account Department ID --></label>
+        <name>zkmulti__CarrierAccount_DepartmentID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier Account Global Pack --></label>
+        <name>zkmulti__CarrierAccount_GlobalPack__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier Account Has Credit Card --></label>
+        <name>zkmulti__CarrierAccount_HasCreditCard__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier Account Print As You Go --></label>
+        <name>zkmulti__CarrierAccount_PrintAsYouGo__c</name>
+    </fields>
+    <fields>
+        <label><!-- CarrierAccount Uni-Box IP --></label>
+        <name>zkmulti__CarrierAccount_UniBoxIP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier Account Uni-Box Port --></label>
+        <name>zkmulti__CarrierAccount_UniBoxPort__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier Account Client Id --></label>
+        <name>zkmulti__Carrier_Account_Client_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier Account Company Name --></label>
+        <name>zkmulti__Carrier_Account_Company_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier Account Country --></label>
+        <name>zkmulti__Carrier_Account_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier Account Entity --></label>
+        <name>zkmulti__Carrier_Account_Entity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier Account Facility Code --></label>
+        <name>zkmulti__Carrier_Account_Facility_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier Account IPA --></label>
+        <name>zkmulti__Carrier_Account_IPA__c</name>
+    </fields>
+    <fields>
+        <help><!-- Asendia Account ISAL --></help>
+        <label><!-- Carrier Account ISAL --></label>
+        <name>zkmulti__Carrier_Account_ISAL__c</name>
+    </fields>
+    <fields>
+        <help><!-- Asendia Account International Express --></help>
+        <label><!-- Carrier Account International Express --></label>
+        <name>zkmulti__Carrier_Account_International_Express__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier Account Is Reseller --></label>
+        <name>zkmulti__Carrier_Account_Is_Reseller__c</name>
+    </fields>
+    <fields>
+        <help><!-- DHL Global Mail Mailer ID --></help>
+        <label><!-- Carrier Account Mailer ID --></label>
+        <name>zkmulti__Carrier_Account_Mailer_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier Account Number --></label>
+        <name>zkmulti__Carrier_Account_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- Asendia Account Other --></help>
+        <label><!-- Carrier Account Other --></label>
+        <name>zkmulti__Carrier_Account_Other__c</name>
+    </fields>
+    <fields>
+        <help><!-- Asendia Account PMEI --></help>
+        <label><!-- Carrier Account PMEI --></label>
+        <name>zkmulti__Carrier_Account_PMEI__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier Account PMI --></label>
+        <name>zkmulti__Carrier_Account_PMI__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier Account Password --></label>
+        <name>zkmulti__Carrier_Account_Password__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier Account Pin --></label>
+        <name>zkmulti__Carrier_Account_Pin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier Account Priority Tracked --></label>
+        <name>zkmulti__Carrier_Account_Priority_Tracked__c</name>
+    </fields>
+    <fields>
+        <help><!-- DHL Global Mail Return Location ID --></help>
+        <label><!-- Carrier Account Return Location ID --></label>
+        <name>zkmulti__Carrier_Account_Return_Location_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier Account Username --></label>
+        <name>zkmulti__Carrier_Account_Username__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier Account VAT Number --></label>
+        <name>zkmulti__Carrier_Account_VATNumber__c</name>
+    </fields>
+    <fields>
+        <help><!-- Asendia USA ePacket --></help>
+        <label><!-- Carrier Account ePacket --></label>
+        <name>zkmulti__Carrier_Account_ePacket__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier Test Account API Key --></label>
+        <name>zkmulti__Carrier_Test_Account_API_Key__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier Test Account Customer Number --></label>
+        <name>zkmulti__Carrier_Test_Account_Customer_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier Test Account Department ID --></label>
+        <name>zkmulti__Carrier_Test_Account_DepartmentID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier Test Account Facility Code --></label>
+        <name>zkmulti__Carrier_Test_Account_Facility_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier Test Account Number --></label>
+        <name>zkmulti__Carrier_Test_Account_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier Test Account Password --></label>
+        <name>zkmulti__Carrier_Test_Account_Password__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier Test Account Username --></label>
+        <name>zkmulti__Carrier_Test_Account_Username__c</name>
+    </fields>
+    <fields>
+        <label><!-- Convert 4x6 GIF to PDF --></label>
+        <name>zkmulti__Convert_4x6_GIF_to_PDF__c</name>
+    </fields>
+    <fields>
+        <label><!-- Create Labels --></label>
+        <name>zkmulti__Create_Labels__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom Meta --></label>
+        <name>zkmulti__Custom_Meta__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used only for ZPLII and EPL labels. Default value is 203 dpi --></help>
+        <label><!-- Default Image Resolution --></label>
+        <name>zkmulti__DefaultImageResolution__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Image Rotation --></label>
+        <name>zkmulti__Default_Image_Rotation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dropoff Type Default --></label>
+        <name>zkmulti__DropoffTypeDefault__c</name>
+    </fields>
+    <fields>
+        <help><!-- FTP Location syntax is ftp://host[:port] --></help>
+        <label><!-- FTP Location --></label>
+        <name>zkmulti__FTP_Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- FTP Password --></label>
+        <name>zkmulti__FTP_Password__c</name>
+    </fields>
+    <fields>
+        <label><!-- FTP Username --></label>
+        <name>zkmulti__FTP_Username__c</name>
+    </fields>
+    <fields>
+        <label><!-- FedEx Ground® Economy Hub ID --></label>
+        <name>zkmulti__FedExSmartPostHubId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Have DBR Contract Service --></label>
+        <name>zkmulti__Have_DBR_Contract_Service__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hide Negotiated Rates --></label>
+        <name>zkmulti__HideNegotiatedRates__c</name>
+    </fields>
+    <fields>
+        <help><!-- Allows to include Image Resolution drop-down to Wizard page --></help>
+        <label><!-- Include Image Resolution --></label>
+        <name>zkmulti__IncludeImageResolution__c</name>
+    </fields>
+    <fields>
+        <label><!-- Include Mail Innovations Packaging Types --></label>
+        <name>zkmulti__IncludeMailInnovations__c</name>
+    </fields>
+    <fields>
+        <label><!-- Include Sure Post Service Types --></label>
+        <name>zkmulti__IncludeSurePost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Individual Package Items --></label>
+        <name>zkmulti__Individual_Package_Items__c</name>
+    </fields>
+    <fields>
+        <label><!-- Language --></label>
+        <name>zkmulti__Language__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Bought Postage Amount --></label>
+        <name>zkmulti__LastBoughtPostageAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Bought Postage Time --></label>
+        <name>zkmulti__LastBoughtPostageTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- MWS Auth Token --></label>
+        <name>zkmulti__MWSAuthToken__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marketplace Id --></label>
+        <name>zkmulti__MarketplaceId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mod Key --></label>
+        <name>zkmulti__Mod_Key__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report Id --></label>
+        <name>zkmulti__Report_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Schedul Job Id --></label>
+        <name>zkmulti__Schedul_Job_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Schedule Cron --></label>
+        <name>zkmulti__Schedule_Cron__c</name>
+    </fields>
+    <fields>
+        <label><!-- Schedule Report --></label>
+        <name>zkmulti__Schedule_Report__c</name>
+    </fields>
+    <fields>
+        <label><!-- Security Answer --></label>
+        <name>zkmulti__SecurityAnswerEncrypt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Security Question --></label>
+        <name>zkmulti__SecurityQuestion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Seller Id --></label>
+        <name>zkmulti__SellerId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supports Inbound --></label>
+        <name>zkmulti__Supports_Inbound__c</name>
+    </fields>
+    <fields>
+        <label><!-- Use Billing Address as Shipper --></label>
+        <name>zkmulti__UseBillingAddressAsShipper__c</name>
+    </fields>
+    <fields>
+        <label><!-- Web Password --></label>
+        <name>zkmulti__WebPasswordEncrypted__c</name>
+    </fields>
+    <layouts>
+        <layout>Shipment Parameter Layout</layout>
+        <sections>
+            <label><!-- Amazon MWS --></label>
+            <section>Amazon MWS</section>
+        </sections>
+        <sections>
+            <label><!-- CDL --></label>
+            <section>CDL</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Endicia Preference --></label>
+            <section>Endicia Preference</section>
+        </sections>
+        <sections>
+            <label><!-- FTP Location --></label>
+            <section>FTP Location</section>
+        </sections>
+        <sections>
+            <label><!-- FedEx Options --></label>
+            <section>FedEx Options</section>
+        </sections>
+        <sections>
+            <label><!-- FedEx SmartPost --></label>
+            <section>FedEx SmartPost</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

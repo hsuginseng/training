@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Zenkraft Scheduled Jobs (Deprecated)</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Zenkraft Scheduled Jobs (Deprecated)</value>
+    </caseValues>
+    <fields>
+        <label><!-- Batch Size --></label>
+        <name>zkmulti__BatchSize__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cron Expression --></label>
+        <name>zkmulti__CronExpression__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>zkmulti__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Id --></label>
+        <name>zkmulti__JobId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Status --></label>
+        <name>zkmulti__JobStatus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Type --></label>
+        <name>zkmulti__JobType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Name --></label>
+        <name>zkmulti__Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Params --></label>
+        <name>zkmulti__Params__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Object Id --></label>
+        <name>zkmulti__RelatedObjectId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scheduled Track End Time --></label>
+        <name>zkmulti__ScheduledTrackEndTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scheduled Track Frequency --></label>
+        <name>zkmulti__ScheduledTrackFrequency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scheduled Track Fri Tracking --></label>
+        <name>zkmulti__ScheduledTrackFriTracking__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scheduled Track Mon Tracking --></label>
+        <name>zkmulti__ScheduledTrackMonTracking__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scheduled Track Sat Tracking --></label>
+        <name>zkmulti__ScheduledTrackSatTracking__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scheduled Track Shipment ID --></label>
+        <name>zkmulti__ScheduledTrackShipmentID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scheduled Track Start Time --></label>
+        <name>zkmulti__ScheduledTrackStartTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scheduled Track Sun Tracking --></label>
+        <name>zkmulti__ScheduledTrackSunTracking__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scheduled Track Thurs Tracking --></label>
+        <name>zkmulti__ScheduledTrackThursTracking__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scheduled Track Tues Tracking --></label>
+        <name>zkmulti__ScheduledTrackTuesTracking__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scheduled Track Wed Tracking --></label>
+        <name>zkmulti__ScheduledTrackWedTracking__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scheduled Version Capture ID --></label>
+        <name>zkmulti__ScheduledVersionCaptureId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scheduler Type --></label>
+        <name>zkmulti__SchedulerType__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

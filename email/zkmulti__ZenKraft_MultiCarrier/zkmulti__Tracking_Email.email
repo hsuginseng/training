@@ -1,0 +1,9 @@
+<messaging:emailTemplate subject="Tracking Shipment {!relatedTo.Name}" recipientType="Contact" relatedToType="zkmulti__MCShipment__c">
+<messaging:htmlEmailBody >
+    <c:TrackingEmail recordId="{!relatedTo.Id}" includeBackground="true" />
+</messaging:htmlEmailBody>
+
+<messaging:plainTextEmailBody >
+
+</messaging:plainTextEmailBody>
+</messaging:emailTemplate>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Toggles the selected document(s) during the Sending flow</description>
+    <isExposed>true</isExposed>
+    <lightningMessageFields>
+        <description>Toggle value for the selected document(s)</description>
+        <fieldName>selected</fieldName>
+    </lightningMessageFields>
+    <lightningMessageFields>
+        <description>Index value of the document in the collection. If empty, all documents will be toggled</description>
+        <fieldName>index</fieldName>
+    </lightningMessageFields>
+    <masterLabel>SendingToggleDocumentSelection</masterLabel>
+</LightningMessageChannel>

@@ -1,0 +1,81 @@
+<template>
+    <template lwc:if={isLoading}>
+        <lightning-spinner alternative-text="Registering your account." size="medium"></lightning-spinner>
+    </template>
+    <div class="self-register-container lwc-slds-card slds-card_inner slds-col slds-grow">
+        <div class="comm-self-register__container slds-card slds-card_inner slds-col slds-grow slds-p-around_medium">
+            <lightning-input type="text" 
+                            label={firstNameLabel}
+                            onchange={handleFirstNameInput}
+                            required>
+            </lightning-input>
+            <lightning-input type="text" 
+                            label={lastNameLabel}
+                            onchange={handleLastNameInput}
+                            required>
+            </lightning-input>
+            <lightning-input type="email" 
+                            label={emailLabel}
+                            onchange={handleEmailInput}
+                            required>
+            </lightning-input>
+            <template if:true={phoneCountryOptions.length}>
+                <lightning-combobox type="text"
+                    label={phoneCountryCodeLabel}
+                    options={phoneCountryOptions} 
+                    value={phoneCountryCode}
+                    onchange={handlePhoneCountrySelection}
+                    required>
+                </lightning-combobox>
+            </template>
+            <lightning-input type="tel" 
+                            label={phoneLabel}
+                            onchange={handlePhoneInput}
+                            required>
+            </lightning-input>
+            
+            <lightning-input type="date"
+                             label={birthdayLabel}
+                             onchange={handleBirthdayInput}>
+            </lightning-input>
+            <lightning-input type="text"
+                             label={referralCodeLabel}
+                             onchange={handleReferralCodeInput}>
+            </lightning-input>
+            <template if:true={languageOptions.length}>
+                <lightning-combobox type="text"
+                    label={preferredLanguageLabel}
+                    options={languageOptions} 
+                    value={preferredLanguage}
+                    onchange={handleLanguageSelection}
+                    required>
+                </lightning-combobox>
+            </template>
+            <lightning-input type="password" 
+                            label={createPasswordLabel}
+                            onchange={handleCreatePasswordInput}
+                            required>
+            </lightning-input>
+             
+            <lightning-input class="slds-m-bottom_none slds-p-bottom_none"
+                             type="password" 
+                            label={confirmPasswordLabel}
+                            onchange={handleConfirmPasswordInput}
+                            required>
+            </lightning-input>
+            <lightning-helptext class="slds-m-top_none" content="Please create a password with alpha and numeric characters and at least 8 characters in length"></lightning-helptext>
+
+            <lightning-button variant="brand" 
+                                label={signUpLabel} 
+                                onclick={handleSignUp}
+                                stretch>
+            </lightning-button>
+
+            <div class="center slds-var-p-top_medium">
+                <a href="/login" class="comm-self-register__cancel-link" variant="base">
+                    {alreadyHaveAccountLabel}
+                </a>
+            </div>
+        </div>
+    </div>
+</template>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>사용자 Trailmix</value>
+    </caseValues>
+    <fields>
+        <label><!-- Assigned --></label>
+        <name>trailheadapp__Assigned_At__c</name>
+    </fields>
+    <fields>
+        <label><!-- Completed --></label>
+        <name>trailheadapp__Completed_At__c</name>
+    </fields>
+    <fields>
+        <help>이 기한(날짜)은 사용자가 할당자와 같은 표준 시간대에 있지 않은 경우 다르게 표시될 수 있습니다.</help>
+        <label><!-- Due --></label>
+        <name>trailheadapp__Due_At__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>trailheadapp__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Attempted --></label>
+        <name>trailheadapp__First_Attempted_At__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Attempted --></label>
+        <name>trailheadapp__Last_Attempted_At__c</name>
+    </fields>
+    <fields>
+        <help>두 가지 유형의 상태인 &quot;진행 중&quot; 또는 &quot;완료됨&quot;을 사용하여 사용자의 trailmix 상태를 표시할 수 있습니다.</help>
+        <label><!-- Status --></label>
+        <name>trailheadapp__Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trailmix --></label>
+        <name>trailheadapp__Trailmix__c</name>
+        <relationshipLabel><!-- User Trailmixes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>trailheadapp__User__c</name>
+        <relationshipLabel><!-- User Trailmixes --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>User Trailmix Layout</layout>
+        <sections>
+            <label>사용자 정의 링크</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>사용자 Trailmix ID</nameFieldLabel>
+    <quickActions>
+        <label><!-- Assign Trailmix --></label>
+        <name>trailheadapp__AssignTrailmix</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Unassign Trailmix --></label>
+        <name>trailheadapp__Unassign_Trailmix</name>
+    </quickActions>
+</CustomObjectTranslation>

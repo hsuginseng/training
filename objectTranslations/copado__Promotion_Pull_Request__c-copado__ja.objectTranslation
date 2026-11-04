@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Promotion Pull Request --></value>
+    </caseValues>
+    <fields>
+        <label>承認ステータス</label>
+        <name>copado__Approval_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Request Changes</masterLabel>
+            <translation><!-- Request Changes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>アサイン先</label>
+        <name>copado__Assignees__c</name>
+    </fields>
+    <fields>
+        <label>変更されたファイル</label>
+        <name>copado__Changed_Files__c</name>
+    </fields>
+    <fields>
+        <label>クローズ日時</label>
+        <name>copado__Closed_At__c</name>
+    </fields>
+    <fields>
+        <label>コミット</label>
+        <name>copado__Commits__c</name>
+    </fields>
+    <fields>
+        <label>外部ID</label>
+        <name>copado__External_Id__c</name>
+    </fields>
+    <fields>
+        <label>マージ可能</label>
+        <name>copado__Mergeable__c</name>
+    </fields>
+    <fields>
+        <label>マージ日時</label>
+        <name>copado__Merged_At__c</name>
+    </fields>
+    <fields>
+        <label>マージ実行者</label>
+        <name>copado__Merged_By__c</name>
+    </fields>
+    <fields>
+        <label>マージ済み</label>
+        <name>copado__Merged__c</name>
+    </fields>
+    <fields>
+        <label>プロモーション</label>
+        <name>copado__Promotion__c</name>
+        <relationshipLabel>プルリクエスト</relationshipLabel>
+    </fields>
+    <fields>
+        <label>リクエスト番号</label>
+        <name>copado__Request_Number__c</name>
+    </fields>
+    <fields>
+        <label>リクエストされたレビュー担当者</label>
+        <name>copado__Requested_Reviewers_Long__c</name>
+    </fields>
+    <fields>
+        <label>リクエストされたレビュー担当者</label>
+        <name>copado__Requested_Reviewers__c</name>
+    </fields>
+    <fields>
+        <help><!-- Specifies the number of required reviewer approvals set in your Git provider. Helps determine if a pull request meets the configured approval threshold. Depending on the provider, data may be available via webhook or may require OAuth authorization. --></help>
+        <label>必要なレビュアー承認</label>
+        <name>copado__Required_Reviewer_Approvals__c</name>
+    </fields>
+    <fields>
+        <help><!-- Shows the number of reviewers who have approved the pull request. Updates automatically as reviewers approve the pull request in your Git provider. Depending on the provider, data may be available via webhook or may require OAuth authorization --></help>
+        <label>レビュー担当者の承認数</label>
+        <name>copado__Reviewer_Approvals_Count__c</name>
+    </fields>
+    <fields>
+        <label>状態</label>
+        <name>copado__State__c</name>
+    </fields>
+    <fields>
+        <label>ターゲットブランチ</label>
+        <name>copado__Target_Branch__c</name>
+    </fields>
+    <fields>
+        <label>URL リンク</label>
+        <name>copado__URL_Link__c</name>
+    </fields>
+    <fields>
+        <label>URL</label>
+        <name>copado__Url__c</name>
+    </fields>
+    <fields>
+        <label>ユーザーアバター URL</label>
+        <name>copado__User_Avatar_Url__c</name>
+    </fields>
+    <fields>
+        <label>ユーザーアバター</label>
+        <name>copado__User_Avatar__c</name>
+    </fields>
+    <fields>
+        <label>ユーザー名</label>
+        <name>copado__Username__c</name>
+    </fields>
+    <nameFieldLabel><!-- Promotion Pull Request Name --></nameFieldLabel>
+</CustomObjectTranslation>

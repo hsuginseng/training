@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Zenkraft General Settings (Deprecated)</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Zenkraft General Settings (Deprecated)</value>
+    </caseValues>
+    <fields>
+        <label><!-- Allow Edit of Used Product --></label>
+        <name>zkmulti__Allow_Edit_of_Used_Custom_Item__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allow Guest User Access --></label>
+        <name>zkmulti__Allow_Guest_User_Access__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show Products in Wizard --></label>
+        <name>zkmulti__Boxing_Algorithm_Show_Products__c</name>
+    </fields>
+    <fields>
+        <label><!-- Convert non ascii characters for labels --></label>
+        <name>zkmulti__ConvertNonAscii__c</name>
+    </fields>
+    <fields>
+        <label><!-- Debug ZK API Calls --></label>
+        <name>zkmulti__Debug_ZK_API_Calls__c</name>
+    </fields>
+    <fields>
+        <help><!-- Delete Checkpoints After Shipment Delivered After X Days --></help>
+        <label><!-- Delete Checkpoints After Delivered --></label>
+        <name>zkmulti__DeleteCheckpointsAfterDelivered__c</name>
+    </fields>
+    <fields>
+        <help><!-- Disable Rate/Shipment Generation for Invalid Address (FedEx) --></help>
+        <label><!-- Disable Rate/Ship for Invalid Address --></label>
+        <name>zkmulti__DisableRateShipForInvalidAddress__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Dynamic Fill Fields --></label>
+        <name>zkmulti__Enable_Dynamic_Fill_Fields__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Zk Api --></label>
+        <name>zkmulti__Enable_Zk_Api__c</name>
+    </fields>
+    <fields>
+        <label><!-- Use Account Number for Tracking (FedEx) --></label>
+        <name>zkmulti__FedExAllowAccountNumberTracking__c</name>
+    </fields>
+    <fields>
+        <help><!-- UPS only --></help>
+        <label><!-- Ignore Address Validation --></label>
+        <name>zkmulti__IgnoreAddressValidation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ignore Max Job Limit for Scheduled Track --></label>
+        <name>zkmulti__IgnoreMaxJobLimitForScheduledTrack__c</name>
+    </fields>
+    <fields>
+        <label><!-- Modify ZK Objects --></label>
+        <name>zkmulti__ModifyZKObjects__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Commercial Document Prints --></label>
+        <name>zkmulti__NumberOfCommercialDocumentPrints__c</name>
+    </fields>
+    <fields>
+        <help><!-- Only Allow Validated Shipments (FedEx) --></help>
+        <label><!-- Only Allow Validated Shipments (FedEx) --></label>
+        <name>zkmulti__OnlyAllowValidatedShipments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Record Print Histories --></label>
+        <name>zkmulti__RecordPrintHistories__c</name>
+    </fields>
+    <fields>
+        <label><!-- Record Shipping Checkpoints --></label>
+        <name>zkmulti__RecordShippingCheckpoints__c</name>
+    </fields>
+    <fields>
+        <label><!-- Run Demo Mode --></label>
+        <name>zkmulti__Run_Demo_Mode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scheduled tracking - number of days --></label>
+        <name>zkmulti__ScheduledTrackingNumberOfDays__c</name>
+    </fields>
+    <fields>
+        <label><!-- Split Street Line 1 by comma --></label>
+        <name>zkmulti__SplitStreetLineByComma__c</name>
+    </fields>
+    <fields>
+        <label><!-- UPS Generate Custom HazMat Document --></label>
+        <name>zkmulti__UPS_Generate_Custom_HazMat_Document__c</name>
+    </fields>
+    <fields>
+        <label><!-- USPS Tracking --></label>
+        <name>zkmulti__USPSTracking__c</name>
+    </fields>
+    <fields>
+        <label><!-- USPS Web API UserID --></label>
+        <name>zkmulti__USPSWebAPIUserID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Update Shipment Fields From Tracking --></label>
+        <name>zkmulti__UpdateShipmentFieldsFromTracking__c</name>
+    </fields>
+    <fields>
+        <label><!-- Use Files --></label>
+        <name>zkmulti__UseFiles__c</name>
+    </fields>
+    <fields>
+        <label><!-- Only Show FedEx List Rates --></label>
+        <name>zkmulti__UseListRates__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

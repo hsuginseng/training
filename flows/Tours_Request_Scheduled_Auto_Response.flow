@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Tours_Request_Scheduled_Email</name>
+        <label>Tours Request Scheduled Email</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <actionName>Case.Alert_for_Tour_Request_Scheduled</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>Case.Alert_for_Tour_Request_Scheduled</nameSegment>
+        <offset>0</offset>
+    </actionCalls>
+    <actionCalls>
+        <name>Tours_Request_Scheduled_MSimplified</name>
+        <label>Tours Request Scheduled MSimplified</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <actionName>Case.Tours_Request_Scheduled_MSimplified</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>Case.Tours_Request_Scheduled_MSimplified</nameSegment>
+        <offset>0</offset>
+    </actionCalls>
+    <actionCalls>
+        <name>Tours_Request_Scheduled_MTraditional</name>
+        <label>Tours Request Scheduled MTraditional</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <actionName>Case.Tours_Request_Scheduled_MTraditional</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>Case.Tours_Request_Scheduled_MTraditional</nameSegment>
+        <offset>0</offset>
+    </actionCalls>
+    <apiVersion>64.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <decisions>
+        <name>Check_Preferred_Language</name>
+        <label>Check Preferred Language</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>Tours_Request_Scheduled_Email</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>English</defaultConnectorLabel>
+        <rules>
+            <name>Mandarin_Traditional</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Preferred_Language__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Traditional Mandarin</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Tours_Request_Scheduled_MTraditional</targetReference>
+            </connector>
+            <label>Mandarin Traditional</label>
+        </rules>
+        <rules>
+            <name>Simplified_Mandarin</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Preferred_Language__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Simplified Mandarin</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Tours_Request_Scheduled_MSimplified</targetReference>
+            </connector>
+            <label>Simplified Mandarin</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Null_Check_for_Email</name>
+        <label>Null Check for Email</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Check_Contact_Email_Address</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Email__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.SuppliedEmail</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Check_Preferred_Language</targetReference>
+            </connector>
+            <label>Check Contact Email Address</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <interviewLabel>Tours Request Scheduled Email {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Tours Request Scheduled Auto-Response</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Null_Check_for_Email</targetReference>
+        </connector>
+        <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+        <filterFormula>ISPICKVAL({!$Record.Status}, &apos;Scheduled&apos;) &amp;&amp;
+{!$Record.RecordType.DeveloperName} = &apos;Tours&apos;</filterFormula>
+        <object>Case</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

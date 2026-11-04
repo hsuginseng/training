@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>MC B2B Rate Option</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>MC B2B Rate Options</value>
+    </caseValues>
+    <fields>
+        <label><!-- MC B2B Rate Card --></label>
+        <name>zklb2b__Card__c</name>
+        <relationshipLabel><!-- MC B2B Rate Options --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Carrier Name --></label>
+        <name>zklb2b__Carrier_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier --></label>
+        <name>zklb2b__Carrier__c</name>
+    </fields>
+    <fields>
+        <label><!-- MC B2B Configuration --></label>
+        <name>zklb2b__Configuration__c</name>
+        <relationshipLabel><!-- MC B2B Rate Options --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Hide --></label>
+        <name>zklb2b__Hide__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Type --></label>
+        <name>zklb2b__Service_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>zklb2b__Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Value --></label>
+        <name>zklb2b__Value__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

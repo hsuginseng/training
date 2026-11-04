@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>テスト</value>
+    </caseValues>
+    <fields>
+        <label>受け入れ基準</label>
+        <name>copado__AcceptanceCriteria__c</name>
+    </fields>
+    <fields>
+        <label>アプリケーション</label>
+        <name>copado__Application__c</name>
+        <relationshipLabel>テスト</relationshipLabel>
+    </fields>
+    <fields>
+        <label>設定</label>
+        <name>copado__Configuration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credential --></label>
+        <name>copado__Credential__c</name>
+        <relationshipLabel><!-- Tests --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The displayed values are based on the active Extension Configuration records available in your org. --></help>
+        <label>ツール設定</label>
+        <lookupFilter>
+            <errorMessage>選択したエクステンション設定が有効でアクティブであることを確認してください。</errorMessage>
+        </lookupFilter>
+        <name>copado__ExtensionConfiguration__c</name>
+        <relationshipLabel>テスト</relationshipLabel>
+    </fields>
+    <fields>
+        <label>フィーチャー（機能）</label>
+        <name>copado__Feature__c</name>
+        <relationshipLabel>テスト</relationshipLabel>
+    </fields>
+    <fields>
+        <label>追加の設定</label>
+        <name>copado__HasExtraConfiguration__c</name>
+    </fields>
+    <fields>
+        <label>最終ジョブ実行</label>
+        <name>copado__LatestJobExecution__c</name>
+        <relationshipLabel>テスト</relationshipLabel>
+    </fields>
+    <fields>
+        <label>最新の結果状況</label>
+        <name>copado__Latest_Result_Status__c</name>
+    </fields>
+    <fields>
+        <label>親ID</label>
+        <name>copado__Parent_Id__c</name>
+    </fields>
+    <fields>
+        <label>親</label>
+        <name>copado__Parent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pipeline --></label>
+        <name>copado__Pipeline__c</name>
+        <relationshipLabel><!-- Tests --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>優先度</label>
+        <name>copado__Priority__c</name>
+        <picklistValues>
+            <masterLabel>Critical</masterLabel>
+            <translation><!-- Critical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>プロモーション</label>
+        <name>copado__Promotion__c</name>
+        <relationshipLabel>テスト</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- By checking this field, you are indicating that the test is ready to be executed and the &apos;Run&apos; button will display. --></help>
+        <label>実行準備完了</label>
+        <name>copado__ReadyToRun__c</name>
+    </fields>
+    <fields>
+        <label>リファレンス</label>
+        <name>copado__Reference__c</name>
+    </fields>
+    <fields>
+        <label>ステータス</label>
+        <name>copado__Status__c</name>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready for Test</masterLabel>
+            <translation><!-- Ready for Test --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Testing Completed</masterLabel>
+            <translation><!-- Testing Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Testing in Progress</masterLabel>
+            <translation><!-- Testing in Progress --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>テストツール</label>
+        <name>copado__Test_Tool__c</name>
+    </fields>
+    <fields>
+        <label>タイプ</label>
+        <name>copado__Type__c</name>
+    </fields>
+    <fields>
+        <label>ユーザーストーリー</label>
+        <name>copado__User_Story__c</name>
+        <relationshipLabel>テスト</relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Test Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>名</nameFieldLabel>
+    <quickActions>
+        <label><!-- Open CRT Project --></label>
+        <name>copadoQuality__Open_CRT</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Schedule --></label>
+        <name>copadoQuality__Schedule_Test</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Copadoのヘルプを表示</label>
+        <name>copado__Get_Copado_Help</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>準備完了としてマーク</label>
+        <name>copado__Mark_as_Ready</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>実行</label>
+        <name>copado__Run</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage>このツール設定は変更することができません。新しいテストを作成し、ツール設定を選択してください。</errorMessage>
+        <name>copado__PreventUpdatingToolConfiguration</name>
+    </validationRules>
+</CustomObjectTranslation>

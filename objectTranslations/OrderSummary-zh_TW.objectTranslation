@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- A VAT message field returned by AvaTax indicating the relevant tax law invoked --></help>
+        <label><!-- Invoice Message --></label>
+        <name>AVA_B2BLEX__Invoice_Message__c</name>
+    </fields>
+    <fields>
+        <help><!-- This specifies who is responsible for transport of the goods on the transaction --></help>
+        <label><!-- Transport --></label>
+        <name>AVA_B2BLEX__Transport__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Name Formula --></label>
+        <name>Account_Name_Formula__c</name>
+    </fields>
+    <fields>
+        <help><!-- Triggers B2B Discount Approval Process --></help>
+        <label>需要審核</label>
+        <name>B2B_OOBO_Approval_Needed__c</name>
+    </fields>
+    <fields>
+        <label>應付餘額</label>
+        <name>Balance_Due__c</name>
+    </fields>
+    <fields>
+        <help><!-- Cart Discount Percentage entered by Sales Rep on OOBO; Applied to all Cart Items after Line Item Discount are applied. --></help>
+        <label>購物車折扣 (%)</label>
+        <name>Cart_Discount_Percentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cart Id --></label>
+        <name>Cart_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- Maximum Cart Item Discount Percentage --></help>
+        <label>購物車商品最大折扣 (%)</label>
+        <name>Cart_Item_Max_Discount_Percentage__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total Discount Percentage of Cart --></help>
+        <label>購物車總折扣 (%)</label>
+        <name>Cart_Total_Discount_Percentage__c</name>
+    </fields>
+    <fields>
+        <label>支付方式</label>
+        <name>Cash_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Alert Sent --></label>
+        <name>Email_Alert_Sent__c</name>
+    </fields>
+    <fields>
+        <label>免運費額度</label>
+        <name>Free_Shipping_Override__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fresh Ginseng Product Count --></label>
+        <name>Fresh_Ginseng_Product_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fulfilled Product Count --></label>
+        <name>Fulfilled_Product_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gift Message --></label>
+        <name>Gift_Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gift Order --></label>
+        <name>Gift_Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inventory Transfer Attempts --></label>
+        <name>InventoryTransferAttempts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Viewed Date --></label>
+        <name>Last_Viewed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Netsuite Id --></label>
+        <name>Netsuite_Id__c</name>
+    </fields>
+    <fields>
+        <label>訂單號</label>
+        <name>Order_Number__c</name>
+    </fields>
+    <fields>
+        <label>訂單參考號</label>
+        <name>Order_Reference_Number__c</name>
+    </fields>
+    <fields>
+        <label>稍後支付</label>
+        <name>Pay_Later__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Error --></label>
+        <name>Payment_Error__c</name>
+    </fields>
+    <fields>
+        <label>支付方式</label>
+        <name>Payment_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prioritize --></label>
+        <name>Prioritize__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Representative Id --></label>
+        <name>Sales_Representative_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Representative --></label>
+        <name>Sales_Representative__c</name>
+        <relationshipLabel><!-- Order Summaries --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>拆分付款</label>
+        <name>Split_Payments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Amount Authorized from OPS --></label>
+        <name>Total_Amount_Authorized_from_OPS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Amount Refunded from OPS --></label>
+        <name>Total_Amount_Refunded_from_OPS__c</name>
+    </fields>
+    <fields>
+        <label>訂單付款總金額</label>
+        <name>Total_Amount_from_Order_Payment_Summary__c</name>
+    </fields>
+    <fields>
+        <label>已付款總額</label>
+        <name>Total_of_Payment_Entries__c</name>
+    </fields>
+    <fields>
+        <label><!-- Avatax Message --></label>
+        <name>avaoms__Avatax_Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- ChangeOrderToFeesChangeOrderRelation --></label>
+        <name>avaoms__ChangeOrderToFeesChangeOrderRelation__c</name>
+    </fields>
+    <fields>
+        <help><!-- Cross-border messages --></help>
+        <label><!-- Cross Border Summary --></label>
+        <name>avaoms__Cross_Border_Summary__c</name>
+    </fields>
+    <fields>
+        <help><!-- A VAT message field returned by AvaTax indicating the relevant tax law invoked. --></help>
+        <label><!-- Invoice Message --></label>
+        <name>avaoms__Invoice_Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- LatestCancelChangeOrderId --></label>
+        <name>avaoms__LatestCancelChangeOrderId__c</name>
+    </fields>
+    <fields>
+        <label><!-- LatestReturnChangeOrderId --></label>
+        <name>avaoms__LatestReturnChangeOrderId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Changed --></label>
+        <name>avaoms__QuantityChanged__c</name>
+    </fields>
+    <fields>
+        <help><!-- Displays the Sales Tax calculated for Shipping and Handling. --></help>
+        <label><!-- Shipping and Handling Tax --></label>
+        <name>avaoms__ShippingHandling_Tax__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter Tax Calculation Date --></help>
+        <label><!-- Tax Date --></label>
+        <name>avaoms__Tax_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- This specifies who is responsible for transport of the goods on the transaction. --></help>
+        <label><!-- Transport --></label>
+        <name>avaoms__Transport__c</name>
+    </fields>
+    <fields>
+        <label><!-- Create Return Label --></label>
+        <name>zklb2b__Create_Return_Label__c</name>
+    </fields>
+    <layouts>
+        <layout>Order Summary Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Cancel Item(s) --></label>
+        <name>Cancel_Items</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>建立收款條目</label>
+        <name>Create_Payment_Entry</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>退貨授權</label>
+        <name>RMA_Return_Items</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage><!-- An active payment error is recorded on this order summary. Please resolve this error to advance the order summary from a &quot;Hold&quot; status. --></errorMessage>
+        <name>Prevent_Status_Change_When_Payment_Error</name>
+    </validationRules>
+</CustomObjectTranslation>

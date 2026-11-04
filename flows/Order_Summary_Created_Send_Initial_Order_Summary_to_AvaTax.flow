@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Calculate_Tax_for_Approved_status</name>
+        <label>Calculate Tax for Approved status</label>
+        <locationX>50</locationX>
+        <locationY>278</locationY>
+        <actionName>avaoms__AvaTaxOrderSummaryTaxCalculator</actionName>
+        <actionType>apex</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>isMultiCommit</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>recordId</name>
+            <value>
+                <elementReference>$Record.OrderSummary.Id</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>salesChannelId</name>
+            <value>
+                <elementReference>$Record.OrderSummary.SalesChannel.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>avaoms__AvaTaxOrderSummaryTaxCalculator</nameSegment>
+        <offset>0</offset>
+    </actionCalls>
+    <apiVersion>55.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <decisions>
+        <name>Calculate_Tax</name>
+        <label>Calculate Tax</label>
+        <locationX>182</locationX>
+        <locationY>170</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Order_Summary_Tax_calc</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.OrderSummary.Id</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>$Record.OrderSummary.Id</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Calculate_Tax_for_Approved_status</targetReference>
+            </connector>
+            <label>Order Summary Tax calc</label>
+        </rules>
+    </decisions>
+    <description>5/13/26 AKW: Migrated status calculation logic to a single flow, Order Summary Created PE - Validate Payment Set Status. Improved status update logic surrounding payment errors and holding orders.</description>
+    <environments>Default</environments>
+    <interviewLabel>Order Summary Created - Send Initial Order Summary to AvaTax {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Order Summary Created - Send Initial Order Summary to AvaTax</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>56</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Calculate_Tax</targetReference>
+        </connector>
+        <flowRunAsUser>TriggeringUser</flowRunAsUser>
+        <object>OrderSummaryCreatedEvent</object>
+        <triggerType>PlatformEvent</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

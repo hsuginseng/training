@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>スプリント</value>
+    </caseValues>
+    <fields>
+        <help><!-- This value is calculated by adding up the total planned points of the user stories in the sprint when their status is changed to Completed. This status can be configured in the Actual Velocity Statuses custom metadata type. Please refer to the Copado Sprint Velocity article for more information. --></help>
+        <label>実速度</label>
+        <name>copado__Actual_Velocity__c</name>
+    </fields>
+    <fields>
+        <label>スプリントの日数</label>
+        <name>copado__Days_in_sprint__c</name>
+    </fields>
+    <fields>
+        <label>終了日</label>
+        <name>copado__End_Date__c</name>
+    </fields>
+    <fields>
+        <label>スプリントのフルタイムリソース</label>
+        <name>copado__Full_time_resources_in_sprint__c</name>
+    </fields>
+    <fields>
+        <help><!-- Calculated when the Sprint status is changed to In Progress by adding up the points assigned to all User Stories in the Sprint. This value is only calculated once at the beginning of a Sprint. --></help>
+        <label>初速度計画値（Initial Planned Velocity)</label>
+        <name>copado__InitialPlannedVelocity__c</name>
+    </fields>
+    <fields>
+        <label>スプリント目標</label>
+        <name>copado__Objective__c</name>
+    </fields>
+    <fields>
+        <help><!-- This value is recalculated with every change made to the Planned Points or Planned Points Other assigned to all the user stories in the sprint or when new user stories are added. --></help>
+        <label>計画速度</label>
+        <name>copado__Planned_Velocity__c</name>
+    </fields>
+    <fields>
+        <label>プロジェクト</label>
+        <name>copado__Project__c</name>
+        <relationshipLabel>スプリント</relationshipLabel>
+    </fields>
+    <fields>
+        <label>リリース</label>
+        <name>copado__Release__c</name>
+        <relationshipLabel>スプリント</relationshipLabel>
+    </fields>
+    <fields>
+        <label>開始日</label>
+        <name>copado__Start_Date__c</name>
+    </fields>
+    <fields>
+        <label>ステータス</label>
+        <name>copado__Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In progress</masterLabel>
+            <translation><!-- In progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Planned</masterLabel>
+            <translation><!-- Planned --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>総容量（ポイント）</label>
+        <name>copado__Story_points__c</name>
+    </fields>
+    <fields>
+        <label>チーム</label>
+        <name>copado__Team__c</name>
+        <relationshipLabel>スプリント</relationshipLabel>
+    </fields>
+    <fields>
+        <label>残り作業期間</label>
+        <name>copado__Working_Days_Left__c</name>
+    </fields>
+    <fields>
+        <label>スプリントでの作業期間</label>
+        <name>copado__Working_days_in_sprint__c</name>
+    </fields>
+    <fields>
+        <label><!-- Connect log --></label>
+        <name>copadoconnect__Connect_log__c</name>
+    </fields>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>copadoconnect__External_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Synced Date --></label>
+        <name>copadoconnect__Last_Synced_Date__c</name>
+    </fields>
+    <layouts>
+        <layout>Sprint Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Sprint Summary --></label>
+            <section>Sprint Summary</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>スプリント名</nameFieldLabel>
+    <validationRules>
+        <errorMessage>完了日（End Date)は開始日より後である必要があります。</errorMessage>
+        <name>copado__EndDate_Should_be_Greater_than_StartDate</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCalcInsightTemplate xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <builderExpression xsi:nil="true"/>
+    <creationType>Custom</creationType>
+    <dataspaceName>default</dataspaceName>
+    <dataspacePrefix xsi:nil="true"/>
+    <definitionType>CALCULATED_METRIC</definitionType>
+    <description>Average order value per account</description>
+    <developerName>average_order_value_by_account</developerName>
+    <expression>SELECT ssot__SalesOrder__dlm.ssot__BillToAccountId__c as sfcomm__account__c, SUM(ssot__SalesOrder__dlm.ssot__GrandTotalAmount__c) / COUNT(ssot__SalesOrder__dlm.ssot__Id__c) AS sfcomm__average_order_value__c FROM ssot__SalesOrder__dlm GROUP BY sfcomm__account__c</expression>
+    <masterLabel>average_order_value_by_account</masterLabel>
+    <scheduleInterval>SYSTEM_MANAGED</scheduleInterval>
+    <templateVersion>1</templateVersion>
+</DataCalcInsightTemplate>

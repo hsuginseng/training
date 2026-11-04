@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Send_Contact_Us_Submission_Email</name>
+        <label>Send Contact Us Submission Email</label>
+        <locationX>50</locationX>
+        <locationY>431</locationY>
+        <actionName>Lead.D2C_English_Contact_Us_Submission</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>Lead.D2C_English_Contact_Us_Submission</nameSegment>
+        <offset>0</offset>
+    </actionCalls>
+    <actionCalls>
+        <name>Send_Email_Action_1</name>
+        <label>Send Email Action 1</label>
+        <locationX>314</locationX>
+        <locationY>431</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <connector>
+            <targetReference>Send_Tour_Form_Submission_Email</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>emailAddresses</name>
+            <value>
+                <stringValue>pzumbrook@aleysian.com</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <elementReference>TourFormSubmissionEmailSubject</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>TourFormSubmissionBody</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>emailSimple</nameSegment>
+        <offset>0</offset>
+    </actionCalls>
+    <actionCalls>
+        <name>Send_Tour_Form_Submission_Email</name>
+        <label>Send Tour Form Submission Email</label>
+        <locationX>314</locationX>
+        <locationY>539</locationY>
+        <actionName>Lead.D2C_English_Tour_Form_Submission</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>Lead.D2C_English_Tour_Form_Submission</nameSegment>
+        <offset>0</offset>
+    </actionCalls>
+    <apiVersion>62.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <decisions>
+        <name>Decision_Lead_Source</name>
+        <label>Decision - Lead Source</label>
+        <locationX>314</locationX>
+        <locationY>323</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>D2C_English_Contact_Us</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.LeadSource</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>D2C English - Contact Us</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Send_Contact_Us_Submission_Email</targetReference>
+            </connector>
+            <label>D2C English - Contact Us</label>
+        </rules>
+        <rules>
+            <name>D2C_English_Tour_Form_Submission</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.LeadSource</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>D2C English - Tour Form Submission</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Send_Email_Action_1</targetReference>
+            </connector>
+            <label>D2C English - Tour Form Submission</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <interviewLabel>Lead - D2C English {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Lead - D2C English</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>188</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Decision_Lead_Source</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>LeadSource</field>
+            <operator>StartsWith</operator>
+            <value>
+                <stringValue>D2C English</stringValue>
+            </value>
+        </filters>
+        <object>Lead</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Obsolete</status>
+    <textTemplates>
+        <name>TourFormSubmissionBody</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 8.5pt; font-family: Arial, sans-serif; color: rgb(0, 0, 0);&quot;&gt;The following form submission has been recorded from the D2C English Site:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 8.5pt; font-family: Arial, sans-serif; color: rgb(0, 0, 0);&quot;&gt;Full Name: {!$Record.Name}&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 8.5pt; font-family: Arial, sans-serif; color: rgb(0, 0, 0);&quot;&gt;Email: {!$Record.Email}&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 8.5pt; font-family: Arial, sans-serif; color: rgb(0, 0, 0);&quot;&gt;Phone: {!$Record.Phone}&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 8.5pt; font-family: Arial, sans-serif; color: rgb(0, 0, 0);&quot;&gt;Preferred Tour Date: {!$Record.Preferred_Tour_Date__c}&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 8.5pt; font-family: Arial, sans-serif; color: rgb(0, 0, 0);&quot;&gt;Preferred Tour Time: {!$Record.Preferred_Tour_Time__c}&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 8.5pt; font-family: Arial, sans-serif; color: rgb(0, 0, 0);&quot;&gt;Number of Guests: {!$Record.Number_of_Guests__c}&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 8.5pt; font-family: Arial, sans-serif; color: rgb(0, 0, 0);&quot;&gt;Age Range of Guests: {!$Record.Age_Range_of_Guests__c}&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 8.5pt; font-family: Arial, sans-serif; color: rgb(0, 0, 0);&quot;&gt;Special Accommodations: {!$Record.Special_Accommodations__c}&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 8.5pt; font-family: Arial, sans-serif; color: rgb(0, 0, 0);&quot;&gt;How did you hear about our tour?: {!$Record.How_did_you_hear_about_our_tour__c}&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 8.5pt; font-family: Arial, sans-serif; color: rgb(0, 0, 0);&quot;&gt;If Other, Please Specify: {!$Record.If_Other_please_specify__c}&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 8.5pt; font-family: Arial, sans-serif; color: rgb(0, 0, 0);&quot;&gt;Email Opt In: {!$Record.Email_Opt_In__c}&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 8.5pt; font-family: Arial, sans-serif; color: rgb(0, 0, 0);&quot;&gt;Click on the link to access the Record directly: {!$Record.Id}&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</text>
+    </textTemplates>
+    <textTemplates>
+        <name>TourFormSubmissionEmailSubject</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;&lt;span style=&quot;background-color: rgb(248, 248, 248); font-size: 11.36px; font-family: Arial, Helvetica, sans-serif; color: rgb(0, 0, 0);&quot;&gt;New Form Submission: {!$Record.Name}&lt;/span&gt;&lt;/p&gt;</text>
+    </textTemplates>
+</Flow>

@@ -1,0 +1,26 @@
+<template>
+    <template lwc:if={shouldNotifyCustomer}>
+        <section role="dialog" tabindex="-1" class="slds-modal slds-fade-in-open">
+            <div class="slds-modal__container" style="justify-self: center;">
+                <header class="slds-modal__header">
+                    <h3 class="slds-text-heading_medium">Attention</h3>
+                </header>
+                <div class="slds-modal__content slds-p-around_medium slds-text-align_center">
+                    <p>
+                        Fresh ginseng cannot be shipped to your location.
+                    </p>
+                    <p class="slds-p-top_medium">
+                        Please remove the fresh ginseng from your cart before proceeding.
+                    </p>
+                </div>
+                <footer class="slds-modal__footer">
+                    <lightning-button label="Remove Fresh Ginseng" variant="brand" onclick={handleRemoveFreshGinseng}></lightning-button>
+                </footer>
+            </div>
+        </section>
+        <div class="slds-backdrop slds-backdrop_open"></div>
+    </template>
+    <template lwc:if={showSpinner}>
+            <lightning-spinner class="slds-spinner_container"></lightning-spinner>
+    </template>
+</template>

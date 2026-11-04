@@ -1,0 +1,20 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "TheCompany-AboutFarm",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "attributes" : {
+          "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MC65QOUT4HKJCV7B7Q7VYNTQYJ2I?lastModifiedDate=Mon Feb 02 17:35:07 GMT 2026\",\"altText\":\"\",\"contentKey\":\"MC65QOUT4HKJCV7B7Q7VYNTQYJ2I\",\"contentType\":null}}"
+        },
+        "id" : "7f9a6d00-f9aa-43b2-b1a3-b77c2ec0a79c"
+      }, {
+        "id" : "2aa7f03b-c878-4fe0-8d22-f54726ee9c4e",
+        "attributes" : {
+          "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCUZSZYS2XDJB6ZDGPGGDCNNN47A?lastModifiedDate=Mon Feb 02 17:35:56 GMT 2026\",\"altText\":\"\",\"contentKey\":\"MCUZSZYS2XDJB6ZDGPGGDCNNN47A\",\"contentType\":null}}"
+        }
+      } ]
+    }
+  },
+  "urlName" : "thecompany-aboutfarm"
+}

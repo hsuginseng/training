@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>システムプロパティ</value>
+    </caseValues>
+    <fields>
+        <help><!-- This is the unique name of the system property which is used as a reference in dynamic expressions. --></help>
+        <label>API名</label>
+        <name>copado__API_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Lookup field to the environment which is linked to the system property. --></help>
+        <label>環境</label>
+        <name>copado__Environment__c</name>
+        <relationshipLabel>システムプロパティ</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Select this checkbox if you want to share the System Property among multiple pipelines and environments. --></help>
+        <label>グローバルフラグ</label>
+        <name>copado__Is_Global__c</name>
+    </fields>
+    <fields>
+        <help><!-- On setting this checkbox, this system property will be shared with &quot;All the Company&quot; Public Group --></help>
+        <label>公開しますか？</label>
+        <name>copado__Is_Public__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select this checbox to hide the sensitive information. --></help>
+        <label>値を非表示</label>
+        <name>copado__Is_Sensitive__c</name>
+    </fields>
+    <fields>
+        <help><!-- This value is automatically populated when selecting a Pipeline, Environment or User. If none is selected, the record Id this property is linked to must be entered manually. --></help>
+        <label>親ID</label>
+        <name>copado__ParentId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Lookup field to the pipeline linked to the system property. --></help>
+        <label>パイプライン</label>
+        <name>copado__Pipeline__c</name>
+        <relationshipLabel>システムプロパティ</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Read-only field used internally for system property replacement. --></help>
+        <label><!-- UID --></label>
+        <name>copado__UID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Lookup field to the user linked to the system property. --></help>
+        <label>ユーザー</label>
+        <name>copado__User__c</name>
+        <relationshipLabel>システムプロパティ</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- This is the value of the system property. --></help>
+        <label>値</label>
+        <name>copado__Value__c</name>
+    </fields>
+    <layouts>
+        <layout>System Property Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- System property assignment --></label>
+            <section>System property assignment</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>プロパティ名</nameFieldLabel>
+    <sharingReasons>
+        <label>公開</label>
+        <name>copado__isPublic</name>
+    </sharingReasons>
+    <validationRules>
+        <errorMessage>API名に空白スペースを含めることはできません。</errorMessage>
+        <name>copado__API_Name_Cannot_Contain_Spaces</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Is Globalチェックボックスが選択されている場合は、環境、パイプライン、ユーザーのルックアップは空である必要があります。</errorMessage>
+        <name>copado__Lookups_empty_for_Global_Property</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>非グローバルプロパティは、1つの親にのみ関連付けることができます。環境、パイプライン、ユーザーのいずれか1つの親にしか関連付けられません。</errorMessage>
+        <name>copado__Only_One_Parent_Is_Allowed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>このシステム・プロパティには値を指定する必要があります。</errorMessage>
+        <name>copado__Value_cannot_be_empty</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>string</fullName>
+        <default>true</default>
+        <label>String</label>
+    </customValue>
+    <customValue>
+        <fullName>number</fullName>
+        <default>false</default>
+        <label>Number</label>
+    </customValue>
+    <customValue>
+        <fullName>boolean</fullName>
+        <default>false</default>
+        <label>Boolean</label>
+    </customValue>
+    <customValue>
+        <fullName>enumerated</fullName>
+        <default>false</default>
+        <label>Enumerated (Single-Value)</label>
+    </customValue>
+    <customValue>
+        <fullName>enumerated_mv</fullName>
+        <default>false</default>
+        <label>Enumerated (Multi-Value)</label>
+    </customValue>
+    <customValue>
+        <fullName>date</fullName>
+        <default>false</default>
+        <label>Date</label>
+    </customValue>
+    <customValue>
+        <fullName>date_time</fullName>
+        <default>false</default>
+        <label>Date Time</label>
+    </customValue>
+    <customValue>
+        <fullName>url</fullName>
+        <default>false</default>
+        <label>URL</label>
+    </customValue>
+    <customValue>
+        <fullName>rich_text</fullName>
+        <default>false</default>
+        <label>Rich Text</label>
+    </customValue>
+    <customValue>
+        <fullName>html</fullName>
+        <default>false</default>
+        <label>HTML</label>
+    </customValue>
+    <customValue>
+        <fullName>digital_asset</fullName>
+        <default>false</default>
+        <label>Digital Asset</label>
+    </customValue>
+    <customValue>
+        <fullName>product</fullName>
+        <default>false</default>
+        <label>Product</label>
+    </customValue>
+    <customValue>
+        <fullName>linked_item</fullName>
+        <default>false</default>
+        <label>Linked Item</label>
+    </customValue>
+    <masterLabel>Property Types</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

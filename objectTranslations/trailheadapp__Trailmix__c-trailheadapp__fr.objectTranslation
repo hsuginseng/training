@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Trailmix</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Trailmixes</value>
+    </caseValues>
+    <fields>
+        <label>Est supprimé</label>
+        <name>trailheadapp__Archived__c</name>
+    </fields>
+    <fields>
+        <label>Créé le</label>
+        <name>trailheadapp__Created_At__c</name>
+    </fields>
+    <fields>
+        <label>Créé par profil</label>
+        <name>trailheadapp__Created_By_Profile__c</name>
+    </fields>
+    <fields>
+        <help><!-- THIS FIELD IS NO LONGER REQUIRED. EDIT THE PROPERTIES FOR THIS FIELD ON THE PAGE LAYOUT AND UNHECK THE REQUIRED BOX. --></help>
+        <label>Créé par</label>
+        <name>trailheadapp__Creator_TH_SFID__c</name>
+    </fields>
+    <fields>
+        <label>Description</label>
+        <name>trailheadapp__Description__c</name>
+    </fields>
+    <fields>
+        <label>ID externe</label>
+        <name>trailheadapp__External_Id__c</name>
+    </fields>
+    <fields>
+        <label>Est présenté</label>
+        <name>trailheadapp__Featured__c</name>
+    </fields>
+    <fields>
+        <label>Nom d&apos;API</label>
+        <name>trailheadapp__Slug__c</name>
+    </fields>
+    <fields>
+        <label>URL</label>
+        <name>trailheadapp__URL__c</name>
+    </fields>
+    <fields>
+        <label>Mis à jour le</label>
+        <name>trailheadapp__Updated_At__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Trailmix Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Nom du Trailmix</nameFieldLabel>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Attribuer des utilisateurs</label>
+        <name>trailheadapp__Assign_Multiple_Users</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Supprimer des attributions</label>
+        <name>trailheadapp__Unassign_Multiple_Users</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label>Attribuer des utilisateurs</label>
+        <name>trailheadapp__Assign_Users</name>
+    </webLinks>
+    <webLinks>
+        <label>Supprimer des attributions</label>
+        <name>trailheadapp__Unassign_Users</name>
+    </webLinks>
+</CustomObjectTranslation>

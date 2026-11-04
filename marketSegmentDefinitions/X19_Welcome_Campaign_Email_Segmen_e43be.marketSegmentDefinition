@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MarketSegmentDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <includeCriteria>{&quot;type&quot;:&quot;NestedSegment&quot;,&quot;nestingType&quot;:&quot;membership&quot;,&quot;filterId&quot;:null,&quot;segmentId&quot;:&quot;X02_New_User_Segment&quot;,&quot;subject&quot;:{&quot;fieldApiName&quot;:&quot;02 - New User Segment&quot;,&quot;segmentDevName&quot;:&quot;X02_New_User_Segment&quot;,&quot;memberCount&quot;:1779,&quot;publishSchedule&quot;:&quot;TWENTY_FOUR&quot;,&quot;includeCriteria&quot;:null,&quot;excludeCriteria&quot;:null,&quot;nestedPublishBehavior&quot;:&quot;useLastPublishedMembership&quot;,&quot;publishStatus&quot;:&quot;SUCCESS&quot;,&quot;marketSegmentType&quot;:&quot;UI&quot;,&quot;hasGrl&quot;:false}}</includeCriteria>
+    <masterLabel>19 - Welcome Series Segment</masterLabel>
+    <segmentOn>UnifiedIndividual__dlm</segmentOn>
+    <segmentType>UI</segmentType>
+</MarketSegmentDefinition>

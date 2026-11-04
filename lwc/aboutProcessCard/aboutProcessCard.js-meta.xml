@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>63.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>About Page - Process Card</masterLabel>
+    <description>...</description>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property label="Card Image ID" name="imageId" type="String" description="" translatable="false"/>
+            <property label="Card Title" name="title" type="String" description="" translatable="true"/>
+            <property label="Cart Text" name="text" type="String" description="" translatable="true"/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

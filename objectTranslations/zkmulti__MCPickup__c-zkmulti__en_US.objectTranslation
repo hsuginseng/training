@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Pickup</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Pickups</value>
+    </caseValues>
+    <fields>
+        <label><!-- Building Type Description --></label>
+        <name>zkmulti__Building_Type_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Building Type --></label>
+        <name>zkmulti__Building_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bulk Shipment --></label>
+        <name>zkmulti__Bulk_Shipment__c</name>
+        <relationshipLabel><!-- Pickups --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Cancel Reason --></label>
+        <name>zkmulti__Cancel_Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier Type --></label>
+        <name>zkmulti__CarrierType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier --></label>
+        <name>zkmulti__Carrier__c</name>
+    </fields>
+    <fields>
+        <label><!-- City --></label>
+        <name>zkmulti__City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Close Time --></label>
+        <name>zkmulti__Close_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Name --></label>
+        <name>zkmulti__Company_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Email --></label>
+        <name>zkmulti__Contact_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Name --></label>
+        <name>zkmulti__Contact_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Phone --></label>
+        <name>zkmulti__Contact_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>zkmulti__Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Courier Remarks --></label>
+        <name>zkmulti__Courier_Remarks__c</name>
+    </fields>
+    <fields>
+        <label><!-- Currency --></label>
+        <name>zkmulti__Currency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Address Is Residential --></label>
+        <name>zkmulti__Is_Residential__c</name>
+    </fields>
+    <fields>
+        <label><!-- UTC Time --></label>
+        <name>zkmulti__Is_UTC_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location Station Id --></label>
+        <name>zkmulti__Location_Station_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mod Key --></label>
+        <name>zkmulti__Mod_Key__c</name>
+    </fields>
+    <fields>
+        <label><!-- Package Count --></label>
+        <name>zkmulti__Package_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Package Location --></label>
+        <name>zkmulti__Package_Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Package Type --></label>
+        <name>zkmulti__Package_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pickup Cancelled --></label>
+        <name>zkmulti__Pickup_Cancelled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pickup Number --></label>
+        <name>zkmulti__Pickup_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pickup Processing Completed --></label>
+        <name>zkmulti__Pickup_Processing_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pickup Service Category --></label>
+        <name>zkmulti__Pickup_Service_Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipmate Preference --></label>
+        <name>zkmulti__Preference__c</name>
+        <relationshipLabel><!-- Pickups --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Ready Time --></label>
+        <name>zkmulti__Ready_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recipient Country --></label>
+        <name>zkmulti__Recipient_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference Number --></label>
+        <name>zkmulti__Reference_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Date --></label>
+        <name>zkmulti__Service_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Type --></label>
+        <name>zkmulti__Service_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>zkmulti__State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>zkmulti__Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Street --></label>
+        <name>zkmulti__Street__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Surcharges --></label>
+        <name>zkmulti__Total_Surcharges__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Taxes --></label>
+        <name>zkmulti__Total_Taxes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Weight Units --></label>
+        <name>zkmulti__Weight_Units__c</name>
+    </fields>
+    <fields>
+        <label><!-- Weight --></label>
+        <name>zkmulti__Weight__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zip/Postal Code --></label>
+        <name>zkmulti__Zip_Postal_Code__c</name>
+    </fields>
+    <layouts>
+        <layout>Multi Carrier Pickup Layout</layout>
+        <sections>
+            <label><!-- Charges --></label>
+            <section>Charges</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Packages --></label>
+            <section>Packages</section>
+        </sections>
+        <sections>
+            <label><!-- Payment and Reference Number --></label>
+            <section>Payment and Reference Number</section>
+        </sections>
+        <sections>
+            <label><!-- Pickup Date and Time --></label>
+            <section>Pickup Date and Time</section>
+        </sections>
+        <sections>
+            <label><!-- Pickup Information &amp; Location --></label>
+            <section>Pickup Information &amp; Location</section>
+        </sections>
+        <sections>
+            <label><!-- Pickup Status --></label>
+            <section>Pickup Status</section>
+        </sections>
+        <sections>
+            <label><!-- Special Information --></label>
+            <section>Special Information</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Cancel_Pickup --></label>
+        <name>zkmulti__Cancel_Pickup</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Check_Pickup_Status --></label>
+        <name>zkmulti__Check_Pickup_Status</name>
+    </webLinks>
+</CustomObjectTranslation>

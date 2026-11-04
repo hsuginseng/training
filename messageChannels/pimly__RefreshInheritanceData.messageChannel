@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>refreshes the inheritance model page when data is updated</description>
+    <isExposed>true</isExposed>
+    <lightningMessageFields>
+        <description>id of the record causing the refresh</description>
+        <fieldName>sourceid</fieldName>
+    </lightningMessageFields>
+    <masterLabel>RefreshInheritanceData</masterLabel>
+</LightningMessageChannel>

@@ -1,0 +1,15 @@
+<template>
+	<div class="grid">
+		<template for:each={articles} for:item="article">
+			<c-home-difference-card
+				key={article.id}
+				image-url={article.imageUrl}
+				image-alt={article.imageAlt}
+				title={article.title}
+				desc={article.desc}
+				cta-text={article.ctaText}
+				cta-url={article.ctaUrl}
+			></c-home-difference-card>
+		</template>
+	</div>
+</template>

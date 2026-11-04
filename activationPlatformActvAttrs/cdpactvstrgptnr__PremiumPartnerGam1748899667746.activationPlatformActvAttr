@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ActivationPlatformActvAttr xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activationPlatform>cdpactvstrgptnr__PremiumPartnerGam</activationPlatform>
+    <applyHash>false</applyHash>
+    <destinationName>PPID</destinationName>
+    <fieldName>ID</fieldName>
+    <isFromSourceObject>false</isFromSourceObject>
+    <isIdentifier>false</isIdentifier>
+    <isRequired>true</isRequired>
+    <masterLabel>PublisherProvidedId</masterLabel>
+    <objectName>Individual</objectName>
+</ActivationPlatformActvAttr>

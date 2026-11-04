@@ -1,0 +1,20 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "TheCompany-AboutUs",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "attributes" : {
+          "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCNUI3DZI2GJB3HC4NEA7SHIXR7Y?lastModifiedDate=Wed Mar 11 15:48:46 GMT 2026\",\"altText\":\"\",\"contentKey\":\"MCNUI3DZI2GJB3HC4NEA7SHIXR7Y\",\"contentType\":null}}"
+        },
+        "id" : "f49b2d83-a70a-4897-8bfb-b4d6a3b9cab7"
+      }, {
+        "id" : "db70e5c6-9a24-4302-bd91-239808712516",
+        "attributes" : {
+          "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCEXLBNFUKO5FRBEG4I42B25YVIM?lastModifiedDate=Wed Mar 11 15:46:51 GMT 2026\",\"altText\":\"\",\"contentKey\":\"MCEXLBNFUKO5FRBEG4I42B25YVIM\",\"contentType\":null}}"
+        }
+      } ]
+    }
+  },
+  "urlName" : "thecompany-aboutus"
+}

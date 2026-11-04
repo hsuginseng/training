@@ -1,0 +1,95 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Register",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "1440px",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"291145d8-5432-4ac9-9ebd-7a603c44a5e6\",\"columns\":[{\"UUID\":\"09946cda-02fd-4db4-af8f-e7cb32628c7a\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : { },
+                "imageInfo" : "",
+                "imageInfoMobile" : "",
+                "logoWidth" : 250
+              },
+              "definition" : "dxp_content_layout:siteLogo",
+              "id" : "85e9563e-e5ca-4634-9626-1a264f418ae8",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "alreadyHaveAccountLabel" : "Already have an account?",
+                "birthdayLabel" : "Birthday",
+                "confirmPasswordLabel" : "Confirm Password",
+                "createPasswordLabel" : "Create Password",
+                "dxpStyle" : { },
+                "emailLabel" : "Email",
+                "firstNameLabel" : "First Name",
+                "lastNameLabel" : "Last Name",
+                "phoneCountryCodeLabel" : "Phone Country Code",
+                "phoneLabel" : "Phone Number",
+                "preferredLanguageLabel" : "Preferred Language",
+                "redirectToHomeURL" : "https://shop.hsuginseng.com/",
+                "referralCodeLabel" : "Referral Code",
+                "signUpLabel" : "Sign Up"
+              },
+              "definition" : "c:selfRegistration",
+              "id" : "ceebea45-5444-4cf8-94c8-39f918743e85",
+              "type" : "component"
+            } ],
+            "id" : "09946cda-02fd-4db4-af8f-e7cb32628c7a",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "291145d8-5432-4ac9-9ebd-7a603c44a5e6",
+          "type" : "component"
+        } ],
+        "id" : "a92a4ec4-2da4-45a7-8eb0-ee7fdf38cb76",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "Register",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "bb4dab66-80a8-4eb6-a864-6a84c4147017",
+          "type" : "component"
+        } ],
+        "id" : "d17dd2a7-6ecc-413b-b1d9-87c30d26b32e",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "1326f309-8b71-4792-8d0b-f166095c2e4e",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "External",
+    "viewType" : "self-register"
+  },
+  "urlName" : "register"
+}

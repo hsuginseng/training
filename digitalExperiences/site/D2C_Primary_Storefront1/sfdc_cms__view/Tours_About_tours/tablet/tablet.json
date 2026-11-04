@@ -1,0 +1,23 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Tours-About tours",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "attributes" : {
+          "dxpStyle" : {
+            "isVisible" : false,
+            "padding" : {
+              "bottom" : "80px",
+              "left" : "80px",
+              "right" : "80px",
+              "top" : "120px"
+            }
+          }
+        },
+        "id" : "9bb9b939-cb34-4912-a370-a4052ea9d3f5"
+      } ]
+    }
+  },
+  "urlName" : "tours-about-tours"
+}

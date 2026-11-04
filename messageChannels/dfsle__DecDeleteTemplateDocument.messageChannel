@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Handles deletion of template documents in Envelope Templates</description>
+    <isExposed>true</isExposed>
+    <lightningMessageFields>
+        <description>ID corresponding to content document of envelope configuration document</description>
+        <fieldName>contentDocumentId</fieldName>
+    </lightningMessageFields>
+    <lightningMessageFields>
+        <description>Index of document in configuration data to indicate which one to remove</description>
+        <fieldName>index</fieldName>
+    </lightningMessageFields>
+    <masterLabel>DecDeleteTemplateDocument</masterLabel>
+</LightningMessageChannel>

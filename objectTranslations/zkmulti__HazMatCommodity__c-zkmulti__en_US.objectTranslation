@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>HazMat Commodity (Deprecated)</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>HazMat Commodities (Deprecated)</value>
+    </caseValues>
+    <fields>
+        <label><!-- Hazard Class --></label>
+        <name>zkmulti__HazardClass__c</name>
+    </fields>
+    <fields>
+        <help><!-- Identifies DOT packing group for a hazardous commodity --></help>
+        <label><!-- Packing Group --></label>
+        <name>zkmulti__PackingGroup__c</name>
+        <picklistValues>
+            <masterLabel>DEFAULT</masterLabel>
+            <translation><!-- DEFAULT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I</masterLabel>
+            <translation><!-- I --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>II</masterLabel>
+            <translation><!-- II --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>III</masterLabel>
+            <translation><!-- III --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Proper Shipping Name --></label>
+        <name>zkmulti__ProperShippingName__c</name>
+    </fields>
+    <fields>
+        <help><!-- Units by which the hazardous commodity is measured. For IATA commodity, the units values are restricted based on regulation type --></help>
+        <label><!-- Quantity Amount Units --></label>
+        <name>zkmulti__QuantityAmountUnits__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of units, in the units specified by the Quantity Amount Units --></help>
+        <label><!-- Quantity Amount --></label>
+        <name>zkmulti__QuantityAmount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Regulatory identifier for a commodity (e.g. &quot;UN ID&quot; value) --></help>
+        <label><!-- Regulatory ID --></label>
+        <name>zkmulti__RegulatoryId__c</name>
+    </fields>
+    <layouts>
+        <layout>FedEx HazMat Commodity Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Quantity --></label>
+            <section>Quantity</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

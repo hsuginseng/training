@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>インストールされているパッケージのバージョン</value>
+    </caseValues>
+    <fields>
+        <label>環境</label>
+        <name>copado__Environment__c</name>
+        <relationshipLabel>インストール済パッケージバージョン</relationshipLabel>
+    </fields>
+    <fields>
+        <label>パッケージバージョン</label>
+        <name>copado__Package_Version__c</name>
+        <relationshipLabel>インストール済パッケージバージョン</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ステータス</label>
+        <name>copado__Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uninstalled</masterLabel>
+            <translation><!-- Uninstalled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upgraded</masterLabel>
+            <translation><!-- Upgraded --></translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel>名</nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,9 @@
+The following contact us submission has been recorded from the D2C English Site:
+
+Full Name:  {!Lead.Name}
+Email: {!Lead.Email}
+Phone: {!Lead.Phone}
+Subject: {!Lead.Subject__c}
+Description: {!Lead.Description}
+
+Click on the link to access the lead directly:  {!Lead.Link}

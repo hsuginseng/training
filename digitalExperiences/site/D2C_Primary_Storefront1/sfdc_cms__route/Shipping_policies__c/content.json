@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Shipping Policies",
+  "contentBody" : {
+    "activeViewId" : "Shipping_Policies",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-shipping-policies",
+    "urlPrefix" : "shipping-policies"
+  },
+  "urlName" : "shipping-policies"
+}

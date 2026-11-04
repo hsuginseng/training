@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Our Story",
+  "contentBody" : {
+    "activeViewId" : "TheCompany_AboutUs",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-thecompany-aboutus",
+    "urlPrefix" : "OurStory"
+  },
+  "urlName" : "thecompany-aboutus"
+}

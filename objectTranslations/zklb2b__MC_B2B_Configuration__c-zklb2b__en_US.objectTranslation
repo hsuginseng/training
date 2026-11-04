@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>MC B2B Configuration</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>MC B2B Configurations</value>
+    </caseValues>
+    <fields>
+        <label><!-- Disabled --></label>
+        <name>zklb2b__Disabled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Index --></label>
+        <name>zklb2b__Index__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Custom --></label>
+        <name>zklb2b__Is_Custom__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Default --></label>
+        <name>zklb2b__Is_Default__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Time Field --></label>
+        <name>zklb2b__Lead_Time_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rate CAS Id --></label>
+        <name>zklb2b__Rate_CAS_Id__c</name>
+        <relationshipLabel><!-- MC B2B Configurations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Rate Cart Field --></label>
+        <name>zklb2b__Rate_Cart_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rate Cart Field (Cart Delivery Group) --></label>
+        <name>zklb2b__Rate_Cart_Group_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rate Integration Api Class --></label>
+        <name>zklb2b__Rate_Integration_Api_Class__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rate Option Format --></label>
+        <name>zklb2b__Rate_Option_Format__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rate Result Format --></label>
+        <name>zklb2b__Rate_Result_Format__c</name>
+    </fields>
+    <fields>
+        <label><!-- Return CAS Id --></label>
+        <name>zklb2b__Return_CAS_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Product Id --></label>
+        <name>zklb2b__Shipping_Product_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show Error In Rate Options --></label>
+        <name>zklb2b__Show_Error_In_Rate_Options__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show Fall Back If Error --></label>
+        <name>zklb2b__Show_Fall_Back_If_Error__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sort Rates Type --></label>
+        <name>zklb2b__Sort_Rates_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tracking Number Field --></label>
+        <name>zklb2b__Tracking_Number_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tracking Stage Field --></label>
+        <name>zklb2b__Tracking_Stage_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>zklb2b__Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unique Postfix --></label>
+        <name>zklb2b__Unique_Postfix__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

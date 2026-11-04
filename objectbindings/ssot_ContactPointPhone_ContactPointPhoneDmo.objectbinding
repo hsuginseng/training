@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectBinding xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <implementationField>ssot__ContactPointPhone__dlm.ssot__CreatedDate__c</implementationField>
+        <interfaceField>ContactPointPhoneDmo.CreatedDate</interfaceField>
+    </fields>
+    <fields>
+        <implementationField>ssot__ContactPointPhone__dlm.ssot__ForBusinessUse__c</implementationField>
+        <interfaceField>ContactPointPhoneDmo.ForBusinessUse</interfaceField>
+    </fields>
+    <fields>
+        <implementationField>ssot__ContactPointPhone__dlm.ssot__ForPersonalUse__c</implementationField>
+        <interfaceField>ContactPointPhoneDmo.ForPersonalUse</interfaceField>
+    </fields>
+    <fields>
+        <implementationField>ssot__ContactPointPhone__dlm.ssot__LastModifiedDate__c</implementationField>
+        <interfaceField>ContactPointPhoneDmo.LastModifiedDate</interfaceField>
+    </fields>
+    <implementationObject>ssot__ContactPointPhone__dlm</implementationObject>
+    <interfaceObject>ContactPointPhoneDmo</interfaceObject>
+    <masterLabel>ssot__ContactPointPhone</masterLabel>
+</CustomObjectBinding>

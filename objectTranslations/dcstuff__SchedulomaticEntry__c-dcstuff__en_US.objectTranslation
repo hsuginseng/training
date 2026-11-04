@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Schedul-o-matic Entry</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Schedul-o-matic Entriess</value>
+    </caseValues>
+    <fields>
+        <label><!-- Anonymous Code --></label>
+        <name>dcstuff__AnonymousCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Async Apex Job Id --></label>
+        <name>dcstuff__AsyncApexJobId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Batch Size --></label>
+        <name>dcstuff__BatchSize__c</name>
+    </fields>
+    <fields>
+        <label><!-- Class --></label>
+        <name>dcstuff__Class__c</name>
+    </fields>
+    <fields>
+        <label><!-- Daily End --></label>
+        <name>dcstuff__DailyEnd__c</name>
+    </fields>
+    <fields>
+        <label><!-- Daily Start Date &amp; Time --></label>
+        <name>dcstuff__DailyStartDateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- End --></label>
+        <name>dcstuff__End__c</name>
+    </fields>
+    <fields>
+        <label><!-- Execution Error --></label>
+        <name>dcstuff__ExecutionError__c</name>
+    </fields>
+    <fields>
+        <label><!-- Flow --></label>
+        <name>dcstuff__Flow__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Batchable --></label>
+        <name>dcstuff__IsBatchable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Daily --></label>
+        <name>dcstuff__IsDaily__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Schedulable --></label>
+        <name>dcstuff__IsSchedulable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Executions --></label>
+        <name>dcstuff__NumberOfExecutions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Repeat Interval --></label>
+        <name>dcstuff__RepeatInterval__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reschedule Interval --></label>
+        <name>dcstuff__RescheduleInterval__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start --></label>
+        <name>dcstuff__Start__c</name>
+    </fields>
+    <layouts>
+        <layout>Schedul-o-matic Entry Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Batch size must be blank (to use the Salesforce default) or a positive whole number. --></errorMessage>
+        <name>dcstuff__Batch_size_valid</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The start date &amp; time must be before the final end date. --></errorMessage>
+        <name>dcstuff__Daily_end_date_valid</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The start date &amp; time must be before the end date &amp; time. --></errorMessage>
+        <name>dcstuff__End_date_time_valid</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- An entry must include either a class, a flow, or an anonymous code block. --></errorMessage>
+        <name>dcstuff__Is_Class_Flow_or_Code</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A class must be either batchable or schedulable. --></errorMessage>
+        <name>dcstuff__Is_Class_and_Batchable_or_Schedulable</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Repeat interval must either be left empty (to run once) or a positive whole number. --></errorMessage>
+        <name>dcstuff__Repeat_interval_valid</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Reschedule interval must be a positive whole number. --></errorMessage>
+        <name>dcstuff__Reschedule_interval_valid</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- An entry must have a start date and time. --></errorMessage>
+        <name>dcstuff__Start_date_time_valid</name>
+    </validationRules>
+</CustomObjectTranslation>

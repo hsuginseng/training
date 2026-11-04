@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Internal notification for new form submissions</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>D2C English: Tour Submission</name>
+    <style>none</style>
+    <subject>New Form Submission: {!Lead.Name}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

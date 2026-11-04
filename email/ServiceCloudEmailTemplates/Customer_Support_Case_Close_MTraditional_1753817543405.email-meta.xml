@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Auto-response on Customer Support Case closed</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Customer Support Case Close (MTraditional)</name>
+    <pageDevName>Customer_Support_Case_Close_MTraditional</pageDevName>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>Your Request Has Been Resolved</subject>
+    <textOnly>Case #: {{{Case.CaseNumber}}}
+
+Subject: {{{Case.Subject}}}
+
+Issue Description: {{{Case.Issue_Description__c}}}
+
+-----------------------------------------------------
+
+{{{Case.First_Name__c}}}，感謝您的聯繫！
+
+您的客服案件 {{{Case.CaseNumber}}} 已處理完成。
+
+希望這次的服務讓您滿意。如果您還有其他問題或需要進一步協助，歡迎隨時與我們聯絡，我們很樂意為您服務！
+
+此致，
+
+許氏客服部
+
+Hsu&apos;s Ginseng Enterprises, Inc.
+
+📌是訂單相關問題嗎？
+
+如果您要查詢現有訂單，請記得提供訂單號，我們能更快為您服務喔！
+
+**
+----------------------------------------------------
+
+📞聯絡方式：
+
+電話： (715) 675-2325 / (1800) 826-1577
+
+Email：support@hsuginseng.com
+
+網站：www.hsuginseng.com &lt; http://www.hsuginseng.com &gt; 
+
+**
+----------------------------------------------------
+
+🕒客服時間：
+
+週一至週五（國定假日除外）
+
+早上 8:30 至 下午 5:00 （美中時間）</textOnly>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

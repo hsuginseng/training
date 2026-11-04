@@ -1,0 +1,18 @@
+<template>
+	<div class="pagination">
+		<button class="pagination-prev" onclick={handleClickPreviousButton} disabled={previousButtonDisabled}>{actionLabelPreviousPage}</button>
+		<template for:each={paginationItems} for:item="page">
+			<template lwc:if={page.enabled}>
+				<button key={page.value} data-index={page.value} class={page.styling} onclick={handleClickPageNumber}>{page.label}</button>
+			</template>
+		</template>
+		<button class="pagination-next" onclick={handleClickNextButton} disabled={nextButtonDisabled}>{actionLabelNextPage}</button>
+		<!-- 
+		<button class="pagination-page current">1</button>
+		<button class="pagination-page">2</button>
+		<button class="pagination-page">3</button>
+		<div class="pagination-spacer">...</div>
+		<button class="pagination-page">20</button>
+		 -->
+	</div>
+</template>

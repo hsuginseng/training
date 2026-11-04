@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Consolidation</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Consolidations</value>
+    </caseValues>
+    <fields>
+        <label><!-- Billing Account Number --></label>
+        <name>zkmulti__Billing_Account_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Country --></label>
+        <name>zkmulti__Billing_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Zip Postal Code --></label>
+        <name>zkmulti__Billing_Zip_Postal_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Clearance Facility Location Id --></label>
+        <name>zkmulti__Clearance_Facility_Location_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consolidation Index --></label>
+        <name>zkmulti__Consolidation_Index__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consolidation Status --></label>
+        <name>zkmulti__Consolidation_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consolidation Type --></label>
+        <name>zkmulti__Consolidation_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Currency --></label>
+        <name>zkmulti__Currency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deleted --></label>
+        <name>zkmulti__Deleted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dimension Units --></label>
+        <name>zkmulti__Dimension_Units__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dropoff Type --></label>
+        <name>zkmulti__Dropoff_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Form Id --></label>
+        <name>zkmulti__Form_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Id --></label>
+        <name>zkmulti__Job_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Label Image Type --></label>
+        <name>zkmulti__Label_Image_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Master Shipment --></label>
+        <name>zkmulti__MasterShipment__c</name>
+        <relationshipLabel><!-- Consolidations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Outbound Delivered --></label>
+        <name>zkmulti__Outbound_Delivered__c</name>
+    </fields>
+    <fields>
+        <label><!-- Outbound Tracking Stage --></label>
+        <name>zkmulti__Outbound_Tracking_Stage__c</name>
+        <picklistValues>
+            <masterLabel>Delivered</masterLabel>
+            <translation><!-- Delivered --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exception</masterLabel>
+            <translation><!-- Exception --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Transit</masterLabel>
+            <translation><!-- In Transit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Out for Delivery</masterLabel>
+            <translation><!-- Out for Delivery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Picked Up</masterLabel>
+            <translation><!-- Picked Up --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Payment Type --></label>
+        <name>zkmulti__Payment_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Preference --></label>
+        <name>zkmulti__Preference__c</name>
+        <relationshipLabel><!-- Consolidations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Recipient Account --></label>
+        <name>zkmulti__Recipient_Account__c</name>
+        <relationshipLabel><!-- Consolidations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Recipient Address is Residential --></label>
+        <name>zkmulti__Recipient_Address_is_Residential__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recipient City --></label>
+        <name>zkmulti__Recipient_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recipient Company --></label>
+        <name>zkmulti__Recipient_Company__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recipient Contact --></label>
+        <name>zkmulti__Recipient_Contact__c</name>
+        <relationshipLabel><!-- Consolidations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Recipient Country --></label>
+        <name>zkmulti__Recipient_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recipient Email --></label>
+        <name>zkmulti__Recipient_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recipient Lead --></label>
+        <name>zkmulti__Recipient_Lead__c</name>
+        <relationshipLabel><!-- Consolidations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Recipient Name --></label>
+        <name>zkmulti__Recipient_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recipient Opportunity --></label>
+        <name>zkmulti__Recipient_Opportunity__c</name>
+        <relationshipLabel><!-- Consolidations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Recipient Phone --></label>
+        <name>zkmulti__Recipient_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recipient State/Province --></label>
+        <name>zkmulti__Recipient_State_Province__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recipient Street --></label>
+        <name>zkmulti__Recipient_Street__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recipient Tax ID Type --></label>
+        <name>zkmulti__Recipient_Tax_ID_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recipient Tax ID --></label>
+        <name>zkmulti__Recipient_Tax_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recipient Zip/Postal Code --></label>
+        <name>zkmulti__Recipient_Zip_Postal_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Return Delivered --></label>
+        <name>zkmulti__Return_Delivered__c</name>
+    </fields>
+    <fields>
+        <label><!-- Return Tracking Stage --></label>
+        <name>zkmulti__Return_Tracking_Stage__c</name>
+        <picklistValues>
+            <masterLabel>Delivered</masterLabel>
+            <translation><!-- Delivered --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exception</masterLabel>
+            <translation><!-- Exception --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Transit</masterLabel>
+            <translation><!-- In Transit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Out for Delivery</masterLabel>
+            <translation><!-- Out for Delivery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Picked Up</masterLabel>
+            <translation><!-- Picked Up --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sender Address is Residential --></label>
+        <name>zkmulti__Sender_Address_is_Residential__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender City --></label>
+        <name>zkmulti__Sender_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender Company --></label>
+        <name>zkmulti__Sender_Company__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender Country --></label>
+        <name>zkmulti__Sender_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender Email --></label>
+        <name>zkmulti__Sender_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender Name --></label>
+        <name>zkmulti__Sender_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender Phone --></label>
+        <name>zkmulti__Sender_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender State/Province --></label>
+        <name>zkmulti__Sender_State_Province__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender Street --></label>
+        <name>zkmulti__Sender_Street__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender Tax ID Type --></label>
+        <name>zkmulti__Sender_Tax_ID_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender Tax ID --></label>
+        <name>zkmulti__Sender_Tax_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender Zip/Postal Code --></label>
+        <name>zkmulti__Sender_Zip_Postal_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ship Date --></label>
+        <name>zkmulti__Ship_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>zkmulti__Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Height --></label>
+        <name>zkmulti__Total_Height__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Length --></label>
+        <name>zkmulti__Total_Length__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Width --></label>
+        <name>zkmulti__Total_Width__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tracking Id Type --></label>
+        <name>zkmulti__Tracking_Id_Type__c</name>
+    </fields>
+    <layouts>
+        <layout>Multi Package Shipment Layout</layout>
+        <sections>
+            <label><!-- Bliing --></label>
+            <section>Bliing</section>
+        </sections>
+        <sections>
+            <label><!-- Consolidation Info --></label>
+            <section>Consolidation Info</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Recipient --></label>
+            <section>Recipient</section>
+        </sections>
+        <sections>
+            <label><!-- Referenced Standard Objects --></label>
+            <section>Referenced Standard Objects</section>
+        </sections>
+        <sections>
+            <label><!-- Sender --></label>
+            <section>Sender</section>
+        </sections>
+        <sections>
+            <label><!-- Tracking Information --></label>
+            <section>Tracking Information</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Consolidation --></label>
+        <name>zkmulti__Consolidation</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Multi Package --></label>
+        <name>zkmulti__MultiPackage</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Outbound And Return --></label>
+        <name>zkmulti__Outbound_And_Return</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Cancel_Consolidation --></label>
+        <name>zkmulti__Cancel_Consolidation</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Print_Labels_and_Documents --></label>
+        <name>zkmulti__Print_Labels_and_Documents</name>
+    </webLinks>
+</CustomObjectTranslation>

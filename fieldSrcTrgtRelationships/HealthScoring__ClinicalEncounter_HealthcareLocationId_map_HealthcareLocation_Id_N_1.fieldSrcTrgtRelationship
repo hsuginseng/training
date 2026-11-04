@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FieldSrcTrgtRelationship xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <definitionCreationType>Standard</definitionCreationType>
+    <lookupFieldName>HealthScoring__ClinicalEncounter__dlm.HealthScoring__rel_1697766992885_end__c</lookupFieldName>
+    <masterLabel>ClinicalEncounter_HealthcareLocationId_map_HealthcareLocation_Id_N_1</masterLabel>
+    <owner>DataCloud</owner>
+    <relationshipCardinality>ManyToOne</relationshipCardinality>
+    <sourceFieldName>HealthScoring__ClinicalEncounter__dlm.HealthScoring__HealthcareLocationId__c</sourceFieldName>
+    <targetEntity xsi:nil="true"/>
+    <targetFieldName>HealthScoring__HealthcareLocation__dlm.HealthScoring__Id__c</targetFieldName>
+</FieldSrcTrgtRelationship>

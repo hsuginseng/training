@@ -1,0 +1,3805 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Add</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Add</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Add</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>PreviewProductAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>PreviewProductAction</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>PreviewProductAction</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override updated by Lightning App Builder during activation.</comment>
+        <content>Product_Record_Page1</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override updated by Lightning App Builder during activation.</comment>
+        <content>Pimly_Product_Page1</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableDataTranslation>true</enableDataTranslation>
+    <enableFeeds>false</enableFeeds>
+    <externalSharingModel>Read</externalSharingModel>
+    <fieldSets>
+        <fullName>AVA_MAPPER__HS_Attributes</fullName>
+        <description>NA</description>
+        <label>HS Attributes</label>
+    </fieldSets>
+    <fields>
+        <fullName>AVA_B2BLEX__CountryOfManufacture__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Country Of Manufacture</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AVA_B2BLEX__HeightUOMCode__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Height UOM Code</label>
+        <length>20</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AVA_B2BLEX__HeightValue__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Height Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AVA_B2BLEX__HsCode__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>The harmonized system code applicable for the product used by customs authorities to calculate tariff rates for internationally traded goods.</inlineHelpText>
+        <label>Hs Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AVA_B2BLEX__IsPreferredProgram__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Is Preferred Program</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>AVA_B2BLEX__LengthUOMCode__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Length UOM Code</label>
+        <length>20</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AVA_B2BLEX__LengthValue__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Length Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AVA_B2BLEX__NetWeightUOMCode__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Net Weight UOM Code</label>
+        <length>20</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AVA_B2BLEX__NetWeightValue__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Net Weight Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AVA_B2BLEX__Product_Category__c</fullName>
+        <deprecated>false</deprecated>
+        <inlineHelpText>This custom field is from the AvaTax.</inlineHelpText>
+        <label>Product Category</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>AVA_B2BLEX__TaxCode__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Tax Code</label>
+        <length>25</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AVA_B2BLEX__UPC__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>UPC</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AVA_B2BLEX__WidthUOMCode__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Width UOM Code</label>
+        <length>20</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AVA_B2BLEX__WidthValue__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Width Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AVA_MAPPER__Auto_Classify__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <inlineHelpText>If checked, it classifies the product for US region automatically through scheduler.</inlineHelpText>
+        <label>Enable automated HS Code classification</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>AVA_MAPPER__HS_Code_Auto__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>It stores the designated HS classification code specific to the United States region.</inlineHelpText>
+        <label>HS Code classification (automated)</label>
+        <length>12</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AVA_MAPPER__HS_Status_Message__c</fullName>
+        <deprecated>false</deprecated>
+        <label>HS Code classification status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Age_Populated__c</fullName>
+        <formula>NOT(ISBLANK(TEXT(Age__c)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Age (Populated)</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Age__c</fullName>
+        <label>Age</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1 Year</fullName>
+                    <default>false</default>
+                    <label>1 Year</label>
+                </value>
+                <value>
+                    <fullName>5 Years</fullName>
+                    <default>false</default>
+                    <label>5 Years</label>
+                </value>
+                <value>
+                    <fullName>10+ Years</fullName>
+                    <default>false</default>
+                    <label>10+ Years</label>
+                </value>
+                <value>
+                    <fullName>50 Years</fullName>
+                    <default>false</default>
+                    <label>50 Years</label>
+                </value>
+                <value>
+                    <fullName>48 Years</fullName>
+                    <default>false</default>
+                    <label>48 Years</label>
+                </value>
+                <value>
+                    <fullName>60 Years</fullName>
+                    <default>false</default>
+                    <label>60 Years</label>
+                </value>
+                <value>
+                    <fullName>58 Years</fullName>
+                    <default>false</default>
+                    <label>58 Years</label>
+                </value>
+                <value>
+                    <fullName>70 Years</fullName>
+                    <default>false</default>
+                    <label>70 Years</label>
+                </value>
+                <value>
+                    <fullName>NA</fullName>
+                    <default>false</default>
+                    <label>NA</label>
+                </value>
+                <value>
+                    <fullName>30-50 Years</fullName>
+                    <default>false</default>
+                    <label>30-50 Years</label>
+                </value>
+                <value>
+                    <fullName>20-30 Years</fullName>
+                    <default>false</default>
+                    <label>20-30 Years</label>
+                </value>
+                <value>
+                    <fullName>10-20 Years</fullName>
+                    <default>false</default>
+                    <label>10-20 Years</label>
+                </value>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>AvailabilityDate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>BasedOnId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Brand_Populated__c</fullName>
+        <formula>NOT(ISBLANK(TEXT(Brand__c)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Brand (Populated)</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Brand__c</fullName>
+        <label>Brand</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Hsu&apos;s Ginseng</fullName>
+                    <default>false</default>
+                    <label>Hsu&apos;s Ginseng</label>
+                </value>
+                <value>
+                    <fullName>Daedong</fullName>
+                    <default>false</default>
+                    <label>Daedong</label>
+                </value>
+                <value>
+                    <fullName>Hsu&apos;s Ginseng Enterprises, Inc.</fullName>
+                    <default>false</default>
+                    <label>Hsu&apos;s Ginseng Enterprises, Inc.</label>
+                </value>
+                <value>
+                    <fullName>King Kung Health Food Co.,Ltd.</fullName>
+                    <default>false</default>
+                    <label>King Kung Health Food Co.,Ltd.</label>
+                </value>
+                <value>
+                    <fullName>Ohealth</fullName>
+                    <default>false</default>
+                    <label>Ohealth</label>
+                </value>
+                <value>
+                    <fullName>Guanxi Farmer&apos;s Association</fullName>
+                    <default>false</default>
+                    <label>Guanxi Farmer&apos;s Association</label>
+                </value>
+                <value>
+                    <fullName>FINE Japan</fullName>
+                    <default>false</default>
+                    <label>FINE Japan</label>
+                </value>
+                <value>
+                    <fullName>HaiTai</fullName>
+                    <default>false</default>
+                    <label>HaiTai</label>
+                </value>
+                <value>
+                    <fullName>Hsin Tung Yang</fullName>
+                    <default>false</default>
+                    <label>Hsin Tung Yang</label>
+                </value>
+                <value>
+                    <fullName>Japan F Labo Co., Ltd.</fullName>
+                    <default>false</default>
+                    <label>Japan F Labo Co., Ltd.</label>
+                </value>
+                <value>
+                    <fullName>I MEI</fullName>
+                    <default>false</default>
+                    <label>I MEI</label>
+                </value>
+                <value>
+                    <fullName>CHIMEI</fullName>
+                    <default>false</default>
+                    <label>CHIMEI</label>
+                </value>
+                <value>
+                    <fullName>Modern Foods Inc.</fullName>
+                    <default>false</default>
+                    <label>Modern Foods Inc.</label>
+                </value>
+                <value>
+                    <fullName>Kawai</fullName>
+                    <default>false</default>
+                    <label>Kawai</label>
+                </value>
+                <value>
+                    <fullName>Lingzhi General Institute Co., LTD</fullName>
+                    <default>false</default>
+                    <label>Lingzhi General Institute Co., LTD</label>
+                </value>
+                <value>
+                    <fullName>Golden Dragon</fullName>
+                    <default>false</default>
+                    <label>Golden Dragon</label>
+                </value>
+                <value>
+                    <fullName>Capitan Jiang</fullName>
+                    <default>false</default>
+                    <label>Capitan Jiang</label>
+                </value>
+                <value>
+                    <fullName>Su Wall</fullName>
+                    <default>false</default>
+                    <label>Su Wall</label>
+                </value>
+                <value>
+                    <fullName>RuYi</fullName>
+                    <default>false</default>
+                    <label>RuYi</label>
+                </value>
+                <value>
+                    <fullName>Youns Zen</fullName>
+                    <default>false</default>
+                    <label>Youns Zen</label>
+                </value>
+                <value>
+                    <fullName>Six Fortune</fullName>
+                    <default>false</default>
+                    <label>Six Fortune</label>
+                </value>
+                <value>
+                    <fullName>Cherry Grandfather</fullName>
+                    <default>false</default>
+                    <label>Cherry Grandfather</label>
+                </value>
+                <value>
+                    <fullName>SesaOle</fullName>
+                    <default>false</default>
+                    <label>SesaOle</label>
+                </value>
+                <value>
+                    <fullName>Vigoway</fullName>
+                    <default>false</default>
+                    <label>Vigoway</label>
+                </value>
+                <value>
+                    <fullName>Kung Fu</fullName>
+                    <default>false</default>
+                    <label>Kung Fu</label>
+                </value>
+                <value>
+                    <fullName>Village</fullName>
+                    <default>false</default>
+                    <label>Village</label>
+                </value>
+                <value>
+                    <fullName>Kiki</fullName>
+                    <default>false</default>
+                    <label>Kiki</label>
+                </value>
+                <value>
+                    <fullName>Tatung</fullName>
+                    <default>false</default>
+                    <label>Tatung</label>
+                </value>
+                <value>
+                    <fullName>Zojirushi</fullName>
+                    <default>false</default>
+                    <label>Zojirushi</label>
+                </value>
+                <value>
+                    <fullName>Narita</fullName>
+                    <default>false</default>
+                    <label>Narita</label>
+                </value>
+                <value>
+                    <fullName>TenFu</fullName>
+                    <default>false</default>
+                    <label>TenFu</label>
+                </value>
+                <value>
+                    <fullName>Hoyu Bigen</fullName>
+                    <default>false</default>
+                    <label>Hoyu Bigen</label>
+                </value>
+                <value>
+                    <fullName>Neogence</fullName>
+                    <default>false</default>
+                    <label>Neogence</label>
+                </value>
+                <value>
+                    <fullName>As one wishes</fullName>
+                    <default>false</default>
+                    <label>As one wishes</label>
+                </value>
+                <value>
+                    <fullName>Yongzhen</fullName>
+                    <default>false</default>
+                    <label>Yongzhen</label>
+                </value>
+                <value>
+                    <fullName>Daedong Korean Ginseng Co., Ltd.</fullName>
+                    <default>false</default>
+                    <label>Daedong Korean Ginseng Co., Ltd.</label>
+                </value>
+                <value>
+                    <fullName>Captain Jiang</fullName>
+                    <default>false</default>
+                    <label>Captain Jiang</label>
+                </value>
+                <value>
+                    <fullName>Six Fortunes</fullName>
+                    <default>false</default>
+                    <label>Six Fortunes</label>
+                </value>
+                <value>
+                    <fullName>Director Tea Egg</fullName>
+                    <default>false</default>
+                    <label>Director Tea Egg</label>
+                </value>
+                <value>
+                    <fullName>Cherry Grandpa</fullName>
+                    <default>false</default>
+                    <label>Cherry Grandpa</label>
+                </value>
+                <value>
+                    <fullName>Basket</fullName>
+                    <default>false</default>
+                    <label>Basket</label>
+                </value>
+                <value>
+                    <fullName>Zhichu</fullName>
+                    <default>false</default>
+                    <label>Zhichu</label>
+                </value>
+                <value>
+                    <fullName>Didi Fresh</fullName>
+                    <default>false</default>
+                    <label>Didi Fresh</label>
+                </value>
+                <value>
+                    <fullName>Artisan Noodles</fullName>
+                    <default>false</default>
+                    <label>Artisan Noodles</label>
+                </value>
+                <value>
+                    <fullName>Xindongyang</fullName>
+                    <default>false</default>
+                    <label>Xindongyang</label>
+                </value>
+                <value>
+                    <fullName>Fuzhong Military Village Noodles</fullName>
+                    <default>false</default>
+                    <label>Fuzhong Military Village Noodles</label>
+                </value>
+                <value>
+                    <fullName>Datong</fullName>
+                    <default>false</default>
+                    <label>Datong</label>
+                </value>
+                <value>
+                    <fullName>Tianfu</fullName>
+                    <default>false</default>
+                    <label>Tianfu</label>
+                </value>
+                <value>
+                    <fullName>US Source</fullName>
+                    <default>false</default>
+                    <label>US Source</label>
+                </value>
+                <value>
+                    <fullName>BRAND&apos;s</fullName>
+                    <default>false</default>
+                    <label>BRAND&apos;s</label>
+                </value>
+                <value>
+                    <fullName>莲香楼</fullName>
+                    <default>false</default>
+                    <label>莲香楼</label>
+                </value>
+                <value>
+                    <fullName>荣华</fullName>
+                    <default>false</default>
+                    <label>荣华</label>
+                </value>
+                <value>
+                    <fullName>义美</fullName>
+                    <default>false</default>
+                    <label>义美</label>
+                </value>
+                <value>
+                    <fullName>蓮香樓</fullName>
+                    <default>false</default>
+                    <label>蓮香樓</label>
+                </value>
+                <value>
+                    <fullName>榮華</fullName>
+                    <default>false</default>
+                    <label>榮華</label>
+                </value>
+                <value>
+                    <fullName>義美</fullName>
+                    <default>false</default>
+                    <label>義美</label>
+                </value>
+                <value>
+                    <fullName>Lian Siang Lou</fullName>
+                    <default>false</default>
+                    <label>Lian Siang Lou</label>
+                </value>
+                <value>
+                    <fullName>Wing Wah</fullName>
+                    <default>false</default>
+                    <label>Wing Wah</label>
+                </value>
+                <value>
+                    <fullName>I-Mei</fullName>
+                    <default>false</default>
+                    <label>I-Mei</label>
+                </value>
+                <value>
+                    <fullName>Japan Kefia Co., Ltd.</fullName>
+                    <default>false</default>
+                    <label>Japan Kefia Co., Ltd.</label>
+                </value>
+                <value>
+                    <fullName>许氏花旗参</fullName>
+                    <default>false</default>
+                    <label>许氏花旗参</label>
+                </value>
+                <value>
+                    <fullName>天仁茗茶</fullName>
+                    <default>false</default>
+                    <label>天仁茗茶</label>
+                </value>
+                <value>
+                    <fullName>Tapped</fullName>
+                    <default>false</default>
+                    <label>Tapped</label>
+                </value>
+                <value>
+                    <fullName>TenRen Tea</fullName>
+                    <default>false</default>
+                    <label>TenRen Tea</label>
+                </value>
+                <value>
+                    <fullName>顺天堂</fullName>
+                    <default>false</default>
+                    <label>顺天堂</label>
+                </value>
+                <value>
+                    <fullName>Sun Ten Laboratories</fullName>
+                    <default>false</default>
+                    <label>Sun Ten Laboratories</label>
+                </value>
+                <value>
+                    <fullName>vytanutra</fullName>
+                    <default>false</default>
+                    <label>vytanutra</label>
+                </value>
+                <value>
+                    <fullName>順天堂</fullName>
+                    <default>false</default>
+                    <label>順天堂</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Capacity_Populated__c</fullName>
+        <formula>NOT(ISBLANK(TEXT(Capacity__c)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Capacity (Populated)</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Capacity__c</fullName>
+        <label>Capacity</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>11-Cup</fullName>
+                    <default>false</default>
+                    <label>11-Cup</label>
+                </value>
+                <value>
+                    <fullName>6-Cup</fullName>
+                    <default>false</default>
+                    <label>6-Cup</label>
+                </value>
+                <value>
+                    <fullName>10-Cup</fullName>
+                    <default>false</default>
+                    <label>10-Cup</label>
+                </value>
+                <value>
+                    <fullName>3-Cup</fullName>
+                    <default>false</default>
+                    <label>3-Cup</label>
+                </value>
+                <value>
+                    <fullName>5.5-Cup</fullName>
+                    <default>false</default>
+                    <label>5.5-Cup</label>
+                </value>
+                <value>
+                    <fullName>3 L</fullName>
+                    <default>false</default>
+                    <label>3 L</label>
+                </value>
+                <value>
+                    <fullName>4 L</fullName>
+                    <default>false</default>
+                    <label>4 L</label>
+                </value>
+                <value>
+                    <fullName>5 L</fullName>
+                    <default>false</default>
+                    <label>5 L</label>
+                </value>
+                <value>
+                    <fullName>5-Cup</fullName>
+                    <default>false</default>
+                    <label>5-Cup</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Category_Populated__c</fullName>
+        <formula>NOT(ISBLANK(Category__c))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Category (Populated)</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Category__c</fullName>
+        <label>Category</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <translateData>true</translateData>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Color_Populated__c</fullName>
+        <formula>NOT(ISBLANK(TEXT(Color__c)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Color (Populated)</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Color__c</fullName>
+        <label>Color</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Blue</fullName>
+                    <default>false</default>
+                    <label>Blue</label>
+                </value>
+                <value>
+                    <fullName>Green</fullName>
+                    <default>false</default>
+                    <label>Green</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ConfigureDuringSale</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Count_Populated__c</fullName>
+        <formula>NOT(ISBLANK(Count__c))</formula>
+        <label>Count (Populated)</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Count__c</fullName>
+        <externalId>false</externalId>
+        <label>Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <trackHistory>false</trackHistory>
+        <translateData>true</translateData>
+    </fields>
+    <fields>
+        <fullName>Description_Populated__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Description (Populated)</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Dimensions_Populated__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Dimensions (Populated)</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Dimensions__c</fullName>
+        <label>Dimensions</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <translateData>true</translateData>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Disclaimer_Populated__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Disclaimer (Populated)</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Disclaimer__c</fullName>
+        <label>Disclaimer</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <translateData>true</translateData>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>DiscontinuedDate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>DisplayUrl</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>EndOfLifeDate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>ExternalDataSourceId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ExternalId</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Family</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Flavor_Populated__c</fullName>
+        <formula>NOT(ISBLANK(TEXT(Flavor__c)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Flavor (Populated)</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Flavor__c</fullName>
+        <label>Flavor</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Rock Sugar</fullName>
+                    <default>false</default>
+                    <label>Rock Sugar</label>
+                </value>
+                <value>
+                    <fullName>American Ginseng &amp; Rock Sugar</fullName>
+                    <default>false</default>
+                    <label>American Ginseng &amp; Rock Sugar</label>
+                </value>
+                <value>
+                    <fullName>Sugar Free</fullName>
+                    <default>false</default>
+                    <label>Sugar Free</label>
+                </value>
+                <value>
+                    <fullName>Vegetarian Burdock</fullName>
+                    <default>false</default>
+                    <label>Vegetarian Burdock</label>
+                </value>
+                <value>
+                    <fullName>Vegetarian Pumpkin</fullName>
+                    <default>false</default>
+                    <label>Vegetarian Pumpkin</label>
+                </value>
+                <value>
+                    <fullName>Hericium Erinaceus</fullName>
+                    <default>false</default>
+                    <label>Hericium Erinaceus</label>
+                </value>
+                <value>
+                    <fullName>Vegetarian Nori Kelp</fullName>
+                    <default>false</default>
+                    <label>Vegetarian Nori Kelp</label>
+                </value>
+                <value>
+                    <fullName>Salted Egg Yolk Soy</fullName>
+                    <default>false</default>
+                    <label>Salted Egg Yolk Soy</label>
+                </value>
+                <value>
+                    <fullName>Dried Guava</fullName>
+                    <default>false</default>
+                    <label>Dried Guava</label>
+                </value>
+                <value>
+                    <fullName>Dried Pineapple</fullName>
+                    <default>false</default>
+                    <label>Dried Pineapple</label>
+                </value>
+                <value>
+                    <fullName>Dried Green Mango</fullName>
+                    <default>false</default>
+                    <label>Dried Green Mango</label>
+                </value>
+                <value>
+                    <fullName>Dried Mango</fullName>
+                    <default>false</default>
+                    <label>Dried Mango</label>
+                </value>
+                <value>
+                    <fullName>Dried Peach</fullName>
+                    <default>false</default>
+                    <label>Dried Peach</label>
+                </value>
+                <value>
+                    <fullName>Flaxseed</fullName>
+                    <default>false</default>
+                    <label>Flaxseed</label>
+                </value>
+                <value>
+                    <fullName>Egg Yolk</fullName>
+                    <default>false</default>
+                    <label>Egg Yolk</label>
+                </value>
+                <value>
+                    <fullName>Black Sesame</fullName>
+                    <default>false</default>
+                    <label>Black Sesame</label>
+                </value>
+                <value>
+                    <fullName>Red Quinoa</fullName>
+                    <default>false</default>
+                    <label>Red Quinoa</label>
+                </value>
+                <value>
+                    <fullName>Black Sesame Oil with Mashed Ginger</fullName>
+                    <default>false</default>
+                    <label>Black Sesame Oil with Mashed Ginger</label>
+                </value>
+                <value>
+                    <fullName>Goose Oil</fullName>
+                    <default>false</default>
+                    <label>Goose Oil</label>
+                </value>
+                <value>
+                    <fullName>Original</fullName>
+                    <default>false</default>
+                    <label>Original</label>
+                </value>
+                <value>
+                    <fullName>Spicy</fullName>
+                    <default>false</default>
+                    <label>Spicy</label>
+                </value>
+                <value>
+                    <fullName>Shacha</fullName>
+                    <default>false</default>
+                    <label>Shacha</label>
+                </value>
+                <value>
+                    <fullName>Garlic</fullName>
+                    <default>false</default>
+                    <label>Garlic</label>
+                </value>
+                <value>
+                    <fullName>Date &amp; Logan Walnut</fullName>
+                    <default>false</default>
+                    <label>Date &amp; Logan Walnut</label>
+                </value>
+                <value>
+                    <fullName>Sesame &amp; Walnut</fullName>
+                    <default>false</default>
+                    <label>Sesame &amp; Walnut</label>
+                </value>
+                <value>
+                    <fullName>Fried Salmon</fullName>
+                    <default>false</default>
+                    <label>Fried Salmon</label>
+                </value>
+                <value>
+                    <fullName>Fried Sailfish</fullName>
+                    <default>false</default>
+                    <label>Fried Sailfish</label>
+                </value>
+                <value>
+                    <fullName>Shredded Squid</fullName>
+                    <default>false</default>
+                    <label>Shredded Squid</label>
+                </value>
+                <value>
+                    <fullName>Roasted Squid</fullName>
+                    <default>false</default>
+                    <label>Roasted Squid</label>
+                </value>
+                <value>
+                    <fullName>Smoked Shredded Squid</fullName>
+                    <default>false</default>
+                    <label>Smoked Shredded Squid</label>
+                </value>
+                <value>
+                    <fullName>With Sesame</fullName>
+                    <default>false</default>
+                    <label>With Sesame</label>
+                </value>
+                <value>
+                    <fullName>Sweet</fullName>
+                    <default>false</default>
+                    <label>Sweet</label>
+                </value>
+                <value>
+                    <fullName>Peppered</fullName>
+                    <default>false</default>
+                    <label>Peppered</label>
+                </value>
+                <value>
+                    <fullName>Sweet and Spicy</fullName>
+                    <default>false</default>
+                    <label>Sweet and Spicy</label>
+                </value>
+                <value>
+                    <fullName>Ginger</fullName>
+                    <default>false</default>
+                    <label>Ginger</label>
+                </value>
+                <value>
+                    <fullName>Jujube Longan</fullName>
+                    <default>false</default>
+                    <label>Jujube Longan</label>
+                </value>
+                <value>
+                    <fullName>Rose &amp; Siwu</fullName>
+                    <default>false</default>
+                    <label>Rose &amp; Siwu</label>
+                </value>
+                <value>
+                    <fullName>Burdock, Cordyceps Fungus, Jujube and Wolfberry</fullName>
+                    <default>false</default>
+                    <label>Burdock, Cordyceps Fungus, Jujube and Wolfberry</label>
+                </value>
+                <value>
+                    <fullName>Turmeric</fullName>
+                    <default>false</default>
+                    <label>Turmeric</label>
+                </value>
+                <value>
+                    <fullName>Chrysanthemum &amp; Wolfberry</fullName>
+                    <default>false</default>
+                    <label>Chrysanthemum &amp; Wolfberry</label>
+                </value>
+                <value>
+                    <fullName>Cordyceps Militaris</fullName>
+                    <default>false</default>
+                    <label>Cordyceps Militaris</label>
+                </value>
+                <value>
+                    <fullName>Sesame</fullName>
+                    <default>false</default>
+                    <label>Sesame</label>
+                </value>
+                <value>
+                    <fullName>Hot Blended Sesame</fullName>
+                    <default>false</default>
+                    <label>Hot Blended Sesame</label>
+                </value>
+                <value>
+                    <fullName>Cranberry</fullName>
+                    <default>false</default>
+                    <label>Cranberry</label>
+                </value>
+                <value>
+                    <fullName>Coffee</fullName>
+                    <default>false</default>
+                    <label>Coffee</label>
+                </value>
+                <value>
+                    <fullName>Mulberry</fullName>
+                    <default>false</default>
+                    <label>Mulberry</label>
+                </value>
+                <value>
+                    <fullName>Honey Tangerine</fullName>
+                    <default>false</default>
+                    <label>Honey Tangerine</label>
+                </value>
+                <value>
+                    <fullName>Kumquat</fullName>
+                    <default>false</default>
+                    <label>Kumquat</label>
+                </value>
+                <value>
+                    <fullName>Paouchong Tea</fullName>
+                    <default>false</default>
+                    <label>Paouchong Tea</label>
+                </value>
+                <value>
+                    <fullName>Custard</fullName>
+                    <default>false</default>
+                    <label>Custard</label>
+                </value>
+                <value>
+                    <fullName>Coconut</fullName>
+                    <default>false</default>
+                    <label>Coconut</label>
+                </value>
+                <value>
+                    <fullName>Spicy Sichuan Pepper with Vinegar</fullName>
+                    <default>false</default>
+                    <label>Spicy Sichuan Pepper with Vinegar</label>
+                </value>
+                <value>
+                    <fullName>Garlic and Sesame</fullName>
+                    <default>false</default>
+                    <label>Garlic and Sesame</label>
+                </value>
+                <value>
+                    <fullName>Scallion</fullName>
+                    <default>false</default>
+                    <label>Scallion</label>
+                </value>
+                <value>
+                    <fullName>Barbecue</fullName>
+                    <default>false</default>
+                    <label>Barbecue</label>
+                </value>
+                <value>
+                    <fullName>Tangerine Peel</fullName>
+                    <default>false</default>
+                    <label>Tangerine Peel</label>
+                </value>
+                <value>
+                    <fullName>Scallop</fullName>
+                    <default>false</default>
+                    <label>Scallop</label>
+                </value>
+                <value>
+                    <fullName>Oyster</fullName>
+                    <default>false</default>
+                    <label>Oyster</label>
+                </value>
+                <value>
+                    <fullName>Braised</fullName>
+                    <default>false</default>
+                    <label>Braised</label>
+                </value>
+                <value>
+                    <fullName>Superior Sauce</fullName>
+                    <default>false</default>
+                    <label>Superior Sauce</label>
+                </value>
+                <value>
+                    <fullName>Brine</fullName>
+                    <default>false</default>
+                    <label>Brine</label>
+                </value>
+                <value>
+                    <fullName>BRAND&apos;s Rock Sugar</fullName>
+                    <default>false</default>
+                    <label>BRAND&apos;s Rock Sugar</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Grade_Populated__c</fullName>
+        <formula>NOT(ISBLANK(TEXT(Grade__c)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Grade (Populated)</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Grade__c</fullName>
+        <label>Grade</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>3A</fullName>
+                    <default>false</default>
+                    <label>3A</label>
+                </value>
+                <value>
+                    <fullName>2A</fullName>
+                    <default>false</default>
+                    <label>2A</label>
+                </value>
+                <value>
+                    <fullName>Premium Grade</fullName>
+                    <default>false</default>
+                    <label>Premium Grade</label>
+                </value>
+                <value>
+                    <fullName>5A</fullName>
+                    <default>false</default>
+                    <label>5A</label>
+                </value>
+                <value>
+                    <fullName>6A</fullName>
+                    <default>false</default>
+                    <label>6A</label>
+                </value>
+                <value>
+                    <fullName>4A</fullName>
+                    <default>false</default>
+                    <label>4A</label>
+                </value>
+                <value>
+                    <fullName>Grade A</fullName>
+                    <default>false</default>
+                    <label>Grade A</label>
+                </value>
+                <value>
+                    <fullName>Grade B</fullName>
+                    <default>false</default>
+                    <label>Grade B</label>
+                </value>
+                <value>
+                    <fullName>Grade C</fullName>
+                    <default>false</default>
+                    <label>Grade C</label>
+                </value>
+                <value>
+                    <fullName>Broken Pieces</fullName>
+                    <default>false</default>
+                    <label>Broken Pieces</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Hair_Color_Populated__c</fullName>
+        <formula>NOT(ISBLANK(TEXT(Hair_Color__c)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Hair Color (Populated)</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Hair_Color__c</fullName>
+        <label>Hair Color</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>4S-Brown</fullName>
+                    <default>false</default>
+                    <label>4S-Brown</label>
+                </value>
+                <value>
+                    <fullName>5S Natural Brown</fullName>
+                    <default>false</default>
+                    <label>5S Natural Brown</label>
+                </value>
+                <value>
+                    <fullName>6S - Dark Brown</fullName>
+                    <default>false</default>
+                    <label>6S - Dark Brown</label>
+                </value>
+                <value>
+                    <fullName>Medium Brown</fullName>
+                    <default>false</default>
+                    <label>Medium Brown</label>
+                </value>
+                <value>
+                    <fullName>Dark Brown</fullName>
+                    <default>false</default>
+                    <label>Dark Brown</label>
+                </value>
+                <value>
+                    <fullName>Darkest Brown</fullName>
+                    <default>false</default>
+                    <label>Darkest Brown</label>
+                </value>
+                <value>
+                    <fullName>Natural Black</fullName>
+                    <default>false</default>
+                    <label>Natural Black</label>
+                </value>
+                <value>
+                    <fullName>Burgundy Brown</fullName>
+                    <default>false</default>
+                    <label>Burgundy Brown</label>
+                </value>
+                <value>
+                    <fullName>Cinnamon Brown</fullName>
+                    <default>false</default>
+                    <label>Cinnamon Brown</label>
+                </value>
+                <value>
+                    <fullName>Brown Black</fullName>
+                    <default>false</default>
+                    <label>Brown Black</label>
+                </value>
+                <value>
+                    <fullName>Chocolate Brown</fullName>
+                    <default>false</default>
+                    <label>Chocolate Brown</label>
+                </value>
+                <value>
+                    <fullName>Coffee Brown</fullName>
+                    <default>false</default>
+                    <label>Coffee Brown</label>
+                </value>
+                <value>
+                    <fullName>Brownish Black</fullName>
+                    <default>false</default>
+                    <label>Brownish Black</label>
+                </value>
+                <value>
+                    <fullName>Warm Chestnut</fullName>
+                    <default>false</default>
+                    <label>Warm Chestnut</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>HelpText</fullName>
+        <trackHistory>false</trackHistory>
+        <translateData>true</translateData>
+    </fields>
+    <fields>
+        <fullName>Ingredients_Populated__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Ingredients (Populated)</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Ingredients__c</fullName>
+        <label>Ingredients</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <translateData>true</translateData>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>IsActive</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>IsAssetizable</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>IsShippingChargeNotApplicable</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>IsSoldOnlyWithOtherProds</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Keywords__c</fullName>
+        <label>Keywords</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Loyalty_Eligible__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Loyalty Eligible</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Loyalty_Redeemable__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Loyalty Redeemable</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Material_Populated__c</fullName>
+        <formula>NOT(ISBLANK(TEXT(Material__c)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Material (Populated)</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Material__c</fullName>
+        <label>Material</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Stainless Steel</fullName>
+                    <default>false</default>
+                    <label>Stainless Steel</label>
+                </value>
+                <value>
+                    <fullName>Non-Stick</fullName>
+                    <default>false</default>
+                    <label>Non-Stick</label>
+                </value>
+                <value>
+                    <fullName>Ceramic</fullName>
+                    <default>false</default>
+                    <label>Ceramic</label>
+                </value>
+                <value>
+                    <fullName>陶</fullName>
+                    <default>false</default>
+                    <label>陶</label>
+                </value>
+                <value>
+                    <fullName>內容器為不沾材質</fullName>
+                    <default>false</default>
+                    <label>內容器為不沾材質</label>
+                </value>
+                <value>
+                    <fullName>黑金剛厚釜 黑色內鍋為不沾材質</fullName>
+                    <default>false</default>
+                    <label>黑金剛厚釜 黑色內鍋為不沾材質</label>
+                </value>
+                <value>
+                    <fullName>內鍋材質：不鏽鋼(配件及上蓋為鋁製）  外鍋材質：鋁</fullName>
+                    <default>false</default>
+                    <label>內鍋材質：不鏽鋼(配件及上蓋為鋁製）  外鍋材質：鋁</label>
+                </value>
+                <value>
+                    <fullName>內鍋材質：不鏽鋼 外鍋材質：不鏽鋼</fullName>
+                    <default>false</default>
+                    <label>內鍋材質：不鏽鋼 外鍋材質：不鏽鋼</label>
+                </value>
+                <value>
+                    <fullName>内容器为不沾材质</fullName>
+                    <default>false</default>
+                    <label>内容器为不沾材质</label>
+                </value>
+                <value>
+                    <fullName>黑金刚厚釜黑色内锅为不沾材质</fullName>
+                    <default>false</default>
+                    <label>黑金刚厚釜黑色内锅为不沾材质</label>
+                </value>
+                <value>
+                    <fullName>内锅材质：不锈钢(配件及上盖为铝制） 外锅材质：铝</fullName>
+                    <default>false</default>
+                    <label>内锅材质：不锈钢(配件及上盖为铝制） 外锅材质：铝</label>
+                </value>
+                <value>
+                    <fullName>内锅材质：不锈钢外锅材质：不锈钢</fullName>
+                    <default>false</default>
+                    <label>内锅材质：不锈钢外锅材质：不锈钢</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Model_No_Populated__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Model No. (Populated)</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Model_No__c</fullName>
+        <label>Model No.</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <translateData>true</translateData>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+        <trackHistory>false</trackHistory>
+        <translateData>true</translateData>
+    </fields>
+    <fields>
+        <fullName>Net_Weight__c</fullName>
+        <label>Net Weight</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1 oz</fullName>
+                    <default>false</default>
+                    <label>1 oz</label>
+                </value>
+                <value>
+                    <fullName>4 oz</fullName>
+                    <default>false</default>
+                    <label>4 oz</label>
+                </value>
+                <value>
+                    <fullName>2 oz</fullName>
+                    <default>false</default>
+                    <label>2 oz</label>
+                </value>
+                <value>
+                    <fullName>5 oz</fullName>
+                    <default>false</default>
+                    <label>5 oz</label>
+                </value>
+                <value>
+                    <fullName>&gt;37 g</fullName>
+                    <default>false</default>
+                    <label>&gt;37 g</label>
+                </value>
+                <value>
+                    <fullName>&gt;31 g</fullName>
+                    <default>false</default>
+                    <label>&gt;31 g</label>
+                </value>
+                <value>
+                    <fullName>&gt;26 g</fullName>
+                    <default>false</default>
+                    <label>&gt;26 g</label>
+                </value>
+                <value>
+                    <fullName>&gt;21 g</fullName>
+                    <default>false</default>
+                    <label>&gt;21 g</label>
+                </value>
+                <value>
+                    <fullName>&gt;16 g</fullName>
+                    <default>false</default>
+                    <label>&gt;16 g</label>
+                </value>
+                <value>
+                    <fullName>3.6 oz</fullName>
+                    <default>false</default>
+                    <label>3.6 oz</label>
+                </value>
+                <value>
+                    <fullName>0.25 oz</fullName>
+                    <default>false</default>
+                    <label>0.25 oz</label>
+                </value>
+                <value>
+                    <fullName>0.35 oz</fullName>
+                    <default>false</default>
+                    <label>0.35 oz</label>
+                </value>
+                <value>
+                    <fullName>0.62 oz</fullName>
+                    <default>false</default>
+                    <label>0.62 oz</label>
+                </value>
+                <value>
+                    <fullName>0.53 oz</fullName>
+                    <default>false</default>
+                    <label>0.53 oz</label>
+                </value>
+                <value>
+                    <fullName>0.37 oz</fullName>
+                    <default>false</default>
+                    <label>0.37 oz</label>
+                </value>
+                <value>
+                    <fullName>0.28 oz</fullName>
+                    <default>false</default>
+                    <label>0.28 oz</label>
+                </value>
+                <value>
+                    <fullName>0.23 oz</fullName>
+                    <default>false</default>
+                    <label>0.23 oz</label>
+                </value>
+                <value>
+                    <fullName>0.32 oz</fullName>
+                    <default>false</default>
+                    <label>0.32 oz</label>
+                </value>
+                <value>
+                    <fullName>0.21 oz</fullName>
+                    <default>false</default>
+                    <label>0.21 oz</label>
+                </value>
+                <value>
+                    <fullName>0.26 oz</fullName>
+                    <default>false</default>
+                    <label>0.26 oz</label>
+                </value>
+                <value>
+                    <fullName>0.39 oz</fullName>
+                    <default>false</default>
+                    <label>0.39 oz</label>
+                </value>
+                <value>
+                    <fullName>0.19 oz</fullName>
+                    <default>false</default>
+                    <label>0.19 oz</label>
+                </value>
+                <value>
+                    <fullName>0.4 oz</fullName>
+                    <default>false</default>
+                    <label>0.4 oz</label>
+                </value>
+                <value>
+                    <fullName>0.51 oz</fullName>
+                    <default>false</default>
+                    <label>0.51 oz</label>
+                </value>
+                <value>
+                    <fullName>0.3 oz</fullName>
+                    <default>false</default>
+                    <label>0.3 oz</label>
+                </value>
+                <value>
+                    <fullName>0.44 oz</fullName>
+                    <default>false</default>
+                    <label>0.44 oz</label>
+                </value>
+                <value>
+                    <fullName>0.18 oz</fullName>
+                    <default>false</default>
+                    <label>0.18 oz</label>
+                </value>
+                <value>
+                    <fullName>0.67 oz</fullName>
+                    <default>false</default>
+                    <label>0.67 oz</label>
+                </value>
+                <value>
+                    <fullName>0.33 oz</fullName>
+                    <default>false</default>
+                    <label>0.33 oz</label>
+                </value>
+                <value>
+                    <fullName>0.49 oz</fullName>
+                    <default>false</default>
+                    <label>0.49 oz</label>
+                </value>
+                <value>
+                    <fullName>0.46 oz</fullName>
+                    <default>false</default>
+                    <label>0.46 oz</label>
+                </value>
+                <value>
+                    <fullName>0.42 oz</fullName>
+                    <default>false</default>
+                    <label>0.42 oz</label>
+                </value>
+                <value>
+                    <fullName>0.48 oz</fullName>
+                    <default>false</default>
+                    <label>0.48 oz</label>
+                </value>
+                <value>
+                    <fullName>0.16 oz</fullName>
+                    <default>false</default>
+                    <label>0.16 oz</label>
+                </value>
+                <value>
+                    <fullName>0.65 oz</fullName>
+                    <default>false</default>
+                    <label>0.65 oz</label>
+                </value>
+                <value>
+                    <fullName>16 oz</fullName>
+                    <default>false</default>
+                    <label>16 oz</label>
+                </value>
+                <value>
+                    <fullName>500 g</fullName>
+                    <default>false</default>
+                    <label>500 g</label>
+                </value>
+                <value>
+                    <fullName>227 g</fullName>
+                    <default>false</default>
+                    <label>227 g</label>
+                </value>
+                <value>
+                    <fullName>360 g</fullName>
+                    <default>false</default>
+                    <label>360 g</label>
+                </value>
+                <value>
+                    <fullName>180 g</fullName>
+                    <default>false</default>
+                    <label>180 g</label>
+                </value>
+                <value>
+                    <fullName>220 g</fullName>
+                    <default>false</default>
+                    <label>220 g</label>
+                </value>
+                <value>
+                    <fullName>425 g</fullName>
+                    <default>false</default>
+                    <label>425 g</label>
+                </value>
+                <value>
+                    <fullName>1 Ib</fullName>
+                    <default>false</default>
+                    <label>1 Ib</label>
+                </value>
+                <value>
+                    <fullName>5.62 oz</fullName>
+                    <default>false</default>
+                    <label>5.62 oz</label>
+                </value>
+                <value>
+                    <fullName>6.5 oz</fullName>
+                    <default>false</default>
+                    <label>6.5 oz</label>
+                </value>
+                <value>
+                    <fullName>4.23 oz</fullName>
+                    <default>false</default>
+                    <label>4.23 oz</label>
+                </value>
+                <value>
+                    <fullName>4.4 oz</fullName>
+                    <default>false</default>
+                    <label>4.4 oz</label>
+                </value>
+                <value>
+                    <fullName>2.4 oz</fullName>
+                    <default>false</default>
+                    <label>2.4 oz</label>
+                </value>
+                <value>
+                    <fullName>13.8 fl. oz</fullName>
+                    <default>false</default>
+                    <label>13.8 fl. oz</label>
+                </value>
+                <value>
+                    <fullName>12.0 fl. oz</fullName>
+                    <default>false</default>
+                    <label>12.0 fl. oz</label>
+                </value>
+                <value>
+                    <fullName>3.5 oz</fullName>
+                    <default>false</default>
+                    <label>3.5 oz</label>
+                </value>
+                <value>
+                    <fullName>11.28 oz</fullName>
+                    <default>false</default>
+                    <label>11.28 oz</label>
+                </value>
+                <value>
+                    <fullName>5.64 oz</fullName>
+                    <default>false</default>
+                    <label>5.64 oz</label>
+                </value>
+                <value>
+                    <fullName>10.58 oz</fullName>
+                    <default>false</default>
+                    <label>10.58 oz</label>
+                </value>
+                <value>
+                    <fullName>8.47 oz</fullName>
+                    <default>false</default>
+                    <label>8.47 oz</label>
+                </value>
+                <value>
+                    <fullName>9.59 oz</fullName>
+                    <default>false</default>
+                    <label>9.59 oz</label>
+                </value>
+                <value>
+                    <fullName>6.34 oz</fullName>
+                    <default>false</default>
+                    <label>6.34 oz</label>
+                </value>
+                <value>
+                    <fullName>3.52 oz</fullName>
+                    <default>false</default>
+                    <label>3.52 oz</label>
+                </value>
+                <value>
+                    <fullName>2.82 oz</fullName>
+                    <default>false</default>
+                    <label>2.82 oz</label>
+                </value>
+                <value>
+                    <fullName>31.75 oz</fullName>
+                    <default>false</default>
+                    <label>31.75 oz</label>
+                </value>
+                <value>
+                    <fullName>14 oz</fullName>
+                    <default>false</default>
+                    <label>14 oz</label>
+                </value>
+                <value>
+                    <fullName>12 oz</fullName>
+                    <default>false</default>
+                    <label>12 oz</label>
+                </value>
+                <value>
+                    <fullName>14.1 oz</fullName>
+                    <default>false</default>
+                    <label>14.1 oz</label>
+                </value>
+                <value>
+                    <fullName>4.22 oz</fullName>
+                    <default>false</default>
+                    <label>4.22 oz</label>
+                </value>
+                <value>
+                    <fullName>5.29 oz</fullName>
+                    <default>false</default>
+                    <label>5.29 oz</label>
+                </value>
+                <value>
+                    <fullName>18 oz</fullName>
+                    <default>false</default>
+                    <label>18 oz</label>
+                </value>
+                <value>
+                    <fullName>8 oz</fullName>
+                    <default>false</default>
+                    <label>8 oz</label>
+                </value>
+                <value>
+                    <fullName>220g</fullName>
+                    <default>false</default>
+                    <label>220g</label>
+                </value>
+                <value>
+                    <fullName>425g</fullName>
+                    <default>false</default>
+                    <label>425g</label>
+                </value>
+                <value>
+                    <fullName>600 gms</fullName>
+                    <default>false</default>
+                    <label>600 gms</label>
+                </value>
+                <value>
+                    <fullName>1 Pound</fullName>
+                    <default>false</default>
+                    <label>1 Pound</label>
+                </value>
+                <value>
+                    <fullName>3.32 oz</fullName>
+                    <default>false</default>
+                    <label>3.32 oz</label>
+                </value>
+                <value>
+                    <fullName>3.24 oz</fullName>
+                    <default>false</default>
+                    <label>3.24 oz</label>
+                </value>
+                <value>
+                    <fullName>3.22 oz</fullName>
+                    <default>false</default>
+                    <label>3.22 oz</label>
+                </value>
+                <value>
+                    <fullName>2.96 oz</fullName>
+                    <default>false</default>
+                    <label>2.96 oz</label>
+                </value>
+                <value>
+                    <fullName>3.18 oz</fullName>
+                    <default>false</default>
+                    <label>3.18 oz</label>
+                </value>
+                <value>
+                    <fullName>3.04 oz</fullName>
+                    <default>false</default>
+                    <label>3.04 oz</label>
+                </value>
+                <value>
+                    <fullName>3.12 oz</fullName>
+                    <default>false</default>
+                    <label>3.12 oz</label>
+                </value>
+                <value>
+                    <fullName>2.98 oz</fullName>
+                    <default>false</default>
+                    <label>2.98 oz</label>
+                </value>
+                <value>
+                    <fullName>3.46 oz</fullName>
+                    <default>false</default>
+                    <label>3.46 oz</label>
+                </value>
+                <value>
+                    <fullName>3.58 oz</fullName>
+                    <default>false</default>
+                    <label>3.58 oz</label>
+                </value>
+                <value>
+                    <fullName>13.1 oz</fullName>
+                    <default>false</default>
+                    <label>13.1 oz</label>
+                </value>
+                <value>
+                    <fullName>2.11 oz</fullName>
+                    <default>false</default>
+                    <label>2.11 oz</label>
+                </value>
+                <value>
+                    <fullName>16.1 fl. oz</fullName>
+                    <default>false</default>
+                    <label>16.1 fl. oz</label>
+                </value>
+                <value>
+                    <fullName>0.5 oz</fullName>
+                    <default>false</default>
+                    <label>0.5 oz</label>
+                </value>
+                <value>
+                    <fullName>6 oz</fullName>
+                    <default>false</default>
+                    <label>6 oz</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Origin_Populated__c</fullName>
+        <formula>NOT(ISBLANK(TEXT(Origin__c)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Origin (Populated)</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Origin__c</fullName>
+        <label>Origin</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Wisconsin, USA</fullName>
+                    <default>false</default>
+                    <label>Wisconsin, USA</label>
+                </value>
+                <value>
+                    <fullName>USA</fullName>
+                    <default>false</default>
+                    <label>USA</label>
+                </value>
+                <value>
+                    <fullName>South Korea</fullName>
+                    <default>false</default>
+                    <label>South Korea</label>
+                </value>
+                <value>
+                    <fullName>Australia</fullName>
+                    <default>false</default>
+                    <label>Australia</label>
+                </value>
+                <value>
+                    <fullName>China</fullName>
+                    <default>false</default>
+                    <label>China</label>
+                </value>
+                <value>
+                    <fullName>Malaysia</fullName>
+                    <default>false</default>
+                    <label>Malaysia</label>
+                </value>
+                <value>
+                    <fullName>Indonesia</fullName>
+                    <default>false</default>
+                    <label>Indonesia</label>
+                </value>
+                <value>
+                    <fullName>Made in Singapore</fullName>
+                    <default>false</default>
+                    <label>Made in Singapore</label>
+                </value>
+                <value>
+                    <fullName>Japan</fullName>
+                    <default>false</default>
+                    <label>Japan</label>
+                </value>
+                <value>
+                    <fullName>Made in USA</fullName>
+                    <default>false</default>
+                    <label>Made in USA</label>
+                </value>
+                <value>
+                    <fullName>Reishi material from Japan, Formulated and Manufactured in USA</fullName>
+                    <default>false</default>
+                    <label>Reishi material from Japan, Formulated and Manufactured in USA</label>
+                </value>
+                <value>
+                    <fullName>Korea</fullName>
+                    <default>false</default>
+                    <label>Korea</label>
+                </value>
+                <value>
+                    <fullName>Taiwan</fullName>
+                    <default>false</default>
+                    <label>Taiwan</label>
+                </value>
+                <value>
+                    <fullName>Thailand</fullName>
+                    <default>false</default>
+                    <label>Thailand</label>
+                </value>
+                <value>
+                    <fullName>Manufactured in China with American Ginseng grown in Wisconsin</fullName>
+                    <default>false</default>
+                    <label>Manufactured in China with American Ginseng grown in Wisconsin</label>
+                </value>
+                <value>
+                    <fullName>Manufactured in Taiwan with American Ginseng grown in Wisconsin</fullName>
+                    <default>false</default>
+                    <label>Manufactured in Taiwan with American Ginseng grown in Wisconsin</label>
+                </value>
+                <value>
+                    <fullName>Singapore</fullName>
+                    <default>false</default>
+                    <label>Singapore</label>
+                </value>
+                <value>
+                    <fullName>Mediterranean</fullName>
+                    <default>false</default>
+                    <label>Mediterranean</label>
+                </value>
+                <value>
+                    <fullName>South America</fullName>
+                    <default>false</default>
+                    <label>South America</label>
+                </value>
+                <value>
+                    <fullName>0</fullName>
+                    <default>false</default>
+                    <label>0</label>
+                </value>
+                <value>
+                    <fullName>中囯</fullName>
+                    <default>false</default>
+                    <label>中囯</label>
+                </value>
+                <value>
+                    <fullName>台湾</fullName>
+                    <default>false</default>
+                    <label>台湾</label>
+                </value>
+                <value>
+                    <fullName>中國</fullName>
+                    <default>false</default>
+                    <label>中國</label>
+                </value>
+                <value>
+                    <fullName>台灣</fullName>
+                    <default>false</default>
+                    <label>台灣</label>
+                </value>
+                <value>
+                    <fullName>日本</fullName>
+                    <default>false</default>
+                    <label>日本</label>
+                </value>
+                <value>
+                    <fullName>美国威斯康星州</fullName>
+                    <default>false</default>
+                    <label>美国威斯康星州</label>
+                </value>
+                <value>
+                    <fullName>美国</fullName>
+                    <default>false</default>
+                    <label>美国</label>
+                </value>
+                <value>
+                    <fullName>美國</fullName>
+                    <default>false</default>
+                    <label>美國</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Pack_Size_Populated__c</fullName>
+        <formula>NOT(ISBLANK(Pack_Size__c))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Pack Size (Populated)</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Pack_Size__c</fullName>
+        <externalId>false</externalId>
+        <label>Pack Size</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Package_Type_Populated__c</fullName>
+        <formula>NOT(ISBLANK(TEXT( Package_Type__c )))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Package Type (Populated)</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Package_Type__c</fullName>
+        <label>Package Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Deluxe Pack</fullName>
+                    <default>false</default>
+                    <label>Deluxe Pack</label>
+                </value>
+                <value>
+                    <fullName>Box</fullName>
+                    <default>false</default>
+                    <label>Box</label>
+                </value>
+                <value>
+                    <fullName>Bag</fullName>
+                    <default>false</default>
+                    <label>Bag</label>
+                </value>
+                <value>
+                    <fullName>Gift Box</fullName>
+                    <default>false</default>
+                    <label>Gift Box</label>
+                </value>
+                <value>
+                    <fullName>Can</fullName>
+                    <default>false</default>
+                    <label>Can</label>
+                </value>
+                <value>
+                    <fullName>Bottle</fullName>
+                    <default>false</default>
+                    <label>Bottle</label>
+                </value>
+                <value>
+                    <fullName>Economics Bags</fullName>
+                    <default>false</default>
+                    <label>Economics Bags</label>
+                </value>
+                <value>
+                    <fullName>Economic Bags</fullName>
+                    <default>false</default>
+                    <label>Economic Bags</label>
+                </value>
+                <value>
+                    <fullName>Twin Pack</fullName>
+                    <default>false</default>
+                    <label>Twin Pack</label>
+                </value>
+                <value>
+                    <fullName>Travel Size</fullName>
+                    <default>false</default>
+                    <label>Travel Size</label>
+                </value>
+                <value>
+                    <fullName>Economic Box</fullName>
+                    <default>false</default>
+                    <label>Economic Box</label>
+                </value>
+                <value>
+                    <fullName>Gift Set</fullName>
+                    <default>false</default>
+                    <label>Gift Set</label>
+                </value>
+                <value>
+                    <fullName>Economic Packaging</fullName>
+                    <default>false</default>
+                    <label>Economic Packaging</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ProductClass</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>ProductCode</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>ProductPurpose</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Product_Benefits_Populated__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Product Benefits (Populated)</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Product_Benefits__c</fullName>
+        <defaultValue>null</defaultValue>
+        <label>Product Benefits</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <translateData>true</translateData>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Product_Features_Populated__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Product Features (Populated)</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Product_Features__c</fullName>
+        <label>Product Features</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <translateData>true</translateData>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>QuantityUnitOfMeasure</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Quantity_Populated__c</fullName>
+        <formula>NOT(ISBLANK(Quantity__c))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Quantity (Populated)</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Quantity__c</fullName>
+        <externalId>false</externalId>
+        <label>Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Recipe_Populated__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Recipe (Populated)</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Recipe__c</fullName>
+        <label>Recipe</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <translateData>true</translateData>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Root_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>Root ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Root_Style_Populated__c</fullName>
+        <formula>NOT(ISBLANK(TEXT(Root_Style__c )))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Root Style (Populated)</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Root_Style__c</fullName>
+        <label>Root Style</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Prong</fullName>
+                    <default>false</default>
+                    <label>Prong</label>
+                </value>
+                <value>
+                    <fullName>Long</fullName>
+                    <default>false</default>
+                    <label>Long</label>
+                </value>
+                <value>
+                    <fullName>Short</fullName>
+                    <default>false</default>
+                    <label>Short</label>
+                </value>
+                <value>
+                    <fullName>Half Short</fullName>
+                    <default>false</default>
+                    <label>Half Short</label>
+                </value>
+                <value>
+                    <fullName>Slices</fullName>
+                    <default>false</default>
+                    <label>Slices</label>
+                </value>
+                <value>
+                    <fullName>Pearl</fullName>
+                    <default>false</default>
+                    <label>Pearl</label>
+                </value>
+                <value>
+                    <fullName>Whole, Untrimmed Fresh Roots</fullName>
+                    <default>false</default>
+                    <label>Whole, Untrimmed Fresh Roots</label>
+                </value>
+                <value>
+                    <fullName>American Red</fullName>
+                    <default>false</default>
+                    <label>American Red</label>
+                </value>
+                <value>
+                    <fullName>Whole, Untrimmed Single Root</fullName>
+                    <default>false</default>
+                    <label>Whole, Untrimmed Single Root</label>
+                </value>
+                <value>
+                    <fullName>Untrimmed Long Root</fullName>
+                    <default>false</default>
+                    <label>Untrimmed Long Root</label>
+                </value>
+                <value>
+                    <fullName>Untrimmed Short Root</fullName>
+                    <default>false</default>
+                    <label>Untrimmed Short Root</label>
+                </value>
+                <value>
+                    <fullName>Whole, Untrimmed Roots</fullName>
+                    <default>false</default>
+                    <label>Whole, Untrimmed Roots</label>
+                </value>
+                <value>
+                    <fullName>Untrimmed Half Short Root</fullName>
+                    <default>false</default>
+                    <label>Untrimmed Half Short Root</label>
+                </value>
+                <value>
+                    <fullName>Untrimmed Pearl Root</fullName>
+                    <default>false</default>
+                    <label>Untrimmed Pearl Root</label>
+                </value>
+                <value>
+                    <fullName>Slices Cut from Whole, Untrimmed Root</fullName>
+                    <default>false</default>
+                    <label>Slices Cut from Whole, Untrimmed Root</label>
+                </value>
+                <value>
+                    <fullName>Prong, Fibers &amp; Others</fullName>
+                    <default>false</default>
+                    <label>Prong, Fibers &amp; Others</label>
+                </value>
+                <value>
+                    <fullName>Korean Red</fullName>
+                    <default>false</default>
+                    <label>Korean Red</label>
+                </value>
+                <value>
+                    <fullName>Whole, Untrimmed Korean Red</fullName>
+                    <default>false</default>
+                    <label>Whole, Untrimmed Korean Red</label>
+                </value>
+                <value>
+                    <fullName>Selected Whole Untrimmed roots</fullName>
+                    <default>false</default>
+                    <label>Selected Whole Untrimmed roots</label>
+                </value>
+                <value>
+                    <fullName>Single Root</fullName>
+                    <default>false</default>
+                    <label>Single Root</label>
+                </value>
+                <value>
+                    <fullName>Whole, Untrimmed Ungraded Roots</fullName>
+                    <default>false</default>
+                    <label>Whole, Untrimmed Ungraded Roots</label>
+                </value>
+                <value>
+                    <fullName>Fibers</fullName>
+                    <default>false</default>
+                    <label>Fibers</label>
+                </value>
+                <value>
+                    <fullName>Kirin Red</fullName>
+                    <default>false</default>
+                    <label>Kirin Red</label>
+                </value>
+                <value>
+                    <fullName>Short &amp; Slices</fullName>
+                    <default>false</default>
+                    <label>Short &amp; Slices</label>
+                </value>
+                <value>
+                    <fullName>参片及参茶</fullName>
+                    <default>false</default>
+                    <label>参片及参茶</label>
+                </value>
+                <value>
+                    <fullName>Slices &amp; Tea bags</fullName>
+                    <default>false</default>
+                    <label>Slices &amp; Tea bags</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ShippingWeight</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>ShippingWeightUnitOfMeasure</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Shipping_Category__c</fullName>
+        <label>Shipping Category</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Standard</fullName>
+                    <default>true</default>
+                    <label>Standard</label>
+                </value>
+                <value>
+                    <fullName>Fresh</fullName>
+                    <default>false</default>
+                    <label>Fresh</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Shipping_Weight_Oz_Populated__c</fullName>
+        <formula>NOT(ISBLANK(  Shipping_Weight_Oz__c  ))</formula>
+        <label>Shipping Weight (Oz) (Populated)</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Shipping_Weight_Oz__c</fullName>
+        <externalId>false</externalId>
+        <label>Shipping Weight (Oz)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Size_Populated__c</fullName>
+        <formula>NOT(ISBLANK(TEXT(Size__c)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Size (Populated)</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Size__c</fullName>
+        <label>Size</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Rhizome</fullName>
+                    <default>false</default>
+                    <label>Rhizome</label>
+                </value>
+                <value>
+                    <fullName>Prongs &amp; Fibers</fullName>
+                    <default>false</default>
+                    <label>Prongs &amp; Fibers</label>
+                </value>
+                <value>
+                    <fullName>Jumbo</fullName>
+                    <default>false</default>
+                    <label>Jumbo</label>
+                </value>
+                <value>
+                    <fullName>Extra Large</fullName>
+                    <default>false</default>
+                    <label>Extra Large</label>
+                </value>
+                <value>
+                    <fullName>Large</fullName>
+                    <default>false</default>
+                    <label>Large</label>
+                </value>
+                <value>
+                    <fullName>Medium</fullName>
+                    <default>false</default>
+                    <label>Medium</label>
+                </value>
+                <value>
+                    <fullName>Medium Small</fullName>
+                    <default>false</default>
+                    <label>Medium Small</label>
+                </value>
+                <value>
+                    <fullName>Small #1</fullName>
+                    <default>false</default>
+                    <label>Small #1</label>
+                </value>
+                <value>
+                    <fullName>Small #2</fullName>
+                    <default>false</default>
+                    <label>Small #2</label>
+                </value>
+                <value>
+                    <fullName>Small Bulk</fullName>
+                    <default>false</default>
+                    <label>Small Bulk</label>
+                </value>
+                <value>
+                    <fullName>Small</fullName>
+                    <default>false</default>
+                    <label>Small</label>
+                </value>
+                <value>
+                    <fullName>Large Medium</fullName>
+                    <default>false</default>
+                    <label>Large Medium</label>
+                </value>
+                <value>
+                    <fullName>Tea-cut</fullName>
+                    <default>false</default>
+                    <label>Tea-cut</label>
+                </value>
+                <value>
+                    <fullName>Giant</fullName>
+                    <default>false</default>
+                    <label>Giant</label>
+                </value>
+                <value>
+                    <fullName>Mixed Sizes</fullName>
+                    <default>false</default>
+                    <label>Mixed Sizes</label>
+                </value>
+                <value>
+                    <fullName>Super Giant</fullName>
+                    <default>false</default>
+                    <label>Super Giant</label>
+                </value>
+                <value>
+                    <fullName>8 oz</fullName>
+                    <default>false</default>
+                    <label>8 oz</label>
+                </value>
+                <value>
+                    <fullName>Extra Giant</fullName>
+                    <default>false</default>
+                    <label>Extra Giant</label>
+                </value>
+                <value>
+                    <fullName>Extra Jumbo</fullName>
+                    <default>false</default>
+                    <label>Extra Jumbo</label>
+                </value>
+                <value>
+                    <fullName>Small #3</fullName>
+                    <default>false</default>
+                    <label>Small #3</label>
+                </value>
+                <value>
+                    <fullName>Low Grade</fullName>
+                    <default>false</default>
+                    <label>Low Grade</label>
+                </value>
+                <value>
+                    <fullName>Mix-sized</fullName>
+                    <default>false</default>
+                    <label>Mix-sized</label>
+                </value>
+                <value>
+                    <fullName>20 Heaven</fullName>
+                    <default>false</default>
+                    <label>20 Heaven</label>
+                </value>
+                <value>
+                    <fullName>30 Heaven</fullName>
+                    <default>false</default>
+                    <label>30 Heaven</label>
+                </value>
+                <value>
+                    <fullName>40 Heaven</fullName>
+                    <default>false</default>
+                    <label>40 Heaven</label>
+                </value>
+                <value>
+                    <fullName>20 Earth</fullName>
+                    <default>false</default>
+                    <label>20 Earth</label>
+                </value>
+                <value>
+                    <fullName>30 Earth</fullName>
+                    <default>false</default>
+                    <label>30 Earth</label>
+                </value>
+                <value>
+                    <fullName>40 Earth</fullName>
+                    <default>false</default>
+                    <label>40 Earth</label>
+                </value>
+                <value>
+                    <fullName>20 Good</fullName>
+                    <default>false</default>
+                    <label>20 Good</label>
+                </value>
+                <value>
+                    <fullName>30 Good</fullName>
+                    <default>false</default>
+                    <label>30 Good</label>
+                </value>
+                <value>
+                    <fullName>40 Good</fullName>
+                    <default>false</default>
+                    <label>40 Good</label>
+                </value>
+                <value>
+                    <fullName>Prong &amp; Fiber</fullName>
+                    <default>false</default>
+                    <label>Prong &amp; Fiber</label>
+                </value>
+                <value>
+                    <fullName>Giant Mixed</fullName>
+                    <default>false</default>
+                    <label>Giant Mixed</label>
+                </value>
+                <value>
+                    <fullName>Large Mixed</fullName>
+                    <default>false</default>
+                    <label>Large Mixed</label>
+                </value>
+                <value>
+                    <fullName>Round Cut Slices</fullName>
+                    <default>false</default>
+                    <label>Round Cut Slices</label>
+                </value>
+                <value>
+                    <fullName>Standard</fullName>
+                    <default>false</default>
+                    <label>Standard</label>
+                </value>
+                <value>
+                    <fullName>Mixed</fullName>
+                    <default>false</default>
+                    <label>Mixed</label>
+                </value>
+                <value>
+                    <fullName>Ungraded</fullName>
+                    <default>false</default>
+                    <label>Ungraded</label>
+                </value>
+                <value>
+                    <fullName>25 pcs per lb</fullName>
+                    <default>false</default>
+                    <label>25 pcs per lb</label>
+                </value>
+                <value>
+                    <fullName>20 pcs per lb</fullName>
+                    <default>false</default>
+                    <label>20 pcs per lb</label>
+                </value>
+                <value>
+                    <fullName>10 pcs per lb</fullName>
+                    <default>false</default>
+                    <label>10 pcs per lb</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SpecificationType</fullName>
+    </fields>
+    <fields>
+        <fullName>StockCheckMethod</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>StockKeepingUnit</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Storage_Instructions_Populated__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Storage Instructions (Populated)</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Storage_Instructions__c</fullName>
+        <label>Storage Instructions</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <translateData>true</translateData>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>TaxPolicyId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Tea_Style__c</fullName>
+        <label>Tea Style</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>pimly__Property_Types</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Type</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Type_Populated__c</fullName>
+        <formula>NOT(ISBLANK(TEXT(Type__c)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Type (Populated)</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Type__c</fullName>
+        <label>Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Black Truffle</fullName>
+                    <default>false</default>
+                    <label>Black Truffle</label>
+                </value>
+                <value>
+                    <fullName>Braised Abalone</fullName>
+                    <default>false</default>
+                    <label>Braised Abalone</label>
+                </value>
+                <value>
+                    <fullName>Brine</fullName>
+                    <default>false</default>
+                    <label>Brine</label>
+                </value>
+                <value>
+                    <fullName>Non-Spiky</fullName>
+                    <default>false</default>
+                    <label>Non-Spiky</label>
+                </value>
+                <value>
+                    <fullName>Oyster Sauce</fullName>
+                    <default>false</default>
+                    <label>Oyster Sauce</label>
+                </value>
+                <value>
+                    <fullName>Scallop Sauce</fullName>
+                    <default>false</default>
+                    <label>Scallop Sauce</label>
+                </value>
+                <value>
+                    <fullName>Spiky</fullName>
+                    <default>false</default>
+                    <label>Spiky</label>
+                </value>
+                <value>
+                    <fullName>Superior Sauce</fullName>
+                    <default>false</default>
+                    <label>Superior Sauce</label>
+                </value>
+                <value>
+                    <fullName>Tangerine Peel Sauce</fullName>
+                    <default>false</default>
+                    <label>Tangerine Peel Sauce</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>UnitOfMeasureId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Use_Instructions_Populated__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Use Instructions (Populated)</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Use_Instructions__c</fullName>
+        <label>Use Instructions</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <translateData>true</translateData>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>UsedFor</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Warnings_Populated__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Warnings (Populated)</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Warnings__c</fullName>
+        <label>Warnings</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <translateData>true</translateData>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Watts_Populated__c</fullName>
+        <formula>NOT(ISBLANK(Watts__c))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Watts (Populated)</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Watts__c</fullName>
+        <externalId>false</externalId>
+        <label>Watts</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Weight_Oz__c</fullName>
+        <label>Weight (Oz)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>0.17 Ounces</fullName>
+                    <default>false</default>
+                    <label>0.17 Ounces</label>
+                </value>
+                <value>
+                    <fullName>0.25 Ounces</fullName>
+                    <default>false</default>
+                    <label>0.25 Ounces</label>
+                </value>
+                <value>
+                    <fullName>0.35 Ounces</fullName>
+                    <default>false</default>
+                    <label>0.35 Ounces</label>
+                </value>
+                <value>
+                    <fullName>0.3 Ounces</fullName>
+                    <default>false</default>
+                    <label>0.3 Ounces</label>
+                </value>
+                <value>
+                    <fullName>0.46 Ounces</fullName>
+                    <default>false</default>
+                    <label>0.46 Ounces</label>
+                </value>
+                <value>
+                    <fullName>0.4 Ounces</fullName>
+                    <default>false</default>
+                    <label>0.4 Ounces</label>
+                </value>
+                <value>
+                    <fullName>0.55 Ounces</fullName>
+                    <default>false</default>
+                    <label>0.55 Ounces</label>
+                </value>
+                <value>
+                    <fullName>0.58 Ounces</fullName>
+                    <default>false</default>
+                    <label>0.58 Ounces</label>
+                </value>
+                <value>
+                    <fullName>0.5 Ounces</fullName>
+                    <default>false</default>
+                    <label>0.5 Ounces</label>
+                </value>
+                <value>
+                    <fullName>0.75 Ounces</fullName>
+                    <default>false</default>
+                    <label>0.75 Ounces</label>
+                </value>
+                <value>
+                    <fullName>0.91 Ounces</fullName>
+                    <default>false</default>
+                    <label>0.91 Ounces</label>
+                </value>
+                <value>
+                    <fullName>1.3 Ounces</fullName>
+                    <default>false</default>
+                    <label>1.3 Ounces</label>
+                </value>
+                <value>
+                    <fullName>1.41 Ounces</fullName>
+                    <default>false</default>
+                    <label>1.41 Ounces</label>
+                </value>
+                <value>
+                    <fullName>1.69 Ounces</fullName>
+                    <default>false</default>
+                    <label>1.69 Ounces</label>
+                </value>
+                <value>
+                    <fullName>12 Ounces</fullName>
+                    <default>false</default>
+                    <label>12 Ounces</label>
+                </value>
+                <value>
+                    <fullName>15 Ounces</fullName>
+                    <default>false</default>
+                    <label>15 Ounces</label>
+                </value>
+                <value>
+                    <fullName>16 Ounces</fullName>
+                    <default>false</default>
+                    <label>16 Ounces</label>
+                </value>
+                <value>
+                    <fullName>1 Ounces</fullName>
+                    <default>false</default>
+                    <label>1 Ounces</label>
+                </value>
+                <value>
+                    <fullName>2.5 Ounces</fullName>
+                    <default>false</default>
+                    <label>2.5 Ounces</label>
+                </value>
+                <value>
+                    <fullName>2.7 Ounces</fullName>
+                    <default>false</default>
+                    <label>2.7 Ounces</label>
+                </value>
+                <value>
+                    <fullName>2 Ounces</fullName>
+                    <default>false</default>
+                    <label>2 Ounces</label>
+                </value>
+                <value>
+                    <fullName>4 Ounces</fullName>
+                    <default>false</default>
+                    <label>4 Ounces</label>
+                </value>
+                <value>
+                    <fullName>5.6 Ounces</fullName>
+                    <default>false</default>
+                    <label>5.6 Ounces</label>
+                </value>
+                <value>
+                    <fullName>5 Ounces</fullName>
+                    <default>false</default>
+                    <label>5 Ounces</label>
+                </value>
+                <value>
+                    <fullName>6 Ounces</fullName>
+                    <default>false</default>
+                    <label>6 Ounces</label>
+                </value>
+                <value>
+                    <fullName>7.8 Ounces</fullName>
+                    <default>false</default>
+                    <label>7.8 Ounces</label>
+                </value>
+                <value>
+                    <fullName>8.6 Ounces</fullName>
+                    <default>false</default>
+                    <label>8.6 Ounces</label>
+                </value>
+                <value>
+                    <fullName>8 Ounces</fullName>
+                    <default>false</default>
+                    <label>8 Ounces</label>
+                </value>
+                <value>
+                    <fullName>6.5 Ounces</fullName>
+                    <default>false</default>
+                    <label>6.5 Ounces</label>
+                </value>
+                <value>
+                    <fullName>3 Ounces</fullName>
+                    <default>false</default>
+                    <label>3 Ounces</label>
+                </value>
+                <value>
+                    <fullName>11 Ounces</fullName>
+                    <default>false</default>
+                    <label>11 Ounces</label>
+                </value>
+                <value>
+                    <fullName>10 Ounces</fullName>
+                    <default>false</default>
+                    <label>10 Ounces</label>
+                </value>
+                <value>
+                    <fullName>9 Ounces</fullName>
+                    <default>false</default>
+                    <label>9 Ounces</label>
+                </value>
+                <value>
+                    <fullName>5.25 Ounces</fullName>
+                    <default>false</default>
+                    <label>5.25 Ounces</label>
+                </value>
+                <value>
+                    <fullName>1 Ounce</fullName>
+                    <default>false</default>
+                    <label>1 Ounce</label>
+                </value>
+                <value>
+                    <fullName>8.25 Ounces</fullName>
+                    <default>false</default>
+                    <label>8.25 Ounces</label>
+                </value>
+                <value>
+                    <fullName>8.28 Ounces</fullName>
+                    <default>false</default>
+                    <label>8.28 Ounces</label>
+                </value>
+                <value>
+                    <fullName>5.29 Ounces</fullName>
+                    <default>false</default>
+                    <label>5.29 Ounces</label>
+                </value>
+                <value>
+                    <fullName>0</fullName>
+                    <default>false</default>
+                    <label>0</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>What_s_Included_Populated__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>What&apos;s Included (Populated)</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>What_s_Included__c</fullName>
+        <label>What&apos;s Included</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <translateData>true</translateData>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>avaoms__CountryOfManufacture__c</fullName>
+        <deprecated>false</deprecated>
+        <description>2 Digit ISO Code</description>
+        <externalId>false</externalId>
+        <inlineHelpText>2 digit ISO country code of the country indicating where the products were manufactured.</inlineHelpText>
+        <label>Country of Manufacture</label>
+        <length>2</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>avaoms__HeightUOMCode__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Use standard abbreviation for the unit of height.</inlineHelpText>
+        <label>Height - UOM Code</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>avaoms__HeightValue__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>The measurement of the product from base to top.</inlineHelpText>
+        <label>Height - Value</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>avaoms__HsCode__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>The harmonized system code applicable for the product used by customs authorities to calculate tariff rates for internationally traded goods.</inlineHelpText>
+        <label>HS Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>avaoms__IsPreferredProgram__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicate on a transaction whether the CDIT calculation should use a preferred customs duty rate</description>
+        <label>Is Preferred Program</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>avaoms__LengthUOMCode__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Use standard abbreviation for the unit of length.</inlineHelpText>
+        <label>Length - UOM Code</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>avaoms__LengthValue__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>The measurement of product from end to end or along its longest side.</inlineHelpText>
+        <label>Length - Value</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>avaoms__NetWeightUOMCode__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Use standard abbreviation for the unit of net weight.</inlineHelpText>
+        <label>Net weight - UOM Code</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>avaoms__NetWeightValue__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>The weight (mass) of only the product, substance or item, exclusive of packaging, container or other ancillary materials.</inlineHelpText>
+        <label>Net weight - Value</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>avaoms__Product_Category__c</fullName>
+        <deprecated>false</deprecated>
+        <inlineHelpText>This custom field is from the Avalara for Salesforce OMS managed package. If the corresponding product HS code is unavailable, Avalara will use this value to estimate the approximate tax to be applied.</inlineHelpText>
+        <label>Product Category</label>
+        <length>1000</length>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>avaoms__Tax_Code__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Tax Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>avaoms__UPC__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>UPC</label>
+        <length>18</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>avaoms__WidthUOMCode__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Use standard abbreviation for the unit of width.</inlineHelpText>
+        <label>Width - UOM Code</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>avaoms__WidthValue__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>The measurement of product from side to side.</inlineHelpText>
+        <label>Width - Value</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>celigo_sfnsio__Celigo_Last_Modified_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <inlineHelpText>Please DO NOT change the field. Holds the value of the time when a record was last updated by a valid event. If &quot;Celigo Last Modified Date&quot; timestamp is greater than the Last Flow Run timestamp, the Salesforce Product record is synced as a NetSuite Item.</inlineHelpText>
+        <label>Celigo Last Modified Date (IO)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>celigo_sfnsio__Item_Pricing_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Term / Pricing Type (IO)</label>
+        <length>40</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>celigo_sfnsio__NetSuite_Id__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <deprecated>false</deprecated>
+        <externalId>true</externalId>
+        <label>NetSuite Id (IO)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>celigo_sfnsio__NetSuite_Record__c</fullName>
+        <deprecated>false</deprecated>
+        <label>NetSuite Record (IO)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>celigo_sfnsio__NetSuite_item_type__c</fullName>
+        <deprecated>false</deprecated>
+        <label>NetSuite item type (IO)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Inventory Item</fullName>
+                    <default>false</default>
+                    <label>Inventory Item</label>
+                </value>
+                <value>
+                    <fullName>Inventory Lot Numbered</fullName>
+                    <default>false</default>
+                    <label>Inventory Lot Numbered</label>
+                </value>
+                <value>
+                    <fullName>Inventory Serialized</fullName>
+                    <default>false</default>
+                    <label>Inventory Serialized</label>
+                </value>
+                <value>
+                    <fullName>Non Inventory Sale</fullName>
+                    <default>false</default>
+                    <label>Non Inventory Sale</label>
+                </value>
+                <value>
+                    <fullName>Non Inventory ReSale</fullName>
+                    <default>false</default>
+                    <label>Non Inventory ReSale</label>
+                </value>
+                <value>
+                    <fullName>Non Inventory Purchase</fullName>
+                    <default>false</default>
+                    <label>Non Inventory Purchase</label>
+                </value>
+                <value>
+                    <fullName>Service Sale</fullName>
+                    <default>false</default>
+                    <label>Service Sale</label>
+                </value>
+                <value>
+                    <fullName>Service ReSale</fullName>
+                    <default>false</default>
+                    <label>Service ReSale</label>
+                </value>
+                <value>
+                    <fullName>Service Purchase</fullName>
+                    <default>false</default>
+                    <label>Service Purchase</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>celigo_sfnsio__Skip_Export_To_NetSuite__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <inlineHelpText>Check the box to make the Celigo Salesforce NetSuite IO App skip exporting Salesforce Products to NetSuite Items. If it&apos;s unchecked, we will sync the Salesforce Product to NetSuite Item.</inlineHelpText>
+        <label>Skip Export To NetSuite (IO)</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>celigo_sfnsio__Test_Mode_Record__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <inlineHelpText>Prerequisite: Enable &quot;Test mode&quot; from your IO General settings page. Enable the checkbox to sync records and test your IO version. If you leave the &quot;Send as test record to IO&quot; box unchecked, we will sync records via the v2 version.</inlineHelpText>
+        <label>Send as test record to IO</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>pimly__Admin_Name__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <deprecated>false</deprecated>
+        <externalId>true</externalId>
+        <inlineHelpText>User definable external Id reference used for Pimly. Auto generated if not set by user.</inlineHelpText>
+        <label>Admin Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>pimly__Banner_Image__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <inlineHelpText>This is the banner image for a product</inlineHelpText>
+        <label>Banner Image</label>
+        <referenceTo>pimly__Pimly_Digital_Asset__c</referenceTo>
+        <relationshipLabel>Products</relationshipLabel>
+        <relationshipName>Products</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>pimly__Channel_Properties__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Channel Properties</label>
+        <length>100000</length>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>pimly__Error_Message__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This is a temporary error message used during Pimly DML transactions. No value should ever persist here.</description>
+        <label>Error Message</label>
+        <length>1000</length>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>2</visibleLines>
+    </fields>
+    <fields>
+        <fullName>pimly__Family__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>Family</label>
+        <referenceTo>pimly__Family__c</referenceTo>
+        <relationshipLabel>Products</relationshipLabel>
+        <relationshipName>Products</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>pimly__Global_Properties__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Global Properties</label>
+        <length>131072</length>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>pimly__Inheritance_Group__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <inlineHelpText>This group defines where this product lives in the inheritance model</inlineHelpText>
+        <label>Inheritance Group</label>
+        <referenceTo>pimly__Inheritance_Group__c</referenceTo>
+        <relationshipLabel>Products</relationshipLabel>
+        <relationshipName>Products</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>pimly__Out_of_sync__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Out of sync</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>pimly__Pimly_Id__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <deprecated>false</deprecated>
+        <externalId>true</externalId>
+        <inlineHelpText>The unique identifier used for Pimly. This is user definable unless it is sourced from a sync operation. Spaces should be avoided. Ex &quot;product_45834&quot;</inlineHelpText>
+        <label>Pimly Id</label>
+        <length>225</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>pimly__Product_Line_Id__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF(
+ISBLANK(pimly__Product_Parent__c),
+pimly__Pimly_Id__c,
+IF(
+ISBLANK(pimly__Product_Parent__r.pimly__Product_Parent__c),
+pimly__Product_Parent__r.pimly__Pimly_Id__c,
+IF(
+ISBLANK(pimly__Product_Parent__r.pimly__Product_Parent__r.pimly__Product_Parent__c),
+pimly__Product_Parent__r.pimly__Product_Parent__r.pimly__Pimly_Id__c,
+IF(
+ISBLANK(pimly__Product_Parent__r.pimly__Product_Parent__r.pimly__Product_Parent__r.pimly__Product_Parent__c),
+pimly__Product_Parent__r.pimly__Product_Parent__r.pimly__Product_Parent__r.pimly__Pimly_Id__c,
+pimly__Product_Parent__r.pimly__Product_Parent__r.pimly__Product_Parent__r.pimly__Product_Parent__r.pimly__Pimly_Id__c
+)
+)
+)
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Product Line Id</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>pimly__Product_Parent__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>Product Parent (Inheritance)</label>
+        <referenceTo>pimly__Pimly_Product_Parent__c</referenceTo>
+        <relationshipLabel>Variant Products</relationshipLabel>
+        <relationshipName>Variant_Products</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>pimly__Property_Order__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Display order for Pimly Properties in Data Management app.</description>
+        <label>Property Order</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>pimly__Variant_Properties__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Variant Properties</label>
+        <length>31072</length>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <listViews>
+        <fullName>AllProducts</fullName>
+        <columns>PRODUCT2.CUSTOMER_PRODUCT_ID</columns>
+        <columns>AVA_B2BLEX__TaxCode__c</columns>
+        <columns>avaoms__Tax_Code__c</columns>
+        <columns>Shipping_Weight_Oz__c</columns>
+        <columns>PRODUCT2.NAME</columns>
+        <columns>PRODUCT2.PRODUCT_CLASS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>PRODUCT2.PRODUCT_CLASS</field>
+            <operation>notEqual</operation>
+            <value>VP</value>
+        </filters>
+        <label>All Products - Tax Code List View</label>
+    </listViews>
+    <listViews>
+        <fullName>Products_Weights_View</fullName>
+        <columns>PRODUCT2.NAME</columns>
+        <columns>PRODUCT2.PRODUCT_CLASS</columns>
+        <columns>Shipping_Weight_Oz__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>PRODUCT2.PRODUCT_CLASS</field>
+            <operation>notEqual</operation>
+            <value>VP</value>
+        </filters>
+        <label>Products - Weights View</label>
+    </listViews>
+    <listViews>
+        <fullName>pimly__AllProducts</fullName>
+        <columns>PRODUCT2.NAME</columns>
+        <columns>PRODUCT2.PRODUCT_CLASS</columns>
+        <columns>PRODUCT2.CUSTOMER_PRODUCT_ID</columns>
+        <columns>PRODUCT2.DESCRIPTION</columns>
+        <columns>PRODUCT2.FAMILY</columns>
+        <columns>PRODUCT2.SKU</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Products</label>
+    </listViews>
+    <listViews>
+        <fullName>pimly__All_Pimly_Products</fullName>
+        <columns>PRODUCT2.NAME</columns>
+        <columns>pimly__Admin_Name__c</columns>
+        <columns>PRODUCT2.ACTIVE</columns>
+        <columns>pimly__Product_Parent__c</columns>
+        <columns>PRODUCT2.CREATED_DATE</columns>
+        <columns>PRODUCT2.LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Pimly Products</label>
+    </listViews>
+    <searchLayouts>
+        <customTabListAdditionalFields>PRODUCT2.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>PRODUCT2.CUSTOMER_PRODUCT_ID</customTabListAdditionalFields>
+        <customTabListAdditionalFields>PRODUCT2.DESCRIPTION</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>PRODUCT2.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>PRODUCT2.PRODUCT_CLASS</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>PRODUCT2.CUSTOMER_PRODUCT_ID</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>PRODUCT2.DESCRIPTION</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>PRODUCT2.FAMILY</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>PRODUCT2.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>PRODUCT2.PRODUCT_CLASS</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>PRODUCT2.CUSTOMER_PRODUCT_ID</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>PRODUCT2.DESCRIPTION</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>PRODUCT2.FAMILY</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>PRODUCT2.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>PRODUCT2.PRODUCT_CLASS</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>PRODUCT2.CUSTOMER_PRODUCT_ID</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>PRODUCT2.DESCRIPTION</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>PRODUCT2.FAMILY</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <webLinks>
+        <fullName>AVA_B2BLEX__Classify_HS_Code_Auto</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>page</linkType>
+        <masterLabel>HS Code classification (automated)</masterLabel>
+        <openType>replace</openType>
+        <page>AVA_B2BLEX__HSClassify</page>
+        <protected>false</protected>
+    </webLinks>
+</CustomObject>

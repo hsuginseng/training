@@ -1,0 +1,17 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Loyalty Info",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "attributes" : {
+          "dxpStyle" : {
+            "isVisible" : false
+          }
+        },
+        "id" : "55ea2ed5-25a9-4107-bf92-771de1e55543"
+      } ]
+    }
+  },
+  "urlName" : "loyalty-info"
+}

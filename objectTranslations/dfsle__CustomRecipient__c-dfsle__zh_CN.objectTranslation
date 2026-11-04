@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>DocuSign 自定义收件人</value>
+    </caseValues>
+    <fields>
+        <help><!-- Access Code --></help>
+        <label>访问代码</label>
+        <name>dfsle__AccessCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Message --></label>
+        <name>dfsle__EmailMessage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Subject --></label>
+        <name>dfsle__EmailSubject__c</name>
+    </fields>
+    <fields>
+        <label>电子邮件</label>
+        <name>dfsle__Email__c</name>
+    </fields>
+    <fields>
+        <label>信封配置</label>
+        <name>dfsle__EnvelopeConfiguration__c</name>
+        <relationshipLabel><!-- Custom Recipients --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>名字</label>
+        <name>dfsle__FirstName__c</name>
+    </fields>
+    <fields>
+        <label>负责人电子邮件</label>
+        <name>dfsle__HostEmail__c</name>
+    </fields>
+    <fields>
+        <label>负责人名称</label>
+        <name>dfsle__HostName__c</name>
+    </fields>
+    <fields>
+        <label>语言</label>
+        <name>dfsle__Language__c</name>
+    </fields>
+    <fields>
+        <label>姓氏</label>
+        <name>dfsle__LastName__c</name>
+    </fields>
+    <fields>
+        <label>私人消息</label>
+        <name>dfsle__Note__c</name>
+    </fields>
+    <fields>
+        <label>联系人关系</label>
+        <name>dfsle__Relationship__c</name>
+    </fields>
+    <fields>
+        <help><!-- Role --></help>
+        <label>角色</label>
+        <name>dfsle__Role__c</name>
+    </fields>
+    <fields>
+        <help><!-- Routing Order --></help>
+        <label>发送顺序</label>
+        <name>dfsle__RoutingOrder__c</name>
+    </fields>
+    <fields>
+        <label>立即签名</label>
+        <name>dfsle__SignNow__c</name>
+    </fields>
+    <fields>
+        <help><!-- Signing Group ID --></help>
+        <label>签名组 ID</label>
+        <name>dfsle__SigningGroupId__c</name>
+    </fields>
+    <fields>
+        <label>签名组名称</label>
+        <name>dfsle__SigningGroupName__c</name>
+    </fields>
+    <fields>
+        <label>SMS 电话号码</label>
+        <name>dfsle__SmsPhoneNumber__c</name>
+    </fields>
+    <fields>
+        <help><!-- Type --></help>
+        <label>類型</label>
+        <name>dfsle__Type__c</name>
+        <picklistValues>
+            <masterLabel>Allow to Edit</masterLabel>
+            <translation><!-- Allow to Edit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Person Signer</masterLabel>
+            <translation><!-- In Person Signer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Needs to Sign</masterLabel>
+            <translation><!-- Needs to Sign --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Needs to View</masterLabel>
+            <translation><!-- Needs to View --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Receives a Copy</masterLabel>
+            <translation><!-- Receives a Copy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Specify Recipients</masterLabel>
+            <translation><!-- Specify Recipients --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Update Recipients</masterLabel>
+            <translation><!-- Update Recipients --></translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel>Name</nameFieldLabel>
+</CustomObjectTranslation>

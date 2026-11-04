@@ -1,0 +1,2334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- HS Attributes --></label>
+        <name>AVA_MAPPER__HS_Attributes</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Country Of Manufacture --></label>
+        <name>AVA_B2BLEX__CountryOfManufacture__c</name>
+    </fields>
+    <fields>
+        <label><!-- Height UOM Code --></label>
+        <name>AVA_B2BLEX__HeightUOMCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Height Value --></label>
+        <name>AVA_B2BLEX__HeightValue__c</name>
+    </fields>
+    <fields>
+        <help><!-- The harmonized system code applicable for the product used by customs authorities to calculate tariff rates for internationally traded goods. --></help>
+        <label><!-- Hs Code --></label>
+        <name>AVA_B2BLEX__HsCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Preferred Program --></label>
+        <name>AVA_B2BLEX__IsPreferredProgram__c</name>
+    </fields>
+    <fields>
+        <label><!-- Length UOM Code --></label>
+        <name>AVA_B2BLEX__LengthUOMCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Length Value --></label>
+        <name>AVA_B2BLEX__LengthValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Net Weight UOM Code --></label>
+        <name>AVA_B2BLEX__NetWeightUOMCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Net Weight Value --></label>
+        <name>AVA_B2BLEX__NetWeightValue__c</name>
+    </fields>
+    <fields>
+        <help><!-- This custom field is from the AvaTax. --></help>
+        <label><!-- Product Category --></label>
+        <name>AVA_B2BLEX__Product_Category__c</name>
+    </fields>
+    <fields>
+        <label>稅碼</label>
+        <name>AVA_B2BLEX__TaxCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- UPC --></label>
+        <name>AVA_B2BLEX__UPC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Width UOM Code --></label>
+        <name>AVA_B2BLEX__WidthUOMCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Width Value --></label>
+        <name>AVA_B2BLEX__WidthValue__c</name>
+    </fields>
+    <fields>
+        <help><!-- If checked, it classifies the product for US region automatically through scheduler. --></help>
+        <label><!-- Enable automated HS Code classification --></label>
+        <name>AVA_MAPPER__Auto_Classify__c</name>
+    </fields>
+    <fields>
+        <help><!-- It stores the designated HS classification code specific to the United States region. --></help>
+        <label><!-- HS Code classification (automated) --></label>
+        <name>AVA_MAPPER__HS_Code_Auto__c</name>
+    </fields>
+    <fields>
+        <label><!-- HS Code classification status --></label>
+        <name>AVA_MAPPER__HS_Status_Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Age (Populated) --></label>
+        <name>Age_Populated__c</name>
+    </fields>
+    <fields>
+        <label>年齡</label>
+        <name>Age__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 Year</masterLabel>
+            <translation><!-- 1 Year --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10+ Years</masterLabel>
+            <translation><!-- 10+ Years --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10-20 Years</masterLabel>
+            <translation><!-- 10-20 Years --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20-30 Years</masterLabel>
+            <translation><!-- 20-30 Years --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30-50 Years</masterLabel>
+            <translation><!-- 30-50 Years --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>48 Years</masterLabel>
+            <translation><!-- 48 Years --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 Years</masterLabel>
+            <translation><!-- 5 Years --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50 Years</masterLabel>
+            <translation><!-- 50 Years --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>58 Years</masterLabel>
+            <translation><!-- 58 Years --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60 Years</masterLabel>
+            <translation><!-- 60 Years --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>70 Years</masterLabel>
+            <translation><!-- 70 Years --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NA</masterLabel>
+            <translation><!-- NA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Brand (Populated) --></label>
+        <name>Brand_Populated__c</name>
+    </fields>
+    <fields>
+        <label>品牌</label>
+        <name>Brand__c</name>
+        <picklistValues>
+            <masterLabel>Artisan Noodles</masterLabel>
+            <translation>手工麵條</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>As one wishes</masterLabel>
+            <translation>盡如人意</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BRAND&apos;s</masterLabel>
+            <translation><!-- BRAND&apos;s --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Basket</masterLabel>
+            <translation>籃子</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CHIMEI</masterLabel>
+            <translation>CHIMEI</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Capitan Jiang</masterLabel>
+            <translation>江船長</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Captain Jiang</masterLabel>
+            <translation>江船長</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cherry Grandfather</masterLabel>
+            <translation>櫻桃爺爺</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cherry Grandpa</masterLabel>
+            <translation>櫻桃爺爺</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Daedong</masterLabel>
+            <translation>大同</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Daedong Korean Ginseng Co., Ltd.</masterLabel>
+            <translation>大東高麗人參有限公司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Datong</masterLabel>
+            <translation>大同</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Didi Fresh</masterLabel>
+            <translation>滴滴鮮</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Director Tea Egg</masterLabel>
+            <translation>局長茶葉蛋</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FINE Japan</masterLabel>
+            <translation>FINE Japan</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fuzhong Military Village Noodles</masterLabel>
+            <translation>福忠眷村面</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Golden Dragon</masterLabel>
+            <translation>金龍</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guanxi Farmer&apos;s Association</masterLabel>
+            <translation>廣西農民協會</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HaiTai</masterLabel>
+            <translation>HaiTai</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hoyu Bigen</masterLabel>
+            <translation>美源</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hsin Tung Yang</masterLabel>
+            <translation>新東陽</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hsu&apos;s Ginseng</masterLabel>
+            <translation>許氏人參</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hsu&apos;s Ginseng Enterprises, Inc.</masterLabel>
+            <translation>許氏人參企業股份有限公司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I MEI</masterLabel>
+            <translation>I MEI</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I-Mei</masterLabel>
+            <translation><!-- I-Mei --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Japan F Labo Co., Ltd.</masterLabel>
+            <translation>日本F Labo株式會社</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Japan Kefia Co., Ltd.</masterLabel>
+            <translation><!-- Japan Kefia Co., Ltd. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kawai</masterLabel>
+            <translation>Kawai</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kiki</masterLabel>
+            <translation>Kiki</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>King Kung Health Food Co.,Ltd.</masterLabel>
+            <translation>台灣京工興業有限公司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kung Fu</masterLabel>
+            <translation>匠拌麵</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lian Siang Lou</masterLabel>
+            <translation><!-- Lian Siang Lou --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lingzhi General Institute Co., LTD</masterLabel>
+            <translation>靈芝綜合研究所股份有限公司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Modern Foods Inc.</masterLabel>
+            <translation>現代食品公司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Narita</masterLabel>
+            <translation>成田</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neogence</masterLabel>
+            <translation>霓淨思</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ohealth</masterLabel>
+            <translation>奧希</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RuYi</masterLabel>
+            <translation>如意</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SesaOle</masterLabel>
+            <translation>芝初</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Six Fortune</masterLabel>
+            <translation>六福</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Six Fortunes</masterLabel>
+            <translation>六福</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Su Wall</masterLabel>
+            <translation>Su Wall</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sun Ten Laboratories</masterLabel>
+            <translation><!-- Sun Ten Laboratories --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tapped</masterLabel>
+            <translation><!-- Tapped --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tatung</masterLabel>
+            <translation>大同</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TenFu</masterLabel>
+            <translation>天福</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TenRen Tea</masterLabel>
+            <translation><!-- TenRen Tea --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tianfu</masterLabel>
+            <translation>天福</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Source</masterLabel>
+            <translation>美國原料</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vigoway</masterLabel>
+            <translation>Vigoway</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Village</masterLabel>
+            <translation>福忠眷村</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wing Wah</masterLabel>
+            <translation><!-- Wing Wah --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Xindongyang</masterLabel>
+            <translation>新東陽</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yongzhen</masterLabel>
+            <translation>Yongzhen</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Youns Zen</masterLabel>
+            <translation>Youns Zen</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zhichu</masterLabel>
+            <translation>芝初</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zojirushi</masterLabel>
+            <translation>象印</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>vytanutra</masterLabel>
+            <translation><!-- vytanutra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>义美</masterLabel>
+            <translation><!-- 义美 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>天仁茗茶</masterLabel>
+            <translation><!-- 天仁茗茶 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>榮華</masterLabel>
+            <translation><!-- 榮華 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>義美</masterLabel>
+            <translation><!-- 義美 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>荣华</masterLabel>
+            <translation><!-- 荣华 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>莲香楼</masterLabel>
+            <translation><!-- 莲香楼 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>蓮香樓</masterLabel>
+            <translation><!-- 蓮香樓 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>许氏花旗参</masterLabel>
+            <translation><!-- 许氏花旗参 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>順天堂</masterLabel>
+            <translation><!-- 順天堂 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>顺天堂</masterLabel>
+            <translation><!-- 顺天堂 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Capacity (Populated) --></label>
+        <name>Capacity_Populated__c</name>
+    </fields>
+    <fields>
+        <label>容量</label>
+        <name>Capacity__c</name>
+        <picklistValues>
+            <masterLabel>10-Cup</masterLabel>
+            <translation>10杯</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11-Cup</masterLabel>
+            <translation>11杯</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 L</masterLabel>
+            <translation>3公升</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3-Cup</masterLabel>
+            <translation>3杯</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 L</masterLabel>
+            <translation>4公升</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 L</masterLabel>
+            <translation>5公升</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5-Cup</masterLabel>
+            <translation>5杯</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5.5-Cup</masterLabel>
+            <translation>5.5 杯</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6-Cup</masterLabel>
+            <translation>6杯</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Category (Populated) --></label>
+        <name>Category_Populated__c</name>
+    </fields>
+    <fields>
+        <label>分類</label>
+        <name>Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Color (Populated) --></label>
+        <name>Color_Populated__c</name>
+    </fields>
+    <fields>
+        <label>顏色</label>
+        <name>Color__c</name>
+        <picklistValues>
+            <masterLabel>Blue</masterLabel>
+            <translation>藍色</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Green</masterLabel>
+            <translation>綠色</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Count (Populated) --></label>
+        <name>Count_Populated__c</name>
+    </fields>
+    <fields>
+        <label>數量</label>
+        <name>Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description (Populated) --></label>
+        <name>Description_Populated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dimensions (Populated) --></label>
+        <name>Dimensions_Populated__c</name>
+    </fields>
+    <fields>
+        <label>尺寸</label>
+        <name>Dimensions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disclaimer (Populated) --></label>
+        <name>Disclaimer_Populated__c</name>
+    </fields>
+    <fields>
+        <label>免責聲明</label>
+        <name>Disclaimer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Flavor (Populated) --></label>
+        <name>Flavor_Populated__c</name>
+    </fields>
+    <fields>
+        <label>口味</label>
+        <name>Flavor__c</name>
+        <picklistValues>
+            <masterLabel>American Ginseng &amp; Rock Sugar</masterLabel>
+            <translation>花旗參冰糖</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BRAND&apos;s Rock Sugar</masterLabel>
+            <translation>白蘭地 冰糖</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Barbecue</masterLabel>
+            <translation>燒烤</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Black Sesame</masterLabel>
+            <translation>黑芝麻</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Black Sesame Oil with Mashed Ginger</masterLabel>
+            <translation>黑芝麻油薑泥</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Braised</masterLabel>
+            <translation>紅燒</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brine</masterLabel>
+            <translation>清湯</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Burdock, Cordyceps Fungus, Jujube and Wolfberry</masterLabel>
+            <translation>牛蒡蟲草大棗枸杞</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chrysanthemum &amp; Wolfberry</masterLabel>
+            <translation>菊花枸杞</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coconut</masterLabel>
+            <translation>椰子</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coffee</masterLabel>
+            <translation>咖啡</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cordyceps Militaris</masterLabel>
+            <translation>蟲草</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cranberry</masterLabel>
+            <translation>蔓越莓</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custard</masterLabel>
+            <translation>奶凍</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Date &amp; Logan Walnut</masterLabel>
+            <translation>棗和洛根核桃</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dried Green Mango</masterLabel>
+            <translation>青芒果乾</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dried Guava</masterLabel>
+            <translation>番石榴乾</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dried Mango</masterLabel>
+            <translation>芒果乾</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dried Peach</masterLabel>
+            <translation>桃乾</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dried Pineapple</masterLabel>
+            <translation>鳳梨乾</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Egg Yolk</masterLabel>
+            <translation>蛋黃</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flaxseed</masterLabel>
+            <translation>亞麻籽</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fried Sailfish</masterLabel>
+            <translation>炸旗魚</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fried Salmon</masterLabel>
+            <translation>煎鮭魚</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Garlic</masterLabel>
+            <translation>蒜香</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Garlic and Sesame</masterLabel>
+            <translation>蒜香麻醬</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ginger</masterLabel>
+            <translation>薑</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Goose Oil</masterLabel>
+            <translation>鵝油</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hericium Erinaceus</masterLabel>
+            <translation>猴頭菇</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Honey Tangerine</masterLabel>
+            <translation>茂谷柑</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hot Blended Sesame</masterLabel>
+            <translation>椒麻</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jujube Longan</masterLabel>
+            <translation>紅棗桂圓</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kumquat</masterLabel>
+            <translation>金棗</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mulberry</masterLabel>
+            <translation>桑葚</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Original</masterLabel>
+            <translation>原味</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oyster</masterLabel>
+            <translation>蠔油</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paouchong Tea</masterLabel>
+            <translation>包種茶</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peppered</masterLabel>
+            <translation>胡椒味</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Red Quinoa</masterLabel>
+            <translation>紅藜麥</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roasted Squid</masterLabel>
+            <translation>烤魷魚</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rock Sugar</masterLabel>
+            <translation>冰糖</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rose &amp; Siwu</masterLabel>
+            <translation>玫瑰四物</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salted Egg Yolk Soy</masterLabel>
+            <translation>鹹蛋黃醬油</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scallion</masterLabel>
+            <translation>蔥油</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scallop</masterLabel>
+            <translation>扇貝</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sesame</masterLabel>
+            <translation>芝麻</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sesame &amp; Walnut</masterLabel>
+            <translation>芝麻核桃</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shacha</masterLabel>
+            <translation>沙茶</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shredded Squid</masterLabel>
+            <translation>魷魚絲</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Smoked Shredded Squid</masterLabel>
+            <translation>燻魷魚絲</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spicy</masterLabel>
+            <translation>辣味</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spicy Sichuan Pepper with Vinegar</masterLabel>
+            <translation>醋溜花椒</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sugar Free</masterLabel>
+            <translation>無醣</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Superior Sauce</masterLabel>
+            <translation>紅燒醬</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sweet</masterLabel>
+            <translation>甜味</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sweet and Spicy</masterLabel>
+            <translation>甜辣味</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tangerine Peel</masterLabel>
+            <translation>陳皮</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turmeric</masterLabel>
+            <translation>薑黃</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vegetarian Burdock</masterLabel>
+            <translation>素牛蒡</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vegetarian Nori Kelp</masterLabel>
+            <translation>素食海苔</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vegetarian Pumpkin</masterLabel>
+            <translation>素食南瓜</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>With Sesame</masterLabel>
+            <translation>芝麻</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Grade (Populated) --></label>
+        <name>Grade_Populated__c</name>
+    </fields>
+    <fields>
+        <label>等級</label>
+        <name>Grade__c</name>
+        <picklistValues>
+            <masterLabel>2A</masterLabel>
+            <translation>2A</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3A</masterLabel>
+            <translation>3A</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4A</masterLabel>
+            <translation>4A</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5A</masterLabel>
+            <translation>5A</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6A</masterLabel>
+            <translation>6A</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Broken Pieces</masterLabel>
+            <translation>碎塊</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grade A</masterLabel>
+            <translation>A級</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grade B</masterLabel>
+            <translation>B級</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grade C</masterLabel>
+            <translation>C級</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Premium Grade</masterLabel>
+            <translation>頂級</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Hair Color (Populated) --></label>
+        <name>Hair_Color_Populated__c</name>
+    </fields>
+    <fields>
+        <label>髮色</label>
+        <name>Hair_Color__c</name>
+        <picklistValues>
+            <masterLabel>4S-Brown</masterLabel>
+            <translation>4S-棕色</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5S Natural Brown</masterLabel>
+            <translation>5S 自然棕色</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6S - Dark Brown</masterLabel>
+            <translation>6S-深棕色</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brown Black</masterLabel>
+            <translation>棕黑色</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brownish Black</masterLabel>
+            <translation>棕黑色</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Burgundy Brown</masterLabel>
+            <translation>葡萄棕色</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chocolate Brown</masterLabel>
+            <translation>巧克力棕色</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cinnamon Brown</masterLabel>
+            <translation>香桂棕色</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coffee Brown</masterLabel>
+            <translation>咖啡棕色</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dark Brown</masterLabel>
+            <translation>棕色</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Darkest Brown</masterLabel>
+            <translation>深棕色</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium Brown</masterLabel>
+            <translation>明亮棕色</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Natural Black</masterLabel>
+            <translation>自然黑色</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warm Chestnut</masterLabel>
+            <translation>淡亮栗色</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Ingredients (Populated) --></label>
+        <name>Ingredients_Populated__c</name>
+    </fields>
+    <fields>
+        <label>成分</label>
+        <name>Ingredients__c</name>
+    </fields>
+    <fields>
+        <label><!-- Keywords --></label>
+        <name>Keywords__c</name>
+    </fields>
+    <fields>
+        <label><!-- Loyalty Eligible --></label>
+        <name>Loyalty_Eligible__c</name>
+    </fields>
+    <fields>
+        <label><!-- Loyalty Redeemable --></label>
+        <name>Loyalty_Redeemable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Material (Populated) --></label>
+        <name>Material_Populated__c</name>
+    </fields>
+    <fields>
+        <label>材質</label>
+        <name>Material__c</name>
+        <picklistValues>
+            <masterLabel>Ceramic</masterLabel>
+            <translation>陶瓷製品</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Stick</masterLabel>
+            <translation>不黏</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stainless Steel</masterLabel>
+            <translation>不銹鋼</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>內容器為不沾材質</masterLabel>
+            <translation><!-- 內容器為不沾材質 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>內鍋材質：不鏽鋼 外鍋材質：不鏽鋼</masterLabel>
+            <translation><!-- 內鍋材質：不鏽鋼 外鍋材質：不鏽鋼 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>內鍋材質：不鏽鋼(配件及上蓋為鋁製）  外鍋材質：鋁</masterLabel>
+            <translation><!-- 內鍋材質：不鏽鋼(配件及上蓋為鋁製）  外鍋材質：鋁 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>内容器为不沾材质</masterLabel>
+            <translation><!-- 内容器为不沾材质 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>内锅材质：不锈钢(配件及上盖为铝制） 外锅材质：铝</masterLabel>
+            <translation><!-- 内锅材质：不锈钢(配件及上盖为铝制） 外锅材质：铝 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>内锅材质：不锈钢外锅材质：不锈钢</masterLabel>
+            <translation><!-- 内锅材质：不锈钢外锅材质：不锈钢 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>陶</masterLabel>
+            <translation><!-- 陶 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>黑金刚厚釜黑色内锅为不沾材质</masterLabel>
+            <translation><!-- 黑金刚厚釜黑色内锅为不沾材质 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>黑金剛厚釜 黑色內鍋為不沾材質</masterLabel>
+            <translation><!-- 黑金剛厚釜 黑色內鍋為不沾材質 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Model No. (Populated) --></label>
+        <name>Model_No_Populated__c</name>
+    </fields>
+    <fields>
+        <label>型號</label>
+        <name>Model_No__c</name>
+    </fields>
+    <fields>
+        <label>淨重</label>
+        <name>Net_Weight__c</name>
+        <picklistValues>
+            <masterLabel>0.16 oz</masterLabel>
+            <translation>0.16 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.18 oz</masterLabel>
+            <translation>0.18 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.19 oz</masterLabel>
+            <translation>0.19 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.21 oz</masterLabel>
+            <translation>0.21 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.23 oz</masterLabel>
+            <translation>0.23 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.25 oz</masterLabel>
+            <translation>0.25 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.26 oz</masterLabel>
+            <translation>0.26 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.28 oz</masterLabel>
+            <translation>0.28 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.3 oz</masterLabel>
+            <translation>0.3 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.32 oz</masterLabel>
+            <translation>0.32 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.33 oz</masterLabel>
+            <translation>0.33 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.35 oz</masterLabel>
+            <translation>0.35 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.37 oz</masterLabel>
+            <translation>0.37 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.39 oz</masterLabel>
+            <translation>0.39 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.4 oz</masterLabel>
+            <translation>0.4 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.42 oz</masterLabel>
+            <translation>0.42 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.44 oz</masterLabel>
+            <translation>0.44 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.46 oz</masterLabel>
+            <translation>0.46 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.48 oz</masterLabel>
+            <translation>0.48 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.49 oz</masterLabel>
+            <translation>0.49 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.5 oz</masterLabel>
+            <translation><!-- 0.5 oz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.51 oz</masterLabel>
+            <translation>0.51 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.53 oz</masterLabel>
+            <translation>0.53 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.62 oz</masterLabel>
+            <translation>0.62 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.65 oz</masterLabel>
+            <translation>0.65 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.67 oz</masterLabel>
+            <translation>0.67 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 Ib</masterLabel>
+            <translation>1磅</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 Pound</masterLabel>
+            <translation>1磅</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 oz</masterLabel>
+            <translation>1盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10.58 oz</masterLabel>
+            <translation>10.58 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11.28 oz</masterLabel>
+            <translation>11.28 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12 oz</masterLabel>
+            <translation>12 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12.0 fl. oz</masterLabel>
+            <translation>12.0 fl.盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>13.1 oz</masterLabel>
+            <translation><!-- 13.1 oz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>13.8 fl. oz</masterLabel>
+            <translation>13.8 fl.盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14 oz</masterLabel>
+            <translation>14 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14.1 oz</masterLabel>
+            <translation>14.1 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16 oz</masterLabel>
+            <translation>16 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16.1 fl. oz</masterLabel>
+            <translation><!-- 16.1 fl. oz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>18 oz</masterLabel>
+            <translation>18 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>180 g</masterLabel>
+            <translation>180 克</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 oz</masterLabel>
+            <translation>2盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2.11 oz</masterLabel>
+            <translation><!-- 2.11 oz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2.4 oz</masterLabel>
+            <translation>2.4 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2.82 oz</masterLabel>
+            <translation>2.82 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2.96 oz</masterLabel>
+            <translation><!-- 2.96 oz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2.98 oz</masterLabel>
+            <translation><!-- 2.98 oz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>220 g</masterLabel>
+            <translation>220 克</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>220g</masterLabel>
+            <translation>220克</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>227 g</masterLabel>
+            <translation>227 克</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.04 oz</masterLabel>
+            <translation><!-- 3.04 oz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.12 oz</masterLabel>
+            <translation><!-- 3.12 oz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.18 oz</masterLabel>
+            <translation><!-- 3.18 oz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.22 oz</masterLabel>
+            <translation><!-- 3.22 oz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.24 oz</masterLabel>
+            <translation><!-- 3.24 oz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.32 oz</masterLabel>
+            <translation><!-- 3.32 oz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.46 oz</masterLabel>
+            <translation><!-- 3.46 oz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.5 oz</masterLabel>
+            <translation>3.5 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.52 oz</masterLabel>
+            <translation>3.52 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.58 oz</masterLabel>
+            <translation><!-- 3.58 oz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.6 oz</masterLabel>
+            <translation>3.6 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>31.75 oz</masterLabel>
+            <translation>31.75 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>360 g</masterLabel>
+            <translation>360 克</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 oz</masterLabel>
+            <translation>4盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.22 oz</masterLabel>
+            <translation>4.22 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.23 oz</masterLabel>
+            <translation>4.23 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.4 oz</masterLabel>
+            <translation>4.4 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>425 g</masterLabel>
+            <translation>425 克</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>425g</masterLabel>
+            <translation>425克</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 oz</masterLabel>
+            <translation>5盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5.29 oz</masterLabel>
+            <translation>5.29 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5.62 oz</masterLabel>
+            <translation>5.62 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5.64 oz</masterLabel>
+            <translation>5.64 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>500 g</masterLabel>
+            <translation>500 克</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6 oz</masterLabel>
+            <translation><!-- 6 oz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6.34 oz</masterLabel>
+            <translation>6.34 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6.5 oz</masterLabel>
+            <translation>6.5 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>600 gms</masterLabel>
+            <translation>600 克</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8 oz</masterLabel>
+            <translation>8盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8.47 oz</masterLabel>
+            <translation>8.47 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9.59 oz</masterLabel>
+            <translation>9.59 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&gt;16 g</masterLabel>
+            <translation>&gt;16克</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&gt;21 g</masterLabel>
+            <translation>&gt;21克</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&gt;26 g</masterLabel>
+            <translation>&gt;26克</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&gt;31 g</masterLabel>
+            <translation>&gt;31克</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&gt;37 g</masterLabel>
+            <translation>&gt;37 克</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Origin (Populated) --></label>
+        <name>Origin_Populated__c</name>
+    </fields>
+    <fields>
+        <label>產地</label>
+        <name>Origin__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Australia</masterLabel>
+            <translation>澳洲</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>China</masterLabel>
+            <translation>中國</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indonesia</masterLabel>
+            <translation>印尼</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Japan</masterLabel>
+            <translation>日本</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Korea</masterLabel>
+            <translation>韓國</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Made in Singapore</masterLabel>
+            <translation>新加坡製造</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Made in USA</masterLabel>
+            <translation>美國製造</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Malaysia</masterLabel>
+            <translation>馬來西亞</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manufactured in China with American Ginseng grown in Wisconsin</masterLabel>
+            <translation>採用威斯康辛州種植的西洋參在中國生產</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manufactured in Taiwan with American Ginseng grown in Wisconsin</masterLabel>
+            <translation>採用威斯康辛州種植的西洋參，在台灣生產</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mediterranean</masterLabel>
+            <translation>地中海</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reishi material from Japan, Formulated and Manufactured in USA</masterLabel>
+            <translation>靈芝原料產自日本，在美國配製生產</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Singapore</masterLabel>
+            <translation>新加坡</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South America</masterLabel>
+            <translation>南美洲</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Korea</masterLabel>
+            <translation>韓國</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taiwan</masterLabel>
+            <translation>台灣</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thailand</masterLabel>
+            <translation>泰國</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USA</masterLabel>
+            <translation>美國</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wisconsin, USA</masterLabel>
+            <translation>美國威斯康辛州</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>中囯</masterLabel>
+            <translation><!-- 中囯 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>中國</masterLabel>
+            <translation><!-- 中國 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>台湾</masterLabel>
+            <translation><!-- 台湾 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>台灣</masterLabel>
+            <translation><!-- 台灣 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>日本</masterLabel>
+            <translation><!-- 日本 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>美国</masterLabel>
+            <translation><!-- 美国 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>美国威斯康星州</masterLabel>
+            <translation><!-- 美国威斯康星州 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>美國</masterLabel>
+            <translation><!-- 美國 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Pack Size (Populated) --></label>
+        <name>Pack_Size_Populated__c</name>
+    </fields>
+    <fields>
+        <label>包裝規格</label>
+        <name>Pack_Size__c</name>
+    </fields>
+    <fields>
+        <label><!-- Package Type (Populated) --></label>
+        <name>Package_Type_Populated__c</name>
+    </fields>
+    <fields>
+        <label>包裝</label>
+        <name>Package_Type__c</name>
+        <picklistValues>
+            <masterLabel>Bag</masterLabel>
+            <translation>包</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bottle</masterLabel>
+            <translation>瓶</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Box</masterLabel>
+            <translation>盒</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Can</masterLabel>
+            <translation>罐</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deluxe Pack</masterLabel>
+            <translation>典藏錦緞禮盒</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Economic Bags</masterLabel>
+            <translation>經濟袋</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Economic Box</masterLabel>
+            <translation><!-- Economic Box --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Economic Packaging</masterLabel>
+            <translation><!-- Economic Packaging --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Economics Bags</masterLabel>
+            <translation>經濟袋</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gift Box</masterLabel>
+            <translation>禮盒</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gift Set</masterLabel>
+            <translation><!-- Gift Set --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Travel Size</masterLabel>
+            <translation><!-- Travel Size --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Twin Pack</masterLabel>
+            <translation><!-- Twin Pack --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product Benefits (Populated) --></label>
+        <name>Product_Benefits_Populated__c</name>
+    </fields>
+    <fields>
+        <label>產品功效</label>
+        <name>Product_Benefits__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Features (Populated) --></label>
+        <name>Product_Features_Populated__c</name>
+    </fields>
+    <fields>
+        <label>產品特點</label>
+        <name>Product_Features__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity (Populated) --></label>
+        <name>Quantity_Populated__c</name>
+    </fields>
+    <fields>
+        <label>數量</label>
+        <name>Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recipe (Populated) --></label>
+        <name>Recipe_Populated__c</name>
+    </fields>
+    <fields>
+        <label>食譜</label>
+        <name>Recipe__c</name>
+    </fields>
+    <fields>
+        <label><!-- Root ID --></label>
+        <name>Root_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Root Style (Populated) --></label>
+        <name>Root_Style_Populated__c</name>
+    </fields>
+    <fields>
+        <label>樣式</label>
+        <name>Root_Style__c</name>
+        <picklistValues>
+            <masterLabel>American Red</masterLabel>
+            <translation>花旗紅參</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fibers</masterLabel>
+            <translation>粗鬚</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Half Short</masterLabel>
+            <translation>短枝</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kirin Red</masterLabel>
+            <translation>參片</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Korean Red</masterLabel>
+            <translation>高麗紅參</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Long</masterLabel>
+            <translation>長型</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pearl</masterLabel>
+            <translation>珍珠</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prong</masterLabel>
+            <translation>蘆頭</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prong, Fibers &amp; Others</masterLabel>
+            <translation>參鬚、參節、及其他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Selected Whole Untrimmed roots</masterLabel>
+            <translation>原支參</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Short</masterLabel>
+            <translation>圓短</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Short &amp; Slices</masterLabel>
+            <translation>圓短及圓切片</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Single Root</masterLabel>
+            <translation>單支參</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slices</masterLabel>
+            <translation>切片</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slices &amp; Tea bags</masterLabel>
+            <translation><!-- Slices &amp; Tea bags --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slices Cut from Whole, Untrimmed Root</masterLabel>
+            <translation>單支參參片</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Untrimmed Half Short Root</masterLabel>
+            <translation>短枝原支參</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Untrimmed Long Root</masterLabel>
+            <translation>長型原支參</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Untrimmed Pearl Root</masterLabel>
+            <translation>珍珠原支參</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Untrimmed Short Root</masterLabel>
+            <translation>圓短原支參</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Whole, Untrimmed Fresh Roots</masterLabel>
+            <translation>原支參</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Whole, Untrimmed Korean Red</masterLabel>
+            <translation>高麗紅參</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Whole, Untrimmed Roots</masterLabel>
+            <translation>原支參</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Whole, Untrimmed Single Root</masterLabel>
+            <translation>單支參</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Whole, Untrimmed Ungraded Roots</masterLabel>
+            <translation>原支參</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>参片及参茶</masterLabel>
+            <translation><!-- 参片及参茶 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Shipping Category --></label>
+        <name>Shipping_Category__c</name>
+        <picklistValues>
+            <masterLabel>Fresh</masterLabel>
+            <translation><!-- Fresh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard</masterLabel>
+            <translation><!-- Standard --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Shipping Weight (Oz) (Populated) --></label>
+        <name>Shipping_Weight_Oz_Populated__c</name>
+    </fields>
+    <fields>
+        <label>運送重量（盎司）</label>
+        <name>Shipping_Weight_Oz__c</name>
+    </fields>
+    <fields>
+        <label><!-- Size (Populated) --></label>
+        <name>Size_Populated__c</name>
+    </fields>
+    <fields>
+        <label>尺寸</label>
+        <name>Size__c</name>
+        <picklistValues>
+            <masterLabel>10 pcs per lb</masterLabel>
+            <translation><!-- 10 pcs per lb --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20 Earth</masterLabel>
+            <translation>20地</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20 Good</masterLabel>
+            <translation>20良</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20 Heaven</masterLabel>
+            <translation>20天</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20 pcs per lb</masterLabel>
+            <translation><!-- 20 pcs per lb --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25 pcs per lb</masterLabel>
+            <translation><!-- 25 pcs per lb --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30 Earth</masterLabel>
+            <translation>30地</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30 Good</masterLabel>
+            <translation>30良</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30 Heaven</masterLabel>
+            <translation>30天</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40 Earth</masterLabel>
+            <translation>40地</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40 Good</masterLabel>
+            <translation>40良</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40 Heaven</masterLabel>
+            <translation>40天</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8 oz</masterLabel>
+            <translation>8盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Extra Giant</masterLabel>
+            <translation>超霸王</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Extra Jumbo</masterLabel>
+            <translation>超巨</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Extra Large</masterLabel>
+            <translation>特大</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Giant</masterLabel>
+            <translation>霸王</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Giant Mixed</masterLabel>
+            <translation>霸王混合</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jumbo</masterLabel>
+            <translation>巨大</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Large</masterLabel>
+            <translation>大</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Large Medium</masterLabel>
+            <translation>大中</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Large Mixed</masterLabel>
+            <translation>大混合</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low Grade</masterLabel>
+            <translation>次級</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation>中</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium Small</masterLabel>
+            <translation>中小</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mix-sized</masterLabel>
+            <translation>混合尺寸</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mixed</masterLabel>
+            <translation>混合</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mixed Sizes</masterLabel>
+            <translation>混合尺寸</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prong &amp; Fiber</masterLabel>
+            <translation>須與節</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prongs &amp; Fibers</masterLabel>
+            <translation>須與節</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rhizome</masterLabel>
+            <translation>根莖</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Round Cut Slices</masterLabel>
+            <translation>圓形切片</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small</masterLabel>
+            <translation>小</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small #1</masterLabel>
+            <translation>小#1</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small #2</masterLabel>
+            <translation>小#2</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small #3</masterLabel>
+            <translation>小#3</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small Bulk</masterLabel>
+            <translation>小散装</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard</masterLabel>
+            <translation>標準</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Super Giant</masterLabel>
+            <translation>超霸王</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tea-cut</masterLabel>
+            <translation>茶切</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ungraded</masterLabel>
+            <translation>未分級</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Storage Instructions (Populated) --></label>
+        <name>Storage_Instructions_Populated__c</name>
+    </fields>
+    <fields>
+        <label>儲存方式</label>
+        <name>Storage_Instructions__c</name>
+    </fields>
+    <fields>
+        <label>茶葉類型</label>
+        <name>Tea_Style__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type (Populated) --></label>
+        <name>Type_Populated__c</name>
+    </fields>
+    <fields>
+        <label>種類</label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Black Truffle</masterLabel>
+            <translation><!-- Black Truffle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Braised Abalone</masterLabel>
+            <translation><!-- Braised Abalone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brine</masterLabel>
+            <translation><!-- Brine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Spiky</masterLabel>
+            <translation><!-- Non-Spiky --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oyster Sauce</masterLabel>
+            <translation><!-- Oyster Sauce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scallop Sauce</masterLabel>
+            <translation><!-- Scallop Sauce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spiky</masterLabel>
+            <translation><!-- Spiky --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Superior Sauce</masterLabel>
+            <translation><!-- Superior Sauce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tangerine Peel Sauce</masterLabel>
+            <translation><!-- Tangerine Peel Sauce --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Use Instructions (Populated) --></label>
+        <name>Use_Instructions_Populated__c</name>
+    </fields>
+    <fields>
+        <label>使用說明</label>
+        <name>Use_Instructions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Warnings (Populated) --></label>
+        <name>Warnings_Populated__c</name>
+    </fields>
+    <fields>
+        <label>注意事項</label>
+        <name>Warnings__c</name>
+    </fields>
+    <fields>
+        <label><!-- Watts (Populated) --></label>
+        <name>Watts_Populated__c</name>
+    </fields>
+    <fields>
+        <label>瓦數</label>
+        <name>Watts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Weight (Oz) --></label>
+        <name>Weight_Oz__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.17 Ounces</masterLabel>
+            <translation><!-- 0.17 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.25 Ounces</masterLabel>
+            <translation><!-- 0.25 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.3 Ounces</masterLabel>
+            <translation><!-- 0.3 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.35 Ounces</masterLabel>
+            <translation><!-- 0.35 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.4 Ounces</masterLabel>
+            <translation><!-- 0.4 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.46 Ounces</masterLabel>
+            <translation><!-- 0.46 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.5 Ounces</masterLabel>
+            <translation><!-- 0.5 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.55 Ounces</masterLabel>
+            <translation><!-- 0.55 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.58 Ounces</masterLabel>
+            <translation><!-- 0.58 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.75 Ounces</masterLabel>
+            <translation><!-- 0.75 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.91 Ounces</masterLabel>
+            <translation><!-- 0.91 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 Ounce</masterLabel>
+            <translation><!-- 1 Ounce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 Ounces</masterLabel>
+            <translation><!-- 1 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1.3 Ounces</masterLabel>
+            <translation><!-- 1.3 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1.41 Ounces</masterLabel>
+            <translation><!-- 1.41 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1.69 Ounces</masterLabel>
+            <translation><!-- 1.69 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10 Ounces</masterLabel>
+            <translation><!-- 10 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11 Ounces</masterLabel>
+            <translation><!-- 11 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12 Ounces</masterLabel>
+            <translation><!-- 12 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15 Ounces</masterLabel>
+            <translation><!-- 15 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16 Ounces</masterLabel>
+            <translation><!-- 16 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 Ounces</masterLabel>
+            <translation><!-- 2 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2.5 Ounces</masterLabel>
+            <translation><!-- 2.5 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2.7 Ounces</masterLabel>
+            <translation><!-- 2.7 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 Ounces</masterLabel>
+            <translation><!-- 3 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 Ounces</masterLabel>
+            <translation><!-- 4 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 Ounces</masterLabel>
+            <translation><!-- 5 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5.25 Ounces</masterLabel>
+            <translation><!-- 5.25 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5.29 Ounces</masterLabel>
+            <translation><!-- 5.29 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5.6 Ounces</masterLabel>
+            <translation><!-- 5.6 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6 Ounces</masterLabel>
+            <translation><!-- 6 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6.5 Ounces</masterLabel>
+            <translation><!-- 6.5 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7.8 Ounces</masterLabel>
+            <translation><!-- 7.8 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8 Ounces</masterLabel>
+            <translation><!-- 8 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8.25 Ounces</masterLabel>
+            <translation><!-- 8.25 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8.28 Ounces</masterLabel>
+            <translation><!-- 8.28 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8.6 Ounces</masterLabel>
+            <translation><!-- 8.6 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9 Ounces</masterLabel>
+            <translation><!-- 9 Ounces --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- What&apos;s Included (Populated) --></label>
+        <name>What_s_Included_Populated__c</name>
+    </fields>
+    <fields>
+        <label>配件</label>
+        <name>What_s_Included__c</name>
+    </fields>
+    <fields>
+        <help><!-- 2 digit ISO country code of the country indicating where the products were manufactured. --></help>
+        <label><!-- Country of Manufacture --></label>
+        <name>avaoms__CountryOfManufacture__c</name>
+    </fields>
+    <fields>
+        <help><!-- Use standard abbreviation for the unit of height. --></help>
+        <label><!-- Height - UOM Code --></label>
+        <name>avaoms__HeightUOMCode__c</name>
+    </fields>
+    <fields>
+        <help><!-- The measurement of the product from base to top. --></help>
+        <label><!-- Height - Value --></label>
+        <name>avaoms__HeightValue__c</name>
+    </fields>
+    <fields>
+        <help><!-- The harmonized system code applicable for the product used by customs authorities to calculate tariff rates for internationally traded goods. --></help>
+        <label><!-- HS Code --></label>
+        <name>avaoms__HsCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Preferred Program --></label>
+        <name>avaoms__IsPreferredProgram__c</name>
+    </fields>
+    <fields>
+        <help><!-- Use standard abbreviation for the unit of length. --></help>
+        <label><!-- Length - UOM Code --></label>
+        <name>avaoms__LengthUOMCode__c</name>
+    </fields>
+    <fields>
+        <help><!-- The measurement of product from end to end or along its longest side. --></help>
+        <label><!-- Length - Value --></label>
+        <name>avaoms__LengthValue__c</name>
+    </fields>
+    <fields>
+        <help><!-- Use standard abbreviation for the unit of net weight. --></help>
+        <label><!-- Net weight - UOM Code --></label>
+        <name>avaoms__NetWeightUOMCode__c</name>
+    </fields>
+    <fields>
+        <help><!-- The weight (mass) of only the product, substance or item, exclusive of packaging, container or other ancillary materials. --></help>
+        <label><!-- Net weight - Value --></label>
+        <name>avaoms__NetWeightValue__c</name>
+    </fields>
+    <fields>
+        <help><!-- This custom field is from the Avalara for Salesforce OMS managed package. If the corresponding product HS code is unavailable, Avalara will use this value to estimate the approximate tax to be applied. --></help>
+        <label><!-- Product Category --></label>
+        <name>avaoms__Product_Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax Code --></label>
+        <name>avaoms__Tax_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- UPC --></label>
+        <name>avaoms__UPC__c</name>
+    </fields>
+    <fields>
+        <help><!-- Use standard abbreviation for the unit of width. --></help>
+        <label><!-- Width - UOM Code --></label>
+        <name>avaoms__WidthUOMCode__c</name>
+    </fields>
+    <fields>
+        <help><!-- The measurement of product from side to side. --></help>
+        <label><!-- Width - Value --></label>
+        <name>avaoms__WidthValue__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please DO NOT change the field. Holds the value of the time when a record was last updated by a valid event. If &quot;Celigo Last Modified Date&quot; timestamp is greater than the Last Flow Run timestamp, the Salesforce Product record is synced as a NetSuite Item. --></help>
+        <label><!-- Celigo Last Modified Date (IO) --></label>
+        <name>celigo_sfnsio__Celigo_Last_Modified_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Term / Pricing Type (IO) --></label>
+        <name>celigo_sfnsio__Item_Pricing_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- NetSuite Id (IO) --></label>
+        <name>celigo_sfnsio__NetSuite_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- NetSuite Record (IO) --></label>
+        <name>celigo_sfnsio__NetSuite_Record__c</name>
+    </fields>
+    <fields>
+        <label><!-- NetSuite item type (IO) --></label>
+        <name>celigo_sfnsio__NetSuite_item_type__c</name>
+        <picklistValues>
+            <masterLabel>Inventory Item</masterLabel>
+            <translation><!-- Inventory Item --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inventory Lot Numbered</masterLabel>
+            <translation><!-- Inventory Lot Numbered --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inventory Serialized</masterLabel>
+            <translation><!-- Inventory Serialized --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non Inventory Purchase</masterLabel>
+            <translation><!-- Non Inventory Purchase --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non Inventory ReSale</masterLabel>
+            <translation><!-- Non Inventory ReSale --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non Inventory Sale</masterLabel>
+            <translation><!-- Non Inventory Sale --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Purchase</masterLabel>
+            <translation><!-- Service Purchase --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service ReSale</masterLabel>
+            <translation><!-- Service ReSale --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Sale</masterLabel>
+            <translation><!-- Service Sale --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Check the box to make the Celigo Salesforce NetSuite IO App skip exporting Salesforce Products to NetSuite Items. If it&apos;s unchecked, we will sync the Salesforce Product to NetSuite Item. --></help>
+        <label><!-- Skip Export To NetSuite (IO) --></label>
+        <name>celigo_sfnsio__Skip_Export_To_NetSuite__c</name>
+    </fields>
+    <fields>
+        <help><!-- Prerequisite: Enable &quot;Test mode&quot; from your IO General settings page. Enable the checkbox to sync records and test your IO version. If you leave the &quot;Send as test record to IO&quot; box unchecked, we will sync records via the v2 version. --></help>
+        <label><!-- Send as test record to IO --></label>
+        <name>celigo_sfnsio__Test_Mode_Record__c</name>
+    </fields>
+    <fields>
+        <help><!-- User definable external Id reference used for Pimly. Auto generated if not set by user. --></help>
+        <label><!-- Admin Name --></label>
+        <name>pimly__Admin_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the banner image for a product --></help>
+        <label><!-- Banner Image --></label>
+        <name>pimly__Banner_Image__c</name>
+        <relationshipLabel><!-- Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Channel Properties --></label>
+        <name>pimly__Channel_Properties__c</name>
+    </fields>
+    <fields>
+        <label><!-- Error Message --></label>
+        <name>pimly__Error_Message__c</name>
+    </fields>
+    <fields>
+        <label>科</label>
+        <name>pimly__Family__c</name>
+        <relationshipLabel><!-- Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Global Properties --></label>
+        <name>pimly__Global_Properties__c</name>
+    </fields>
+    <fields>
+        <help><!-- This group defines where this product lives in the inheritance model --></help>
+        <label><!-- Inheritance Group --></label>
+        <name>pimly__Inheritance_Group__c</name>
+        <relationshipLabel><!-- Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Out of sync --></label>
+        <name>pimly__Out_of_sync__c</name>
+    </fields>
+    <fields>
+        <help><!-- The unique identifier used for Pimly. This is user definable unless it is sourced from a sync operation. Spaces should be avoided. Ex &quot;product_45834&quot; --></help>
+        <label><!-- Pimly Id --></label>
+        <name>pimly__Pimly_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Line Id --></label>
+        <name>pimly__Product_Line_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Parent (Inheritance) --></label>
+        <name>pimly__Product_Parent__c</name>
+        <relationshipLabel><!-- Variant Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Property Order --></label>
+        <name>pimly__Property_Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- Variant Properties --></label>
+        <name>pimly__Variant_Properties__c</name>
+    </fields>
+    <layouts>
+        <layout>Celigo Product Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- NetSuite --></label>
+            <section>NetSuite</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Commerce Product Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Product Layout - Pimly</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Pimly Fields --></label>
+            <section>Pimly Fields</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- AvaTax Tax Code --></label>
+        <name>AVA_B2BLEX__AvaTax_Tax_Code</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Reset Attributes --></label>
+        <name>Reset_Attributes</name>
+    </quickActions>
+    <webLinks>
+        <label><!-- Classify_HS_Code_Auto --></label>
+        <name>AVA_B2BLEX__Classify_HS_Code_Auto</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Gitリポジトリ</value>
+    </caseValues>
+    <fieldSets>
+        <label>コパードヘッダーフィールド</label>
+        <name>copado__Copado_Header_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>カスタムフィールド</label>
+        <name>copado__CustomFields</name>
+    </fieldSets>
+    <fields>
+        <label>Gitキャッシュの機能を有効にする</label>
+        <name>copado__Allow_Functions_Git_Cache__c</name>
+    </fields>
+    <fields>
+        <help><!-- Base URL of your Repository branches, e.g.: https://github.com/[COMPANY]/[REPOSITORY]/tree/ --></help>
+        <label>ブランチベースのURL</label>
+        <name>copado__Branch_Base_URL__c</name>
+    </fields>
+    <fields>
+        <help><!-- Base URL of your Repository commits, e.g.: https://github.com/[COMPANY]/[REPOSITORY]/commit/ --></help>
+        <label>ベースURLをコミット</label>
+        <name>copado__Commit_Base_URL__c</name>
+    </fields>
+    <fields>
+        <label>GitHub Enterprise のホスト名</label>
+        <name>copado__Enterprise_Hostname__c</name>
+    </fields>
+    <fields>
+        <help><!-- Copado generates specific links to the Git Repository, its branches and commits based on the selected Git Provider. --></help>
+        <label>Gitプロバイダー</label>
+        <name>copado__Git_Provider__c</name>
+        <picklistValues>
+            <masterLabel>Azure</masterLabel>
+            <translation><!-- Azure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bitbucket</masterLabel>
+            <translation><!-- Bitbucket --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Copado Version Control</masterLabel>
+            <translation><!-- Copado Version Control --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GitLab</masterLabel>
+            <translation><!-- GitLab --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Github</masterLabel>
+            <translation><!-- Github --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Microsoft Team Service</masterLabel>
+            <translation><!-- Microsoft Team Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Others</masterLabel>
+            <translation><!-- Others --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Is repository connected via copa tunnel? --></help>
+        <label>リポジトリは copa トンネル経由で接続されていますか？</label>
+        <name>copado__Is_repository_connected_via_copa_tunnel__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>OAuth</label>
+        <name>copado__OAuth__c</name>
+    </fields>
+    <fields>
+        <help><!-- Base URL of your Repository, e.g.: https://github.com/[COMPANY]/[REPOSITORY]/ https://bitbucket.org/[COMPANY]/[REPOSITORY]/ https://gitlab.org/[COMPANY]/[REPOSITORY]/ --></help>
+        <label>プルリクエストのベースURL</label>
+        <name>copado__Pull_Request_Base_URL__c</name>
+    </fields>
+    <fields>
+        <help><!-- Choose between standard Metadata API folder and file structure or DX source structure that uses a different set of files and file extensions. Default is Metadata. --></help>
+        <label>ソースフォーマット</label>
+        <name>copado__Source_Format__c</name>
+        <picklistValues>
+            <masterLabel>Metadata</masterLabel>
+            <translation><!-- Metadata --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Base URL of your Repository, e.g.: https://github.com/[COMPANY]/[REPOSITORY]/releases/tag/ --></help>
+        <label>タグベースのURL</label>
+        <name>copado__Tag_Base_URL__c</name>
+    </fields>
+    <fields>
+        <help><!-- HTTPS or SSH URL to connect to the Git Repository. --></help>
+        <label><!-- URI --></label>
+        <name>copado__URI__c</name>
+    </fields>
+    <layouts>
+        <layout>Git Repository Layout Lightning</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Gitリポジトリ名</nameFieldLabel>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Copadoのヘルプを表示</label>
+        <name>copado__Get_Copado_Help</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>認証をリセット</label>
+        <name>copado__Reset_Authentication</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>クラシックビューへの切り替え</label>
+        <name>copado__Switch_to_Classic_View</name>
+    </quickActions>
+    <webLinks>
+        <label><!-- Initialize_Salesforce_Project --></label>
+        <name>cmcSf__Initialize_Salesforce_Project</name>
+    </webLinks>
+</CustomObjectTranslation>

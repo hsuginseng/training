@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Состояние Docusign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Состояние Docusign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Состояние Docusign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Состояние Docusign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Состояние Docusign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Состояние Docusign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Состояние Docusign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Состояние Docusign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Состояние Docusign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Состояние Docusign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>false</plural>
+        <value>Состояние Docusign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>true</plural>
+        <value>Состояние Docusign</value>
+    </caseValues>
+    <fields>
+        <label>Учетная запись</label>
+        <name>dfsle__Account__c</name>
+        <relationshipLabel><!-- DocuSign Status --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Обращение</label>
+        <name>dfsle__Case__c</name>
+        <relationshipLabel><!-- DocuSign Status --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Завершено</label>
+        <name>dfsle__Completed__c</name>
+    </fields>
+    <fields>
+        <label>Контакт</label>
+        <name>dfsle__Contact__c</name>
+        <relationshipLabel><!-- DocuSign Status --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Контракт</label>
+        <name>dfsle__Contract__c</name>
+        <relationshipLabel><!-- DocuSign Status --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Идентификатор конверта DocuSign</label>
+        <name>dfsle__DocuSignId__c</name>
+    </fields>
+    <fields>
+        <label>Тема сообщения электронной почты</label>
+        <name>dfsle__EmailSubject__c</name>
+    </fields>
+    <fields>
+        <label>Срок действия истекает</label>
+        <name>dfsle__Expires__c</name>
+    </fields>
+    <fields>
+        <label>Последнее обновление статуса</label>
+        <name>dfsle__LastStatusUpdate__c</name>
+    </fields>
+    <fields>
+        <label>Интерес</label>
+        <name>dfsle__Lead__c</name>
+        <relationshipLabel><!-- DocuSign Status --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Потенциальная сделка</label>
+        <name>dfsle__Opportunity__c</name>
+        <relationshipLabel><!-- DocuSign Status --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Причина отклонения или аннулирования</label>
+        <name>dfsle__Reason__c</name>
+    </fields>
+    <fields>
+        <label>Адрес электронной почты отправителя</label>
+        <name>dfsle__SenderEmail__c</name>
+    </fields>
+    <fields>
+        <label>Имя отправителя</label>
+        <name>dfsle__SenderName__c</name>
+    </fields>
+    <fields>
+        <label>Отправлено</label>
+        <name>dfsle__Sent__c</name>
+    </fields>
+    <fields>
+        <label>Идентификатор источника Salesforce</label>
+        <name>dfsle__SourceId__c</name>
+    </fields>
+    <fields>
+        <label>Статус</label>
+        <name>dfsle__Status__c</name>
+    </fields>
+    <fields>
+        <label>Время до завершения</label>
+        <name>dfsle__TimeToComplete__c</name>
+    </fields>
+    <gender>Neuter</gender>
+    <layouts>
+        <layout>DocuSign Envelope Status Layout</layout>
+        <sections>
+            <label><!-- Information --></label>
+            <section>Information</section>
+        </sections>
+        <sections>
+            <label><!-- Related Objects --></label>
+            <section>Related Objects</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Envelope#</nameFieldLabel>
+    <webLinks>
+        <label><!-- ViewEnvelope --></label>
+        <name>dfsle__ViewEnvelope</name>
+    </webLinks>
+</CustomObjectTranslation>

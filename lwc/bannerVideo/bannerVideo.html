@@ -1,0 +1,36 @@
+<template>
+	<section class="section">
+		<div class="inner">
+			<div class="flex">
+				<template lwc:if={ctaUrl}>
+					<div class="video-text">
+						<h1>{title}</h1>
+					</div>					
+				</template>
+				<template lwc:else>
+					<div class="video-text centered">
+						<h1>{title}</h1>
+					</div>
+				</template>
+				<div class="video-btns">
+					<template lwc:if={ctaUrl}>
+						<c-cta-link-red cta-text={ctaText} cta-url={ctaUrl}></c-cta-link-red>
+					</template>
+					<div class="video-control">
+						<button class="pause show" onclick={handlePause}>
+							<span class="sr-only">Pause Video</span>
+						</button>
+						<button class="play" onclick={handlePlay}>
+							<span class="sr-only">Play Video</span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bg">
+			<video autoplay loop muted playsinline>
+				<source src={videoUrl} type="video/mp4" />
+			</video>
+		</div>
+	</section>
+</template>

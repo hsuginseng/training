@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Seleniumグループ変数</value>
+    </caseValues>
+    <fields>
+        <label><!-- Display Value --></label>
+        <name>copado__Display_Value__c</name>
+    </fields>
+    <fields>
+        <help>テストグループ関連リストで値を非表示にするには、このチェックボックスをオンにします。</help>
+        <label><!-- Hide Value --></label>
+        <name>copado__Hide_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Selenium Test Group --></label>
+        <name>copado__Selenium_Test_Group__c</name>
+        <relationshipLabel><!-- Selenium Group Variables --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Seleniumグループ変数は、この Seleniumグループ内でのみ有効です。 テストケース上では、変数は {!Group.VARIABLE_NAME} のように参照されます。</help>
+        <label><!-- Value --></label>
+        <name>copado__Value__c</name>
+    </fields>
+    <layouts>
+        <layout>Selenium Group Variable Layout</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Seleniumグループ変数名</nameFieldLabel>
+</CustomObjectTranslation>

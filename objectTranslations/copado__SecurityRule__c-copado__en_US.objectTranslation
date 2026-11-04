@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Security Rule</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Security Rules</value>
+    </caseValues>
+    <fields>
+        <help><!-- When selected, the rule applies to all users in the org. Do not populate User or Persona. --></help>
+        <label><!-- Apply to All Users --></label>
+        <name>copado__ApplyToAllUsers__c</name>
+    </fields>
+    <fields>
+        <help><!-- Choose the specific environment where this rule should be applied --></help>
+        <label><!-- Environment --></label>
+        <name>copado__Environment__c</name>
+        <relationshipLabel><!-- Security Rules --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Activate/Deactivate this rule --></help>
+        <label><!-- Active --></label>
+        <name>copado__IsActive__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select a Persona to apply this rule to --></help>
+        <label><!-- Persona --></label>
+        <name>copado__PersonaDefinition__c</name>
+        <relationshipLabel><!-- Security Rules --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Choose a specific pipeline scope or leave blank to apply this rule in all Pipelines --></help>
+        <label><!-- Pipeline --></label>
+        <name>copado__Pipeline__c</name>
+        <relationshipLabel><!-- Security Rules --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Define if this rule allows or prevents an action --></help>
+        <label><!-- Rule Effect --></label>
+        <name>copado__RuleEffect__c</name>
+        <picklistValues>
+            <masterLabel>Allow</masterLabel>
+            <translation><!-- Allow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deny</masterLabel>
+            <translation><!-- Deny --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Choose the action you want to enforce --></help>
+        <label><!-- Target Action --></label>
+        <name>copado__TargetAction__c</name>
+        <picklistValues>
+            <masterLabel>Commit (Add With System Permissions)</masterLabel>
+            <translation><!-- Commit (Add With System Permissions) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commit (Delete)</masterLabel>
+            <translation><!-- Commit (Delete) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commit (Full)</masterLabel>
+            <translation><!-- Commit (Full) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commit (Retrieve Only)</masterLabel>
+            <translation><!-- Commit (Retrieve Only) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commit (Selective)</masterLabel>
+            <translation><!-- Commit (Selective) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deploy</masterLabel>
+            <translation><!-- Deploy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Validate</masterLabel>
+            <translation><!-- Validate --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- For Metadata rules, enter metadata type API names separated by commas (e.g. ApexClass, Profile). Leave blank to apply to all metadata types. --></help>
+        <label><!-- Target Values --></label>
+        <name>copado__TargetValues__c</name>
+    </fields>
+    <fields>
+        <help><!-- Choose the type of rule you want to enforce --></help>
+        <label><!-- Type --></label>
+        <name>copado__Type__c</name>
+        <picklistValues>
+            <masterLabel>Environment</masterLabel>
+            <translation><!-- Environment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Metadata</masterLabel>
+            <translation><!-- Metadata --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Select an individual user to apply this rule to --></help>
+        <label><!-- User --></label>
+        <name>copado__User__c</name>
+        <relationshipLabel><!-- Security Rules --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Security Rule Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Rule Definition --></label>
+            <section>Rule Definition</section>
+        </sections>
+        <sections>
+            <label><!-- Subject Scope --></label>
+            <section>Subject Scope</section>
+        </sections>
+        <sections>
+            <label><!-- Target Actions By Type --></label>
+            <section>Target Actions By Type</section>
+        </sections>
+        <sections>
+            <label><!-- Target Scope --></label>
+            <section>Target Scope</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Select exactly one subject: Apply to All Users, User, or Persona. --></errorMessage>
+        <name>copado__EnforceSingleSubject</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Environment is required when Type is Environment. --></errorMessage>
+        <name>copado__Environment_Requires_Target</name>
+    </validationRules>
+</CustomObjectTranslation>

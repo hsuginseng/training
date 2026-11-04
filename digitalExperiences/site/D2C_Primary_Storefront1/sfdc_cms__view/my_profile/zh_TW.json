@@ -1,0 +1,23 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "My Profile",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "attributes" : {
+          "firstNameLabel" : "名",
+          "lastNameLabel" : "姓",
+          "emailLabel" : "電子郵件",
+          "phoneNumberLabel" : "電話號碼"
+        },
+        "id" : "33f0dc51-96b3-43bb-b7e0-9ce57dfcf79e"
+      }, {
+        "id" : "1253082d-1acc-47af-a75e-8e9e5cdc067e",
+        "attributes" : {
+          "text" : "My Account"
+        }
+      } ]
+    }
+  },
+  "urlName" : "my-profile"
+}

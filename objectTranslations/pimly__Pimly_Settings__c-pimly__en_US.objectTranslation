@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Pimly Settings</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Pimly Settings</value>
+    </caseValues>
+    <fields>
+        <help><!-- Addititional setup is require for experience Sites. Please consult the Pimly Setup Guide for more information --></help>
+        <label><!-- Experience Site Channel Id --></label>
+        <name>pimly__Experience_Site_Channel_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Fields --></label>
+        <name>pimly__Parent_Fields__c</name>
+    </fields>
+    <fields>
+        <help><!-- The version of the Pimly API backend uses. Ex: &quot;v1&quot; --></help>
+        <label><!-- Pimly API Version --></label>
+        <name>pimly__Pimly_API_Version__c</name>
+    </fields>
+    <fields>
+        <help><!-- Endpoint for the Pimly API. This value should not need to be changed. --></help>
+        <label><!-- Pimly Lite API Endpoint --></label>
+        <name>pimly__Pimly_Lite_API_Endpoint__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Email --></label>
+        <name>pimly__Primary_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product2 Fields --></label>
+        <name>pimly__Product2_Fields__c</name>
+    </fields>
+    <fields>
+        <help><!-- Username of the Salesforce Integration User used for Pimly data operations. --></help>
+        <label><!-- Salesforce Integration Username --></label>
+        <name>pimly__Salesforce_Integration_Username__c</name>
+    </fields>
+    <fields>
+        <help><!-- The AWS ARN of the Salsify Lite Import Function. This value should never be changed --></help>
+        <label><!-- Salsify Import Lite ARN - DEP --></label>
+        <name>pimly__Salsify_Import_Lite_ARN__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Salsify Org Id used during sync operations. Ex. &quot;s-932a3hwh-w5a6-8b73-88fe-362hwiefn33&quot; --></help>
+        <label><!-- Salsify Org Id --></label>
+        <name>pimly__Salsify_Org_Id__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

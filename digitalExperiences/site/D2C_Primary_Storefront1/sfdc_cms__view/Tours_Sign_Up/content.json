@@ -1,0 +1,265 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Tours-Sign-Up",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"9c17cc7d-a2dc-485c-9056-0a77aa4db57e\",\"columns\":[{\"UUID\":\"82533000-f180-4bc5-82dd-ae77dbbd7332\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Plan Your Visit to Hsu's Ginseng Farm",
+                "textAlign" : "center",
+                "textDecoration" : "{\"bold\":true}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\",\"enableOverride\":false}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "6a4d8841-6e71-42b6-888e-28488b0090da",
+              "type" : "component"
+            } ],
+            "id" : "82533000-f180-4bc5-82dd-ae77dbbd7332",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "9c17cc7d-a2dc-485c-9056-0a77aa4db57e",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"ce08da57-ce83-4d55-8e00-491ac4d59b73\",\"columns\":[{\"UUID\":\"d6b5257b-cca0-49f7-95e5-57ec337d00b5\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "imageInfos" : "",
+                "richTextValue" : "<p style=\"text-align: center;\"><span style=\"font-family: georgia;\">A few things to note before submitting your tour reservation request: </span></p><p style=\"text-align: center;\"><br></p><ul><li style=\"text-align: center;\"><span style=\"font-family: georgia;\">Reservations are required to ensure we can provide you with the best possible experience. </span></li><li style=\"text-align: center;\"><span style=\"font-family: georgia;\">Submitting the form indicates your interest but does not guarantee a reservation. </span></li><li style=\"text-align: center;\"><span style=\"font-family: georgia;\">Once submitted, we will contact you within 3-5 business days to confirm guide availability. </span></li><li style=\"text-align: center;\"><span style=\"font-family: georgia;\">Tours are scheduled on a first-come, first-served basis, so keep an eye on your inbox for confirmation.</span></li></ul><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><strong><u>* Tours offered May thru September, Mon-Fri. (except public holidays)9:30am - 3:00pm (CST).</u></strong></p><p style=\"text-align: center;\"><strong><u>Reservations made 1 week in advance is appreciated.</u></strong></p><p style=\"text-align: center;\"><strong style=\"font-family: georgia;\"><u>﻿</u></strong></p><p style=\"text-align: center;\"><span style=\"font-family: georgia;\">Please complete all required fields to help us prepare for your visit</span></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "9972e312-3bd4-4cfe-a2ba-3f3c06335139",
+              "type" : "component"
+            } ],
+            "id" : "d6b5257b-cca0-49f7-95e5-57ec337d00b5",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "ce08da57-ce83-4d55-8e00-491ac4d59b73",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"e18fa40b-622f-48a4-94a9-be0addd96fd5\",\"columns\":[{\"UUID\":\"49c5de38-73e0-4e6e-8b21-704cc5fb4962\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "dxpStyle" : { },
+                "layoutDirectionDesktop" : "row",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"b183c8a7-7751-4a59-b596-561998cd0388\",\"columns\":[{\"UUID\":\"1f0cb55f-e02b-4c88-b628-9d3d8fbafef3\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"c8c82990-046b-4493-8cd1-a6805f0a8ea9\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"943dc689-d318-401c-a463-083d5e1589f2\",\"columnName\":\"Column 3\",\"columnKey\":\"c5e34\",\"columnWidth\":\"3\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "id" : "1f0cb55f-e02b-4c88-b628-9d3d8fbafef3",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "dxpStyle" : {
+                      "isVisible" : false
+                    },
+                    "flowName" : "{\"flowName\":\"Tours_Case_Submission_Flow\",\"flowLabel\":\"Tours Case Submission Flow\"}"
+                  },
+                  "definition" : "dxp_flow:flow",
+                  "id" : "ac9e6254-f4d7-4d93-9e10-7e1a1cc2c589",
+                  "type" : "component"
+                } ],
+                "id" : "c8c82990-046b-4493-8cd1-a6805f0a8ea9",
+                "name" : "col2",
+                "title" : "Column 2",
+                "type" : "region"
+              }, {
+                "id" : "943dc689-d318-401c-a463-083d5e1589f2",
+                "name" : "c5e34",
+                "title" : "Column 3",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "b183c8a7-7751-4a59-b596-561998cd0388",
+              "type" : "component"
+            } ],
+            "id" : "49c5de38-73e0-4e6e-8b21-704cc5fb4962",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "e18fa40b-622f-48a4-94a9-be0addd96fd5",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"d30421e1-c3c3-49f9-80cb-2daa7f97f703\",\"columns\":[{\"UUID\":\"5f5f931c-4c8e-4069-9da8-809989728bfa\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Additional Information",
+                "textAlign" : "center",
+                "textDecoration" : "{\"bold\":true}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-small\",\"headingTag\":\"h4\",\"enableOverride\":false}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "de10a3dc-a921-4668-b68c-54f4bd6915e4",
+              "type" : "component"
+            } ],
+            "id" : "5f5f931c-4c8e-4069-9da8-809989728bfa",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "d30421e1-c3c3-49f9-80cb-2daa7f97f703",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"d819aab0-e92d-4f70-ae46-ac05a7c3de7e\",\"columns\":[{\"UUID\":\"25c35ec3-f1fe-4ebd-8b00-ff294eccb650\",\"columnName\":\"Column 1\",\"columnKey\":\"c251e\",\"columnWidth\":\"2\",\"seedComponents\":[]},{\"UUID\":\"2704ba9c-512f-4384-9a58-9227fe39b846\",\"columnName\":\"Column 2\",\"columnKey\":\"58718\",\"columnWidth\":\"8\",\"seedComponents\":[]},{\"UUID\":\"62d0a4ef-50c5-4328-9a13-d1c13fb89a5a\",\"columnName\":\"Column 3\",\"columnKey\":\"93bf3\",\"columnWidth\":\"2\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "id" : "25c35ec3-f1fe-4ebd-8b00-ff294eccb650",
+            "name" : "c251e",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "imageInfos" : "",
+                "richTextValue" : "<p style=\"text-align: center;\"><span style=\"font-family: georgia;\">Tours are $5 per person and can be applied toward an in-store purchase. Each tour typically lasts 1 to 1.5 hours; however, if you have time constraints, your guide will gladly work with you to adjust the duration. Keep in mind that weather conditions may affect the overall experience.</span></p>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "f4843976-6147-40b5-8f3d-c5964abd55a2",
+              "type" : "component"
+            } ],
+            "id" : "2704ba9c-512f-4384-9a58-9227fe39b846",
+            "name" : "58718",
+            "title" : "Column 2",
+            "type" : "region"
+          }, {
+            "id" : "62d0a4ef-50c5-4328-9a13-d1c13fb89a5a",
+            "name" : "93bf3",
+            "title" : "Column 3",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "d819aab0-e92d-4f70-ae46-ac05a7c3de7e",
+          "type" : "component"
+        } ],
+        "id" : "e0af1868-a728-4975-9d5c-e6d9b053c2b3",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "Tours-Sign-Up",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "832cde66-8de9-4daf-9820-7af68e1773e5",
+          "type" : "component"
+        } ],
+        "id" : "bc05979e-8095-4bf6-8b3f-9fdc18097e61",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "145ba470-c936-4c3f-85d1-b576f2123b68",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-tours-sign-up"
+  },
+  "urlName" : "tours-sign-up"
+}

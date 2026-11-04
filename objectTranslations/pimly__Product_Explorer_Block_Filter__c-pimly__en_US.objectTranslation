@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Product Explorer Block Filter</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Product Explorer Block Filters</value>
+    </caseValues>
+    <fields>
+        <help><!-- The available values separated by new lines. If left empty, all values set on the pimly property will be shown. --></help>
+        <label><!-- Available Values --></label>
+        <name>pimly__Available_Values__c</name>
+    </fields>
+    <fields>
+        <help><!-- The default number of rows to show within the filter. If the number of filter options is greater than this number, the user will have to click show more. --></help>
+        <label><!-- Default Number of Rows --></label>
+        <name>pimly__Default_Number_of_Rows__c</name>
+    </fields>
+    <fields>
+        <help><!-- When the catalog loads, any filters with this field set to true will be expanded automatically. --></help>
+        <label><!-- Expanded by Default --></label>
+        <name>pimly__Expanded_by_Default__c</name>
+    </fields>
+    <fields>
+        <help><!-- The type of filter controls how the filter is used in the catalog UI --></help>
+        <label><!-- Filter Type --></label>
+        <name>pimly__Filter_Type__c</name>
+        <picklistValues>
+            <masterLabel>Color Swatches</masterLabel>
+            <translation><!-- Color Swatches --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Free Text</masterLabel>
+            <translation><!-- Free Text --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multi-Select Checkboxes</masterLabel>
+            <translation><!-- Multi-Select Checkboxes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Number In Between Slider</masterLabel>
+            <translation><!-- Number In Between Slider --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Single-Select Radio Buttons</masterLabel>
+            <translation><!-- Single-Select Radio Buttons --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Pimly Property --></label>
+        <name>pimly__Pimly_Property__c</name>
+        <relationshipLabel><!-- Product Explorer Block Filters --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product Explorer Block --></label>
+        <name>pimly__Product_Explorer_Block__c</name>
+        <relationshipLabel><!-- Product Explorer Block Filters --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,2407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label>顏色</label>
+        <name>prop07395a0749b949a9bd7d2884792382ba__c</name>
+        <picklistValues>
+            <masterLabel>Blue</masterLabel>
+            <translation>藍色</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Green</masterLabel>
+            <translation>綠色</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>容量</label>
+        <name>prop1bc78413f43f4b8bb1f116df80d71e02__c</name>
+        <picklistValues>
+            <masterLabel>10-Cup</masterLabel>
+            <translation>10杯</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11-Cup</masterLabel>
+            <translation>11杯</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 L</masterLabel>
+            <translation>3公升</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3-Cup</masterLabel>
+            <translation>3杯</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 L</masterLabel>
+            <translation>4公升</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 L</masterLabel>
+            <translation>5公升</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5-Cup</masterLabel>
+            <translation>5杯</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5.5-Cup</masterLabel>
+            <translation>5.5 杯</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6-Cup</masterLabel>
+            <translation>6杯</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product Benefits --></label>
+        <name>prop21a27fb9517d48d890d070ead52dbe68__c</name>
+        <picklistValues>
+            <masterLabel>Algae Extract Hydrating</masterLabel>
+            <translation><!-- Algae Extract Hydrating --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arbutin Brightening</masterLabel>
+            <translation><!-- Arbutin Brightening --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brightening</masterLabel>
+            <translation><!-- Brightening --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ceramide Moisturizing</masterLabel>
+            <translation><!-- Ceramide Moisturizing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hydrating</masterLabel>
+            <translation><!-- Hydrating --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mandelic Acid Refining</masterLabel>
+            <translation><!-- Mandelic Acid Refining --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Moisturizing</masterLabel>
+            <translation><!-- Moisturizing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plumping</masterLabel>
+            <translation><!-- Plumping --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repairing</masterLabel>
+            <translation><!-- Repairing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Whitening</masterLabel>
+            <translation><!-- Whitening --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Xpertmoist Deeply Moisturizing</masterLabel>
+            <translation><!-- Xpertmoist Deeply Moisturizing --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>尺寸</label>
+        <name>prop34bbe423999848c8a464862ab4cb7d30__c</name>
+        <picklistValues>
+            <masterLabel>10 pcs per lb</masterLabel>
+            <translation><!-- 10 pcs per lb --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20 Earth</masterLabel>
+            <translation>20地</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20 Good</masterLabel>
+            <translation>20良</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20 Heaven</masterLabel>
+            <translation>20天</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20 pcs per lb</masterLabel>
+            <translation><!-- 20 pcs per lb --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25 pcs per lb</masterLabel>
+            <translation><!-- 25 pcs per lb --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30 Earth</masterLabel>
+            <translation>30地</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30 Good</masterLabel>
+            <translation>30良</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30 Heaven</masterLabel>
+            <translation>30天</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40 Earth</masterLabel>
+            <translation>40地</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40 Good</masterLabel>
+            <translation>40良</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40 Heaven</masterLabel>
+            <translation>40天</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8 oz</masterLabel>
+            <translation>8盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Extra Giant</masterLabel>
+            <translation>超霸王</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Extra Jumbo</masterLabel>
+            <translation>超巨</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Extra Large</masterLabel>
+            <translation>特大</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Giant</masterLabel>
+            <translation>霸王</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Giant Mixed</masterLabel>
+            <translation>霸王混合</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jumbo</masterLabel>
+            <translation>巨大</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Large</masterLabel>
+            <translation>大</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Large Medium</masterLabel>
+            <translation>大中</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Large Mixed</masterLabel>
+            <translation>大混合</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low Grade</masterLabel>
+            <translation>次級</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation>中</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium Small</masterLabel>
+            <translation>中小</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mix-sized</masterLabel>
+            <translation>混合尺寸</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mixed</masterLabel>
+            <translation>混合</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mixed Sizes</masterLabel>
+            <translation>混合尺寸</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prong &amp; Fiber</masterLabel>
+            <translation>須與節</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prongs &amp; Fibers</masterLabel>
+            <translation>須與節</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rhizome</masterLabel>
+            <translation>根莖</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Round Cut Slices</masterLabel>
+            <translation>圓形切片</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small</masterLabel>
+            <translation>小</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small #1</masterLabel>
+            <translation>小#1</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small #2</masterLabel>
+            <translation>小#2</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small #3</masterLabel>
+            <translation>小#3</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small Bulk</masterLabel>
+            <translation>小散装</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard</masterLabel>
+            <translation>標準</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Super Giant</masterLabel>
+            <translation>超霸王</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tea-cut</masterLabel>
+            <translation>茶切</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ungraded</masterLabel>
+            <translation>未分級</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Count --></label>
+        <name>prop3c8382c255b54e8e88c8046559c2ca67__c</name>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>100</masterLabel>
+            <translation><!-- 100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>18</masterLabel>
+            <translation><!-- 18 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>500</masterLabel>
+            <translation><!-- 500 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Package Type --></label>
+        <name>prop4286edc00b774949b47429dd5003c2fc__c</name>
+        <picklistValues>
+            <masterLabel>Bag</masterLabel>
+            <translation><!-- Bag --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Can</masterLabel>
+            <translation><!-- Can --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Economic Packaging</masterLabel>
+            <translation><!-- Economic Packaging --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Economy Size</masterLabel>
+            <translation><!-- Economy Size --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gift Box</masterLabel>
+            <translation><!-- Gift Box --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gift Set</masterLabel>
+            <translation><!-- Gift Set --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard</masterLabel>
+            <translation><!-- Standard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Travel Size</masterLabel>
+            <translation><!-- Travel Size --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Twin Pack</masterLabel>
+            <translation><!-- Twin Pack --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>prop4894e94098af49c99bdb77ff84feb014__c</name>
+        <picklistValues>
+            <masterLabel>Black Truffle</masterLabel>
+            <translation><!-- Black Truffle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Braised Abalone</masterLabel>
+            <translation><!-- Braised Abalone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brine</masterLabel>
+            <translation><!-- Brine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Spiky</masterLabel>
+            <translation><!-- Non-Spiky --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oyster Sauce</masterLabel>
+            <translation><!-- Oyster Sauce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scallop Sauce</masterLabel>
+            <translation><!-- Scallop Sauce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spiky</masterLabel>
+            <translation><!-- Spiky --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Superior Sauce</masterLabel>
+            <translation><!-- Superior Sauce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tangerine Peel Sauce</masterLabel>
+            <translation><!-- Tangerine Peel Sauce --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Pack Size --></label>
+        <name>prop5743bd8f943f42d2a7e7d80c0b92c0ba__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation><!-- 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>72</masterLabel>
+            <translation><!-- 72 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Root ID --></label>
+        <name>prop583b49cdb6944a1ab93921be87a276be__c</name>
+        <picklistValues>
+            <masterLabel>209</masterLabel>
+            <translation><!-- 209 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>264</masterLabel>
+            <translation><!-- 264 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>265</masterLabel>
+            <translation><!-- 265 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>266</masterLabel>
+            <translation><!-- 266 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>267</masterLabel>
+            <translation><!-- 267 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>268</masterLabel>
+            <translation><!-- 268 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>269</masterLabel>
+            <translation><!-- 269 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>270</masterLabel>
+            <translation><!-- 270 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>271</masterLabel>
+            <translation><!-- 271 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>272</masterLabel>
+            <translation><!-- 272 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>273</masterLabel>
+            <translation><!-- 273 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>274</masterLabel>
+            <translation><!-- 274 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>275</masterLabel>
+            <translation><!-- 275 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>276</masterLabel>
+            <translation><!-- 276 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>278</masterLabel>
+            <translation><!-- 278 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>279</masterLabel>
+            <translation><!-- 279 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>280</masterLabel>
+            <translation><!-- 280 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>281</masterLabel>
+            <translation><!-- 281 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>282</masterLabel>
+            <translation><!-- 282 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>283</masterLabel>
+            <translation><!-- 283 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>284</masterLabel>
+            <translation><!-- 284 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>304</masterLabel>
+            <translation><!-- 304 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>319</masterLabel>
+            <translation><!-- 319 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>322</masterLabel>
+            <translation><!-- 322 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>323</masterLabel>
+            <translation><!-- 323 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>324</masterLabel>
+            <translation><!-- 324 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>325</masterLabel>
+            <translation><!-- 325 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>327</masterLabel>
+            <translation><!-- 327 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>328</masterLabel>
+            <translation><!-- 328 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>329</masterLabel>
+            <translation><!-- 329 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>330</masterLabel>
+            <translation><!-- 330 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>331</masterLabel>
+            <translation><!-- 331 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>332</masterLabel>
+            <translation><!-- 332 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>333</masterLabel>
+            <translation><!-- 333 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>334</masterLabel>
+            <translation><!-- 334 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>335</masterLabel>
+            <translation><!-- 335 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>336</masterLabel>
+            <translation><!-- 336 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>337</masterLabel>
+            <translation><!-- 337 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>338</masterLabel>
+            <translation><!-- 338 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>340</masterLabel>
+            <translation><!-- 340 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>341</masterLabel>
+            <translation><!-- 341 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>342</masterLabel>
+            <translation><!-- 342 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>343</masterLabel>
+            <translation><!-- 343 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>344</masterLabel>
+            <translation><!-- 344 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>345</masterLabel>
+            <translation><!-- 345 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>346</masterLabel>
+            <translation><!-- 346 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>347</masterLabel>
+            <translation><!-- 347 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>348</masterLabel>
+            <translation><!-- 348 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>349</masterLabel>
+            <translation><!-- 349 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>350</masterLabel>
+            <translation><!-- 350 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>351</masterLabel>
+            <translation><!-- 351 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>352</masterLabel>
+            <translation><!-- 352 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>353</masterLabel>
+            <translation><!-- 353 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>354</masterLabel>
+            <translation><!-- 354 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>356</masterLabel>
+            <translation><!-- 356 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>357</masterLabel>
+            <translation><!-- 357 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>358</masterLabel>
+            <translation><!-- 358 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>366</masterLabel>
+            <translation><!-- 366 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>367</masterLabel>
+            <translation><!-- 367 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>372</masterLabel>
+            <translation><!-- 372 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>375</masterLabel>
+            <translation><!-- 375 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>379</masterLabel>
+            <translation><!-- 379 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>386</masterLabel>
+            <translation><!-- 386 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>387</masterLabel>
+            <translation><!-- 387 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>394</masterLabel>
+            <translation><!-- 394 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>395</masterLabel>
+            <translation><!-- 395 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>396</masterLabel>
+            <translation><!-- 396 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>397</masterLabel>
+            <translation><!-- 397 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>400</masterLabel>
+            <translation><!-- 400 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>404</masterLabel>
+            <translation><!-- 404 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>405</masterLabel>
+            <translation><!-- 405 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>406</masterLabel>
+            <translation><!-- 406 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>407</masterLabel>
+            <translation><!-- 407 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>408</masterLabel>
+            <translation><!-- 408 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>409</masterLabel>
+            <translation><!-- 409 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>410</masterLabel>
+            <translation><!-- 410 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>411</masterLabel>
+            <translation><!-- 411 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>412</masterLabel>
+            <translation><!-- 412 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>413</masterLabel>
+            <translation><!-- 413 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>414</masterLabel>
+            <translation><!-- 414 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>415</masterLabel>
+            <translation><!-- 415 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>416</masterLabel>
+            <translation><!-- 416 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>417</masterLabel>
+            <translation><!-- 417 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>418</masterLabel>
+            <translation><!-- 418 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>419</masterLabel>
+            <translation><!-- 419 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>425</masterLabel>
+            <translation><!-- 425 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>426</masterLabel>
+            <translation><!-- 426 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>427</masterLabel>
+            <translation><!-- 427 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>429</masterLabel>
+            <translation><!-- 429 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>431</masterLabel>
+            <translation><!-- 431 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>432</masterLabel>
+            <translation><!-- 432 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>433</masterLabel>
+            <translation><!-- 433 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>434</masterLabel>
+            <translation><!-- 434 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>435</masterLabel>
+            <translation><!-- 435 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>436</masterLabel>
+            <translation><!-- 436 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>437</masterLabel>
+            <translation><!-- 437 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>438</masterLabel>
+            <translation><!-- 438 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>440</masterLabel>
+            <translation><!-- 440 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>441</masterLabel>
+            <translation><!-- 441 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>443</masterLabel>
+            <translation><!-- 443 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>444</masterLabel>
+            <translation><!-- 444 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>445</masterLabel>
+            <translation><!-- 445 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>446</masterLabel>
+            <translation><!-- 446 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>447</masterLabel>
+            <translation><!-- 447 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>449</masterLabel>
+            <translation><!-- 449 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>450</masterLabel>
+            <translation><!-- 450 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>452</masterLabel>
+            <translation><!-- 452 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>453</masterLabel>
+            <translation><!-- 453 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>454</masterLabel>
+            <translation><!-- 454 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>456</masterLabel>
+            <translation><!-- 456 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>457</masterLabel>
+            <translation><!-- 457 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>458</masterLabel>
+            <translation><!-- 458 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>459</masterLabel>
+            <translation><!-- 459 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>460</masterLabel>
+            <translation><!-- 460 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>461</masterLabel>
+            <translation><!-- 461 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>462</masterLabel>
+            <translation><!-- 462 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>464</masterLabel>
+            <translation><!-- 464 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>465</masterLabel>
+            <translation><!-- 465 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>466</masterLabel>
+            <translation><!-- 466 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>467</masterLabel>
+            <translation><!-- 467 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>468</masterLabel>
+            <translation><!-- 468 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>469</masterLabel>
+            <translation><!-- 469 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>470</masterLabel>
+            <translation><!-- 470 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>471</masterLabel>
+            <translation><!-- 471 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>472</masterLabel>
+            <translation><!-- 472 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>473</masterLabel>
+            <translation><!-- 473 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>475</masterLabel>
+            <translation><!-- 475 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>476</masterLabel>
+            <translation><!-- 476 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>477</masterLabel>
+            <translation><!-- 477 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>478</masterLabel>
+            <translation><!-- 478 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>479</masterLabel>
+            <translation><!-- 479 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>480</masterLabel>
+            <translation><!-- 480 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>481</masterLabel>
+            <translation><!-- 481 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>482</masterLabel>
+            <translation><!-- 482 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>483</masterLabel>
+            <translation><!-- 483 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>484</masterLabel>
+            <translation><!-- 484 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>485</masterLabel>
+            <translation><!-- 485 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>486</masterLabel>
+            <translation><!-- 486 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>487</masterLabel>
+            <translation><!-- 487 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>488</masterLabel>
+            <translation><!-- 488 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>489</masterLabel>
+            <translation><!-- 489 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>491</masterLabel>
+            <translation><!-- 491 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>492</masterLabel>
+            <translation><!-- 492 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>493</masterLabel>
+            <translation><!-- 493 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>494</masterLabel>
+            <translation><!-- 494 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>495</masterLabel>
+            <translation><!-- 495 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>496</masterLabel>
+            <translation><!-- 496 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>497</masterLabel>
+            <translation><!-- 497 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>498</masterLabel>
+            <translation><!-- 498 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>499</masterLabel>
+            <translation><!-- 499 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>500</masterLabel>
+            <translation><!-- 500 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>501</masterLabel>
+            <translation><!-- 501 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>502</masterLabel>
+            <translation><!-- 502 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>71</masterLabel>
+            <translation><!-- 71 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S001</masterLabel>
+            <translation><!-- S001 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S002</masterLabel>
+            <translation><!-- S002 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S003</masterLabel>
+            <translation><!-- S003 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S004</masterLabel>
+            <translation><!-- S004 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S005</masterLabel>
+            <translation><!-- S005 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S006</masterLabel>
+            <translation><!-- S006 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S007</masterLabel>
+            <translation><!-- S007 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S008</masterLabel>
+            <translation><!-- S008 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S009</masterLabel>
+            <translation><!-- S009 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S010</masterLabel>
+            <translation><!-- S010 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S011</masterLabel>
+            <translation><!-- S011 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S012</masterLabel>
+            <translation><!-- S012 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S013</masterLabel>
+            <translation><!-- S013 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S014</masterLabel>
+            <translation><!-- S014 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S015</masterLabel>
+            <translation><!-- S015 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S018</masterLabel>
+            <translation><!-- S018 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S019</masterLabel>
+            <translation><!-- S019 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S020</masterLabel>
+            <translation><!-- S020 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S022</masterLabel>
+            <translation><!-- S022 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S024</masterLabel>
+            <translation><!-- S024 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S025</masterLabel>
+            <translation><!-- S025 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S026</masterLabel>
+            <translation><!-- S026 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S027</masterLabel>
+            <translation><!-- S027 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S028</masterLabel>
+            <translation><!-- S028 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S029</masterLabel>
+            <translation><!-- S029 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S030</masterLabel>
+            <translation><!-- S030 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S031</masterLabel>
+            <translation><!-- S031 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>髮色</label>
+        <name>prop5b8a3fc8b0d643339f9f5104085486a1__c</name>
+        <picklistValues>
+            <masterLabel>4S-Brown</masterLabel>
+            <translation>4S-棕色</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5S Natural Brown</masterLabel>
+            <translation>5S 自然棕色</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6S - Dark Brown</masterLabel>
+            <translation>6S-深棕色</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brown Black</masterLabel>
+            <translation>棕黑色</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brownish Black</masterLabel>
+            <translation>棕黑色</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Burgundy Brown</masterLabel>
+            <translation>葡萄棕色</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chocolate Brown</masterLabel>
+            <translation>巧克力棕色</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cinnamon Brown</masterLabel>
+            <translation>香桂棕色</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coffee Brown</masterLabel>
+            <translation>咖啡棕色</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dark Brown</masterLabel>
+            <translation>棕色</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Darkest Brown</masterLabel>
+            <translation>深棕色</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium Brown</masterLabel>
+            <translation>明亮棕色</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Natural Black</masterLabel>
+            <translation>自然黑色</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warm Chestnut</masterLabel>
+            <translation>淡亮栗色</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Count --></label>
+        <name>prop647828d68ce44a7aa626e8f2902919f6__c</name>
+        <picklistValues>
+            <masterLabel>100</masterLabel>
+            <translation><!-- 100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>120</masterLabel>
+            <translation><!-- 120 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>180</masterLabel>
+            <translation><!-- 180 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20</masterLabel>
+            <translation><!-- 20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40</masterLabel>
+            <translation><!-- 40 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>500</masterLabel>
+            <translation><!-- 500 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60</masterLabel>
+            <translation><!-- 60 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>80</masterLabel>
+            <translation><!-- 80 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>等級</label>
+        <name>prop6bec0c9075d14f6fa3e3058dd967fb74__c</name>
+        <picklistValues>
+            <masterLabel>2A</masterLabel>
+            <translation>2A</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3A</masterLabel>
+            <translation>3A</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4A</masterLabel>
+            <translation>4A</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5A</masterLabel>
+            <translation>5A</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6A</masterLabel>
+            <translation>6A</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Broken Pieces</masterLabel>
+            <translation>碎塊</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grade A</masterLabel>
+            <translation>A級</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grade B</masterLabel>
+            <translation>B級</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grade C</masterLabel>
+            <translation>C級</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Premium Grade</masterLabel>
+            <translation>頂級</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>口味</label>
+        <name>prop6e3909f9116f4595ac6c4b9c6a611b72__c</name>
+        <picklistValues>
+            <masterLabel>American Ginseng &amp; Rock Sugar</masterLabel>
+            <translation>花旗參冰糖</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BRAND&apos;s Rock Sugar</masterLabel>
+            <translation>白蘭地 冰糖</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Barbecue</masterLabel>
+            <translation>燒烤</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Black Sesame</masterLabel>
+            <translation>黑芝麻</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Black Sesame Oil with Mashed Ginger</masterLabel>
+            <translation>黑芝麻油薑泥</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Braised</masterLabel>
+            <translation>紅燒</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brine</masterLabel>
+            <translation>清湯</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Burdock, Cordyceps Fungus, Jujube and Wolfberry</masterLabel>
+            <translation>牛蒡蟲草大棗枸杞</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chrysanthemum &amp; Wolfberry</masterLabel>
+            <translation>菊花枸杞</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coconut</masterLabel>
+            <translation>椰子</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coffee</masterLabel>
+            <translation>咖啡</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cordyceps Militaris</masterLabel>
+            <translation>蟲草</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cranberry</masterLabel>
+            <translation>蔓越莓</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custard</masterLabel>
+            <translation>奶凍</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Date &amp; Logan Walnut</masterLabel>
+            <translation>棗和洛根核桃</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dried Green Mango</masterLabel>
+            <translation>青芒果乾</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dried Guava</masterLabel>
+            <translation>番石榴乾</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dried Mango</masterLabel>
+            <translation>芒果乾</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dried Peach</masterLabel>
+            <translation>桃乾</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dried Pineapple</masterLabel>
+            <translation>鳳梨乾</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Egg Yolk</masterLabel>
+            <translation>蛋黃</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flaxseed</masterLabel>
+            <translation>亞麻籽</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fried Sailfish</masterLabel>
+            <translation>炸旗魚</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fried Salmon</masterLabel>
+            <translation>煎鮭魚</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Garlic</masterLabel>
+            <translation>蒜香</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Garlic and Sesame</masterLabel>
+            <translation>蒜香麻醬</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ginger</masterLabel>
+            <translation>薑</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Goose Oil</masterLabel>
+            <translation>鵝油</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hericium Erinaceus</masterLabel>
+            <translation>猴頭菇</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Honey Tangerine</masterLabel>
+            <translation>茂谷柑</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hot Blended Sesame</masterLabel>
+            <translation>椒麻</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jujube Longan</masterLabel>
+            <translation>紅棗桂圓</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kumquat</masterLabel>
+            <translation>金棗</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mulberry</masterLabel>
+            <translation>桑葚</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Original</masterLabel>
+            <translation>原味</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oyster</masterLabel>
+            <translation>蠔油</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paouchong Tea</masterLabel>
+            <translation>包種茶</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peppered</masterLabel>
+            <translation>胡椒味</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Red Quinoa</masterLabel>
+            <translation>紅藜麥</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roasted Squid</masterLabel>
+            <translation>烤魷魚</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rock Sugar</masterLabel>
+            <translation>冰糖</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rose &amp; Siwu</masterLabel>
+            <translation>玫瑰四物</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salted Egg Yolk Soy</masterLabel>
+            <translation>鹹蛋黃醬油</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scallion</masterLabel>
+            <translation>蔥油</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scallop</masterLabel>
+            <translation>扇貝</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sesame</masterLabel>
+            <translation>芝麻</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sesame &amp; Walnut</masterLabel>
+            <translation>芝麻核桃</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shacha</masterLabel>
+            <translation>沙茶</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shredded Squid</masterLabel>
+            <translation>魷魚絲</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Smoked Shredded Squid</masterLabel>
+            <translation>燻魷魚絲</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spicy</masterLabel>
+            <translation>辣味</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spicy Sichuan Pepper with Vinegar</masterLabel>
+            <translation>醋溜花椒</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sugar Free</masterLabel>
+            <translation>無醣</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Superior Sauce</masterLabel>
+            <translation>紅燒醬</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sweet</masterLabel>
+            <translation>甜味</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sweet and Spicy</masterLabel>
+            <translation>甜辣味</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tangerine Peel</masterLabel>
+            <translation>陳皮</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turmeric</masterLabel>
+            <translation>薑黃</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vegetarian Burdock</masterLabel>
+            <translation>素牛蒡</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vegetarian Nori Kelp</masterLabel>
+            <translation>素食海苔</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vegetarian Pumpkin</masterLabel>
+            <translation>素食南瓜</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>With Sesame</masterLabel>
+            <translation>芝麻</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Age --></label>
+        <name>prop889c8cdcf88940708c4c714152e6427a__c</name>
+        <picklistValues>
+            <masterLabel>10-20 years</masterLabel>
+            <translation><!-- 10-20 years --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20-30 years</masterLabel>
+            <translation><!-- 20-30 years --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30-50 years</masterLabel>
+            <translation><!-- 30-50 years --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Grade --></label>
+        <name>prop917f077b2e834b6b85051e0875ea56ce__c</name>
+        <picklistValues>
+            <masterLabel>2A</masterLabel>
+            <translation><!-- 2A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3A</masterLabel>
+            <translation><!-- 3A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4A</masterLabel>
+            <translation><!-- 4A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6A</masterLabel>
+            <translation><!-- 6A --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Age (Years) --></label>
+        <name>prop972bbb236af145b5bebec6021e16a6ff__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10+ Years</masterLabel>
+            <translation><!-- 10+ Years --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10-20 Years</masterLabel>
+            <translation><!-- 10-20 Years --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20-30 Years</masterLabel>
+            <translation><!-- 20-30 Years --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30-50 Years</masterLabel>
+            <translation><!-- 30-50 Years --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>48 Years</masterLabel>
+            <translation><!-- 48 Years --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 Years</masterLabel>
+            <translation><!-- 5 Years --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50 Years</masterLabel>
+            <translation><!-- 50 Years --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>58 Years</masterLabel>
+            <translation><!-- 58 Years --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60 Years</masterLabel>
+            <translation><!-- 60 Years --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>70 Years</masterLabel>
+            <translation><!-- 70 Years --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NA</masterLabel>
+            <translation><!-- NA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>淨重</label>
+        <name>propb78108cdf5224595bb3bc8d311719c12__c</name>
+        <picklistValues>
+            <masterLabel>0.16 oz</masterLabel>
+            <translation>0.16 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.18 oz</masterLabel>
+            <translation>0.18 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.19 oz</masterLabel>
+            <translation>0.19 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.21 oz</masterLabel>
+            <translation>0.21 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.23 oz</masterLabel>
+            <translation>0.23 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.25 oz</masterLabel>
+            <translation>0.25 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.26 oz</masterLabel>
+            <translation>0.26 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.28 oz</masterLabel>
+            <translation>0.28 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.3 oz</masterLabel>
+            <translation>0.3 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.32 oz</masterLabel>
+            <translation>0.32 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.33 oz</masterLabel>
+            <translation>0.33 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.35 oz</masterLabel>
+            <translation>0.35 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.37 oz</masterLabel>
+            <translation>0.37 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.39 oz</masterLabel>
+            <translation>0.39 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.4 oz</masterLabel>
+            <translation>0.4 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.42 oz</masterLabel>
+            <translation>0.42 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.44 oz</masterLabel>
+            <translation>0.44 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.46 oz</masterLabel>
+            <translation>0.46 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.48 oz</masterLabel>
+            <translation>0.48 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.49 oz</masterLabel>
+            <translation>0.49 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.5 oz</masterLabel>
+            <translation><!-- 0.5 oz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.51 oz</masterLabel>
+            <translation>0.51 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.53 oz</masterLabel>
+            <translation>0.53 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.62 oz</masterLabel>
+            <translation>0.62 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.65 oz</masterLabel>
+            <translation>0.65 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.67 oz</masterLabel>
+            <translation>0.67 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 Ib</masterLabel>
+            <translation>1磅</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 Pound</masterLabel>
+            <translation>1磅</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 oz</masterLabel>
+            <translation>1盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10.58 oz</masterLabel>
+            <translation>10.58 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11.28 oz</masterLabel>
+            <translation>11.28 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12 oz</masterLabel>
+            <translation>12 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12.0 fl. oz</masterLabel>
+            <translation>12.0 fl.盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>13.1 oz</masterLabel>
+            <translation><!-- 13.1 oz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>13.8 fl. oz</masterLabel>
+            <translation>13.8 fl.盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14 oz</masterLabel>
+            <translation>14 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14.1 oz</masterLabel>
+            <translation>14.1 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16 oz</masterLabel>
+            <translation>16 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16.1 fl. oz</masterLabel>
+            <translation><!-- 16.1 fl. oz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>18 oz</masterLabel>
+            <translation>18 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>180 g</masterLabel>
+            <translation>180 克</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 oz</masterLabel>
+            <translation>2盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2.11 oz</masterLabel>
+            <translation><!-- 2.11 oz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2.4 oz</masterLabel>
+            <translation>2.4 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2.82 oz</masterLabel>
+            <translation>2.82 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2.96 oz</masterLabel>
+            <translation><!-- 2.96 oz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2.98 oz</masterLabel>
+            <translation><!-- 2.98 oz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>220 g</masterLabel>
+            <translation>220 克</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>220g</masterLabel>
+            <translation>220克</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>227 g</masterLabel>
+            <translation>227 克</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.04 oz</masterLabel>
+            <translation><!-- 3.04 oz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.12 oz</masterLabel>
+            <translation><!-- 3.12 oz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.18 oz</masterLabel>
+            <translation><!-- 3.18 oz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.22 oz</masterLabel>
+            <translation><!-- 3.22 oz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.24 oz</masterLabel>
+            <translation><!-- 3.24 oz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.32 oz</masterLabel>
+            <translation><!-- 3.32 oz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.46 oz</masterLabel>
+            <translation><!-- 3.46 oz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.5 oz</masterLabel>
+            <translation>3.5 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.52 oz</masterLabel>
+            <translation>3.52 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.58 oz</masterLabel>
+            <translation><!-- 3.58 oz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.6 oz</masterLabel>
+            <translation>3.6 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>31.75 oz</masterLabel>
+            <translation>31.75 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>360 g</masterLabel>
+            <translation>360 克</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 oz</masterLabel>
+            <translation>4盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.22 oz</masterLabel>
+            <translation>4.22 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.23 oz</masterLabel>
+            <translation>4.23 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.4 oz</masterLabel>
+            <translation>4.4 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>425 g</masterLabel>
+            <translation>425 克</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>425g</masterLabel>
+            <translation>425克</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 oz</masterLabel>
+            <translation>5盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5.29 oz</masterLabel>
+            <translation>5.29 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5.62 oz</masterLabel>
+            <translation>5.62 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5.64 oz</masterLabel>
+            <translation>5.64 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>500 g</masterLabel>
+            <translation>500 克</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6 oz</masterLabel>
+            <translation><!-- 6 oz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6.34 oz</masterLabel>
+            <translation>6.34 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6.5 oz</masterLabel>
+            <translation>6.5 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>600 gms</masterLabel>
+            <translation>600 克</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8 oz</masterLabel>
+            <translation>8盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8.47 oz</masterLabel>
+            <translation>8.47 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9.59 oz</masterLabel>
+            <translation>9.59 盎司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&gt;16 g</masterLabel>
+            <translation>&gt;16克</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&gt;21 g</masterLabel>
+            <translation>&gt;21克</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&gt;26 g</masterLabel>
+            <translation>&gt;26克</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&gt;31 g</masterLabel>
+            <translation>&gt;31克</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&gt;37 g</masterLabel>
+            <translation>&gt;37 克</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>propbc65503aa4944959bb7b74ab00bb5929__c</name>
+        <picklistValues>
+            <masterLabel>20</masterLabel>
+            <translation><!-- 20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40</masterLabel>
+            <translation><!-- 40 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60</masterLabel>
+            <translation><!-- 60 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>80</masterLabel>
+            <translation><!-- 80 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Item Size --></label>
+        <name>propc84d80ca469342529c9c02febc8246b1__c</name>
+        <picklistValues>
+            <masterLabel>Broken Pieces</masterLabel>
+            <translation><!-- Broken Pieces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Extra Large</masterLabel>
+            <translation><!-- Extra Large --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Large</masterLabel>
+            <translation><!-- Large --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium Small</masterLabel>
+            <translation><!-- Medium Small --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small</masterLabel>
+            <translation><!-- Small --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Root Size --></label>
+        <name>propccca44994ede43038ece794641652f61__c</name>
+        <picklistValues>
+            <masterLabel>20 Earth</masterLabel>
+            <translation><!-- 20 Earth --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20 Good</masterLabel>
+            <translation><!-- 20 Good --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20 Heaven</masterLabel>
+            <translation><!-- 20 Heaven --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30 Earth</masterLabel>
+            <translation><!-- 30 Earth --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30 Good</masterLabel>
+            <translation><!-- 30 Good --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30 Heaven</masterLabel>
+            <translation><!-- 30 Heaven --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40 Earth</masterLabel>
+            <translation><!-- 40 Earth --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40 Good</masterLabel>
+            <translation><!-- 40 Good --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40 Heaven</masterLabel>
+            <translation><!-- 40 Heaven --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coarse</masterLabel>
+            <translation><!-- Coarse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deluxe Pack</masterLabel>
+            <translation><!-- Deluxe Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Economy Size</masterLabel>
+            <translation><!-- Economy Size --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Extra Giant</masterLabel>
+            <translation><!-- Extra Giant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Extra Jumbo</masterLabel>
+            <translation><!-- Extra Jumbo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Extra Large</masterLabel>
+            <translation><!-- Extra Large --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Giant</masterLabel>
+            <translation><!-- Giant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jumbo</masterLabel>
+            <translation><!-- Jumbo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lage Economy</masterLabel>
+            <translation><!-- Lage Economy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Large</masterLabel>
+            <translation><!-- Large --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Large Economy</masterLabel>
+            <translation><!-- Large Economy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium Small</masterLabel>
+            <translation><!-- Medium Small --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium Small Economy</masterLabel>
+            <translation><!-- Medium Small Economy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mixed</masterLabel>
+            <translation><!-- Mixed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Powder</masterLabel>
+            <translation><!-- Powder --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prong</masterLabel>
+            <translation><!-- Prong --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prongs &amp; Fibers</masterLabel>
+            <translation><!-- Prongs &amp; Fibers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small</masterLabel>
+            <translation><!-- Small --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small # 1</masterLabel>
+            <translation><!-- Small # 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small # 2</masterLabel>
+            <translation><!-- Small # 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small # 2 Economy</masterLabel>
+            <translation><!-- Small # 2 Economy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small # 3</masterLabel>
+            <translation><!-- Small # 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small #1</masterLabel>
+            <translation><!-- Small #1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small #1 Economy</masterLabel>
+            <translation><!-- Small #1 Economy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small #2</masterLabel>
+            <translation><!-- Small #2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small #2 Economy</masterLabel>
+            <translation><!-- Small #2 Economy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small Bulk</masterLabel>
+            <translation><!-- Small Bulk --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small Economy</masterLabel>
+            <translation><!-- Small Economy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small#1</masterLabel>
+            <translation><!-- Small#1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small#1 Economy</masterLabel>
+            <translation><!-- Small#1 Economy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small#2</masterLabel>
+            <translation><!-- Small#2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small#2 Economy</masterLabel>
+            <translation><!-- Small#2 Economy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard</masterLabel>
+            <translation><!-- Standard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Super Giant</masterLabel>
+            <translation><!-- Super Giant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tea-cut</masterLabel>
+            <translation><!-- Tea-cut --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Travel Size</masterLabel>
+            <translation><!-- Travel Size --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Twin Pack</masterLabel>
+            <translation><!-- Twin Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ungraded</masterLabel>
+            <translation><!-- Ungraded --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>包裝</label>
+        <name>propd98ccfbdd6354f7fbc7cbef975c6af97__c</name>
+        <picklistValues>
+            <masterLabel>Bag</masterLabel>
+            <translation>包</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bottle</masterLabel>
+            <translation>瓶</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Box</masterLabel>
+            <translation>盒</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Can</masterLabel>
+            <translation>罐</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deluxe Pack</masterLabel>
+            <translation>典藏錦緞禮盒</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Economic Bags</masterLabel>
+            <translation>經濟袋</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Economic Box</masterLabel>
+            <translation><!-- Economic Box --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Economic Packaging</masterLabel>
+            <translation><!-- Economic Packaging --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Economics Bags</masterLabel>
+            <translation>經濟袋</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gift Box</masterLabel>
+            <translation>禮盒</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gift Set</masterLabel>
+            <translation><!-- Gift Set --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Travel Size</masterLabel>
+            <translation><!-- Travel Size --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Twin Pack</masterLabel>
+            <translation><!-- Twin Pack --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Weight (Oz) --></label>
+        <name>propfe0526cf0de646b6a4a4c197dfee2dd8__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.17 Ounces</masterLabel>
+            <translation><!-- 0.17 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.25 Ounces</masterLabel>
+            <translation><!-- 0.25 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.3 Ounces</masterLabel>
+            <translation><!-- 0.3 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.35 Ounces</masterLabel>
+            <translation><!-- 0.35 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.4 Ounces</masterLabel>
+            <translation><!-- 0.4 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.46 Ounces</masterLabel>
+            <translation><!-- 0.46 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.5 Ounces</masterLabel>
+            <translation><!-- 0.5 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.55 Ounces</masterLabel>
+            <translation><!-- 0.55 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.58 Ounces</masterLabel>
+            <translation><!-- 0.58 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.75 Ounces</masterLabel>
+            <translation><!-- 0.75 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.91 Ounces</masterLabel>
+            <translation><!-- 0.91 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 Ounce</masterLabel>
+            <translation><!-- 1 Ounce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 Ounces</masterLabel>
+            <translation><!-- 1 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1.3 Ounces</masterLabel>
+            <translation><!-- 1.3 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1.41 Ounces</masterLabel>
+            <translation><!-- 1.41 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1.69 Ounces</masterLabel>
+            <translation><!-- 1.69 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10 Ounces</masterLabel>
+            <translation><!-- 10 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11 Ounces</masterLabel>
+            <translation><!-- 11 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12 Ounces</masterLabel>
+            <translation><!-- 12 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15 Ounces</masterLabel>
+            <translation><!-- 15 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16 Ounces</masterLabel>
+            <translation><!-- 16 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 Ounces</masterLabel>
+            <translation><!-- 2 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2.5 Ounces</masterLabel>
+            <translation><!-- 2.5 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2.7 Ounces</masterLabel>
+            <translation><!-- 2.7 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 Ounces</masterLabel>
+            <translation><!-- 3 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 Ounces</masterLabel>
+            <translation><!-- 4 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 Ounces</masterLabel>
+            <translation><!-- 5 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5.25 Ounces</masterLabel>
+            <translation><!-- 5.25 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5.29 Ounces</masterLabel>
+            <translation><!-- 5.29 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5.6 Ounces</masterLabel>
+            <translation><!-- 5.6 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6 Ounces</masterLabel>
+            <translation><!-- 6 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6.5 Ounces</masterLabel>
+            <translation><!-- 6.5 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7.8 Ounces</masterLabel>
+            <translation><!-- 7.8 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8 Ounces</masterLabel>
+            <translation><!-- 8 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8.25 Ounces</masterLabel>
+            <translation><!-- 8.25 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8.28 Ounces</masterLabel>
+            <translation><!-- 8.28 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8.6 Ounces</masterLabel>
+            <translation><!-- 8.6 Ounces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9 Ounces</masterLabel>
+            <translation><!-- 9 Ounces --></translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

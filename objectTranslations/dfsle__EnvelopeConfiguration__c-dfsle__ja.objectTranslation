@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Docusignエンベロープテンプレート</value>
+    </caseValues>
+    <fields>
+        <label>アクション</label>
+        <name>dfsle__Action__c</name>
+        <picklistValues>
+            <masterLabel>Prepare</masterLabel>
+            <translation><!-- Prepare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Send</masterLabel>
+            <translation><!-- Send --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tag</masterLabel>
+            <translation><!-- Tag --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>アクティブ</label>
+        <name>dfsle__Active__c</name>
+    </fields>
+    <fields>
+        <label>Salesforceソース文書の追加</label>
+        <name>dfsle__AddSourceDocuments__c</name>
+    </fields>
+    <fields>
+        <label>Salesforceソース受信者の追加</label>
+        <name>dfsle__AddSourceRecipients__c</name>
+    </fields>
+    <fields>
+        <label>カスタムフィールド</label>
+        <name>dfsle__CustomFields__c</name>
+    </fields>
+    <fields>
+        <label><!-- DFS Template ID --></label>
+        <name>dfsle__DFSTemplateId__c</name>
+    </fields>
+    <fields>
+        <label>DocuSignテンプレートID</label>
+        <name>dfsle__DocuSignId__c</name>
+    </fields>
+    <fields>
+        <label>メールメッセージ</label>
+        <name>dfsle__EmailMessage__c</name>
+    </fields>
+    <fields>
+        <label>メールの件名</label>
+        <name>dfsle__EmailSubject__c</name>
+    </fields>
+    <fields>
+        <label>エンベロープの有効期限（日）</label>
+        <name>dfsle__ExpireAfterDays__c</name>
+    </fields>
+    <fields>
+        <label>警告の送信 - 期限切れまでの残存日数</label>
+        <name>dfsle__ExpireWarnDays__c</name>
+    </fields>
+    <fields>
+        <label>エンベロープの有効期限</label>
+        <name>dfsle__Expires__c</name>
+    </fields>
+    <fields>
+        <label>ドラフト</label>
+        <name>dfsle__IsDraft__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Quick Send --></label>
+        <name>dfsle__IsQuickSend__c</name>
+    </fields>
+    <fields>
+        <label>差し込みフィールド</label>
+        <name>dfsle__MergeFields__c</name>
+    </fields>
+    <fields>
+        <label>通知</label>
+        <name>dfsle__Notifications__c</name>
+    </fields>
+    <fields>
+        <label>オブジェクトタイプ</label>
+        <name>dfsle__ObjectType__c</name>
+    </fields>
+    <fields>
+        <label>オプション</label>
+        <name>dfsle__Options__c</name>
+    </fields>
+    <fields>
+        <label>最初のリマインダーを送信するまでの日数</label>
+        <name>dfsle__RemindAfterDays__c</name>
+    </fields>
+    <fields>
+        <label>リマインダーの送信間隔（日）</label>
+        <name>dfsle__RemindFrequencyDays__c</name>
+    </fields>
+    <fields>
+        <label>署名者にリマインダーメールを送信する</label>
+        <name>dfsle__Remind__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender DocuSign UserName --></label>
+        <name>dfsle__SenderDocuSignUserName__c</name>
+    </fields>
+    <fields>
+        <label>差出人の権限</label>
+        <name>dfsle__SenderPermissions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender Salesforce UserName --></label>
+        <name>dfsle__SenderSalesforceUserName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender --></label>
+        <name>dfsle__Sender__c</name>
+        <relationshipLabel><!-- Docusign Envelope Templates --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sending Experience --></label>
+        <name>dfsle__SendingExperience__c</name>
+        <picklistValues>
+            <masterLabel>edit</masterLabel>
+            <translation><!-- edit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>quickSend</masterLabel>
+            <translation><!-- quickSend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>send</masterLabel>
+            <translation><!-- send --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>tag</masterLabel>
+            <translation><!-- tag --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>［Chatter設定］を表示する</label>
+        <name>dfsle__ShowChatterSettings__c</name>
+    </fields>
+    <fields>
+        <label>メールメッセージを表示する</label>
+        <name>dfsle__ShowEmailMessage__c</name>
+    </fields>
+    <fields>
+        <label>メールの件名を表示する</label>
+        <name>dfsle__ShowEmailSubject__c</name>
+    </fields>
+    <fields>
+        <label>リマインダーと有効期限の設定を表示する</label>
+        <name>dfsle__ShowRemindExpire__c</name>
+    </fields>
+    <fields>
+        <label>［送信］ボタンを表示する</label>
+        <name>dfsle__ShowSendButton__c</name>
+    </fields>
+    <fields>
+        <label>フィールドを追加する［次へ］ボタンを表示する</label>
+        <name>dfsle__ShowTagButton__c</name>
+    </fields>
+    <fields>
+        <label>ソースオブジェクト</label>
+        <name>dfsle__SourceObject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Template Type --></label>
+        <name>dfsle__TemplateType__c</name>
+        <picklistValues>
+            <masterLabel>Embedded</masterLabel>
+            <translation><!-- Embedded --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General</masterLabel>
+            <translation><!-- General --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>DocuSign Envelope Configuration Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Information --></label>
+            <section>Information</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Name --></nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "About-Hsus",
+  "contentBody" : {
+    "activeViewId" : "About_Us",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-about-us",
+    "urlPrefix" : "about-hsus-deprecated"
+  },
+  "urlName" : "about-hsus"
+}

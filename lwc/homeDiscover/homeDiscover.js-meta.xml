@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>63.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Home Page - Discover</masterLabel>
+    <description>Invite customers to discover more about the Hsu Ginseng brand. </description>
+    <capabilities>
+        <capability>lightningCommunity__RelaxedCSP</capability>
+    </capabilities>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property label="Title" name="title" type="String" default="Discover More" translatable="true"
+                description="Enter the headline for this component here. This headline will appear above the accordion and to the left of the media."/>
+            <property label="Image URL" name="imageUrl" type="String" translatable="false"
+                description="Enter the media URL for this component here." default=""/>
+            <property label="Section Content" name="content" type="lightning__multilineTextType" translatable="true"
+                description="The content displayed within the Discover More section."/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

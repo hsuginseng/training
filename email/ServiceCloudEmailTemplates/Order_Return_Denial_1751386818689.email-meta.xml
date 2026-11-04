@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email template for auto-response on Order Return Denial</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Order Return Denial</name>
+    <pageDevName>Order_Return_Denial</pageDevName>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>Update Regarding Your Return Request</subject>
+    <textOnly>Case #: {{{Case.CaseNumber}}}
+
+Subject: {{{Case.Subject}}}
+
+Issue Description: {{{Case.Issue_Description__c}}}
+
+-----------------------------------------------------
+
+Dear {{{Case.First_Name__c}}},
+
+Thank you for contacting Hsu’s Ginseng Enterprises, Inc.
+
+We have carefully reviewed your return request for item(s) on Order # {{{Case.Order_Number__c}}}. Unfortunately, we are unable to approve the return at this time because the item(s) do not meet the conditions outlined in our [Return Policy](link to return policy page).
+
+Please note:
+
+• Opened productsare not eligible for return or refund.
+
+• Specialty itemsare non-returnable, regardless of whether they are opened or unopened.
+
+If you believe this decision was made in error or have additional information to provide, please don’t hesitate to reply to this email or contact us at 1-800-826-1577. We will be happy to review your case again.
+
+We truly appreciate your understanding and thank you for your continued support.
+
+Warm Regards,
+
+Customer Support Team
+
+Hsu&apos;s Ginseng Enterprises, Inc.
+
+📌 Need help with your order?
+
+If your question is about an existing order, please include your order number for faster service.
+
+**
+----------------------------------------------------
+
+📞Contact Us：
+
+Phone: (715) 675-2325/ (1800) 826-1577
+
+Email: support@hsuginseng.com
+
+Website: www.hsuginseng.com &lt; https://www.hsuginseng.com &gt; 
+
+**
+----------------------------------------------------
+
+🕒Customer Service Hours：
+
+Monday to Friday (Excluding Holidays)
+
+8:30 AM – 5:00 PM (CST)</textOnly>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

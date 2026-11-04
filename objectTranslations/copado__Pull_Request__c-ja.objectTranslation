@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>プルリクエスト</value>
+    </caseValues>
+    <fields>
+        <help>プルリクエストの現在の承認ステータスを示します。この情報は、接続された Git プロバイダから直接取得され、必要なレビュー担当者がプルリクエストを承認したかどうかを反映します。プロバイダによっては、データがウェブフック経由で入手できる場合もあれば、OAuth 認証が必要な場合もあります。</help>
+        <label><!-- Approval Status --></label>
+        <name>copado__Approval_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation>承認済み</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation>保留</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Request Changes</masterLabel>
+            <translation>変更のリクエスト</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Assignees --></label>
+        <name>copado__Assignees__c</name>
+    </fields>
+    <fields>
+        <label><!-- Changed Files --></label>
+        <name>copado__Changed_Files__c</name>
+    </fields>
+    <fields>
+        <label><!-- Closed At --></label>
+        <name>copado__Closed_At__c</name>
+    </fields>
+    <fields>
+        <label><!-- Commits --></label>
+        <name>copado__Commits__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>copado__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mergeable --></label>
+        <name>copado__Mergeable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Merged At --></label>
+        <name>copado__Merged_At__c</name>
+    </fields>
+    <fields>
+        <label><!-- Merged By --></label>
+        <name>copado__Merged_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- Merged --></label>
+        <name>copado__Merged__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Number --></label>
+        <name>copado__Request_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Requested Reviewers --></label>
+        <name>copado__Requested_Reviewers_Long__c</name>
+    </fields>
+    <fields>
+        <label><!-- Requested Reviewers --></label>
+        <name>copado__Requested_Reviewers__c</name>
+    </fields>
+    <fields>
+        <help>Git プロバイダで設定されている、必要なレビュー担当者の承認数を指定します。プルリクエストが設定された承認の閾値を満たしているかどうかを判断するのに役立ちます。プロバイダによっては、データはウェブフック経由で入手できる場合もあれば、OAuth 認証が必要な場合もあります。</help>
+        <label><!-- Required Reviewer Approvals --></label>
+        <name>copado__Required_Reviewer_Approvals__c</name>
+    </fields>
+    <fields>
+        <help>プルリクエストを承認したレビュー担当者の数を表示します。Git プロバイダでレビューアがプルリクエストを承認すると、自動的に更新されます。プロバイダによっては、データはウェブフック経由で入手できる場合もあれば、OAuth 認証が必要な場合もあります。</help>
+        <label><!-- Reviewer Approvals Count --></label>
+        <name>copado__Reviewer_Approvals_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>copado__State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target Branch --></label>
+        <name>copado__Target_Branch__c</name>
+    </fields>
+    <fields>
+        <label><!-- URL Link --></label>
+        <name>copado__URL_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Url --></label>
+        <name>copado__Url__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Avatar Url --></label>
+        <name>copado__User_Avatar_Url__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Avatar --></label>
+        <name>copado__User_Avatar__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Story --></label>
+        <name>copado__User_Story__c</name>
+        <relationshipLabel><!-- Pull Requests --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Username --></label>
+        <name>copado__Username__c</name>
+    </fields>
+    <layouts>
+        <layout>Pull Request Layout</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>その他の情報</label>
+            <section>Other Information</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>プルリクエスト名</nameFieldLabel>
+</CustomObjectTranslation>

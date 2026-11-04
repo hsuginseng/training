@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Docusign 日志</value>
+    </caseValues>
+    <fields>
+        <label>类</label>
+        <name>dfsle__Class__c</name>
+    </fields>
+    <fields>
+        <label>DocuSign 实体 ID</label>
+        <name>dfsle__EntityId__c</name>
+    </fields>
+    <fields>
+        <label>消息</label>
+        <name>dfsle__Message__c</name>
+    </fields>
+    <fields>
+        <label>方法</label>
+        <name>dfsle__Method__c</name>
+    </fields>
+    <fields>
+        <label>严重程度</label>
+        <name>dfsle__Severity__c</name>
+        <picklistValues>
+            <masterLabel>DEBUG</masterLabel>
+            <translation><!-- DEBUG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ERROR</masterLabel>
+            <translation><!-- ERROR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INFO</masterLabel>
+            <translation><!-- INFO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WARN</masterLabel>
+            <translation><!-- WARN --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Salesforce 源 ID</label>
+        <name>dfsle__SourceId__c</name>
+    </fields>
+    <fields>
+        <label>事务 ID</label>
+        <name>dfsle__TransactionId__c</name>
+    </fields>
+    <fields>
+        <label>版本</label>
+        <name>dfsle__Version__c</name>
+    </fields>
+    <nameFieldLabel><!-- Docusign Log --></nameFieldLabel>
+</CustomObjectTranslation>

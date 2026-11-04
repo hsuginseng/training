@@ -1,0 +1,135 @@
+@import 'c/cssLibrary';
+@import 'c/cssLibrarySwiper';
+
+.about-milestones-carousel {
+	position: relative;
+	position: relative;
+	width: calc(100% - 8.5rem);
+	height: 100%;
+	max-width: 90rem;
+	margin-inline: auto;
+	overflow: visible;
+
+	@media (max-width: 1024px) {
+		width: calc(100% - 6rem);
+	}
+
+	@media (max-width: 768px) {
+		width: calc(100% - 4rem);
+	}
+
+	@media (max-width: 620px) {
+		width: calc(100% - 2rem);
+		overflow: hidden;
+	}
+}
+
+.about-milestones-carousel-wrapper {
+	align-items: stretch;
+}
+
+.about-milestones-carousel-slide {
+	height: auto;
+}
+
+.about-milestones-carousel-controls {
+	position: absolute;
+	top: 5rem;
+	right: calc(100vw - 90rem);
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 2rem;
+
+	@media (max-width: 1440px) {
+		right: 4.25rem;
+	}
+
+	@media (max-width: 900px) {
+		position: relative;
+		top: unset;
+		right: unset;
+		justify-content: center;
+		margin-top: 2.25rem;
+	}
+}
+
+.about-milestones-carousel-prev,
+.about-milestones-carousel-next {
+	width: 5.375rem;
+	height: 4rem;
+	padding: 1rem 1.75rem;
+	background-color: #fff;
+	border: 1px solid  #272525;
+	border-radius: 1rem;
+	background-size: 2rem 2rem;
+	background-repeat: no-repeat;
+	background-position: center;
+	transition: background-color .3s ease-in-out, background-image .3s ease-in-out;
+
+	&:hover {
+		background-color: #272525;
+		cursor: pointer;
+	}
+
+	&:disabled,
+	&[disabled] {
+		background-color: #FFFDD0;
+		border-color: transparent;
+
+		&:hover {
+			cursor: default;
+		}
+	}
+}
+
+.about-milestones-carousel-prev {
+	background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none"><g stroke="%23900" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"><path d="M25.334 16H6.667M16 25.333 6.668 16l9.334-9.334"/></g></svg>');
+
+	&:disabled,
+	&[disabled] {
+		background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none"><g opacity=".2" stroke="%23900" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"><path d="M25.334 16H6.667M16 25.333 6.668 16l9.334-9.334"/></g></svg>')
+	}
+
+	&:hover {
+		background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none"><g stroke="%23FFF" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"><path d="M25.334 16H6.667M16 25.333 6.668 16l9.334-9.334"/></g></svg>');
+	}
+}
+
+.about-milestones-carousel-next {
+	background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M6.667 16h18.667M16 6.667 25.333 16 16 25.333" stroke="%23900" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+
+	&:disabled,
+	&[disabled] {
+		background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none"><g opacity=".2" stroke="%23900" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"><path d="M6.667 16h18.667M16 6.667 25.333 16 16 25.333"/></g></svg>')
+	}
+
+	&:hover {
+		background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M6.667 16h18.667M16 6.667 25.333 16 16 25.333" stroke="%23FFF" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+	}
+}
+
+.about-milestones-carousel-pagination {
+	font-family: "Acumin VF", sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	text-transform: uppercase;
+	text-wrap: nowrap;
+	color: #900;
+}
+
+.desktop {
+	
+	@media (max-width: 620px) {
+		display: none;
+	}
+}
+
+.mobile {
+	display: none;
+	
+	@media (max-width: 620px) {
+		display: block;
+	}
+}

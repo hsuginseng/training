@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>レビュー</value>
+    </caseValues>
+    <fieldSets>
+        <label>関連リスト</label>
+        <name>copadoQuality__RelatedList</name>
+    </fieldSets>
+    <fields>
+        <help><!-- Select this checkbox to automatically add “https://” to the Target Review URL.
+Disable, if you want to use a different protocol --></help>
+        <label>https プレフィックスを追加</label>
+        <name>copadoQuality__Add_https_Prefix__c</name>
+    </fields>
+    <fields>
+        <label>自動化ステータス</label>
+        <name>copadoQuality__Automation_Status__c</name>
+    </fields>
+    <fields>
+        <label>設定JSON</label>
+        <name>copadoQuality__Config_JSON__c</name>
+    </fields>
+    <fields>
+        <help><!-- Provide an outline about e.g. which parts of your application it should focus on, or where to find further information. Include links to documentation and videos to enable your reviewers. --></help>
+        <label>説明</label>
+        <name>copadoQuality__Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- Specify the Epic to which this review might be related. --></help>
+        <label>エピック</label>
+        <name>copadoQuality__Epic__c</name>
+        <relationshipLabel>機能レビュー</relationshipLabel>
+    </fields>
+    <fields>
+        <label>実行ステータス</label>
+        <name>copadoQuality__Execution_Status__c</name>
+    </fields>
+    <fields>
+        <label>エクステンション構成</label>
+        <name>copadoQuality__Extension_Configuration__c</name>
+        <relationshipLabel>機能レビュー</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Use this to specify if the review is for a specific Feature. --></help>
+        <label>機能</label>
+        <name>copadoQuality__Feature__c</name>
+        <relationshipLabel>機能レビュー</relationshipLabel>
+    </fields>
+    <fields>
+        <label>結果</label>
+        <name>copadoQuality__Outcome__c</name>
+    </fields>
+    <fields>
+        <help><!-- Optional: Date when the review should happen. --></help>
+        <label>予定日</label>
+        <name>copadoQuality__Planned_Date__c</name>
+    </fields>
+    <fields>
+        <label>リリース</label>
+        <name>copadoQuality__Release__c</name>
+        <relationshipLabel>機能レビュー</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- If available, select the Environment where the review should take place. If provided and if there&apos;s an active org credential, Copado will aim to auto-log in users when starting a review. --></help>
+        <label>レビュー環境</label>
+        <name>copadoQuality__Review_Environment__c</name>
+        <relationshipLabel>機能レビュー</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Provide a summary of the review. Feel free to link to further tracking sources like Spreadsheets or quip documents. This can be partially auto-generated with comments from the individual reviews or with AI generated summaries. --></help>
+        <label>レビュー概要</label>
+        <name>copadoQuality__Review_Outcome__c</name>
+    </fields>
+    <fields>
+        <label>レビュー対象URL</label>
+        <name>copadoQuality__Review_Target_URL__c</name>
+    </fields>
+    <fields>
+        <label>ユーザーストーリー</label>
+        <name>copadoQuality__User_Story__c</name>
+        <relationshipLabel>機能レビュー</relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Functional Review Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>レビュー</nameFieldLabel>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>レビューを開始</label>
+        <name>copadoQuality__Start_Review</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage>ターゲットURLはプロトコルから始まる必要があります。（例：https://）</errorMessage>
+        <name>copadoQuality__Protocol_Control</name>
+    </validationRules>
+</CustomObjectTranslation>

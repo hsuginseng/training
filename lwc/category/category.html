@@ -1,0 +1,36 @@
+<template>
+	<template lwc:if={isLoading}>
+		<lightning-spinner alternative-text="Loading Products" size="medium"></lightning-spinner>
+	</template>
+
+	<main class="category">
+		<c-banner-split 
+			title={title} text={text} image-url={imageUrl} image-alt={imageAlt}>
+		</c-banner-split>
+		<div class="inner">
+			<div class="top">
+				<div class="filters">
+					<c-category-filter filter-action-label={actionLabelFilters} ontogglefilters={updateFiltersToggle}></c-category-filter>
+					<c-category-sort sort-rules-data={sortRules} sort-by-action-label={actionLabelSortBy}></c-category-sort>
+				</div>
+				<div>
+					<c-category-pagination action-label-previous-page={actionLabelPreviousPage} action-label-next-page={actionLabelNextPage}
+						current-page-number={currentPageNumber} results-per-page={resultsPerPage} num-results={totalResults}>
+					</c-category-pagination>
+				</div>
+			</div>
+			<c-category-grid products={products}></c-category-grid>
+			<div class="bottom">
+				<c-category-pagination action-label-previous-page={actionLabelPreviousPage} action-label-next-page={actionLabelNextPage}
+					current-page-number={currentPageNumber} results-per-page={resultsPerPage} num-results={totalResults}>
+				</c-category-pagination>
+			</div>
+		</div>
+		<template lwc:if={filtersOpen}>
+			<div class="modal-overlay"></div>
+			<c-category-filter-modal modal-header-label={actionLabelFilters} current-category-id={selectedCategoryId} filter-results={filterResults} ontogglefilters={updateFiltersToggle}
+				modal-action-label-apply-filter={filterModalActionLabelApplyFilters} modal-action-label-clear-filters={filterModalActionLabelClearFilters}>
+			</c-category-filter-modal>
+		</template>
+	</main>
+</template>

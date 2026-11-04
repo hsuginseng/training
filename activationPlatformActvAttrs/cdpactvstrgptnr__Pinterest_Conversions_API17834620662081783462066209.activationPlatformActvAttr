@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ActivationPlatformActvAttr xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activationPlatform>cdpactvstrgptnr__Pinterest_Conversions_API</activationPlatform>
+    <actvPlatformAdncIdentifier>cdpactvstrgptnr__Pinterest_Conversions_API178346206620817834620662091783462066209</actvPlatformAdncIdentifier>
+    <applyHash>false</applyHash>
+    <destinationName>em</destinationName>
+    <fieldName>EmailAddress</fieldName>
+    <isFromSourceObject>false</isFromSourceObject>
+    <isIdentifier>true</isIdentifier>
+    <isRequired>false</isRequired>
+    <masterLabel>Email</masterLabel>
+    <objectName>ContactPointEmail</objectName>
+</ActivationPlatformActvAttr>

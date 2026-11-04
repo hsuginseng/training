@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Shipment Special Services</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Shipment Special Services</value>
+    </caseValues>
+    <fields>
+        <label><!-- AM Delivery --></label>
+        <name>zkmulti__AMDelivery__c</name>
+    </fields>
+    <fields>
+        <label><!-- Adult Signature Restricted Delivery --></label>
+        <name>zkmulti__AdultSignatureRestrictedDelivery__c</name>
+    </fields>
+    <fields>
+        <label><!-- Adult Signature --></label>
+        <name>zkmulti__AdultSignature__c</name>
+    </fields>
+    <fields>
+        <label><!-- Alcohol Recipient Type --></label>
+        <name>zkmulti__AlcoholRecipientType__c</name>
+        <picklistValues>
+            <masterLabel>CONSUMER</masterLabel>
+            <translation><!-- CONSUMER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LICENSEE</masterLabel>
+            <translation><!-- LICENSEE --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Alcohol Shipment --></label>
+        <name>zkmulti__AlcoholShipment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allow Record Delete --></label>
+        <name>zkmulti__AllowRecordDelete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Blind Shipment --></label>
+        <name>zkmulti__Blind_Shipment__c</name>
+    </fields>
+    <fields>
+        <label><!-- BSO Account --></label>
+        <name>zkmulti__BsoAccount__c</name>
+    </fields>
+    <fields>
+        <label><!-- BSO Broker Type --></label>
+        <name>zkmulti__BsoBrokerType__c</name>
+        <picklistValues>
+            <masterLabel>EXPORT</masterLabel>
+            <translation><!-- EXPORT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IMPORT</masterLabel>
+            <translation><!-- IMPORT --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- BSO City --></label>
+        <name>zkmulti__BsoCity__c</name>
+    </fields>
+    <fields>
+        <label><!-- BSO Company --></label>
+        <name>zkmulti__BsoCompany__c</name>
+    </fields>
+    <fields>
+        <label><!-- BSO Contact Email --></label>
+        <name>zkmulti__BsoContactEmail__c</name>
+    </fields>
+    <fields>
+        <label><!-- BSO Contact ID --></label>
+        <name>zkmulti__BsoContactId__c</name>
+    </fields>
+    <fields>
+        <label><!-- BSO Contact Name --></label>
+        <name>zkmulti__BsoContactName__c</name>
+    </fields>
+    <fields>
+        <label><!-- BSO Contact Phone Extension --></label>
+        <name>zkmulti__BsoContactPhoneExtension__c</name>
+    </fields>
+    <fields>
+        <label><!-- BSO Contact Phone --></label>
+        <name>zkmulti__BsoContactPhone__c</name>
+    </fields>
+    <fields>
+        <label><!-- BSO Contact Title --></label>
+        <name>zkmulti__BsoContactTitle__c</name>
+    </fields>
+    <fields>
+        <label><!-- BSO Country --></label>
+        <name>zkmulti__BsoCountry__c</name>
+    </fields>
+    <fields>
+        <label><!-- BSO Zip/Postal Code --></label>
+        <name>zkmulti__BsoPostalCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- BSO State/Province --></label>
+        <name>zkmulti__BsoState__c</name>
+    </fields>
+    <fields>
+        <label><!-- BSO Street --></label>
+        <name>zkmulti__BsoStreet__c</name>
+    </fields>
+    <fields>
+        <label><!-- BSO Tax ID Type --></label>
+        <name>zkmulti__BsoTaxIdType__c</name>
+        <picklistValues>
+            <masterLabel>Business National</masterLabel>
+            <translation><!-- Business National --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business State</masterLabel>
+            <translation><!-- Business State --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Union</masterLabel>
+            <translation><!-- Business Union --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EIN</masterLabel>
+            <translation><!-- EIN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal National</masterLabel>
+            <translation><!-- Personal National --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal State</masterLabel>
+            <translation><!-- Personal State --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- BSO Tax ID --></label>
+        <name>zkmulti__BsoTaxId__c</name>
+    </fields>
+    <fields>
+        <label><!-- BSO --></label>
+        <name>zkmulti__Bso__c</name>
+    </fields>
+    <fields>
+        <label><!-- COD Amount --></label>
+        <name>zkmulti__COD_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carbon Neutral --></label>
+        <name>zkmulti__CarbonNeutral__c</name>
+    </fields>
+    <fields>
+        <label><!-- Certified Mail --></label>
+        <name>zkmulti__Certified_Mail__c</name>
+    </fields>
+    <fields>
+        <label><!-- COD AS3816 --></label>
+        <name>zkmulti__CodAS3816__c</name>
+    </fields>
+    <fields>
+        <label><!-- COD Collection Account --></label>
+        <name>zkmulti__CodAccount__c</name>
+    </fields>
+    <fields>
+        <label><!-- COD Collection Address is Residential --></label>
+        <name>zkmulti__CodAddressIsResidential__c</name>
+    </fields>
+    <fields>
+        <label><!-- COD Collection City --></label>
+        <name>zkmulti__CodCity__c</name>
+    </fields>
+    <fields>
+        <label><!-- COD Collection Type --></label>
+        <name>zkmulti__CodCollectionType__c</name>
+    </fields>
+    <fields>
+        <label><!-- COD Collection Company --></label>
+        <name>zkmulti__CodCompany__c</name>
+    </fields>
+    <fields>
+        <label><!-- COD Collection Contact Name --></label>
+        <name>zkmulti__CodContactName__c</name>
+    </fields>
+    <fields>
+        <label><!-- COD Collection Contact Phone --></label>
+        <name>zkmulti__CodContactPhone__c</name>
+    </fields>
+    <fields>
+        <label><!-- COD Collection Contact Tax ID Type --></label>
+        <name>zkmulti__CodContactTaxIdType__c</name>
+        <picklistValues>
+            <masterLabel>Business National</masterLabel>
+            <translation><!-- Business National --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business State</masterLabel>
+            <translation><!-- Business State --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Union</masterLabel>
+            <translation><!-- Business Union --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EIN</masterLabel>
+            <translation><!-- EIN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal National</masterLabel>
+            <translation><!-- Personal National --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal State</masterLabel>
+            <translation><!-- Personal State --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SSN</masterLabel>
+            <translation><!-- SSN --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- COD Collection Contact Tax ID --></label>
+        <name>zkmulti__CodContactTaxId__c</name>
+    </fields>
+    <fields>
+        <label><!-- COD Collection Country Code --></label>
+        <name>zkmulti__CodCountryCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- COD Optional Endorsement --></label>
+        <name>zkmulti__CodOptionalEndorsement__c</name>
+    </fields>
+    <fields>
+        <label><!-- COD PM Express Return --></label>
+        <name>zkmulti__CodPMExpressReturn__c</name>
+    </fields>
+    <fields>
+        <label><!-- COD Collection Zip/Postal Code --></label>
+        <name>zkmulti__CodPostalCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- COD Reference Type --></label>
+        <name>zkmulti__CodReferenceType__c</name>
+    </fields>
+    <fields>
+        <label><!-- COD Collection State/Province --></label>
+        <name>zkmulti__CodState__c</name>
+    </fields>
+    <fields>
+        <label><!-- COD Collection Street --></label>
+        <name>zkmulti__CodStreet__c</name>
+    </fields>
+    <fields>
+        <label><!-- COD Tracking Number --></label>
+        <name>zkmulti__CodTrackingId__c</name>
+    </fields>
+    <fields>
+        <label><!-- COD USPSCA --></label>
+        <name>zkmulti__CodUSPSCA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Collect On Delivery --></label>
+        <name>zkmulti__Collect_On_Delivery__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consolidation --></label>
+        <name>zkmulti__Consolidation__c</name>
+        <relationshipLabel><!-- Shipment Special Services --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Dangerous goods shipment is packaged and documented for movement on cargo aircraft only. --></help>
+        <label><!-- Dangerous Goods Cargo Aircraft Only --></label>
+        <name>zkmulti__DangerousGoodsCargoAircraftOnly__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dangerous Goods --></label>
+        <name>zkmulti__DangerousGoods__c</name>
+    </fields>
+    <fields>
+        <label><!-- FedEx Date Certain Home Delivery® Date --></label>
+        <name>zkmulti__DateCertainHomeDeliveryDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deliver To Addressee Only --></label>
+        <name>zkmulti__DeliverToAddresseeOnly__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery Confirmation --></label>
+        <name>zkmulti__DeliveryConfirmation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Direct Delivery Only --></label>
+        <name>zkmulti__DirectDeliveryOnly__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dry Ice --></label>
+        <name>zkmulti__DryIce__c</name>
+    </fields>
+    <fields>
+        <label><!-- Electronic Return Receipt --></label>
+        <name>zkmulti__ElectronicReturnReceipt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Freight Inside Delivery --></label>
+        <name>zkmulti__FreightInsideDelivery__c</name>
+    </fields>
+    <fields>
+        <label><!-- Freight Inside Pickup --></label>
+        <name>zkmulti__FreightInsidePickup__c</name>
+    </fields>
+    <fields>
+        <label><!-- FedEx Location City --></label>
+        <name>zkmulti__HalCity__c</name>
+    </fields>
+    <fields>
+        <label><!-- HAL Contact phone --></label>
+        <name>zkmulti__HalPhone__c</name>
+    </fields>
+    <fields>
+        <label><!-- FedEx Location Zip/Postal Code --></label>
+        <name>zkmulti__HalPostalCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- FedEx Location State/Province --></label>
+        <name>zkmulti__HalState__c</name>
+    </fields>
+    <fields>
+        <label><!-- FedEx Location Street --></label>
+        <name>zkmulti__HalStreet__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hold at Location --></label>
+        <name>zkmulti__Hal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hazardous Materials --></label>
+        <name>zkmulti__HazardousMaterials__c</name>
+    </fields>
+    <fields>
+        <label><!-- Home Delivery Premium Type --></label>
+        <name>zkmulti__HomeDeliveryPremiumType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Insurance Amount --></label>
+        <name>zkmulti__Insurance_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Insured Type --></label>
+        <name>zkmulti__InsuredType__c</name>
+    </fields>
+    <fields>
+        <help><!-- Specifies additional description about customs return type. This is a required field when the customs return type is &quot;OTHER&quot; --></help>
+        <label><!-- Intl Return Customs Return Description --></label>
+        <name>zkmulti__IntlReturnCustomsReturnDescription__c</name>
+    </fields>
+    <fields>
+        <label><!-- Intl Return Customs Return Type --></label>
+        <name>zkmulti__IntlReturnCustomsReturnType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Package Release Code --></label>
+        <name>zkmulti__IsPackageReleaseCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Insurance --></label>
+        <name>zkmulti__Is_Insurance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lithium Batteries/Cells --></label>
+        <name>zkmulti__LithiumBatteriesCells__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lithium Battery Exception --></label>
+        <name>zkmulti__LithiumBatteryException__c</name>
+    </fields>
+    <fields>
+        <label><!-- Live Animal Surcharge --></label>
+        <name>zkmulti__LiveAnimalSurcharge__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mod Key --></label>
+        <name>zkmulti__ModKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- No Delivery on Saturdays --></label>
+        <name>zkmulti__NoDeliveryOnSaturdays__c</name>
+    </fields>
+    <fields>
+        <label><!-- One Rate --></label>
+        <name>zkmulti__OneRate__c</name>
+    </fields>
+    <fields>
+        <label><!-- ORM-D --></label>
+        <name>zkmulti__OrmD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Package Release Code --></label>
+        <name>zkmulti__PackageReleaseCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pharmacy Delivery --></label>
+        <name>zkmulti__PharmacyDelivery__c</name>
+    </fields>
+    <fields>
+        <label><!-- Priority Alert --></label>
+        <name>zkmulti__PriorityAlert__c</name>
+    </fields>
+    <fields>
+        <label><!-- Registered Mail Value --></label>
+        <name>zkmulti__RegisteredMailValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Registered Mail --></label>
+        <name>zkmulti__RegisteredMail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Restricted Delivery --></label>
+        <name>zkmulti__RestrictedDelivery__c</name>
+    </fields>
+    <fields>
+        <label><!-- Return Receipt --></label>
+        <name>zkmulti__ReturnReceipt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Returns Clearance --></label>
+        <name>zkmulti__ReturnsClearance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Saturday Delivery --></label>
+        <name>zkmulti__SaturdayDelivery__c</name>
+    </fields>
+    <fields>
+        <label><!-- Saturday Hold --></label>
+        <name>zkmulti__SaturdayHold__c</name>
+    </fields>
+    <fields>
+        <label><!-- Saturday Pickup --></label>
+        <name>zkmulti__SaturdayPickup__c</name>
+    </fields>
+    <fields>
+        <label><!-- Selected Signature Option --></label>
+        <name>zkmulti__SelectedSignatureOption__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipment --></label>
+        <name>zkmulti__Shipment__c</name>
+        <relationshipLabel><!-- Shipment Special Services --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Signature Confirmation --></label>
+        <name>zkmulti__SignatureConfirmation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Signature Release Number --></label>
+        <name>zkmulti__SignatureReleaseNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Signature Waiver --></label>
+        <name>zkmulti__SignatureWaiver__c</name>
+    </fields>
+    <fields>
+        <label><!-- Small Quantity Exception --></label>
+        <name>zkmulti__SmallQuantityException__c</name>
+    </fields>
+    <fields>
+        <label><!-- Special Contents --></label>
+        <name>zkmulti__SpecialContents__c</name>
+    </fields>
+    <fields>
+        <label><!-- Third Party Consignee --></label>
+        <name>zkmulti__ThirdPartyConsignee__c</name>
+    </fields>
+    <fields>
+        <label><!-- COD Total Collection Amount Currency --></label>
+        <name>zkmulti__TotalCodAmountCurrency__c</name>
+    </fields>
+    <layouts>
+        <layout>Shipment Special Services Layout</layout>
+        <sections>
+            <label><!-- Alcohol --></label>
+            <section>Alcohol</section>
+        </sections>
+        <sections>
+            <label><!-- Broker Select --></label>
+            <section>Broker Select</section>
+        </sections>
+        <sections>
+            <label><!-- Collect on Delivery (C.O.D.) --></label>
+            <section>Collect on Delivery (C.O.D.)</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Dangerous Goods/Hazardous Materials --></label>
+            <section>Dangerous Goods/Hazardous Materials</section>
+        </sections>
+        <sections>
+            <label><!-- Dry Ice --></label>
+            <section>Dry Ice</section>
+        </sections>
+        <sections>
+            <label><!-- Freight Special Services --></label>
+            <section>Freight Special Services</section>
+        </sections>
+        <sections>
+            <label><!-- Hold at FedEx Authorized ShipCenter® Location --></label>
+            <section>Hold at FedEx Authorized ShipCenter® Location</section>
+        </sections>
+        <sections>
+            <label><!-- Home Delivery Premium --></label>
+            <section>Home Delivery Premium</section>
+        </sections>
+        <sections>
+            <label><!-- International Returns --></label>
+            <section>International Returns</section>
+        </sections>
+        <sections>
+            <label><!-- One Rate --></label>
+            <section>One Rate</section>
+        </sections>
+        <sections>
+            <label><!-- Pharmacy Delivery --></label>
+            <section>Pharmacy Delivery</section>
+        </sections>
+        <sections>
+            <label><!-- Priority Alert --></label>
+            <section>Priority Alert</section>
+        </sections>
+        <sections>
+            <label><!-- Saturday Services --></label>
+            <section>Saturday Services</section>
+        </sections>
+        <sections>
+            <label><!-- Signature Options --></label>
+            <section>Signature Options</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

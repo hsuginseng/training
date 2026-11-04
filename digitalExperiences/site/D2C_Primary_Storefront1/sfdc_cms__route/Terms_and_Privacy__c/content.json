@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Terms of Use and Privacy Policy",
+  "contentBody" : {
+    "activeViewId" : "Terms_and_Privacy",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-terms-and-privacy",
+    "urlPrefix" : "terms-and-privacy"
+  },
+  "urlName" : "terms-and-privacy"
+}

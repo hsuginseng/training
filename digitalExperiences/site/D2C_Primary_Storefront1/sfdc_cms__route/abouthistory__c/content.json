@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "About-History",
+  "contentBody" : {
+    "activeViewId" : "About_History",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-about-history",
+    "urlPrefix" : "about-history"
+  },
+  "urlName" : "about-history"
+}

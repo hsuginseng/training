@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>コンプライアンス・ルール違反</value>
+    </caseValues>
+    <fields>
+        <label>終了カラム</label>
+        <name>copadoQuality__End_Column__c</name>
+    </fields>
+    <fields>
+        <label>終了行</label>
+        <name>copadoQuality__End_Line__c</name>
+    </fields>
+    <fields>
+        <label>メッセージ</label>
+        <name>copadoQuality__Message__c</name>
+    </fields>
+    <fields>
+        <label>結果</label>
+        <name>copadoQuality__Result__c</name>
+        <relationshipLabel>コンプライアンス・ルール違反</relationshipLabel>
+    </fields>
+    <fields>
+        <label>開始カラム</label>
+        <name>copadoQuality__Start_Column__c</name>
+    </fields>
+    <fields>
+        <label>開始行</label>
+        <name>copadoQuality__Start_Line__c</name>
+    </fields>
+    <fields>
+        <label><!-- URI --></label>
+        <name>copadoQuality__URI__c</name>
+    </fields>
+    <layouts>
+        <layout>Compliance Rule Violation Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>コンプライアンスルール違反</nameFieldLabel>
+</CustomObjectTranslation>

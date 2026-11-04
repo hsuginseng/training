@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- コンプライアンス・ルール --></value>
+    </caseValues>
+    <fields>
+        <help>ルール違反が発生した場合にコパードが実行するアクション。「プロセス中止」では、コパードのアクションが停止し、結果に違反が記録されますが、電子メール通知は送信されません。「アラート付きで継続」では、電子メール通知が送信され、違反が結果に記録されますが、アクションは停止されません。「ドキュメントのみ」 は電子メール通知を送信せず、アクションを停止しませんが、結果に違反を記録します。</help>
+        <label><!-- Action --></label>
+        <name>copadoQuality__Action__c</name>
+        <picklistValues>
+            <masterLabel>Abort Process</masterLabel>
+            <translation>プロセスの中止</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Continue with alert</masterLabel>
+            <translation>アラート付きで継続</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Document Only</masterLabel>
+            <translation>ドキュメントのみ</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Active --></label>
+        <name>copadoQuality__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- ConfigJSON --></label>
+        <name>copadoQuality__ConfigJSON__c</name>
+    </fields>
+    <fields>
+        <help>ルール違反の条件を書き込むテキストボックス。ルール違反時のメッセージを表示します。例：標準プロファイルは顧客のPIIフィールドにアクセスできません。</help>
+        <label><!-- Error Message --></label>
+        <name>copadoQuality__Error_Message__c</name>
+    </fields>
+    <fields>
+        <help>ルールを作成するエクステンション設定。デフォルト値を保持します。</help>
+        <label><!-- Extension Configuration --></label>
+        <name>copadoQuality__Extension_Configuration__c</name>
+        <relationshipLabel><!-- Compliance Rules --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Risk Detail --></label>
+        <name>copadoQuality__Risk_Detail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rule Name --></label>
+        <name>copadoQuality__Rule_Name__c</name>
+    </fields>
+    <fields>
+        <help>ルール違反に割り当てられる重大度。重大度を使用して、結果を表示する際に違反の並べ替えや優先順位付けを行うことができます。</help>
+        <label><!-- Severity --></label>
+        <name>copadoQuality__Severity__c</name>
+        <picklistValues>
+            <masterLabel>Critical</masterLabel>
+            <translation>クリティカル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation>高</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation>低</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation>中</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- XPath Expression --></label>
+        <name>copadoQuality__XPath_Expression__c</name>
+    </fields>
+    <layouts>
+        <layout>Compliance Rule Layout</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Rule ID --></nameFieldLabel>
+</CustomObjectTranslation>

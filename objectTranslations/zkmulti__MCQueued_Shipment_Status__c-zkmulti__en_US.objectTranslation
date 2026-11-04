@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Bulk Pickup Status</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Bulk Pickup Status</value>
+    </caseValues>
+    <fields>
+        <label><!-- Batch ID --></label>
+        <name>zkmulti__BatchId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bulk Shipment --></label>
+        <name>zkmulti__Bulk_Shipment__c</name>
+        <relationshipLabel><!-- Bulk Pickup Status --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Pickup --></label>
+        <name>zkmulti__Pickup__c</name>
+        <relationshipLabel><!-- Bulk Pickup Status --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Print Batch ID --></label>
+        <name>zkmulti__PrintBatchId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipment --></label>
+        <name>zkmulti__Shipment__c</name>
+        <relationshipLabel><!-- Bulk Pickup Status --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status Message --></label>
+        <name>zkmulti__Status_Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>zkmulti__Status__c</name>
+        <picklistValues>
+            <masterLabel>ERROR</masterLabel>
+            <translation><!-- ERROR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PROCESSING</masterLabel>
+            <translation><!-- PROCESSING --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SUCCESS</masterLabel>
+            <translation><!-- SUCCESS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VALIDATED</masterLabel>
+            <translation><!-- VALIDATED --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Timestamp --></label>
+        <name>zkmulti__Timestamp__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

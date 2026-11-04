@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>テストスクリプト</value>
+    </caseValues>
+    <fields>
+        <label>期待される結果</label>
+        <name>copado__Expected_Result__c</name>
+    </fields>
+    <fields>
+        <label>イントロダクション</label>
+        <name>copado__Introduction__c</name>
+    </fields>
+    <fields>
+        <label>クレデンシャル</label>
+        <name>copado__Org__c</name>
+    </fields>
+    <fields>
+        <label>全体的な結果</label>
+        <name>copado__Overall_Outcome__c</name>
+        <picklistValues>
+            <masterLabel>Failed</masterLabel>
+            <translation><!-- Failed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Passed</masterLabel>
+            <translation><!-- Passed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Passed with comments</masterLabel>
+            <translation><!-- Passed with comments --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>レビュアー</label>
+        <name>copado__Peer_Reviewer__c</name>
+        <relationshipLabel>テストスクリプト</relationshipLabel>
+    </fields>
+    <fields>
+        <label>前提条件</label>
+        <name>copado__Prerequisites__c</name>
+    </fields>
+    <fields>
+        <label>プロジェクト</label>
+        <name>copado__Project__c</name>
+    </fields>
+    <fields>
+        <label>危険</label>
+        <name>copado__Risk__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>スプリント</label>
+        <name>copado__Sprint__c</name>
+    </fields>
+    <fields>
+        <label>ステータス</label>
+        <name>copado__Status__c</name>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready for testing</masterLabel>
+            <translation><!-- Ready for testing --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>テストの説明</label>
+        <name>copado__Test_Description__c</name>
+    </fields>
+    <fields>
+        <label>テストタイトル</label>
+        <name>copado__Test_Title__c</name>
+    </fields>
+    <fields>
+        <label>ユーザーストーリー</label>
+        <name>copado__User_Story__c</name>
+        <relationshipLabel>テストスクリプト（ユーザーストーリー）</relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Test Script Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>テストスクリプト名</nameFieldLabel>
+    <webLinks>
+        <label>テストスクリプトステップを追加</label>
+        <name>copado__Add_Test_Script_Steps</name>
+    </webLinks>
+</CustomObjectTranslation>

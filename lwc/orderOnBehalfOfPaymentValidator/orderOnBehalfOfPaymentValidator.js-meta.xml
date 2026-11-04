@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>67.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Order On Behalf Of Payment Validator</masterLabel>
+    <description>Resolves an OrderSummary from a cart Id via PendingOrdSumProcEvent, then listens for OrderSumStatusChangedEvent to show a success/failure result. Auto-advances the flow on success.</description>
+    <targets>
+        <target>lightning__FlowScreen</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__FlowScreen">
+            <property name="cartId"
+                      type="String"
+                      label="Cart Id"
+                      description="The WebCart Id used to match the OrderSummary via the PendingOrdSumProcEvent.ExternalReferenceIdentifier field."
+                      role="inputOnly"/>
+            <property name="successStatus"
+                      type="String"
+                      label="Success Status Value"
+                      description="The OrderSummary.Status value that indicates a successful payment (e.g. Activated)."
+                      role="inputOnly"/>
+            <property name="successHeader"
+                      type="String"
+                      label="Success Header"
+                      description="Headline shown when payment succeeds."
+                      role="inputOnly"
+                      default="Payment Validation Successful"/>
+            <property name="failureHeader"
+                      type="String"
+                      label="Failure Header"
+                      description="Headline shown when payment fails (status changes to Hold)."
+                      role="inputOnly"
+                      default="Error: Payment Validation Failed"/>
+            <property name="successMessage"
+                      type="String"
+                      label="Success Message"
+                      description="Headline shown when payment succeeds."
+                      role="inputOnly"
+                      default="The payment authorization was successful. Advancing to the next screen…"/>
+            <property name="failureMessage"
+                      type="String"
+                      label="Failure Message"
+                      description="Headline shown when payment fails (status changes to Hold)."
+                      role="inputOnly"
+                      default="The payment card experienced a 3D Secure authentication issue. Please navigate to the order summary to collect funds via a merchant-submitted payment or a cash entry payment."/>
+            <property name="pendingChannel"
+                      type="String"
+                      label="Pending Event Channel"
+                      description="CometD channel for PendingOrdSumProcEvent."
+                      role="inputOnly"
+                      default="/event/PendingOrdSumProcEvent"/>
+            <property name="statusChannel"
+                      type="String"
+                      label="Status Event Channel"
+                      description="CometD channel for OrderSumStatusChangedEvent."
+                      role="inputOnly"
+                      default="/event/OrderSumStatusChangedEvent"/>
+            <property name="autoAdvanceDelayMs"
+                      type="Integer"
+                      label="Auto-Advance Delay (ms)"
+                      description="How long to display the success animation before advancing the flow."
+                      role="inputOnly"
+                      default="2200"/>
+            <property name="paymentResult"
+                      type="String"
+                      label="Payment Result"
+                      description="Output: 'Success' or 'Failure'."
+                      role="outputOnly"/>
+            <property name="resolvedStatus"
+                      type="String"
+                      label="Resolved Status"
+                      description="Output: the OrderSummary status value received from the event."
+                      role="outputOnly"/>
+            <property name="resolvedOrderSummaryId"
+                      type="String"
+                      label="Resolved Order Summary Id"
+                      description="Output: the OrderSummary Id resolved from the cart Id via PendingOrdSumProcEvent."
+                      role="outputOnly"/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

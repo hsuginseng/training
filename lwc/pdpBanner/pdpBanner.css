@@ -1,0 +1,42 @@
+@import 'c/cssLibrary';
+
+.banner {
+	padding-top: 3.5rem;
+	background-color: #fff;
+}
+
+.inner {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	gap: 6.875rem;
+	width: calc(100% - 8.5rem);
+	max-width: 90rem;
+	height: 100%;
+	margin-inline: auto;
+
+	@media (max-width: 1024px) {
+		gap: 4rem;
+		width: calc(100% - 6rem);
+	}
+
+	@media (max-width: 768px) {
+		gap: 2rem;
+		width: calc(100% - 4rem);
+	}
+
+	@media (max-width: 620px) {
+		display: block;
+		width: calc(100% - 2rem);
+	}
+}
+
+.product {
+	flex: 1;
+	padding-bottom: 2.875rem;
+}
+
+.gallery {
+	flex: 1;
+	align-self: flex-start;
+}

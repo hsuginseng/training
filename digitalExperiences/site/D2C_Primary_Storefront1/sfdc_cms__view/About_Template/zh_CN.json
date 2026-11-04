@@ -1,0 +1,96 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "About Us",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "attributes" : {
+          "title" : "自1974年起，传承草本智慧，献上健康美味"
+        },
+        "id" : "14a6fe63-4d0c-422b-99ca-e73a75ea6163"
+      }, {
+        "id" : "2699cfe4-c3e1-486e-9504-9888338ac11e",
+        "attributes" : {
+          "text" : "自1974年以来，许氏花旗参始终秉持着为注重健康的人士提供真实且负责任采购的产品，并搭配来自威斯康星州的最纯正的美国花旗参，以提升健康和活力的承诺。凭借世代相传的种植与采购专业知识和对品质的不懈追求，我们努力确保客户能够充分利用美国花旗参的天然优势，体验平衡与充满活力的生活。"
+        }
+      }, {
+        "id" : "78f71b17-d79e-4670-a60f-4e748cea0cb9",
+        "attributes" : {
+          "text" : "家族经营且独立运营的公司承诺保持其位于威斯康星州沃索的农场、生产设施与全球总部，同时在向家族新一代领导层过渡、并作为花旗参行业的领导者的过程中扩展其国际分支机构网络。"
+        }
+      }, {
+        "id" : "5f7f8e50-a7be-48de-a503-74a39c5a397b",
+        "attributes" : {
+          "displayTextPlain" : "1968年，保罗许从台湾国立大学英语语言文学专业毕业后，来到美国深造，并于1971年在丹佛大学获得社会工作硕士学位。毕业后，他在威斯康星州Fond du Lac的卫生与社会服务部担任社会工作者。保罗是14个兄弟姐妹中的第10位，出生于台湾澎湖，是家中首位上大学及移民美国的人。一天，保罗在工作期间，一位同事递给他一本《大地之母》杂志，上面介绍了人参的药用价值。他了解到，就在他当时居住地附近的Marathon县，有几位种植人参的农民。出于好奇和决心，保罗驱车前往当地一家农场，敲门询问农民关于这种作物的知识。保罗从那位农民那里购买了一些人参，并寄给在台湾高雄因健康问题烦恼的母亲。大约十个月后，他收到父亲的一封信，简单而深刻地写道：“人参有效。多寄些。”这一经历使保罗坚信人参的力量及其改善生活的潜力。他开始从当地农民处购买人参，在家修剪人参根部，并销售与亲友分享，大家均被效果所折服。1974年，保罗大胆地在一家中文报纸上登广告，在威斯康星Fond du Lac自家地下室里开始了一项小型业务。邮件订单最初零零散散，但逐渐稳定增长。到1976年，随着业务的兴隆，保罗决定搬到更靠近美国花旗参产区的沃索。仅两年后，即1978年，保罗将自己的热情提升到一个新水平，并购买了他的第一座人参农场，这座农场至今仍作为许氏花旗参在沃索的基地运营。",
+          "title" : "创始人的故事"
+        }
+      }, {
+        "id" : "9466e6dd-97a5-4463-9840-8aed4566169a",
+        "attributes" : {
+          "title" : "从农场到餐桌，我们细心把关每一个环节 "
+        }
+      }, {
+        "id" : "8b7f5e39-34d6-433a-85c3-21c274a45736",
+        "attributes" : {
+          "title" : "播种",
+          "text" : "在最佳环境下播种，孕育健康而持续的生命力。"
+        }
+      }, {
+        "id" : "c63d1cbd-96d4-4bdf-aea5-ffba07217f62",
+        "attributes" : {
+          "title" : "田间管理 ",
+          "text" : "细心照料，包含浇水、施肥、除草与病虫害防治，确保作物顺利生长。"
+        }
+      }, {
+        "id" : "1470d68c-ff33-48bf-b4b3-5b28a13460e4",
+        "attributes" : {
+          "title" : "采收 ",
+          "text" : "经过4至5年生长，待秋季果实成熟、植株枯萎后，精心采收 "
+        }
+      }, {
+        "id" : "d05e3104-b1e0-40e6-bf62-3ec1ede835d0",
+        "attributes" : {
+          "title" : "清洗 ",
+          "text" : "经过两次彻底清洗，去除泥土、杂质、农药与其他残留物。"
+        }
+      }, {
+        "id" : "b6066191-10c8-49f7-8cbc-e156d65821ea",
+        "attributes" : {
+          "title" : "烘干 ",
+          "text" : "适度去除水分，为后续储存或加工准备。"
+        }
+      }, {
+        "id" : "e9b8bd49-d2f8-485e-93f4-853ea42589b3",
+        "attributes" : {
+          "title" : "重要里程碑",
+          "content" : "[\n  {\n    \"id\": \"1\",\n    \"imageUrl\":\"/sfsites/c/cms/delivery/media/MCT62553IHPJFPTJMIBF2Z66QJ3E\",\n    \"imageAlt\": \"HSU Headquarters from 1974\",\n    \"year\": \"1974\",\n    \"title\": \"\",\n    \"text\": \"许氏花旗参公司正式成立。\"\n  },\n  {\n    \"id\": \"2\",\n    \"imageUrl\":\"/sfsites/c/cms/delivery/media/MCXE55LKHSBRGFLMECHKJGEGQLFM\",\n    \"imageAlt\": \"Our First Farm purchased in 1978\",\n    \"year\": \"1978\",\n    \"title\": \"\",\n    \"text\": \"许忠政先生与许圣美女士购地，创建了许氏首座花旗参农场。\"\n  },\n  {\n    \"id\": \"3\",\n    \"imageUrl\":\"/sfsites/c/cms/delivery/media/MCUI5EGWEOPBCOPO6EY2XLFQ5FBM\",\n    \"imageAlt\": \"Paul and Ron Sandquist harvest their first ginseng crop\",\n    \"year\": \"1981\",\n    \"title\": \"\",\n    \"text\": \"许忠政先生与农场经理及首位员工Ron Sandquist（左一）共同收获了第一批花旗参。\"\n  },\n  {\n    \"id\": \"4\",\n    \"imageUrl\":\"/sfsites/c/cms/delivery/media/MCVOTIR5DGKFADPNWUF2GY7XRZ7A\",\n    \"imageAlt\": \"image alt\",\n    \"year\": \"1996\",\n    \"title\": \"\",\n    \"text\": \"许氏花旗参携手日本北海道渔业协同组合联合会（Gyoren），将干贝与多样海产引进北美市场。\"\n  },\n  {\n    \"id\": \"5\",\n    \"imageUrl\":\"/sfsites/c/cms/delivery/media/MCUCV4LDBMZNBBJMSKXREM4XXXBE\",\n    \"imageAlt\": \"image alt\",\n    \"year\": \"1997\",\n    \"title\": \"\",\n    \"text\": \"许氏堆肥场（Hsu Growing Supply）作为许氏花旗参农场（Hsu Ginseng Farms LLP）旗下部门正式成立，并获得威斯康星州首批商业堆肥许可证之一。\"\n  }\n]"
+        }
+      }, {
+        "id" : "d55311ed-a0e4-4edf-b2ff-07fe6995d614",
+        "attributes" : {
+          "title" : "探索健康之路",
+          "ctaText" : "浏览探索我们的产品"
+        }
+      }, {
+        "id" : "999e0eee-1d77-4a7b-8ff9-b96f7f37219f",
+        "attributes" : {
+          "title" : "分级 ",
+          "text" : "经过严格品质检验，依据大小、品质、与外观等标准分类。"
+        }
+      }, {
+        "id" : "860a98d3-e3f7-4abc-ba0c-6b0987a870b8",
+        "attributes" : {
+          "title" : "加工 ",
+          "text" : "分级后的产品，进行精制加工，转化为符合市场需求的成品或半成品。"
+        }
+      }, {
+        "id" : "52a03b78-f6b7-407f-a23b-ef7f8370287b",
+        "attributes" : {
+          "title" : "包装 ",
+          "text" : "以细致手工包装，完整保护产品品质，确保每一趟运送安全无虞。 "
+        }
+      } ]
+    }
+  },
+  "urlName" : "about-us"
+}

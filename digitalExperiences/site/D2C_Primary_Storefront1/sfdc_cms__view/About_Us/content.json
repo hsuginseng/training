@@ -1,0 +1,1099 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Hsus",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "isVisible" : false
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"9f2e9a23-6ae2-46f2-aade-6a44a17a0614\",\"columns\":[{\"UUID\":\"bba12495-c655-4aa7-8456-ebf7980243f1\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "imageInfos" : "",
+                "richTextValue" : "<h1>Providing Traditional Herbal Remedies and Culinary Delicacies Since 1974</h1>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "e8d91b21-af39-4a8f-9a85-dec925e8ebd0",
+              "type" : "component"
+            } ],
+            "id" : "bba12495-c655-4aa7-8456-ebf7980243f1",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "9f2e9a23-6ae2-46f2-aade-6a44a17a0614",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "isVisible" : false
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"57a4788e-f579-4c05-a0ba-53c1e43138cf\",\"columns\":[{\"UUID\":\"1818b13c-a725-4cf1-ae0e-af3509b244f9\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : { },
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCVW3PH2HC4VHT3PTF6LAM4DTXSU?lastModifiedDate=Mon Nov 04 23:18:47 GMT 2024\",\"altText\":\"\",\"contentKey\":\"MCVW3PH2HC4VHT3PTF6LAM4DTXSU\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "e7da0831-780d-4762-9c6d-aabb4be7525d",
+              "type" : "component"
+            } ],
+            "id" : "1818b13c-a725-4cf1-ae0e-af3509b244f9",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "57a4788e-f579-4c05-a0ba-53c1e43138cf",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "isVisible" : false
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"a958ea80-a18f-401b-9829-5905bbc65102\",\"columns\":[{\"UUID\":\"d972b060-45c8-4090-91f8-9772f9c16dae\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Hsu’s Ginseng has remained faithful to our promise of providing authentic \nand responsibly sourced products alongside the purest American ginseng from Wisconsin to enhance your health and vitality. With generations of expertise in farming and sourcing and with an unwavering commitment to quality, we strive to ensure our customers harness the natural strengths of \nAmerican ginseng and experience all that a balanced, energized life has to offer.",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "69af1cb9-d44a-4a9a-9fa9-7c0e656fa7af",
+              "type" : "component"
+            } ],
+            "id" : "d972b060-45c8-4090-91f8-9772f9c16dae",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "a958ea80-a18f-401b-9829-5905bbc65102",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "isVisible" : false
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"8019a88f-a1bc-43bd-80bd-92ea5ee1f8a1\",\"columns\":[{\"UUID\":\"2a94fb1a-3b18-4eb6-b8b9-161ad8cd2819\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : { },
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCHO3AH3YZCVGZ7MYTXK2O72KX4E?lastModifiedDate=Mon Nov 04 23:18:47 GMT 2024\",\"altText\":\"\",\"contentKey\":\"MCHO3AH3YZCVGZ7MYTXK2O72KX4E\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "30d34aae-6e79-4a03-9a92-4cc9041a8c70",
+              "type" : "component"
+            } ],
+            "id" : "2a94fb1a-3b18-4eb6-b8b9-161ad8cd2819",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "8019a88f-a1bc-43bd-80bd-92ea5ee1f8a1",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "isVisible" : false
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"c864c362-074d-4fbe-a4b9-a78db5c87646\",\"columns\":[{\"UUID\":\"b0f1b41b-ff4e-44a4-9702-441c4a86717c\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Family-owned and independently operated, the company is committed to maintaining its farms, production facilities and world headquarters in Wausau, Wisconsin, while expanding its international distribution network of branch offices around the globe as it transitions to the next generation of family leadership as a leader in the ginseng industry.",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "01ec2333-0cc5-4a49-9fd1-bbff24fe3497",
+              "type" : "component"
+            } ],
+            "id" : "b0f1b41b-ff4e-44a4-9702-441c4a86717c",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "c864c362-074d-4fbe-a4b9-a78db5c87646",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "isVisible" : false
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"c569dadd-e9c1-4d24-b80d-d6711f1e629d\",\"columns\":[{\"UUID\":\"80ea82c4-b8c4-49b7-96c7-55a920aeab69\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "imageInfos" : "",
+                "richTextValue" : "<h2>The Founder's Story</h2>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "3cc72511-9438-4101-ab86-ea3d15ac2003",
+              "type" : "component"
+            } ],
+            "id" : "80ea82c4-b8c4-49b7-96c7-55a920aeab69",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "c569dadd-e9c1-4d24-b80d-d6711f1e629d",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "isVisible" : false
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"8eeedd0e-ed16-4331-8a4f-8786b1ffe459\",\"columns\":[{\"UUID\":\"2d0ed0ee-b129-49fd-9540-5ade3ae0df46\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : { },
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MC5E6BV4CN7NCKHK6ITRPMT5PNPA?lastModifiedDate=Mon Nov 04 23:18:47 GMT 2024\",\"altText\":\"\",\"contentKey\":\"MC5E6BV4CN7NCKHK6ITRPMT5PNPA\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "da76c681-170b-484a-9529-25963d1862f7",
+              "type" : "component"
+            } ],
+            "id" : "2d0ed0ee-b129-49fd-9540-5ade3ae0df46",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "8eeedd0e-ed16-4331-8a4f-8786b1ffe459",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "isVisible" : false
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"435f3b0e-01ad-4b3f-8ac7-f7c8660c0d49\",\"columns\":[{\"UUID\":\"aa3391bd-2cd3-4a62-ab2b-53aee1be0c9e\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "In 1968, Paul Hsu arrived in the United States with a bachelor's degree in English Language and Literature from the Taiwan National University. He came to the US to pursue further education, earning a master's degree in social work from the University of Denver in 1971. After graduation, he took on a role as a social worker at Wisconsin’s Department of Health and Social Services in Fond du Lac. Paul is the 10th of 14 children and was born in Penghu, Taiwan. He is the first person in his family to attend college and immigrate to the United States.",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "17e7fc6e-6978-4382-9445-021a9355b604",
+              "type" : "component"
+            } ],
+            "id" : "aa3391bd-2cd3-4a62-ab2b-53aee1be0c9e",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "435f3b0e-01ad-4b3f-8ac7-f7c8660c0d49",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "isVisible" : false
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"1639301a-4825-4ecb-a694-3a0728b6c39d\",\"columns\":[{\"UUID\":\"dc065093-464e-4a9f-adc3-00831b7a29c0\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : { },
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCJ535CSGSZBDT7C2ZWEIRWCR244?lastModifiedDate=Mon Nov 04 23:18:47 GMT 2024\",\"altText\":\"\",\"contentKey\":\"MCJ535CSGSZBDT7C2ZWEIRWCR244\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "3483c17e-ecf7-46c4-8718-360da1f94879",
+              "type" : "component"
+            } ],
+            "id" : "dc065093-464e-4a9f-adc3-00831b7a29c0",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "1639301a-4825-4ecb-a694-3a0728b6c39d",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "isVisible" : false
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"dfa85b79-b24c-4533-959d-3fa29f21e9df\",\"columns\":[{\"UUID\":\"07f09b93-a59b-4478-8655-a51a500df5ab\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "One day, while working as a social worker, a colleague handed Paul an article from Mother Earth Magazine that focused on the medicinal uses of ginseng. He learned that Marathon County, not far from where he lived at the time, was home to several ginseng growers. Curious and determined, Paul drove to a local farm, knocked on the door and asked the farmer to share their knowledge about the crop.",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "0e23fef7-a981-4846-9546-1dc08be88433",
+              "type" : "component"
+            } ],
+            "id" : "07f09b93-a59b-4478-8655-a51a500df5ab",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "dfa85b79-b24c-4533-959d-3fa29f21e9df",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "isVisible" : false
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"6a90179b-00c4-46ec-b624-3ab0c6c12e61\",\"columns\":[{\"UUID\":\"c7478d81-b110-40f1-bc27-2e7ac42f294f\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : { },
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MC4WNCG6NO6VCBBNNBF3J5TEFZEE?lastModifiedDate=Mon Nov 04 23:18:47 GMT 2024\",\"altText\":\"\",\"contentKey\":\"MC4WNCG6NO6VCBBNNBF3J5TEFZEE\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "6bea9e75-c125-418c-8b4b-517c678404d7",
+              "type" : "component"
+            } ],
+            "id" : "c7478d81-b110-40f1-bc27-2e7ac42f294f",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "6a90179b-00c4-46ec-b624-3ab0c6c12e61",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "isVisible" : false
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"9e1bd4cb-2091-4777-b31c-5d825d199bb5\",\"columns\":[{\"UUID\":\"032884d3-22e9-4463-8956-53987fb20434\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Paul bought some ginseng from that farmer and sent it to his mother in Kaohsiung, Taiwan, who had been struggling with health concerns. About ten months later, he received a letter from his father with a simple, profound message: “The ginseng worked. Send more.” This experience made Paul a firm believer in the power of ginseng and its potential to improve lives.",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "cfd008d9-95ca-48bc-a772-ee4fa5d5edfd",
+              "type" : "component"
+            } ],
+            "id" : "032884d3-22e9-4463-8956-53987fb20434",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "9e1bd4cb-2091-4777-b31c-5d825d199bb5",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "isVisible" : false
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"ca409f33-063d-4f0b-9a8b-05d4eb6d715c\",\"columns\":[{\"UUID\":\"b2bc6da3-1c85-42b7-a967-5e8c8aea0377\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : { },
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"\",\"altText\":\"\",\"contentKey\":\"MCXE5PIQCKPVFS7MYQLUWUHS2GVU\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "b3c25143-4604-45de-a0ac-5a3e38d1aa31",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "He started buying ginseng from local farmers, trimming the roots at home, selling and sharing it with family and friends, who were also impressed by the results. In 1974, Paul took a bold step, by placing a small ad in a Chinese newspaper and began a small operation in the basement of his home in Fond du Lac, Wisconsin.",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "b2a26bdc-f105-4119-8509-b19a1b4f4738",
+              "type" : "component"
+            } ],
+            "id" : "b2bc6da3-1c85-42b7-a967-5e8c8aea0377",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "ca409f33-063d-4f0b-9a8b-05d4eb6d715c",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "isVisible" : false
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"7c81d42b-251b-4762-9161-26b38942a056\",\"columns\":[{\"UUID\":\"b8a31f0b-0e02-4acd-80f2-6f04e77ff872\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : { },
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"\",\"altText\":\"\",\"contentKey\":\"MCPW3AW2RHEFFVXOPEOTUOPYGUH4\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "0fada852-6bb7-4b97-abec-060fc4309e79",
+              "type" : "component"
+            } ],
+            "id" : "b8a31f0b-0e02-4acd-80f2-6f04e77ff872",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "7c81d42b-251b-4762-9161-26b38942a056",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "isVisible" : false
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"15e49c98-5503-4451-8286-9a9ddd03a4d7\",\"columns\":[{\"UUID\":\"8326c9ba-3945-47ae-93ef-7bef6da44b79\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : { },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "The mail orders trickled in at first, then grew into a steady stream. By 1976, with his business thriving, Paul made the decision to move to Wausau, closer to the heart of American ginseng country. Just two years later, in 1978, Paul took his passion to the next level and purchased his very first ginseng farm, which we operate on to this day as the home farm for Hsu’s Ginseng in Wausau, Wisconsin",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "e27ccb8f-e036-4bed-bf16-79be22643768",
+              "type" : "component"
+            } ],
+            "id" : "8326c9ba-3945-47ae-93ef-7bef6da44b79",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "15e49c98-5503-4451-8286-9a9ddd03a4d7",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "isVisible" : true
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"14ac6281-0f17-48fa-bcd8-bceef19c0e92\",\"columns\":[{\"UUID\":\"f3abf14e-e995-4e53-90d7-d67702dfe2e5\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"0a238111-0c02-4654-85f3-e2a30188a930\",\"columnName\":\"Column 2\",\"columnKey\":\"0fee9\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "0px",
+                    "left" : "80px",
+                    "right" : "0px",
+                    "top" : "20px"
+                  }
+                },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "x-large",
+                "paddingVertical" : "medium",
+                "text" : "Providing Traditional Herbal Remedies and Culinary Delicacies Since 1974",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "3c39ce7e-64c2-4988-9ea7-6eb4f052185d",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "backgroundColor" : "",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "80px",
+                    "right" : "",
+                    "top" : "20px"
+                  }
+                },
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "x-large",
+                "paddingVertical" : "medium",
+                "text" : "Since 1974, Hsu’s Ginseng has remained faithful to our promise of providing authentic and responsibly sourced products alongside the purest American ginseng from Wisconsin to enhance your health and vitality. With generations of expertise in farming and sourcing and with an unwavering commitment to quality, we strive to ensure our customers harness the natural strengths of American ginseng and experience all that a balanced, energized life has to offer.",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xsmall\",\"headingTag\":\"h5\"}"
+              },
+              "customCssClasses" : "text-left",
+              "definition" : "dxp_base:textBlock",
+              "id" : "2cbc57f4-b41a-4ae0-ac0f-e1fcb31db6a3",
+              "type" : "component"
+            } ],
+            "id" : "f3abf14e-e995-4e53-90d7-d67702dfe2e5",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "alignment" : "center",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "20px",
+                    "left" : "",
+                    "right" : "",
+                    "top" : "20px"
+                  }
+                },
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCVW3PH2HC4VHT3PTF6LAM4DTXSU?lastModifiedDate=Mon Nov 04 23:18:47 GMT 2024\",\"altText\":\"\",\"contentKey\":\"MCVW3PH2HC4VHT3PTF6LAM4DTXSU\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 60
+              },
+              "definition" : "dxp_base:image",
+              "id" : "3a3e668f-8b10-499c-874a-95ece8d3cbe0",
+              "type" : "component"
+            } ],
+            "id" : "0a238111-0c02-4654-85f3-e2a30188a930",
+            "name" : "0fee9",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "14ac6281-0f17-48fa-bcd8-bceef19c0e92",
+          "type" : "component"
+        }, {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"e78b8d10-c9a8-4d93-9989-49bbf0fad6fe\",\"columns\":[{\"UUID\":\"0d230208-4ebb-41a5-a08f-e6567a317e63\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "20px",
+                    "left" : "",
+                    "right" : "",
+                    "top" : ""
+                  }
+                },
+                "layoutDirectionDesktop" : "row",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"58b8b867-86ac-4dd2-8267-31da85bc4a3a\",\"columns\":[{\"UUID\":\"713c5d7f-afeb-44bc-9aa6-d7eb7430c986\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"6caded71-c4b2-4327-a978-820c267fce42\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "20px",
+                        "left" : "",
+                        "right" : "",
+                        "top" : "20px"
+                      }
+                    },
+                    "fit" : "contain",
+                    "height" : 350,
+                    "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCHO3AH3YZCVGZ7MYTXK2O72KX4E?lastModifiedDate=Mon Nov 04 23:18:47 GMT 2024\",\"altText\":\"\",\"contentKey\":\"MCHO3AH3YZCVGZ7MYTXK2O72KX4E\",\"contentType\":null}}",
+                    "overlayColor" : "",
+                    "position" : "center center",
+                    "width" : 70
+                  },
+                  "definition" : "dxp_base:image",
+                  "id" : "238e2bb3-3a1f-4ea4-9983-604a40206d31",
+                  "type" : "component"
+                } ],
+                "id" : "713c5d7f-afeb-44bc-9aa6-d7eb7430c986",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "0px",
+                        "left" : "0px",
+                        "right" : "80px",
+                        "top" : "20px"
+                      }
+                    },
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "x-large",
+                    "paddingVertical" : "x-large",
+                    "text" : "Family-owned and independently operated, the company is committed to maintaining its farms, production facilities and world headquarters in Wausau, Wisconsin, while expanding its international distribution network of branch offices around the globe as it transitions to the next generation of family leadership as a leader in the ginseng industry.",
+                    "textAlign" : "left",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{\"textStyle\":\"heading-xsmall\",\"headingTag\":\"h5\"}"
+                  },
+                  "customCssClasses" : "text-right",
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "27425abd-25d5-4e56-a442-8f2bcccac468",
+                  "type" : "component"
+                } ],
+                "id" : "6caded71-c4b2-4327-a978-820c267fce42",
+                "name" : "col2",
+                "title" : "Column 2",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "58b8b867-86ac-4dd2-8267-31da85bc4a3a",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "50px",
+                    "left" : "",
+                    "right" : "",
+                    "top" : "40px"
+                  },
+                  "padding" : {
+                    "bottom" : "50px",
+                    "left" : "",
+                    "right" : "",
+                    "top" : "0px"
+                  }
+                },
+                "layoutDirectionDesktop" : "row",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"05c94820-0646-4d5d-8e89-4c3de76cca95\",\"columns\":[{\"UUID\":\"5570b395-0493-425f-b39f-8a3189da59b9\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"591bdc4c-08f8-4792-99e4-d6112ef34c0e\",\"columnName\":\"Column 2\",\"columnKey\":\"489a1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"99fe2390-1d0e-43d6-ab7a-b8d9b2567aba\",\"columnName\":\"Column 3\",\"columnKey\":\"37bf9\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "columnGutterWidth" : "",
+                    "columnMinHeight" : "",
+                    "columnVerticalAlign" : "flex-start",
+                    "dxpStyle" : { },
+                    "layoutDirectionDesktop" : "row",
+                    "layoutDirectionMobile" : "column",
+                    "layoutDirectionTablet" : "column",
+                    "sectionConfig" : "{\"UUID\":\"e6c4e35b-7d06-4cf7-a4d1-b5d661606e2c\",\"columns\":[{\"UUID\":\"ae1c865f-b493-4b55-abe4-04cf4041f3d0\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "backgroundColor" : "",
+                        "dxpStyle" : {
+                          "margin" : {
+                            "bottom" : "",
+                            "left" : "80px",
+                            "right" : "",
+                            "top" : "20px"
+                          }
+                        },
+                        "isLinkable" : false,
+                        "linkAssistiveText" : "",
+                        "paddingHorizontal" : "x-large",
+                        "paddingVertical" : "medium",
+                        "text" : "The Founder's Story",
+                        "textAlign" : "left",
+                        "textDecoration" : "{}",
+                        "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\"}"
+                      },
+                      "definition" : "dxp_base:textBlock",
+                      "id" : "2776eb72-0ced-4bba-8376-899d3d332972",
+                      "type" : "component"
+                    } ],
+                    "id" : "ae1c865f-b493-4b55-abe4-04cf4041f3d0",
+                    "name" : "col1",
+                    "title" : "Column 1",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_layout:columns",
+                  "id" : "e6c4e35b-7d06-4cf7-a4d1-b5d661606e2c",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "20px",
+                        "left" : "80px",
+                        "right" : "",
+                        "top" : "20px"
+                      }
+                    },
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "x-large",
+                    "paddingVertical" : "none",
+                    "text" : "In 1968, Paul Hsu arrived in the United States with a bachelor's degree in English Language and Literature from the Taiwan National University. He came to the US to pursue further education, earning a master's degree in social work from the University of Denver in 1971. After graduation, he took on a role as a social worker at Wisconsin’s Department of Health and Social Services in Fond du Lac. Paul is the 10th of 14 children and was born in Penghu, Taiwan. He is the first person in his family to attend college and immigrate to the United States.",
+                    "textAlign" : "left",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{\"textStyle\":\"heading-xsmall\",\"headingTag\":\"h5\"}"
+                  },
+                  "customCssClasses" : "three-text-left",
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "d60bd474-ada9-4828-9735-2d20dfb524af",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "20px",
+                        "left" : "80px",
+                        "right" : "",
+                        "top" : ""
+                      }
+                    },
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "x-large",
+                    "paddingVertical" : "none",
+                    "text" : "One day, while working as a social worker, a colleague handed Paul an article from Mother Earth Magazine that focused on the medicinal uses of ginseng. He learned that Marathon County, not far from where he lived at the time, was home to several ginseng growers. Curious and determined, Paul drove to a local farm, knocked on the door and asked the farmer to share their knowledge about the crop.",
+                    "textAlign" : "left",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{\"textStyle\":\"heading-xsmall\",\"headingTag\":\"h5\"}"
+                  },
+                  "customCssClasses" : "three-text-left",
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "158e0473-a03b-4845-a24a-0ffdb50b30c8",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "20px",
+                        "left" : "80px",
+                        "right" : "",
+                        "top" : ""
+                      }
+                    },
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "x-large",
+                    "paddingVertical" : "none",
+                    "text" : "Paul bought some ginseng from that farmer and sent it to his mother in Kaohsiung, Taiwan, who had been struggling with health concerns. About ten months later, he received a letter from his father with a simple, profound message: “The ginseng worked. Send more.” This experience made Paul a firm believer in the power of ginseng and its potential to improve lives.",
+                    "textAlign" : "left",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{\"textStyle\":\"heading-xsmall\",\"headingTag\":\"h5\"}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "05229537-da60-42d0-9f68-c28ae8b4f07c",
+                  "type" : "component"
+                } ],
+                "id" : "5570b395-0493-425f-b39f-8a3189da59b9",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "20px",
+                        "left" : "0px",
+                        "right" : "",
+                        "top" : "125px"
+                      }
+                    },
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "x-large",
+                    "paddingVertical" : "none",
+                    "text" : "He started buying ginseng from local farmers, trimming the roots at home, selling and sharing it with family and friends, who were also impressed by the results. In 1974, Paul took a bold step, by placing a small ad in a Chinese newspaper and began a small operation in the basement of his home in Fond du Lac, Wisconsin.",
+                    "textAlign" : "left",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{\"textStyle\":\"heading-xsmall\",\"headingTag\":\"h5\"}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "ac256f68-02ce-471f-a667-ae139c84ed0d",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "dxpStyle" : { },
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "x-large",
+                    "paddingVertical" : "none",
+                    "text" : "The mail orders trickled in at first, then grew into a steady stream. By 1976, with his business thriving, Paul made the decision to move to Wausau, closer to the heart of American ginseng country. Just two years later, in 1978, Paul took his passion to the next level and purchased his very first ginseng farm, which we operate on to this day as the home farm for Hsu’s Ginseng in Wausau, Wisconsin.",
+                    "textAlign" : "left",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{\"textStyle\":\"heading-xsmall\",\"headingTag\":\"h5\"}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "1a49b8f2-2c39-4bd2-99e4-9eec6cb567ff",
+                  "type" : "component"
+                } ],
+                "id" : "591bdc4c-08f8-4792-99e4-d6112ef34c0e",
+                "name" : "489a1",
+                "title" : "Column 2",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "0px",
+                        "left" : "0px",
+                        "right" : "40px",
+                        "top" : "120px"
+                      }
+                    },
+                    "fit" : "contain",
+                    "height" : 350,
+                    "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCCIH3VJHLORE63BEK4OE7IWYCSA?lastModifiedDate=Mon Nov 04 23:18:47 GMT 2024\",\"altText\":\"\",\"contentKey\":\"MCCIH3VJHLORE63BEK4OE7IWYCSA\",\"contentType\":null}}",
+                    "overlayColor" : "",
+                    "position" : "center center",
+                    "width" : 70
+                  },
+                  "definition" : "dxp_base:image",
+                  "id" : "7b2d9747-7fbc-4364-ab66-56fb80bb72fa",
+                  "type" : "component"
+                } ],
+                "id" : "99fe2390-1d0e-43d6-ab7a-b8d9b2567aba",
+                "name" : "37bf9",
+                "title" : "Column 3",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "05c94820-0646-4d5d-8e89-4c3de76cca95",
+              "scopedBrandingSetId" : "Highlight_Section",
+              "type" : "component"
+            } ],
+            "id" : "0d230208-4ebb-41a5-a08f-e6567a317e63",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "e78b8d10-c9a8-4d93-9989-49bbf0fad6fe",
+          "type" : "component"
+        } ],
+        "id" : "46ac7188-be9f-43cb-abf2-3a6f410b0219",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "Hsu's",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "24c21ef9-76f7-46ef-bc94-a657c865656e",
+          "type" : "component"
+        } ],
+        "id" : "5b05b182-4193-4b74-93c7-bdc39fc3ce10",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "5f87dd06-16a5-44f8-9004-6e4085e31aa5",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-about-us"
+  },
+  "urlName" : "hsus"
+}

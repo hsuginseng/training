@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This email is sent to all customers who newly create an account on the D2C storefront</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Welcome Email</name>
+    <pageDevName>Welcome_Email</pageDevName>
+    <relatedEntityType>LoyaltyProgramMember</relatedEntityType>
+    <style>none</style>
+    <subject>Welcome to Hsu’s Ginseng Enterprises, Inc.</subject>
+    <textOnly>[Image alt text: Hsu&apos;s Ginseng] 
+
+HOT DEALS &lt; https://www.hsuginseng.com/category/shop/promotional/hot-deals/0ZGV500000009phOAA &gt; 
+
+GINSENG &lt; https://www.hsuginseng.com/category/shop/ginseng/0ZGV5000000094wOAA &gt; 
+
+THE COMPANY &lt; https://www.hsuginseng.com/OurStory &gt; 
+
+RESOURCES &lt; https://www.hsuginseng.com/learn-ginseng &gt; 
+
+VIP
+
+Your VIP Points: {{{LoyaltyProgramMember.Points_Balance__c}}}| Redeem Now for ${{{LoyaltyProgramMember.Points_Balance_USD__c}}}OFF
+
+REDEEM MY POINTS &lt; https://www.hsuginseng.com/login &gt; 
+
+[Image alt text: Welcome Gift]
+
+To get you started, we’ve added 1,000 points (a $10.00 value)to your account to use towards your next purchase. 
+
+As a member, you’ll enjoy exclusive benefits, including:
+
+Earn As You Shop
+
+Earn 10 points = $1.00spent on American ginseng categories
+
+Redeem Points
+
+Every 100 points = $1.00in rewards
+
+Celebrate Your Birthday With Us
+
+1,000 points ($10.00)on your special day
+
+Share the Experience
+
+Refer friends and earn 1,000 points ($10.00)each 
+
+Exclusive Access
+
+Enjoy Member-Only Offers
+
+Hsu&apos;s Loyalty Terms &amp; Conditions &lt; https://www.hsuginseng.com/loyalty-info?redirect=false &gt; 
+
+SHOP NOW &lt; https://www.hsuginseng.com/ &gt; 
+
+[Image alt text: Root to Health]
+
+[Image alt text: WeChat] &lt; https://www.hsuginseng.com/contact-us &gt; 
+
+[Image alt text: Facebook] &lt; https://www.facebook.com/hsuginsengroots/ &gt; 
+
+[Image alt text: Instagram] &lt; https://www.instagram.com/hsusginseng/ &gt; 
+
+[Image alt text: YouTube] &lt; https://www.youtube.com/@hsusginseng &gt; 
+
+Terms of Use &amp; Privacy Policy &lt; https://www.hsuginseng.com/terms-and-privacy &gt; | Copyright 2025 Hsu&apos;s Ginseng Enterprises Inc.
+
+All rights reserved.
+
+Hsu&apos;s Guest Services: support@hsuginseng.com | +1.800.826.1577
+
+237805 County Rd W, Wausau WI, 54403</textOnly>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

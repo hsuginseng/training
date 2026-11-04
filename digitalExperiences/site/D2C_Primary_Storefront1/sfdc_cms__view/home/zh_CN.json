@@ -1,0 +1,66 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Home",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "id" : "cdd640e9-2a8a-4d31-b771-23f5b2530f69",
+        "attributes" : {
+          "content" : "[\n  {\n    \"id\": \"1\",\n    \"imageUrl\": \"/sfsites/c/cms/delivery/media/MCYKUQCPZJ65DYNFPMG5Z4ZUXTEY\",\n    \"imageAlt\": \"image alt\",\n    \"title\": \"美国花旗参 vs 亚洲人参\",\n    \"desc\": \"探索美国花旗参与亚洲人参之间的关键差异，了解各自独特的养生功效。\",\n    \"ctaText\": \"了解更多\",\n    \"ctaUrl\": \"/about-ginseng\"\n  },\n  {\n    \"id\": \"2\",\n    \"imageUrl\": \"/sfsites/c/cms/delivery/media/MCRUTAUUKMZ5F7XM46DX5FEDX4GE\",\n    \"title\": \"威斯康辛州得天独厚的气候\",\n    \"desc\": \"深入了解威斯康辛州的自然气候，如何孕育出世界顶级的花旗参。\",\n    \"imageAlt\": \"image alt\",\n    \"ctaText\": \"了解更多\",\n    \"ctaUrl\": \"/about-ginseng\"\n  },\n  {\n    \"id\": \"3\",\n    \"imageUrl\": \"/sfsites/c/cms/delivery/media/MCOK224FCCENGOTKDSOLX6DXPFHU\",\n    \"title\": \"干参、新鲜参大不同 \",\n    \"desc\": \"细细品味干参与鲜参各自的特色，以及它们在料理中的多元运用。\",\n    \"imageAlt\": \"image alt\",\n    \"ctaText\": \"了解更多\",\n    \"ctaUrl\": \"/about-ginseng\"\n  },\n  {\n    \"id\": \"4\",\n    \"imageUrl\": \"/sfsites/c/cms/delivery/media/MCEOBDYMB7PFELPKKD4KBADVAR6E\",\n    \"imageAlt\": \"image alt\",\n    \"title\": \"携带花旗参旅行小贴士 \",\n    \"desc\": \"出门在外，学会安全打包与携带花旗参的实用技巧，让健康随行。\",\n    \"ctaText\": \"了解更多\",\n    \"ctaUrl\": \"/about-ginseng\"\n  }\n]",
+          "title" : "花旗参大小事，带你轻松上手！"
+        }
+      }, {
+        "id" : "f5587633-26c6-4b8a-b455-d7c267797ea4",
+        "attributes" : {
+          "content" : "[\n{\n\"id\":\"1\",\n\"title\":\"万圣节深秋好礼 · Treat 不 Trick！\",\n\"desc\":\"满 $138，送高丽白参丸, 活动期：10/14/2026–10/28/2026*送完为止 \",\n\"ctaText\":\"立即购买\",\n\"ctaUrl\":\"/category/shop/ginseng/american-ginseng/0ZGV5000000096dOAA\",\n\"imageUrl\":\"/sfsites/c/cms/delivery/media/MCKNTKUCGTVRAA3FSSJSRK42P2XA?channelId=0apV50000000Cqn\",\n\"imageAlt\":\"image 1 alt text\"\n},\n{\n\"id\":\"2\",\n\"title\":\"许氏全球购\",\n\"desc\":\"爆款花旗参特价+全馆满$150享25% OFF, 需使用折扣码HSUD11. 滿$200加送花旗参速溶粉10条裝一盒,活动至11/11/2026\",\n\"ctaText\":\"立即购买\",\n\"ctaUrl\":\"https://hsuschinaoversea.com/\",\n\"imageUrl\":\"/sfsites/c/cms/delivery/media/MCYDH4OZ4JIJFKNCNME7RTG4NIZE?channelId=0apV50000000Cqn\",\n\"imageAlt\":\"image 2 alt text\"\n},\n{\n\"id\":\"3\",\n\"title\":\"新鮮花旗參\",\n\"desc\":\"\",\n\"ctaText\":\"立即购买\",\n\"ctaUrl\":\"/category/shop/Ginseng/Fresh/0ZGV5000000096bOAA\",\n\"imageUrl\":\"/sfsites/c/cms/delivery/media/MCD5KTNATQ35CKNGZEBOJY23KVME?channelId=0apV50000000Cqn\",\n\"imageAlt\":\"image 3 alt text\"\n}\n]"
+        }
+      }, {
+        "id" : "27a3c44c-b6de-49ae-b107-fa5a300f6d1b",
+        "attributes" : {
+          "ctaText" : "探索我们的故事"
+        }
+      }, {
+        "id" : "c1716490-fe7c-4964-afc9-f7a0c35a0aad",
+        "attributes" : {
+          "ctaText" : "关于我们",
+          "title" : "从农场到餐桌",
+          "desc" : "坐落于马拉松县中心，我们坚持自家管理每一道流程，从精心栽培到用心配送，只为呈现最优质的花旗参。"
+        }
+      }, {
+        "id" : "2fd18318-9313-41ae-b052-c71acb268eaf",
+        "attributes" : {
+          "title" : "探索健康之路",
+          "content" : "[\n{\n\"id\":\"1\",\n\"imageUrl\":\"/sfsites/c/cms/delivery/media/MCMGFUKQJLJBAZXH26NUC5JJ4DZE\",\n\"imageAlt\":\"image alt\",\n\"ctaText\":\"选购花旗参\",\n\"ctaUrl\":\"/category/shop/ginseng/american-ginseng/0ZGV5000000096dOAA\"\n},\n{\n\"id\":\"2\",\n\"imageUrl\":\"/sfsites/c/cms/delivery/media/MCX22XL5SDLRG6LJTESFSG4IOMBI\",\n\"imageAlt\":\"image alt\",\n\"ctaText\":\"选购燕窝\",\n\"ctaUrl\":\"/category/shop/birds-nest/0ZGV5000000094vOAA\"\n},\n{\n\"id\":\"3\",\n\"imageUrl\":\"/sfsites/c/cms/delivery/media/MCDKZRNHBML5DVLL4JG7YEU726SI\",\n\"imageAlt\":\"image alt\",\n\"ctaText\":\"选购灵芝产品\",\n\"ctaUrl\":\"/category/shop/supplements/reishi/0ZGV50000000975OAA\"\n},\n{\n\"id\":\"4\",\n\"imageUrl\":\"/sfsites/c/cms/delivery/media/MC4ZZ6ERA5JNGINNM7BNSXGHHVME\",\n\"imageAlt\":\"image alt\",\n\"ctaText\":\"选购海味\",\n\"ctaUrl\":\"/category/shop/seafood/0ZGV50000000950OAA\"\n}\n]"
+        }
+      }, {
+        "id" : "831c72fc-f02c-425f-9c16-79c40fab4ca1",
+        "attributes" : {
+          "ctaText" : "预约导览",
+          "title" : "导览许氏人参"
+        }
+      }, {
+        "id" : "37b518d3-78ff-42e8-863d-ac43f85eed24",
+        "attributes" : {
+          "title" : "精选分类浏览",
+          "content" : "[\n  {\n    \"id\": \"1\",\n    \"imageUrl\": \"/sfsites/c/cms/delivery/media/MCMGFUKQJLJBAZXH26NUC5JJ4DZE\",\n    \"imageAlt\": \"image alt\",\n    \"ctaText\": \"选购花旗参\",\n    \"ctaUrl\": \"/category/shop/ginseng/american-ginseng/0ZGV5000000096dOAA\"\n  },\n  {\n    \"id\": \"2\",\n    \"imageUrl\": \"/sfsites/c/cms/delivery/media/MCX22XL5SDLRG6LJTESFSG4IOMBI\",\n    \"imageAlt\": \"image alt\",\n    \"ctaText\": \"选购燕窝\",\n    \"ctaUrl\": \"/category/shop/birds-nest/0ZGV5000000094vOAA\"\n  },\n  {\n    \"id\": \"3\",\n    \"imageUrl\": \"/sfsites/c/cms/delivery/media/MCDKZRNHBML5DVLL4JG7YEU726SI\",\n    \"imageAlt\": \"image alt\",\n    \"ctaText\": \"选购灵芝产品\",\n    \"ctaUrl\": \"/category/shop/supplements/reishi/0ZGV50000000975OAA\"\n  }\n]"
+        }
+      }, {
+        "id" : "a6079263-e3ae-486a-aa43-7fe5e832cfbf",
+        "attributes" : {
+          "content" : "[\n  {\n    \"id\": \"1\",\n    \"toggle\": \"什么是美国花旗参？\",\n    \"text\": \"美国花旗参（Panax quinquefolius L.）根据种植方式与环境的不同，外观与品质各具特色。主要可分为三大类型：人工花旗参（人工栽培）、移种野参（又称半野山参或移植参）与正野生参，各自展现出不同的风貌与价值。\",\n    \"ctaText\": \"了解更多\",\n    \"ctaUrl\": \"/about-ginseng\"\n  },\n  {\n    \"id\": \"2\",\n    \"toggle\": \"人工花旗参（人工栽培）\",\n    \"text\": \"通常种植于经过遮荫设计的田地。农民以大规模方式栽培，确保品质稳定一致。人工栽培的花旗参通常体型较大，表面较为光滑，颜色也较浅。\",\n    \"ctaText\": \"了解更多\",\n    \"ctaUrl\": \"/about-ginseng\"\n  },\n  {\n    \"id\": \"3\",\n    \"toggle\": \"移种野参（又称半野山参或移植参）\",\n    \"text\": \"于天然森林土壤中种植，人为干预极少。它的生长速度较慢，根部质地较粗糙、颜色偏深，外观更接近野生花旗参，呈现出更自然的质朴感。\",\n    \"ctaText\": \"了解更多\",\n    \"ctaUrl\": \"/about-ginseng\"\n  },\n  {\n    \"id\": \"4\",\n    \"toggle\": \"正野生参\",\n    \"text\": \"生长于原始未受扰动的森林之中，是最为珍稀且受推崇的类型。这些参根在自然遮荫、崎岖土壤中缓慢成长，体型通常较小，形态扭曲、色泽深沉，每一株都独一无二。\",\n    \"ctaText\": \"了解更多\",\n    \"ctaUrl\": \"/about-ginseng\"\n  },\n  {\n    \"id\": \"5\",\n    \"toggle\": \"主要差异 \",\n    \"text\": \"三者的最大差异在于生长环境与根部特征。人工花旗参产量充足且外观一致；林下栽培参则兼具自然与人工管理的特点；而野生花旗参，以其珍稀、原生、独特的风貌，成为最受珍藏的品项。\",\n    \"ctaText\": \"了解更多\",\n    \"ctaUrl\": \"/about-ginseng\"\n  }\n]",
+          "title" : "发现更多"
+        }
+      }, {
+        "id" : "0d097d14-4ad5-4be3-afb9-2525a247e660",
+        "attributes" : {
+          "title" : "推荐产品",
+          "ctaTextAddToCart" : "添加到购物车",
+          "ctaTextSeeDetails" : "查看详情",
+          "ctaTextOutOfStock" : "暂时缺货",
+          "ctaTextNoMoreAvailable" : "已无库存"
+        }
+      } ]
+    }
+  },
+  "urlName" : "home"
+}

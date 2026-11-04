@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Order Confirmation Email (Placeholder)</name>
+    <relatedEntityType>OrderSummary</relatedEntityType>
+    <style>none</style>
+    <subject>Order Confirmation Test</subject>
+    <textOnly>Dear {Recipient Name},
+
+We have received your order, and it is currently being processed. 
+
+Order Number: 
+
+Thank you for your purchase, we hope you enjoyed your experience shopping with us online and look forward to assisting you again soon. 
+
+__________________________________________________________________________ 
+
+_________________ 
+
+Order Summary 
+
+__________________________________________________________________________ 
+
+_________________ 
+
+Shipping Address:
+
+{{{OrderSummary.Account_Name_Formula__c}}}
+
+{{{OrderSummary.BillingAddress}}}
+
+Payment Method:
+
+Mastercard Ending in 
+
+Billing Address:
+
+{{{OrderSummary.Account_Name_Formula__c}}}
+
+{{{OrderSummary.BillingAddress}}}
+
+Shipping:
+
+This package will contain the following items:
+
+_________________________________________________________________________
+
+_________________ 
+
+Your Items 
+
+__________________________________________________________________________ 
+
+_________________ 
+
+__________________________________________________________________________ 
+
+_________________ 
+
+Shipping Method
+
+__________________________________________________________________________ 
+
+_________________ 
+
+Discount
+
+__________________________________________________________________________ 
+
+_________________ 
+
+Sales Tax
+
+__________________________________________________________________________ 
+
+_________________ 
+
+Grand Total
+
+__________________________________________________________________________ 
+
+_________________ 
+
+Processing and delivery times may be delayed. Please allow 24 to 48 hours for tracking 
+
+information to become available. If you need assistance in tracking your package or to 
+
+review our shipping policy, use the link below. 
+
+Shipping policy and Track Your Package placeholder component 
+
+_________________________________________________________________________ 
+
+_________________ 
+
+Additional Assistance
+
+________________________________________________________________________ 
+
+_________________ 
+
+Please do not reply to this email, if further assistance is needed, please contact us by: 
+
+Table Placeholder
+
+My Account
+
+Return Policy
+
+Privacy Policy
+
+Social Media Links Placeholder</textOnly>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

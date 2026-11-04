@@ -1,0 +1,86 @@
+{
+  "type" : "sfdc_cms__themeLayout",
+  "title" : "Commerce Layout",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "attributes" : {
+          "dxpStyle" : {
+            "padding" : {
+              "bottom" : "3%",
+              "left" : "8%",
+              "right" : "8%",
+              "top" : "8%"
+            }
+          }
+        },
+        "id" : "4b287f31-f44b-4d50-9390-11706cac5dd8"
+      }, {
+        "attributes" : {
+          "alignment" : "left"
+        },
+        "id" : "4fb4c96f-3c8c-4eab-b4e7-f08b3dd65ec0"
+      }, {
+        "attributes" : {
+          "dxpStyle" : {
+            "padding" : {
+              "bottom" : "8px",
+              "left" : "0px",
+              "right" : "0px",
+              "top" : "8px"
+            },
+            "isVisible" : false
+          },
+          "pickerButtonAlignment" : "left"
+        },
+        "id" : "3f409edf-95dc-48b7-b757-e88f7c33eddc"
+      }, {
+        "id" : "d12638da-19c5-49db-8ebc-ee224e105273",
+        "attributes" : {
+          "logoWidth" : "250"
+        }
+      }, {
+        "id" : "3d84dda9-0559-42fd-abb6-a92ecb177608",
+        "attributes" : {
+          "dxpStyle" : {
+            "isVisible" : true
+          }
+        }
+      }, {
+        "id" : "2aa636bf-5a9f-4d27-b506-6a2b544101f3",
+        "attributes" : {
+          "pickerButtonAlignment" : "left",
+          "dxpStyle" : {
+            "padding" : {
+              "bottom" : "8px",
+              "left" : "0px",
+              "right" : "0px",
+              "top" : "8px"
+            }
+          }
+        }
+      }, {
+        "id" : "4651fd6e-51aa-46bd-9eb3-64e18f2a87fe",
+        "attributes" : {
+          "pickerButtonAlignment" : "left",
+          "dxpStyle" : {
+            "padding" : {
+              "bottom" : "8px",
+              "left" : "0px",
+              "right" : "0px",
+              "top" : "8px"
+            }
+          }
+        }
+      }, {
+        "id" : "52740f41-300c-447d-9d26-be90f0c77b85",
+        "attributes" : {
+          "dxpStyle" : {
+            "isVisible" : false
+          }
+        }
+      } ]
+    }
+  },
+  "urlName" : "commerce-layout"
+}

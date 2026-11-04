@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Статус массовой отправки Docusign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Статус массовой отправки Docusign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Статус массовой отправки Docusign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Статус массовой отправки Docusign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Статус массовой отправки Docusign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Статус массовой отправки Docusign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Статус массовой отправки Docusign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Статус массовой отправки Docusign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Статус массовой отправки Docusign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Статус массовой отправки Docusign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>false</plural>
+        <value>Статус массовой отправки Docusign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>true</plural>
+        <value>Статус массовой отправки Docusign</value>
+    </caseValues>
+    <fields>
+        <label>Размер пакета</label>
+        <name>dfsle__BatchSize__c</name>
+    </fields>
+    <fields>
+        <label>Идентификатор пакета DocuSign</label>
+        <name>dfsle__DocuSignId__c</name>
+    </fields>
+    <fields>
+        <label>Конверты с ошибками</label>
+        <name>dfsle__FailedEnvelopes__c</name>
+    </fields>
+    <fields>
+        <label>Последнее обновление статуса</label>
+        <name>dfsle__LastStatusUpdate__c</name>
+    </fields>
+    <fields>
+        <label>Конверты в очереди</label>
+        <name>dfsle__QueuedEnvelopes__c</name>
+    </fields>
+    <fields>
+        <label>Отправленные конверты</label>
+        <name>dfsle__SentEnvelopes__c</name>
+    </fields>
+    <fields>
+        <label>Идентификатор источника Salesforce</label>
+        <name>dfsle__SourceId__c</name>
+    </fields>
+    <fields>
+        <label>Отправлено</label>
+        <name>dfsle__Submitted__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Envelope#</nameFieldLabel>
+</CustomObjectTranslation>

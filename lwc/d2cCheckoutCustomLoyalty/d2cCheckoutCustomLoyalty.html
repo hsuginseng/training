@@ -1,0 +1,37 @@
+<template>
+    <lightning-card>
+        <div lwc:if={displayFlow}>
+            <lightning-flow
+                flow-api-name={flowApiName}
+                flow-input-variables={flowInputVariables}
+                onstatuschange={handleFlowStatusChange}
+            ></lightning-flow>
+        </div>
+        <div lwc:else>
+            <div lwc:if={displayRegisterMessage}>
+                <h3 class="slds-text-align_center">{signUpMessage}</h3>
+                <c-cta-link-red class="slds-align_absolute-center slds-var-p-vertical_medium"
+                                cta-text={signUpButtonText}
+                                cta-url={signUpURL}>
+                </c-cta-link-red>
+            </div>
+            <div lwc:else>
+                <div lwc:if={shouldShowDeleteButton}>
+                    <p class="slds-text-align_center slds-var-p-bottom_medium">{loyaltyAppliedMessage}</p>
+                    <lightning-button variant="brand" 
+                                        label={deletePromotionLabel} 
+                                        title={deletePromotionTitle}
+                                        onclick={handleDeletePromotionClick}
+                                        disabled={shouldDisableDeletePointButton}
+                                        class="slds-align_absolute-center slds-var-p-horizontal_medium slds-var-p-bottom_medium">
+                    </lightning-button>
+                </div>
+            </div>
+        </div>
+    </lightning-card>
+    <template lwc:if={shouldShowSpinner}> 
+        <div class="slds-backdrop slds-backdrop_open">
+            <lightning-spinner class="slds-spinner_container"></lightning-spinner>
+        </div>
+    </template>
+</template>

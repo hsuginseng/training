@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Tours-Liability Waiver",
+  "contentBody" : {
+    "activeViewId" : "Tours_Liability_Waiver",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-tours-liability-waiver",
+    "urlPrefix" : "tours-liability-waiver"
+  },
+  "urlName" : "tours-liability-waiver"
+}

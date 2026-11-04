@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Pimly SmartSync Log</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Pimly SmartSync Logs</value>
+    </caseValues>
+    <fields>
+        <label><!-- Detailed Log Link --></label>
+        <name>pimly__Detailed_Log_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Error Message --></label>
+        <name>pimly__Error_Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job End Time --></label>
+        <name>pimly__Job_End_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Start Time --></label>
+        <name>pimly__Job_Start_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Status --></label>
+        <name>pimly__Job_Status__c</name>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Failed</masterLabel>
+            <translation><!-- Failed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Job Triggered By --></label>
+        <name>pimly__Job_Triggered_By__c</name>
+        <picklistValues>
+            <masterLabel>API</masterLabel>
+            <translation><!-- API --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Schedule</masterLabel>
+            <translation><!-- Schedule --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User</masterLabel>
+            <translation><!-- User --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Last Successful Run --></label>
+        <name>pimly__Last_Successful_Run__c</name>
+        <relationshipLabel><!-- Subsequent Runs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Log Summary Message --></label>
+        <name>pimly__Log_Summary_Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pimly SmartSync Configuration --></label>
+        <name>pimly__Pimly_Sync_Configuration__c</name>
+        <relationshipLabel><!-- SmartSync Logs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Progress Details --></label>
+        <name>pimly__Progress_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Resolution Suggestion --></label>
+        <name>pimly__Resolution_Suggestion__c</name>
+    </fields>
+    <layouts>
+        <layout>Pimly SmartSync Log Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

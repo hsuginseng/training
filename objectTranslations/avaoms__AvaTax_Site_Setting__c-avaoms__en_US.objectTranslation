@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>AvaTax Site Setting</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>AvaTax Site Settings</value>
+    </caseValues>
+    <fields>
+        <label><!-- Address Validation --></label>
+        <name>avaoms__Address_Validation__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the city for the origin address. --></help>
+        <label><!-- City --></label>
+        <name>avaoms__City__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select which AvaTax company code should be used for this channel --></help>
+        <label><!-- Company Code --></label>
+        <name>avaoms__Company_Code__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter config id --></help>
+        <label><!-- ConfigId --></label>
+        <name>avaoms__ConfigId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select country for the origin address. Select 2 or 3 character ISO country code. --></help>
+        <label><!-- Country --></label>
+        <name>avaoms__Country__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select what is sent as the customer code for authenticated customers. For guest customers, Email ID entered during checkout is used. --></help>
+        <label><!-- Customer Code --></label>
+        <name>avaoms__Customer_Code__c</name>
+        <picklistValues>
+            <masterLabel>Customer Email</masterLabel>
+            <translation><!-- Customer Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer ID</masterLabel>
+            <translation><!-- Customer ID --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- If the delivery group (shipping method) line item doesn&apos;t have a tax class, this value takes effect for tax calculation. --></help>
+        <label><!-- Default Shipping Method Tax Code --></label>
+        <name>avaoms__Default_Shipping_Method_Tax_Code__c</name>
+    </fields>
+    <fields>
+        <help><!-- If selected, application logs will be stored in the Salesforce AvaTax Log Custom Object. --></help>
+        <label><!-- Enable AvaTax Logging --></label>
+        <name>avaoms__Enable_AvaTax_Logging__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter up to 3 Street Address lines for the Origin Address to be used in the Avalara AvaTax Tax Calculation. --></help>
+        <label><!-- Line 1 --></label>
+        <name>avaoms__Line_1__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter line 2 Street Address for the Origin Address. --></help>
+        <label><!-- Line 2 --></label>
+        <name>avaoms__Line_2__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter line 3 Street Address for the Origin Address. --></help>
+        <label><!-- Line 3 --></label>
+        <name>avaoms__Line_3__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the postal or zip code for the origin address. For US Zip Codes can be Zip5 or Zip9 (Zip + 4). --></help>
+        <label><!-- Postal Code --></label>
+        <name>avaoms__Postal_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Channel Id --></label>
+        <name>avaoms__SalesChannelId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Channel --></label>
+        <name>avaoms__Sales_Channel__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the state or province for the origin address. --></help>
+        <label><!-- State --></label>
+        <name>avaoms__State__c</name>
+    </fields>
+    <fields>
+        <help><!-- If enabled, AvaTax features including tax calculation, cancellation, returns will work. --></help>
+        <label><!-- Tax Calculation --></label>
+        <name>avaoms__Tax_Calculation__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enable this setting if the product prices are including taxes (Gross). --></help>
+        <label><!-- Tax Inclusive --></label>
+        <name>avaoms__Tax_Inclusive__c</name>
+    </fields>
+    <layouts>
+        <layout>Avatax Site Setting Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

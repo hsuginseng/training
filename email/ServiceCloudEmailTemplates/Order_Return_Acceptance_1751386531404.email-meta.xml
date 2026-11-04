@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email template for auto-response on Order Return Acceptance</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Order Return Acceptance</name>
+    <pageDevName>Order_Return_Acceptance</pageDevName>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>Your Return Request Has Been Accepted - Next Steps</subject>
+    <textOnly>Case #: {{{Case.CaseNumber}}}
+
+Subject: {{{Case.Subject}}}
+
+Issue Description: {{{Case.Issue_Description__c}}}
+
+-----------------------------------------------------
+
+Dear {{{Case.First_Name__c}}},
+
+Thank you for contacting us!
+
+We are writing to confirm that your return request your item(s) on order {{{Case.Order_Number__c}}} has been accepted. To proceed, please follow the instructions below:
+
+Return Instructions:
+
+ - Return ID: 
+
+Your return ID is {{{Case.CaseNumber}}}. 
+ - Documentation: 
+
+Include a copy of your invoice or a note with your return ID and contact information inside the package.
+ - Product Condition: 
+
+Returned products must be unopened and carefully packed. A restocking fee may apply if the products are returned damaged.
+ - Refund Processing Time: 
+
+Refunds may take 2–3 weeks after we receive your returned items. If you do not see the refund after 3 weeks, please contact us.
+ - Return Address:
+
+Hsu’s Ginseng Return Dept.
+
+237895 County Road W
+
+Wausau, WI 54403 USA
+
+If you have any questions or need further assistance, feel free to reply to this email or contact us at 1-800-826-1577.
+
+Warm Regards
+
+Customer Support Team
+
+Hsu&apos;s Ginseng Enterprises, Inc.
+
+📌Need help with your order?
+
+If your question is about an existing order, please include your order number for faster service.
+
+**
+----------------------------------------------------
+
+📞Contact Us：
+
+Phone: (715) 675-2325/ (1800) 826-1577
+
+Email: support@hsuginseng.com
+
+Website: www.hsuginseng.com &lt; https://www.hsuginseng.com &gt; 
+
+**
+----------------------------------------------------
+
+🕒Customer Service Hours：
+
+Monday to Friday (Excluding Holidays)
+
+8:30 AM – 5:00 PM (CST)</textOnly>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

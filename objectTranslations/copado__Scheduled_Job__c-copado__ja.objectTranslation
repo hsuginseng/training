@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>予定されているジョブ</value>
+    </caseValues>
+    <fields>
+        <label>ApexジョブID</label>
+        <name>copado__Apex_Job_ID__c</name>
+    </fields>
+    <fields>
+        <label>クレデンシャル</label>
+        <name>copado__Credential__c</name>
+        <relationshipLabel>スケジュールされたジョブ</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Cron表現</label>
+        <name>copado__Cron_Expression__c</name>
+    </fields>
+    <fields>
+        <help><!-- When the Job is executed, it will check all Runs that are older than this number of days and delete the historical records. --></help>
+        <label>実行後（日数後）に削除</label>
+        <name>copado__Delete_Runs_after_days__c</name>
+    </fields>
+    <fields>
+        <label>メッセージ</label>
+        <name>copado__Message__c</name>
+    </fields>
+    <fields>
+        <help><!-- The next scheduled execution time copied from the Salesforce CronTrigger. --></help>
+        <label><!-- Next Run --></label>
+        <name>copado__Next_Run__c</name>
+    </fields>
+    <fields>
+        <help><!-- This User must have a Copado License assigned, created an credential for his Copado user and created API Key. This API Key will be used for the webhooks. --></help>
+        <label>ユーザーとして実行</label>
+        <name>copado__Run_as_User__c</name>
+        <relationshipLabel>スケジュールされた仕事</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ステータス</label>
+        <name>copado__Status__c</name>
+        <picklistValues>
+            <masterLabel>Failure</masterLabel>
+            <translation><!-- Failure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Success</masterLabel>
+            <translation><!-- Success --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>テスト</label>
+        <name>copado__Test__c</name>
+        <relationshipLabel>スケジュールされたジョブ</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ウェブフックURL</label>
+        <name>copado__Webhook_URL__c</name>
+    </fields>
+    <layouts>
+        <layout>Scheduled Job Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>予定されているジョブ名</nameFieldLabel>
+    <recordTypes>
+        <label>テスト実行</label>
+        <name>copado__Test_Execution</name>
+    </recordTypes>
+    <recordTypes>
+        <label>ウェブフック</label>
+        <name>copado__Webhook</name>
+    </recordTypes>
+</CustomObjectTranslation>

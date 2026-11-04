@@ -1,0 +1,65 @@
+@import 'c/cssLibrary';
+
+.image-container {
+	position: relative;
+	aspect-ratio: 1 / 1;
+	background-color: #fff;
+
+	img {
+		display: block;
+		width: 100%;
+		height: 100%;
+		object-fit: contain;
+	}
+}
+
+.thumbnail-carousel {
+	padding: 1rem 0;
+
+	ul {
+		display: flex;
+		gap: 1rem;
+		margin: 0;
+		padding: 0;
+		flex-wrap: wrap;
+	}
+
+	li {
+		flex: 0 0 calc(25% - 1rem);
+		aspect-ratio: 1 / 1;
+		list-style-type: none;
+
+		button {
+			width: 100%;
+			height: 100%;
+			margin: 0;
+			padding: 0;
+			background-color: #fff;
+			border: 1px solid #CBD5E1;
+			border-radius: .5rem;
+			overflow: hidden;
+			appearance: none;
+			transition: border .3s ease;
+
+			&:hover {
+				border: 1px solid #900;
+				cursor: pointer;
+			}
+
+			&[aria-selected="true"] {
+				border: 1px solid #900;
+			}
+		}
+
+		img {
+			display: block;
+			width: 100%;
+			height: 100%;
+			object-fit: contain;
+		}
+	}
+}
+
+.thumbnail-carousel-image {
+	aspect-ratio: 1 / 1;
+}

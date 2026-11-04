@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>66.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <assignments>
+        <name>Add_orderSummaryOutput_to_orderSummariesToUpdate</name>
+        <label>Add orderSummaryOutput to orderSummariesToUpdate</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignmentItems>
+            <assignToReference>orderSummariesToUpdate</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>orderSummaryOutput</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Increment_Counter</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Clear_Counter_and_orderSummariesToUpdate_Variable</name>
+        <label>Clear Counter and orderSummariesToUpdate Variable</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignmentItems>
+            <assignToReference>counter</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <numberValue>0.0</numberValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>orderSummariesToUpdate</assignToReference>
+            <operator>Assign</operator>
+        </assignmentItems>
+        <connector>
+            <targetReference>Wait_for_1_Minute</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <description>Increment the counter variable responsible for monitoring transaction limits.</description>
+        <name>Increment_Counter</name>
+        <label>Increment Counter</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignmentItems>
+            <assignToReference>counter</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Loop_Over_Order_Summaries</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <description>Check the number of executions and add a wait if necessary.</description>
+        <name>Check_Counter</name>
+        <label>Check Counter</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>Determine_Order_Summary_Status</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Continue</defaultConnectorLabel>
+        <rules>
+            <name>Wait</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>counter</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <numberValue>98.0</numberValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_orderSummariesToUpdate</targetReference>
+            </connector>
+            <label>Wait</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <description>Check if the Status field has changed and only update the record if it has.</description>
+        <name>Is_Status_Changed</name>
+        <label>Is Status Changed</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>Increment_Counter</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No Change</defaultConnectorLabel>
+        <rules>
+            <name>HasChanged</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Loop_Over_Order_Summaries.Status</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <elementReference>orderSummaryOutput.Status</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Add_orderSummaryOutput_to_orderSummariesToUpdate</targetReference>
+            </connector>
+            <label>Has Changed</label>
+        </rules>
+    </decisions>
+    <description>This flow runs on a schedule. This will query all order summaries with a status of &quot;In Fulfillment,&quot; &quot;Partially Fulfilled,&quot; or &quot;Fulfilled.&quot; From there, it will use check order item summaries and payment data to update the status field as necessary.</description>
+    <environments>Default</environments>
+    <interviewLabel>Order Summary - Bulk Process Status Updates {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Order Summary - Bulk Process Status Updates</label>
+    <loops>
+        <description>Loop over all order summaries with qualifying statuses. For each, check if the order summary is paid and the status of all order product summaries. Then, update the status of the order summary accordingly.</description>
+        <name>Loop_Over_Order_Summaries</name>
+        <label>Loop Over Order Summaries</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <collectionReference>Get_Order_Summary_Records</collectionReference>
+        <iterationOrder>Asc</iterationOrder>
+        <nextValueConnector>
+            <targetReference>Check_Counter</targetReference>
+        </nextValueConnector>
+        <noMoreValuesConnector>
+            <targetReference>Update_Remaining_orderSummariesToUpdate</targetReference>
+        </noMoreValuesConnector>
+    </loops>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_Order_Summary_Records</name>
+        <label>Get Order Summary Records</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Loop_Over_Order_Summaries</targetReference>
+        </connector>
+        <filterLogic>or</filterLogic>
+        <filters>
+            <field>Status</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>In Fulfillment</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Status</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Partially Fulfilled</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Status</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Fulfilled</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <object>OrderSummary</object>
+        <queriedFields>Id</queriedFields>
+        <queriedFields>Status</queriedFields>
+        <queriedFields>Balance_Due__c</queriedFields>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <description>Update all orderSummariesToUpdate in the batch, just as a precaution.</description>
+        <name>Update_orderSummariesToUpdate</name>
+        <label>Update orderSummariesToUpdate</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Clear_Counter_and_orderSummariesToUpdate_Variable</targetReference>
+        </connector>
+        <inputReference>orderSummariesToUpdate</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Remaining_orderSummariesToUpdate</name>
+        <label>Update Remaining orderSummariesToUpdate</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <inputReference>orderSummariesToUpdate</inputReference>
+    </recordUpdates>
+    <runInMode>SystemModeWithoutSharing</runInMode>
+    <start>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Get_Order_Summary_Records</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <subflows>
+        <description>Call the subflow that runs status update logic, then add the output to a collection and update accordingly.</description>
+        <name>Determine_Order_Summary_Status</name>
+        <label>Determine Order Summary Status</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Is_Status_Changed</targetReference>
+        </connector>
+        <flowName>Order_Summary_Determine_Status</flowName>
+        <inputAssignments>
+            <name>orderSummaryInput</name>
+            <value>
+                <elementReference>Loop_Over_Order_Summaries</elementReference>
+            </value>
+        </inputAssignments>
+        <outputAssignments>
+            <assignToReference>orderSummaryOutput</assignToReference>
+            <name>orderSummaryOutput</name>
+        </outputAssignments>
+    </subflows>
+    <variables>
+        <name>counter</name>
+        <dataType>Number</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <scale>0</scale>
+        <value>
+            <numberValue>0.0</numberValue>
+        </value>
+    </variables>
+    <variables>
+        <name>orderSummariesToUpdate</name>
+        <dataType>SObject</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>OrderSummary</objectType>
+    </variables>
+    <variables>
+        <name>orderSummaryOutput</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>OrderSummary</objectType>
+    </variables>
+    <waits>
+        <name>Wait_for_1_Minute</name>
+        <elementSubtype>WaitDuration</elementSubtype>
+        <label>Wait for 1 Minute</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnectorLabel>Default Path</defaultConnectorLabel>
+        <waitEvents>
+            <conditionLogic>and</conditionLogic>
+            <connector>
+                <targetReference>Determine_Order_Summary_Status</targetReference>
+            </connector>
+            <label>el_0</label>
+            <offset>1</offset>
+            <offsetUnit>Minutes</offsetUnit>
+        </waitEvents>
+    </waits>
+</Flow>

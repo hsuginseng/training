@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Generate_Shipping_Label</name>
+        <label>Generate Shipping Label</label>
+        <locationX>176</locationX>
+        <locationY>323</locationY>
+        <actionName>zkmulti__InvocableShipmentCreate</actionName>
+        <actionType>apex</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>customAddressId</name>
+            <value>
+                <stringValue>a11V5000002HxIfIAK</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>isAutoPrint</name>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>preferenceId</name>
+            <value>
+                <stringValue>a1DV50000008ntBMAQ</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>recordId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>zkmulti__InvocableShipmentCreate</nameSegment>
+        <offset>0</offset>
+    </actionCalls>
+    <apiVersion>62.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <description>This uses Zenkraft&apos;s Generate Shipment Apex Invocable Method to create a shipping label and shipping object.</description>
+    <environments>Default</environments>
+    <interviewLabel>Generate Shipping Label on Fulfillment Order {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Generate Shipping Label on Fulfillment Order</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Generate_Shipping_Label</targetReference>
+        </connector>
+        <filterFormula>(ISNEW() &amp;&amp; NOT(ISPICKVAL({!$Record.DeliveryMethod.ClassOfService}, &quot;hsus_staff_delivery&quot;) || ISPICKVAL({!$Record.DeliveryMethod.ClassOfService}, &quot;Hsu&apos;s Staff Delivery&quot;))) || TEXT({!$Record.Status}) == &quot;Approved&quot;</filterFormula>
+        <object>FulfillmentOrder</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <triggerOrder>1500</triggerOrder>
+</Flow>

@@ -1,0 +1,19 @@
+<template>
+	<section lwc:if={productDetail} class="banner">
+		<div class="inner">
+			<div class="gallery">
+				<template lwc:if={mediaGroups}>
+					<c-pdp-banner-gallery media-groups={mediaGroups}></c-pdp-banner-gallery>
+				</template>
+			</div>
+			<div class="product">
+				<c-pdp-banner-product title={title} price={price} discounted-price={discountedPrice} benefits={benefits} product-class={productClass}></c-pdp-banner-product>
+				<c-pdp-banner-product-cart variation-type-label={variationDisplayLabel} variation-products={variationProducts} variation-sets={variations}
+					variation-validity-map={sequencedVariantComboValidityMap} quantities={quantities} product-id={productId} product-class={productClass}
+					cta-label-add-to-cart={ctaLabelAddToCart} out-of-stock-label={outOfStockLabel} max-in-cart-label={maxInCartLabel} onproductvariantselected={handleProductVariantSelected}>
+				</c-pdp-banner-product-cart>
+			</div>
+		</div>
+	</section>
+	<c-pdp-content accordions={accordions}></c-pdp-content>
+</template>

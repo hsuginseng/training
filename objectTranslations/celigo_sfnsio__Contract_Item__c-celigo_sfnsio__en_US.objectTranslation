@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Contract Item</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Contract Items</value>
+    </caseValues>
+    <fields>
+        <label><!-- Bill To Customer Discount --></label>
+        <name>celigo_sfnsio__Bill_To_Customer_Discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bill To Customer --></label>
+        <name>celigo_sfnsio__Bill_To_Customer__c</name>
+        <relationshipLabel><!-- Contract Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contract --></label>
+        <name>celigo_sfnsio__Contract__c</name>
+        <relationshipLabel><!-- Contract Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- End Date --></label>
+        <name>celigo_sfnsio__End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- End User --></label>
+        <name>celigo_sfnsio__End_User__c</name>
+        <relationshipLabel><!-- Contract Items (End User) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Item Category --></label>
+        <name>celigo_sfnsio__Item_Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Item --></label>
+        <name>celigo_sfnsio__Item__c</name>
+        <relationshipLabel><!-- Contract Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- NetSuite Id --></label>
+        <name>celigo_sfnsio__NetSuite_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Type --></label>
+        <name>celigo_sfnsio__Order_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Line Number --></label>
+        <name>celigo_sfnsio__Original_Line_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Type --></label>
+        <name>celigo_sfnsio__Quantity_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>celigo_sfnsio__Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Renew With --></label>
+        <name>celigo_sfnsio__Renew_With__c</name>
+        <relationshipLabel><!-- Contract Items (Renew With) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Renewal Processed On --></label>
+        <name>celigo_sfnsio__Renewal_Processed_On__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>celigo_sfnsio__Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>celigo_sfnsio__State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>celigo_sfnsio__Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Term --></label>
+        <name>celigo_sfnsio__Term__c</name>
+    </fields>
+    <layouts>
+        <layout>Celigo NetSuite Contract Item Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

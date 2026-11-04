@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>67.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <description>JN - Initial Flow Creation to update loyalty member points balance</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>usdPointBalance</name>
+        <dataType>Currency</dataType>
+        <expression>{!Get_Loyalty_Member_currency_record.PointsBalance} / 10</expression>
+        <scale>2</scale>
+    </formulas>
+    <interviewLabel>Loyalty Member Currency - Update Loyalty Balances {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Loyalty Member Currency - Update Loyalty Balances</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_Loyalty_Member_currency_record</name>
+        <label>Get Loyalty Member currency (record)</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Update_Loyalty_Member</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>LoyaltyMemberCurrency</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Update_Loyalty_Member</name>
+        <label>Update Loyalty Member</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.LoyaltyMemberId</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Points_Balance_USD__c</field>
+            <value>
+                <elementReference>usdPointBalance</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Points_Balance__c</field>
+            <value>
+                <elementReference>Get_Loyalty_Member_currency_record.PointsBalance</elementReference>
+            </value>
+        </inputAssignments>
+        <object>LoyaltyProgramMember</object>
+    </recordUpdates>
+    <start>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Get_Loyalty_Member_currency_record</targetReference>
+        </connector>
+        <object>LoyaltyMemberCurrency</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

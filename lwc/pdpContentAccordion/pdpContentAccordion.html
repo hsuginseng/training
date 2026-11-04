@@ -1,0 +1,10 @@
+<template lwc:render-mode='light'>
+	<div class="accordion-item">
+		<button id={index} class="accordion-toggle" onclick={handleToggle} aria-expanded="false">
+			{toggle}
+		</button>
+		<div class="accordion-panel" role="region">
+			{text}
+		</div>
+	</div>
+</template>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>AvaTax Store Setting</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>AvaTax Store Settings</value>
+    </caseValues>
+    <fields>
+        <label><!-- AvaTax Exemption --></label>
+        <name>AVA_B2BLEX__AvaTaxExemption__c</name>
+    </fields>
+    <fields>
+        <label><!-- City --></label>
+        <name>AVA_B2BLEX__City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Commit Transaction --></label>
+        <name>AVA_B2BLEX__CommitTransaction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Code --></label>
+        <name>AVA_B2BLEX__CompanyCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Id --></label>
+        <name>AVA_B2BLEX__CompanyId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Name (Deprecated) --></label>
+        <name>AVA_B2BLEX__CompanyName__c</name>
+    </fields>
+    <fields>
+        <label><!-- ConfigId --></label>
+        <name>AVA_B2BLEX__ConfigId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>AVA_B2BLEX__Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Code --></label>
+        <name>AVA_B2BLEX__CustomerCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- EnableAddressValidation --></label>
+        <name>AVA_B2BLEX__EnableAddressValidation__c</name>
+    </fields>
+    <fields>
+        <help><!-- If selected, application logs will be stored in the Salesforce AvaTax Log Custom Object. --></help>
+        <label><!-- Enable AvaTax Logging --></label>
+        <name>AVA_B2BLEX__Enable_AvaTax_Logging__c</name>
+    </fields>
+    <fields>
+        <label><!-- PostalCode --></label>
+        <name>AVA_B2BLEX__PostalCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Region --></label>
+        <name>AVA_B2BLEX__Region__c</name>
+    </fields>
+    <fields>
+        <label><!-- Store Id --></label>
+        <name>AVA_B2BLEX__StoreId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Store Name --></label>
+        <name>AVA_B2BLEX__StoreName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Store Type --></label>
+        <name>AVA_B2BLEX__StoreType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Street 2 --></label>
+        <name>AVA_B2BLEX__Street2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Street --></label>
+        <name>AVA_B2BLEX__Street__c</name>
+    </fields>
+    <fields>
+        <label><!-- TaxCalculation --></label>
+        <name>AVA_B2BLEX__TaxCalculation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax Inclusive --></label>
+        <name>AVA_B2BLEX__TaxInclusive__c</name>
+    </fields>
+    <fields>
+        <label><!-- UPC Enabled --></label>
+        <name>AVA_B2BLEX__UPCEnabled__c</name>
+    </fields>
+    <layouts>
+        <layout>AvaTax Store Settings Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

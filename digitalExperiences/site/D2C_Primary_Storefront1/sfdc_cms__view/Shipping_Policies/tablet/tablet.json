@@ -1,0 +1,17 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Shipping Policies",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "attributes" : {
+          "dxpStyle" : {
+            "isVisible" : false
+          }
+        },
+        "id" : "29058fe9-857d-4ab4-bb75-fc17f5b507d7"
+      } ]
+    }
+  },
+  "urlName" : "shipping-policies"
+}

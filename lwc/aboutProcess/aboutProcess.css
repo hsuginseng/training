@@ -1,0 +1,45 @@
+@import 'c/cssLibrary';
+
+.section {
+	position: relative;
+	width: 100vw;
+	padding-block: 5.25rem;
+	background-color: #ffffe7;
+	overflow: clip;
+
+	@media (max-width: 1024px) {
+		padding-block: 4rem;
+	}
+
+	@media (max-width: 768px) {
+		padding-block: 3rem;
+	}
+
+	@media (max-width: 620px) {
+		padding-block: 2.5rem;
+	}
+}
+
+.inner {
+	position: relative;
+	width: calc(100% - 8.5rem);
+	height: 100%;
+	max-width: 90rem;
+	margin-inline: auto;
+
+	@media (max-width: 1024px) {
+		width: calc(100% - 6rem);
+	}
+
+	@media (max-width: 768px) {
+		width: calc(100% - 4rem);
+	}
+
+	@media (max-width: 620px) {
+		width: calc(100% - 2rem);
+	}
+}
+
+h2 {
+	margin: 0 0 5rem 0;
+}

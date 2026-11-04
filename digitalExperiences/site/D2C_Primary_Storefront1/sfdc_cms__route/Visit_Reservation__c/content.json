@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Visit-Reservation",
+  "contentBody" : {
+    "activeViewId" : "Visit_Reservation",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-visit-reservation",
+    "urlPrefix" : "visit-reservation"
+  },
+  "urlName" : "visit-reservation"
+}

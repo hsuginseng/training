@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>AvaTax Settings</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>AvaTax Settings</value>
+    </caseValues>
+    <fields>
+        <help><!-- Enter your Avalara AvaTax Account Number. --></help>
+        <label><!-- Account Number --></label>
+        <name>avaoms__Account_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- If selected, then Sandbox / Production service will be used for Avatax Services. --></help>
+        <label><!-- Environment --></label>
+        <name>avaoms__Environment__c</name>
+        <picklistValues>
+            <masterLabel>Production</masterLabel>
+            <translation><!-- Production --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sandbox</masterLabel>
+            <translation><!-- Sandbox --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Enter your Avalara AvaTax License Key. --></help>
+        <label><!-- License Key --></label>
+        <name>avaoms__License_Key__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

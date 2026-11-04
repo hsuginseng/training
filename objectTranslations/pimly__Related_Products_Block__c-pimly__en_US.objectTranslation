@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Related Products Block</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Related Products Blocks</value>
+    </caseValues>
+    <fields>
+        <help><!-- User definable external Id reference used for Pimly. Auto generated if not set by user. --></help>
+        <label><!-- Admin Name --></label>
+        <name>pimly__Admin_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the title of the block when it renders in the UI --></help>
+        <label><!-- Block Title --></label>
+        <name>pimly__Block_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Block Type --></label>
+        <name>pimly__Block_Type__c</name>
+        <picklistValues>
+            <masterLabel>Gallery</masterLabel>
+            <translation><!-- Gallery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interactive List</masterLabel>
+            <translation><!-- Interactive List --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Pimly Id --></label>
+        <name>pimly__Pimly_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- For the interactive related list, show the quantity input field --></help>
+        <label><!-- Show Quantity Input? --></label>
+        <name>pimly__Show_Quantity_Input__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show Selection Checkboxes? --></label>
+        <name>pimly__Show_Selection_Checkboxes__c</name>
+    </fields>
+    <layouts>
+        <layout>Related Products Block Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

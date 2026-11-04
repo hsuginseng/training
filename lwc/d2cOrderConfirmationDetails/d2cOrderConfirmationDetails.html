@@ -1,0 +1,12 @@
+<template>
+    <template lwc:if={orderNumber}>
+        <p>Your Order Number is {orderNumber}. Use this order number to track your purchase.</p>
+    </template>
+    <template lwc:elseif={hasError}>
+        <p>Your Order Number could not be retrieved. Please check your email for details about your order.</p>
+    </template>
+    <template lwc:else>
+        <lightning-spinner class="slds-spinner_container"></lightning-spinner>
+        <p>Retrieving your Order Number, please wait!</p>
+    </template>
+</template>

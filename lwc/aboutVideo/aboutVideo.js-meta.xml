@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>63.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>About Page - About Video</masterLabel>
+    <description>...</description>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property label="Image Link" name="imageUrl" type="String" 
+                description="" translatable="false"/>
+            <property label="YouTube Embed Link" name="youTubeEmbed" type="String" 
+                description="" translatable="false"/>
+            <property label="YouTube Video Title" name="youTubeTitle" type="String" 
+                description="" translatable="true"/>
+            <property label="Accompanying Text" name="text" type="String" 
+                description="" translatable="true"/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

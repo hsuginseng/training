@@ -1,0 +1,20 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Return Policy",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "attributes" : {
+          "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCGS2NOFO6LJC4ZKF2F44BJPUPNM?lastModifiedDate=Wed Mar 11 15:51:13 GMT 2026\",\"altText\":\"\",\"contentKey\":\"MCGS2NOFO6LJC4ZKF2F44BJPUPNM\",\"contentType\":null}}"
+        },
+        "id" : "efc28143-a249-414b-8ea5-01f8ecae9ca0"
+      }, {
+        "id" : "89fad6ce-d77c-40f7-8af3-2f44bfbb3d8d",
+        "attributes" : {
+          "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MC2I5WDOJQTJG73KTGEWOPTOQTPE?lastModifiedDate=Wed Mar 11 15:50:54 GMT 2026\",\"altText\":\"\",\"contentKey\":\"MC2I5WDOJQTJG73KTGEWOPTOQTPE\",\"contentType\":null}}"
+        }
+      } ]
+    }
+  },
+  "urlName" : "return-policy"
+}

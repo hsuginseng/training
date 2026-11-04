@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Pimly UI Update</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Pimly UI Updates</value>
+    </caseValues>
+    <fields>
+        <label><!-- Status --></label>
+        <name>pimly__Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transaction Id --></label>
+        <name>pimly__Transaction_Id__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

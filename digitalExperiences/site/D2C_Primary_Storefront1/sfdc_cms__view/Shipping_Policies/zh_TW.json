@@ -1,0 +1,20 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Shipping Policies",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "attributes" : {
+          "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCFSDXOKJECNDMDNNQQS565Q27CM?lastModifiedDate=Wed Mar 11 15:55:43 GMT 2026\",\"altText\":\"\",\"contentKey\":\"MCFSDXOKJECNDMDNNQQS565Q27CM\",\"contentType\":null}}"
+        },
+        "id" : "ab297fbf-3b01-4a17-b8d1-5e103328b123"
+      }, {
+        "id" : "073551bf-7819-417c-a3d6-2fda3c76fec0",
+        "attributes" : {
+          "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MC7IPXTFZ27ZGEXEU6Y6WIZWGVD4?lastModifiedDate=Wed Mar 11 15:55:19 GMT 2026\",\"altText\":\"\",\"contentKey\":\"MC7IPXTFZ27ZGEXEU6Y6WIZWGVD4\",\"contentType\":null}}"
+        }
+      } ]
+    }
+  },
+  "urlName" : "shipping-policies"
+}

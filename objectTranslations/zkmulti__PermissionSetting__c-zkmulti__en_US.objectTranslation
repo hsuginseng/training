@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Permission Setting</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Permission Settings</value>
+    </caseValues>
+    <fields>
+        <label><!-- Carrier --></label>
+        <name>zkmulti__Carrier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Force --></label>
+        <name>zkmulti__Force__c</name>
+    </fields>
+    <fields>
+        <label><!-- Permission Object --></label>
+        <name>zkmulti__PermissionObject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Permission Type --></label>
+        <name>zkmulti__PermissionType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Profile --></label>
+        <name>zkmulti__Profile__c</name>
+    </fields>
+    <fields>
+        <label><!-- Text Value --></label>
+        <name>zkmulti__Text_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>zkmulti__User__c</name>
+        <relationshipLabel><!-- Permission Settings --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

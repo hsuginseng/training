@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>MC B2B Service Type Option</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>MC B2B Service Type Options</value>
+    </caseValues>
+    <fields>
+        <label><!-- Carrier Name --></label>
+        <name>zklb2b__Carrier_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier Service Type --></label>
+        <name>zklb2b__Carrier_Service_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier --></label>
+        <name>zklb2b__Carrier__c</name>
+    </fields>
+    <fields>
+        <label><!-- MC B2B Configuration --></label>
+        <name>zklb2b__Configuration__c</name>
+        <relationshipLabel><!-- MC B2B Service Type Options --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Disabled --></label>
+        <name>zklb2b__Disabled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fall Back Rate Text --></label>
+        <name>zklb2b__Fall_Back_Rate_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fall Back Rate --></label>
+        <name>zklb2b__Fall_Back_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fall Back Text --></label>
+        <name>zklb2b__Fall_Back_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Format --></label>
+        <name>zklb2b__Format__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Custom --></label>
+        <name>zklb2b__Is_Custom__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Type Name --></label>
+        <name>zklb2b__Service_Type_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Use Fall Back Rate --></label>
+        <name>zklb2b__Use_Fall_Back_Rate__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

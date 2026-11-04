@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Lookup Child</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Lookup Children</value>
+    </caseValues>
+    <fields>
+        <label><!-- Amount --></label>
+        <name>dlrs__Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Color --></label>
+        <name>dlrs__Color__c</name>
+        <picklistValues>
+            <masterLabel>Blue</masterLabel>
+            <translation><!-- Blue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Green</masterLabel>
+            <translation><!-- Green --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Red</masterLabel>
+            <translation><!-- Red --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yellow</masterLabel>
+            <translation><!-- Yellow --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Description 2 --></label>
+        <name>dlrs__Description2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>dlrs__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lookup Parent 2 --></label>
+        <name>dlrs__LookupParent2__c</name>
+        <relationshipLabel><!-- Lookup Children (Lookup Parent 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Lookup Parent --></label>
+        <name>dlrs__LookupParent__c</name>
+        <relationshipLabel><!-- Lookup Children --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

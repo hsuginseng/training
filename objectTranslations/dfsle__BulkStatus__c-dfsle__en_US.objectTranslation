@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Docusign Bulk Send Status</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Docusign Bulk Send Status</value>
+    </caseValues>
+    <fields>
+        <label>Batch size</label>
+        <name>dfsle__BatchSize__c</name>
+    </fields>
+    <fields>
+        <label>DocuSign batch ID</label>
+        <name>dfsle__DocuSignId__c</name>
+    </fields>
+    <fields>
+        <label>Failed envelopes</label>
+        <name>dfsle__FailedEnvelopes__c</name>
+    </fields>
+    <fields>
+        <label>Last status update</label>
+        <name>dfsle__LastStatusUpdate__c</name>
+    </fields>
+    <fields>
+        <label>Queued envelopes</label>
+        <name>dfsle__QueuedEnvelopes__c</name>
+    </fields>
+    <fields>
+        <label>Sent envelopes</label>
+        <name>dfsle__SentEnvelopes__c</name>
+    </fields>
+    <fields>
+        <label>Salesforce source ID</label>
+        <name>dfsle__SourceId__c</name>
+    </fields>
+    <fields>
+        <label>Submitted</label>
+        <name>dfsle__Submitted__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

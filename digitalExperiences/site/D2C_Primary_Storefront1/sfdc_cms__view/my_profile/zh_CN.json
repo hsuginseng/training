@@ -1,0 +1,18 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "My Profile",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "attributes" : {
+          "firstNameLabel" : "名",
+          "lastNameLabel" : "姓",
+          "emailLabel" : "电子邮件",
+          "phoneNumberLabel" : "电话号码"
+        },
+        "id" : "33f0dc51-96b3-43bb-b7e0-9ce57dfcf79e"
+      } ]
+    }
+  },
+  "urlName" : "my-profile"
+}

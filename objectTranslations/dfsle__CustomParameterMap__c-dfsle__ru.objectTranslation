@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Настраиваемая карта параметров DocuSign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Настраиваемые карты параметров DocuSign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Настраиваемая карта параметров DocuSign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Настраиваемые карты параметров DocuSign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Настраиваемая карта параметров DocuSign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Настраиваемые карты параметров DocuSign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Настраиваемая карта параметров DocuSign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Настраиваемые карты параметров DocuSign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Настраиваемая карта параметров DocuSign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Настраиваемые карты параметров DocuSign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>false</plural>
+        <value>Настраиваемая карта параметров DocuSign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>true</plural>
+        <value>Настраиваемые карты параметров DocuSign</value>
+    </caseValues>
+    <fields>
+        <help><!-- DocuSign Envelope Configuration --></help>
+        <label>Конфигурация конверта DocuSign</label>
+        <name>dfsle__EnvelopeConfiguration__c</name>
+        <relationshipLabel><!-- DocuSign Custom Parameter Maps --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Имя</label>
+        <name>dfsle__Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order --></label>
+        <name>dfsle__Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- SubValue --></label>
+        <name>dfsle__SubValue__c</name>
+    </fields>
+    <fields>
+        <label>Тип</label>
+        <name>dfsle__Type__c</name>
+    </fields>
+    <fields>
+        <label>Значение</label>
+        <name>dfsle__Value__c</name>
+    </fields>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Name</nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Commercial Invoice</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Commercial Invoices</value>
+    </caseValues>
+    <fields>
+        <label><!-- Carrier --></label>
+        <name>zkmulti__Carrier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comments Extended --></label>
+        <name>zkmulti__Comments_Extended__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>zkmulti__Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Declaration Statement --></label>
+        <name>zkmulti__DeclarationStatement__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>zkmulti__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discount --></label>
+        <name>zkmulti__Discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Freight Charges --></label>
+        <name>zkmulti__FreightCharges__c</name>
+    </fields>
+    <fields>
+        <label><!-- From TaxID --></label>
+        <name>zkmulti__FromTaxID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Handling Costs --></label>
+        <name>zkmulti__HandlingCosts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Insurance Charges --></label>
+        <name>zkmulti__InsuranceCharges__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Date --></label>
+        <name>zkmulti__InvoiceDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Originator Name --></label>
+        <name>zkmulti__OriginatorName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Charges Description --></label>
+        <name>zkmulti__OtherChargesDescription__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Charges Type --></label>
+        <name>zkmulti__OtherChargesType__c</name>
+        <picklistValues>
+            <masterLabel>Commissions</masterLabel>
+            <translation><!-- Commissions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Discounts</masterLabel>
+            <translation><!-- Discounts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Handling Fees</masterLabel>
+            <translation><!-- Handling Fees --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Royalties and License Fees</masterLabel>
+            <translation><!-- Royalties and License Fees --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taxes</masterLabel>
+            <translation><!-- Taxes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Other Charges --></label>
+        <name>zkmulti__OtherCharges__c</name>
+    </fields>
+    <fields>
+        <label><!-- Override Sold To --></label>
+        <name>zkmulti__OverrideSoldTo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Packing Costs --></label>
+        <name>zkmulti__PackingCosts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parties to Transaction are Related --></label>
+        <name>zkmulti__PartiesToTransactionAreRelated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Terms --></label>
+        <name>zkmulti__PaymentTerms__c</name>
+    </fields>
+    <fields>
+        <label><!-- Purpose --></label>
+        <name>zkmulti__Purpose__c</name>
+        <picklistValues>
+            <masterLabel>Gift</masterLabel>
+            <translation><!-- Gift --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Sold</masterLabel>
+            <translation><!-- Not Sold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal Effects</masterLabel>
+            <translation><!-- Personal Effects --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repair and Return</masterLabel>
+            <translation><!-- Repair and Return --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sample</masterLabel>
+            <translation><!-- Sample --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sold</masterLabel>
+            <translation><!-- Sold --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reason for Export --></label>
+        <name>zkmulti__ReasonForExport__c</name>
+        <picklistValues>
+            <masterLabel>Gift</masterLabel>
+            <translation><!-- Gift --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IntercompanyData</masterLabel>
+            <translation><!-- IntercompanyData --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OTHER</masterLabel>
+            <translation><!-- OTHER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repair</masterLabel>
+            <translation><!-- Repair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return</masterLabel>
+            <translation><!-- Return --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sale</masterLabel>
+            <translation><!-- Sale --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sample</masterLabel>
+            <translation><!-- Sample --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reference Value --></label>
+        <name>zkmulti__ReferenceValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ship To TaxID --></label>
+        <name>zkmulti__ShipToTaxID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sold To Account --></label>
+        <name>zkmulti__SoldToAccount__c</name>
+        <relationshipLabel><!-- Commercial Invoices --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sold To City --></label>
+        <name>zkmulti__SoldToCity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sold To Company Name --></label>
+        <name>zkmulti__SoldToCompanyName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sold To Contact Name --></label>
+        <name>zkmulti__SoldToContactName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sold To Contact --></label>
+        <name>zkmulti__SoldToContact__c</name>
+        <relationshipLabel><!-- Commercial Invoices --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sold To Country --></label>
+        <name>zkmulti__SoldToCountry__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sold To Phone --></label>
+        <name>zkmulti__SoldToPhone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sold To State/Province --></label>
+        <name>zkmulti__SoldToStateProvince__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sold To Street --></label>
+        <name>zkmulti__SoldToStreet__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sold To TaxID --></label>
+        <name>zkmulti__SoldToTaxID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sold To Zip/Postal Code --></label>
+        <name>zkmulti__SoldToZipPostalCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Special Instructions Extended --></label>
+        <name>zkmulti__SpecialInstructionsExtended__c</name>
+    </fields>
+    <fields>
+        <label><!-- Special Instructions --></label>
+        <name>zkmulti__SpecialInstructions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Terms of Sale --></label>
+        <name>zkmulti__TermsOfSale__c</name>
+        <picklistValues>
+            <masterLabel>Carriage Insurance Paid (CIP)</masterLabel>
+            <translation><!-- Carriage Insurance Paid (CIP) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carriage Paid TO (CPT)</masterLabel>
+            <translation><!-- Carriage Paid TO (CPT) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cost Insurance and Freight (CIF)</masterLabel>
+            <translation><!-- Cost Insurance and Freight (CIF) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cost and Freight (CFR)</masterLabel>
+            <translation><!-- Cost and Freight (CFR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delivered Duty Paid (DDP)</masterLabel>
+            <translation><!-- Delivered Duty Paid (DDP) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delivered Duty Unpaid (DDU)</masterLabel>
+            <translation><!-- Delivered Duty Unpaid (DDU) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delivered Ex Quay (DEQ)</masterLabel>
+            <translation><!-- Delivered Ex Quay (DEQ) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delivered Ex Ship (DES)</masterLabel>
+            <translation><!-- Delivered Ex Ship (DES) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delivered at Frontier (DAF)</masterLabel>
+            <translation><!-- Delivered at Frontier (DAF) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delivered at Place (DAP)</masterLabel>
+            <translation><!-- Delivered at Place (DAP) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delivered at Terminal (DAT)</masterLabel>
+            <translation><!-- Delivered at Terminal (DAT) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ex Works (EXW)</masterLabel>
+            <translation><!-- Ex Works (EXW) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Free Alongside Ship (FAS)</masterLabel>
+            <translation><!-- Free Alongside Ship (FAS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Free Carrier (FCA)</masterLabel>
+            <translation><!-- Free Carrier (FCA) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Free On Board (FOB)</masterLabel>
+            <translation><!-- Free On Board (FOB) --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>FedEx Commercial Invoice Layout</layout>
+        <sections>
+            <label><!-- Charges --></label>
+            <section>Charges</section>
+        </sections>
+        <sections>
+            <label><!-- Commercial Invoice Information --></label>
+            <section>Commercial Invoice Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Sold To --></label>
+            <section>Sold To</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

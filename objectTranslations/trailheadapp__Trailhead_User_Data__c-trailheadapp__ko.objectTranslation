@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Trailhead 사용자 데이터</value>
+    </caseValues>
+    <fields>
+        <label>아바타</label>
+        <name>trailheadapp__Avatar__c</name>
+    </fields>
+    <fields>
+        <label>External_Id</label>
+        <name>trailheadapp__External_Id__c</name>
+    </fields>
+    <fields>
+        <label>Profile_URL</label>
+        <name>trailheadapp__Profile_URL__c</name>
+    </fields>
+    <fields>
+        <label>Profile_Visibility</label>
+        <name>trailheadapp__Profile_Visibility__c</name>
+    </fields>
+    <fields>
+        <label>등급</label>
+        <name>trailheadapp__Rank__c</name>
+    </fields>
+    <fields>
+        <label>Total_Points</label>
+        <name>trailheadapp__Total_Points__c</name>
+    </fields>
+    <fields>
+        <label>사용자</label>
+        <name>trailheadapp__User__c</name>
+        <relationshipLabel><!-- Trailhead Users Data --></relationshipLabel>
+    </fields>
+    <nameFieldLabel>Trailhead 사용자 데이터 이름</nameFieldLabel>
+</CustomObjectTranslation>

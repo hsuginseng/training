@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Apexテスト結果</value>
+    </caseValues>
+    <fields>
+        <label>詳細</label>
+        <name>copado__Details__c</name>
+    </fields>
+    <fields>
+        <label>失敗</label>
+        <name>copado__Failures__c</name>
+    </fields>
+    <fields>
+        <label>クレデンシャル</label>
+        <name>copado__Org__c</name>
+        <relationshipLabel>Apexテスト結果</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ステータス</label>
+        <name>copado__Status__c</name>
+        <picklistValues>
+            <masterLabel>Errors</masterLabel>
+            <translation><!-- Errors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Success</masterLabel>
+            <translation><!-- Success --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>成功（％）</label>
+        <name>copado__Successes__c</name>
+    </fields>
+    <fields>
+        <label>テスト実行</label>
+        <name>copado__Tests_run__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the total time taken to run the Apex Tests --></help>
+        <label>合計時間（ミリ秒）</label>
+        <name>copado__Total_time__c</name>
+    </fields>
+    <fields>
+        <label>ユーザーストーリー</label>
+        <name>copado__User_Story__c</name>
+        <relationshipLabel>Apexテスト結果</relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Apex Test Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Apexテスト名</nameFieldLabel>
+</CustomObjectTranslation>

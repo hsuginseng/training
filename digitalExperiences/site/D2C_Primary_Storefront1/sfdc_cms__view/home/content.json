@@ -1,0 +1,233 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Home",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "0rem",
+            "dxpStyle" : { },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "none",
+            "sectionColumnGutterWidth" : "0rem",
+            "sectionConfig" : "{\"UUID\":\"dace14c7-d00e-4a4d-9afc-85eeb5811269\",\"columns\":[{\"UUID\":\"830efc17-756f-4a42-b2aa-3d1843275367\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { }
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "ctaText" : "Explore Our Story",
+                    "ctaUrl" : "/OurStory",
+                    "dxpStyle" : { },
+                    "title" : "Root to Health",
+                    "videoUrl" : "/sfsites/c/cms/delivery/media/MCXMDJJV5IVNG2TKSGHMKKX57OJ4"
+                  },
+                  "definition" : "c:bannerVideo",
+                  "id" : "27a3c44c-b6de-49ae-b107-fa5a300f6d1b",
+                  "type" : "component"
+                } ],
+                "id" : "3add9634-e48f-4574-ab5b-a8dcc715b750",
+                "name" : "banner-video",
+                "title" : "banner-video",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "content" : "[\n{\n\"id\":\"1\",\n\"title\":\"Halloween - Treat, No Tricks!\",\n\"desc\":\"Receive a complimentary bottle of Korean White Ginseng Capsules when you purchase $138 or more. This offer is valid from October 14, 2026 – October 28, 2026, while supplies last.\",\n\"ctaText\":\"Shop Now\",\n\"ctaUrl\":\"/category/shop/Ginseng/ginseng/american-ginseng/0ZGV5000000096dOAA\",\n\"imageUrl\":\"/sfsites/c/cms/delivery/media/MCKNTKUCGTVRAA3FSSJSRK42P2XA?channelId=0apV50000000Cqn\",\n\"imageAlt\":\"image 1 alt text\"\n},\n{\n\"id\":\"2\",\n\"title\":\"China Oversea\",\n\"desc\":\"25% off storewide on orders over $150 with code HSUD11. Spend $200 and get a free box of 10-stick instant ginseng powder.Offer ends 11/11/2026\",\n\"ctaText\":\"Shop Now\",\n\"ctaUrl\":\"https://hsuschinaoversea.com/\",\n\"imageUrl\":\"/sfsites/c/cms/delivery/media/MCYDH4OZ4JIJFKNCNME7RTG4NIZE?channelId=0apV50000000Cqn\",\n\"imageAlt\":\"image 2 alt text\"\n},\n{\n\"id\":\"3\",\n\"title\":\"Fresh American Ginseng Roots Coming Soon\",\n\"desc\":\"Shop Now\",\n\"ctaText\":\"Shop Now\",\n\"ctaUrl\":\"/category/shop/Ginseng/Fresh/0ZGV5000000096bOAA\",\n\"imageUrl\":\"/sfsites/c/cms/delivery/media/MCD5KTNATQ35CKNGZEBOJY23KVME?channelId=0apV50000000Cqn\",\n\"imageAlt\":\"image 3 alt text\"\n}\n]",
+                    "dxpStyle" : {
+                      "isVisible" : true
+                    }
+                  },
+                  "definition" : "c:bannerCarousel",
+                  "id" : "f5587633-26c6-4b8a-b455-d7c267797ea4",
+                  "type" : "component"
+                } ],
+                "id" : "798e5dc9-1c6d-4868-b8ad-c49b9b4fc1eb",
+                "name" : "banner-carousel",
+                "title" : "banner-carousel",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "ctaText" : "About Us",
+                    "ctaUrl" : "/thecompany-aboutfarm",
+                    "desc" : "At the center of Marathon County, we take pride in managing everything in-house, from cultivation to delivery. Explore the care and dedication behind our ginseng farming.",
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "",
+                        "left" : "",
+                        "right" : "",
+                        "top" : ""
+                      },
+                      "padding" : {
+                        "bottom" : "",
+                        "left" : "",
+                        "right" : "",
+                        "top" : ""
+                      }
+                    },
+                    "imageUrl" : "/sfsites/c/cms/delivery/media/MCAZLW23ZOBNFOLGMBJWKWFHBOPU?channelId=0apV50000000Cqn",
+                    "title" : "From Farm to Table"
+                  },
+                  "definition" : "c:homeAbout",
+                  "id" : "c1716490-fe7c-4964-afc9-f7a0c35a0aad",
+                  "type" : "component"
+                } ],
+                "id" : "58464b06-3bb1-453d-8991-e500ddfea05e",
+                "name" : "about",
+                "title" : "about",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "content" : "[\n{\n\"id\":\"1\",\n\"imageUrl\":\"/sfsites/c/cms/delivery/media/MCMGFUKQJLJBAZXH26NUC5JJ4DZE\",\n\"imageAlt\":\"image alt\",\n\"ctaText\":\"Shop American Ginseng\",\n\"ctaUrl\":\"/category/shop/ginseng/american-ginseng/0ZGV5000000096dOAA\"\n},\n{\n\"id\":\"2\",\n\"imageUrl\":\"/sfsites/c/cms/delivery/media/MCX22XL5SDLRG6LJTESFSG4IOMBI\",\n\"imageAlt\":\"image alt\",\n\"ctaText\":\"Shop Bird’s Nest\",\n\"ctaUrl\":\"/category/shop/birds-nest/0ZGV5000000094vOAA\"\n},\n{\n\"id\":\"3\",\n\"imageUrl\":\"/sfsites/c/cms/delivery/media/MCDKZRNHBML5DVLL4JG7YEU726SI\",\n\"imageAlt\":\"image alt\",\n\"ctaText\":\"Shop Reishi\",\n\"ctaUrl\":\"/category/shop/supplements/reishi/0ZGV50000000975OAA\"\n},\n{\n\"id\":\"4\",\n\"imageUrl\":\"/sfsites/c/cms/delivery/media/MC4ZZ6ERA5JNGINNM7BNSXGHHVME\",\n\"imageAlt\":\"image alt\",\n\"ctaText\":\"Shop Seafood\",\n\"ctaUrl\":\"/category/shop/seafood/0ZGV50000000950OAA\"\n}\n]",
+                    "dxpStyle" : { },
+                    "title" : "Explore the Path to Wellness"
+                  },
+                  "definition" : "c:homeWellness",
+                  "id" : "2fd18318-9313-41ae-b052-c71acb268eaf",
+                  "type" : "component"
+                } ],
+                "id" : "82136b0c-e8fb-412e-83e0-2dcd7e712f9e",
+                "name" : "wellness",
+                "title" : "wellness",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "ctaText" : "Book a Tour",
+                    "ctaUrl" : "/visit-visitus",
+                    "dxpStyle" : { },
+                    "imageUrl" : "/sfsites/c/cms/delivery/media/MC4JY54PLTUZEAZL3VRRU7MKLREU?channelId=0apV50000000Cqn",
+                    "title" : "Tour Hsu's Ginseng"
+                  },
+                  "definition" : "c:homeTours",
+                  "id" : "831c72fc-f02c-425f-9c16-79c40fab4ca1",
+                  "type" : "component"
+                } ],
+                "id" : "1d311385-f40a-4190-8409-03dc852de0af",
+                "name" : "tours",
+                "title" : "tours",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "content" : "[\n{\n\"id\":\"1\",\n\"imageUrl\":\"/sfsites/c/cms/delivery/media/MCYKUQCPZJ65DYNFPMG5Z4ZUXTEY\",\n\"imageAlt\":\"image alt\",\n\"title\":\"American vs Asian Ginseng\",\n\"desc\":\"Discover the key differences between these two varieties and their unique benefits.\",\n\"ctaText\":\"Learn More\",\n\"ctaUrl\":\"/learn-ginseng\"\n},\n{\n\"id\":\"2\",\n\"imageUrl\":\"/sfsites/c/cms/delivery/media/MCRUTAUUKMZ5F7XM46DX5FEDX4GE\",\n\"title\":\"Wisconsin’s Unique Climate\",\n\"desc\":\"Uncover how Wisconsin’s climate nurtures the world’s finest ginseng.\",\n\"imageAlt\":\"image alt\",\n\"ctaText\":\"Learn More\",\n\"ctaUrl\":\"/learn-ginseng\"\n},\n{\n\"id\":\"3\",\n\"imageUrl\":\"/sfsites/c/cms/delivery/media/MCOK224FCCENGOTKDSOLX6DXPFHU\",\n\"title\":\"Dried vs Fresh Ginseng\",\n\"desc\":\"Delve into the unique attributes and culinary versatility of both dried and fresh ginseng.\",\n\"imageAlt\":\"image alt\",\n\"ctaText\":\"Learn More\",\n\"ctaUrl\":\"/learn-ginseng\"\n},\n{\n\"id\":\"4\",\n\"imageUrl\":\"/sfsites/c/cms/delivery/media/MCEOBDYMB7PFELPKKD4KBADVAR6E\",\n\"imageAlt\":\"image alt\",\n\"title\":\"Traveling with American Ginseng \",\n\"desc\":\"Get tips on safely packing and carrying ginseng while on the go.\",\n\"ctaText\":\"Learn More\",\n\"ctaUrl\":\"/learn-ginseng\"\n}\n]",
+                    "dxpStyle" : { },
+                    "title" : "Ginseng: Everything You Should Know"
+                  },
+                  "definition" : "c:homeDifference",
+                  "id" : "cdd640e9-2a8a-4d31-b771-23f5b2530f69",
+                  "type" : "component"
+                } ],
+                "id" : "5fdecfdf-ec47-4e7e-8995-e3fde54149fd",
+                "name" : "difference",
+                "title" : "difference",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "content" : "[\n{\n\"id\":\"1\",\n\"imageUrl\":\"/sfsites/c/cms/delivery/media/MCMGFUKQJLJBAZXH26NUC5JJ4DZE\",\n\"imageAlt\":\"image alt\",\n\"ctaText\":\"Shop American Ginseng\",\n\"ctaUrl\":\"/category/shop/ginseng/american-ginseng/0ZGV5000000096dOAA\"\n},\n{\n\"id\":\"2\",\n\"imageUrl\":\"/sfsites/c/cms/delivery/media/MCX22XL5SDLRG6LJTESFSG4IOMBI\",\n\"imageAlt\":\"image alt\",\n\"ctaText\":\"Shop Bird’s Nest\",\n\"ctaUrl\":\"/category/shop/birds-nest/0ZGV5000000094vOAA\"\n},\n{\n\"id\":\"3\",\n\"imageUrl\":\"/sfsites/c/cms/delivery/media/MCDKZRNHBML5DVLL4JG7YEU726SI\",\n\"imageAlt\":\"image alt\",\n\"ctaText\":\"Shop Reishi\",\n\"ctaUrl\":\"/category/shop/supplements/reishi/0ZGV50000000975OAA\"\n}\n]",
+                    "dxpStyle" : { },
+                    "title" : "Explore Featured Categories"
+                  },
+                  "definition" : "c:homeCategories",
+                  "id" : "37b518d3-78ff-42e8-863d-ac43f85eed24",
+                  "type" : "component"
+                } ],
+                "id" : "44ff9e4a-848c-4b02-b6d7-2f93889a6f20",
+                "name" : "featured-categories",
+                "title" : "featured-categories",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "content" : "[\n{\n\"id\":\"1\",\n\"toggle\":\"What is American Ginseng?\",\n\"text\":\"American ginseng (Panax quinquefolius L.) varies widely in appearance and cultivation depending on where and how it is grown. The three main types are cultivated, woodsgrown, and wild ginseng, each distinguished by unique characteristics and growing conditions.\",\n\"ctaText\":\"Learn More\",\n\"ctaUrl\":\"/about-ginseng\"\n},\n{\n\"id\":\"2\",\n\"toggle\":\"Cultivated American Ginseng\",\n\"text\":\"Cultivated American Ginseng is grown in controlled environments, often in shaded fields designed to mimic forest conditions. Farmers cultivate it on a large scale, ensuring consistent quality and appearance. The roots of cultivated ginseng are typically larger, smoother, and lighter in color compared to their wild counterparts.\",\n\"ctaText\":\"Learn More\",\n\"ctaUrl\":\"/about-ginseng\"\n},\n{\n\"id\":\"3\",\n\"toggle\":\"Woodsgrown Ginseng\",\n\"text\":\"Woodsgrown Ginseng blends elements of both cultivated and wild ginseng. It is planted in natural forest soils but often tends by growers using minimal intervention. The roots develop slower than cultivated ginseng, taking on a rougher texture and darker hue, resembling wild ginseng. Woods-grown ginseng is closer in appearance to its wild relative and offers a more natural aesthetic.\",\n\"ctaText\":\"Learn More\",\n\"ctaUrl\":\"/about-ginseng\"\n},\n{\n\"id\":\"4\",\n\"toggle\":\"Wild American Ginseng\",\n\"text\":\"Wild American Ginseng, found growing naturally in undisturbed forests, is the rarest and most sought-after. These roots grow under the shade of native trees, adapting to the forest’s uneven soil. Wild ginseng roots are typically small, gnarled, and darker in color. Each root is unique, reflecting the unpredictability of its environment.\",\n\"ctaText\":\"Learn More\",\n\"ctaUrl\":\"/about-ginseng\"\n},\n{\n\"id\":\"4\",\n\"toggle\":\"Key Differences\",\n\"text\":\"The key differences lie in the growing conditions and the resulting physical traits. Cultivated ginseng is uniform and abundant, while woodsgrown offers a balance between control and natural growth. Wild ginseng, with its rugged, individualized character, stands as the most prized for its rarity and connection to untouched nature.\",\n\"ctaText\":\"Learn More\",\n\"ctaUrl\":\"/about-ginseng\"\n}\n]",
+                    "dxpStyle" : { },
+                    "imageUrl" : "/sfsites/c/cms/delivery/media/MCTLSLL46YKNCWFCYYUGKIYWWMQY",
+                    "title" : "Learn More"
+                  },
+                  "definition" : "c:homeDiscover",
+                  "id" : "a6079263-e3ae-486a-aa43-7fe5e832cfbf",
+                  "type" : "component"
+                } ],
+                "id" : "60248a76-b1d8-4edb-90bc-a11f93d5f49b",
+                "name" : "discover",
+                "title" : "discover",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "ctaTextAddToCart" : "Add to Cart",
+                    "ctaTextNoMoreAvailable" : "No More Available",
+                    "ctaTextOutOfStock" : "Out of Stock",
+                    "ctaTextSeeDetails" : "See Details",
+                    "dxpStyle" : { },
+                    "productSkuList" : "[\"0111-4\", \"0113-4\", \"0126LL-4\", \"0126MM\", \"0720-8\", \"0837-S1-16E\", \"3724\", \"1826\", \"1066\", \"1024\", \"MF168\"]",
+                    "title" : "Recommended Products"
+                  },
+                  "definition" : "c:homeRecommended",
+                  "id" : "0d097d14-4ad5-4be3-afb9-2525a247e660",
+                  "type" : "component"
+                } ],
+                "id" : "755c7669-5111-4d31-98ce-ee408a94ab6c",
+                "name" : "recommended-categories",
+                "title" : "recommended-categories",
+                "type" : "region"
+              } ],
+              "definition" : "c:d2cHomePageTemplate",
+              "id" : "3189e8b8-8f98-4ead-8d63-781668213813",
+              "type" : "component"
+            } ],
+            "id" : "830efc17-756f-4a42-b2aa-3d1843275367",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "dace14c7-d00e-4a4d-9afc-85eeb5811269",
+          "type" : "component"
+        } ],
+        "id" : "a777626c-490c-404b-907b-da417e95e625",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "Home",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "19dda276-84b8-4135-b71d-19249c1a5942",
+          "type" : "component"
+        } ],
+        "id" : "4f9022fe-bb04-4077-9105-4bf4e00fd06c",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "9341157d-81a6-44a4-8ed9-eee31a86a0d3",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "home"
+  },
+  "urlName" : "home"
+}

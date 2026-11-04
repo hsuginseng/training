@@ -1,0 +1,112 @@
+@import 'c/cssLibrary';
+
+.home-rec-carousel-slide-card {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: stretch;
+	height: 100%;
+	border-radius: 1rem;
+	gap: 2rem;
+
+	h3 {
+		font-size: 1.25rem !important;
+		line-height: 1.5 !important;
+		letter-spacing: 0.002em;
+		text-align: center;
+		color: #272525 !important;
+		margin-block: 0 1.25rem;
+	}
+
+	.home-rec-carousel-slide-link {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		box-shadow: -4px 4px 16px 0px rgba(0, 0, 0, 0);
+		transition: box-shadow .6s ease;
+		border-radius: 1rem;
+		z-index: 1;
+
+		&:hover {
+			box-shadow: -4px 4px 16px 0px rgba(0, 0, 0, 0.08);
+		}
+	}
+
+	.home-rec-carousel-brand {
+		font-family: "Acumin VF", sans-serif;
+		font-size: .875rem;
+		font-weight: 400;
+		line-height: 1.5;
+		text-align: center;
+		color: #000;
+		margin: 0 0 .25rem 0;
+	}
+
+	.home-rec-carousel-slide-price {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 1.25rem;
+
+		p {
+			margin: 0;
+		}
+
+		.home-rec-carousel-price {
+			width: fit-content;
+			font-family: "Acumin VF", sans-serif;
+			font-size: 1rem;
+			font-weight: 400;
+			line-height: 1.5;
+			text-transform: uppercase;
+			color: #272525;
+			padding: 0.313rem 1.5rem 0.5rem 1.5rem;
+			border-radius: 0.5rem;
+			border: 1px solid #272525;
+		}
+
+		.home-rec-carousel-sale-price {
+			font-family: "Acumin VF", sans-serif;
+			font-size: 1rem;
+			font-weight: 400;
+			line-height: 1.5;
+			text-decoration: line-through;
+			text-transform: uppercase;
+			color: #60656d;
+		}
+	}
+
+	img {
+		display: block;
+		width: 100%;
+	}
+}
+
+.home-rec-carousel-slide-content {
+	padding: 2rem;
+	background-color: #fff;
+	border-radius: 1rem;
+	height: inherit;
+
+	@media (max-width: 1024px) {
+		padding: 1rem;
+	}
+
+	transition: box-shadow .6s ease;
+	&:has(.card-image:hover, .card-title:hover) {
+		border-radius: 1rem;	
+		box-shadow: -4px 4px 16px 0px rgba(0, 0, 0, 0.08);
+		.card-title a {
+			text-decoration-color: #272525;
+		}
+	}
+}
+
+.home-rec-carousel-slide-card .cta:disabled {
+	opacity: 0.55;
+	cursor: not-allowed;
+	pointer-events: none;
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>63.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Home Page - Featured Categories</masterLabel>
+    <description>...</description>
+    <capabilities>
+        <capability>lightningCommunity__RelaxedCSP</capability>
+    </capabilities>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property label="Section Title" name="title" type="String" translatable="true"
+                description="The text displayed above the Featured Categories section." default=""/>
+            <property label="Section Content" name="content" type="lightning__multilineTextType" translatable="true"
+                description="The content displayed within the Difference section."/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

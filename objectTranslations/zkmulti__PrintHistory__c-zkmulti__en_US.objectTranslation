@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Print History</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Print History</value>
+    </caseValues>
+    <fields>
+        <label><!-- File Name --></label>
+        <name>zkmulti__FileName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Print Job Id --></label>
+        <name>zkmulti__PrintJobId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Printer Id --></label>
+        <name>zkmulti__PrinterId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Printer Name --></label>
+        <name>zkmulti__PrinterName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipment --></label>
+        <name>zkmulti__Shipment__c</name>
+        <relationshipLabel><!-- Print Histories --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

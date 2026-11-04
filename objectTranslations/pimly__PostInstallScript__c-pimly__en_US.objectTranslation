@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Post Install Script</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Post Install Scripts</value>
+    </caseValues>
+    <fields>
+        <label><!-- Class Name --></label>
+        <name>pimly__ClassName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>pimly__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Executed By --></label>
+        <name>pimly__Executed_By__c</name>
+        <relationshipLabel><!-- Post Install Scripts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Execution Log --></label>
+        <name>pimly__ExecutionLog__c</name>
+    </fields>
+    <fields>
+        <label><!-- Execution Time --></label>
+        <name>pimly__ExecutionTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Notification Sent Flag --></label>
+        <name>pimly__NotificationSentFlag__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sequence Number --></label>
+        <name>pimly__SequenceNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>pimly__Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>pimly__Type__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

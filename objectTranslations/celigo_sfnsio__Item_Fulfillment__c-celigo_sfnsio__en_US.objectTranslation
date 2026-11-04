@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Item Fulfillment</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Item Fulfillments</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Name --></label>
+        <name>celigo_sfnsio__Account_Name__c</name>
+        <relationshipLabel><!-- Item Fulfillments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Date --></label>
+        <name>celigo_sfnsio__Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Handling Cost --></label>
+        <name>celigo_sfnsio__Handling_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Memo --></label>
+        <name>celigo_sfnsio__Memo__c</name>
+    </fields>
+    <fields>
+        <label><!-- NetSuite Id --></label>
+        <name>celigo_sfnsio__NetSuite_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- NetSuite Record (IO) --></label>
+        <name>celigo_sfnsio__NetSuite_Record__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Name --></label>
+        <name>celigo_sfnsio__Opportunity_Name__c</name>
+        <relationshipLabel><!-- Item Fulfillments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Order Name --></label>
+        <name>celigo_sfnsio__Order_Name__c</name>
+        <relationshipLabel><!-- Item Fulfillments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Package Tracking Number --></label>
+        <name>celigo_sfnsio__Packaging_Tracking_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ship Via --></label>
+        <name>celigo_sfnsio__ShipVia__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Carrier --></label>
+        <name>celigo_sfnsio__Shipping_Carrier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Cost --></label>
+        <name>celigo_sfnsio__Shipping_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>celigo_sfnsio__Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sync Status --></label>
+        <name>celigo_sfnsio__Sync_Status__c</name>
+    </fields>
+    <layouts>
+        <layout>Celigo NetSuite Item Fulfillments Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- NetSuite --></label>
+            <section>NetSuite</section>
+        </sections>
+        <sections>
+            <label><!-- Shipping Details --></label>
+            <section>Shipping Details</section>
+        </sections>
+    </layouts>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

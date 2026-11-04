@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>AVA_B2BLEX__Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Add the account records with the certificate.</description>
+        <inlineHelpText>Add the account records with the certificate.</inlineHelpText>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>AvaTax Exemption Certificates</relationshipLabel>
+        <relationshipName>AvaTaxExemptionCertificates</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AVA_B2BLEX__AvaTaxCertificateMapping__c</fullName>
+        <deprecated>false</deprecated>
+        <inlineHelpText>AvaTax certificate and company code mapping. This field is managed by AvaTax and should not be modified by user.</inlineHelpText>
+        <label>AvaTax Certificate Mapping</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>AVA_B2BLEX__Avalara_Certificate_Id__c</fullName>
+        <deprecated>false</deprecated>
+        <description>A unique ID used by AvaTax to apply exemptions.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>A unique ID used by AvaTax to apply exemptions.</inlineHelpText>
+        <label>Certificate Number</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AVA_B2BLEX__CertificateStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Shows the current status of the certificate.</description>
+        <inlineHelpText>Shows the current status of the certificate.</inlineHelpText>
+        <label>Certificate Status</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>2</visibleLines>
+    </fields>
+    <fields>
+        <fullName>AVA_B2BLEX__DateIssued__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Issuing date of the certificate.</description>
+        <inlineHelpText>Issuing date of the certificate.</inlineHelpText>
+        <label>Signed Date</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>AVA_B2BLEX__ExemptionReason__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The reason the customer is exempt.</description>
+        <inlineHelpText>The reason the customer is exempt.</inlineHelpText>
+        <label>Exemption Reason</label>
+        <referenceTo>AVA_B2BLEX__AvaTaxExemptionReasons__c</referenceTo>
+        <relationshipLabel>AvaTax Exemption Certificates</relationshipLabel>
+        <relationshipName>AvaTaxExemptionCertificates</relationshipName>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AVA_B2BLEX__ExpirationDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Expiration date of the certificate.</description>
+        <inlineHelpText>Expiration date of the certificate.</inlineHelpText>
+        <label>Expiration Date</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>AVA_B2BLEX__ExposureZone__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>State where the exemption applies.</description>
+        <inlineHelpText>State where the exemption applies.</inlineHelpText>
+        <label>Exposure Zone</label>
+        <referenceTo>AVA_B2BLEX__AvaTaxExposureZone__c</referenceTo>
+        <relationshipLabel>AvaTax Exemption Certificates</relationshipLabel>
+        <relationshipName>AvaTaxExemptionCertificates</relationshipName>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <label>AvaTax Exemption Certificate</label>
+    <listViews>
+        <fullName>AVA_B2BLEX__All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>Certificate Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>AvaTax Exemption Certificates</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>AVA_B2BLEX__Disable_Edit_Option</fullName>
+        <active>true</active>
+        <description>Prevents editing certificates that have been invalidated in AvaTax</description>
+        <errorConditionFormula>OR(
+    PRIORVALUE(AVA_B2BLEX__CertificateStatus__c) = &apos;Invalid&apos;,
+    PRIORVALUE(AVA_B2BLEX__CertificateStatus__c) = &apos;Certificate record in AvaTax is now invalid.&apos;,
+    CONTAINS(UPPER(PRIORVALUE(AVA_B2BLEX__CertificateStatus__c)), &apos;INVALID&apos;)
+)</errorConditionFormula>
+        <errorMessage>This certificate is invalid. Please create a new certificate.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>AVA_B2BLEX__Lock_AvaTax_Certificate_Mapping_Field</fullName>
+        <active>true</active>
+        <description>User should not be able to delete AvaTax Certificate Mapping</description>
+        <errorConditionFormula>PRIORVALUE(AVA_B2BLEX__AvaTaxCertificateMapping__c) != NULL &amp;&amp; AVA_B2BLEX__AvaTaxCertificateMapping__c = NULL</errorConditionFormula>
+        <errorDisplayField>AVA_B2BLEX__AvaTaxCertificateMapping__c</errorDisplayField>
+        <errorMessage>Please do not edit/delete this value</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>AVA_B2BLEX__Lock_Avalara_Certificate_Id_field</fullName>
+        <active>true</active>
+        <description>Prevents editing the Avalara Certificate ID field once it has been set</description>
+        <errorConditionFormula>PRIORVALUE(AVA_B2BLEX__Avalara_Certificate_Id__c) &gt; 0 &amp;&amp; ISCHANGED(AVA_B2BLEX__Avalara_Certificate_Id__c)</errorConditionFormula>
+        <errorDisplayField>AVA_B2BLEX__Avalara_Certificate_Id__c</errorDisplayField>
+        <errorMessage>Please do not edit this value</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>AVA_B2BLEX__Save_And_Upload</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>B2B &amp; D2C Commerce Certificate Utility</masterLabel>
+        <openType>noSidebar</openType>
+        <page>AVA_B2BLEX__SaveTaxExemption</page>
+        <protected>false</protected>
+    </webLinks>
+</CustomObject>

@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Order Template List",
+  "contentBody" : {
+    "activeViewId" : "order_template_list",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "order-template-list",
+    "urlPrefix" : "order-templates"
+  },
+  "urlName" : "order-template-list"
+}

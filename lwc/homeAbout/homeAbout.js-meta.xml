@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>63.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Home Page - About</masterLabel>
+    <description>...</description>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property label="Title" name="title" type="String" translatable="true"
+                description=""/>
+            <property label="Description" name="desc" type="String" translatable="true"
+                description=""/>
+            <property label="CTA Text" name="ctaText" type="String" default="About Us" translatable="true"
+                description=""/>
+            <property label="CTA Link" name="ctaUrl" type="String" default="#" translatable="false"
+                description=""/>
+            <property label="Image URL" name="imageUrl" type="String" translatable="false"
+                description="This is the URL for the background image." default=""/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

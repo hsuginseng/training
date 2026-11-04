@@ -1,0 +1,25 @@
+<template>
+	<template lwc:if={isLoading}>
+		<lightning-spinner alternative-text="Loading Filter Categories" size="medium"></lightning-spinner>
+	</template>
+
+	<dialog open>
+		<h2>{modalHeaderLabel}</h2>
+		<button class="close" onclick={toggleFilters}>
+			<span class="sr-only">Close Filters</span>
+		</button>
+		<form>
+			<div class="options">
+				<template for:each={categories} for:item="wrapper">
+					<c-category-filter-modal-item key={wrapper.category.id} category={wrapper.category} selected={wrapper.selected}
+						category-children={wrapper.children} product-count={wrapper.productCount} onselectstatechanged={handleItemSelectStateChanged}>
+					</c-category-filter-modal-item>
+				</template>
+			</div>
+			<div class="buttons">
+				<button class="submit" onclick={handleClickApplyFilters}>{modalActionLabelApplyFilter}</button>
+				<button class="clear" onclick={handleClickClearFilters}>{modalActionLabelClearFilters}</button>
+			</div>
+		</form>
+	</dialog>
+</template>

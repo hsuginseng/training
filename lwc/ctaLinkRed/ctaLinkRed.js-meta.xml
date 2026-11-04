@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>63.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Misc. - CTA Link (Red)</masterLabel>
+    <description>Displays a clickable link that will navigate the user to different community page or website.</description>
+    <capabilities>
+        <capability>lightningCommunity__RelaxedCSP</capability>
+    </capabilities>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property label="Display Text" name="ctaText" type="String" 
+                description="The text that will be displayed for the clickable link." default=""/>
+            <property label="Link" name="ctaUrl" type="String" 
+                description="The link/href that the user will be navigated to when the link is clicked." default=""/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

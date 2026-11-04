@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>OrderSummary$Id</field>
+    </columns>
+    <columns>
+        <field>OrderSummary.OrderItemSummaries$Name</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>OrderSummary$GrandTotalAmount</field>
+    </columns>
+    <columns>
+        <field>OrderSummary$OriginalOrder</field>
+    </columns>
+    <columns>
+        <field>OrderSummary$Account</field>
+    </columns>
+    <columns>
+        <field>OrderSummary$Status</field>
+    </columns>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>OrderSummary$Name</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Daily Order Summaries Report</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Order_Summaries__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>OrderSummary$CreatedDate</dateColumn>
+        <interval>INTERVAL_CURRENT</interval>
+    </timeFrameFilter>
+</Report>

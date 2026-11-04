@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Handles renaming for Envelope Templates</description>
+    <isExposed>true</isExposed>
+    <lightningMessageFields>
+        <description>The name to use for the given Envelope Template</description>
+        <fieldName>name</fieldName>
+    </lightningMessageFields>
+    <masterLabel>DecRenameEnvelopeTemplate</masterLabel>
+</LightningMessageChannel>

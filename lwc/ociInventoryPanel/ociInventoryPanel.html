@@ -1,0 +1,108 @@
+<template>
+    <lightning-card icon-name="standard:store_group" title="Omnichannel Inventory">
+        <lightning-button
+            slot="actions"
+            label="Refresh"
+            icon-name="utility:refresh"
+            onclick={handleRefresh}
+            disabled={loading}
+        ></lightning-button>
+
+        <div class="slds-var-p-horizontal_medium">
+            <!-- Header: product + SKU + summary -->
+            <template lwc:if={hasSku}>
+                <p class="slds-text-body_small slds-text-color_weak slds-var-m-bottom_x-small">
+                    {productName} &nbsp;&middot;&nbsp; SKU <strong>{sku}</strong>
+                    <template lwc:if={storefrontSummary}>
+                        &nbsp;&middot;&nbsp; {storefrontSummary}
+                    </template>
+                </p>
+            </template>
+
+            <!-- Loading -->
+            <template lwc:if={loading}>
+                <div class="slds-is-relative slds-var-p-vertical_large">
+                    <lightning-spinner alternative-text="Reading inventory" size="small"></lightning-spinner>
+                </div>
+            </template>
+
+            <!-- Error -->
+            <template lwc:if={error}>
+                <div class="slds-text-color_error slds-var-p-vertical_small" role="alert">
+                    <lightning-icon icon-name="utility:error" variant="error" size="x-small"></lightning-icon>
+                    &nbsp;{error}
+                </div>
+            </template>
+
+            <!-- No SKU on the product -->
+            <template lwc:if={showEmptyState}>
+                <div class="slds-illustration slds-illustration_small slds-var-p-vertical_medium">
+                    <p class="slds-text-body_regular slds-text-color_weak">
+                        This product has no SKU (StockKeepingUnit), so it can't be matched to Omnichannel Inventory.
+                    </p>
+                </div>
+            </template>
+
+            <!-- Results -->
+            <template lwc:if={hasSku}>
+                <template lwc:if={loaded}>
+                    <!-- By storefront -->
+                    <h3 class="slds-text-title_caps slds-var-m-top_small slds-var-m-bottom_xx-small">By storefront</h3>
+                    <template lwc:if={hasStorefronts}>
+                        <lightning-datatable
+                            key-field="targetId"
+                            data={storefronts}
+                            columns={storefrontColumns}
+                            sorted-by={storefrontSortBy}
+                            sorted-direction={storefrontSortDirection}
+                            onsort={handleStorefrontSort}
+                            hide-checkbox-column
+                        ></lightning-datatable>
+                    </template>
+                    <template lwc:else>
+                        <p class="slds-text-body_small slds-text-color_weak">No storefront inventory sources configured.</p>
+                    </template>
+
+                    <!-- By location -->
+                    <div class="slds-grid slds-grid_align-spread slds-grid_vertical-align-center slds-var-m-top_medium slds-var-m-bottom_xx-small">
+                        <h3 class="slds-text-title_caps">By location</h3>
+                        <template lwc:if={hasAnyLocations}>
+                            <lightning-input
+                                type="toggle"
+                                label="Show all locations"
+                                variant="label-hidden"
+                                message-toggle-active="All locations"
+                                message-toggle-inactive="In OCI only"
+                                checked={showAllLocations}
+                                onchange={handleToggleEmpty}
+                            ></lightning-input>
+                        </template>
+                    </div>
+
+                    <template lwc:if={hasVisibleLocations}>
+                        <lightning-datatable
+                            key-field="targetId"
+                            data={visibleLocations}
+                            columns={locationColumns}
+                            sorted-by={locationSortBy}
+                            sorted-direction={locationSortDirection}
+                            onsort={handleLocationSort}
+                            hide-checkbox-column
+                        ></lightning-datatable>
+                    </template>
+                    <template lwc:else>
+                        <p class="slds-text-body_small slds-text-color_weak">
+                            This SKU isn't in OCI at any location.
+                        </p>
+                    </template>
+
+                    <template lwc:if={hasHiddenLocations}>
+                        <p class="slds-text-body_small slds-text-color_weak slds-var-m-top_xx-small">
+                            {hiddenLocationCount} location(s) not in OCI hidden — toggle “Show all locations” to view.
+                        </p>
+                    </template>
+                </template>
+            </template>
+        </div>
+    </lightning-card>
+</template>

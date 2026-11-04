@@ -1,0 +1,13 @@
+<template>
+    <label>Process Card Configuration</label>
+    <lightning-input type="number" label="Number of Process Cards" value={numProcessCards} minlength=0 onchange={handleNumCardsChange}></lightning-input>
+    <div>
+        <template for:each={cards} for:item="card">
+            <section key={card.id} class="slds-p-vertical_xx-small">
+                <lightning-formatted-text value="Enter Process Card Details"></lightning-formatted-text>
+                <lightning-input type="text" label="Title"></lightning-input>
+                <lightning-input type="text" label="Text"></lightning-input>
+            </section>
+        </template>
+    </div>
+</template>

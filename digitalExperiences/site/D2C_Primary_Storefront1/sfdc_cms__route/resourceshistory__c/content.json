@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Resources-History",
+  "contentBody" : {
+    "activeViewId" : "Resources_History",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-resources-history",
+    "urlPrefix" : "resources-history"
+  },
+  "urlName" : "resources-history"
+}

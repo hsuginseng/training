@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Queued Package</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Queued Packages</value>
+    </caseValues>
+    <fields>
+        <label><!-- Dimension Units --></label>
+        <name>zkmulti__Dimension_Units__c</name>
+    </fields>
+    <fields>
+        <label><!-- Height --></label>
+        <name>zkmulti__Height__c</name>
+    </fields>
+    <fields>
+        <label><!-- Length --></label>
+        <name>zkmulti__Length__c</name>
+    </fields>
+    <fields>
+        <label><!-- Packaging Type --></label>
+        <name>zkmulti__Packaging_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Weight Units --></label>
+        <name>zkmulti__Weight_Units__c</name>
+    </fields>
+    <fields>
+        <label><!-- Weight --></label>
+        <name>zkmulti__Weight__c</name>
+    </fields>
+    <fields>
+        <label><!-- Width --></label>
+        <name>zkmulti__Width__c</name>
+    </fields>
+    <layouts>
+        <layout>Queued Package Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Dimensions --></label>
+            <section>Dimensions</section>
+        </sections>
+        <sections>
+            <label><!-- Packaging Type --></label>
+            <section>Packaging Type</section>
+        </sections>
+        <sections>
+            <label><!-- Weight --></label>
+            <section>Weight</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

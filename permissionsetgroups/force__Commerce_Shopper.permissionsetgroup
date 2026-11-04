@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Commerce_Shopper</label>
+    <permissionSets>AVA_B2BLEX__AvalaraAvaTaxUsers</permissionSets>
+    <permissionSets>avaoms__AvaTaxUsers</permissionSets>
+    <permissionSets>celigo_sfnsio__celigo_sfnsio_permission_set</permissionSets>
+    <permissionSets>force__AuthenticatedPayer</permissionSets>
+    <permissionSets>force__CommerceUser</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

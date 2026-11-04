@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>63.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Home Page - Difference Card</masterLabel>
+    <description>A card which indicates and elaborates on how Hsu's is different from competitors.</description>
+    <capabilities>
+        <capability>lightningCommunity__RelaxedCSP</capability>
+    </capabilities>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property label="Title" name="title" 
+                description="The title of the card which conceptualizes the difference Hsu's makes."
+                type="String" default=""/>
+            <property label="Message" name="desc" 
+                description="The message content of the card that elaborates on the difference Hsu's makes."
+                type="String" default=""/>
+            <property label="Immage Link" name="imageUrl" 
+                description="The link to the image that is displayed in the difference card."
+                type="String" default=""/>
+            <property label="Image Alternate Text" name="imageAlt" 
+                description="The alternate/descriptor text for the image. Displays on hover of the image and when read by screenreaders"
+                type="String" default=""/>
+            <property label="CTA Link" name="ctaUrl" 
+                description="The link/href that the user will be navigated to when the link is clicked."
+                type="String" default=""/>
+            <property label="CTA Display Text" name="ctaText" 
+                description="The text that will be displayed for the clickable link."
+                type="String" default=""/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

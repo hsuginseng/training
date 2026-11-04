@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>63.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>D2C Checkout - Custom Payment Regions</masterLabel>
+    <description>(Only Supports LWR Experience Builder) D2C Checkout Payment Regions Component</description>
+    <capabilities>
+        <capability>lightningCommunity__RelaxedCSP</capability>
+    </capabilities>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property label="Cards &amp; Wallets Button Text" name="buttonLabelCardsAndWallets" type="String" 
+                description="" default="Cards &amp; Digital Wallets" translatable="true"/>
+            <property label="Mobile Payment Button Text" name="buttonLabelMobilePayments" type="String" 
+                description="" default="Mobile Payments" translatable="true"/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

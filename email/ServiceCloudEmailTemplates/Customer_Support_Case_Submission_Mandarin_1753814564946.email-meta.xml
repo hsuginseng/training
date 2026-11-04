@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Auto-Response on Customer Support Case Submission</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Customer Support Case Submission (MTraditional)</name>
+    <pageDevName>Customer_Support_Case_Submission_Mandarin</pageDevName>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>We&apos;ve Received Your Inquiry</subject>
+    <textOnly>Case #: {{{Case.CaseNumber}}}
+
+Subject: {{{Case.Subject}}}
+
+Issue Description: {{{Case.Issue_Description__c}}}
+
+-----------------------------------------------------
+
+{{{Case.First_Name__c}}}, 感謝您的詢問！
+
+我們的客服團隊正在處理您的問題，預計將於1–2 個工作日內回覆您，謝謝您的耐心等待。
+
+若您的詢問較為緊急，歡迎於我們的客服時間內來電洽詢。
+
+此致,
+
+許氏客服部
+
+📌是訂單相關問題嗎?
+
+如果您要查詢現有訂單，請記得提供訂單號，我們能更快為您服務喔！
+
+**
+----------------------------------------------------
+
+📞聯絡方式：
+
+電話： (715) 675-2325 / (1800) 826-1577
+
+Email：support@hsuginseng.com
+
+網站：www.hsuginseng.com &lt; http://www.hsuginseng.com &gt; 
+
+**
+----------------------------------------------------
+
+🕒客服時間：
+
+週一至週五（國定假日除外）
+
+早上 8:30 至 下午 5:00 （美中時間）</textOnly>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

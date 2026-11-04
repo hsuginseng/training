@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>組織差分</value>
+    </caseValues>
+    <fieldSets>
+        <label>コパードヘッダーフィールド</label>
+        <name>copado__Copado_Header_Fields</name>
+    </fieldSets>
+    <fields>
+        <help><!-- If a value is entered only modification after this date (inclusive) will be added in the Diff --></help>
+        <label>開始日時（From)</label>
+        <name>copado__From_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select the Source Credential for which you would like to compare the Metadata. This Credential will be the Credential from which you would like to migrate Metadata. --></help>
+        <label>ソースクレデンシャル</label>
+        <name>copado__From_Org__c</name>
+        <relationshipLabel>組織差分（ソースクレデンシャル）</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- If a value is entered, only modifications from this user will be included in the Diff. Use the user Full Name --></help>
+        <label>最終変更者</label>
+        <name>copado__Last_Modified_By_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Empty means all types. Select one or more types to limit the Org Difference only to selected items. --></help>
+        <label>メタデータ型</label>
+        <name>copado__Metadata_Types__c</name>
+    </fields>
+    <fields>
+        <help><!-- If a value is entered only modification before this date (inclusive) will be added in the Diff --></help>
+        <label>終了日時（To)</label>
+        <name>copado__To_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select the Destination Credential for which you would like to compare the Metadata and would like to migrate Metadata to. The resulting grid will show a list of differences with &apos;create&apos;, &apos;update&apos; and &apos;delete&apos; which apply to this Credential. --></help>
+        <label>宛先クレデンシャル</label>
+        <name>copado__To_Org__c</name>
+        <relationshipLabel>組織差分（宛先クレデンシャル）</relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>OrgDiff Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>組織差分名</nameFieldLabel>
+    <validationRules>
+        <errorMessage>比較される組織は異なっている必要があります。</errorMessage>
+        <name>copado__Should_be_differents</name>
+    </validationRules>
+</CustomObjectTranslation>

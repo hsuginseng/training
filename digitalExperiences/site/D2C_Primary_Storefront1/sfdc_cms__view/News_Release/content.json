@@ -1,0 +1,68 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "News-Release",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "id" : "0f710266-7f65-49d8-85a8-a6b5855e498c",
+        "name" : "banner-video",
+        "title" : "banner-video",
+        "type" : "region"
+      }, {
+        "id" : "7b9e2f8b-c448-438e-adc0-b505624f596d",
+        "name" : "intro-text",
+        "title" : "intro-text",
+        "type" : "region"
+      }, {
+        "id" : "851f3318-4095-4279-9c9b-e33dc86bbd39",
+        "name" : "intro-video",
+        "title" : "intro-video",
+        "type" : "region"
+      }, {
+        "id" : "d1067ea1-fda7-4fdd-978d-572bd0ea6af8",
+        "name" : "founders",
+        "title" : "founders",
+        "type" : "region"
+      }, {
+        "id" : "11f45080-8594-41ef-83d3-2ae1bd6781c7",
+        "name" : "process",
+        "title" : "process",
+        "type" : "region"
+      }, {
+        "id" : "e612b84c-afbb-479d-b549-a7e5b32797bd",
+        "name" : "milestones",
+        "title" : "milestones",
+        "type" : "region"
+      }, {
+        "id" : "9e0f5e9e-bd68-4cb7-a554-610d994cadbf",
+        "name" : "products",
+        "title" : "products",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "News-Release",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "f061dd53-3ce0-453d-a72d-cceb8de1b444",
+          "type" : "component"
+        } ],
+        "id" : "94cb1f92-58cc-4513-b23d-69f245f49ab5",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "c:d2cAboutPageTemplate",
+      "id" : "1752fd46-b1d1-433f-886b-604b95fef76c",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-news-release"
+  },
+  "urlName" : "news-release"
+}

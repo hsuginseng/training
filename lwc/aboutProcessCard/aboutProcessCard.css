@@ -1,0 +1,43 @@
+@import 'c/cssLibrary';
+
+.card {
+	position: relative;
+	padding-top: 4.75rem;
+
+	&::before {
+		position: absolute;
+		top: 0;
+		left: 0;
+		content: '';
+		display: block;
+		width: 3.25rem;
+		height: 3.25rem;
+		/*
+		background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52" fill="none"><circle cx="26" cy="26" r="25.375" stroke="%23272525" stroke-width="1.25"/></svg>');
+		background-size: contain;
+		background-repeat: no-repeat;
+		*/
+	}
+
+	img {
+		height: 60px;
+		width: 60px;
+		margin-bottom: 1rem;
+		/*
+		border: 1px solid black;
+		border-radius: 100%;
+		-webkit-border-radius: 100%;
+		-moz-border-radius: 100%;
+		padding: 5px;
+		*/
+	}
+
+	h3 {
+		margin: 0 0 .5rem 0;
+	}
+	
+	p {
+		color: #272525 !important;
+		margin: 0;
+	}
+}

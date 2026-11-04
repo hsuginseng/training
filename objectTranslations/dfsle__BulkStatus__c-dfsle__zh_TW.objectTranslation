@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Docusign 大量傳送狀態</value>
+    </caseValues>
+    <fields>
+        <label>批次大小</label>
+        <name>dfsle__BatchSize__c</name>
+    </fields>
+    <fields>
+        <label>DocuSign 批次 ID</label>
+        <name>dfsle__DocuSignId__c</name>
+    </fields>
+    <fields>
+        <label>失敗信封</label>
+        <name>dfsle__FailedEnvelopes__c</name>
+    </fields>
+    <fields>
+        <label>上次狀態更新</label>
+        <name>dfsle__LastStatusUpdate__c</name>
+    </fields>
+    <fields>
+        <label>佇列信封</label>
+        <name>dfsle__QueuedEnvelopes__c</name>
+    </fields>
+    <fields>
+        <label>已傳送信封</label>
+        <name>dfsle__SentEnvelopes__c</name>
+    </fields>
+    <fields>
+        <label>Salesforce 來源 ID</label>
+        <name>dfsle__SourceId__c</name>
+    </fields>
+    <fields>
+        <label>已提交</label>
+        <name>dfsle__Submitted__c</name>
+    </fields>
+    <nameFieldLabel>Envelope#</nameFieldLabel>
+</CustomObjectTranslation>

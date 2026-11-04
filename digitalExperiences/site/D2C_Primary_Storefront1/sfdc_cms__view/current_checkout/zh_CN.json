@@ -1,0 +1,19 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Checkout",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "id" : "2357a3c3-2ed4-445f-87c4-0c93abea2805",
+        "attributes" : {
+          "loyaltyAppliedMessage" : "忠诚积分已应用",
+          "signUpMessage" : "注册会员，送 1000 积分！",
+          "signUpButtonText" : "立即注册",
+          "deletePromotionLabel" : "取消积分兑换",
+          "deletePromotionTitle" : "取消积分兑换"
+        }
+      } ]
+    }
+  },
+  "urlName" : "checkout"
+}

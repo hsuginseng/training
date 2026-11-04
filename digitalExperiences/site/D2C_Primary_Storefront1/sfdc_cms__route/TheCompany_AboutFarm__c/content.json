@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "TheCompany-AboutFarm",
+  "contentBody" : {
+    "activeViewId" : "TheCompany_AboutFarm",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-thecompany-aboutfarm",
+    "urlPrefix" : "thecompany-aboutfarm"
+  },
+  "urlName" : "thecompany-aboutfarm"
+}

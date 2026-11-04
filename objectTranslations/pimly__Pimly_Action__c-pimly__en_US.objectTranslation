@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Pimly Action</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Pimly Actions</value>
+    </caseValues>
+    <fields>
+        <help><!-- The Label of this action that is used across the Pimly UI --></help>
+        <label><!-- Action Label --></label>
+        <name>pimly__Action_Label__c</name>
+    </fields>
+    <fields>
+        <label><!-- Action Type --></label>
+        <name>pimly__Action_Type__c</name>
+        <picklistValues>
+            <masterLabel>Related Products</masterLabel>
+            <translation><!-- Related Products --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This text is displayed to end users when the action is executed and fails in Pimly --></help>
+        <label><!-- Failure Message --></label>
+        <name>pimly__Failure_Message__c</name>
+    </fields>
+    <fields>
+        <help><!-- Name of the Salesforce Flow that this action invokes --></help>
+        <label><!-- Flow API Name --></label>
+        <name>pimly__Flow_API_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- This text is displayed in a popup when the action is executed in Pimly. --></help>
+        <label><!-- Success Message --></label>
+        <name>pimly__Success_Message__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

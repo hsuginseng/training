@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>徽章</value>
+    </caseValues>
+    <fields>
+        <label>API 名称</label>
+        <name>trailheadapp__API_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- This badge has been archived and is no longer available. --></help>
+        <label>已归档</label>
+        <name>trailheadapp__Archived__c</name>
+    </fields>
+    <fields>
+        <label>徽章图标</label>
+        <name>trailheadapp__Badge_Icon__c</name>
+    </fields>
+    <fields>
+        <label>构建日期</label>
+        <name>trailheadapp__Built_Date__c</name>
+    </fields>
+    <fields>
+        <label>创建于</label>
+        <name>trailheadapp__Created_At__c</name>
+    </fields>
+    <fields>
+        <label>描述</label>
+        <name>trailheadapp__Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field has been deprecated and is no longer being used. --></help>
+        <label>外部 ID</label>
+        <name>trailheadapp__External_Id__c</name>
+    </fields>
+    <fields>
+        <label>图标</label>
+        <name>trailheadapp__Icon__c</name>
+    </fields>
+    <fields>
+        <label>级别</label>
+        <name>trailheadapp__Level__c</name>
+        <picklistValues>
+            <masterLabel>Advanced</masterLabel>
+            <translation><!-- Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beginner</masterLabel>
+            <translation><!-- Beginner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intermediate</masterLabel>
+            <translation><!-- Intermediate --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>命名空间</label>
+        <name>trailheadapp__Namespace__c</name>
+    </fields>
+    <fields>
+        <label>产品</label>
+        <name>trailheadapp__Products__c</name>
+    </fields>
+    <fields>
+        <label>角色</label>
+        <name>trailheadapp__Roles__c</name>
+    </fields>
+    <fields>
+        <label>标签</label>
+        <name>trailheadapp__Tags__c</name>
+    </fields>
+    <fields>
+        <label>授予的徽章总数</label>
+        <name>trailheadapp__Total_Badges_Awarded__c</name>
+    </fields>
+    <fields>
+        <label>进行中的徽章总数</label>
+        <name>trailheadapp__Total_Badges_In_Progress__c</name>
+    </fields>
+    <fields>
+        <label>类型</label>
+        <name>trailheadapp__Type__c</name>
+        <picklistValues>
+            <masterLabel>Module</masterLabel>
+            <translation><!-- Module --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Project</masterLabel>
+            <translation><!-- Project --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Superbadge</masterLabel>
+            <translation><!-- Superbadge --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>URL</label>
+        <name>trailheadapp__URL__c</name>
+    </fields>
+    <layouts>
+        <layout>Trailhead Badge Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>徽章名称</nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>LoyaltyProgramMember$Name</field>
+    </columns>
+    <columns>
+        <field>LoyaltyProgramMember.LoyaltyLedger$Name</field>
+    </columns>
+    <columns>
+        <field>LoyaltyProgramMember.LoyaltyLedger$ExpiryDate</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>LoyaltyProgramMember.LoyaltyLedger$Points</field>
+    </columns>
+    <currency>USD</currency>
+    <customDetailFormulas>
+        <calculatedFormula>IF(LoyaltyLedger.ExpiryDate &lt; TODAY() + 30, &quot;Next 30 Days&quot;,
+    IF(LoyaltyLedger.ExpiryDate &lt; TODAY() + 60, &quot;Next 31-60 Days&quot;,
+        IF(LoyaltyLedger.ExpiryDate &lt; TODAY() + 90, &quot;Next 61-90 Days&quot;,
+            &quot;Over 90 Days&quot;
+            )
+        )
+    )</calculatedFormula>
+        <dataType>Text</dataType>
+        <developerName>CDF1</developerName>
+        <label>Expiry Window</label>
+        <scale>0</scale>
+    </customDetailFormulas>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>CDF1</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Loyalty Points Expiration Forecast</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Loyalty_Program_Members_with_Loyalty_Ledgers__c</reportType>
+    <scope>organization</scope>
+    <showDetails>false</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>LoyaltyProgramMember$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

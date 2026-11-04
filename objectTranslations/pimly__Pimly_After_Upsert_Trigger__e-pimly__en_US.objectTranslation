@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Pimly After Upsert Trigger</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Pimly After Upsert Triggers</value>
+    </caseValues>
+    <fields>
+        <label><!-- Object Id --></label>
+        <name>pimly__Object_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Type --></label>
+        <name>pimly__Object_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payload 1 --></label>
+        <name>pimly__Payload_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payload 2 --></label>
+        <name>pimly__Payload_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payload 3 --></label>
+        <name>pimly__Payload_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payload 4 --></label>
+        <name>pimly__Payload_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payload 5 --></label>
+        <name>pimly__Payload_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payload 6 --></label>
+        <name>pimly__Payload_6__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payload 7 --></label>
+        <name>pimly__Payload_7__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>pimly__Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transaction Id --></label>
+        <name>pimly__Transaction_Id__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

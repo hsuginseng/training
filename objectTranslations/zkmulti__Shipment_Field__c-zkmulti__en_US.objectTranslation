@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Shipment Field</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Shipment Fields</value>
+    </caseValues>
+    <fields>
+        <label><!-- Carrier Name --></label>
+        <name>zkmulti__Carrier_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Checkbox --></label>
+        <name>zkmulti__Checkbox__c</name>
+    </fields>
+    <fields>
+        <label><!-- Currency --></label>
+        <name>zkmulti__Currency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date/Time --></label>
+        <name>zkmulti__Date_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date --></label>
+        <name>zkmulti__Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number --></label>
+        <name>zkmulti__Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Name --></label>
+        <name>zkmulti__Object_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipment --></label>
+        <name>zkmulti__Shipment__c</name>
+        <relationshipLabel><!-- Shipment Fields --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Slug --></label>
+        <name>zkmulti__Slug__c</name>
+    </fields>
+    <fields>
+        <label><!-- Text Area --></label>
+        <name>zkmulti__Text_Area__c</name>
+    </fields>
+    <fields>
+        <label><!-- Text --></label>
+        <name>zkmulti__Text__c</name>
+    </fields>
+    <layouts>
+        <layout>Shipment Field Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Field value --></label>
+            <section>Field value</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Seleniumテストケース</value>
+    </caseValues>
+    <fields>
+        <help><!-- Open with Copado Recorder --></help>
+        <label>コパードレコーダーで開く</label>
+        <name>copado__Open_with_Copado_Recorder__c</name>
+    </fields>
+    <fields>
+        <label>前のバージョン</label>
+        <name>copado__Previous_Version__c</name>
+        <relationshipLabel>次のバージョン</relationshipLabel>
+    </fields>
+    <fields>
+        <label>バージョン</label>
+        <name>copado__Version__c</name>
+    </fields>
+    <layouts>
+        <layout>Selenium Test Case Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Selenese Commands --></label>
+            <section>Selenese Commands</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Selenium テストケース名</nameFieldLabel>
+    <webLinks>
+        <label>新しいバージョン</label>
+        <name>copado__New_Version</name>
+    </webLinks>
+    <webLinks>
+        <label>このバージョンにプロモート</label>
+        <name>copado__Promote_Version</name>
+    </webLinks>
+    <webLinks>
+        <label>クイックラン</label>
+        <name>copado__Quick_Run</name>
+    </webLinks>
+    <webLinks>
+        <label>以前のバージョンへのロールバック</label>
+        <name>copado__Rollback_to_Previous_Version</name>
+    </webLinks>
+</CustomObjectTranslation>

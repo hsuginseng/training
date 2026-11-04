@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataKitObjectDependency xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataPackageKitDef>Data_cloud_sandbox_deployment</dataPackageKitDef>
+    <developerName>LoyaltyProgram_Home</developerName>
+    <masterLabel>LoyaltyProgram_Home__dll</masterLabel>
+    <sourceObject>LoyaltyProgram_Home1</sourceObject>
+    <sourceObjectType>DataSourceObject</sourceObjectType>
+    <targetObject>LoyaltyProgram_Home</targetObject>
+</DataKitObjectDependency>
