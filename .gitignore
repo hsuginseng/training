@@ -78,3 +78,10 @@ $RECYCLE.BIN/
 #**/installedPackages/**
 #**/dashboards/**
 #**/reports/**
+
+# TEMP: hard-coded Stripe API key blocked by GitHub push protection (GH013).
+# Remove once the key is moved to an External Credential and rotated.
+**/classes/stripePaymentIntentCallouts.cls
+**/classes/stripePaymentIntentCallouts.cls-meta.xml
+**/namedCredentials/StripeCustom.namedCredential
+**/namedCredentials/StripeCustom.namedCredential-meta.xml
